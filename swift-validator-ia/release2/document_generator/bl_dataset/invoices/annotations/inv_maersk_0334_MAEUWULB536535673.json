@@ -1,0 +1,197 @@
+{
+  "invoice_number": "INV-2026-00334",
+  "filename": "inv_maersk_0334_MAEUWULB536535673.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 334,
+  "fields": {
+    "invoice_number": "INV-2026-00334",
+    "invoice_date": "16 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0334/2026",
+    "bl_reference": "MAEUWULB536535673",
+    "seller_name": "ATLANTIC SHIPPING PLC",
+    "buyer_name": "APEX GROUP LLC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0448S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "hs_code": "0709.99",
+    "quantity": 372,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "24,033.06",
+    "unit_price": 21.1,
+    "currency": "USD",
+    "total_amount": 7849.2,
+    "incoterm": "DAP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00334",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/BARCLAYS/0334/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "ATLANTIC SHIPPING PLC\n131 TRADE PARK\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "APEX GROUP LLC\n747 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "0448S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUWULB536535673",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "372",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "USD 21.10",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "USD 7,849.20",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "USD 7,849.20",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": true,
+  "discrepancies": []
+}

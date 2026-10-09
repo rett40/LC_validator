@@ -1,0 +1,409 @@
+{
+  "id": 1128,
+  "filename": "bl_bl-29_01128_MSCUNHRPE920474684.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNHRPE920474684",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNHRPE920474684",
+    "shipper_name": "PACIFIC SHIPPING INC",
+    "shipper_address": "586 MAIN STREET",
+    "consignee_name": "UNITED SOLUTIONS PLC",
+    "consignee_address": "62 HARBOR ROAD",
+    "notify_party_name": "PACIFIC GROUP LLC",
+    "notify_party_address": "795 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE91N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "15 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "TCKU4953592",
+    "container_type": "40' HC",
+    "seal_number": "55HBDEFG",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "117 CARTONS",
+    "gross_weight_kg": "27,780.07",
+    "measurement": "127.970 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4953592",
+        "seal_number": "55HBDEFG",
+        "container_type": "40' HC",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "117",
+          "type": "CARTONS",
+          "description": "117 CARTONS"
+        },
+        "gross_weight_kg": "19,811.82",
+        "net_weight_kg": "17,785.87",
+        "measurement": "64.381 CBM"
+      },
+      {
+        "container_number": "TCKU0492163",
+        "seal_number": "85H95F84",
+        "container_type": "20' FLAT RACK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "90",
+          "type": "DRUMS",
+          "description": "90 DRUMS"
+        },
+        "gross_weight_kg": "7,968.25",
+        "net_weight_kg": "4,486.62",
+        "measurement": "63.589 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNHRPE920474684",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU4953592",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "55HBDEFG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '117', 'type': 'CARTONS', 'description': '117 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "19,811.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "64.381 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU0492163",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "85H95F84",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '90', 'type': 'DRUMS', 'description': '90 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "7,968.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "63.589 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "AE91N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        347.24,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        394.02,
+        302.62,
+        94.96
+      ],
+      "value": "PACIFIC SHIPPING INC\n586 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        392.6,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED SOLUTIONS PLC\n62 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        447.87,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC GROUP LLC\n795 TRADE PARK",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 1152,
+  "filename": "bl_bl-29_01152_MSCUNPTKB459682521.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNPTKB459682521",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPTKB459682521",
+    "shipper_name": "FIRST LOGISTICS INC",
+    "shipper_address": "498 TRADE PARK",
+    "consignee_name": "CENTRAL GROUP S.A.",
+    "consignee_address": "743 MAIN STREET",
+    "notify_party_name": "APEX PARTNERS PLC",
+    "notify_party_address": "773 HARBOR ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS320N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "20 MAY 2026",
+    "eta": "09 JUN 2026",
+    "container_number": "CMAU7727295",
+    "container_type": "40'OT",
+    "seal_number": "H4F8E7FD",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "466 PACKAGES",
+    "gross_weight_kg": "31,851.07",
+    "measurement": "69.672 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7727295",
+        "seal_number": "H4F8E7FD",
+        "container_type": "40'OT",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "466",
+          "type": "PACKAGES",
+          "description": "466 PACKAGES"
+        },
+        "gross_weight_kg": "18,438.49",
+        "net_weight_kg": "14,539.05",
+        "measurement": "37.186 CBM"
+      },
+      {
+        "container_number": "TCKU4222487",
+        "seal_number": "FDFCD428",
+        "container_type": "20'DC",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "459",
+          "type": "BOXES",
+          "description": "459 BOXES"
+        },
+        "gross_weight_kg": "13,412.58",
+        "net_weight_kg": "11,222.63",
+        "measurement": "32.486 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNPTKB459682521",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "CMAU7727295",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "H4F8E7FD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '466', 'type': 'PACKAGES', 'description': '466 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "18,438.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "37.186 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU4222487",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "FDFCD428",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '459', 'type': 'BOXES', 'description': '459 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "13,412.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "32.486 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "CS320N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        347.24,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        394.02,
+        302.62,
+        94.96
+      ],
+      "value": "FIRST LOGISTICS INC\n498 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        392.6,
+        218.04,
+        41.1
+      ],
+      "value": "CENTRAL GROUP S.A.\n743 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        447.87,
+        218.04,
+        41.1
+      ],
+      "value": "APEX PARTNERS PLC\n773 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

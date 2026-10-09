@@ -1,0 +1,409 @@
+{
+  "id": 1141,
+  "filename": "bl_bl-29_01141_MSCUNMPXG638604592.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNMPXG638604592",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMPXG638604592",
+    "shipper_name": "APEX SUPPLY CHAIN LTD",
+    "shipper_address": "538 MARKET STREET",
+    "consignee_name": "APEX GROUP CO.",
+    "consignee_address": "473 MARKET STREET",
+    "notify_party_name": "PREMIER GROUP S.A.",
+    "notify_party_address": "396 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE97S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "09 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "MSCU8869539",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "BB7D4033",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "479 PALLETS",
+    "gross_weight_kg": "20,481.47",
+    "measurement": "57.280 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8869539",
+        "seal_number": "BB7D4033",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "479",
+          "type": "PALLETS",
+          "description": "479 PALLETS"
+        },
+        "gross_weight_kg": "5,084.41",
+        "net_weight_kg": "1,908.28",
+        "measurement": "34.702 CBM"
+      },
+      {
+        "container_number": "MSCU8046287",
+        "seal_number": "B30DA58A",
+        "container_type": "40' FLAT RACK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "401",
+          "type": "BOXES",
+          "description": "401 BOXES"
+        },
+        "gross_weight_kg": "15,397.06",
+        "net_weight_kg": "11,902.69",
+        "measurement": "22.578 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNMPXG638604592",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU8869539",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "BB7D4033",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '479', 'type': 'PALLETS', 'description': '479 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "5,084.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "34.702 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU8046287",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "B30DA58A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '401', 'type': 'BOXES', 'description': '401 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "15,397.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "22.578 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "AE97S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        347.24,
+        132.17,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        394.02,
+        302.62,
+        94.96
+      ],
+      "value": "APEX SUPPLY CHAIN LTD\n538 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        392.6,
+        218.04,
+        41.1
+      ],
+      "value": "APEX GROUP CO.\n473 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        447.87,
+        218.04,
+        41.1
+      ],
+      "value": "PREMIER GROUP S.A.\n396 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

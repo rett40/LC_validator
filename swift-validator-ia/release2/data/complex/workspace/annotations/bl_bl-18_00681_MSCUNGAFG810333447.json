@@ -1,0 +1,351 @@
+{
+  "id": 681,
+  "filename": "bl_bl-18_00681_MSCUNGAFG810333447.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNGAFG810333447",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGAFG810333447",
+    "shipper_name": "GLOBAL GROUP GMBH",
+    "shipper_address": "167 HARBOR ROAD",
+    "consignee_name": "APEX SOLUTIONS PLC",
+    "consignee_address": "559 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL COMMERCE CORP",
+    "notify_party_address": "615 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7183",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "01 JUN 2026",
+    "eta": "24 JUN 2026",
+    "container_number": "MAEU0585193",
+    "container_type": "40' DRY / GP",
+    "seal_number": "8E978GHD",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "272 DRUMS",
+    "gross_weight_kg": "7,351.84",
+    "measurement": "51.515 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU0585193",
+        "seal_number": "8E978GHD",
+        "container_type": "40' DRY / GP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "272",
+          "type": "DRUMS",
+          "description": "272 DRUMS"
+        },
+        "gross_weight_kg": "7,351.84",
+        "net_weight_kg": "4,928.38",
+        "measurement": "51.515 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNGAFG810333447",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU0585193",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "8E978GHD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '272', 'type': 'DRUMS', 'description': '272 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "7,351.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "51.515 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "167 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL GROUP GMBH\n167 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "559 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SOLUTIONS PLC\n559 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "615 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL COMMERCE CORP\n615 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        453.54,
+        201.04,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.96,
+        453.54,
+        229.05,
+        34.02
+      ],
+      "value": "AL7183",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        487.56,
+        196.61,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        383.18,
+        487.56,
+        190.84,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        521.57,
+        186.38,
+        34.02
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.53,
+        521.57,
+        181.48,
+        34.02
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        555.59,
+        193.5,
+        34.02
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        555.59,
+        180.6,
+        34.02
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        598.11,
+        227.73,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        378.73,
+        598.11,
+        195.28,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        626.46,
+        209.5,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        337.4,
+        626.46,
+        236.61,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        113.9,
+        654.8,
+        190.83,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

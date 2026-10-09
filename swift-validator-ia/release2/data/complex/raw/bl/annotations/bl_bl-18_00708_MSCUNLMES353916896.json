@@ -1,0 +1,442 @@
+{
+  "id": 708,
+  "filename": "bl_bl-18_00708_MSCUNLMES353916896.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNLMES353916896",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLMES353916896",
+    "shipper_name": "DELTA GROUP LLC",
+    "shipper_address": "407 HARBOR ROAD",
+    "consignee_name": "PREMIER PARTNERS LLC",
+    "consignee_address": "825 MAIN STREET",
+    "notify_party_name": "CENTRAL ENTERPRISES AG",
+    "notify_party_address": "830 HARBOR ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE769N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "21 JUN 2026",
+    "eta": "12 JUL 2026",
+    "container_number": "TCKU6082874",
+    "container_type": "20'DC",
+    "seal_number": "57116E39",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "331 PACKAGES",
+    "gross_weight_kg": "40,272.67",
+    "measurement": "102.363 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU6082874",
+        "seal_number": "57116E39",
+        "container_type": "20'DC",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "331",
+          "type": "PACKAGES",
+          "description": "331 PACKAGES"
+        },
+        "gross_weight_kg": "22,691.74",
+        "net_weight_kg": "20,309.84",
+        "measurement": "47.235 CBM"
+      },
+      {
+        "container_number": "HLCU3536913",
+        "seal_number": "FAG75554",
+        "container_type": "20' FLAT RACK",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "76",
+          "type": "CARTONS",
+          "description": "76 CARTONS"
+        },
+        "gross_weight_kg": "17,580.93",
+        "net_weight_kg": "14,658.20",
+        "measurement": "55.128 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNLMES353916896",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU6082874",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "57116E39",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '331', 'type': 'PACKAGES', 'description': '331 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "22,691.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "47.235 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3536913",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "FAG75554",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '76', 'type': 'CARTONS', 'description': '76 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "17,580.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "55.128 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "407 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA GROUP LLC\n407 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "825 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER PARTNERS LLC\n825 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "830 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL ENTERPRISES AG\n830 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        490.39,
+        231.72,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        330.29,
+        490.39,
+        243.72,
+        34.02
+      ],
+      "value": "FE769N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        524.41,
+        196.61,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        328.51,
+        524.41,
+        245.51,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        558.43,
+        238.84,
+        34.02
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        128.11,
+        592.44,
+        176.61,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        592.44,
+        180.6,
+        34.02
+      ],
+      "value": "12 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        634.96,
+        201.5,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        63.22,
+        663.31,
+        241.51,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        363.64,
+        663.31,
+        210.38,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        691.65,
+        189.49,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

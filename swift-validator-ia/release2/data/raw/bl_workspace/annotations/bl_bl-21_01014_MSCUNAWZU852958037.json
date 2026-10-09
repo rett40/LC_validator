@@ -1,0 +1,409 @@
+{
+  "id": 1014,
+  "filename": "bl_bl-21_01014_MSCUNAWZU852958037.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNAWZU852958037",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNAWZU852958037",
+    "shipper_name": "PREMIER ENTERPRISES AG",
+    "shipper_address": "624 MARKET STREET",
+    "consignee_name": "EURO LOGISTICS AG",
+    "consignee_address": "595 INDUSTRIAL AVENUE",
+    "notify_party_name": "DELTA COMMERCE GMBH",
+    "notify_party_address": "355 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8738",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "07 JUN 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "MAEU5123053",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "C8016508",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "268 DRUMS",
+    "gross_weight_kg": "26,004.82",
+    "measurement": "100.795 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5123053",
+        "seal_number": "C8016508",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "268",
+          "type": "DRUMS",
+          "description": "268 DRUMS"
+        },
+        "gross_weight_kg": "16,316.02",
+        "net_weight_kg": "14,005.76",
+        "measurement": "60.871 CBM"
+      },
+      {
+        "container_number": "MAEU3261889",
+        "seal_number": "C8C70693",
+        "container_type": "20' TANK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "62",
+          "type": "DRUMS",
+          "description": "62 DRUMS"
+        },
+        "gross_weight_kg": "9,688.80",
+        "net_weight_kg": "7,053.82",
+        "measurement": "39.924 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "29 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNAWZU852958037",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES AG\n624 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "EURO LOGISTICS AG\n595 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA COMMERCE GMBH\n355 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU5123053",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "C8016508",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '268', 'type': 'DRUMS', 'description': '268 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "16,316.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "60.871 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3261889",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "C8C70693",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '62', 'type': 'DRUMS', 'description': '62 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "9,688.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "39.924 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "AL8738",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        412.44,
+        179.53,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        412.44,
+        179.53,
+        24.09
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

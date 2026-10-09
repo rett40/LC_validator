@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00581",
+  "filename": "inv_inv-15_00581.pdf",
+  "layout_id": "INV-15",
+  "bl_id": 581,
+  "fields": {
+    "invoice_number": "INV-2026-00581",
+    "invoice_date": "30 APR 2026",
+    "lc_reference": "LC/HSBC/0581/2026",
+    "bl_reference": "MSCUNUKWL078736783",
+    "seller_name": "UNITED PARTNERS LLC",
+    "buyer_name": "TRANS SHIPPING PLC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0936W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "goods_description": "PHARMACEUTICAL PRODUCTS",
+    "hs_code": "8428.90",
+    "quantity": 487,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "34,764.23",
+    "unit_price": 277.01,
+    "currency": "USD",
+    "total_amount": 134903.76,
+    "incoterm": "FOB",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "INV-2026-00581",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        134.65,
+        266.46,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        307.56,
+        134.65,
+        266.46,
+        18.43
+      ],
+      "value": "LC/HSBC/0581/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        41.1,
+        162.99,
+        266.46,
+        18.43
+      ],
+      "value": "MSCUNUKWL078736783",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        307.56,
+        162.99,
+        266.46,
+        18.43
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        191.34,
+        266.46,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        307.56,
+        191.34,
+        266.46,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        225.35,
+        266.46,
+        79.37
+      ],
+      "value": "UNITED PARTNERS LLC\nUNITED PARTNERS LLC\n30 HARBOR ROAD\nTOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        307.56,
+        225.35,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS SHIPPING PLC\nTRANS SHIPPING PLC\n925 EXPORT ZONE\nLONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        335.91,
+        170.53,
+        42.52
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        211.63,
+        335.91,
+        63.95,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        275.58,
+        335.91,
+        53.29,
+        42.52
+      ],
+      "value": "487",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        328.88,
+        335.91,
+        53.29,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        382.17,
+        335.91,
+        95.92,
+        42.52
+      ],
+      "value": "277.01 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        478.09,
+        335.91,
+        95.92,
+        42.52
+      ],
+      "value": "134903.76 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        454.11,
+        392.6,
+        119.91,
+        19.84
+      ],
+      "value": "34,764.23 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        454.11,
+        412.44,
+        119.91,
+        19.84
+      ],
+      "value": "134903.76 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        450.71,
+        266.46,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        307.56,
+        450.71,
+        266.46,
+        15.59
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "124740.18 USD",
+      "actual": "134903.76 USD"
+    }
+  ]
+}

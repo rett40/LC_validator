@@ -1,0 +1,500 @@
+{
+  "id": 789,
+  "filename": "bl_bl-20_00789_MSCUNUYEZ855381584.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNUYEZ855381584",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNUYEZ855381584",
+    "shipper_name": "APEX PARTNERS CO.",
+    "shipper_address": "121 HARBOR ROAD",
+    "consignee_name": "PACIFIC COMMERCE CORP",
+    "consignee_address": "960 MAIN STREET",
+    "notify_party_name": "FIRST SHIPPING CO.",
+    "notify_party_address": "229 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7745",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "21 MAY 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "HLCU9663722",
+    "container_type": "20' DRY",
+    "seal_number": "F3BC4D31",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "360 BOXES",
+    "gross_weight_kg": "47,752.99",
+    "measurement": "155.968 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU9663722",
+        "seal_number": "F3BC4D31",
+        "container_type": "20' DRY",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "360",
+          "type": "BOXES",
+          "description": "360 BOXES"
+        },
+        "gross_weight_kg": "18,738.22",
+        "net_weight_kg": "15,815.89",
+        "measurement": "50.959 CBM"
+      },
+      {
+        "container_number": "TCKU7278370",
+        "seal_number": "686AC4H0",
+        "container_type": "20' FLAT RACK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "333",
+          "type": "BOXES",
+          "description": "333 BOXES"
+        },
+        "gross_weight_kg": "21,655.56",
+        "net_weight_kg": "19,158.27",
+        "measurement": "58.171 CBM"
+      },
+      {
+        "container_number": "MSCU8474673",
+        "seal_number": "1D8A4DAB",
+        "container_type": "20' DRY / GP",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "499",
+          "type": "CRATES",
+          "description": "499 CRATES"
+        },
+        "gross_weight_kg": "7,359.21",
+        "net_weight_kg": "4,404.66",
+        "measurement": "46.838 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNUYEZ855381584",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "AL7745",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        221.1,
+        306.73,
+        94.96
+      ],
+      "value": "APEX PARTNERS CO.\n121 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        219.69,
+        221.01,
+        41.1
+      ],
+      "value": "PACIFIC COMMERCE CORP\n960 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        274.96,
+        221.01,
+        41.1
+      ],
+      "value": "FIRST SHIPPING CO.\n229 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "HLCU9663722",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "F3BC4D31",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '360', 'type': 'BOXES', 'description': '360 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "18,738.22",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "50.959 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "TCKU7278370",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "686AC4H0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '333', 'type': 'BOXES', 'description': '333 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "21,655.56",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "58.171 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        413.86,
+        91.08,
+        36.85
+      ],
+      "value": "MSCU8474673",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "1D8A4DAB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        413.86,
+        42.86,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        413.86,
+        133.94,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '499', 'type': 'CRATES', 'description': '499 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "7,359.21",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "46.838 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        532.91,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

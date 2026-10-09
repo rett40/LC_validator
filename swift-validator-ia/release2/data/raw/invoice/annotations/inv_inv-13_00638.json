@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00638",
+  "filename": "inv_inv-13_00638.pdf",
+  "layout_id": "INV-13",
+  "bl_id": 638,
+  "fields": {
+    "invoice_number": "INV-2026-00638",
+    "invoice_date": "25 APR 2026",
+    "lc_reference": "LC/CITI/0638/2026",
+    "bl_reference": "MSCUNAMFL519543189",
+    "seller_name": "PACIFIC SUPPLY CHAIN AG",
+    "buyer_name": "ATLANTIC LOGISTICS PLC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-150",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "WOOD PRODUCTS AND TIMBER",
+    "hs_code": "4421.99",
+    "quantity": 144,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "26,703.32",
+    "unit_price": 13.46,
+    "currency": "EUR",
+    "total_amount": 1938.24,
+    "incoterm": "FOB",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "INV-2026-00638",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "LC/CITI/0638/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "MSCUNAMFL519543189",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        172.35,
+        42.52
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        260.79,
+        64.63,
+        42.52
+      ],
+      "value": "4421.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "144",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "13.46 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "1938.24 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        317.48,
+        121.18,
+        19.84
+      ],
+      "value": "26,703.32 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        337.32,
+        121.18,
+        19.84
+      ],
+      "value": "1938.24 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

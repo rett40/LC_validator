@@ -1,0 +1,322 @@
+{
+  "id": 371,
+  "filename": "bl_bl-10_00371_MSCUNRAKU373862431.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNRAKU373862431",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNRAKU373862431",
+    "shipper_name": "UNITED LOGISTICS CO.",
+    "shipper_address": "875 MAIN STREET",
+    "consignee_name": "GLOBAL GROUP CO.",
+    "consignee_address": "268 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX LOGISTICS AG",
+    "notify_party_address": "878 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE845S",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "06 JUN 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "TCKU8527908",
+    "container_type": "40'RF",
+    "seal_number": "BE98E036",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "34 PACKAGES",
+    "gross_weight_kg": "26,100.23",
+    "measurement": "65.109 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8527908",
+        "seal_number": "BE98E036",
+        "container_type": "40'RF",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "34",
+          "type": "PACKAGES",
+          "description": "34 PACKAGES"
+        },
+        "gross_weight_kg": "26,100.23",
+        "net_weight_kg": "22,304.86",
+        "measurement": "65.109 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNRAKU373862431",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "TCKU8527908",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "BE98E036",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "34",
+        "type": "PACKAGES",
+        "description": "34 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "26,100.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "65.109 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED LOGISTICS CO.\n875 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "GLOBAL GROUP CO.\n268 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "APEX LOGISTICS AG\n878 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        365.1,
+        243.66,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        356.45,
+        365.1,
+        207.64,
+        34.02
+      ],
+      "value": "FE845S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        89.88,
+        399.12,
+        209.88,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        397.78,
+        399.12,
+        166.31,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        433.13,
+        197.87,
+        34.02
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        396.46,
+        433.13,
+        167.63,
+        34.02
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        467.15,
+        241.88,
+        34.02
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        364.45,
+        509.67,
+        199.64,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        538.02,
+        196.98,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        372.01,
+        538.02,
+        192.08,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        566.36,
+        214.31,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

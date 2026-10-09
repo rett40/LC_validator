@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00078",
+  "filename": "inv_maersk_0078_MAEUXBJB378664331.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 78,
+  "fields": {
+    "invoice_number": "INV-2026-00078",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/SCB/0078/2026",
+    "bl_reference": "MAEUXBJB378664331",
+    "seller_name": "UNITED LOGISTICS CO.",
+    "buyer_name": "INTERNATIONAL PARTNERS S.A.",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE246N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "DOMESTIC ELECTRICAL APPLIANCES",
+    "hs_code": "8516.60",
+    "quantity": 353,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "17,242.34",
+    "unit_price": 42.14,
+    "currency": "GBP",
+    "total_amount": 14875.42,
+    "incoterm": "DAP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00078",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUXBJB378664331",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "UNITED LOGISTICS CO.\n767 MAIN BOULEVARD\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL PARTNERS S.A.\n944 COMMERCE STREET\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "FE246N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUXBJB378664331",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "DOMESTIC ELECTRICAL APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "353",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 42.14",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 14,875.42",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "GBP 14,875.42",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "HOUSEHOLD APPLIANCES",
+      "actual": "DOMESTIC ELECTRICAL APPLIANCES"
+    }
+  ]
+}

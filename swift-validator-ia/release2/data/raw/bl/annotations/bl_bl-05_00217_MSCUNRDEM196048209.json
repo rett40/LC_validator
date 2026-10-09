@@ -1,0 +1,500 @@
+{
+  "id": 217,
+  "filename": "bl_bl-05_00217_MSCUNRDEM196048209.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNRDEM196048209",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRDEM196048209",
+    "shipper_name": "TRANS SUPPLY CHAIN LLC",
+    "shipper_address": "338 INDUSTRIAL AVENUE",
+    "consignee_name": "ATLANTIC SOLUTIONS CORP",
+    "consignee_address": "194 COMMERCE BOULEVARD",
+    "notify_party_name": "DELTA ENTERPRISES PLC",
+    "notify_party_address": "302 INDUSTRIAL AVENUE",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0533E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "15 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "EISU1915234",
+    "container_type": "20' TANK",
+    "seal_number": "20A8B247",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "471 PALLETS",
+    "gross_weight_kg": "51,378.46",
+    "measurement": "170.586 CBM",
+    "containers": [
+      {
+        "container_number": "EISU1915234",
+        "seal_number": "20A8B247",
+        "container_type": "20' TANK",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "471",
+          "type": "PALLETS",
+          "description": "471 PALLETS"
+        },
+        "gross_weight_kg": "13,427.03",
+        "net_weight_kg": "9,818.05",
+        "measurement": "60.380 CBM"
+      },
+      {
+        "container_number": "HLCU5896101",
+        "seal_number": "3EF9E0EF",
+        "container_type": "20' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "307",
+          "type": "PACKAGES",
+          "description": "307 PACKAGES"
+        },
+        "gross_weight_kg": "22,522.76",
+        "net_weight_kg": "18,662.07",
+        "measurement": "46.726 CBM"
+      },
+      {
+        "container_number": "OOLU6482443",
+        "seal_number": "1901CH5B",
+        "container_type": "20' DRY",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "36",
+          "type": "DRUMS",
+          "description": "36 DRUMS"
+        },
+        "gross_weight_kg": "15,428.67",
+        "net_weight_kg": "11,493.92",
+        "measurement": "63.480 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "27 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNRDEM196048209",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN LLC\n338 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC SOLUTIONS CORP\n194 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA ENTERPRISES PLC\n302 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1915234",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "20A8B247",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '471', 'type': 'PALLETS', 'description': '471 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "13,427.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "60.380 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU5896101",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "3EF9E0EF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '307', 'type': 'PACKAGES', 'description': '307 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "22,522.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "46.726 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        474.8,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6482443",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "1901CH5B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        474.8,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        474.8,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '36', 'type': 'DRUMS', 'description': '36 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "15,428.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "63.480 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "0533E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        745.51,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

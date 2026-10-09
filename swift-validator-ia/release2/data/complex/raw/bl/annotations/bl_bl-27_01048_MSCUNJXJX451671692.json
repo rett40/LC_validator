@@ -1,0 +1,318 @@
+{
+  "id": 1048,
+  "filename": "bl_bl-27_01048_MSCUNJXJX451671692.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNJXJX451671692",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNJXJX451671692",
+    "shipper_name": "FIRST INDUSTRIES BV",
+    "shipper_address": "661 PORT ACCESS ROAD",
+    "consignee_name": "DELTA SOLUTIONS S.A.",
+    "consignee_address": "758 HARBOR ROAD",
+    "notify_party_name": "DELTA SOLUTIONS INC",
+    "notify_party_address": "75 TRADE PARK",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE712S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "31 MAY 2026",
+    "eta": "28 JUN 2026",
+    "container_number": "HLCU5742674",
+    "container_type": "40' DRY",
+    "seal_number": "1BC4H3DE",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "104 CRATES",
+    "gross_weight_kg": "22,465.67",
+    "measurement": "40.193 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5742674",
+        "seal_number": "1BC4H3DE",
+        "container_type": "40' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "104",
+          "type": "CRATES",
+          "description": "104 CRATES"
+        },
+        "gross_weight_kg": "22,465.67",
+        "net_weight_kg": "19,461.47",
+        "measurement": "40.193 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNJXJX451671692",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "HLCU5742674",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "1BC4H3DE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '104', 'type': 'CRATES', 'description': '104 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "22,465.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "40.193 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        259.37,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES BV\n661 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "DELTA SOLUTIONS S.A.\n758 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        392.6,
+        266.46,
+        79.37
+      ],
+      "value": "DELTA SOLUTIONS INC\n75 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "FE712S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "28 JUN 2026",
+      "page": 1
+    }
+  ]
+}

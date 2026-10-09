@@ -1,0 +1,409 @@
+{
+  "id": 95,
+  "filename": "bl_bl-03_00095_MSCUNGMJG977897114.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNGMJG977897114",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGMJG977897114",
+    "shipper_name": "INTERNATIONAL INDUSTRIES INC",
+    "shipper_address": "615 MAIN STREET",
+    "consignee_name": "GLOBAL LOGISTICS AG",
+    "consignee_address": "838 INDUSTRIAL AVENUE",
+    "notify_party_name": "DELTA LOGISTICS GMBH",
+    "notify_party_address": "492 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0844N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "06 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "HLCU0661814",
+    "container_type": "20' REEFER",
+    "seal_number": "B7HAEEGG",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "255 CARTONS",
+    "gross_weight_kg": "44,551.31",
+    "measurement": "58.053 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU0661814",
+        "seal_number": "B7HAEEGG",
+        "container_type": "20' REEFER",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "255",
+          "type": "CARTONS",
+          "description": "255 CARTONS"
+        },
+        "gross_weight_kg": "23,755.69",
+        "net_weight_kg": "21,140.92",
+        "measurement": "30.842 CBM"
+      },
+      {
+        "container_number": "TCKU1119361",
+        "seal_number": "G8BACHGD",
+        "container_type": "20' OPEN TOP",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "471",
+          "type": "PALLETS",
+          "description": "471 PALLETS"
+        },
+        "gross_weight_kg": "20,795.62",
+        "net_weight_kg": "17,365.92",
+        "measurement": "27.211 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        360.85,
+        85.89,
+        213.17,
+        31.75
+      ],
+      "value": "MSCUNGMJG977897114",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        43.1,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        176.33,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "0844N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        309.56,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        442.79,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        43.1,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        176.33,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        309.56,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        442.79,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "INTERNATIONAL INDUSTRIES INC\n615 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        176.33,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "GLOBAL LOGISTICS AG\n838 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        309.56,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "DELTA LOGISTICS GMBH\n492 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        338.74,
+        90.6,
+        36.85
+      ],
+      "value": "HLCU0661814",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "B7HAEEGG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        338.74,
+        42.63,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        338.74,
+        133.23,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '255', 'type': 'CARTONS', 'description': '255 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "23,755.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "30.842 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        375.59,
+        90.6,
+        36.85
+      ],
+      "value": "TCKU1119361",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "G8BACHGD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        375.59,
+        42.63,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        375.59,
+        133.23,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '471', 'type': 'PALLETS', 'description': '471 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "20,795.62",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "27.211 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        43.1,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        176.33,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        309.56,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        442.79,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        43.1,
+        473.39,
+        129.23,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

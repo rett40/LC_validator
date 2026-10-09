@@ -1,0 +1,353 @@
+{
+  "id": 43,
+  "filename": "bl_bl-15_00043_MSCUNZPUP924233404.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNZPUP924233404",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNZPUP924233404",
+    "shipper": {
+      "name": "EURO SHIPPING LTD",
+      "address": "943 MAIN STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "EURO SHIPPING LTD\n943 MAIN STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL COMMERCE CO.",
+      "address": "979 TRADE PARK",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "INTERNATIONAL COMMERCE CO.\n979 TRADE PARK\nNEW YORK, USA NY 10001"
+    },
+    "notify_party": {
+      "name": "EURO SUPPLY CHAIN CO.",
+      "address": "694 MARKET STREET",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "EURO SUPPLY CHAIN CO.\n694 MARKET STREET\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5209",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "09 JUN 2026",
+    "eta": "11 JUL 2026",
+    "issue_date": "19 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "container_number": "CMAU2017044",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "19BG6FH0",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": {
+      "count": "411",
+      "type": "CARTONS",
+      "description": "411 CARTONS"
+    },
+    "gross_weight_kg": "12,582.09",
+    "net_weight_kg": "9,197.22",
+    "gross_weight_lbs": "27,738.73",
+    "measurement": "42.711 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2017044",
+        "seal_number": "19BG6FH0",
+        "container_type": "20' OPEN TOP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "411",
+          "type": "CARTONS",
+          "description": "411 CARTONS"
+        },
+        "gross_weight_kg": "12,582.09",
+        "net_weight_kg": "9,197.22",
+        "measurement": "42.711 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "DAP",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "CMAU2017044\n19BG6FH0\nFELIXSTOWE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNZPUP924233404",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "EURO SHIPPING LTD\n943 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL COMMERCE CO.\n979 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "EURO SUPPLY CHAIN CO.\n694 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AL5209",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2017044",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "19BG6FH0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '411', 'type': 'CARTONS', 'description': '411 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "12,582.09",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "42.711 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

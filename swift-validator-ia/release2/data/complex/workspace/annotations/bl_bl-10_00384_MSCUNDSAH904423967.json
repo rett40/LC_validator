@@ -1,0 +1,322 @@
+{
+  "id": 384,
+  "filename": "bl_bl-10_00384_MSCUNDSAH904423967.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNDSAH904423967",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNDSAH904423967",
+    "shipper_name": "CENTRAL SUPPLY CHAIN LLC",
+    "shipper_address": "389 MARKET STREET",
+    "consignee_name": "PACIFIC INDUSTRIES S.A.",
+    "consignee_address": "988 MAIN STREET",
+    "notify_party_name": "FIRST ENTERPRISES PLC",
+    "notify_party_address": "558 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE705S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "28 MAY 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "MAEU4016128",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "2G57ABB8",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "433 CARTONS",
+    "gross_weight_kg": "25,093.73",
+    "measurement": "42.275 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU4016128",
+        "seal_number": "2G57ABB8",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "433",
+          "type": "CARTONS",
+          "description": "433 CARTONS"
+        },
+        "gross_weight_kg": "25,093.73",
+        "net_weight_kg": "22,652.03",
+        "measurement": "42.275 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNDSAH904423967",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "MAEU4016128",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "2G57ABB8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "433",
+        "type": "CARTONS",
+        "description": "433 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "25,093.73",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "42.275 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL SUPPLY CHAIN LLC\n389 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC INDUSTRIES S.A.\n988 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST ENTERPRISES PLC\n558 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        340.0,
+        365.1,
+        224.09,
+        34.02
+      ],
+      "value": "FE705S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        399.12,
+        204.99,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        397.78,
+        399.12,
+        166.31,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        433.13,
+        187.64,
+        34.02
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        371.56,
+        433.13,
+        192.53,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        467.15,
+        184.99,
+        34.02
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        367.56,
+        509.67,
+        196.54,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        538.02,
+        210.31,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        372.01,
+        538.02,
+        192.08,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        566.36,
+        214.31,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00481",
+  "filename": "inv_inv-13_00481.pdf",
+  "layout_id": "INV-13",
+  "bl_id": 481,
+  "fields": {
+    "invoice_number": "INV-2026-00481",
+    "invoice_date": "02 MAY 2026",
+    "lc_reference": "LC/HSBC/0481/2026",
+    "bl_reference": "MSCUNGMKY508355239",
+    "seller_name": "EURO TRADING LTD",
+    "buyer_name": "EURO ENTERPRISES AG",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7672",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "BEVERAGES AND SPIRITS",
+    "hs_code": "0709.99",
+    "quantity": 62,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "16,352.81",
+    "unit_price": 22.23,
+    "currency": "USD",
+    "total_amount": 1378.26,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00481",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        75.12,
+        68.94,
+        28.35
+      ],
+      "value": "02 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        231.78,
+        75.12,
+        64.44,
+        28.35
+      ],
+      "value": "LC/HSBC/0481/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        75.12,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNGMKY508355239",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        504.16,
+        75.12,
+        59.94,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        79.85,
+        103.46,
+        82.44,
+        28.35
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        209.28,
+        103.46,
+        86.94,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        147.4,
+        535.75,
+        52.44
+      ],
+      "value": "EURO TRADING LTD\nEURO TRADING LTD\n586 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        199.84,
+        535.75,
+        52.44
+      ],
+      "value": "EURO ENTERPRISES AG\nEURO ENTERPRISES AG\n870 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        267.87,
+        310.73,
+        56.69
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        267.87,
+        70.01,
+        28.35
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        267.87,
+        88.01,
+        28.35
+      ],
+      "value": 62,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        296.22,
+        83.51,
+        28.35
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        296.22,
+        56.51,
+        28.35
+      ],
+      "value": "22.23 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        330.24,
+        241.09,
+        25.51
+      ],
+      "value": "1378.26 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        369.92,
+        120.54,
+        19.84
+      ],
+      "value": "16,352.81 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        389.76,
+        120.54,
+        19.84
+      ],
+      "value": "1378.26 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        418.11,
+        109.08,
+        25.51
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        418.11,
+        131.58,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

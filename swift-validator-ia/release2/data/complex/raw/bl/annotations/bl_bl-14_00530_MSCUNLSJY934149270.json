@@ -1,0 +1,318 @@
+{
+  "id": 530,
+  "filename": "bl_bl-14_00530_MSCUNLSJY934149270.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNLSJY934149270",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLSJY934149270",
+    "shipper_name": "EURO INDUSTRIES INC",
+    "shipper_address": "128 MAIN STREET",
+    "consignee_name": "CENTRAL TRADING BV",
+    "consignee_address": "267 INDUSTRIAL AVENUE",
+    "notify_party_name": "TRANS LOGISTICS BV",
+    "notify_party_address": "130 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6517",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "10 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "OOLU0980486",
+    "container_type": "20' DRY",
+    "seal_number": "E8FF9097",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "169 DRUMS",
+    "gross_weight_kg": "16,819.05",
+    "measurement": "24.626 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0980486",
+        "seal_number": "E8FF9097",
+        "container_type": "20' DRY",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "169",
+          "type": "DRUMS",
+          "description": "169 DRUMS"
+        },
+        "gross_weight_kg": "16,819.05",
+        "net_weight_kg": "13,955.07",
+        "measurement": "24.626 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNLSJY934149270",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU0980486",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "E8FF9097",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '169', 'type': 'DRUMS', 'description': '169 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "16,819.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "24.626 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "AL6517",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        307.56,
+        298.51,
+        94.96
+      ],
+      "value": "EURO INDUSTRIES INC\n128 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        306.14,
+        215.06,
+        41.1
+      ],
+      "value": "CENTRAL TRADING BV\n267 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        361.42,
+        215.06,
+        41.1
+      ],
+      "value": "TRANS LOGISTICS BV\n130 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

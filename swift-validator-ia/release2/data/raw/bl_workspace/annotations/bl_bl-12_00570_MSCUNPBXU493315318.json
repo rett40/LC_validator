@@ -1,0 +1,318 @@
+{
+  "id": 570,
+  "filename": "bl_bl-12_00570_MSCUNPBXU493315318.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNPBXU493315318",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNPBXU493315318",
+    "shipper_name": "UNITED SUPPLY CHAIN LLC",
+    "shipper_address": "617 MAIN STREET",
+    "consignee_name": "EURO LOGISTICS GMBH",
+    "consignee_address": "636 HARBOR ROAD",
+    "notify_party_name": "APEX SHIPPING LLC",
+    "notify_party_address": "988 COMMERCE BOULEVARD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE335N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "18 MAY 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "CMAU0680568",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "D3A1H2B7",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "490 PALLETS",
+    "gross_weight_kg": "16,284.00",
+    "measurement": "58.852 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU0680568",
+        "seal_number": "D3A1H2B7",
+        "container_type": "20' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "490",
+          "type": "PALLETS",
+          "description": "490 PALLETS"
+        },
+        "gross_weight_kg": "16,284.00",
+        "net_weight_kg": "12,466.02",
+        "measurement": "58.852 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "22 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNPBXU493315318",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED SUPPLY CHAIN LLC\n617 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "EURO LOGISTICS GMBH\n636 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "APEX SHIPPING LLC\n988 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0680568",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "D3A1H2B7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '490', 'type': 'PALLETS', 'description': '490 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "16,284.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "58.852 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "FE335N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        681.73,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

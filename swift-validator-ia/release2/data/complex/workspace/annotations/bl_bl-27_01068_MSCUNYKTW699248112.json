@@ -1,0 +1,409 @@
+{
+  "id": 1068,
+  "filename": "bl_bl-27_01068_MSCUNYKTW699248112.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNYKTW699248112",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNYKTW699248112",
+    "shipper_name": "PREMIER SUPPLY CHAIN INC",
+    "shipper_address": "339 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL INDUSTRIES LLC",
+    "consignee_address": "859 MAIN STREET",
+    "notify_party_name": "PACIFIC INDUSTRIES PLC",
+    "notify_party_address": "572 TRADE PARK",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-685",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "22 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "HLCU4026138",
+    "container_type": "20' TANK",
+    "seal_number": "7A8D6A12",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "80 BOXES",
+    "gross_weight_kg": "34,026.93",
+    "measurement": "71.582 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4026138",
+        "seal_number": "7A8D6A12",
+        "container_type": "20' TANK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "80",
+          "type": "BOXES",
+          "description": "80 BOXES"
+        },
+        "gross_weight_kg": "17,083.19",
+        "net_weight_kg": "13,167.27",
+        "measurement": "40.228 CBM"
+      },
+      {
+        "container_number": "EISU2334939",
+        "seal_number": "9E2AD0A1",
+        "container_type": "20'TK",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "271",
+          "type": "CRATES",
+          "description": "271 CRATES"
+        },
+        "gross_weight_kg": "16,943.74",
+        "net_weight_kg": "13,355.74",
+        "measurement": "31.354 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNYKTW699248112",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "HLCU4026138",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "7A8D6A12",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '80', 'type': 'BOXES', 'description': '80 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "17,083.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "40.228 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "EISU2334939",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "9E2AD0A1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '271', 'type': 'CRATES', 'description': '271 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "16,943.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "31.354 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        296.22,
+        266.46,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN INC\n339 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "INTERNATIONAL INDUSTRIES LLC\n859 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        429.45,
+        266.46,
+        79.37
+      ],
+      "value": "PACIFIC INDUSTRIES PLC\n572 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "E-685",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    }
+  ]
+}

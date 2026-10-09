@@ -1,0 +1,533 @@
+{
+  "id": 227,
+  "filename": "bl_bl-06_00227_MSCUNYGJD760364505.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNYGJD760364505",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYGJD760364505",
+    "shipper_name": "APEX LOGISTICS PLC",
+    "shipper_address": "412 HARBOR ROAD",
+    "consignee_name": "CENTRAL SHIPPING BV",
+    "consignee_address": "564 HARBOR ROAD",
+    "notify_party_name": "APEX INDUSTRIES S.A.",
+    "notify_party_address": "335 MARKET STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE217N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "26 JUN 2026",
+    "eta": "22 JUL 2026",
+    "container_number": "EISU9166040",
+    "container_type": "40'RF",
+    "seal_number": "H2C287D0",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "347 DRUMS",
+    "gross_weight_kg": "41,833.41",
+    "measurement": "112.379 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9166040",
+        "seal_number": "H2C287D0",
+        "container_type": "40'RF",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "347",
+          "type": "DRUMS",
+          "description": "347 DRUMS"
+        },
+        "gross_weight_kg": "15,525.80",
+        "net_weight_kg": "12,493.12",
+        "measurement": "26.357 CBM"
+      },
+      {
+        "container_number": "MAEU4689464",
+        "seal_number": "FD6G33G1",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "132",
+          "type": "DRUMS",
+          "description": "132 DRUMS"
+        },
+        "gross_weight_kg": "17,198.83",
+        "net_weight_kg": "13,517.48",
+        "measurement": "63.200 CBM"
+      },
+      {
+        "container_number": "CMAU2634002",
+        "seal_number": "90ED82H6",
+        "container_type": "45'HC",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "161",
+          "type": "CRATES",
+          "description": "161 CRATES"
+        },
+        "gross_weight_kg": "9,108.78",
+        "net_weight_kg": "5,637.21",
+        "measurement": "22.822 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNYGJD760364505",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "412 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "APEX LOGISTICS PLC\n412 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "564 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL SHIPPING BV\n564 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "335 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "APEX INDUSTRIES S.A.\n335 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        104.63,
+        219.69,
+        110.33,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        260.16,
+        219.69,
+        134.33,
+        34.02
+      ],
+      "value": "FE217N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        458.89,
+        219.69,
+        115.13,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        114.23,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        303.36,
+        253.7,
+        91.13,
+        34.02
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        487.69,
+        253.7,
+        86.33,
+        34.02
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.23,
+        287.72,
+        100.73,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.56,
+        287.72,
+        95.93,
+        34.02
+      ],
+      "value": "22 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9166040",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "H2C287D0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '347', 'type': 'DRUMS', 'description': '347 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "15,525.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "26.357 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU4689464",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "FD6G33G1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '132', 'type': 'DRUMS', 'description': '132 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "17,198.83",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "63.200 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        419.53,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2634002",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "90ED82H6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        419.53,
+        43.09,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        419.53,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '161', 'type': 'CRATES', 'description': '161 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "9,108.78",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "22.822 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        119.03,
+        464.88,
+        95.93,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        284.16,
+        464.88,
+        110.33,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        458.89,
+        464.88,
+        115.13,
+        28.35
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        90.23,
+        493.23,
+        124.73,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        317.76,
+        493.23,
+        76.73,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

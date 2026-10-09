@@ -1,0 +1,533 @@
+{
+  "id": 212,
+  "filename": "bl_bl-06_00212_MSCUNELWS954700735.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNELWS954700735",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNELWS954700735",
+    "shipper_name": "PREMIER ENTERPRISES LTD",
+    "shipper_address": "513 COMMERCE BOULEVARD",
+    "consignee_name": "EURO INDUSTRIES PLC",
+    "consignee_address": "25 COMMERCE BOULEVARD",
+    "notify_party_name": "DELTA COMMERCE PLC",
+    "notify_party_address": "571 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0875S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "27 JUN 2026",
+    "eta": "15 JUL 2026",
+    "container_number": "CMAU0305753",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "H93769FE",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "327 CRATES",
+    "gross_weight_kg": "40,167.30",
+    "measurement": "91.530 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU0305753",
+        "seal_number": "H93769FE",
+        "container_type": "20' OPEN TOP",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "327",
+          "type": "CRATES",
+          "description": "327 CRATES"
+        },
+        "gross_weight_kg": "18,153.40",
+        "net_weight_kg": "15,172.01",
+        "measurement": "32.980 CBM"
+      },
+      {
+        "container_number": "TRHU3418193",
+        "seal_number": "508CA8AD",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "303",
+          "type": "DRUMS",
+          "description": "303 DRUMS"
+        },
+        "gross_weight_kg": "16,595.90",
+        "net_weight_kg": "14,361.37",
+        "measurement": "20.095 CBM"
+      },
+      {
+        "container_number": "OOLU7945608",
+        "seal_number": "269CC6A9",
+        "container_type": "20'DC",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "137",
+          "type": "CRATES",
+          "description": "137 CRATES"
+        },
+        "gross_weight_kg": "5,418.00",
+        "net_weight_kg": "2,380.00",
+        "measurement": "38.455 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNELWS954700735",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "513 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER ENTERPRISES LTD\n513 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "25 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "EURO INDUSTRIES PLC\n25 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "571 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "DELTA COMMERCE PLC\n571 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        75.83,
+        219.69,
+        139.13,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        274.56,
+        219.69,
+        119.93,
+        34.02
+      ],
+      "value": "0875S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        458.89,
+        219.69,
+        115.13,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        138.23,
+        253.7,
+        76.73,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        298.56,
+        253.7,
+        95.93,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        473.29,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        104.63,
+        287.72,
+        110.33,
+        34.02
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        284.16,
+        287.72,
+        110.33,
+        34.02
+      ],
+      "value": "15 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0305753",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "H93769FE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '327', 'type': 'CRATES', 'description': '327 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "18,153.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "32.980 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU3418193",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "508CA8AD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '303', 'type': 'DRUMS', 'description': '303 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "16,595.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "20.095 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        419.53,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU7945608",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "269CC6A9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        419.53,
+        43.09,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        419.53,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '137', 'type': 'CRATES', 'description': '137 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "5,418.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "38.455 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        80.63,
+        464.88,
+        134.33,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        308.16,
+        464.88,
+        86.33,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        468.49,
+        464.88,
+        105.53,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        114.23,
+        493.23,
+        100.73,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        288.96,
+        493.23,
+        105.53,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

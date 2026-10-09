@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00302",
+  "filename": "inv_maersk_0302_MAEUFAXT688321304.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 302,
+  "fields": {
+    "invoice_number": "INV-2026-00302",
+    "invoice_date": "12 APR 2026",
+    "lc_reference": "LC/HSBC/0302/2026",
+    "bl_reference": "MAEUFAXT688321304",
+    "seller_name": "FIRST GROUP LTD",
+    "buyer_name": "APEX SOLUTIONS LLC",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS664S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 69,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "7,057.18",
+    "unit_price": 9.32,
+    "currency": "GBP",
+    "total_amount": 643.08,
+    "incoterm": "CIF",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00302",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "MAEUFAXT688321304",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "FIRST GROUP LTD\n344 HARBOR ROAD\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "APEX SOLUTIONS LLC\n279 MAIN BOULEVARD\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "CS664S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUFAXT688321304",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "69",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 9.32",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 643.08",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "GBP 643.08",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

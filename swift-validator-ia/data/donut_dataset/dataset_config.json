@@ -1,0 +1,16 @@
+{
+  "task": "lc_parse",
+  "task_prompt": "<s_lc_parse>",
+  "doc_types": [
+    "bl",
+    "invoice",
+    "packing_list"
+  ],
+  "splits": {
+    "train": 1280,
+    "val": 160,
+    "test": 160
+  },
+  "total": 1600,
+  "seed": 42
+}

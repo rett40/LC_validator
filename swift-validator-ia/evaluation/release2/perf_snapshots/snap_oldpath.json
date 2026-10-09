@@ -1,0 +1,1400 @@
+{
+  "tag": "oldpath",
+  "n": 6,
+  "f1": {
+    "bl": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "invoice": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "packing_list": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "timings": {
+    "bl": {
+      "total_s": 69.81,
+      "per_doc_s": 11.635,
+      "n": 6
+    },
+    "invoice": {
+      "total_s": 55.11,
+      "per_doc_s": 9.185,
+      "n": 6
+    },
+    "packing_list": {
+      "total_s": 63.31,
+      "per_doc_s": 10.552,
+      "n": 6
+    }
+  },
+  "snapshot": {
+    "bl": {
+      "bl_bl-11_00401_MSCUNSDJL122330340": {
+        "fields": {
+          "BL_NUMBER": "MSCUNSDJL122330340",
+          "VESSEL": "HAPAG LLOYD EXPRESS",
+          "VOYAGE": "AL4724",
+          "ETD": "23 MAY 2026",
+          "CONSIGNEE": "PACIFIC PARTNERS INC 721 MAIN STREET",
+          "COMMODITY": "ELECTRONIC COMPONENTS AND PA",
+          "FREIGHT_TERMS": "AT ORIGIN",
+          "ISSUE_DATE": "10 MAY 2026",
+          "NUMBER_OF_ORIGINALS": "ONE (1)",
+          "GROSS_WEIGHT": "80197.07",
+          "MEASUREMENT": "296.021"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954116,
+          "VESSEL": 0.940003,
+          "VOYAGE": 0.956281,
+          "ETD": 0.928456,
+          "CONSIGNEE": 0.579472,
+          "COMMODITY": 0.899805,
+          "FREIGHT_TERMS": 0.938617,
+          "ISSUE_DATE": 0.931799,
+          "NUMBER_OF_ORIGINALS": 0.956503
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "ETD": "full_page/full_page",
+          "CONSIGNEE": "adaptive/adaptive_PACKAGES",
+          "COMMODITY": "full_page/full_page",
+          "FREIGHT_TERMS": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU5330804",
+            "SEAL_NO": "EGA42C29",
+            "CONTAINER_TYPE": "20'TK",
+            "PACKAGES": "{'count': '346', 't",
+            "GROSS_WEIGHT": "14,474.05",
+            "MEASUREMENT": "55.540 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU5330804",
+            "SEAL_NO": "EGA42C29",
+            "CONTAINER_TYPE": "20'TK",
+            "PACKAGES": "{'count': '346', 't",
+            "GROSS_WEIGHT": "14,474.05",
+            "MEASUREMENT": "55.540 CBM"
+          }
+        ],
+        "coverage": "11/24"
+      },
+      "bl_bl-11_00402_MSCUNAXSP855056594": {
+        "fields": {
+          "BL_NUMBER": "MSCUNAXSP855056594",
+          "VESSEL": "MSC GULSUN",
+          "VOYAGE": "FE925S",
+          "PORT_OF_LOADING": "TOKYO, JAPAN",
+          "ETD": "01 JUN 2026",
+          "ETA": "30 JUN 2026",
+          "CONSIGNEE": "GLOBAL SOLUTIONS LLC 873 MAIN STREET",
+          "NOTIFY_PARTY": "GLOBAL SOLUTIONS LLC 873 MAIN STREET",
+          "COMMODITY": "FRESH FRUITS AND VEGETABLES",
+          "FREIGHT_TERMS": "AT DESTINATION",
+          "NUMBER_OF_ORIGINALS": "THREE (3)",
+          "GROSS_WEIGHT": "61255.96",
+          "MEASUREMENT": "139.556"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954799,
+          "VESSEL": 0.943086,
+          "VOYAGE": 0.956856,
+          "PORT_OF_LOADING": 0.952432,
+          "ETD": 0.926244,
+          "ETA": 0.925954,
+          "CONSIGNEE": 0.626865,
+          "NOTIFY_PARTY": 0.825752,
+          "COMMODITY": 0.897132,
+          "FREIGHT_TERMS": 0.935376,
+          "NUMBER_OF_ORIGINALS": 0.956632
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "ETD": "full_page/full_page",
+          "ETA": "full_page/full_page",
+          "CONSIGNEE": "adaptive/adaptive_PACKAGES",
+          "NOTIFY_PARTY": "full_page/full_page",
+          "COMMODITY": "full_page/full_page",
+          "FREIGHT_TERMS": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          }
+        ],
+        "coverage": "13/24"
+      },
+      "bl_bl-11_00403_MSCUNHVRH678650673": {
+        "fields": {
+          "BL_NUMBER": "MSCUNHVRH678650673",
+          "VESSEL": "MSC GULSUN",
+          "VOYAGE": "FE754S",
+          "ETD": "12 JUN 2026",
+          "ETA": "14 JUL 2026",
+          "SHIPPER": "EURO TRADING INC",
+          "COMMODITY": "STEEL PRODUCTS AND STRUCTURES",
+          "FREIGHT_TERMS": "AT DESTINATION",
+          "SERVICE_TYPE": "CY/CFS",
+          "ISSUE_PLACE": "SINGAPORE",
+          "NUMBER_OF_ORIGINALS": "TWO (2)",
+          "GROSS_WEIGHT": "97465.26",
+          "MEASUREMENT": "285.411"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954169,
+          "VESSEL": 0.941091,
+          "VOYAGE": 0.957072,
+          "ETD": 0.929083,
+          "ETA": 0.928386,
+          "SHIPPER": 0.825204,
+          "COMMODITY": 0.899095,
+          "FREIGHT_TERMS": 0.935859,
+          "SERVICE_TYPE": 0.953107,
+          "ISSUE_PLACE": 0.955811,
+          "NUMBER_OF_ORIGINALS": 0.956068
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "ETD": "full_page/full_page",
+          "ETA": "full_page/full_page",
+          "SHIPPER": "full_page/full_page",
+          "COMMODITY": "full_page/full_page",
+          "FREIGHT_TERMS": "full_page/full_page",
+          "SERVICE_TYPE": "full_page/full_page",
+          "ISSUE_PLACE": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          }
+        ],
+        "coverage": "13/24"
+      },
+      "bl_bl-11_00404_MSCUNGABN571960349": {
+        "fields": {
+          "BL_NUMBER": "MSCUNGABN571960349",
+          "VESSEL": "MSC OSCAR",
+          "VOYAGE": "FE992N",
+          "PORT_OF_LOADING": "BUSAN, SOUTH KOREA",
+          "PORT_OF_DISCHARGE": "FELIXSTOWE, UK",
+          "PLACE_OF_DELIVERY": "FELIXSTOWE CFS",
+          "ETD": "18 JUN 2026",
+          "ETA": "22 JUL 2026",
+          "CONSIGNEE": "APEX",
+          "SHIPPER": "TRANS COMMERCE BV",
+          "NOTIFY_PARTY": "APEX SHIPPING CO. 309 MAIN STREET",
+          "COMMODITY": "LITHIUM-ION BATTERIES",
+          "ISSUE_PLACE": "SHANGHAI",
+          "NUMBER_OF_ORIGINALS": "TWO (2)",
+          "GROSS_WEIGHT": "62728.35",
+          "MEASUREMENT": "197.079"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954847,
+          "VESSEL": 0.94323,
+          "VOYAGE": 0.955982,
+          "PORT_OF_LOADING": 0.950829,
+          "PORT_OF_DISCHARGE": 0.946295,
+          "PLACE_OF_DELIVERY": 0.94692,
+          "ETD": 0.927567,
+          "ETA": 0.926268,
+          "CONSIGNEE": 0.613219,
+          "SHIPPER": 0.833806,
+          "NOTIFY_PARTY": 0.821803,
+          "COMMODITY": 0.91676,
+          "ISSUE_PLACE": 0.954833,
+          "NUMBER_OF_ORIGINALS": 0.956063
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "PORT_OF_DISCHARGE": "full_page/full_page",
+          "PLACE_OF_DELIVERY": "full_page/full_page",
+          "ETD": "full_page/full_page",
+          "ETA": "full_page/full_page",
+          "CONSIGNEE": "adaptive/adaptive_PACKAGES",
+          "SHIPPER": "full_page/full_page",
+          "NOTIFY_PARTY": "full_page/full_page",
+          "COMMODITY": "full_page/full_page",
+          "ISSUE_PLACE": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "TCKU2405986",
+            "SEAL_NO": "98B8E3F2",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '299', 't",
+            "GROSS_WEIGHT": "7,518.26",
+            "MEASUREMENT": "28.670 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU2405986",
+            "SEAL_NO": "98B8E3F2",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '299', 't",
+            "GROSS_WEIGHT": "7,518.26",
+            "MEASUREMENT": "28.670 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU2405986",
+            "SEAL_NO": "98B8E3F2",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '299', 't",
+            "GROSS_WEIGHT": "7,518.26",
+            "MEASUREMENT": "28.670 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU9314183",
+            "SEAL_NO": "HCH1H5C5",
+            "CONTAINER_TYPE": "20'FR",
+            "PACKAGES": "{'count': '139', 't",
+            "GROSS_WEIGHT": "13,391.19",
+            "MEASUREMENT": "37.023 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU9314183",
+            "SEAL_NO": "HCH1H5C5",
+            "CONTAINER_TYPE": "20'FR",
+            "PACKAGES": "{'count': '139', 't",
+            "GROSS_WEIGHT": "13,391.19",
+            "MEASUREMENT": "37.023 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU9314183",
+            "SEAL_NO": "HCH1H5C5",
+            "CONTAINER_TYPE": "20'FR",
+            "PACKAGES": "{'count': '139', 't",
+            "GROSS_WEIGHT": "13,391.19",
+            "MEASUREMENT": "37.023 CBM"
+          }
+        ],
+        "coverage": "16/24"
+      },
+      "bl_bl-11_00405_MSCUNLKRX785875477": {
+        "fields": {
+          "BL_NUMBER": "MSCUNLKRX785875477",
+          "VESSEL": "COSCO SHIPPING UNIVERSE",
+          "VOYAGE": "CS955E",
+          "PORT_OF_LOADING": "KAOHSIUNG, TAIWAN",
+          "PORT_OF_DISCHARGE": "GENOA, ITALY",
+          "ETD": "13 JUN 2026",
+          "ETA": "01 JUL 2026",
+          "CONSIGNEE": "CENTRAL COMMERCE PLC 609 TRADE PARK",
+          "COMMODITY": "CHEMICAL PRODUCTS NEC",
+          "FREIGHT_TERMS": "PLACE",
+          "ISSUE_DATE": "10 MAY 2026",
+          "NUMBER_OF_ORIGINALS": "ONE (1)",
+          "GROSS_WEIGHT": "157100.67",
+          "MEASUREMENT": "272.009"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954601,
+          "VESSEL": 0.939464,
+          "VOYAGE": 0.955609,
+          "PORT_OF_LOADING": 0.950314,
+          "PORT_OF_DISCHARGE": 0.948122,
+          "ETD": 0.929594,
+          "ETA": 0.927537,
+          "CONSIGNEE": 0.642107,
+          "COMMODITY": 0.905365,
+          "FREIGHT_TERMS": 0.918966,
+          "ISSUE_DATE": 0.930449,
+          "NUMBER_OF_ORIGINALS": 0.955663
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "PORT_OF_DISCHARGE": "full_page/full_page",
+          "ETD": "full_page/full_page",
+          "ETA": "full_page/full_page",
+          "CONSIGNEE": "adaptive/adaptive_PACKAGES",
+          "COMMODITY": "full_page/full_page",
+          "FREIGHT_TERMS": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "TRHU0826324",
+            "SEAL_NO": "AD4DDCGG",
+            "CONTAINER_TYPE": "20' FLAT R",
+            "PACKAGES": "{'count': '253', 't",
+            "GROSS_WEIGHT": "12,186.54",
+            "MEASUREMENT": "29.478 CBM"
+          },
+          {
+            "CONTAINER_NO": "TRHU0826324",
+            "SEAL_NO": "AD4DDCGG",
+            "CONTAINER_TYPE": "20' FLAT R",
+            "PACKAGES": "{'count': '253', 't",
+            "GROSS_WEIGHT": "12,186.54",
+            "MEASUREMENT": "29.478 CBM"
+          },
+          {
+            "CONTAINER_NO": "TRHU0826324",
+            "SEAL_NO": "AD4DDCGG",
+            "CONTAINER_TYPE": "20' FLAT R",
+            "PACKAGES": "{'count': '253', 't",
+            "GROSS_WEIGHT": "12,186.54",
+            "MEASUREMENT": "29.478 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU9830064",
+            "SEAL_NO": "87357GG8",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '116', 't",
+            "GROSS_WEIGHT": "21,557.07",
+            "MEASUREMENT": "50.653 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU9830064",
+            "SEAL_NO": "87357GG8",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '116', 't",
+            "GROSS_WEIGHT": "21,557.07",
+            "MEASUREMENT": "50.653 CBM"
+          },
+          {
+            "CONTAINER_NO": "MSCU4411362",
+            "SEAL_NO": "3D1B6C00",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '279', 't",
+            "GROSS_WEIGHT": "25,808.97",
+            "MEASUREMENT": "27.423 CBM"
+          },
+          {
+            "CONTAINER_NO": "MSCU4411362",
+            "SEAL_NO": "3D1B6C00",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '279', 't",
+            "GROSS_WEIGHT": "25,808.97",
+            "MEASUREMENT": "27.423 CBM"
+          },
+          {
+            "CONTAINER_NO": "MSCU4411362",
+            "SEAL_NO": "3D1B6C00",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '279', 't",
+            "GROSS_WEIGHT": "25,808.97",
+            "MEASUREMENT": "27.423 CBM"
+          }
+        ],
+        "coverage": "14/24"
+      },
+      "bl_bl-11_00406_MSCUNYZCU919469739": {
+        "fields": {
+          "BL_NUMBER": "MSCUNYZCU919469739",
+          "VESSEL": "MAERSK HARTFORD",
+          "VOYAGE": "AE52E",
+          "PORT_OF_DISCHARGE": "NEW YORK, USA",
+          "ETA": "19 JUN 2026",
+          "CONSIGNEE": "CENTRAL PARTNERS GMBH 205 MAIN STREET",
+          "COMMODITY": "FOOTWEAR OF ALL TYPES",
+          "FREIGHT_TERMS": "PLACE",
+          "SERVICE_TYPE": "CFS/CY",
+          "ISSUE_DATE": "10 MAY 2026",
+          "NUMBER_OF_ORIGINALS": "ONE (1)",
+          "GROSS_WEIGHT": "102882.51",
+          "MEASUREMENT": "273.891"
+        },
+        "confidences": {
+          "BL_NUMBER": 0.954355,
+          "VESSEL": 0.942904,
+          "VOYAGE": 0.955297,
+          "PORT_OF_DISCHARGE": 0.942962,
+          "ETA": 0.926919,
+          "CONSIGNEE": 0.554125,
+          "COMMODITY": 0.898671,
+          "FREIGHT_TERMS": 0.918981,
+          "SERVICE_TYPE": 0.953478,
+          "ISSUE_DATE": 0.930251,
+          "NUMBER_OF_ORIGINALS": 0.956336
+        },
+        "sources": {
+          "BL_NUMBER": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_DISCHARGE": "full_page/full_page",
+          "ETA": "full_page/full_page",
+          "CONSIGNEE": "adaptive/adaptive_PACKAGES",
+          "COMMODITY": "full_page/full_page",
+          "FREIGHT_TERMS": "full_page/full_page",
+          "SERVICE_TYPE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "NUMBER_OF_ORIGINALS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "MSCU1458828",
+            "SEAL_NO": "75379BG5",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '216', 't",
+            "GROSS_WEIGHT": "16,778.09",
+            "MEASUREMENT": "62.917 CBM"
+          },
+          {
+            "CONTAINER_NO": "MSCU1458828",
+            "SEAL_NO": "75379BG5",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '216', 't",
+            "GROSS_WEIGHT": "16,778.09",
+            "MEASUREMENT": "62.917 CBM"
+          },
+          {
+            "CONTAINER_NO": "MSCU1458828",
+            "SEAL_NO": "75379BG5",
+            "CONTAINER_TYPE": "45' HIGH C",
+            "PACKAGES": "{'count': '216', 't",
+            "GROSS_WEIGHT": "16,778.09",
+            "MEASUREMENT": "62.917 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU8850670",
+            "SEAL_NO": "17EGBH9H",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '258', 't",
+            "GROSS_WEIGHT": "17,516.08",
+            "MEASUREMENT": "28.380 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU8850670",
+            "SEAL_NO": "17EGBH9H",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '258', 't",
+            "GROSS_WEIGHT": "17,516.08",
+            "MEASUREMENT": "28.380 CBM"
+          },
+          {
+            "CONTAINER_NO": "OOLU8850670",
+            "SEAL_NO": "17EGBH9H",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '258', 't",
+            "GROSS_WEIGHT": "17,516.08",
+            "MEASUREMENT": "28.380 CBM"
+          }
+        ],
+        "coverage": "13/24"
+      }
+    },
+    "invoice": {
+      "inv_inv-11_00401": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00401",
+          "ISSUE_DATE": "10 MAY 2026",
+          "LC_REF": "LC/BARCLAYS/0401/2026",
+          "BL_REF": "MSCUNSDJL122330340",
+          "INCOTERM": "FOB",
+          "PAYMENT_TERMS": "30 DAYS AFTER DATE OF BILL OF LADIN",
+          "TOTAL_AMOUNT": "59997.62 USD",
+          "GROSS_WEIGHT": "31,557.04 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.951149,
+          "ISSUE_DATE": 0.928758,
+          "LC_REF": 0.953267,
+          "BL_REF": 0.952378,
+          "INCOTERM": 0.909723,
+          "PAYMENT_TERMS": 0.750485,
+          "TOTAL_AMOUNT": 0.910258,
+          "GROSS_WEIGHT": 0.95402
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "LC_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          },
+          {
+            "GOODS_DESC": "COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          }
+        ],
+        "coverage": "8/20"
+      },
+      "inv_inv-11_00402": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00402",
+          "SELLER": "APEX GROUP INC",
+          "ISSUE_DATE": "03 MAY 2026",
+          "BL_REF": "MSCUNAXSP855056594",
+          "INCOTERM": "EXW",
+          "PAYMENT_TERMS": "AT SIGHT",
+          "TOTAL_AMOUNT": "10171.5 USD",
+          "GROSS_WEIGHT": "15,313.99 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.952162,
+          "SELLER": 0.729199,
+          "ISSUE_DATE": 0.92921,
+          "BL_REF": 0.950959,
+          "INCOTERM": 0.911768,
+          "PAYMENT_TERMS": 0.819114,
+          "TOTAL_AMOUNT": 0.910101,
+          "GROSS_WEIGHT": 0.954469
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "SELLER": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          },
+          {
+            "GOODS_DESC": "AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          }
+        ],
+        "coverage": "8/20"
+      },
+      "inv_inv-11_00403": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00403",
+          "SELLER": "EURO TRADING INC",
+          "BUYER": "DELTA PARTNERS BV DELTA PARTNERS BV 858 EXPORT ZONE ROTTERDAM, NETHERLANDS",
+          "ISSUE_DATE": "12 MAY 2026",
+          "BL_REF": "MSCUNHVRH678650673",
+          "INCOTERM": "FCA",
+          "PAYMENT_TERMS": "AT SIGHT",
+          "TOTAL_AMOUNT": "7197.93 EUR",
+          "GROSS_WEIGHT": "32,488.42 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.952203,
+          "SELLER": 0.731348,
+          "BUYER": 0.608972,
+          "ISSUE_DATE": 0.928293,
+          "BL_REF": 0.951821,
+          "INCOTERM": 0.913964,
+          "PAYMENT_TERMS": 0.820427,
+          "TOTAL_AMOUNT": 0.909342,
+          "GROSS_WEIGHT": 0.954042
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "SELLER": "full_page/full_page",
+          "BUYER": "adaptive/adaptive_SELLER",
+          "ISSUE_DATE": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          },
+          {
+            "GOODS_DESC": "AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          }
+        ],
+        "coverage": "9/20"
+      },
+      "inv_inv-11_00404": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00404",
+          "ISSUE_DATE": "12 MAY 2026",
+          "LC_REF": "LC/BARCLAYS/0404/2026",
+          "BL_REF": "MSCUNGABN571960349",
+          "INCOTERM": "FCA",
+          "PAYMENT_TERMS": "USANCE 60 DAYS",
+          "CURRENCY": "USD",
+          "TOTAL_AMOUNT": "6213.22 USD",
+          "GROSS_WEIGHT": "20,909.45 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.951784,
+          "ISSUE_DATE": 0.928807,
+          "LC_REF": 0.953903,
+          "BL_REF": 0.951124,
+          "INCOTERM": 0.915684,
+          "PAYMENT_TERMS": 0.796621,
+          "CURRENCY": 0.945249,
+          "TOTAL_AMOUNT": 0.910659,
+          "GROSS_WEIGHT": 0.954734
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "LC_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "CURRENCY": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "HS_CODE": "8541.40",
+            "QUANTITY": "299",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "20.78 USD"
+          },
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "HS_CODE": "8541.40",
+            "QUANTITY": "299",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "20.78 USD"
+          },
+          {
+            "GOODS_DESC": "BATTERIES",
+            "HS_CODE": "8541.40",
+            "QUANTITY": "299",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "20.78 USD"
+          }
+        ],
+        "coverage": "9/20"
+      },
+      "inv_inv-11_00405": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00405",
+          "SELLER": "GLOBAL INDUSTRIES BV",
+          "BUYER": "FIRST SHIPPING LTD FIRST SHIPPING LTD 621 COMMERCE STREET GENOA, ITALY",
+          "ISSUE_DATE": "09 MAY 2026",
+          "LC_REF": "LC/DBS/0405/2026",
+          "BL_REF": "MSCUNLKRX785875477",
+          "INCOTERM": "CIF",
+          "PAYMENT_TERMS": "DEFERRED PAYMENT 90 DAYS",
+          "TOTAL_AMOUNT": "15465.89 USD",
+          "GROSS_WEIGHT": "59,552.58 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.951875,
+          "SELLER": 0.732603,
+          "BUYER": 0.614316,
+          "ISSUE_DATE": 0.928527,
+          "LC_REF": 0.953618,
+          "BL_REF": 0.951941,
+          "INCOTERM": 0.913346,
+          "PAYMENT_TERMS": 0.781426,
+          "TOTAL_AMOUNT": 0.910336,
+          "GROSS_WEIGHT": 0.953918
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "SELLER": "full_page/full_page",
+          "BUYER": "adaptive/adaptive_SELLER",
+          "ISSUE_DATE": "full_page/full_page",
+          "LC_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "HS_CODE": "3824.99",
+            "QUANTITY": "253",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "61.13 USD"
+          },
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "HS_CODE": "3824.99",
+            "QUANTITY": "253",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "61.13 USD"
+          },
+          {
+            "GOODS_DESC": "PRODUCTS NEC",
+            "HS_CODE": "3824.99",
+            "QUANTITY": "253",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "61.13 USD"
+          }
+        ],
+        "coverage": "10/20"
+      },
+      "inv_inv-11_00406": {
+        "fields": {
+          "INV_NUMBER": "INV-2026-00406",
+          "BUYER": "GLOBAL SOLUTIONS GMBH",
+          "ISSUE_DATE": "09 MAY 2026",
+          "LC_REF": "LC/SCB/0406/2026",
+          "BL_REF": "MSCUNYZCU919469739",
+          "INCOTERM": "DAP",
+          "PAYMENT_TERMS": "DEFERRED PAYMENT 90 DAYS",
+          "CURRENCY": "USD",
+          "TOTAL_AMOUNT": "5073.84 USD",
+          "GROSS_WEIGHT": "34,294.17 KG"
+        },
+        "confidences": {
+          "INV_NUMBER": 0.951682,
+          "BUYER": 0.706523,
+          "ISSUE_DATE": 0.928666,
+          "LC_REF": 0.951693,
+          "BL_REF": 0.950298,
+          "INCOTERM": 0.912594,
+          "PAYMENT_TERMS": 0.78015,
+          "CURRENCY": 0.945229,
+          "TOTAL_AMOUNT": 0.910198,
+          "GROSS_WEIGHT": 0.954338
+        },
+        "sources": {
+          "INV_NUMBER": "full_page/full_page",
+          "BUYER": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "LC_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "INCOTERM": "full_page/full_page",
+          "PAYMENT_TERMS": "full_page/full_page",
+          "CURRENCY": "full_page/full_page",
+          "TOTAL_AMOUNT": "full_page/full_page",
+          "GROSS_WEIGHT": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "HS_CODE": "6404.11",
+            "QUANTITY": "216",
+            "PACKAGE_UNIT": "PACKAGES",
+            "UNIT_PRICE": "23.49 USD"
+          },
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "HS_CODE": "6404.11",
+            "QUANTITY": "216",
+            "PACKAGE_UNIT": "PACKAGES",
+            "UNIT_PRICE": "23.49 USD"
+          },
+          {
+            "GOODS_DESC": "ALL TYPES",
+            "HS_CODE": "6404.11",
+            "QUANTITY": "216",
+            "PACKAGE_UNIT": "PACKAGES",
+            "UNIT_PRICE": "23.49 USD"
+          }
+        ],
+        "coverage": "10/20"
+      }
+    },
+    "packing_list": {
+      "pl_pl-11_00401": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00401",
+          "EXPORTER": "ATLANTIC SOLUTIONS BV",
+          "CONSIGNEE": "ED PARTNERS LTD",
+          "ISSUE_DATE": "08 MAY 2026",
+          "INV_REF": "INV-2026-00401",
+          "BL_REF": "MSCUNSDJL122330340",
+          "VESSEL": "HAPAG LLOYD EXPRESS",
+          "VOYAGE": "AL4724",
+          "MARKS_NUMBERS": "EISU6581743I08E",
+          "TOTAL_PACKAGES": "1604",
+          "NET_WEIGHT": "107368.04",
+          "GROSS_WEIGHT": "126228.16",
+          "TOTAL_CBM": "468.748"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.916364,
+          "EXPORTER": 0.613321,
+          "CONSIGNEE": 0.592071,
+          "ISSUE_DATE": 0.862006,
+          "INV_REF": 0.913042,
+          "BL_REF": 0.906124,
+          "VESSEL": 0.867168,
+          "VOYAGE": 0.883075,
+          "MARKS_NUMBERS": 0.847738
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "EXPORTER": "full_page/full_page",
+          "CONSIGNEE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          }
+        ],
+        "coverage": "13/21"
+      },
+      "pl_pl-11_00402": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00402",
+          "CONSIGNEE": "ED SOLUTIONS LTD",
+          "ISSUE_DATE": "04 MAY 2026",
+          "INV_REF": "INV-2026-00402",
+          "BL_REF": "MSCUNAXSP855056594",
+          "VESSEL": "MSC GULSUN",
+          "PORT_OF_LOADING": "KYO, JAPAN",
+          "MARKS_NUMBERS": "MAEU3557818I8",
+          "TOTAL_PACKAGES": "300",
+          "NET_WEIGHT": "50472.84",
+          "GROSS_WEIGHT": "61255.96",
+          "TOTAL_CBM": "139.556"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.916003,
+          "CONSIGNEE": 0.606487,
+          "ISSUE_DATE": 0.862764,
+          "INV_REF": 0.913769,
+          "BL_REF": 0.90915,
+          "VESSEL": 0.87901,
+          "PORT_OF_LOADING": 0.897703,
+          "MARKS_NUMBERS": 0.838816
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "CONSIGNEE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          }
+        ],
+        "coverage": "12/21"
+      },
+      "pl_pl-11_00403": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00403",
+          "EXPORTER": "EURO TRADING INC",
+          "ISSUE_DATE": "10 MAY 2026",
+          "INV_REF": "INV-2026-00403",
+          "BL_REF": "MSCUNHVRH678650673",
+          "VOYAGE": "FE754S",
+          "PORT_OF_LOADING": "SHANGHAI, CHINA",
+          "MARKS_NUMBERS": "EISU7600214IBB",
+          "TOTAL_PACKAGES": "636",
+          "NET_WEIGHT": "110220.24",
+          "GROSS_WEIGHT": "129953.68",
+          "TOTAL_CBM": "380.548"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.916103,
+          "EXPORTER": 0.62274,
+          "ISSUE_DATE": 0.860601,
+          "INV_REF": 0.912644,
+          "BL_REF": 0.908492,
+          "VOYAGE": 0.907482,
+          "PORT_OF_LOADING": 0.904089,
+          "MARKS_NUMBERS": 0.835639
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "EXPORTER": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          }
+        ],
+        "coverage": "12/21"
+      },
+      "pl_pl-11_00404": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00404",
+          "CONSIGNEE": "EURO PARTNERS AG",
+          "ISSUE_DATE": "10 MAY 2026",
+          "INV_REF": "INV-2026-00404",
+          "BL_REF": "MSCUNGABN571960349",
+          "VESSEL": "MSC OSCAR",
+          "VOYAGE": "FE992N",
+          "MARKS_NUMBERS": "TCKU2405986I98",
+          "TOTAL_PACKAGES": "1196",
+          "NET_WEIGHT": "68625.92",
+          "GROSS_WEIGHT": "83637.8",
+          "TOTAL_CBM": "262.772"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.916196,
+          "CONSIGNEE": 0.60644,
+          "ISSUE_DATE": 0.860143,
+          "INV_REF": 0.912724,
+          "BL_REF": 0.905761,
+          "VESSEL": 0.876855,
+          "VOYAGE": 0.899576,
+          "MARKS_NUMBERS": 0.841991
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "CONSIGNEE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "299",
+            "NET_WEIGHT": "17,156.48",
+            "GROSS_WEIGHT": "20,909.45",
+            "TOTAL_CBM": "65.693"
+          },
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "299",
+            "NET_WEIGHT": "17,156.48",
+            "GROSS_WEIGHT": "20,909.45",
+            "TOTAL_CBM": "65.693"
+          },
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "299",
+            "NET_WEIGHT": "17,156.48",
+            "GROSS_WEIGHT": "20,909.45",
+            "TOTAL_CBM": "65.693"
+          },
+          {
+            "GOODS_DESC": "LITHIUM-ION BATTERIES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "299",
+            "NET_WEIGHT": "17,156.48",
+            "GROSS_WEIGHT": "20,909.45",
+            "TOTAL_CBM": "65.693"
+          }
+        ],
+        "coverage": "12/21"
+      },
+      "pl_pl-11_00405": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00405",
+          "CONSIGNEE": "FIRST SHIPPING LTD",
+          "ISSUE_DATE": "08 MAY 2026",
+          "INV_REF": "INV-2026-00405",
+          "BL_REF": "MSCUNLKRX785875477",
+          "VESSEL": "COSCO SHIPPING UNIVERSE",
+          "VOYAGE": "CS955E",
+          "PORT_OF_LOADING": "KAOHSIUNG, TAIWAN",
+          "MARKS_NUMBERS": "TRHU0826324IA",
+          "TOTAL_PACKAGES": "1012",
+          "NET_WEIGHT": "199124.64",
+          "GROSS_WEIGHT": "238210.32",
+          "TOTAL_CBM": "430.216"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.915565,
+          "CONSIGNEE": 0.603503,
+          "ISSUE_DATE": 0.861481,
+          "INV_REF": 0.913,
+          "BL_REF": 0.910039,
+          "VESSEL": 0.867609,
+          "VOYAGE": 0.900439,
+          "PORT_OF_LOADING": 0.893602,
+          "MARKS_NUMBERS": 0.841645
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "CONSIGNEE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "253",
+            "NET_WEIGHT": "49,781.16",
+            "GROSS_WEIGHT": "59,552.58",
+            "TOTAL_CBM": "107.554"
+          },
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "253",
+            "NET_WEIGHT": "49,781.16",
+            "GROSS_WEIGHT": "59,552.58",
+            "TOTAL_CBM": "107.554"
+          },
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "253",
+            "NET_WEIGHT": "49,781.16",
+            "GROSS_WEIGHT": "59,552.58",
+            "TOTAL_CBM": "107.554"
+          },
+          {
+            "GOODS_DESC": "CHEMICAL PRODUCTS NEC",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "253",
+            "NET_WEIGHT": "49,781.16",
+            "GROSS_WEIGHT": "59,552.58",
+            "TOTAL_CBM": "107.554"
+          }
+        ],
+        "coverage": "13/21"
+      },
+      "pl_pl-11_00406": {
+        "fields": {
+          "PL_NUMBER": "PL-2026-00406",
+          "CONSIGNEE": "GLOBAL SOLUTIONS GMBH",
+          "ISSUE_DATE": "09 MAY 2026",
+          "INV_REF": "INV-2026-00406",
+          "BL_REF": "MSCUNYZCU919469739",
+          "VESSEL": "MAERSK HARTFORD",
+          "VOYAGE": "AE52E",
+          "PORT_OF_LOADING": "HONG KONG",
+          "MARKS_NUMBERS": "MSCU1458828I75",
+          "TOTAL_PACKAGES": "864",
+          "NET_WEIGHT": "115033.16",
+          "GROSS_WEIGHT": "137176.68",
+          "TOTAL_CBM": "365.188"
+        },
+        "confidences": {
+          "PL_NUMBER": 0.916985,
+          "CONSIGNEE": 0.590734,
+          "ISSUE_DATE": 0.861376,
+          "INV_REF": 0.913306,
+          "BL_REF": 0.904961,
+          "VESSEL": 0.874479,
+          "VOYAGE": 0.892111,
+          "PORT_OF_LOADING": 0.896879,
+          "MARKS_NUMBERS": 0.845641
+        },
+        "sources": {
+          "PL_NUMBER": "full_page/full_page",
+          "CONSIGNEE": "full_page/full_page",
+          "ISSUE_DATE": "full_page/full_page",
+          "INV_REF": "full_page/full_page",
+          "BL_REF": "full_page/full_page",
+          "VESSEL": "full_page/full_page",
+          "VOYAGE": "full_page/full_page",
+          "PORT_OF_LOADING": "full_page/full_page",
+          "MARKS_NUMBERS": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "SOLUTIONS GMBH"
+          },
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "PACKAGE_UNIT": "PACKAGES",
+            "TOTAL_PACKAGES": "216",
+            "NET_WEIGHT": "28,758.29",
+            "GROSS_WEIGHT": "34,294.17",
+            "TOTAL_CBM": "91.297"
+          },
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "PACKAGE_UNIT": "PACKAGES",
+            "TOTAL_PACKAGES": "216",
+            "NET_WEIGHT": "28,758.29",
+            "GROSS_WEIGHT": "34,294.17",
+            "TOTAL_CBM": "91.297"
+          },
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "PACKAGE_UNIT": "PACKAGES",
+            "TOTAL_PACKAGES": "216",
+            "NET_WEIGHT": "28,758.29",
+            "GROSS_WEIGHT": "34,294.17",
+            "TOTAL_CBM": "91.297"
+          },
+          {
+            "GOODS_DESC": "FOOTWEAR OF ALL TYPES",
+            "PACKAGE_UNIT": "PACKAGES",
+            "TOTAL_PACKAGES": "216",
+            "NET_WEIGHT": "28,758.29",
+            "GROSS_WEIGHT": "34,294.17",
+            "TOTAL_CBM": "91.297"
+          }
+        ],
+        "coverage": "13/21"
+      }
+    }
+  }
+}

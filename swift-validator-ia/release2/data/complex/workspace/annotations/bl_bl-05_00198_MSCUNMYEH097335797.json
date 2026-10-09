@@ -1,0 +1,318 @@
+{
+  "id": 198,
+  "filename": "bl_bl-05_00198_MSCUNMYEH097335797.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNMYEH097335797",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMYEH097335797",
+    "shipper_name": "CENTRAL INDUSTRIES PLC",
+    "shipper_address": "970 MARKET STREET",
+    "consignee_name": "UNITED TRADING LLC",
+    "consignee_address": "735 HARBOR ROAD",
+    "notify_party_name": "PACIFIC SHIPPING S.A.",
+    "notify_party_address": "903 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE180N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "15 JUN 2026",
+    "eta": "03 JUL 2026",
+    "container_number": "TCKU7984644",
+    "container_type": "40'HC",
+    "seal_number": "H368DEG3",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "462 DRUMS",
+    "gross_weight_kg": "26,074.71",
+    "measurement": "45.768 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU7984644",
+        "seal_number": "H368DEG3",
+        "container_type": "40'HC",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "462",
+          "type": "DRUMS",
+          "description": "462 DRUMS"
+        },
+        "gross_weight_kg": "26,074.71",
+        "net_weight_kg": "23,556.82",
+        "measurement": "45.768 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNMYEH097335797",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "CENTRAL INDUSTRIES PLC\n970 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED TRADING LLC\n735 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC SHIPPING S.A.\n903 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU7984644",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "H368DEG3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '462', 'type': 'DRUMS', 'description': '462 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "26,074.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "45.768 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "FE180N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        507.4,
+        264.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

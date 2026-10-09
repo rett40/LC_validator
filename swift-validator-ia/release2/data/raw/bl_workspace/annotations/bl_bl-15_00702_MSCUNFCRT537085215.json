@@ -1,0 +1,409 @@
+{
+  "id": 702,
+  "filename": "bl_bl-15_00702_MSCUNFCRT537085215.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNFCRT537085215",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNFCRT537085215",
+    "shipper_name": "UNITED COMMERCE LTD",
+    "shipper_address": "77 INDUSTRIAL AVENUE",
+    "consignee_name": "CENTRAL LOGISTICS LLC",
+    "consignee_address": "129 PORT ACCESS ROAD",
+    "notify_party_name": "PREMIER SUPPLY CHAIN S.A.",
+    "notify_party_address": "81 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6777",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "01 JUN 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "HLCU0952107",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "0D4FC2AA",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "321 BOXES",
+    "gross_weight_kg": "36,160.27",
+    "measurement": "74.193 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU0952107",
+        "seal_number": "0D4FC2AA",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "321",
+          "type": "BOXES",
+          "description": "321 BOXES"
+        },
+        "gross_weight_kg": "22,613.99",
+        "net_weight_kg": "19,996.13",
+        "measurement": "39.206 CBM"
+      },
+      {
+        "container_number": "MSCU3808835",
+        "seal_number": "8B2509C1",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "369",
+          "type": "BOXES",
+          "description": "369 BOXES"
+        },
+        "gross_weight_kg": "13,546.28",
+        "net_weight_kg": "11,165.38",
+        "measurement": "34.987 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "26 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNFCRT537085215",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED COMMERCE LTD\n77 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL LOGISTICS LLC\n129 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN S.A.\n81 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AL6777",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU0952107",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "0D4FC2AA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '321', 'type': 'BOXES', 'description': '321 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "22,613.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "39.206 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3808835",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "8B2509C1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '369', 'type': 'BOXES', 'description': '369 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "13,546.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "34.987 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        725.67,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

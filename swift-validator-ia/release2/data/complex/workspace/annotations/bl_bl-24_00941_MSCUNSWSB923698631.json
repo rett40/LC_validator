@@ -1,0 +1,533 @@
+{
+  "id": 941,
+  "filename": "bl_bl-24_00941_MSCUNSWSB923698631.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNSWSB923698631",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSWSB923698631",
+    "shipper_name": "ATLANTIC SUPPLY CHAIN PLC",
+    "shipper_address": "31 TRADE PARK",
+    "consignee_name": "ATLANTIC INDUSTRIES BV",
+    "consignee_address": "197 COMMERCE BOULEVARD",
+    "notify_party_name": "APEX LOGISTICS LTD",
+    "notify_party_address": "965 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0120N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "21 JUN 2026",
+    "eta": "22 JUL 2026",
+    "container_number": "EISU8874436",
+    "container_type": "40' HC",
+    "seal_number": "B2HB0H55",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "433 CRATES",
+    "gross_weight_kg": "17,902.54",
+    "measurement": "120.448 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8874436",
+        "seal_number": "B2HB0H55",
+        "container_type": "40' HC",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "433",
+          "type": "CRATES",
+          "description": "433 CRATES"
+        },
+        "gross_weight_kg": "6,999.82",
+        "net_weight_kg": "3,028.85",
+        "measurement": "41.806 CBM"
+      },
+      {
+        "container_number": "OOLU0079665",
+        "seal_number": "9E5AAB9B",
+        "container_type": "20' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "61",
+          "type": "CRATES",
+          "description": "61 CRATES"
+        },
+        "gross_weight_kg": "5,740.83",
+        "net_weight_kg": "3,260.73",
+        "measurement": "39.264 CBM"
+      },
+      {
+        "container_number": "MSCU7941706",
+        "seal_number": "7EEE38H4",
+        "container_type": "20'TK",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "496",
+          "type": "CRATES",
+          "description": "496 CRATES"
+        },
+        "gross_weight_kg": "5,161.89",
+        "net_weight_kg": "1,306.95",
+        "measurement": "39.378 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNSWSB923698631",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.61,
+        106.3,
+        98.9,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        269.19,
+        106.3,
+        120.57,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        453.03,
+        106.3,
+        120.98,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        76.61,
+        134.65,
+        128.9,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        267.95,
+        134.65,
+        121.82,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "EISU8874436",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "B2HB0H55",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '433', 'type': 'CRATES', 'description': '433 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "6,999.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "41.806 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "OOLU0079665",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "9E5AAB9B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '61', 'type': 'CRATES', 'description': '61 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "5,740.83",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "39.264 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "MSCU7941706",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "7EEE38H4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '496', 'type': 'CRATES', 'description': '496 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "5,161.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "39.378 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        303.31,
+        148.9,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        243.36,
+        303.31,
+        146.4,
+        34.02
+      ],
+      "value": "0120N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        458.03,
+        303.31,
+        115.99,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        94.94,
+        337.32,
+        110.57,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        277.53,
+        337.32,
+        112.23,
+        34.02
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        469.7,
+        337.32,
+        104.32,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        108.27,
+        371.34,
+        97.24,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        265.86,
+        371.34,
+        123.9,
+        34.02
+      ],
+      "value": "22 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "31 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN PLC\n31 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "197 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC INDUSTRIES BV\n197 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "965 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "APEX LOGISTICS LTD\n965 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

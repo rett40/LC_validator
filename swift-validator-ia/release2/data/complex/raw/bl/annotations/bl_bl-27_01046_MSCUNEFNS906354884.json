@@ -1,0 +1,409 @@
+{
+  "id": 1046,
+  "filename": "bl_bl-27_01046_MSCUNEFNS906354884.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNEFNS906354884",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNEFNS906354884",
+    "shipper_name": "GLOBAL GROUP GMBH",
+    "shipper_address": "953 MAIN STREET",
+    "consignee_name": "INTERNATIONAL SUPPLY CHAIN INC",
+    "consignee_address": "911 TRADE PARK",
+    "notify_party_name": "APEX SHIPPING BV",
+    "notify_party_address": "254 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS164S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "14 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "OOLU7527753",
+    "container_type": "20' DRY / GP",
+    "seal_number": "HFF61HDE",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "469 PALLETS",
+    "gross_weight_kg": "42,599.44",
+    "measurement": "68.495 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU7527753",
+        "seal_number": "HFF61HDE",
+        "container_type": "20' DRY / GP",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "469",
+          "type": "PALLETS",
+          "description": "469 PALLETS"
+        },
+        "gross_weight_kg": "25,270.07",
+        "net_weight_kg": "22,503.43",
+        "measurement": "41.057 CBM"
+      },
+      {
+        "container_number": "HLCU7912562",
+        "seal_number": "HDD22EA7",
+        "container_type": "40' DRY",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "366",
+          "type": "BOXES",
+          "description": "366 BOXES"
+        },
+        "gross_weight_kg": "17,329.37",
+        "net_weight_kg": "13,991.81",
+        "measurement": "27.438 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNEFNS906354884",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU7527753",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "HFF61HDE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '469', 'type': 'PALLETS', 'description': '469 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "25,270.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "41.057 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "HLCU7912562",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "HDD22EA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '366', 'type': 'BOXES', 'description': '366 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "17,329.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "27.438 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        296.22,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "GLOBAL GROUP GMBH\n953 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN INC\n911 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        429.45,
+        266.46,
+        79.37
+      ],
+      "value": "APEX SHIPPING BV\n254 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "CS164S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    }
+  ]
+}

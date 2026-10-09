@@ -1,0 +1,409 @@
+{
+  "id": 1060,
+  "filename": "bl_bl-27_01060_MSCUNXBCC201587335.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNXBCC201587335",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNXBCC201587335",
+    "shipper_name": "FIRST TRADING S.A.",
+    "shipper_address": "545 PORT ACCESS ROAD",
+    "consignee_name": "UNITED SUPPLY CHAIN PLC",
+    "consignee_address": "241 HARBOR ROAD",
+    "notify_party_name": "FIRST SOLUTIONS BV",
+    "notify_party_address": "929 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-364",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "26 JUN 2026",
+    "eta": "22 JUL 2026",
+    "container_number": "OOLU7004535",
+    "container_type": "40'DC",
+    "seal_number": "5FABAE63",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "405 CRATES",
+    "gross_weight_kg": "44,513.15",
+    "measurement": "58.060 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU7004535",
+        "seal_number": "5FABAE63",
+        "container_type": "40'DC",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "405",
+          "type": "CRATES",
+          "description": "405 CRATES"
+        },
+        "gross_weight_kg": "20,942.26",
+        "net_weight_kg": "18,616.86",
+        "measurement": "31.595 CBM"
+      },
+      {
+        "container_number": "OOLU4091764",
+        "seal_number": "68A59E65",
+        "container_type": "20' DRY",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "405",
+          "type": "CRATES",
+          "description": "405 CRATES"
+        },
+        "gross_weight_kg": "23,570.89",
+        "net_weight_kg": "20,766.11",
+        "measurement": "26.465 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNXBCC201587335",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU7004535",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "5FABAE63",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '405', 'type': 'CRATES', 'description': '405 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "20,942.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "31.595 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU4091764",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "68A59E65",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '405', 'type': 'CRATES', 'description': '405 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "23,570.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "26.465 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        296.22,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST TRADING S.A.\n545 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN PLC\n241 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        429.45,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS BV\n929 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "E-364",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "22 JUL 2026",
+      "page": 1
+    }
+  ]
+}

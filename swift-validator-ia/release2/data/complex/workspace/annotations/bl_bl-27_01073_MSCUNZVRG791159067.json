@@ -1,0 +1,318 @@
+{
+  "id": 1073,
+  "filename": "bl_bl-27_01073_MSCUNZVRG791159067.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNZVRG791159067",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNZVRG791159067",
+    "shipper_name": "FIRST COMMERCE GMBH",
+    "shipper_address": "939 PORT ACCESS ROAD",
+    "consignee_name": "FIRST LOGISTICS AG",
+    "consignee_address": "668 MAIN STREET",
+    "notify_party_name": "TRANS LOGISTICS CO.",
+    "notify_party_address": "938 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE93S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "19 MAY 2026",
+    "eta": "20 JUN 2026",
+    "container_number": "EISU3720523",
+    "container_type": "20'TK",
+    "seal_number": "7HHAA1F8",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "477 PACKAGES",
+    "gross_weight_kg": "25,408.50",
+    "measurement": "23.702 CBM",
+    "containers": [
+      {
+        "container_number": "EISU3720523",
+        "seal_number": "7HHAA1F8",
+        "container_type": "20'TK",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "477",
+          "type": "PACKAGES",
+          "description": "477 PACKAGES"
+        },
+        "gross_weight_kg": "25,408.50",
+        "net_weight_kg": "23,047.42",
+        "measurement": "23.702 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNZVRG791159067",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "EISU3720523",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "7HHAA1F8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '477', 'type': 'PACKAGES', 'description': '477 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "25,408.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "23.702 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        259.37,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST COMMERCE GMBH\n939 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS AG\n668 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        392.6,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS CO.\n938 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "AE93S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    }
+  ]
+}

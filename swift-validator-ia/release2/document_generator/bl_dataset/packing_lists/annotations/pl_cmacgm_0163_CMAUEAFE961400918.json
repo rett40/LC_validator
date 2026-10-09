@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00163",
+  "filename": "pl_cmacgm_0163_CMAUEAFE961400918.pdf",
+  "style": "StandardPLRenderer",
+  "bl_id": 163,
+  "fields": {
+    "pl_number": "PL-2026-00163",
+    "pl_date": "19 APR 2026",
+    "inv_reference": "INV-2026-00163",
+    "bl_reference": "CMAUEAFE961400918",
+    "exporter_name": "INTERNATIONAL PARTNERS PLC",
+    "consignee_name": "UNITED GROUP BV",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7283",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "container_number": "OOLU3795629",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "C5FEB625",
+    "goods_description": "SHOES AND LEATHER GOODS",
+    "package_unit": "BAGS",
+    "total_packages": 446,
+    "net_weight_kg": "9,456.97",
+    "gross_weight_kg": "11,315.35",
+    "total_cbm": 51.912
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "PL-2026-00163",
+      "page": 1
+    },
+    {
+      "field": "inv_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "INV-2026-00163",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "INTERNATIONAL PARTNERS PLC\n913 MAIN BOULEVARD\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "UNITED GROUP BV\n189 TRADE PARK\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "AL7283",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "OOLU3795629",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "C5FEB625",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUEAFE961400918",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        290.55,
+        136.06,
+        48.19
+      ],
+      "value": "SHOES AND LEATHER GOODS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        290.55,
+        56.69,
+        48.19
+      ],
+      "value": "446",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "9,456.97",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "11,315.35",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        290.55,
+        73.7,
+        48.19
+      ],
+      "value": "51.912",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        344.41,
+        242.36,
+        62.36
+      ],
+      "value": "11,315.35",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        389.76,
+        121.18,
+        17.01
+      ],
+      "value": "446",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "quantity_mismatch",
+      "field": "total_packages",
+      "expected": "454",
+      "actual": "446"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "FOOTWEAR OF ALL TYPES",
+      "actual": "SHOES AND LEATHER GOODS"
+    }
+  ]
+}

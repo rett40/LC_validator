@@ -1,0 +1,442 @@
+{
+  "id": 712,
+  "filename": "bl_bl-18_00712_MSCUNMHGH216598328.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNMHGH216598328",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMHGH216598328",
+    "shipper_name": "FIRST INDUSTRIES LTD",
+    "shipper_address": "624 PORT ACCESS ROAD",
+    "consignee_name": "FIRST PARTNERS LTD",
+    "consignee_address": "180 MAIN STREET",
+    "notify_party_name": "GLOBAL COMMERCE BV",
+    "notify_party_address": "985 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7747",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "19 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "OOLU4362988",
+    "container_type": "20' REEFER",
+    "seal_number": "117D0B6D",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "39 BOXES",
+    "gross_weight_kg": "38,106.54",
+    "measurement": "104.758 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU4362988",
+        "seal_number": "117D0B6D",
+        "container_type": "20' REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "39",
+          "type": "BOXES",
+          "description": "39 BOXES"
+        },
+        "gross_weight_kg": "21,146.84",
+        "net_weight_kg": "18,225.62",
+        "measurement": "61.421 CBM"
+      },
+      {
+        "container_number": "TRHU0740748",
+        "seal_number": "FCB5E989",
+        "container_type": "45'HC",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "77",
+          "type": "DRUMS",
+          "description": "77 DRUMS"
+        },
+        "gross_weight_kg": "16,959.70",
+        "net_weight_kg": "14,362.85",
+        "measurement": "43.337 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNMHGH216598328",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU4362988",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "117D0B6D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '39', 'type': 'BOXES', 'description': '39 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "21,146.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "61.421 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU0740748",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "FCB5E989",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '77', 'type': 'DRUMS', 'description': '77 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "16,959.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "43.337 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "624 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST INDUSTRIES LTD\n624 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "180 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST PARTNERS LTD\n180 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "985 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL COMMERCE BV\n985 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        490.39,
+        206.38,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        490.39,
+        229.5,
+        34.02
+      ],
+      "value": "AL7747",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        89.88,
+        524.41,
+        214.84,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        396.52,
+        524.41,
+        177.5,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        558.43,
+        238.84,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        376.52,
+        558.43,
+        197.49,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        592.44,
+        207.72,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        592.44,
+        180.6,
+        34.02
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        634.96,
+        201.5,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        663.31,
+        209.5,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        663.31,
+        219.72,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        113.9,
+        691.65,
+        190.83,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

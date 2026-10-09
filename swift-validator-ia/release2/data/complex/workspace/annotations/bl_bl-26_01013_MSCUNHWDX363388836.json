@@ -1,0 +1,409 @@
+{
+  "id": 1013,
+  "filename": "bl_bl-26_01013_MSCUNHWDX363388836.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNHWDX363388836",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNHWDX363388836",
+    "shipper_name": "TRANS ENTERPRISES GMBH",
+    "shipper_address": "567 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST PARTNERS CO.",
+    "consignee_address": "696 MAIN STREET",
+    "notify_party_name": "DELTA SUPPLY CHAIN GMBH",
+    "notify_party_address": "943 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS927E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "06 JUN 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "TCKU5195821",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "EFADF579",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "78 BAGS",
+    "gross_weight_kg": "39,125.87",
+    "measurement": "95.047 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU5195821",
+        "seal_number": "EFADF579",
+        "container_type": "40' FLAT RACK",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "78",
+          "type": "BAGS",
+          "description": "78 BAGS"
+        },
+        "gross_weight_kg": "22,002.02",
+        "net_weight_kg": "19,663.37",
+        "measurement": "41.806 CBM"
+      },
+      {
+        "container_number": "OOLU6090603",
+        "seal_number": "CD972356",
+        "container_type": "40' DRY",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "465",
+          "type": "BOXES",
+          "description": "465 BOXES"
+        },
+        "gross_weight_kg": "17,123.85",
+        "net_weight_kg": "13,306.96",
+        "measurement": "53.241 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNHWDX363388836",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        111.58,
+        75.12,
+        54.25,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        252.84,
+        75.12,
+        43.39,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        325.62,
+        75.12,
+        101.0,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        495.22,
+        75.12,
+        61.79,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        105.93,
+        103.46,
+        59.9,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "TRANS ENTERPRISES GMBH\n567 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST PARTNERS CO.\n696 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA SUPPLY CHAIN GMBH\n943 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        75.23,
+        256.54,
+        90.59,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        192.87,
+        256.54,
+        103.35,
+        34.02
+      ],
+      "value": "CS927E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        367.18,
+        256.54,
+        59.43,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        495.69,
+        256.54,
+        61.32,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.92,
+        290.55,
+        59.91,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        268.44,
+        290.55,
+        27.78,
+        34.02
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        394.57,
+        290.55,
+        32.05,
+        34.02
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        494.74,
+        290.55,
+        62.26,
+        34.02
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU5195821",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "EFADF579",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '78', 'type': 'BAGS', 'description': '78 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "22,002.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "41.806 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU6090603",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "CD972356",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '465', 'type': 'BOXES', 'description': '465 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "17,123.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "53.241 CBM",
+      "page": 1
+    }
+  ]
+}

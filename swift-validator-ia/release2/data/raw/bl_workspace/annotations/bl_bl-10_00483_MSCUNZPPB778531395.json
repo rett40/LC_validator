@@ -1,0 +1,351 @@
+{
+  "id": 483,
+  "filename": "bl_bl-10_00483_MSCUNZPPB778531395.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNZPPB778531395",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNZPPB778531395",
+    "shipper_name": "GLOBAL INDUSTRIES GMBH",
+    "shipper_address": "516 MARKET STREET",
+    "consignee_name": "CENTRAL COMMERCE AG",
+    "consignee_address": "754 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL LOGISTICS GMBH",
+    "notify_party_address": "859 PORT ACCESS ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL9977",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "20 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "TCKU5485358",
+    "container_type": "40' DRY",
+    "seal_number": "H6BG6F2E",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "366 PALLETS",
+    "gross_weight_kg": "13,227.45",
+    "measurement": "28.050 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU5485358",
+        "seal_number": "H6BG6F2E",
+        "container_type": "40' DRY",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "366",
+          "type": "PALLETS",
+          "description": "366 PALLETS"
+        },
+        "gross_weight_kg": "13,227.45",
+        "net_weight_kg": "10,772.84",
+        "measurement": "28.050 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNZPPB778531395",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU5485358",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "H6BG6F2E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '366', 'type': 'PALLETS', 'description': '366 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "13,227.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "28.050 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "516 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL INDUSTRIES GMBH\n516 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "754 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL COMMERCE AG\n754 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        287.72,
+        269.29,
+        70.87
+      ],
+      "value": "859 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL LOGISTICS GMBH\n859 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "AL9977",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00282",
+  "filename": "inv_inv-06_00282.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 282,
+  "fields": {
+    "invoice_number": "INV-2026-00282",
+    "invoice_date": "22 APR 2026",
+    "lc_reference": "LC/DB/0282/2026",
+    "bl_reference": "MSCUNPMNW728234150",
+    "seller_name": "TRANS SOLUTIONS INC",
+    "buyer_name": "GLOBAL COMMERCE AG",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0434E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "FOOD PRODUCTS AND PROVISIONS",
+    "hs_code": "0709.99",
+    "quantity": 340,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "10,044.17",
+    "unit_price": 18.72,
+    "currency": "USD",
+    "total_amount": 6364.79,
+    "incoterm": "FCA",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00282",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "LC/DB/0282/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNPMNW728234150",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        181.42,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        181.42,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        284.88,
+        172.35,
+        42.52
+      ],
+      "value": "FOOD PRODUCTS AND PROVISIONS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        284.88,
+        64.63,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        284.88,
+        53.86,
+        42.52
+      ],
+      "value": "340",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        284.88,
+        53.86,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        284.88,
+        96.94,
+        42.52
+      ],
+      "value": "18.72 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        284.88,
+        96.94,
+        42.52
+      ],
+      "value": "6364.79 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        335.91,
+        121.18,
+        19.84
+      ],
+      "value": "10,044.17 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        355.75,
+        121.18,
+        19.84
+      ],
+      "value": "6364.79 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        384.09,
+        179.53,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        384.09,
+        179.53,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "5953.40 USD",
+      "actual": "6364.79 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "actual": "FOOD PRODUCTS AND PROVISIONS"
+    }
+  ]
+}

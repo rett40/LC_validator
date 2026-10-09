@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00299",
+  "filename": "inv_inv-08_00299.pdf",
+  "layout_id": "INV-08",
+  "bl_id": 299,
+  "fields": {
+    "invoice_number": "INV-2026-00299",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/DBS/0299/2026",
+    "bl_reference": "MSCUNJTTD750559662",
+    "seller_name": "EURO SOLUTIONS S.A.",
+    "buyer_name": "FIRST LOGISTICS CORP",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7956",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "hs_code": "0709.99",
+    "quantity": 383,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "17,703.34",
+    "unit_price": 17.2,
+    "currency": "USD",
+    "total_amount": 6587.6,
+    "incoterm": "FCA",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00299",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "LC/DBS/0299/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNJTTD750559662",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        154.49,
+        332.16,
+        79.37
+      ],
+      "value": "EURO SOLUTIONS S.A.\nEURO SOLUTIONS S.A.\n85 EXPORT ZONE\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        154.49,
+        203.58,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS CORP\nFIRST LOGISTICS CORP\n550 MAIN BOULEVARD\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "383",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "17.2 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "6587.6 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "17,703.34 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "6587.6 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "SINGAPORE"
+    }
+  ]
+}

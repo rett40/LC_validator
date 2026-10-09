@@ -1,0 +1,442 @@
+{
+  "id": 265,
+  "filename": "bl_bl-06_00265_MSCUNSNFJ335907004.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNSNFJ335907004",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSNFJ335907004",
+    "shipper_name": "GLOBAL COMMERCE LLC",
+    "shipper_address": "129 PORT ACCESS ROAD",
+    "consignee_name": "ATLANTIC ENTERPRISES AG",
+    "consignee_address": "316 TRADE PARK",
+    "notify_party_name": "CENTRAL SUPPLY CHAIN PLC",
+    "notify_party_address": "963 INDUSTRIAL AVENUE",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0208E",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "23 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "TCKU0714199",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "CA62BC94",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "211 BOXES",
+    "gross_weight_kg": "42,127.24",
+    "measurement": "75.063 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU0714199",
+        "seal_number": "CA62BC94",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "211",
+          "type": "BOXES",
+          "description": "211 BOXES"
+        },
+        "gross_weight_kg": "27,664.66",
+        "net_weight_kg": "24,284.68",
+        "measurement": "36.618 CBM"
+      },
+      {
+        "container_number": "EISU5745835",
+        "seal_number": "DDF84EC9",
+        "container_type": "20' TANK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "492",
+          "type": "PACKAGES",
+          "description": "492 PACKAGES"
+        },
+        "gross_weight_kg": "14,462.58",
+        "net_weight_kg": "11,951.32",
+        "measurement": "38.445 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNSNFJ335907004",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "129 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL COMMERCE LLC\n129 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "316 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "ATLANTIC ENTERPRISES AG\n316 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "963 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL SUPPLY CHAIN PLC\n963 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "0208E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "23 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        341.57,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0714199",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "CA62BC94",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        341.57,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        341.57,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '211', 'type': 'BOXES', 'description': '211 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "27,664.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "36.618 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        378.43,
+        91.56,
+        36.85
+      ],
+      "value": "EISU5745835",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "DDF84EC9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        378.43,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        378.43,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '492', 'type': 'PACKAGES', 'description': '492 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "14,462.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "38.445 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

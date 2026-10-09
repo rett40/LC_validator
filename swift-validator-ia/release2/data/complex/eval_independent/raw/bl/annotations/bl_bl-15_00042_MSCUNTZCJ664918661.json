@@ -1,0 +1,535 @@
+{
+  "id": 42,
+  "filename": "bl_bl-15_00042_MSCUNTZCJ664918661.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNTZCJ664918661",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNTZCJ664918661",
+    "shipper": {
+      "name": "CENTRAL LOGISTICS INC",
+      "address": "705 TRADE PARK",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "CENTRAL LOGISTICS INC\n705 TRADE PARK\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "consignee": {
+      "name": "APEX ENTERPRISES LTD",
+      "address": "842 MARKET STREET",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "APEX ENTERPRISES LTD\n842 MARKET STREET\nNEW YORK, USA NY 10001"
+    },
+    "notify_party": {
+      "name": "PREMIER ENTERPRISES CO.",
+      "address": "929 TRADE PARK",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "PREMIER ENTERPRISES CO.\n929 TRADE PARK\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0781W",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "05 JUL 2026",
+    "eta": "25 JUL 2026",
+    "issue_date": "18 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "container_number": "TCKU1115301",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "67F4D176",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": {
+      "count": "327",
+      "type": "PACKAGES",
+      "description": "327 PACKAGES"
+    },
+    "gross_weight_kg": "59,843.74",
+    "net_weight_kg": "50,285.89",
+    "gross_weight_lbs": "131,932.71",
+    "measurement": "143.641 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU1115301",
+        "seal_number": "67F4D176",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "327",
+          "type": "PACKAGES",
+          "description": "327 PACKAGES"
+        },
+        "gross_weight_kg": "18,993.28",
+        "net_weight_kg": "15,599.15",
+        "measurement": "54.687 CBM"
+      },
+      {
+        "container_number": "OOLU1196237",
+        "seal_number": "G7267410",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "173",
+          "type": "BAGS",
+          "description": "173 BAGS"
+        },
+        "gross_weight_kg": "24,986.64",
+        "net_weight_kg": "21,204.98",
+        "measurement": "56.041 CBM"
+      },
+      {
+        "container_number": "MAEU8592197",
+        "seal_number": "1A1D97FB",
+        "container_type": "20' TANK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "231",
+          "type": "BOXES",
+          "description": "231 BOXES"
+        },
+        "gross_weight_kg": "15,863.82",
+        "net_weight_kg": "13,481.76",
+        "measurement": "32.913 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "DDP",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY",
+    "marks_numbers": "TCKU1115301\n67F4D176\nFELIXSTOWE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTZCJ664918661",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL LOGISTICS INC\n705 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "APEX ENTERPRISES LTD\n842 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES CO.\n929 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0781W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "25 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU1115301",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "67F4D176",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '327', 'type': 'PACKAGES', 'description': '327 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "18,993.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "54.687 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU1196237",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "G7267410",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '173', 'type': 'BAGS', 'description': '173 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "24,986.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "56.041 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        643.46,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8592197",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "1A1D97FB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        643.46,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        643.46,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '231', 'type': 'BOXES', 'description': '231 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "15,863.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "32.913 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        762.52,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

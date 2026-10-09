@@ -1,0 +1,500 @@
+{
+  "id": 1140,
+  "filename": "bl_bl-29_01140_MSCUNNERW869938736.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNNERW869938736",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNERW869938736",
+    "shipper_name": "UNITED GROUP CORP",
+    "shipper_address": "203 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST SUPPLY CHAIN LTD",
+    "consignee_address": "388 MAIN STREET",
+    "notify_party_name": "INTERNATIONAL GROUP S.A.",
+    "notify_party_address": "620 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE86E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "02 JUN 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "MAEU0583690",
+    "container_type": "20' DRY / GP",
+    "seal_number": "10AF19AB",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "140 PACKAGES",
+    "gross_weight_kg": "27,520.88",
+    "measurement": "113.599 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU0583690",
+        "seal_number": "10AF19AB",
+        "container_type": "20' DRY / GP",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "140",
+          "type": "PACKAGES",
+          "description": "140 PACKAGES"
+        },
+        "gross_weight_kg": "7,987.30",
+        "net_weight_kg": "4,918.92",
+        "measurement": "44.314 CBM"
+      },
+      {
+        "container_number": "TCKU3330515",
+        "seal_number": "3GB33E82",
+        "container_type": "20' REEFER",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "16",
+          "type": "CARTONS",
+          "description": "16 CARTONS"
+        },
+        "gross_weight_kg": "8,147.66",
+        "net_weight_kg": "4,189.77",
+        "measurement": "42.812 CBM"
+      },
+      {
+        "container_number": "CMAU1837077",
+        "seal_number": "H992B8DB",
+        "container_type": "40' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "263",
+          "type": "BAGS",
+          "description": "263 BAGS"
+        },
+        "gross_weight_kg": "11,385.92",
+        "net_weight_kg": "8,578.29",
+        "measurement": "26.473 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNNERW869938736",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "MAEU0583690",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "10AF19AB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '140', 'type': 'PACKAGES', 'description': '140 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "7,987.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "44.314 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU3330515",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "3GB33E82",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '16', 'type': 'CARTONS', 'description': '16 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "8,147.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "42.812 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        209.76,
+        89.87,
+        36.85
+      ],
+      "value": "CMAU1837077",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "H992B8DB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        209.76,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        209.76,
+        132.17,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '263', 'type': 'BAGS', 'description': '263 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "11,385.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "26.473 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "AE86E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        384.09,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        430.87,
+        302.62,
+        94.96
+      ],
+      "value": "UNITED GROUP CORP\n203 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        429.45,
+        218.04,
+        41.1
+      ],
+      "value": "FIRST SUPPLY CHAIN LTD\n388 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        484.72,
+        218.04,
+        41.1
+      ],
+      "value": "INTERNATIONAL GROUP S.A.\n620 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

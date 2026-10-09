@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00648",
+  "filename": "inv_inv-13_00648.pdf",
+  "layout_id": "INV-13",
+  "bl_id": 648,
+  "fields": {
+    "invoice_number": "INV-2026-00648",
+    "invoice_date": "28 APR 2026",
+    "lc_reference": "LC/BNP/0648/2026",
+    "bl_reference": "MSCUNSLVX629764214",
+    "seller_name": "EURO ENTERPRISES GMBH",
+    "buyer_name": "CENTRAL COMMERCE CORP",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL4583",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 242,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "16,633.58",
+    "unit_price": 5.68,
+    "currency": "USD",
+    "total_amount": 1374.56,
+    "incoterm": "FOB",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "INV-2026-00648",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "LC/BNP/0648/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "MSCUNSLVX629764214",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        172.35,
+        42.52
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        260.79,
+        64.63,
+        42.52
+      ],
+      "value": "3926.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "242",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "5.68 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "1374.56 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        317.48,
+        121.18,
+        19.84
+      ],
+      "value": "16,633.58 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        337.32,
+        121.18,
+        19.84
+      ],
+      "value": "1374.56 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "GUANGZHOU, CHINA",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

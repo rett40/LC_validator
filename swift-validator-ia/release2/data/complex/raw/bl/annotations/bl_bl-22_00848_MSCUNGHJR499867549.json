@@ -1,0 +1,512 @@
+{
+  "id": 848,
+  "filename": "bl_bl-22_00848_MSCUNGHJR499867549.pdf",
+  "layout_id": "BL-22",
+  "bl_number": "MSCUNGHJR499867549",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNGHJR499867549",
+    "shipper_name": "GLOBAL GROUP S.A.",
+    "shipper_address": "475 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA SOLUTIONS GMBH",
+    "consignee_address": "812 PORT ACCESS ROAD",
+    "notify_party_name": "APEX TRADING LLC",
+    "notify_party_address": "850 PORT ACCESS ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL3267",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "18 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "EISU9165650",
+    "container_type": "20' REEFER",
+    "seal_number": "FHHHF8CB",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "85 BOXES",
+    "gross_weight_kg": "61,707.50",
+    "measurement": "148.121 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9165650",
+        "seal_number": "FHHHF8CB",
+        "container_type": "20' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "85",
+          "type": "BOXES",
+          "description": "85 BOXES"
+        },
+        "gross_weight_kg": "18,094.72",
+        "net_weight_kg": "14,425.89",
+        "measurement": "58.296 CBM"
+      },
+      {
+        "container_number": "MAEU7678888",
+        "seal_number": "841219HG",
+        "container_type": "40' DRY / GP",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "342",
+          "type": "PALLETS",
+          "description": "342 PALLETS"
+        },
+        "gross_weight_kg": "16,114.96",
+        "net_weight_kg": "13,747.05",
+        "measurement": "32.746 CBM"
+      },
+      {
+        "container_number": "TRHU8408060",
+        "seal_number": "3DG3002D",
+        "container_type": "40'OT",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "155",
+          "type": "BAGS",
+          "description": "155 BAGS"
+        },
+        "gross_weight_kg": "27,497.82",
+        "net_weight_kg": "25,433.77",
+        "measurement": "57.079 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        326.2,
+        32.6,
+        237.9,
+        70.87
+      ],
+      "value": "MSCUNGHJR499867549",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        84.55,
+        111.97,
+        83.05,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        193.15,
+        111.97,
+        106.61,
+        34.02
+      ],
+      "value": "AL3267",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        351.11,
+        111.97,
+        80.82,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        526.15,
+        111.97,
+        37.95,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        99.65,
+        145.98,
+        67.95,
+        34.02
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        260.93,
+        145.98,
+        38.83,
+        34.02
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.43,
+        145.98,
+        55.5,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        521.03,
+        145.98,
+        43.06,
+        34.02
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        188.5,
+        528.66,
+        55.28
+      ],
+      "value": "GLOBAL GROUP S.A.\n475 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        243.78,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA SOLUTIONS GMBH\n812 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        299.06,
+        528.66,
+        55.28
+      ],
+      "value": "APEX TRADING LLC\n850 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        365.67,
+        261.78,
+        12.76
+      ],
+      "value": "EISU9165650",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        383.53,
+        117.8,
+        6.8
+      ],
+      "value": "FHHHF8CB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        392.6,
+        117.8,
+        6.8
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        401.67,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "85",
+        "type": "BOXES",
+        "description": "85 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        410.74,
+        117.8,
+        6.8
+      ],
+      "value": "18,094.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        419.81,
+        117.8,
+        6.8
+      ],
+      "value": "58.296 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        383.31,
+        104.71,
+        31.96
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        365.67,
+        261.78,
+        12.76
+      ],
+      "value": "MAEU7678888",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        383.53,
+        117.8,
+        6.8
+      ],
+      "value": "841219HG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        392.6,
+        117.8,
+        6.8
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        401.67,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "342",
+        "type": "PALLETS",
+        "description": "342 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        410.74,
+        117.8,
+        6.8
+      ],
+      "value": "16,114.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        419.81,
+        117.8,
+        6.8
+      ],
+      "value": "32.746 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        383.31,
+        104.71,
+        31.96
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        428.88,
+        261.78,
+        12.76
+      ],
+      "value": "TRHU8408060",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        446.74,
+        117.8,
+        6.8
+      ],
+      "value": "3DG3002D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        455.81,
+        117.8,
+        6.8
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        464.88,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "155",
+        "type": "BAGS",
+        "description": "155 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        473.95,
+        117.8,
+        6.8
+      ],
+      "value": "27,497.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        483.02,
+        117.8,
+        6.8
+      ],
+      "value": "57.079 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        446.53,
+        104.71,
+        31.96
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        122.99,
+        496.35,
+        44.61,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        232.71,
+        496.35,
+        67.05,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        347.54,
+        496.35,
+        84.39,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        480.15,
+        496.35,
+        83.95,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        133.21,
+        524.69,
+        34.39,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 658,
+  "filename": "bl_bl-14_00658_MSCUNRGZK899275393.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNRGZK899275393",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNRGZK899275393",
+    "shipper_name": "TRANS PARTNERS LTD",
+    "shipper_address": "5 MAIN STREET",
+    "consignee_name": "DELTA ENTERPRISES BV",
+    "consignee_address": "677 INDUSTRIAL AVENUE",
+    "notify_party_name": "INTERNATIONAL ENTERPRISES LTD",
+    "notify_party_address": "470 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS435W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "26 MAY 2026",
+    "eta": "15 JUN 2026",
+    "container_number": "MAEU6240762",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "A4FE1BH7",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "18 PACKAGES",
+    "gross_weight_kg": "33,153.86",
+    "measurement": "75.768 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU6240762",
+        "seal_number": "A4FE1BH7",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "18",
+          "type": "PACKAGES",
+          "description": "18 PACKAGES"
+        },
+        "gross_weight_kg": "22,960.99",
+        "net_weight_kg": "18,963.96",
+        "measurement": "48.443 CBM"
+      },
+      {
+        "container_number": "MSCU1947617",
+        "seal_number": "E00BGBG5",
+        "container_type": "20' REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "360",
+          "type": "DRUMS",
+          "description": "360 DRUMS"
+        },
+        "gross_weight_kg": "10,192.87",
+        "net_weight_kg": "7,524.37",
+        "measurement": "27.325 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNRGZK899275393",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6240762",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "A4FE1BH7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '18', 'type': 'PACKAGES', 'description': '18 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "22,960.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "48.443 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU1947617",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "E00BGBG5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '360', 'type': 'DRUMS', 'description': '360 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "10,192.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "27.325 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "CS435W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS PARTNERS LTD\n5 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA ENTERPRISES BV\n677 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL ENTERPRISES LTD\n470 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

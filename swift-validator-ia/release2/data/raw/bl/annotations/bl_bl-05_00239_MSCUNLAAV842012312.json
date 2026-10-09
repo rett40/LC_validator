@@ -1,0 +1,409 @@
+{
+  "id": 239,
+  "filename": "bl_bl-05_00239_MSCUNLAAV842012312.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNLAAV842012312",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLAAV842012312",
+    "shipper_name": "APEX GROUP LTD",
+    "shipper_address": "673 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST ENTERPRISES AG",
+    "consignee_address": "996 MARKET STREET",
+    "notify_party_name": "APEX GROUP PLC",
+    "notify_party_address": "931 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS105E",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "07 JUN 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "EISU6168564",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "3E567B54",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "268 DRUMS",
+    "gross_weight_kg": "17,297.71",
+    "measurement": "67.789 CBM",
+    "containers": [
+      {
+        "container_number": "EISU6168564",
+        "seal_number": "3E567B54",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "268",
+          "type": "DRUMS",
+          "description": "268 DRUMS"
+        },
+        "gross_weight_kg": "9,092.31",
+        "net_weight_kg": "7,074.70",
+        "measurement": "40.279 CBM"
+      },
+      {
+        "container_number": "CMAU2699314",
+        "seal_number": "E9AA09AF",
+        "container_type": "40' REEFER",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "47",
+          "type": "DRUMS",
+          "description": "47 DRUMS"
+        },
+        "gross_weight_kg": "8,205.40",
+        "net_weight_kg": "4,361.31",
+        "measurement": "27.510 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "30 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNLAAV842012312",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "APEX GROUP LTD\n673 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST ENTERPRISES AG\n996 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "APEX GROUP PLC\n931 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "EISU6168564",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "3E567B54",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '268', 'type': 'DRUMS', 'description': '268 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "9,092.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "40.279 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2699314",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "E9AA09AF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '47', 'type': 'DRUMS', 'description': '47 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "8,205.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "27.510 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "CS105E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        708.66,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

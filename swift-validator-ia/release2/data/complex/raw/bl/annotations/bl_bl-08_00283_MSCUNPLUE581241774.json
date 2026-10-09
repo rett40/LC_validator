@@ -1,0 +1,500 @@
+{
+  "id": 283,
+  "filename": "bl_bl-08_00283_MSCUNPLUE581241774.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNPLUE581241774",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPLUE581241774",
+    "shipper_name": "APEX GROUP GMBH",
+    "shipper_address": "234 HARBOR ROAD",
+    "consignee_name": "PACIFIC INDUSTRIES BV",
+    "consignee_address": "767 MARKET STREET",
+    "notify_party_name": "DELTA GROUP CO.",
+    "notify_party_address": "918 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1109",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "26 JUN 2026",
+    "eta": "24 JUL 2026",
+    "container_number": "MSCU5797211",
+    "container_type": "40' REEFER",
+    "seal_number": "9G77CA27",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "287 PACKAGES",
+    "gross_weight_kg": "53,577.17",
+    "measurement": "134.992 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU5797211",
+        "seal_number": "9G77CA27",
+        "container_type": "40' REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "287",
+          "type": "PACKAGES",
+          "description": "287 PACKAGES"
+        },
+        "gross_weight_kg": "7,675.14",
+        "net_weight_kg": "5,674.49",
+        "measurement": "59.246 CBM"
+      },
+      {
+        "container_number": "MAEU0953835",
+        "seal_number": "H016CG2F",
+        "container_type": "20'RF",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "70",
+          "type": "PALLETS",
+          "description": "70 PALLETS"
+        },
+        "gross_weight_kg": "23,463.16",
+        "net_weight_kg": "20,636.05",
+        "measurement": "32.881 CBM"
+      },
+      {
+        "container_number": "OOLU9387049",
+        "seal_number": "5D737B18",
+        "container_type": "20' FLAT RACK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "321",
+          "type": "DRUMS",
+          "description": "321 DRUMS"
+        },
+        "gross_weight_kg": "22,438.87",
+        "net_weight_kg": "19,278.93",
+        "measurement": "42.865 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNPLUE581241774",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        76.54,
+        306.73,
+        94.96
+      ],
+      "value": "APEX GROUP GMBH\n234 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        75.12,
+        221.01,
+        41.1
+      ],
+      "value": "PACIFIC INDUSTRIES BV\n767 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        130.39,
+        221.01,
+        41.1
+      ],
+      "value": "DELTA GROUP CO.\n918 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "AL1109",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "24 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "MSCU5797211",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "9G77CA27",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '287', 'type': 'PACKAGES', 'description': '287 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "7,675.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "59.246 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "MAEU0953835",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "H016CG2F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '70', 'type': 'PALLETS', 'description': '70 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "23,463.16",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "32.881 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        413.86,
+        91.08,
+        36.85
+      ],
+      "value": "OOLU9387049",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "5D737B18",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        413.86,
+        42.86,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        413.86,
+        133.94,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '321', 'type': 'DRUMS', 'description': '321 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "22,438.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "42.865 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        532.91,
+        263.87,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

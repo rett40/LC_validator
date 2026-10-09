@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00333",
+  "filename": "inv_inv-09_00333.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 333,
+  "fields": {
+    "invoice_number": "INV-2026-00333",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/DB/0333/2026",
+    "bl_reference": "MSCUNFWJE932688645",
+    "seller_name": "APEX SHIPPING CORP",
+    "buyer_name": "PREMIER TRADING CORP",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE357N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "LEISURE GOODS AND GAMES",
+    "hs_code": "9503.00",
+    "quantity": 132,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "31,859.69",
+    "unit_price": 31.87,
+    "currency": "USD",
+    "total_amount": 4206.92,
+    "incoterm": "FOB",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "INV-2026-00333",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "LC/DB/0333/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNFWJE932688645",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "APEX SHIPPING CORP\nAPEX SHIPPING CORP\n152 MAIN BOULEVARD\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "PREMIER TRADING CORP\nPREMIER TRADING CORP\n722 TRADE PARK\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        294.8,
+        174.61,
+        42.52
+      ],
+      "value": "LEISURE GOODS AND GAMES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        294.8,
+        65.48,
+        42.52
+      ],
+      "value": "9503.00",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "132",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "31.87 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "4206.92 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        351.5,
+        122.78,
+        19.84
+      ],
+      "value": "31,859.69 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        371.34,
+        122.78,
+        19.84
+      ],
+      "value": "4206.92 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "3692.04 USD",
+      "actual": "4206.92 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "actual": "LEISURE GOODS AND GAMES"
+    }
+  ]
+}

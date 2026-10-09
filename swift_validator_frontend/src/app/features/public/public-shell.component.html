@@ -1,0 +1,44 @@
+<nav class="topnav">
+  <div class="topnav-inner">
+    <a routerLink="/home" class="brand">
+      <span class="brand-icon"><i class="pi pi-verified"></i></span>
+      <span class="brand-text"><span class="brand-ai">LC</span> Validator</span>
+    </a>
+
+    <button class="mobile-toggle" (click)="menuOpen = !menuOpen">
+      <i class="pi" [class.pi-bars]="!menuOpen" [class.pi-times]="menuOpen"></i>
+    </button>
+
+    <ul class="nav-links" [class.open]="menuOpen">
+      <li><a routerLink="/home"     routerLinkActive="active" (click)="menuOpen=false">Accueil</a></li>
+      <li><a routerLink="/services" routerLinkActive="active" (click)="menuOpen=false">Services</a></li>
+      <li><a routerLink="/about"    routerLinkActive="active" (click)="menuOpen=false">À propos</a></li>
+      <li>
+        <a routerLink="/login" class="btn-login" (click)="menuOpen=false">
+          <i class="pi pi-sign-in"></i> Connexion
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main class="public-content">
+  <router-outlet />
+</main>
+
+<footer class="pub-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <i class="pi pi-verified"></i>
+      <strong>LC Validator</strong>
+      <p>Validation des crédits documentaires MT700 et de la cohérence des documents commerciaux</p>
+    </div>
+    <div class="footer-links">
+      <a routerLink="/home">Accueil</a>
+      <a routerLink="/services">Services</a>
+      <a routerLink="/about">À propos</a>
+      <a routerLink="/login">Connexion</a>
+    </div>
+    <p class="footer-copy">© 2025 LC Validator — Tous droits réservés</p>
+  </div>
+</footer>

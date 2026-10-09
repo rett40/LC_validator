@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00132",
+  "filename": "inv_hapaglloyd_0132_HLCUAHPJ075746308.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 132,
+  "fields": {
+    "invoice_number": "INV-2026-00132",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/CITI/0132/2026",
+    "bl_reference": "HLCUAHPJ075746308",
+    "seller_name": "CENTRAL PARTNERS LLC",
+    "buyer_name": "CENTRAL ENTERPRISES AG",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS858W",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "FOOTWEAR OF ALL TYPES",
+    "hs_code": "6404.11",
+    "quantity": 485,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "18,618.59",
+    "unit_price": 36.27,
+    "currency": "USD",
+    "total_amount": 17590.95,
+    "incoterm": "DDP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00132",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "HLCUAHPJ075746308",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "CENTRAL PARTNERS LLC\n8 HARBOR ROAD\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "CENTRAL ENTERPRISES AG\n765 HARBOR ROAD\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "CS858W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUAHPJ075746308",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "485",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 36.27",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 17,590.95",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 17,590.95",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "MUMBAI, INDIA",
+      "actual": "SINGAPORE"
+    }
+  ]
+}

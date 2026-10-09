@@ -1,0 +1,500 @@
+{
+  "id": 677,
+  "filename": "bl_bl-14_00677_MSCUNPMWG859088332.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNPMWG859088332",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPMWG859088332",
+    "shipper_name": "GLOBAL GROUP CO.",
+    "shipper_address": "791 PORT ACCESS ROAD",
+    "consignee_name": "INTERNATIONAL GROUP PLC",
+    "consignee_address": "288 MARKET STREET",
+    "notify_party_name": "PACIFIC LOGISTICS CO.",
+    "notify_party_address": "544 TRADE PARK",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6554",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "03 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "MSCU5629076",
+    "container_type": "20' DRY",
+    "seal_number": "26017GCA",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "326 PALLETS",
+    "gross_weight_kg": "69,843.20",
+    "measurement": "83.092 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU5629076",
+        "seal_number": "26017GCA",
+        "container_type": "20' DRY",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "326",
+          "type": "PALLETS",
+          "description": "326 PALLETS"
+        },
+        "gross_weight_kg": "15,200.45",
+        "net_weight_kg": "13,129.69",
+        "measurement": "33.849 CBM"
+      },
+      {
+        "container_number": "MAEU8000995",
+        "seal_number": "83AB4DCC",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "243",
+          "type": "BOXES",
+          "description": "243 BOXES"
+        },
+        "gross_weight_kg": "27,535.57",
+        "net_weight_kg": "23,580.72",
+        "measurement": "23.936 CBM"
+      },
+      {
+        "container_number": "MSCU0844907",
+        "seal_number": "A3C8165D",
+        "container_type": "40' DRY",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "190",
+          "type": "PALLETS",
+          "description": "190 PALLETS"
+        },
+        "gross_weight_kg": "27,107.18",
+        "net_weight_kg": "23,964.49",
+        "measurement": "25.307 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNPMWG859088332",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU5629076",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "26017GCA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '326', 'type': 'PALLETS', 'description': '326 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "15,200.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "33.849 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8000995",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "83AB4DCC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '243', 'type': 'BOXES', 'description': '243 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "27,535.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "23.936 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        205.51,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0844907",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "A3C8165D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        205.51,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        205.51,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '190', 'type': 'PALLETS', 'description': '190 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "27,107.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "25.307 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "AL6554",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL GROUP CO.\n791 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL GROUP PLC\n288 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC LOGISTICS CO.\n544 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

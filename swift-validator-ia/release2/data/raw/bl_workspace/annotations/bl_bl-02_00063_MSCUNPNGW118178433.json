@@ -1,0 +1,409 @@
+{
+  "id": 63,
+  "filename": "bl_bl-02_00063_MSCUNPNGW118178433.pdf",
+  "layout_id": "BL-02",
+  "bl_number": "MSCUNPNGW118178433",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPNGW118178433",
+    "shipper_name": "UNITED GROUP CO.",
+    "shipper_address": "969 HARBOR ROAD",
+    "consignee_name": "CENTRAL SOLUTIONS GMBH",
+    "consignee_address": "191 COMMERCE BOULEVARD",
+    "notify_party_name": "CENTRAL ENTERPRISES GMBH",
+    "notify_party_address": "820 MAIN STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-865",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "16 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "CMAU9661486",
+    "container_type": "40' REEFER",
+    "seal_number": "ECA0GFD9",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "35 BOXES",
+    "gross_weight_kg": "24,291.84",
+    "measurement": "89.978 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU9661486",
+        "seal_number": "ECA0GFD9",
+        "container_type": "40' REEFER",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "35",
+          "type": "BOXES",
+          "description": "35 BOXES"
+        },
+        "gross_weight_kg": "7,852.67",
+        "net_weight_kg": "4,573.51",
+        "measurement": "58.973 CBM"
+      },
+      {
+        "container_number": "MAEU3606879",
+        "seal_number": "1B4FCGGF",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "320",
+          "type": "CARTONS",
+          "description": "320 CARTONS"
+        },
+        "gross_weight_kg": "16,439.17",
+        "net_weight_kg": "13,001.73",
+        "measurement": "31.005 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNPNGW118178433",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED GROUP CO.\n969 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL SOLUTIONS GMBH\n191 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        209.76,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES GMBH\n820 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "E-865",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "16 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9661486",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "ECA0GFD9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '35', 'type': 'BOXES', 'description': '35 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "7,852.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "58.973 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3606879",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "1B4FCGGF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '320', 'type': 'CARTONS', 'description': '320 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "16,439.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "31.005 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        640.63,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        640.63,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

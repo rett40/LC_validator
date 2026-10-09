@@ -1,0 +1,351 @@
+{
+  "id": 696,
+  "filename": "bl_bl-18_00696_MSCUNEUNJ360222548.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNEUNJ360222548",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNEUNJ360222548",
+    "shipper_name": "FIRST TRADING GMBH",
+    "shipper_address": "400 MARKET STREET",
+    "consignee_name": "FIRST SHIPPING CO.",
+    "consignee_address": "100 MAIN STREET",
+    "notify_party_name": "ATLANTIC LOGISTICS CO.",
+    "notify_party_address": "26 COMMERCE BOULEVARD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE854N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "23 JUN 2026",
+    "eta": "26 JUL 2026",
+    "container_number": "OOLU4946467",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "5HFBA93B",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "495 CARTONS",
+    "gross_weight_kg": "10,492.28",
+    "measurement": "51.477 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU4946467",
+        "seal_number": "5HFBA93B",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "495",
+          "type": "CARTONS",
+          "description": "495 CARTONS"
+        },
+        "gross_weight_kg": "10,492.28",
+        "net_weight_kg": "8,490.72",
+        "measurement": "51.477 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNEUNJ360222548",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU4946467",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "5HFBA93B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '495', 'type': 'CARTONS', 'description': '495 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "10,492.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "51.477 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "400 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST TRADING GMBH\n400 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "100 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST SHIPPING CO.\n100 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "26 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC LOGISTICS CO.\n26 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        453.54,
+        201.04,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        453.54,
+        229.5,
+        34.02
+      ],
+      "value": "FE854N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        487.56,
+        202.39,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        369.85,
+        487.56,
+        204.16,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        521.57,
+        199.72,
+        34.02
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        376.52,
+        521.57,
+        197.49,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        555.59,
+        207.72,
+        34.02
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        365.41,
+        555.59,
+        208.6,
+        34.02
+      ],
+      "value": "26 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        598.11,
+        178.39,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        598.11,
+        201.5,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        626.46,
+        227.28,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        626.46,
+        219.72,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        654.8,
+        169.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

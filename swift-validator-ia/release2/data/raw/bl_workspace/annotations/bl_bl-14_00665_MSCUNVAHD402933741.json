@@ -1,0 +1,409 @@
+{
+  "id": 665,
+  "filename": "bl_bl-14_00665_MSCUNVAHD402933741.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNVAHD402933741",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVAHD402933741",
+    "shipper_name": "ATLANTIC ENTERPRISES BV",
+    "shipper_address": "879 MAIN STREET",
+    "consignee_name": "CENTRAL GROUP CORP",
+    "consignee_address": "917 COMMERCE BOULEVARD",
+    "notify_party_name": "PACIFIC SUPPLY CHAIN CORP",
+    "notify_party_address": "69 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE788S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "14 JUN 2026",
+    "eta": "12 JUL 2026",
+    "container_number": "TCKU0809486",
+    "container_type": "20' REEFER",
+    "seal_number": "GG4A0AGB",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "29 PALLETS",
+    "gross_weight_kg": "28,144.75",
+    "measurement": "60.881 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU0809486",
+        "seal_number": "GG4A0AGB",
+        "container_type": "20' REEFER",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "29",
+          "type": "PALLETS",
+          "description": "29 PALLETS"
+        },
+        "gross_weight_kg": "14,483.35",
+        "net_weight_kg": "11,918.85",
+        "measurement": "37.745 CBM"
+      },
+      {
+        "container_number": "TRHU8783775",
+        "seal_number": "BHBB6208",
+        "container_type": "40' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "295",
+          "type": "BOXES",
+          "description": "295 BOXES"
+        },
+        "gross_weight_kg": "13,661.40",
+        "net_weight_kg": "9,787.01",
+        "measurement": "23.136 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVAHD402933741",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0809486",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "GG4A0AGB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '29', 'type': 'PALLETS', 'description': '29 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "14,483.35",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "37.745 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8783775",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "BHBB6208",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '295', 'type': 'BOXES', 'description': '295 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "13,661.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "23.136 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "FE788S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "12 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC ENTERPRISES BV\n879 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL GROUP CORP\n917 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC SUPPLY CHAIN CORP\n69 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

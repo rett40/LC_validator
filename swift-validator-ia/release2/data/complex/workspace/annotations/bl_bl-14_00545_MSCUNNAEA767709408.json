@@ -1,0 +1,409 @@
+{
+  "id": 545,
+  "filename": "bl_bl-14_00545_MSCUNNAEA767709408.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNNAEA767709408",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNAEA767709408",
+    "shipper_name": "DELTA TRADING BV",
+    "shipper_address": "304 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST PARTNERS CORP",
+    "consignee_address": "499 TRADE PARK",
+    "notify_party_name": "DELTA COMMERCE LTD",
+    "notify_party_address": "580 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0347S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "25 MAY 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "OOLU3445300",
+    "container_type": "20' TANK",
+    "seal_number": "D7H9F4CB",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "322 BOXES",
+    "gross_weight_kg": "29,264.18",
+    "measurement": "71.084 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU3445300",
+        "seal_number": "D7H9F4CB",
+        "container_type": "20' TANK",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "322",
+          "type": "BOXES",
+          "description": "322 BOXES"
+        },
+        "gross_weight_kg": "20,986.90",
+        "net_weight_kg": "17,544.61",
+        "measurement": "50.040 CBM"
+      },
+      {
+        "container_number": "EISU3002236",
+        "seal_number": "4A8580H6",
+        "container_type": "40'DC",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "242",
+          "type": "CRATES",
+          "description": "242 CRATES"
+        },
+        "gross_weight_kg": "8,277.28",
+        "net_weight_kg": "6,225.60",
+        "measurement": "21.044 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNNAEA767709408",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU3445300",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "D7H9F4CB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '322', 'type': 'BOXES', 'description': '322 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "20,986.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "50.040 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "EISU3002236",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "4A8580H6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '242', 'type': 'CRATES', 'description': '242 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "8,277.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "21.044 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "0347S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        344.41,
+        298.51,
+        94.96
+      ],
+      "value": "DELTA TRADING BV\n304 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        342.99,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST PARTNERS CORP\n499 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        398.27,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA COMMERCE LTD\n580 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

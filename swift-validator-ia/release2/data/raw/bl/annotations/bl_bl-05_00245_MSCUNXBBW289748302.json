@@ -1,0 +1,318 @@
+{
+  "id": 245,
+  "filename": "bl_bl-05_00245_MSCUNXBBW289748302.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNXBBW289748302",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNXBBW289748302",
+    "shipper_name": "APEX LOGISTICS LTD",
+    "shipper_address": "854 COMMERCE BOULEVARD",
+    "consignee_name": "APEX COMMERCE INC",
+    "consignee_address": "456 MARKET STREET",
+    "notify_party_name": "DELTA COMMERCE LLC",
+    "notify_party_address": "920 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE83N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "10 MAY 2026",
+    "eta": "09 JUN 2026",
+    "container_number": "CMAU5869700",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "BE5E8C70",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "39 BOXES",
+    "gross_weight_kg": "21,419.08",
+    "measurement": "59.196 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU5869700",
+        "seal_number": "BE5E8C70",
+        "container_type": "40' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "39",
+          "type": "BOXES",
+          "description": "39 BOXES"
+        },
+        "gross_weight_kg": "21,419.08",
+        "net_weight_kg": "17,593.71",
+        "measurement": "59.196 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "21 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNXBBW289748302",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "APEX LOGISTICS LTD\n854 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "APEX COMMERCE INC\n456 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA COMMERCE LLC\n920 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU5869700",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "BE5E8C70",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '39', 'type': 'BOXES', 'description': '39 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "21,419.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "59.196 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "AE83N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        671.81,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

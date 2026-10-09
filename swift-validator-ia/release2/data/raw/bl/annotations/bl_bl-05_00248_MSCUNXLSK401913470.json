@@ -1,0 +1,318 @@
+{
+  "id": 248,
+  "filename": "bl_bl-05_00248_MSCUNXLSK401913470.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNXLSK401913470",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNXLSK401913470",
+    "shipper_name": "UNITED LOGISTICS AG",
+    "shipper_address": "953 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST LOGISTICS CORP",
+    "consignee_address": "614 COMMERCE BOULEVARD",
+    "notify_party_name": "GLOBAL INDUSTRIES AG",
+    "notify_party_address": "632 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0771W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "25 MAY 2026",
+    "eta": "08 JUN 2026",
+    "container_number": "TRHU1587069",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "6A8E82A5",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "90 BOXES",
+    "gross_weight_kg": "17,754.71",
+    "measurement": "59.827 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU1587069",
+        "seal_number": "6A8E82A5",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "90",
+          "type": "BOXES",
+          "description": "90 BOXES"
+        },
+        "gross_weight_kg": "17,754.71",
+        "net_weight_kg": "13,881.75",
+        "measurement": "59.827 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNXLSK401913470",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED LOGISTICS AG\n953 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS CORP\n614 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL INDUSTRIES AG\n632 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU1587069",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "6A8E82A5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '90', 'type': 'BOXES', 'description': '90 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "17,754.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "59.827 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "0771W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        671.81,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 234,
+  "filename": "bl_bl-05_00234_MSCUNMHGK678766502.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNMHGK678766502",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMHGK678766502",
+    "shipper_name": "INTERNATIONAL PARTNERS LLC",
+    "shipper_address": "899 MARKET STREET",
+    "consignee_name": "ATLANTIC COMMERCE PLC",
+    "consignee_address": "433 MARKET STREET",
+    "notify_party_name": "GLOBAL SHIPPING PLC",
+    "notify_party_address": "271 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS578E",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "09 JUN 2026",
+    "eta": "10 JUL 2026",
+    "container_number": "TCKU0161796",
+    "container_type": "40' DRY",
+    "seal_number": "G28DE2A0",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "73 BAGS",
+    "gross_weight_kg": "21,698.41",
+    "measurement": "88.207 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU0161796",
+        "seal_number": "G28DE2A0",
+        "container_type": "40' DRY",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "73",
+          "type": "BAGS",
+          "description": "73 BAGS"
+        },
+        "gross_weight_kg": "5,497.82",
+        "net_weight_kg": "2,947.44",
+        "measurement": "56.066 CBM"
+      },
+      {
+        "container_number": "CMAU2538648",
+        "seal_number": "G8D513D5",
+        "container_type": "20' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "365",
+          "type": "PALLETS",
+          "description": "365 PALLETS"
+        },
+        "gross_weight_kg": "16,200.59",
+        "net_weight_kg": "13,577.47",
+        "measurement": "32.141 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "22 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNMHGK678766502",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL PARTNERS LLC\n899 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC COMMERCE PLC\n433 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL SHIPPING PLC\n271 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0161796",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "G28DE2A0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '73', 'type': 'BAGS', 'description': '73 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "5,497.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "56.066 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2538648",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "G8D513D5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '365', 'type': 'PALLETS', 'description': '365 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "16,200.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "32.141 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "CS578E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        708.66,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

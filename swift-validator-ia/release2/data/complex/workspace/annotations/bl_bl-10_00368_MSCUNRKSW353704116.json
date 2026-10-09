@@ -1,0 +1,512 @@
+{
+  "id": 368,
+  "filename": "bl_bl-10_00368_MSCUNRKSW353704116.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNRKSW353704116",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRKSW353704116",
+    "shipper_name": "EURO LOGISTICS AG",
+    "shipper_address": "143 PORT ACCESS ROAD",
+    "consignee_name": "DELTA SOLUTIONS INC",
+    "consignee_address": "462 TRADE PARK",
+    "notify_party_name": "PACIFIC SOLUTIONS INC",
+    "notify_party_address": "890 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL3215",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "21 MAY 2026",
+    "eta": "04 JUN 2026",
+    "container_number": "EISU7197130",
+    "container_type": "20' TANK",
+    "seal_number": "B5H1CH86",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": "249 DRUMS",
+    "gross_weight_kg": "50,289.85",
+    "measurement": "160.436 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7197130",
+        "seal_number": "B5H1CH86",
+        "container_type": "20' TANK",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "249",
+          "type": "DRUMS",
+          "description": "249 DRUMS"
+        },
+        "gross_weight_kg": "10,065.58",
+        "net_weight_kg": "7,868.12",
+        "measurement": "45.777 CBM"
+      },
+      {
+        "container_number": "EISU1321472",
+        "seal_number": "D3F068D7",
+        "container_type": "20' REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "173",
+          "type": "PALLETS",
+          "description": "173 PALLETS"
+        },
+        "gross_weight_kg": "26,920.95",
+        "net_weight_kg": "24,906.84",
+        "measurement": "65.380 CBM"
+      },
+      {
+        "container_number": "OOLU7034704",
+        "seal_number": "1CF80E0E",
+        "container_type": "20'OT",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "321",
+          "type": "DRUMS",
+          "description": "321 DRUMS"
+        },
+        "gross_weight_kg": "13,303.32",
+        "net_weight_kg": "10,908.55",
+        "measurement": "49.279 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNRKSW353704116",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "EISU7197130",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "B5H1CH86",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "249",
+        "type": "DRUMS",
+        "description": "249 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "10,065.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "45.777 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "EISU1321472",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "D3F068D7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "173",
+        "type": "PALLETS",
+        "description": "173 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "26,920.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "65.380 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        186.52,
+        261.78,
+        12.76
+      ],
+      "value": "OOLU7034704",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        204.38,
+        117.8,
+        6.8
+      ],
+      "value": "1CF80E0E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        213.45,
+        117.8,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        222.52,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "321",
+        "type": "DRUMS",
+        "description": "321 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        231.59,
+        117.8,
+        6.8
+      ],
+      "value": "13,303.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        240.66,
+        117.8,
+        6.8
+      ],
+      "value": "49.279 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        204.17,
+        104.71,
+        31.96
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        253.98,
+        528.66,
+        55.28
+      ],
+      "value": "EURO LOGISTICS AG\n143 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        309.26,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA SOLUTIONS INC\n462 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        364.54,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC SOLUTIONS INC\n890 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        94.35,
+        428.31,
+        205.41,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        339.56,
+        428.31,
+        224.54,
+        34.02
+      ],
+      "value": "AL3215",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        462.33,
+        197.43,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        378.22,
+        462.33,
+        185.87,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        496.35,
+        181.42,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        384.89,
+        496.35,
+        179.2,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        530.36,
+        241.88,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        321.77,
+        530.36,
+        242.32,
+        34.02
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        572.88,
+        222.77,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        364.45,
+        572.88,
+        199.64,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        601.23,
+        210.31,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        348.44,
+        601.23,
+        215.65,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        629.57,
+        184.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

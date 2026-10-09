@@ -1,0 +1,318 @@
+{
+  "id": 673,
+  "filename": "bl_bl-14_00673_MSCUNZNNL106544896.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNZNNL106544896",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNZNNL106544896",
+    "shipper_name": "ATLANTIC SUPPLY CHAIN LTD",
+    "shipper_address": "930 MARKET STREET",
+    "consignee_name": "PREMIER SUPPLY CHAIN CO.",
+    "consignee_address": "201 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX GROUP S.A.",
+    "notify_party_address": "437 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL9589",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "24 MAY 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "MSCU2319904",
+    "container_type": "40' DRY",
+    "seal_number": "B9480C2D",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "225 PACKAGES",
+    "gross_weight_kg": "24,036.47",
+    "measurement": "35.875 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU2319904",
+        "seal_number": "B9480C2D",
+        "container_type": "40' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "225",
+          "type": "PACKAGES",
+          "description": "225 PACKAGES"
+        },
+        "gross_weight_kg": "24,036.47",
+        "net_weight_kg": "21,803.14",
+        "measurement": "35.875 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNZNNL106544896",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2319904",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "B9480C2D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '225', 'type': 'PACKAGES', 'description': '225 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "24,036.47",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "35.875 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "AL9589",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LTD\n930 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN CO.\n201 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "APEX GROUP S.A.\n437 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

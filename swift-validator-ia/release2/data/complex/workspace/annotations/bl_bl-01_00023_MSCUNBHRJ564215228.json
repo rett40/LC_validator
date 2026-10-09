@@ -1,0 +1,322 @@
+{
+  "id": 23,
+  "filename": "bl_bl-01_00023_MSCUNBHRJ564215228.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNBHRJ564215228",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNBHRJ564215228",
+    "shipper_name": "PREMIER SOLUTIONS INC",
+    "shipper_address": "194 PORT ACCESS ROAD",
+    "consignee_name": "INTERNATIONAL TRADING CORP",
+    "consignee_address": "785 MAIN STREET",
+    "notify_party_name": "ATLANTIC COMMERCE LLC",
+    "notify_party_address": "609 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5574",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "22 JUN 2026",
+    "eta": "24 JUL 2026",
+    "container_number": "HLCU7719299",
+    "container_type": "20' REEFER",
+    "seal_number": "F24FFC3D",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "234 CARTONS",
+    "gross_weight_kg": "10,628.89",
+    "measurement": "33.207 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7719299",
+        "seal_number": "F24FFC3D",
+        "container_type": "20' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "234",
+          "type": "CARTONS",
+          "description": "234 CARTONS"
+        },
+        "gross_weight_kg": "10,628.89",
+        "net_weight_kg": "8,540.41",
+        "measurement": "33.207 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNBHRJ564215228",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "PREMIER SOLUTIONS INC\n194 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "INTERNATIONAL TRADING CORP\n785 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC COMMERCE LLC\n609 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "AL5574",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "24 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        535.75,
+        12.76
+      ],
+      "value": "HLCU7719299",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        241.09,
+        6.8
+      ],
+      "value": "F24FFC3D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        241.09,
+        6.8
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "234",
+        "type": "CARTONS",
+        "description": "234 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        241.09,
+        6.8
+      ],
+      "value": "10,628.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        241.09,
+        6.8
+      ],
+      "value": "33.207 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        440.01,
+        214.3,
+        31.96
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

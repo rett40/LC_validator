@@ -1,0 +1,353 @@
+{
+  "id": 90,
+  "filename": "bl_bl-20_00090_MSCUNZZLF741013321.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNZZLF741013321",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNZZLF741013321",
+    "shipper": {
+      "name": "TRANS GROUP LLC",
+      "address": "16 MARKET STREET",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "TRANS GROUP LLC\n16 MARKET STREET\nSHANGHAI, CHINA 200120"
+    },
+    "consignee": {
+      "name": "ATLANTIC INDUSTRIES BV",
+      "address": "882 PORT ACCESS ROAD",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "ATLANTIC INDUSTRIES BV\n882 PORT ACCESS ROAD\nNEW YORK, USA NY 10001"
+    },
+    "notify_party": {
+      "name": "INTERNATIONAL GROUP BV",
+      "address": "286 TRADE PARK",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "INTERNATIONAL GROUP BV\n286 TRADE PARK\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "MSC OSCAR",
+    "voyage": "FE112N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "04 JUN 2026",
+    "eta": "27 JUN 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "HLCU1988702",
+    "container_type": "40' REEFER",
+    "seal_number": "541H0705",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": {
+      "count": "116",
+      "type": "PACKAGES",
+      "description": "116 PACKAGES"
+    },
+    "gross_weight_kg": "6,580.90",
+    "net_weight_kg": "2,850.72",
+    "gross_weight_lbs": "14,508.38",
+    "measurement": "53.281 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1988702",
+        "seal_number": "541H0705",
+        "container_type": "40' REEFER",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "116",
+          "type": "PACKAGES",
+          "description": "116 PACKAGES"
+        },
+        "gross_weight_kg": "6,580.90",
+        "net_weight_kg": "2,850.72",
+        "measurement": "53.281 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT COLLECT",
+    "incoterm": "CIP",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "HLCU1988702\n541H0705\nHAMBURG"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNZZLF741013321",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "FE112N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS GROUP LLC\n16 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "ATLANTIC INDUSTRIES BV\n882 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL GROUP BV\n286 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU1988702",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "541H0705",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '116', 'type': 'PACKAGES', 'description': '116 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "6,580.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "53.281 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

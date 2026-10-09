@@ -1,0 +1,353 @@
+{
+  "id": 74,
+  "filename": "bl_bl-15_00074_MSCUNMNDX622807822.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNMNDX622807822",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNMNDX622807822",
+    "shipper": {
+      "name": "EURO TRADING PLC",
+      "address": "930 INDUSTRIAL AVENUE",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "EURO TRADING PLC\n930 INDUSTRIAL AVENUE\nANTWERP, BELGIUM 2000"
+    },
+    "consignee": {
+      "name": "APEX PARTNERS LTD",
+      "address": "152 INDUSTRIAL AVENUE",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "APEX PARTNERS LTD\n152 INDUSTRIAL AVENUE\nLOS ANGELES, USA CA 90001"
+    },
+    "notify_party": {
+      "name": "ATLANTIC SUPPLY CHAIN INC",
+      "address": "298 COMMERCE BOULEVARD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "ATLANTIC SUPPLY CHAIN INC\n298 COMMERCE BOULEVARD\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0614W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "15 JUN 2026",
+    "eta": "03 JUL 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "EISU2113786",
+    "container_type": "40' DRY",
+    "seal_number": "87HH0BFB",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": {
+      "count": "96",
+      "type": "BAGS",
+      "description": "96 BAGS"
+    },
+    "gross_weight_kg": "11,121.89",
+    "net_weight_kg": "7,912.04",
+    "gross_weight_lbs": "24,519.54",
+    "measurement": "53.202 CBM",
+    "containers": [
+      {
+        "container_number": "EISU2113786",
+        "seal_number": "87HH0BFB",
+        "container_type": "40' DRY",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "96",
+          "type": "BAGS",
+          "description": "96 BAGS"
+        },
+        "gross_weight_kg": "11,121.89",
+        "net_weight_kg": "7,912.04",
+        "measurement": "53.202 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "FOB",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "EISU2113786\n87HH0BFB\nNEW YORK"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNMNDX622807822",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "EURO TRADING PLC\n930 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "APEX PARTNERS LTD\n152 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN INC\n298 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0614W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "EISU2113786",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "87HH0BFB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '96', 'type': 'BAGS', 'description': '96 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "11,121.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "53.202 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

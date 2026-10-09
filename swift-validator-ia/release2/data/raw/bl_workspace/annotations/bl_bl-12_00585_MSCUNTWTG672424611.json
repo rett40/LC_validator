@@ -1,0 +1,318 @@
+{
+  "id": 585,
+  "filename": "bl_bl-12_00585_MSCUNTWTG672424611.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNTWTG672424611",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNTWTG672424611",
+    "shipper_name": "CENTRAL SHIPPING AG",
+    "shipper_address": "624 HARBOR ROAD",
+    "consignee_name": "PACIFIC SHIPPING GMBH",
+    "consignee_address": "664 HARBOR ROAD",
+    "notify_party_name": "INTERNATIONAL SHIPPING LLC",
+    "notify_party_address": "698 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE87S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "10 MAY 2026",
+    "eta": "27 MAY 2026",
+    "container_number": "TCKU2889070",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "8H2FE430",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "107 PALLETS",
+    "gross_weight_kg": "23,497.11",
+    "measurement": "39.826 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU2889070",
+        "seal_number": "8H2FE430",
+        "container_type": "20' FLAT RACK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "107",
+          "type": "PALLETS",
+          "description": "107 PALLETS"
+        },
+        "gross_weight_kg": "23,497.11",
+        "net_weight_kg": "20,571.62",
+        "measurement": "39.826 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "21 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNTWTG672424611",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "CENTRAL SHIPPING AG\n624 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC SHIPPING GMBH\n664 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL SHIPPING LLC\n698 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU2889070",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "8H2FE430",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '107', 'type': 'PALLETS', 'description': '107 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "23,497.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "39.826 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "AE87S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        681.73,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

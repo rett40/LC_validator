@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00158",
+  "filename": "inv_inv-04_00158.pdf",
+  "layout_id": "INV-04",
+  "bl_id": 158,
+  "fields": {
+    "invoice_number": "INV-2026-00158",
+    "invoice_date": "23 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0158/2026",
+    "bl_reference": "MSCUNSUWK057222858",
+    "seller_name": "UNITED INDUSTRIES PLC",
+    "buyer_name": "PACIFIC SHIPPING CO.",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE571N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "FOOTWEAR OF ALL TYPES",
+    "hs_code": "6404.11",
+    "quantity": 231,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "12,766.15",
+    "unit_price": 38.26,
+    "currency": "USD",
+    "total_amount": 8838.03,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00158",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "LC/BARCLAYS/0158/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNSUWK057222858",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        188.5,
+        172.35,
+        42.52
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        188.5,
+        64.63,
+        42.52
+      ],
+      "value": "6404.11",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        188.5,
+        53.86,
+        42.52
+      ],
+      "value": "231",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        188.5,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        188.5,
+        96.94,
+        42.52
+      ],
+      "value": "38.26 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        188.5,
+        96.94,
+        42.52
+      ],
+      "value": "8838.03 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        239.53,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        239.53,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        327.4,
+        121.18,
+        19.84
+      ],
+      "value": "12,766.15 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        347.24,
+        121.18,
+        19.84
+      ],
+      "value": "8838.03 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        375.59,
+        179.53,
+        25.51
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        375.59,
+        179.53,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "9438.66 USD",
+      "actual": "8838.03 USD"
+    }
+  ]
+}

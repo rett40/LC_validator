@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00396",
+  "filename": "inv_inv-10_00396.pdf",
+  "layout_id": "INV-10",
+  "bl_id": 396,
+  "fields": {
+    "invoice_number": "INV-2026-00396",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/DB/0396/2026",
+    "bl_reference": "MSCUNMGKX964647874",
+    "seller_name": "UNITED GROUP INC",
+    "buyer_name": "PACIFIC COMMERCE S.A.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS453N",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "CLOTHING AND ACCESSORIES",
+    "hs_code": "8428.90",
+    "quantity": 472,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "16,447.25",
+    "unit_price": 550.4,
+    "currency": "USD",
+    "total_amount": 259787.63,
+    "incoterm": "FOB",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        211.46,
+        27.78
+      ],
+      "value": "INV-2026-00396",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        120.47,
+        306.62,
+        56.69
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        384.95,
+        120.47,
+        68.12,
+        28.35
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        475.97,
+        120.47,
+        88.12,
+        28.35
+      ],
+      "value": 472,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        367.17,
+        148.82,
+        85.91,
+        28.35
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        504.86,
+        148.82,
+        59.23,
+        28.35
+      ],
+      "value": "550.4 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        326.2,
+        182.83,
+        237.9,
+        25.51
+      ],
+      "value": "259787.63 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        98.34,
+        216.85,
+        201.43,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        335.11,
+        216.85,
+        228.99,
+        28.35
+      ],
+      "value": "LC/DB/0396/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        105.45,
+        245.2,
+        194.31,
+        28.35
+      ],
+      "value": "MSCUNMGKX964647874",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        334.21,
+        245.2,
+        229.88,
+        28.35
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        133.0,
+        273.54,
+        166.76,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.54,
+        273.54,
+        212.55,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        310.39,
+        528.66,
+        52.44
+      ],
+      "value": "UNITED GROUP INC\nUNITED GROUP INC\n518 HARBOR ROAD\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        35.43,
+        362.83,
+        528.66,
+        52.44
+      ],
+      "value": "PACIFIC COMMERCE S.A.\nPACIFIC COMMERCE S.A.\n873 HARBOR ROAD\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.15,
+        423.78,
+        118.95,
+        19.84
+      ],
+      "value": "16,447.25 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.15,
+        443.62,
+        118.95,
+        19.84
+      ],
+      "value": "259787.63 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        110.78,
+        471.97,
+        188.99,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        348.88,
+        471.97,
+        215.22,
+        25.51
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "NINGBO, CHINA",
+      "actual": "LE HAVRE, FRANCE"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "243693.60 USD",
+      "actual": "259787.63 USD"
+    }
+  ]
+}

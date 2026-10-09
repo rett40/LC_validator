@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00232",
+  "filename": "inv_inv-06_00232.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 232,
+  "fields": {
+    "invoice_number": "INV-2026-00232",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DBS/0232/2026",
+    "bl_reference": "MSCUNJVMG389513792",
+    "seller_name": "FIRST TRADING CO.",
+    "buyer_name": "CENTRAL LOGISTICS CORP",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0502E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "VEHICLE COMPONENTS AND SPARES",
+    "hs_code": "8708.99",
+    "quantity": 40,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "18,624.40",
+    "unit_price": 130.89,
+    "currency": "USD",
+    "total_amount": 5235.6,
+    "incoterm": "EXW",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00232",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        104.63,
+        120.47,
+        110.33,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        260.16,
+        120.47,
+        134.33,
+        28.35
+      ],
+      "value": "LC/DBS/0232/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        468.49,
+        120.47,
+        105.53,
+        28.35
+      ],
+      "value": "MSCUNJVMG389513792",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        114.23,
+        148.82,
+        100.73,
+        28.35
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        288.96,
+        148.82,
+        105.53,
+        28.35
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        420.49,
+        148.82,
+        153.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST TRADING CO.\nFIRST TRADING CO.\n275 HARBOR ROAD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL LOGISTICS CORP\nCENTRAL LOGISTICS CORP\n690 MAIN BOULEVARD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        289.13,
+        172.35,
+        42.52
+      ],
+      "value": "VEHICLE COMPONENTS AND SPARES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        289.13,
+        64.63,
+        42.52
+      ],
+      "value": "8708.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "40",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "130.89 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "5235.6 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "18,624.40 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "5235.6 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        109.43,
+        388.35,
+        105.53,
+        25.51
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        264.96,
+        388.35,
+        129.53,
+        25.51
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "actual": "VEHICLE COMPONENTS AND SPARES"
+    }
+  ]
+}

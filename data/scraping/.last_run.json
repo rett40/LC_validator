@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-05-11T13:37:57.308326Z",
+  "success": true,
+  "refresh_every": "30 jours",
+  "data_dir": "data\\scraping",
+  "stats": {
+    "skipped": false,
+    "month": "2026-05",
+    "total_countries": 249,
+    "critical": 9,
+    "high": 25,
+    "medium": 18,
+    "low": 197,
+    "validation": {
+      "country_errors": 0,
+      "currency_errors": 4,
+      "warnings": 0,
+      "missing_currency": 1
+    },
+    "output_dir": "data\\scraping",
+    "archive_dir": "data\\scraping\\archive",
+    "latest_dir": "data\\scraping\\latest",
+    "files": {
+      "csv_archive": "data\\scraping\\archive\\country_risk_2026-05.csv",
+      "json_archive": "data\\scraping\\archive\\country_risk_2026-05.json",
+      "report_archive": "data\\scraping\\archive\\validation_report_2026-05.json",
+      "csv_latest": "data\\scraping\\latest\\country_risk_latest.csv",
+      "json_latest": "data\\scraping\\latest\\country_risk_latest.json",
+      "report_latest": "data\\scraping\\latest\\validation_report_latest.json",
+      "summary_latest": "data\\scraping\\latest\\summary_latest.txt"
+    }
+  }
+}

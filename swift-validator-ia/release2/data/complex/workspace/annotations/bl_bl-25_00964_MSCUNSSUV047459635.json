@@ -1,0 +1,417 @@
+{
+  "id": 964,
+  "filename": "bl_bl-25_00964_MSCUNSSUV047459635.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNSSUV047459635",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSSUV047459635",
+    "shipper_name": "FIRST SOLUTIONS LTD",
+    "shipper_address": "760 HARBOR ROAD",
+    "consignee_name": "ATLANTIC LOGISTICS S.A.",
+    "consignee_address": "487 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED TRADING LTD",
+    "notify_party_address": "518 HARBOR ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS272W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "23 JUN 2026",
+    "eta": "21 JUL 2026",
+    "container_number": "CMAU2584155",
+    "container_type": "40'RF",
+    "seal_number": "2B5F4E4G",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "349 PALLETS",
+    "gross_weight_kg": "29,494.89",
+    "measurement": "112.879 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2584155",
+        "seal_number": "2B5F4E4G",
+        "container_type": "40'RF",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "349",
+          "type": "PALLETS",
+          "description": "349 PALLETS"
+        },
+        "gross_weight_kg": "8,329.72",
+        "net_weight_kg": "4,495.39",
+        "measurement": "45.344 CBM"
+      },
+      {
+        "container_number": "OOLU0643124",
+        "seal_number": "6D5GF382",
+        "container_type": "40' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "79",
+          "type": "BOXES",
+          "description": "79 BOXES"
+        },
+        "gross_weight_kg": "21,165.17",
+        "net_weight_kg": "19,080.89",
+        "measurement": "67.535 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNSSUV047459635",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "CMAU2584155",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "2B5F4E4G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "349",
+        "type": "PALLETS",
+        "description": "349 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "8,329.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "45.344 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "OOLU0643124",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "6D5GF382",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "79",
+        "type": "BOXES",
+        "description": "79 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "21,165.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "67.535 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "CS272W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "21 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "FIRST SOLUTIONS LTD\n760 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC LOGISTICS S.A.\n487 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "UNITED TRADING LTD\n518 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

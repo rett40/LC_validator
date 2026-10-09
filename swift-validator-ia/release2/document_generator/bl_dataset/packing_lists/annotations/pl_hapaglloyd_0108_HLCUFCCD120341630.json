@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00108",
+  "filename": "pl_hapaglloyd_0108_HLCUFCCD120341630.pdf",
+  "style": "TealPLRenderer",
+  "bl_id": 108,
+  "fields": {
+    "pl_number": "PL-2026-00108",
+    "pl_date": "17 APR 2026",
+    "inv_reference": "INV-2026-00108",
+    "bl_reference": "HLCUFCCD120341630",
+    "exporter_name": "DELTA TRADING BV",
+    "consignee_name": "DELTA INDUSTRIES AG",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE89W",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "container_number": "MSCU1910759",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "H62HA7AH",
+    "goods_description": "LITHIUM-ION BATTERIES",
+    "package_unit": "CRATES",
+    "total_packages": 106,
+    "net_weight_kg": "5,935.42",
+    "gross_weight_kg": "7,048.16",
+    "total_cbm": 34.305
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "PL-2026-00108",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "HLCUFCCD120341630",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "DELTA TRADING BV\n859 INDUSTRIAL AVENUE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "DELTA INDUSTRIES AG\n49 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "AE89W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "MSCU1910759",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "H62HA7AH",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUFCCD120341630",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        277.8,
+        136.06,
+        48.19
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        277.8,
+        56.69,
+        48.19
+      ],
+      "value": "106",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "5,935.42",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "7,048.16",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        277.8,
+        73.7,
+        48.19
+      ],
+      "value": "34.305",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        331.65,
+        242.36,
+        62.36
+      ],
+      "value": "7,048.16",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        377.01,
+        121.18,
+        17.01
+      ],
+      "value": "106",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "6,216.11",
+      "actual": "7,048.16"
+    },
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "MSCU1910729",
+      "actual": "MSCU1910759"
+    }
+  ]
+}

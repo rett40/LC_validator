@@ -1,0 +1,318 @@
+{
+  "id": 560,
+  "filename": "bl_bl-12_00560_MSCUNBNVG200701821.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNBNVG200701821",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNBNVG200701821",
+    "shipper_name": "TRANS ENTERPRISES CO.",
+    "shipper_address": "30 COMMERCE BOULEVARD",
+    "consignee_name": "PREMIER COMMERCE CO.",
+    "consignee_address": "396 MAIN STREET",
+    "notify_party_name": "APEX TRADING CO.",
+    "notify_party_address": "410 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE77E",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "20 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "MSCU6266474",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "33EDCE0H",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "355 PALLETS",
+    "gross_weight_kg": "9,993.09",
+    "measurement": "52.976 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU6266474",
+        "seal_number": "33EDCE0H",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "355",
+          "type": "PALLETS",
+          "description": "355 PALLETS"
+        },
+        "gross_weight_kg": "9,993.09",
+        "net_weight_kg": "6,944.76",
+        "measurement": "52.976 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNBNVG200701821",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS ENTERPRISES CO.\n30 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER COMMERCE CO.\n396 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "APEX TRADING CO.\n410 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU6266474",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "33EDCE0H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '355', 'type': 'PALLETS', 'description': '355 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "9,993.09",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "52.976 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "AE77E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        681.73,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 227,
+  "filename": "bl_bl-05_00227_MSCUNESHS741968469.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNESHS741968469",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNESHS741968469",
+    "shipper_name": "PREMIER INDUSTRIES PLC",
+    "shipper_address": "319 MAIN STREET",
+    "consignee_name": "FIRST COMMERCE INC",
+    "consignee_address": "599 INDUSTRIAL AVENUE",
+    "notify_party_name": "TRANS GROUP S.A.",
+    "notify_party_address": "487 COMMERCE BOULEVARD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL9267",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "19 MAY 2026",
+    "eta": "07 JUN 2026",
+    "container_number": "HLCU1985334",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "B463AHHB",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "365 CRATES",
+    "gross_weight_kg": "25,615.62",
+    "measurement": "107.444 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1985334",
+        "seal_number": "B463AHHB",
+        "container_type": "20' FLAT RACK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "365",
+          "type": "CRATES",
+          "description": "365 CRATES"
+        },
+        "gross_weight_kg": "9,500.11",
+        "net_weight_kg": "5,628.95",
+        "measurement": "53.950 CBM"
+      },
+      {
+        "container_number": "EISU9054849",
+        "seal_number": "FG215D3A",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "46",
+          "type": "PALLETS",
+          "description": "46 PALLETS"
+        },
+        "gross_weight_kg": "16,115.51",
+        "net_weight_kg": "13,001.53",
+        "measurement": "53.494 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNESHS741968469",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER INDUSTRIES PLC\n319 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST COMMERCE INC\n599 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS GROUP S.A.\n487 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU1985334",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "B463AHHB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '365', 'type': 'CRATES', 'description': '365 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "9,500.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "53.950 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9054849",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "FG215D3A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '46', 'type': 'PALLETS', 'description': '46 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "16,115.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "53.494 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "AL9267",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        708.66,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

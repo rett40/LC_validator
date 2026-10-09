@@ -1,0 +1,533 @@
+{
+  "id": 614,
+  "filename": "bl_bl-13_00614_MSCUNSCBP441826514.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNSCBP441826514",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSCBP441826514",
+    "shipper_name": "EURO INDUSTRIES INC",
+    "shipper_address": "895 HARBOR ROAD",
+    "consignee_name": "CENTRAL SOLUTIONS AG",
+    "consignee_address": "949 TRADE PARK",
+    "notify_party_name": "INTERNATIONAL SOLUTIONS CO.",
+    "notify_party_address": "253 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE46W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "22 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "MAEU8850266",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "CH99A3E2",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "472 DRUMS",
+    "gross_weight_kg": "47,563.79",
+    "measurement": "151.188 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU8850266",
+        "seal_number": "CH99A3E2",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "472",
+          "type": "DRUMS",
+          "description": "472 DRUMS"
+        },
+        "gross_weight_kg": "14,028.96",
+        "net_weight_kg": "11,515.03",
+        "measurement": "35.395 CBM"
+      },
+      {
+        "container_number": "OOLU5757986",
+        "seal_number": "6D6GB72D",
+        "container_type": "20' TANK",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "376",
+          "type": "BAGS",
+          "description": "376 BAGS"
+        },
+        "gross_weight_kg": "20,639.26",
+        "net_weight_kg": "16,786.04",
+        "measurement": "59.848 CBM"
+      },
+      {
+        "container_number": "TCKU4913063",
+        "seal_number": "91D0BDGD",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "411",
+          "type": "CRATES",
+          "description": "411 CRATES"
+        },
+        "gross_weight_kg": "12,895.57",
+        "net_weight_kg": "9,882.18",
+        "measurement": "55.945 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNSCBP441826514",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "895 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "EURO INDUSTRIES INC\n895 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "949 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "CENTRAL SOLUTIONS AG\n949 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "253 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "INTERNATIONAL SOLUTIONS CO.\n253 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "AE46W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        283.46,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8850266",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "CH99A3E2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        283.46,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        283.46,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '472', 'type': 'DRUMS', 'description': '472 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "14,028.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "35.395 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        320.31,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU5757986",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "6D6GB72D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        320.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        320.31,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '376', 'type': 'BAGS', 'description': '376 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "20,639.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "59.848 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        357.17,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU4913063",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "91D0BDGD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        357.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        357.17,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '411', 'type': 'CRATES', 'description': '411 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "12,895.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "55.945 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        437.95,
+        134.65,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

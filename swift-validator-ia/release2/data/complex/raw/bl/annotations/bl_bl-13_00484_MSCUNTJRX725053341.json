@@ -1,0 +1,322 @@
+{
+  "id": 484,
+  "filename": "bl_bl-13_00484_MSCUNTJRX725053341.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNTJRX725053341",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNTJRX725053341",
+    "shipper_name": "DELTA SUPPLY CHAIN S.A.",
+    "shipper_address": "91 PORT ACCESS ROAD",
+    "consignee_name": "APEX TRADING LTD",
+    "consignee_address": "66 HARBOR ROAD",
+    "notify_party_name": "DELTA COMMERCE GMBH",
+    "notify_party_address": "24 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0521N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "21 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "TCKU9156918",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "FFFHD6A0",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "209 BOXES",
+    "gross_weight_kg": "12,756.97",
+    "measurement": "48.932 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9156918",
+        "seal_number": "FFFHD6A0",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "209",
+          "type": "BOXES",
+          "description": "209 BOXES"
+        },
+        "gross_weight_kg": "12,756.97",
+        "net_weight_kg": "10,019.62",
+        "measurement": "48.932 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNTJRX725053341",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        75.12,
+        535.75,
+        55.28
+      ],
+      "value": "DELTA SUPPLY CHAIN S.A.\n91 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        130.39,
+        535.75,
+        55.28
+      ],
+      "value": "APEX TRADING LTD\n66 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        185.67,
+        535.75,
+        55.28
+      ],
+      "value": "DELTA COMMERCE GMBH\n24 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        93.35,
+        256.54,
+        68.94,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        204.78,
+        256.54,
+        91.44,
+        34.02
+      ],
+      "value": "0521N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        374.72,
+        256.54,
+        55.44,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        513.16,
+        256.54,
+        50.94,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        124.85,
+        290.55,
+        37.44,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        263.28,
+        290.55,
+        32.94,
+        34.02
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        370.22,
+        290.55,
+        59.94,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        495.16,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        342.99,
+        535.75,
+        12.76
+      ],
+      "value": "TCKU9156918",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        360.85,
+        241.09,
+        6.8
+      ],
+      "value": "FFFHD6A0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        369.92,
+        241.09,
+        6.8
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        378.99,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "209",
+        "type": "BOXES",
+        "description": "209 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        388.06,
+        241.09,
+        6.8
+      ],
+      "value": "12,756.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        397.13,
+        241.09,
+        6.8
+      ],
+      "value": "48.932 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        360.64,
+        214.3,
+        31.96
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.85,
+        417.54,
+        55.44,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        204.78,
+        417.54,
+        91.44,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        365.72,
+        417.54,
+        64.44,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        481.66,
+        417.54,
+        82.44,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        124.85,
+        445.89,
+        37.44,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

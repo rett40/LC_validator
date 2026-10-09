@@ -1,0 +1,409 @@
+{
+  "id": 1035,
+  "filename": "bl_bl-21_01035_MSCUNTNKA359585718.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNTNKA359585718",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTNKA359585718",
+    "shipper_name": "PREMIER PARTNERS INC",
+    "shipper_address": "306 MAIN STREET",
+    "consignee_name": "FIRST INDUSTRIES LLC",
+    "consignee_address": "30 TRADE PARK",
+    "notify_party_name": "DELTA PARTNERS AG",
+    "notify_party_address": "357 INDUSTRIAL AVENUE",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0162E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "07 MAY 2026",
+    "eta": "06 JUN 2026",
+    "container_number": "OOLU1714864",
+    "container_type": "40' REEFER",
+    "seal_number": "174H3F10",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "340 CARTONS",
+    "gross_weight_kg": "29,591.90",
+    "measurement": "80.061 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU1714864",
+        "seal_number": "174H3F10",
+        "container_type": "40' REEFER",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "340",
+          "type": "CARTONS",
+          "description": "340 CARTONS"
+        },
+        "gross_weight_kg": "17,436.64",
+        "net_weight_kg": "15,035.88",
+        "measurement": "41.049 CBM"
+      },
+      {
+        "container_number": "TCKU0820474",
+        "seal_number": "82BA0E4E",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "183",
+          "type": "BAGS",
+          "description": "183 BAGS"
+        },
+        "gross_weight_kg": "12,155.26",
+        "net_weight_kg": "8,650.92",
+        "measurement": "39.012 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "27 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNTNKA359585718",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER PARTNERS INC\n306 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES LLC\n30 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA PARTNERS AG\n357 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU1714864",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "174H3F10",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '340', 'type': 'CARTONS', 'description': '340 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "17,436.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "41.049 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0820474",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "82BA0E4E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '183', 'type': 'BAGS', 'description': '183 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "12,155.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "39.012 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "0162E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        344.41,
+        179.53,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        378.43,
+        179.53,
+        24.09
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        412.44,
+        179.53,
+        24.09
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        412.44,
+        179.53,
+        24.09
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

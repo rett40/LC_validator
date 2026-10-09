@@ -1,0 +1,533 @@
+{
+  "id": 944,
+  "filename": "bl_bl-24_00944_MSCUNNFMJ208184606.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNNFMJ208184606",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNFMJ208184606",
+    "shipper_name": "INTERNATIONAL LOGISTICS CORP",
+    "shipper_address": "617 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST TRADING PLC",
+    "consignee_address": "661 COMMERCE BOULEVARD",
+    "notify_party_name": "DELTA INDUSTRIES LTD",
+    "notify_party_address": "113 PORT ACCESS ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0781N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "16 JUN 2026",
+    "eta": "03 JUL 2026",
+    "container_number": "HLCU1306522",
+    "container_type": "20'OT",
+    "seal_number": "G0HH2556",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "181 BOXES",
+    "gross_weight_kg": "36,368.64",
+    "measurement": "89.152 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1306522",
+        "seal_number": "G0HH2556",
+        "container_type": "20'OT",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "181",
+          "type": "BOXES",
+          "description": "181 BOXES"
+        },
+        "gross_weight_kg": "13,601.92",
+        "net_weight_kg": "10,393.39",
+        "measurement": "32.919 CBM"
+      },
+      {
+        "container_number": "OOLU4390712",
+        "seal_number": "BDF0FECA",
+        "container_type": "40'HC",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "300",
+          "type": "CARTONS",
+          "description": "300 CARTONS"
+        },
+        "gross_weight_kg": "12,512.87",
+        "net_weight_kg": "9,637.51",
+        "measurement": "24.494 CBM"
+      },
+      {
+        "container_number": "OOLU0547308",
+        "seal_number": "H6897BCD",
+        "container_type": "20'DC",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "39",
+          "type": "CRATES",
+          "description": "39 CRATES"
+        },
+        "gross_weight_kg": "10,253.85",
+        "net_weight_kg": "8,073.35",
+        "measurement": "31.739 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNNFMJ208184606",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.61,
+        106.3,
+        98.9,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        275.02,
+        106.3,
+        114.74,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        445.94,
+        106.3,
+        128.07,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        76.61,
+        134.65,
+        128.9,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        280.45,
+        134.65,
+        109.31,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU1306522",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "G0HH2556",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '181', 'type': 'BOXES', 'description': '181 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "13,601.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "32.919 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "OOLU4390712",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "BDF0FECA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '300', 'type': 'CARTONS', 'description': '300 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "12,512.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "24.494 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "OOLU0547308",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "H6897BCD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '39', 'type': 'CRATES', 'description': '39 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "10,253.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "31.739 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.37,
+        303.31,
+        120.14,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        229.61,
+        303.31,
+        160.16,
+        34.02
+      ],
+      "value": "0781N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        470.11,
+        303.31,
+        103.91,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        43.68,
+        337.32,
+        161.83,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        277.53,
+        337.32,
+        112.23,
+        34.02
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        459.71,
+        337.32,
+        114.31,
+        34.02
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        42.43,
+        371.34,
+        163.08,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        288.78,
+        371.34,
+        100.98,
+        34.02
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "617 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "INTERNATIONAL LOGISTICS CORP\n617 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "661 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "FIRST TRADING PLC\n661 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "113 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "DELTA INDUSTRIES LTD\n113 PORT ACCESS ROAD",
+      "page": 1
+    }
+  ]
+}

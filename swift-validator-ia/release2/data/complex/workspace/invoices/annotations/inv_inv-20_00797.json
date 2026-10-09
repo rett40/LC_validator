@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00797",
+  "filename": "inv_inv-20_00797.pdf",
+  "layout_id": "INV-20",
+  "bl_id": 797,
+  "fields": {
+    "invoice_number": "INV-2026-00797",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/SCB/0797/2026",
+    "bl_reference": "MSCUNCBFH517871656",
+    "seller_name": "DELTA INDUSTRIES LTD",
+    "buyer_name": "INTERNATIONAL ENTERPRISES AG",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0707S",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "TEXTILE FABRICS AND GARMENTS",
+    "hs_code": "5208.21",
+    "quantity": 182,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "10,178.58",
+    "unit_price": 24.52,
+    "currency": "EUR",
+    "total_amount": 4462.65,
+    "incoterm": "CIF",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00797",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        60.94,
+        332.16,
+        79.37
+      ],
+      "value": "DELTA INDUSTRIES LTD\nDELTA INDUSTRIES LTD\n529 MAIN BOULEVARD\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        60.94,
+        203.58,
+        79.37
+      ],
+      "value": "INTERNATIONAL ENTERPRISES AG\nINTERNATIONAL ENTERPRISES AG\n198 COMMERCE STREET\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "LC/SCB/0797/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNCBFH517871656",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "5208.21",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "182",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "24.52 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "4462.65 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "10,178.58 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "4462.65 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "4810.26 EUR",
+      "actual": "4462.65 EUR"
+    }
+  ]
+}

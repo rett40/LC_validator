@@ -1,0 +1,409 @@
+{
+  "id": 81,
+  "filename": "bl_bl-02_00081_MSCUNSPRD251346250.pdf",
+  "layout_id": "BL-02",
+  "bl_number": "MSCUNSPRD251346250",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSPRD251346250",
+    "shipper_name": "ATLANTIC SHIPPING LTD",
+    "shipper_address": "622 MARKET STREET",
+    "consignee_name": "GLOBAL GROUP CORP",
+    "consignee_address": "691 MAIN STREET",
+    "notify_party_name": "GLOBAL TRADING LLC",
+    "notify_party_address": "368 INDUSTRIAL AVENUE",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-811",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "07 MAY 2026",
+    "eta": "25 MAY 2026",
+    "container_number": "MSCU2523397",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "AF45BFHE",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "214 CARTONS",
+    "gross_weight_kg": "20,686.57",
+    "measurement": "103.027 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU2523397",
+        "seal_number": "AF45BFHE",
+        "container_type": "20' FLAT RACK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "214",
+          "type": "CARTONS",
+          "description": "214 CARTONS"
+        },
+        "gross_weight_kg": "12,397.98",
+        "net_weight_kg": "8,628.38",
+        "measurement": "57.851 CBM"
+      },
+      {
+        "container_number": "HLCU3572512",
+        "seal_number": "HDEH93FA",
+        "container_type": "40' FLAT RACK",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "120",
+          "type": "PALLETS",
+          "description": "120 PALLETS"
+        },
+        "gross_weight_kg": "8,288.59",
+        "net_weight_kg": "6,055.26",
+        "measurement": "45.176 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "21 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSPRD251346250",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC SHIPPING LTD\n622 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL GROUP CORP\n691 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        209.76,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL TRADING LLC\n368 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "E-811",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2523397",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "AF45BFHE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '214', 'type': 'CARTONS', 'description': '214 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "12,397.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "57.851 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3572512",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "HDEH93FA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '120', 'type': 'PALLETS', 'description': '120 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "8,288.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "45.176 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        640.63,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        640.63,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

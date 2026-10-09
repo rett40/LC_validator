@@ -1,0 +1,444 @@
+{
+  "id": 77,
+  "filename": "bl_bl-15_00077_MSCUNSJKA118160512.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNSJKA118160512",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNSJKA118160512",
+    "shipper": {
+      "name": "GLOBAL ENTERPRISES LLC",
+      "address": "8 COMMERCE BOULEVARD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "GLOBAL ENTERPRISES LLC\n8 COMMERCE BOULEVARD\nANTWERP, BELGIUM 2000"
+    },
+    "consignee": {
+      "name": "FIRST COMMERCE CORP",
+      "address": "113 MARKET STREET",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "FIRST COMMERCE CORP\n113 MARKET STREET\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "APEX TRADING LLC",
+      "address": "603 TRADE PARK",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "APEX TRADING LLC\n603 TRADE PARK\nLOS ANGELES, USA CA 90001"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE55E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "01 JUN 2026",
+    "eta": "24 JUN 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "HLCU2416969",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "C7DD576E",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": {
+      "count": "417",
+      "type": "PACKAGES",
+      "description": "417 PACKAGES"
+    },
+    "gross_weight_kg": "28,160.35",
+    "net_weight_kg": "22,916.69",
+    "gross_weight_lbs": "62,082.87",
+    "measurement": "57.560 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU2416969",
+        "seal_number": "C7DD576E",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "417",
+          "type": "PACKAGES",
+          "description": "417 PACKAGES"
+        },
+        "gross_weight_kg": "17,170.08",
+        "net_weight_kg": "14,458.86",
+        "measurement": "30.253 CBM"
+      },
+      {
+        "container_number": "EISU6809875",
+        "seal_number": "GF91DGA7",
+        "container_type": "20' OPEN TOP",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "382",
+          "type": "PACKAGES",
+          "description": "382 PACKAGES"
+        },
+        "gross_weight_kg": "10,990.27",
+        "net_weight_kg": "8,457.83",
+        "measurement": "27.307 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "incoterm": "CIP",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "HLCU2416969\nC7DD576E\nJEBEL ALI"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSJKA118160512",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL ENTERPRISES LLC\n8 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST COMMERCE CORP\n113 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "APEX TRADING LLC\n603 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AE55E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU2416969",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "C7DD576E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '417', 'type': 'PACKAGES', 'description': '417 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "17,170.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "30.253 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "EISU6809875",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "GF91DGA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '382', 'type': 'PACKAGES', 'description': '382 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "10,990.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "27.307 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        725.67,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

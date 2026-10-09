@@ -1,0 +1,409 @@
+{
+  "id": 1061,
+  "filename": "bl_bl-27_01061_MSCUNPNYX521437415.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNPNYX521437415",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPNYX521437415",
+    "shipper_name": "ATLANTIC PARTNERS LLC",
+    "shipper_address": "502 INDUSTRIAL AVENUE",
+    "consignee_name": "PREMIER INDUSTRIES INC",
+    "consignee_address": "392 COMMERCE BOULEVARD",
+    "notify_party_name": "TRANS SOLUTIONS LLC",
+    "notify_party_address": "810 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS935E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "13 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "OOLU8307511",
+    "container_type": "40' DRY",
+    "seal_number": "D68C46CG",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "159 CRATES",
+    "gross_weight_kg": "29,915.03",
+    "measurement": "64.498 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU8307511",
+        "seal_number": "D68C46CG",
+        "container_type": "40' DRY",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "159",
+          "type": "CRATES",
+          "description": "159 CRATES"
+        },
+        "gross_weight_kg": "20,304.01",
+        "net_weight_kg": "16,497.11",
+        "measurement": "35.987 CBM"
+      },
+      {
+        "container_number": "MSCU5748641",
+        "seal_number": "4E7FG9B2",
+        "container_type": "20'TK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "143",
+          "type": "CRATES",
+          "description": "143 CRATES"
+        },
+        "gross_weight_kg": "9,611.02",
+        "net_weight_kg": "6,450.09",
+        "measurement": "28.511 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNPNYX521437415",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU8307511",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "D68C46CG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '159', 'type': 'CRATES', 'description': '159 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "20,304.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "35.987 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "MSCU5748641",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "4E7FG9B2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '143', 'type': 'CRATES', 'description': '143 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "9,611.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "28.511 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        296.22,
+        266.46,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "ATLANTIC PARTNERS LLC\n502 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER INDUSTRIES INC\n392 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        429.45,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS SOLUTIONS LLC\n810 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "CS935E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    }
+  ]
+}

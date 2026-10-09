@@ -1,0 +1,535 @@
+{
+  "id": 76,
+  "filename": "bl_bl-15_00076_MSCUNFFVV097196535.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNFFVV097196535",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNFFVV097196535",
+    "shipper": {
+      "name": "PREMIER COMMERCE S.A.",
+      "address": "443 COMMERCE BOULEVARD",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "PREMIER COMMERCE S.A.\n443 COMMERCE BOULEVARD\nBUSAN, SOUTH KOREA 48940"
+    },
+    "consignee": {
+      "name": "GLOBAL PARTNERS INC",
+      "address": "304 MAIN STREET",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "GLOBAL PARTNERS INC\n304 MAIN STREET\nNEW YORK, USA NY 10001"
+    },
+    "notify_party": {
+      "name": "UNITED LOGISTICS CORP",
+      "address": "978 PORT ACCESS ROAD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "UNITED LOGISTICS CORP\n978 PORT ACCESS ROAD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0919S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "16 JUN 2026",
+    "eta": "20 JUL 2026",
+    "issue_date": "22 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "HLCU1995442",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "53B815F1",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": {
+      "count": "428",
+      "type": "PACKAGES",
+      "description": "428 PACKAGES"
+    },
+    "gross_weight_kg": "44,348.67",
+    "net_weight_kg": "34,016.05",
+    "gross_weight_lbs": "97,771.96",
+    "measurement": "137.650 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1995442",
+        "seal_number": "53B815F1",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "428",
+          "type": "PACKAGES",
+          "description": "428 PACKAGES"
+        },
+        "gross_weight_kg": "7,522.70",
+        "net_weight_kg": "4,660.27",
+        "measurement": "45.917 CBM"
+      },
+      {
+        "container_number": "CMAU0516484",
+        "seal_number": "A3B294D0",
+        "container_type": "20' TANK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "137",
+          "type": "BAGS",
+          "description": "137 BAGS"
+        },
+        "gross_weight_kg": "21,558.12",
+        "net_weight_kg": "17,721.05",
+        "measurement": "43.509 CBM"
+      },
+      {
+        "container_number": "EISU3852631",
+        "seal_number": "0EBE3623",
+        "container_type": "20' TANK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "484",
+          "type": "BAGS",
+          "description": "484 BAGS"
+        },
+        "gross_weight_kg": "15,267.85",
+        "net_weight_kg": "11,634.73",
+        "measurement": "48.224 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "COLLECT",
+    "incoterm": "CIP",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "HLCU1995442\n53B815F1\nLONG BEACH"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNFFVV097196535",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER COMMERCE S.A.\n443 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL PARTNERS INC\n304 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED LOGISTICS CORP\n978 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0919S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "20 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU1995442",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "53B815F1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '428', 'type': 'PACKAGES', 'description': '428 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "7,522.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "45.917 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0516484",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "A3B294D0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '137', 'type': 'BAGS', 'description': '137 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "21,558.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "43.509 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        643.46,
+        91.56,
+        36.85
+      ],
+      "value": "EISU3852631",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "0EBE3623",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        643.46,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        643.46,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '484', 'type': 'BAGS', 'description': '484 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "15,267.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "48.224 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        762.52,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

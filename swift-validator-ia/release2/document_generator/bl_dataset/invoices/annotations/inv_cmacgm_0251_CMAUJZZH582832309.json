@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00251",
+  "filename": "inv_cmacgm_0251_CMAUJZZH582832309.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 251,
+  "fields": {
+    "invoice_number": "INV-2026-00251",
+    "invoice_date": "14 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0251/2026",
+    "bl_reference": "CMAUJZZH582832309",
+    "seller_name": "PACIFIC COMMERCE INC",
+    "buyer_name": "CENTRAL SUPPLY CHAIN PLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE96W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 160,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "22,575.62",
+    "unit_price": 7.51,
+    "currency": "EUR",
+    "total_amount": 1201.6,
+    "incoterm": "FCA",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00251",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "CMAUJZZH582832309",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "PACIFIC COMMERCE INC\n791 MAIN BOULEVARD\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "CENTRAL SUPPLY CHAIN PLC\n303 TRADE PARK\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "AE96W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUJZZH582832309",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "160",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 7.51",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 1,201.60",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "EUR 1,201.60",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

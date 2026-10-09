@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00110",
+  "filename": "pl_maersk_0110_MAEUFMJG972183854.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 110,
+  "fields": {
+    "pl_number": "PL-2026-00110",
+    "pl_date": "19 APR 2026",
+    "inv_reference": "INV-2026-00110",
+    "bl_reference": "MAEUFMJG972183854",
+    "exporter_name": "PACIFIC TRADING BV",
+    "consignee_name": "APEX SHIPPING CORP",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE798N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "container_number": "TCKU7388310",
+    "container_type": "20' TANK",
+    "seal_number": "CGDA5544",
+    "goods_description": "WOOD PRODUCTS AND TIMBER",
+    "package_unit": "CRATES",
+    "total_packages": 466,
+    "net_weight_kg": "18,751.04",
+    "gross_weight_kg": "22,571.40",
+    "total_cbm": 51.672
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00110",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUFMJG972183854",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "PACIFIC TRADING BV\n349 EXPORT ZONE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "APEX SHIPPING CORP\n280 MAIN BOULEVARD\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "FE798N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "TCKU7388310",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "CGDA5544",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUFMJG972183854",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "466",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "18,751.04",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "22,571.40",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "51.672",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "22,571.40",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "466",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "TCKU6388310",
+      "actual": "TCKU7388310"
+    },
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "19,979.13",
+      "actual": "22,571.40"
+    }
+  ]
+}

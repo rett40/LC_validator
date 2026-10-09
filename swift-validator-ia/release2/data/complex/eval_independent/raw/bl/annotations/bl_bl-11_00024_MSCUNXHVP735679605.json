@@ -1,0 +1,353 @@
+{
+  "id": 24,
+  "filename": "bl_bl-11_00024_MSCUNXHVP735679605.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNXHVP735679605",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNXHVP735679605",
+    "shipper": {
+      "name": "GLOBAL GROUP BV",
+      "address": "286 MARKET STREET",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "GLOBAL GROUP BV\n286 MARKET STREET\nSINGAPORE, SINGAPORE 018989"
+    },
+    "consignee": {
+      "name": "TRANS SOLUTIONS INC",
+      "address": "771 PORT ACCESS ROAD",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "TRANS SOLUTIONS INC\n771 PORT ACCESS ROAD\nBARCELONA, SPAIN 08003"
+    },
+    "notify_party": {
+      "name": "PREMIER PARTNERS BV",
+      "address": "52 COMMERCE BOULEVARD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "PREMIER PARTNERS BV\n52 COMMERCE BOULEVARD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "MSC GULSUN",
+    "voyage": "FE309S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "21 JUN 2026",
+    "eta": "26 JUL 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "container_number": "MSCU3552711",
+    "container_type": "20' TANK",
+    "seal_number": "2819G4D4",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": {
+      "count": "431",
+      "type": "CARTONS",
+      "description": "431 CARTONS"
+    },
+    "gross_weight_kg": "18,351.65",
+    "net_weight_kg": "15,916.70",
+    "gross_weight_lbs": "40,458.41",
+    "measurement": "26.758 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3552711",
+        "seal_number": "2819G4D4",
+        "container_type": "20' TANK",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "431",
+          "type": "CARTONS",
+          "description": "431 CARTONS"
+        },
+        "gross_weight_kg": "18,351.65",
+        "net_weight_kg": "15,916.70",
+        "measurement": "26.758 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "CFR",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY",
+    "marks_numbers": "MSCU3552711\n2819G4D4\nNEW YORK"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNXHVP735679605",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "FE309S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "26 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL GROUP BV\n286 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS SOLUTIONS INC\n771 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER PARTNERS BV\n52 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3552711",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "2819G4D4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '431', 'type': 'CARTONS', 'description': '431 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "18,351.65",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "26.758 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

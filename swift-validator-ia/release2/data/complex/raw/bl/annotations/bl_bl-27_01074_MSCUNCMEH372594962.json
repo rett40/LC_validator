@@ -1,0 +1,409 @@
+{
+  "id": 1074,
+  "filename": "bl_bl-27_01074_MSCUNCMEH372594962.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNCMEH372594962",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCMEH372594962",
+    "shipper_name": "CENTRAL SHIPPING LLC",
+    "shipper_address": "295 TRADE PARK",
+    "consignee_name": "PREMIER SUPPLY CHAIN GMBH",
+    "consignee_address": "228 TRADE PARK",
+    "notify_party_name": "PREMIER ENTERPRISES LLC",
+    "notify_party_address": "695 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS946W",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "18 JUN 2026",
+    "eta": "21 JUL 2026",
+    "container_number": "TRHU4138498",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "02CC1690",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "236 BAGS",
+    "gross_weight_kg": "19,893.71",
+    "measurement": "67.242 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU4138498",
+        "seal_number": "02CC1690",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "236",
+          "type": "BAGS",
+          "description": "236 BAGS"
+        },
+        "gross_weight_kg": "7,661.87",
+        "net_weight_kg": "4,250.31",
+        "measurement": "43.514 CBM"
+      },
+      {
+        "container_number": "MSCU1452494",
+        "seal_number": "11C1B9D8",
+        "container_type": "40'DC",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "53",
+          "type": "BOXES",
+          "description": "53 BOXES"
+        },
+        "gross_weight_kg": "12,231.84",
+        "net_weight_kg": "8,249.01",
+        "measurement": "23.728 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNCMEH372594962",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "TRHU4138498",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "02CC1690",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '236', 'type': 'BAGS', 'description': '236 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "7,661.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "43.514 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "MSCU1452494",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "11C1B9D8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '53', 'type': 'BOXES', 'description': '53 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "12,231.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "23.728 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        239.53,
+        266.46,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        267.87,
+        266.46,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        296.22,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "CENTRAL SHIPPING LLC\n295 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        338.74,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN GMBH\n228 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        429.45,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES LLC\n695 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        625.04,
+        266.46,
+        24.09
+      ],
+      "value": "CS946W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        659.06,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        693.07,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        727.09,
+        266.46,
+        24.09
+      ],
+      "value": "21 JUL 2026",
+      "page": 1
+    }
+  ]
+}

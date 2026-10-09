@@ -1,0 +1,500 @@
+{
+  "id": 207,
+  "filename": "bl_bl-05_00207_MSCUNYAVD599377950.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNYAVD599377950",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYAVD599377950",
+    "shipper_name": "TRANS SOLUTIONS LTD",
+    "shipper_address": "165 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST TRADING GMBH",
+    "consignee_address": "27 COMMERCE BOULEVARD",
+    "notify_party_name": "GLOBAL SUPPLY CHAIN BV",
+    "notify_party_address": "428 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8734",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "13 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "TRHU1057228",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "1B369AC5",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "493 BOXES",
+    "gross_weight_kg": "44,284.35",
+    "measurement": "143.476 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU1057228",
+        "seal_number": "1B369AC5",
+        "container_type": "40' OPEN TOP",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "493",
+          "type": "BOXES",
+          "description": "493 BOXES"
+        },
+        "gross_weight_kg": "19,912.49",
+        "net_weight_kg": "16,053.37",
+        "measurement": "30.583 CBM"
+      },
+      {
+        "container_number": "TCKU6456969",
+        "seal_number": "DG47E3FF",
+        "container_type": "20' REEFER",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "166",
+          "type": "DRUMS",
+          "description": "166 DRUMS"
+        },
+        "gross_weight_kg": "7,958.77",
+        "net_weight_kg": "4,598.86",
+        "measurement": "66.020 CBM"
+      },
+      {
+        "container_number": "HLCU4186978",
+        "seal_number": "HG9969B2",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "165",
+          "type": "BAGS",
+          "description": "165 BAGS"
+        },
+        "gross_weight_kg": "16,413.09",
+        "net_weight_kg": "13,075.34",
+        "measurement": "46.873 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNYAVD599377950",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS SOLUTIONS LTD\n165 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST TRADING GMBH\n27 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN BV\n428 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU1057228",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "1B369AC5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '493', 'type': 'BOXES', 'description': '493 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "19,912.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "30.583 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU6456969",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "DG47E3FF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '166', 'type': 'DRUMS', 'description': '166 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "7,958.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "66.020 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        474.8,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4186978",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "HG9969B2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        474.8,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        474.8,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '165', 'type': 'BAGS', 'description': '165 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "16,413.09",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "46.873 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "AL8734",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        745.51,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

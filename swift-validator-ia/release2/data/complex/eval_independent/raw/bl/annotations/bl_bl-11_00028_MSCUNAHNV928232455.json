@@ -1,0 +1,353 @@
+{
+  "id": 28,
+  "filename": "bl_bl-11_00028_MSCUNAHNV928232455.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNAHNV928232455",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNAHNV928232455",
+    "shipper": {
+      "name": "FIRST PARTNERS S.A.",
+      "address": "348 COMMERCE BOULEVARD",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "FIRST PARTNERS S.A.\n348 COMMERCE BOULEVARD\nNEW YORK, USA NY 10001"
+    },
+    "consignee": {
+      "name": "APEX INDUSTRIES AG",
+      "address": "367 COMMERCE BOULEVARD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "APEX INDUSTRIES AG\n367 COMMERCE BOULEVARD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "notify_party": {
+      "name": "APEX COMMERCE CORP",
+      "address": "38 PORT ACCESS ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "APEX COMMERCE CORP\n38 PORT ACCESS ROAD\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-481",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "04 JUN 2026",
+    "eta": "18 JUN 2026",
+    "issue_date": "17 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "HLCU7924722",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "CDEGC700",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": {
+      "count": "259",
+      "type": "CARTONS",
+      "description": "259 CARTONS"
+    },
+    "gross_weight_kg": "16,369.01",
+    "net_weight_kg": "13,814.10",
+    "gross_weight_lbs": "36,087.45",
+    "measurement": "53.010 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7924722",
+        "seal_number": "CDEGC700",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "259",
+          "type": "CARTONS",
+          "description": "259 CARTONS"
+        },
+        "gross_weight_kg": "16,369.01",
+        "net_weight_kg": "13,814.10",
+        "measurement": "53.010 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "CIF",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY",
+    "marks_numbers": "HLCU7924722\nCDEGC700\nPIRAEUS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNAHNV928232455",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "E-481",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST PARTNERS S.A.\n348 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX INDUSTRIES AG\n367 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX COMMERCE CORP\n38 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7924722",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "CDEGC700",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '259', 'type': 'CARTONS', 'description': '259 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "16,369.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "53.010 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

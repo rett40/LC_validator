@@ -1,0 +1,882 @@
+<div class="lc-cross-panel">
+
+  <!-- Header -->
+  <div class="lc-cross-header">
+    <div class="lc-cross-title">
+      <span class="lc-cross-icon">🏦</span>
+      <div>
+        <h2>Validation LC ↔ Documents Commerciaux</h2>
+        <p>Cohérence MT700 · UCP 600 · 5 catégories d'analyse</p>
+      </div>
+    </div>
+    <div class="lc-cross-header-actions">
+      <button class="btn-rerun" (click)="run()" [disabled]="loading">
+        {{ loading ? '⏳ Analyse…' : '🔄 Relancer' }}
+      </button>
+      <button class="btn-close-panel" (click)="closed.emit()">✕</button>
+    </div>
+  </div>
+
+  <!-- Loading -->
+  <div class="lc-cross-loading" *ngIf="loading">
+    <div class="loading-spinner-sm"></div>
+    <p>Analyse croisée LC vs documents en cours…</p>
+  </div>
+
+  <!-- Error -->
+  <div class="lc-cross-error" *ngIf="!loading && error">
+    <span>⚠️ {{ error }}</span>
+    <button (click)="run()">Réessayer</button>
+  </div>
+
+  <!-- Results -->
+  <div class="lc-cross-body" *ngIf="!loading && !error && result">
+
+    <!-- Score banner -->
+    <div class="score-banner"
+         [style.background]="riskStyle(result.riskLevel).bg"
+         [style.border-color]="riskStyle(result.riskLevel).fg">
+      <div class="score-left">
+        <span class="risk-icon-lg">{{ riskIcon(result.riskLevel) }}</span>
+        <div>
+          <div class="risk-label">Risque {{ result.riskLevel }}</div>
+          <div class="risk-sub">Score global LC-Commercial</div>
+        </div>
+      </div>
+      <div class="score-center" *ngIf="result.decision">
+        <span class="decision-badge"
+              [style.background]="decisionStyle(result.decision).bg"
+              [style.color]="decisionStyle(result.decision).fg"
+              [style.border-color]="decisionStyle(result.decision).border">
+          {{ decisionIcon(result.decision) }} {{ result.decision }}
+        </span>
+      </div>
+      <div class="score-right">
+        <span class="score-value" [style.color]="scoreColor(result.finalScore)">
+          {{ scorePercent(result.finalScore) }}
+        </span>
+      </div>
+    </div>
+
+    <!-- Score breakdown -->
+    <div class="breakdown-grid">
+      <div class="breakdown-item" *ngFor="let entry of breakdownEntries; trackBy: trackByIdx">
+        <div class="breakdown-header">
+          <span class="breakdown-label">{{ layerLabel(entry[0]) }}</span>
+          <span class="breakdown-weight">{{ layerWeight(entry[0]) }}</span>
+        </div>
+        <div class="breakdown-bar-bg">
+          <div class="breakdown-bar-fill"
+               [style.width.%]="scoreWidth(entry[1])"
+               [style.background]="layerColor(entry[0])"></div>
+        </div>
+        <span class="breakdown-score" [style.color]="layerColor(entry[0])">
+          {{ scorePercent(entry[1]) }}
+        </span>
+      </div>
+    </div>
+
+    <!-- LC context row -->
+    <div class="lc-context-row" *ngIf="result.lcSummary">
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.beneficiary">
+        <span class="ctx-lbl">Bénéficiaire</span>
+        <span class="ctx-val">{{ result.lcSummary.beneficiary }}</span>
+      </div>
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.applicant">
+        <span class="ctx-lbl">Donneur d'ordre</span>
+        <span class="ctx-val">{{ result.lcSummary.applicant }}</span>
+      </div>
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.currency">
+        <span class="ctx-lbl">Devise</span>
+        <span class="ctx-val">{{ result.lcSummary.currency }}</span>
+      </div>
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.amount != null">
+        <span class="ctx-lbl">Montant LC</span>
+        <span class="ctx-val">
+          {{ result.lcSummary.amount | number:'1.2-2' }}
+          <span class="ctx-tol" *ngIf="result.lcSummary.tolerancePlus != null">
+            (+{{ result.lcSummary.tolerancePlus }}% / -{{ result.lcSummary.toleranceMinus }}%)
+          </span>
+        </span>
+      </div>
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.expiryDate">
+        <span class="ctx-lbl">Expiry</span>
+        <span class="ctx-val">{{ result.lcSummary.expiryDate }}</span>
+      </div>
+      <div class="lc-ctx-item" *ngIf="result.lcSummary.incoterm">
+        <span class="ctx-lbl">Incoterm</span>
+        <span class="ctx-val">{{ result.lcSummary.incoterm }}</span>
+      </div>
+    </div>
+
+    <!-- Tab nav -->
+    <div class="lc-tabs">
+      <button class="lc-tab" [class.active]="activeTab === 'overview'"    (click)="activeTab = 'overview'">
+        Vue d'ensemble
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'xai'"         (click)="activeTab = 'xai'"
+              *ngIf="result.xai">
+        🧠 Analyse XAI
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'categories'"  (click)="activeTab = 'categories'"
+              *ngIf="result.categories">
+        Catégories (5)
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'cross-doc'"   (click)="activeTab = 'cross-doc'"
+              *ngIf="result.crossDocument">
+        Inter-Documents
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'rules'"       (click)="activeTab = 'rules'">
+        Règles ({{ result.ruleResults.length }})
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'fuzzy'"       (click)="activeTab = 'fuzzy'">
+        Entités ({{ result.fuzzyResults.length }})
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'semantic'"    (click)="activeTab = 'semantic'">
+        Sémantique 45A
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'conditions'"  (click)="activeTab = 'conditions'">
+        Conditions 47A ({{ result.conditionResults.length }})
+      </button>
+      <button class="lc-tab" [class.active]="activeTab === 'explanations'" (click)="activeTab = 'explanations'">
+        Explications ({{ result.explanations.length }})
+      </button>
+    </div>
+
+    <!-- ── OVERVIEW ──────────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'overview'" class="tab-content">
+
+      <div *ngIf="negativeExplanations.length > 0" class="exp-group">
+        <div class="exp-group-title" style="color:#EF4444">
+          ❌ Problèmes détectés ({{ negativeExplanations.length }})
+        </div>
+        <div class="exp-card"
+             *ngFor="let e of negativeExplanations; trackBy: trackByIdx"
+             [style.border-left-color]="impactBorder(e.impact)">
+          <span class="exp-icon">{{ impactIcon(e.impact) }}</span>
+          <div class="exp-content">
+            <span class="exp-msg">{{ e.message }}</span>
+            <div class="exp-badges">
+              <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+              <span class="badge-type">{{ e.type }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="warningExplanations.length > 0" class="exp-group">
+        <div class="exp-group-title" style="color:#F59E0B">
+          ⚠️ Avertissements ({{ warningExplanations.length }})
+        </div>
+        <div class="exp-card"
+             *ngFor="let e of warningExplanations; trackBy: trackByIdx"
+             [style.border-left-color]="impactBorder(e.impact)">
+          <span class="exp-icon">{{ impactIcon(e.impact) }}</span>
+          <div class="exp-content">
+            <span class="exp-msg">{{ e.message }}</span>
+            <div class="exp-badges">
+              <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+              <span class="badge-type">{{ e.type }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="positiveExplanations.length > 0" class="exp-group">
+        <div class="exp-group-title" style="color:#10B981">
+          ✅ Points conformes ({{ positiveExplanations.length }})
+        </div>
+        <div class="exp-card"
+             *ngFor="let e of positiveExplanations; trackBy: trackByIdx"
+             [style.border-left-color]="impactBorder(e.impact)">
+          <span class="exp-icon">{{ impactIcon(e.impact) }}</span>
+          <div class="exp-content">
+            <span class="exp-msg">{{ e.message }}</span>
+            <div class="exp-badges">
+              <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+              <span class="badge-type">{{ e.type }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-state"
+           *ngIf="negativeExplanations.length === 0 && warningExplanations.length === 0 && positiveExplanations.length === 0">
+        Aucune explication disponible.
+      </div>
+    </div>
+
+    <!-- ── XAI — Shapley + Probabilistic + Causal + Counterfactual ── -->
+    <div *ngIf="activeTab === 'xai' && result.xai" class="tab-content">
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           BLOC 1 — DÉCISION : confiance + résumé + motivation + récit
+           ═══════════════════════════════════════════════════════════════ -->
+
+      <!-- 1a. Decision confidence banner -->
+      <div class="dcb" *ngIf="decisionConfidence"
+           [style.border-color]="decisionConfidence.color">
+        <div class="dcb-left">
+          <span class="dcb-decision-icon">{{ decisionIcon(result.decision) }}</span>
+          <div>
+            <div class="dcb-decision" [style.color]="decisionStyle(result.decision).fg">
+              {{ result.decision }}
+            </div>
+            <div class="dcb-level" [style.color]="decisionConfidence.color">
+              Confiance {{ decisionConfidence.level }}
+            </div>
+          </div>
+        </div>
+        <div class="dcb-center">
+          <div class="dcb-bar-bg">
+            <div class="dcb-bar"
+                 [style.width.%]="decisionConfidence.pct_width"
+                 [style.background]="decisionConfidence.color"></div>
+          </div>
+          <div class="dcb-margin" *ngIf="decisionConfidence.closest_competitor">
+            Marge vs {{ decisionConfidence.closest_competitor }} :
+            +{{ (decisionConfidence.margin * 100).toFixed(1) }}%
+          </div>
+          <div class="dcb-borderline" *ngIf="decisionConfidence.is_borderline">
+            ⚠️ Décision borderline — une correction mineure peut changer la décision
+          </div>
+        </div>
+        <div class="dcb-right">
+          <span class="dcb-pct" [style.color]="decisionConfidence.color">
+            {{ (decisionConfidence.probability * 100).toFixed(0) }}%
+          </span>
+          <span class="dcb-pct-label">de confiance</span>
+        </div>
+      </div>
+
+      <!-- 1b. Executive summary -->
+      <div class="xai-executive" *ngIf="result.xai.executive_summary">
+        <div class="xai-section-title">📋 Résumé exécutif</div>
+        <p class="xai-executive-text">{{ result.xai.executive_summary }}</p>
+      </div>
+
+      <!-- 1c. Decision rationale -->
+      <div class="xai-rationale" *ngIf="result.xai.decision_rationale"
+           [style.border-left-color]="decisionStyle(result.decision).border">
+        <div class="xai-section-title">⚖️ Motivation de la décision</div>
+        <p class="xai-rationale-text">{{ result.xai.decision_rationale }}</p>
+      </div>
+
+      <!-- 1d. Causal narrative -->
+      <div class="causal-narrative-box" *ngIf="causalNarrative">
+        <div class="xai-section-title">🧩 Récit causal — synthèse IA</div>
+        <p class="causal-narrative-text">{{ causalNarrative }}</p>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           BLOC 2 — CAUSES RACINES (hero section)
+           ═══════════════════════════════════════════════════════════════ -->
+      <div class="l4-section l4-hero" *ngIf="causal && causal.n_root_causes > 0">
+        <div class="l4-section-header">
+          <span class="l4-section-icon">🕸️</span>
+          <span class="l4-section-title">Causes racines identifiées
+            <span class="l4-badge">
+              {{ causal.n_root_causes }} indépendante(s) · {{ causal.n_derived }} dérivée(s)
+            </span>
+          </span>
+        </div>
+
+        <div class="causal-root-list">
+          <div class="causal-root-card"
+               *ngFor="let rc of causal.root_causes; trackBy: trackByIdx">
+            <div class="causal-root-header">
+              <span class="causal-root-icon">🔴</span>
+              <span class="causal-root-rule">{{ ruleReadable(rc.rule) }}</span>
+              <span class="badge-type">{{ rc.category }}</span>
+              <span class="causal-phi" style="color:#EF4444">φ {{ phiLabel(rc.shapley_value) }}</span>
+              <span class="causal-total-impact"
+                    [style.color]="interventionGainColor(rc.intervention_gain)">
+                +{{ (rc.intervention_gain * 100).toFixed(1) }}% si corrigé
+              </span>
+            </div>
+            <div class="causal-gain-bar-bg">
+              <div class="causal-gain-bar"
+                   [style.width.%]="interventionGainWidth(rc.intervention_gain)"
+                   [style.background]="interventionGainColor(rc.intervention_gain)"></div>
+            </div>
+            <div class="causal-chain" *ngIf="rc.causal_children.length > 0">
+              <span class="chain-label">Cascade →</span>
+              <span class="chain-arrow">{{ ruleReadable(rc.rule) }}</span>
+              <span *ngFor="let child of rc.causal_children; trackBy: trackByIdx"
+                    class="chain-child">➜ {{ factorRuleLabel(child) }}</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="causal-derived" *ngIf="causal.derived_failures.length > 0">
+          <span class="derived-label">Effets dérivés :</span>
+          <span class="derived-tag"
+                *ngFor="let d of causal.derived_failures; trackBy: trackByIdx"
+                style="background:#78350F33;color:#FDE68A;border-color:#F59E0B">
+            {{ factorRuleLabel(d) }}
+          </span>
+        </div>
+        <p class="l4-note">
+          Corriger une cause racine peut résoudre automatiquement ses effets dérivés en cascade.
+        </p>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           BLOC 3 — SIMULATION SÉQUENTIELLE
+           ═══════════════════════════════════════════════════════════════ -->
+      <div class="l4-section" *ngIf="simulationSteps.length > 1">
+        <div class="l4-section-header">
+          <span class="l4-section-icon">🎯</span>
+          <span class="l4-section-title">Simulation de correction séquentielle
+            <span class="l4-badge">do(fix₁) → do(fix₂) → …</span>
+          </span>
+        </div>
+        <div class="sim-track">
+          <div class="sim-step"
+               *ngFor="let s of simulationSteps; trackBy: trackByIdx"
+               [class.sim-initial]="s.step === 0"
+               [class.sim-flip]="s.is_flip">
+            <div class="sim-connector" *ngIf="s.step > 0"></div>
+            <div class="sim-node" [style.border-color]="scoreColor(s.score)">
+              <span class="sim-node-num">{{ s.step === 0 ? '●' : s.step }}</span>
+            </div>
+            <div class="sim-body">
+              <div class="sim-action">{{ s.action }}</div>
+              <div class="sim-meta" *ngIf="s.step > 0">
+                <span class="sim-cat">{{ s.category_label }}</span>
+                <span class="sim-gain" [style.color]="interventionGainColor(s.gain)">
+                  +{{ (s.gain * 100).toFixed(1) }}%
+                </span>
+              </div>
+              <div class="sim-result">
+                <span class="sim-score" [style.color]="scoreColor(s.score)">
+                  {{ scorePercent(s.score) }}
+                </span>
+                <span class="sim-decision-badge"
+                      [style.color]="decisionStyle(s.decision).fg"
+                      [style.border-color]="decisionStyle(s.decision).border"
+                      [style.background]="decisionStyle(s.decision).bg">
+                  {{ decisionIcon(s.decision) }} {{ s.decision }}
+                </span>
+                <span class="sim-flip-badge" *ngIf="s.is_flip">🔄 FLIP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="l4-note">
+          Simulation cumulative : chaque étape applique le gain causal de la correction précédente.
+        </p>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           BLOC 4 — CONTREFACTUELS (top actions classées)
+           ═══════════════════════════════════════════════════════════════ -->
+      <div class="l4-section" *ngIf="counterfactuals.length > 0">
+        <div class="l4-section-header">
+          <span class="l4-section-icon">🔮</span>
+          <span class="l4-section-title">Contrefactuels — leviers d'action classés par gain causal</span>
+        </div>
+        <div class="cf-card"
+             *ngFor="let cf of counterfactuals; trackBy: trackByIdx"
+             [class.cf-flips]="cf.flips_decision">
+          <div class="cf-header">
+            <span class="cf-rank">#{{ cf.rank }}</span>
+            <span class="cf-rule">{{ cf.rule_label }}</span>
+            <span class="badge-type">{{ cf.category_label }}</span>
+            <span class="cf-root-badge" *ngIf="cf.is_root_cause">✦ cause racine</span>
+            <span class="cf-downstream" *ngIf="cf.n_downstream > 0">+{{ cf.n_downstream }} effet(s)</span>
+          </div>
+          <div class="cf-gains">
+            <div class="cf-gain-row">
+              <span class="cf-gain-label">Gain direct</span>
+              <div class="cf-gain-bar-bg">
+                <div class="cf-gain-bar" [style.width.%]="cfGainBar(cf.direct_gain)"
+                     style="background:#6366F1"></div>
+              </div>
+              <span class="cf-gain-val" style="color:#A5B4FC">+{{ (cf.direct_gain * 100).toFixed(1) }}%</span>
+            </div>
+            <div class="cf-gain-row" *ngIf="cf.causal_gain !== cf.direct_gain">
+              <span class="cf-gain-label">Gain causal</span>
+              <div class="cf-gain-bar-bg">
+                <div class="cf-gain-bar" [style.width.%]="cfGainBar(cf.causal_gain)"
+                     [style.background]="interventionGainColor(cf.causal_gain)"></div>
+              </div>
+              <span class="cf-gain-val" [style.color]="interventionGainColor(cf.causal_gain)">
+                +{{ (cf.causal_gain * 100).toFixed(1) }}%
+              </span>
+            </div>
+          </div>
+          <div class="cf-projection">
+            <span class="cf-score-from"
+                  [style.color]="scoreColor(probabilistic?.mean_score ?? result.finalScore)">
+              {{ scorePercent(probabilistic?.mean_score ?? result.finalScore) }}
+            </span>
+            <span class="cf-arrow">→</span>
+            <span class="cf-score-to" [style.color]="cfScoreColor(cf.counterfactual_score)">
+              {{ scorePercent(cf.counterfactual_score) }}
+            </span>
+            <span class="cf-decision-badge"
+                  *ngIf="cf.flips_decision"
+                  [style.color]="decisionStyle(cf.counterfactual_decision).fg"
+                  [style.border-color]="decisionStyle(cf.counterfactual_decision).border"
+                  [style.background]="decisionStyle(cf.counterfactual_decision).bg">
+              {{ decisionIcon(cf.counterfactual_decision) }} {{ cf.counterfactual_decision }}
+            </span>
+          </div>
+          <p class="cf-message">{{ cf.message }}</p>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════════════════════
+           SÉPARATEUR — Détails analytiques
+           ═══════════════════════════════════════════════════════════════ -->
+      <div class="details-divider">
+        <span class="details-divider-label">── Détails analytiques ──</span>
+      </div>
+
+      <!-- ── Probabiliste (Monte Carlo) ──────────────────────────────── -->
+      <div class="l4-section" *ngIf="probabilistic">
+        <div class="l4-section-header">
+          <span class="l4-section-icon">🎲</span>
+          <span class="l4-section-title">Distribution probabiliste — Monte Carlo
+            <span class="l4-badge">{{ probabilistic.n_samples | number }} échantillons · Beta(α,β)</span>
+          </span>
+        </div>
+        <div class="prob-bars">
+          <div class="prob-row" *ngFor="let kv of [
+              {k:'ACCEPT',     p: probabilistic.decision_proba.ACCEPT},
+              {k:'DISCREPANT', p: probabilistic.decision_proba.DISCREPANT},
+              {k:'REJECT',     p: probabilistic.decision_proba.REJECT}]">
+            <span class="prob-label" [style.color]="probaColor(kv.k)">{{ kv.k }}</span>
+            <div class="prob-bar-bg">
+              <div class="prob-bar-fill" [style.width.%]="probaWidth(kv.p)"
+                   [style.background]="probaColor(kv.k)"></div>
+            </div>
+            <span class="prob-pct" [style.color]="probaColor(kv.k)">{{ (kv.p * 100).toFixed(1) }}%</span>
+          </div>
+        </div>
+        <div class="prob-stats">
+          <div class="prob-stat">
+            <span class="ps-label">Score moyen</span>
+            <span class="ps-val" [style.color]="scoreColor(probabilistic.mean_score)">
+              {{ scorePercent(probabilistic.mean_score) }}
+            </span>
+          </div>
+          <div class="prob-stat">
+            <span class="ps-label">Écart-type</span>
+            <span class="ps-val">±{{ (probabilistic.std_dev * 100).toFixed(1) }}%</span>
+            <span class="ps-tag">{{ uncertaintyLabel(probabilistic.std_dev) }}</span>
+          </div>
+          <div class="prob-stat">
+            <span class="ps-label">IC 95%</span>
+            <span class="ps-val">
+              [{{ scorePercent(probabilistic.ci_95_lower) }} – {{ scorePercent(probabilistic.ci_95_upper) }}]
+            </span>
+          </div>
+        </div>
+        <div class="ci-band-wrap">
+          <div class="ci-axis-label">0%</div>
+          <div class="ci-track">
+            <div class="ci-band"
+                 [style.left.%]="ciBarLeft(probabilistic.ci_95_lower)"
+                 [style.width.%]="ciBarWidth(probabilistic.ci_95_lower, probabilistic.ci_95_upper)"></div>
+            <div class="ci-cursor"
+                 [style.left.%]="scoreWidth(probabilistic.mean_score)"
+                 [style.border-color]="scoreColor(probabilistic.mean_score)"></div>
+          </div>
+          <div class="ci-axis-label">100%</div>
+        </div>
+        <p class="l4-note">IC 95% : plage des scores possibles selon l'incertitude d'extraction documentaire.</p>
+      </div>
+
+      <!-- ── Waterfall Shapley ────────────────────────────────────────── -->
+      <div class="xai-waterfall-wrap" *ngIf="waterfallSteps.length > 0">
+        <div class="xai-section-title">📊 Décomposition Shapley (waterfall)</div>
+        <div class="xai-waterfall">
+          <div class="wf-row" *ngFor="let s of waterfallSteps; trackBy: trackByIdx"
+               [class.wf-baseline]="s.impact_class === 'baseline'"
+               [class.wf-final]="s.impact_class === 'final'">
+            <span class="wf-label" [title]="s.category">{{ s.label }}</span>
+            <div class="wf-bar-wrap">
+              <div class="wf-bar" [style.width.%]="waterfallBarWidth(s)"
+                   [style.background]="waterfallColor(s.impact_class)"></div>
+            </div>
+            <span class="wf-delta" [style.color]="waterfallColor(s.impact_class)">
+              {{ s.delta >= 0 ? '+' : '' }}{{ s.delta.toFixed(3) }}
+            </span>
+            <span class="wf-cum" [style.color]="scoreColor(s.cumulative)">
+              {{ scorePercent(s.cumulative) }}
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Facteurs négatifs ───────────────────────────────────────── -->
+      <div class="xai-ranked-wrap" *ngIf="xaiNegative.length > 0">
+        <div class="xai-section-title" style="color:#EF4444">
+          ❌ Facteurs négatifs — classement par φ Shapley
+        </div>
+        <div class="xai-exp-card"
+             *ngFor="let e of xaiNegative; trackBy: trackByIdx"
+             [style.border-left-color]="'#EF4444'"
+             [class.ocr-suspect-card]="e.ocr_suspect">
+          <div class="xai-exp-header">
+            <span class="xai-exp-rank">#{{ e.rank }}</span>
+            <span class="xai-exp-rule">{{ ruleReadable(e.rule) }}</span>
+            <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+            <span class="badge-type">{{ e.doc_type || e.type }}</span>
+            <span class="xai-phi" style="color:#EF4444">φ {{ phiLabel(e.shapley_value) }}</span>
+            <span class="xai-primary-badge" *ngIf="e.is_primary">★ principal</span>
+            <span class="ocr-suspect-badge" *ngIf="e.ocr_suspect">⚠ OCR ?</span>
+          </div>
+          <div class="xai-phi-bar-bg">
+            <div class="xai-phi-bar"
+                 [style.width.%]="shapleyBar(e.shapley_value).width"
+                 [style.background]="shapleyBar(e.shapley_value).color"></div>
+          </div>
+          <p class="exp-msg">{{ e.message }}</p>
+          <p class="exp-detail" *ngIf="e.detail">{{ e.detail }}</p>
+          <div class="ocr-note" *ngIf="e.ocr_suspect">
+            🔍 Valeur manquante ou très courte — vérifier l'extraction OCR avant toute action corrective.
+          </div>
+          <div class="rule-values" *ngIf="e.lc_value || e.doc_value">
+            <span class="rv-lc"  *ngIf="e.lc_value">LC : {{ e.lc_value }}</span>
+            <span class="rv-doc" *ngIf="e.doc_value">Doc : {{ e.doc_value }}</span>
+          </div>
+          <div class="xai-remediation" *ngIf="e.remediation">
+            <span class="xai-remed-icon">🔧</span>
+            <span class="xai-remed-text">{{ e.remediation }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Avertissements ──────────────────────────────────────────── -->
+      <div class="xai-ranked-wrap" *ngIf="xaiWarning.length > 0">
+        <div class="xai-section-title" style="color:#F59E0B">⚠️ Avertissements</div>
+        <div class="xai-exp-card"
+             *ngFor="let e of xaiWarning; trackBy: trackByIdx"
+             [style.border-left-color]="'#F59E0B'">
+          <div class="xai-exp-header">
+            <span class="xai-exp-rank">#{{ e.rank }}</span>
+            <span class="xai-exp-rule">{{ ruleReadable(e.rule) }}</span>
+            <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+            <span class="badge-type">{{ e.doc_type || e.type }}</span>
+            <span class="xai-phi" style="color:#F59E0B">φ {{ phiLabel(e.shapley_value) }}</span>
+          </div>
+          <div class="xai-phi-bar-bg">
+            <div class="xai-phi-bar"
+                 [style.width.%]="shapleyBar(e.shapley_value).width"
+                 [style.background]="shapleyBar(e.shapley_value).color"></div>
+          </div>
+          <p class="exp-msg">{{ e.message }}</p>
+          <p class="exp-detail" *ngIf="e.detail">{{ e.detail }}</p>
+          <div class="xai-remediation" *ngIf="e.remediation">
+            <span class="xai-remed-icon">🔧</span>
+            <span class="xai-remed-text">{{ e.remediation }}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── Positifs ────────────────────────────────────────────────── -->
+      <div class="xai-ranked-wrap" *ngIf="xaiPositive.length > 0">
+        <div class="xai-section-title" style="color:#10B981">✅ Facteurs positifs</div>
+        <div class="xai-exp-card"
+             *ngFor="let e of xaiPositive; trackBy: trackByIdx"
+             [style.border-left-color]="'#10B981'">
+          <div class="xai-exp-header">
+            <span class="xai-exp-rank">#{{ e.rank }}</span>
+            <span class="xai-exp-rule">{{ ruleReadable(e.rule) }}</span>
+            <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+            <span class="xai-phi" style="color:#10B981">φ {{ phiLabel(e.shapley_value) }}</span>
+          </div>
+          <p class="exp-msg">{{ e.message }}</p>
+        </div>
+      </div>
+
+      <!-- ── Plan de remédiation ─────────────────────────────────────── -->
+      <div class="xai-remediation-plan"
+           *ngIf="result.xai.remediation_plan && result.xai.remediation_plan.length > 0">
+        <div class="xai-section-title">🔧 Plan de remédiation</div>
+        <div class="remed-item"
+             *ngFor="let r of result.xai.remediation_plan; let i = index; trackBy: trackByIdx">
+          <span style="color:#F59E0B;font-weight:700;margin-right:8px">{{ i + 1 }}.</span>
+          <span>{{ r }}</span>
+        </div>
+      </div>
+
+      <!-- ── Preuves de conformité ───────────────────────────────────── -->
+      <div class="xai-evidence"
+           *ngIf="result.xai.compliance_evidence && result.xai.compliance_evidence.length > 0">
+        <div class="xai-section-title">📜 Preuves de conformité UCP 600</div>
+        <div class="evidence-item"
+             *ngFor="let ev of result.xai.compliance_evidence; trackBy: trackByIdx">
+          <span style="color:#10B981;margin-right:6px">✔</span>{{ ev }}
+        </div>
+      </div>
+
+      <div class="empty-state"
+           *ngIf="!result.xai.executive_summary && waterfallSteps.length === 0 && xaiNegative.length === 0">
+        Aucune analyse XAI disponible.
+      </div>
+    </div>
+
+    <!-- ── CATEGORIES (v3.0) ─────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'categories'" class="tab-content">
+      <p class="tab-sub">Résultats par catégorie métier — moteur de validation v3.0</p>
+
+      <div class="category-card"
+           *ngFor="let entry of categoriesEntries; trackBy: trackByIdx"
+           [style.border-left-color]="categoryStatusBorder(entry[1].status)"
+           [style.background]="categoryStatusBg(entry[1].status)">
+
+        <!-- Category header -->
+        <div class="cat-header">
+          <span class="cat-icon">{{ categoryIcon(entry[0]) }}</span>
+          <span class="cat-name">{{ layerLabel(entry[0]) }}</span>
+          <span class="cat-weight">{{ layerWeight(entry[0]) }}</span>
+          <div class="cat-bar-wrap">
+            <div class="cat-bar-bg">
+              <div class="cat-bar-fill"
+                   [style.width.%]="scoreWidth(entry[1].score)"
+                   [style.background]="layerColor(entry[0])"></div>
+            </div>
+          </div>
+          <span class="cat-score" [style.color]="scoreColor(entry[1].score)">
+            {{ scorePercent(entry[1].score) }}
+          </span>
+          <span class="cat-status-icon">{{ categoryStatusIcon(entry[1].status) }}</span>
+        </div>
+
+        <!-- Primary issue -->
+        <div class="cat-primary-issue" *ngIf="entry[1].primary_issue">
+          <span class="issue-label">Problème principal :</span>
+          <span class="issue-value">{{ entry[1].primary_issue.replace('_', ' ') }}</span>
+        </div>
+
+        <!-- Derived issues -->
+        <div class="cat-derived" *ngIf="entry[1].derived_issues && entry[1].derived_issues.length > 0">
+          <span class="derived-label">Problèmes secondaires :</span>
+          <span class="derived-tag" *ngFor="let d of entry[1].derived_issues; trackBy: trackByIdx">
+            {{ d.replace('_', ' ') }}
+          </span>
+        </div>
+
+        <!-- Checks detail -->
+        <div class="cat-checks" *ngIf="entry[1].checks && entry[1].checks.length > 0">
+          <div class="cat-check-item"
+               *ngFor="let c of entry[1].checks; trackBy: trackByIdx"
+               [style.border-left-color]="statusBorder(c.status)">
+            <span class="rule-icon">{{ statusIcon(c.status) }}</span>
+            <span class="check-rule">{{ c.rule }}</span>
+            <span class="badge-sev" [style]="sevStyle(c.severity)">{{ c.severity }}</span>
+            <span class="check-msg">{{ c.message }}</span>
+            <div class="rule-values" *ngIf="c.lc_value || c.doc_value">
+              <span class="rv-lc"  *ngIf="c.lc_value">LC : {{ c.lc_value }}</span>
+              <span class="rv-doc" *ngIf="c.doc_value">Doc : {{ c.doc_value }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-state" *ngIf="categoriesEntries.length === 0">
+        Aucune donnée de catégorie disponible.
+      </div>
+    </div>
+
+    <!-- ── INTER-DOCUMENTS (v3.0) ────────────────────────────────── -->
+    <div *ngIf="activeTab === 'cross-doc'" class="tab-content">
+      <p class="tab-sub">Réconciliation inter-documents avant validation MT700</p>
+
+      <div class="cross-overall" *ngIf="result.crossDocument">
+        <span>Score global réconciliation :</span>
+        <span class="sem-score" [style.color]="scoreColor(result.crossDocument.overall_score)">
+          {{ scorePercent(result.crossDocument.overall_score) }}
+        </span>
+      </div>
+
+      <div class="cross-pair-card" *ngFor="let pair of crossDocPairs; trackBy: trackByIdx">
+        <div class="cross-pair-header">
+          <span class="cross-pair-label">🔗 {{ pair.label }}</span>
+          <span class="cross-pair-score" [style.color]="scoreColor(pair.pair.overall_score)">
+            {{ scorePercent(pair.pair.overall_score) }}
+          </span>
+        </div>
+        <div class="cross-pair-bar-bg">
+          <div class="cross-pair-bar-fill"
+               [style.width.%]="scoreWidth(pair.pair.overall_score)"
+               [style.background]="scoreColor(pair.pair.overall_score)"></div>
+        </div>
+
+        <div class="cross-check-item"
+             *ngFor="let c of pair.pair.checks; trackBy: trackByIdx"
+             [style.border-left-color]="statusBorder(c.status)"
+             [style.background]="statusBg(c.status)">
+          <div class="rule-top">
+            <span class="rule-icon">{{ statusIcon(c.status) }}</span>
+            <span class="rule-name">{{ c.check.replace('_', ' ') }}</span>
+            <span class="badge-sev" [style]="sevStyle(c.severity)">{{ c.severity }}</span>
+          </div>
+          <p class="rule-msg">{{ c.message }}</p>
+          <div class="rule-values" *ngIf="c.lc_value || c.doc_value">
+            <span class="rv-lc"  *ngIf="c.lc_value">Réf : {{ c.lc_value }}</span>
+            <span class="rv-doc" *ngIf="c.doc_value">Doc : {{ c.doc_value }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="empty-state" *ngIf="crossDocPairs.length === 0">
+        Aucune réconciliation inter-documents disponible.
+      </div>
+    </div>
+
+    <!-- ── RULES ─────────────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'rules'" class="tab-content">
+      <div class="rules-summary">
+        <span class="rs-item pass">✅ {{ countByStatus(result.ruleResults, 'pass') }} PASS</span>
+        <span class="rs-item fail">❌ {{ countByStatus(result.ruleResults, 'fail') }} FAIL</span>
+        <span class="rs-item warn">⚠️ {{ countByStatus(result.ruleResults, 'warning') }} WARN</span>
+        <span class="rs-item skip">⏭️ {{ countByStatus(result.ruleResults, 'skipped') }} SKIP</span>
+      </div>
+      <div class="rule-card"
+           *ngFor="let r of result.ruleResults; trackBy: trackByIdx"
+           [style.border-left-color]="statusBorder(r.status)"
+           [style.background]="statusBg(r.status)">
+        <div class="rule-top">
+          <span class="rule-icon">{{ statusIcon(r.status) }}</span>
+          <span class="rule-name">{{ r.rule }}</span>
+          <span class="badge-sev" [style]="sevStyle(r.severity)">{{ r.severity }}</span>
+          <span class="rule-doc" *ngIf="r.doc_type">{{ docTypeLabel(r.doc_type) }}</span>
+        </div>
+        <p class="rule-msg">{{ r.message }}</p>
+        <p class="rule-detail" *ngIf="r.detail">{{ r.detail }}</p>
+        <div class="rule-values" *ngIf="r.lc_value || r.doc_value">
+          <span class="rv-lc"  *ngIf="r.lc_value">LC : {{ r.lc_value }}</span>
+          <span class="rv-doc" *ngIf="r.doc_value">Doc : {{ r.doc_value }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── FUZZY ──────────────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'fuzzy'" class="tab-content">
+      <p class="tab-sub">Correspondance flou entre parties LC et documents commerciaux</p>
+      <div class="fuzzy-card"
+           *ngFor="let f of result.fuzzyResults; trackBy: trackByIdx"
+           [style.border-left-color]="statusBorder(f.status)"
+           [style.background]="statusBg(f.status)">
+        <div class="fuzzy-top">
+          <span class="rule-icon">{{ statusIcon(f.status) }}</span>
+          <span class="fuzzy-check">{{ f.check.replace(/_/g,' ') }}</span>
+          <span class="fuzzy-score-badge"
+                [style.color]="scoreColor(f.score)">
+            {{ scorePercent(f.score) }}
+          </span>
+          <span class="rule-doc">{{ docTypeLabel(f.doc_type) }}</span>
+        </div>
+        <div class="fuzzy-values">
+          <div class="fv-row">
+            <span class="fv-lbl">LC :</span>
+            <span class="fv-val">{{ f.lc_value }}</span>
+          </div>
+          <div class="fv-row">
+            <span class="fv-lbl">Doc :</span>
+            <span class="fv-val">{{ f.doc_value }}</span>
+          </div>
+        </div>
+        <div class="fuzzy-bar-bg">
+          <div class="fuzzy-bar-fill"
+               [style.width.%]="scoreWidth(f.score)"
+               [style.background]="scoreColor(f.score)"></div>
+        </div>
+      </div>
+      <div class="empty-state" *ngIf="result.fuzzyResults.length === 0">
+        Aucune correspondance d'entité calculée (champs manquants).
+      </div>
+    </div>
+
+    <!-- ── SEMANTIC ───────────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'semantic'" class="tab-content">
+      <p class="tab-sub">
+        Similarité entre la description des marchandises LC (champ 45A)
+        et les documents commerciaux.
+      </p>
+      <div class="semantic-overall" *ngIf="result.semanticResults">
+        <span>Score global sémantique :</span>
+        <span class="sem-score" [style.color]="scoreColor(result.semanticResults.overall_score)">
+          {{ scorePercent(result.semanticResults.overall_score) }}
+        </span>
+      </div>
+      <div class="sem-card" *ngIf="result.semanticResults?.lc_vs_invoice != null">
+        <span class="sem-pair">LC (45A) ↔ Invoice</span>
+        <span class="sem-label">{{ semanticLabel(result.semanticResults.lc_vs_invoice_label) }}</span>
+        <span class="sem-val" [style.color]="scoreColor(result.semanticResults.lc_vs_invoice)">
+          {{ scorePercent(result.semanticResults.lc_vs_invoice) }}
+        </span>
+        <div class="sem-bar-bg">
+          <div class="sem-bar-fill"
+               [style.width.%]="scoreWidth(result.semanticResults.lc_vs_invoice)"
+               [style.background]="scoreColor(result.semanticResults.lc_vs_invoice)"></div>
+        </div>
+      </div>
+      <div class="sem-card" *ngIf="result.semanticResults?.lc_vs_bl != null">
+        <span class="sem-pair">LC (45A) ↔ Bill of Lading</span>
+        <span class="sem-label">{{ semanticLabel(result.semanticResults.lc_vs_bl_label) }}</span>
+        <span class="sem-val" [style.color]="scoreColor(result.semanticResults.lc_vs_bl)">
+          {{ scorePercent(result.semanticResults.lc_vs_bl) }}
+        </span>
+        <div class="sem-bar-bg">
+          <div class="sem-bar-fill"
+               [style.width.%]="scoreWidth(result.semanticResults.lc_vs_bl)"
+               [style.background]="scoreColor(result.semanticResults.lc_vs_bl)"></div>
+        </div>
+      </div>
+      <p class="sem-method" *ngIf="result.semanticResults?.method">
+        Méthode : {{ result.semanticResults.method }}
+      </p>
+      <p class="sem-note" *ngIf="result.semanticResults?.note">
+        ℹ️ {{ result.semanticResults.note }}
+      </p>
+    </div>
+
+    <!-- ── CONDITIONS 47A ────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'conditions'" class="tab-content">
+      <p class="tab-sub">Vérification des conditions additionnelles LC (champ 47A).</p>
+      <div class="rule-card"
+           *ngFor="let r of result.conditionResults; trackBy: trackByIdx"
+           [style.border-left-color]="statusBorder(r.status)"
+           [style.background]="statusBg(r.status)">
+        <div class="rule-top">
+          <span class="rule-icon">{{ statusIcon(r.status) }}</span>
+          <span class="rule-name">{{ r.rule }}</span>
+          <span class="badge-sev" [style]="sevStyle(r.severity)">{{ r.severity }}</span>
+          <span class="rule-doc" *ngIf="r.doc_type">{{ docTypeLabel(r.doc_type) }}</span>
+        </div>
+        <p class="rule-msg">{{ r.message }}</p>
+        <div class="rule-values" *ngIf="r.lc_value || r.doc_value">
+          <span class="rv-lc"  *ngIf="r.lc_value">LC : {{ r.lc_value }}</span>
+          <span class="rv-doc" *ngIf="r.doc_value">Doc : {{ r.doc_value }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── EXPLANATIONS ──────────────────────────────────────────── -->
+    <div *ngIf="activeTab === 'explanations'" class="tab-content">
+      <div class="exp-card"
+           *ngFor="let e of result.explanations; trackBy: trackByIdx"
+           [style.border-left-color]="impactBorder(e.impact)">
+        <span class="exp-icon">{{ impactIcon(e.impact) }}</span>
+        <div class="exp-content">
+          <span class="exp-msg">{{ e.message }}</span>
+          <div class="exp-badges">
+            <span class="badge-sev" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+            <span class="badge-type">{{ e.type }}</span>
+            <span class="badge-cat">{{ e.category }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="empty-state" *ngIf="result.explanations.length === 0">
+        Aucune explication générée.
+      </div>
+    </div>
+
+  </div>
+</div>

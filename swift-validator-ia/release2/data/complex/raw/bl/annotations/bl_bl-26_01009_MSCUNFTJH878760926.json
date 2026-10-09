@@ -1,0 +1,409 @@
+{
+  "id": 1009,
+  "filename": "bl_bl-26_01009_MSCUNFTJH878760926.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNFTJH878760926",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNFTJH878760926",
+    "shipper_name": "TRANS PARTNERS INC",
+    "shipper_address": "104 TRADE PARK",
+    "consignee_name": "TRANS PARTNERS CORP",
+    "consignee_address": "471 MAIN STREET",
+    "notify_party_name": "PACIFIC ENTERPRISES LTD",
+    "notify_party_address": "800 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS170W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "03 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "OOLU8353763",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "G96FAD1E",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "220 DRUMS",
+    "gross_weight_kg": "25,926.19",
+    "measurement": "105.582 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU8353763",
+        "seal_number": "G96FAD1E",
+        "container_type": "40' OPEN TOP",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "220",
+          "type": "DRUMS",
+          "description": "220 DRUMS"
+        },
+        "gross_weight_kg": "15,937.59",
+        "net_weight_kg": "13,405.71",
+        "measurement": "42.295 CBM"
+      },
+      {
+        "container_number": "CMAU7903845",
+        "seal_number": "B75EA132",
+        "container_type": "40'FR",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "339",
+          "type": "CRATES",
+          "description": "339 CRATES"
+        },
+        "gross_weight_kg": "9,988.60",
+        "net_weight_kg": "6,497.32",
+        "measurement": "63.287 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNFTJH878760926",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        120.57,
+        75.12,
+        45.26,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        267.0,
+        75.12,
+        29.22,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        359.62,
+        75.12,
+        66.99,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        461.21,
+        75.12,
+        95.8,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        105.93,
+        103.46,
+        59.9,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "TRANS PARTNERS INC\n104 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "TRANS PARTNERS CORP\n471 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "PACIFIC ENTERPRISES LTD\n800 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        75.23,
+        256.54,
+        90.59,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.34,
+        256.54,
+        85.88,
+        34.02
+      ],
+      "value": "CS170W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        319.95,
+        256.54,
+        106.66,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        524.02,
+        256.54,
+        32.99,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        67.67,
+        290.55,
+        98.16,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        268.44,
+        290.55,
+        27.78,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        380.4,
+        290.55,
+        46.22,
+        34.02
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        490.97,
+        290.55,
+        66.04,
+        34.02
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU8353763",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "G96FAD1E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '220', 'type': 'DRUMS', 'description': '220 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "15,937.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "42.295 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "CMAU7903845",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "B75EA132",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '339', 'type': 'CRATES', 'description': '339 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "9,988.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "63.287 CBM",
+      "page": 1
+    }
+  ]
+}

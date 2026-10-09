@@ -1,0 +1,318 @@
+{
+  "id": 461,
+  "filename": "bl_bl-12_00461_MSCUNRUUY385498626.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNRUUY385498626",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNRUUY385498626",
+    "shipper_name": "DELTA SUPPLY CHAIN PLC",
+    "shipper_address": "968 PORT ACCESS ROAD",
+    "consignee_name": "FIRST SHIPPING LLC",
+    "consignee_address": "276 MAIN STREET",
+    "notify_party_name": "TRANS LOGISTICS BV",
+    "notify_party_address": "61 TRADE PARK",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0565N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "07 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "OOLU8964373",
+    "container_type": "40'FR",
+    "seal_number": "FD7D2860",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "349 CARTONS",
+    "gross_weight_kg": "15,449.89",
+    "measurement": "32.928 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU8964373",
+        "seal_number": "FD7D2860",
+        "container_type": "40'FR",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "349",
+          "type": "CARTONS",
+          "description": "349 CARTONS"
+        },
+        "gross_weight_kg": "15,449.89",
+        "net_weight_kg": "13,181.71",
+        "measurement": "32.928 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNRUUY385498626",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA SUPPLY CHAIN PLC\n968 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "FIRST SHIPPING LLC\n276 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "TRANS LOGISTICS BV\n61 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "OOLU8964373",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "FD7D2860",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '349', 'type': 'CARTONS', 'description': '349 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "15,449.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "32.928 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "0565N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        671.81,
+        272.38,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

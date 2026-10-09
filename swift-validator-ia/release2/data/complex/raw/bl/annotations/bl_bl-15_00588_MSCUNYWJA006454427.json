@@ -1,0 +1,318 @@
+{
+  "id": 588,
+  "filename": "bl_bl-15_00588_MSCUNYWJA006454427.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNYWJA006454427",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNYWJA006454427",
+    "shipper_name": "PREMIER GROUP S.A.",
+    "shipper_address": "406 PORT ACCESS ROAD",
+    "consignee_name": "UNITED TRADING GMBH",
+    "consignee_address": "531 INDUSTRIAL AVENUE",
+    "notify_party_name": "PREMIER LOGISTICS GMBH",
+    "notify_party_address": "909 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0632E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "21 JUN 2026",
+    "eta": "20 JUL 2026",
+    "container_number": "CMAU1788690",
+    "container_type": "40'HC",
+    "seal_number": "AF3D9C8A",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "382 PACKAGES",
+    "gross_weight_kg": "25,234.98",
+    "measurement": "52.539 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU1788690",
+        "seal_number": "AF3D9C8A",
+        "container_type": "40'HC",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "382",
+          "type": "PACKAGES",
+          "description": "382 PACKAGES"
+        },
+        "gross_weight_kg": "25,234.98",
+        "net_weight_kg": "21,810.50",
+        "measurement": "52.539 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNYWJA006454427",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER GROUP S.A.\n406 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "UNITED TRADING GMBH\n531 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        226.77,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER LOGISTICS GMBH\n909 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "0632E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "20 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        579.69,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU1788690",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "AF3D9C8A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        579.69,
+        42.63,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        579.69,
+        133.23,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '382', 'type': 'PACKAGES', 'description': '382 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "25,234.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "52.539 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        642.05,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        642.05,
+        266.46,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        670.39,
+        266.46,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        670.39,
+        266.46,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        698.74,
+        266.46,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

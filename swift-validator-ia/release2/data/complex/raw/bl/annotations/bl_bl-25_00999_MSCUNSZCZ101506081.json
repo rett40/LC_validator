@@ -1,0 +1,322 @@
+{
+  "id": 999,
+  "filename": "bl_bl-25_00999_MSCUNSZCZ101506081.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNSZCZ101506081",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNSZCZ101506081",
+    "shipper_name": "DELTA COMMERCE GMBH",
+    "shipper_address": "818 MAIN STREET",
+    "consignee_name": "FIRST ENTERPRISES LTD",
+    "consignee_address": "935 TRADE PARK",
+    "notify_party_name": "TRANS SUPPLY CHAIN S.A.",
+    "notify_party_address": "976 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE192N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "06 JUN 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "TCKU5577298",
+    "container_type": "20'OT",
+    "seal_number": "34HF830D",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "337 CRATES",
+    "gross_weight_kg": "13,074.81",
+    "measurement": "63.469 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU5577298",
+        "seal_number": "34HF830D",
+        "container_type": "20'OT",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "337",
+          "type": "CRATES",
+          "description": "337 CRATES"
+        },
+        "gross_weight_kg": "13,074.81",
+        "net_weight_kg": "9,612.63",
+        "measurement": "63.469 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNSZCZ101506081",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        535.75,
+        12.76
+      ],
+      "value": "TCKU5577298",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        241.09,
+        6.8
+      ],
+      "value": "34HF830D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        241.09,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "337",
+        "type": "CRATES",
+        "description": "337 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        241.09,
+        6.8
+      ],
+      "value": "13,074.81",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        241.09,
+        6.8
+      ],
+      "value": "63.469 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        146.62,
+        214.3,
+        31.96
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "FE192N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "DELTA COMMERCE GMBH\n818 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "FIRST ENTERPRISES LTD\n935 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "TRANS SUPPLY CHAIN S.A.\n976 INDUSTRIAL AVENUE",
+      "page": 1
+    }
+  ]
+}

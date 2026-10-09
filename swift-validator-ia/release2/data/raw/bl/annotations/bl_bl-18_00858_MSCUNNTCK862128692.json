@@ -1,0 +1,351 @@
+{
+  "id": 858,
+  "filename": "bl_bl-18_00858_MSCUNNTCK862128692.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNNTCK862128692",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNNTCK862128692",
+    "shipper_name": "EURO GROUP S.A.",
+    "shipper_address": "903 PORT ACCESS ROAD",
+    "consignee_name": "TRANS LOGISTICS AG",
+    "consignee_address": "860 INDUSTRIAL AVENUE",
+    "notify_party_name": "GLOBAL LOGISTICS INC",
+    "notify_party_address": "102 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE60W",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "21 MAY 2026",
+    "eta": "11 JUN 2026",
+    "container_number": "TRHU6231743",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "CHF7AC34",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "495 CRATES",
+    "gross_weight_kg": "6,108.73",
+    "measurement": "42.625 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6231743",
+        "seal_number": "CHF7AC34",
+        "container_type": "40' OPEN TOP",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "495",
+          "type": "CRATES",
+          "description": "495 CRATES"
+        },
+        "gross_weight_kg": "6,108.73",
+        "net_weight_kg": "2,279.92",
+        "measurement": "42.625 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNNTCK862128692",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU6231743",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "CHF7AC34",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '495', 'type': 'CRATES', 'description': '495 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "6,108.73",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "42.625 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "903 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "EURO GROUP S.A.\n903 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "860 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS LOGISTICS AG\n860 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        279.21,
+        269.29,
+        70.87
+      ],
+      "value": "102 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        259.37,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL LOGISTICS INC\n102 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "AE60W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "11 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        650.55,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

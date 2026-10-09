@@ -1,0 +1,442 @@
+{
+  "id": 260,
+  "filename": "bl_bl-06_00260_MSCUNAZWN890546984.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNAZWN890546984",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNAZWN890546984",
+    "shipper_name": "PREMIER INDUSTRIES CORP",
+    "shipper_address": "345 MAIN STREET",
+    "consignee_name": "DELTA PARTNERS PLC",
+    "consignee_address": "275 COMMERCE BOULEVARD",
+    "notify_party_name": "TRANS COMMERCE AG",
+    "notify_party_address": "107 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS246N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "04 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "EISU8860700",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "33F34E28",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "42 PALLETS",
+    "gross_weight_kg": "32,710.95",
+    "measurement": "93.117 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8860700",
+        "seal_number": "33F34E28",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "42",
+          "type": "PALLETS",
+          "description": "42 PALLETS"
+        },
+        "gross_weight_kg": "20,334.14",
+        "net_weight_kg": "17,255.18",
+        "measurement": "59.019 CBM"
+      },
+      {
+        "container_number": "HLCU6935495",
+        "seal_number": "609830B8",
+        "container_type": "20' TANK",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "309",
+          "type": "PACKAGES",
+          "description": "309 PACKAGES"
+        },
+        "gross_weight_kg": "12,376.81",
+        "net_weight_kg": "10,148.52",
+        "measurement": "34.098 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "29 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNAZWN890546984",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "345 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER INDUSTRIES CORP\n345 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "275 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "DELTA PARTNERS PLC\n275 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "107 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "TRANS COMMERCE AG\n107 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "CS246N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        341.57,
+        91.56,
+        36.85
+      ],
+      "value": "EISU8860700",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "33F34E28",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        341.57,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        341.57,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '42', 'type': 'PALLETS', 'description': '42 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "20,334.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "59.019 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        378.43,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU6935495",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "609830B8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        378.43,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        378.43,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '309', 'type': 'PACKAGES', 'description': '309 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "12,376.81",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "34.098 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

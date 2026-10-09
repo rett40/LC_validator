@@ -1,0 +1,417 @@
+{
+  "id": 383,
+  "filename": "bl_bl-10_00383_MSCUNUKZZ533075369.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNUKZZ533075369",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUKZZ533075369",
+    "shipper_name": "PACIFIC SOLUTIONS LTD",
+    "shipper_address": "428 HARBOR ROAD",
+    "consignee_name": "CENTRAL ENTERPRISES AG",
+    "consignee_address": "396 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX COMMERCE S.A.",
+    "notify_party_address": "396 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE49W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "21 MAY 2026",
+    "eta": "07 JUN 2026",
+    "container_number": "TCKU1562483",
+    "container_type": "40'RF",
+    "seal_number": "HBDA1GBC",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "445 PACKAGES",
+    "gross_weight_kg": "26,676.15",
+    "measurement": "131.691 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU1562483",
+        "seal_number": "HBDA1GBC",
+        "container_type": "40'RF",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "445",
+          "type": "PACKAGES",
+          "description": "445 PACKAGES"
+        },
+        "gross_weight_kg": "9,850.71",
+        "net_weight_kg": "6,697.47",
+        "measurement": "66.437 CBM"
+      },
+      {
+        "container_number": "TRHU3082849",
+        "seal_number": "BB6E7474",
+        "container_type": "40'HC",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "493",
+          "type": "CARTONS",
+          "description": "493 CARTONS"
+        },
+        "gross_weight_kg": "16,825.44",
+        "net_weight_kg": "14,796.88",
+        "measurement": "65.254 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNUKZZ533075369",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "TCKU1562483",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "HBDA1GBC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "445",
+        "type": "PACKAGES",
+        "description": "445 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "9,850.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "66.437 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "TRHU3082849",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "BB6E7474",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "493",
+        "type": "CARTONS",
+        "description": "493 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "16,825.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "65.254 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC SOLUTIONS LTD\n428 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL ENTERPRISES AG\n396 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "APEX COMMERCE S.A.\n396 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        339.56,
+        365.1,
+        224.54,
+        34.02
+      ],
+      "value": "AE49W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        399.12,
+        191.65,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        341.77,
+        399.12,
+        222.32,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        433.13,
+        233.87,
+        34.02
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.57,
+        433.13,
+        176.52,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        467.15,
+        241.88,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        467.15,
+        186.75,
+        34.02
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        509.67,
+        181.87,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        395.11,
+        509.67,
+        168.99,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        538.02,
+        222.31,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        372.01,
+        538.02,
+        192.08,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        566.36,
+        197.87,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

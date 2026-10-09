@@ -1,0 +1,409 @@
+{
+  "id": 332,
+  "filename": "bl_bl-07_00332_MSCUNVMVE666329567.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNVMVE666329567",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVMVE666329567",
+    "shipper_name": "PREMIER PARTNERS CORP",
+    "shipper_address": "335 HARBOR ROAD",
+    "consignee_name": "EURO SUPPLY CHAIN CORP",
+    "consignee_address": "412 HARBOR ROAD",
+    "notify_party_name": "GLOBAL SUPPLY CHAIN S.A.",
+    "notify_party_address": "267 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE340N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "18 MAY 2026",
+    "eta": "15 JUN 2026",
+    "container_number": "EISU4051514",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "49441B64",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "323 PACKAGES",
+    "gross_weight_kg": "40,911.35",
+    "measurement": "111.273 CBM",
+    "containers": [
+      {
+        "container_number": "EISU4051514",
+        "seal_number": "49441B64",
+        "container_type": "20' OPEN TOP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "323",
+          "type": "PACKAGES",
+          "description": "323 PACKAGES"
+        },
+        "gross_weight_kg": "24,871.28",
+        "net_weight_kg": "22,864.94",
+        "measurement": "65.690 CBM"
+      },
+      {
+        "container_number": "EISU3607294",
+        "seal_number": "6D961F71",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "482",
+          "type": "DRUMS",
+          "description": "482 DRUMS"
+        },
+        "gross_weight_kg": "16,040.07",
+        "net_weight_kg": "13,774.54",
+        "measurement": "45.583 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNVMVE666329567",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "FE340N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        228.19,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4051514",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "49441B64",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        228.19,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        228.19,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '323', 'type': 'PACKAGES', 'description': '323 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "24,871.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "65.690 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        265.04,
+        91.56,
+        36.85
+      ],
+      "value": "EISU3607294",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "6D961F71",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        265.04,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        265.04,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '482', 'type': 'DRUMS', 'description': '482 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "16,040.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "45.583 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "PREMIER PARTNERS CORP\n335 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "EURO SUPPLY CHAIN CORP\n412 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN S.A.\n267 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        462.05,
+        134.65,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

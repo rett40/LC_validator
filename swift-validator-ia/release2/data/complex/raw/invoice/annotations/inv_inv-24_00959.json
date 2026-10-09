@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00959",
+  "filename": "inv_inv-24_00959.pdf",
+  "layout_id": "INV-24",
+  "bl_id": 959,
+  "fields": {
+    "invoice_number": "INV-2026-00959",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/DB/0959/2026",
+    "bl_reference": "MSCUNBYHG122668445",
+    "seller_name": "FIRST SHIPPING PLC",
+    "buyer_name": "INTERNATIONAL SHIPPING GMBH",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE81N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "FRESH FRUITS AND VEGETABLES",
+    "hs_code": "8428.90",
+    "quantity": 135,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "12,370.34",
+    "unit_price": 675.12,
+    "currency": "USD",
+    "total_amount": 91140.96,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00959",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        134.65,
+        176.88,
+        42.52
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        134.65,
+        66.33,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        134.65,
+        55.28,
+        42.52
+      ],
+      "value": "135",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        134.65,
+        55.28,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        134.65,
+        99.5,
+        42.52
+      ],
+      "value": "675.12 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        134.65,
+        99.5,
+        42.52
+      ],
+      "value": "91140.96 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        191.34,
+        124.37,
+        19.84
+      ],
+      "value": "12,370.34 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        211.18,
+        124.37,
+        19.84
+      ],
+      "value": "91140.96 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        254.83,
+        272.38,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        254.83,
+        272.38,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        277.8,
+        276.38,
+        79.37
+      ],
+      "value": "FIRST SHIPPING PLC\nFIRST SHIPPING PLC\n971 COMMERCE STREET\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        277.8,
+        276.38,
+        79.37
+      ],
+      "value": "INTERNATIONAL SHIPPING GMBH\nINTERNATIONAL SHIPPING GMBH\n417 COMMERCE STREET\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        389.76,
+        272.38,
+        12.76
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        389.76,
+        272.38,
+        12.76
+      ],
+      "value": "LC/DB/0959/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        418.11,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNBYHG122668445",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        418.11,
+        272.38,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        446.46,
+        272.38,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        446.46,
+        272.38,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "77673.60 USD",
+      "actual": "91140.96 USD"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 698,
+  "filename": "bl_bl-14_00698_MSCUNBFBX865741761.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNBFBX865741761",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNBFBX865741761",
+    "shipper_name": "UNITED SHIPPING LLC",
+    "shipper_address": "350 MARKET STREET",
+    "consignee_name": "APEX SOLUTIONS GMBH",
+    "consignee_address": "56 PORT ACCESS ROAD",
+    "notify_party_name": "INTERNATIONAL COMMERCE INC",
+    "notify_party_address": "123 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0913W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "28 MAY 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "CMAU5408895",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "8G1AE6F9",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "377 DRUMS",
+    "gross_weight_kg": "26,063.14",
+    "measurement": "53.917 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU5408895",
+        "seal_number": "8G1AE6F9",
+        "container_type": "20' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "377",
+          "type": "DRUMS",
+          "description": "377 DRUMS"
+        },
+        "gross_weight_kg": "26,063.14",
+        "net_weight_kg": "22,476.35",
+        "measurement": "53.917 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNBFBX865741761",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU5408895",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "8G1AE6F9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '377', 'type': 'DRUMS', 'description': '377 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "26,063.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "53.917 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "0913W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SHIPPING LLC\n350 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "APEX SOLUTIONS GMBH\n56 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL COMMERCE INC\n123 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

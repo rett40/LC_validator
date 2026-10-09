@@ -1,0 +1,318 @@
+{
+  "id": 472,
+  "filename": "bl_bl-12_00472_MSCUNLRFJ404582062.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNLRFJ404582062",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLRFJ404582062",
+    "shipper_name": "DELTA SHIPPING AG",
+    "shipper_address": "459 MARKET STREET",
+    "consignee_name": "EURO LOGISTICS CO.",
+    "consignee_address": "606 MARKET STREET",
+    "notify_party_name": "EURO SUPPLY CHAIN INC",
+    "notify_party_address": "272 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0126N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "04 JUN 2026",
+    "eta": "24 JUN 2026",
+    "container_number": "CMAU4576884",
+    "container_type": "20'OT",
+    "seal_number": "17AB5254",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "228 PACKAGES",
+    "gross_weight_kg": "23,879.05",
+    "measurement": "27.124 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4576884",
+        "seal_number": "17AB5254",
+        "container_type": "20'OT",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "228",
+          "type": "PACKAGES",
+          "description": "228 PACKAGES"
+        },
+        "gross_weight_kg": "23,879.05",
+        "net_weight_kg": "21,581.75",
+        "measurement": "27.124 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNLRFJ404582062",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA SHIPPING AG\n459 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "EURO LOGISTICS CO.\n606 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "EURO SUPPLY CHAIN INC\n272 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU4576884",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "17AB5254",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '228', 'type': 'PACKAGES', 'description': '228 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "23,879.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "27.124 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "0126N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        671.81,
+        272.38,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

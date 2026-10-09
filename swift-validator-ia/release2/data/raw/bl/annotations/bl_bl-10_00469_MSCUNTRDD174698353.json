@@ -1,0 +1,442 @@
+{
+  "id": 469,
+  "filename": "bl_bl-10_00469_MSCUNTRDD174698353.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNTRDD174698353",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTRDD174698353",
+    "shipper_name": "TRANS GROUP AG",
+    "shipper_address": "776 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST INDUSTRIES BV",
+    "consignee_address": "811 TRADE PARK",
+    "notify_party_name": "APEX SUPPLY CHAIN CO.",
+    "notify_party_address": "11 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE356S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "06 MAY 2026",
+    "eta": "05 JUN 2026",
+    "container_number": "TCKU9859850",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "0CEB7CG9",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "500 BOXES",
+    "gross_weight_kg": "27,402.48",
+    "measurement": "69.153 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9859850",
+        "seal_number": "0CEB7CG9",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "500",
+          "type": "BOXES",
+          "description": "500 BOXES"
+        },
+        "gross_weight_kg": "20,116.96",
+        "net_weight_kg": "16,149.05",
+        "measurement": "21.674 CBM"
+      },
+      {
+        "container_number": "OOLU4751381",
+        "seal_number": "51B2F84C",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "387",
+          "type": "PACKAGES",
+          "description": "387 PACKAGES"
+        },
+        "gross_weight_kg": "7,285.52",
+        "net_weight_kg": "4,749.73",
+        "measurement": "47.479 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "21 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNTRDD174698353",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9859850",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "0CEB7CG9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '500', 'type': 'BOXES', 'description': '500 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "20,116.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "21.674 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU4751381",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "51B2F84C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '387', 'type': 'PACKAGES', 'description': '387 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "7,285.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "47.479 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "776 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS GROUP AG\n776 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "811 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST INDUSTRIES BV\n811 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        324.57,
+        269.29,
+        70.87
+      ],
+      "value": "11 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        304.72,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SUPPLY CHAIN CO.\n11 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "FE356S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

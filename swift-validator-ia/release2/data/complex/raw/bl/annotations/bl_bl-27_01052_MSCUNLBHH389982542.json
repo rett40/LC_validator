@@ -1,0 +1,318 @@
+{
+  "id": 1052,
+  "filename": "bl_bl-27_01052_MSCUNLBHH389982542.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNLBHH389982542",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLBHH389982542",
+    "shipper_name": "APEX GROUP INC",
+    "shipper_address": "386 INDUSTRIAL AVENUE",
+    "consignee_name": "TRANS SUPPLY CHAIN LTD",
+    "consignee_address": "463 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST GROUP LLC",
+    "notify_party_address": "665 MARKET STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE871S",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "27 JUN 2026",
+    "eta": "13 JUL 2026",
+    "container_number": "MAEU4159931",
+    "container_type": "20'DC",
+    "seal_number": "18FDBE5C",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "446 CRATES",
+    "gross_weight_kg": "16,961.26",
+    "measurement": "53.405 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU4159931",
+        "seal_number": "18FDBE5C",
+        "container_type": "20'DC",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "446",
+          "type": "CRATES",
+          "description": "446 CRATES"
+        },
+        "gross_weight_kg": "16,961.26",
+        "net_weight_kg": "13,840.57",
+        "measurement": "53.405 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNLBHH389982542",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "MAEU4159931",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "18FDBE5C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '446', 'type': 'CRATES', 'description': '446 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "16,961.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "53.405 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        259.37,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "APEX GROUP INC\n386 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN LTD\n463 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        392.6,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST GROUP LLC\n665 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "FE871S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "13 JUL 2026",
+      "page": 1
+    }
+  ]
+}

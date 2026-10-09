@@ -1,0 +1,409 @@
+{
+  "id": 174,
+  "filename": "bl_bl-05_00174_MSCUNSSRS289590376.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNSSRS289590376",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSSRS289590376",
+    "shipper_name": "APEX LOGISTICS CO.",
+    "shipper_address": "44 INDUSTRIAL AVENUE",
+    "consignee_name": "UNITED SUPPLY CHAIN AG",
+    "consignee_address": "828 COMMERCE BOULEVARD",
+    "notify_party_name": "EURO SUPPLY CHAIN PLC",
+    "notify_party_address": "803 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE665S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "24 MAY 2026",
+    "eta": "09 JUN 2026",
+    "container_number": "TCKU6835246",
+    "container_type": "20'TK",
+    "seal_number": "9C0902E6",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "111 BAGS",
+    "gross_weight_kg": "29,545.79",
+    "measurement": "95.995 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU6835246",
+        "seal_number": "9C0902E6",
+        "container_type": "20'TK",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "111",
+          "type": "BAGS",
+          "description": "111 BAGS"
+        },
+        "gross_weight_kg": "19,694.28",
+        "net_weight_kg": "16,398.22",
+        "measurement": "35.471 CBM"
+      },
+      {
+        "container_number": "OOLU5994074",
+        "seal_number": "CH93A016",
+        "container_type": "20' FLAT RACK",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "273",
+          "type": "BOXES",
+          "description": "273 BOXES"
+        },
+        "gross_weight_kg": "9,851.51",
+        "net_weight_kg": "6,473.75",
+        "measurement": "60.524 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNSSRS289590376",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "APEX LOGISTICS CO.\n44 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED SUPPLY CHAIN AG\n828 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "EURO SUPPLY CHAIN PLC\n803 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU6835246",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "9C0902E6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '111', 'type': 'BAGS', 'description': '111 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "19,694.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "35.471 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU5994074",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "CH93A016",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '273', 'type': 'BOXES', 'description': '273 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "9,851.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "60.524 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "FE665S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        544.25,
+        264.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

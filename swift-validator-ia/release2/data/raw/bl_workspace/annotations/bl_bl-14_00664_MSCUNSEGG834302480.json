@@ -1,0 +1,409 @@
+{
+  "id": 664,
+  "filename": "bl_bl-14_00664_MSCUNSEGG834302480.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNSEGG834302480",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSEGG834302480",
+    "shipper_name": "INTERNATIONAL PARTNERS INC",
+    "shipper_address": "660 MAIN STREET",
+    "consignee_name": "PACIFIC GROUP GMBH",
+    "consignee_address": "788 PORT ACCESS ROAD",
+    "notify_party_name": "INTERNATIONAL PARTNERS LTD",
+    "notify_party_address": "923 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5712",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "02 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "TCKU8014864",
+    "container_type": "20' REEFER",
+    "seal_number": "DCG9BB05",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "321 CRATES",
+    "gross_weight_kg": "22,545.28",
+    "measurement": "71.404 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8014864",
+        "seal_number": "DCG9BB05",
+        "container_type": "20' REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "321",
+          "type": "CRATES",
+          "description": "321 CRATES"
+        },
+        "gross_weight_kg": "16,638.41",
+        "net_weight_kg": "12,756.49",
+        "measurement": "50.250 CBM"
+      },
+      {
+        "container_number": "CMAU5790510",
+        "seal_number": "87E31074",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "375",
+          "type": "CARTONS",
+          "description": "375 CARTONS"
+        },
+        "gross_weight_kg": "5,906.87",
+        "net_weight_kg": "2,510.13",
+        "measurement": "21.154 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNSEGG834302480",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU8014864",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "DCG9BB05",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '321', 'type': 'CRATES', 'description': '321 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "16,638.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "50.250 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU5790510",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "87E31074",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '375', 'type': 'CARTONS', 'description': '375 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "5,906.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "21.154 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "AL5712",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL PARTNERS INC\n660 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC GROUP GMBH\n788 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL PARTNERS LTD\n923 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

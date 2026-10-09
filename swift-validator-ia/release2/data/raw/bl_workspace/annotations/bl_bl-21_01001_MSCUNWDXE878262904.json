@@ -1,0 +1,318 @@
+{
+  "id": 1001,
+  "filename": "bl_bl-21_01001_MSCUNWDXE878262904.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNWDXE878262904",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNWDXE878262904",
+    "shipper_name": "UNITED SUPPLY CHAIN S.A.",
+    "shipper_address": "690 MAIN STREET",
+    "consignee_name": "PACIFIC LOGISTICS CORP",
+    "consignee_address": "56 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL TRADING LLC",
+    "notify_party_address": "909 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE23N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "29 MAY 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "OOLU5902851",
+    "container_type": "40' REEFER",
+    "seal_number": "CB4E35D7",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "155 BOXES",
+    "gross_weight_kg": "16,433.90",
+    "measurement": "24.229 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU5902851",
+        "seal_number": "CB4E35D7",
+        "container_type": "40' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "155",
+          "type": "BOXES",
+          "description": "155 BOXES"
+        },
+        "gross_weight_kg": "16,433.90",
+        "net_weight_kg": "14,076.81",
+        "measurement": "24.229 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNWDXE878262904",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN S.A.\n690 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC LOGISTICS CORP\n56 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING LLC\n909 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU5902851",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "CB4E35D7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '155', 'type': 'BOXES', 'description': '155 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "16,433.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "24.229 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "AE23N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00116",
+  "filename": "inv_hapaglloyd_0116_HLCUPYPM620103859.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 116,
+  "fields": {
+    "invoice_number": "INV-2026-00116",
+    "invoice_date": "16 APR 2026",
+    "lc_reference": "LC/HSBC/0116/2026",
+    "bl_reference": "HLCUPYPM620103859",
+    "seller_name": "CENTRAL ENTERPRISES GMBH",
+    "buyer_name": "UNITED GROUP S.A.",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0681W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "COPPER ALLOYS AND ARTICLES",
+    "hs_code": "7408.19",
+    "quantity": 45,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "16,238.11",
+    "unit_price": 17.69,
+    "currency": "USD",
+    "total_amount": 796.05,
+    "incoterm": "CFR",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00116",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "HLCUPYPM620103859",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "CENTRAL ENTERPRISES GMBH\n367 TRADE PARK\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "UNITED GROUP S.A.\n603 COMMERCE STREET\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "0681W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUPYPM620103859",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "COPPER ALLOYS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "45",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "USD 17.69",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "USD 796.05",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "USD 796.05",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "COPPER AND COPPER PRODUCTS",
+      "actual": "COPPER ALLOYS AND ARTICLES"
+    }
+  ]
+}

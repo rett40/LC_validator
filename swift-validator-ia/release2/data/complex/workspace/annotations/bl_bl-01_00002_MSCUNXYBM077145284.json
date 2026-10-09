@@ -1,0 +1,322 @@
+{
+  "id": 2,
+  "filename": "bl_bl-01_00002_MSCUNXYBM077145284.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNXYBM077145284",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNXYBM077145284",
+    "shipper_name": "APEX SHIPPING CORP",
+    "shipper_address": "66 TRADE PARK",
+    "consignee_name": "FIRST SUPPLY CHAIN PLC",
+    "consignee_address": "258 COMMERCE BOULEVARD",
+    "notify_party_name": "GLOBAL LOGISTICS AG",
+    "notify_party_address": "788 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE81S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "10 JUN 2026",
+    "eta": "03 JUL 2026",
+    "container_number": "OOLU9751688",
+    "container_type": "20' DRY",
+    "seal_number": "2C5161AF",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "498 BOXES",
+    "gross_weight_kg": "14,999.60",
+    "measurement": "25.370 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU9751688",
+        "seal_number": "2C5161AF",
+        "container_type": "20' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "498",
+          "type": "BOXES",
+          "description": "498 BOXES"
+        },
+        "gross_weight_kg": "14,999.60",
+        "net_weight_kg": "12,092.15",
+        "measurement": "25.370 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNXYBM077145284",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "APEX SHIPPING CORP\n66 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "FIRST SUPPLY CHAIN PLC\n258 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "GLOBAL LOGISTICS AG\n788 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "AE81S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        535.75,
+        12.76
+      ],
+      "value": "OOLU9751688",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        241.09,
+        6.8
+      ],
+      "value": "2C5161AF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        241.09,
+        6.8
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "498",
+        "type": "BOXES",
+        "description": "498 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        241.09,
+        6.8
+      ],
+      "value": "14,999.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        241.09,
+        6.8
+      ],
+      "value": "25.370 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        440.01,
+        214.3,
+        31.96
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

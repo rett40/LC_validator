@@ -1,0 +1,409 @@
+{
+  "id": 441,
+  "filename": "bl_bl-12_00441_MSCUNBTKF130805793.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNBTKF130805793",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNBTKF130805793",
+    "shipper_name": "DELTA COMMERCE CO.",
+    "shipper_address": "247 HARBOR ROAD",
+    "consignee_name": "TRANS TRADING LLC",
+    "consignee_address": "728 HARBOR ROAD",
+    "notify_party_name": "FIRST SHIPPING CO.",
+    "notify_party_address": "37 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE184N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "27 MAY 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "EISU6891219",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "HD7876C9",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "135 PALLETS",
+    "gross_weight_kg": "26,464.18",
+    "measurement": "59.746 CBM",
+    "containers": [
+      {
+        "container_number": "EISU6891219",
+        "seal_number": "HD7876C9",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "135",
+          "type": "PALLETS",
+          "description": "135 PALLETS"
+        },
+        "gross_weight_kg": "13,690.92",
+        "net_weight_kg": "11,451.89",
+        "measurement": "34.851 CBM"
+      },
+      {
+        "container_number": "EISU2523655",
+        "seal_number": "0D227AA6",
+        "container_type": "20' REEFER",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "224",
+          "type": "BAGS",
+          "description": "224 BAGS"
+        },
+        "gross_weight_kg": "12,773.26",
+        "net_weight_kg": "9,509.73",
+        "measurement": "24.895 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNBTKF130805793",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA COMMERCE CO.\n247 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "TRANS TRADING LLC\n728 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "FIRST SHIPPING CO.\n37 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "EISU6891219",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "HD7876C9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '135', 'type': 'PALLETS', 'description': '135 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "13,690.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "34.851 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "EISU2523655",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "0D227AA6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '224', 'type': 'BAGS', 'description': '224 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "12,773.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "24.895 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "FE184N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        708.66,
+        272.38,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

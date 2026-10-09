@@ -1,0 +1,442 @@
+{
+  "id": 693,
+  "filename": "bl_bl-18_00693_MSCUNNTNT396514198.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNNTNT396514198",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNTNT396514198",
+    "shipper_name": "GLOBAL TRADING CORP",
+    "shipper_address": "965 INDUSTRIAL AVENUE",
+    "consignee_name": "INTERNATIONAL SOLUTIONS AG",
+    "consignee_address": "508 COMMERCE BOULEVARD",
+    "notify_party_name": "TRANS SHIPPING S.A.",
+    "notify_party_address": "24 PORT ACCESS ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0753N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "24 MAY 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "EISU9039253",
+    "container_type": "20' DRY / GP",
+    "seal_number": "72B1CHCE",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "446 BOXES",
+    "gross_weight_kg": "38,448.95",
+    "measurement": "116.146 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9039253",
+        "seal_number": "72B1CHCE",
+        "container_type": "20' DRY / GP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "446",
+          "type": "BOXES",
+          "description": "446 BOXES"
+        },
+        "gross_weight_kg": "24,236.07",
+        "net_weight_kg": "21,603.94",
+        "measurement": "61.163 CBM"
+      },
+      {
+        "container_number": "MAEU7806715",
+        "seal_number": "8H73HCEF",
+        "container_type": "45'HC",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "175",
+          "type": "PALLETS",
+          "description": "175 PALLETS"
+        },
+        "gross_weight_kg": "14,212.88",
+        "net_weight_kg": "11,631.20",
+        "measurement": "54.983 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNNTNT396514198",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9039253",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "72B1CHCE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '446', 'type': 'BOXES', 'description': '446 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "24,236.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "61.163 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU7806715",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "8H73HCEF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '175', 'type': 'PALLETS', 'description': '175 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "14,212.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "54.983 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "965 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL TRADING CORP\n965 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "508 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL SOLUTIONS AG\n508 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "24 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS SHIPPING S.A.\n24 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        490.39,
+        248.62,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        330.29,
+        490.39,
+        243.72,
+        34.02
+      ],
+      "value": "0753N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        115.67,
+        524.41,
+        189.05,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        383.18,
+        524.41,
+        190.84,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        558.43,
+        199.72,
+        34.02
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        376.52,
+        558.43,
+        197.49,
+        34.02
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        592.44,
+        193.5,
+        34.02
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        382.3,
+        592.44,
+        191.72,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        634.96,
+        189.04,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        400.07,
+        634.96,
+        173.95,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        663.31,
+        201.94,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        369.41,
+        663.31,
+        204.6,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        691.65,
+        169.05,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

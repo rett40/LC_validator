@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00020",
+  "filename": "inv_hapaglloyd_0020_HLCUJEEY421081788.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 20,
+  "fields": {
+    "invoice_number": "INV-2026-00020",
+    "invoice_date": "16 APR 2026",
+    "lc_reference": "LC/CITI/0020/2026",
+    "bl_reference": "HLCUJEEY421081788",
+    "seller_name": "ATLANTIC GROUP PLC",
+    "buyer_name": "PACIFIC SOLUTIONS CO.",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0613E",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "VEHICLE COMPONENTS AND SPARES",
+    "hs_code": "8708.99",
+    "quantity": 207,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "12,582.89",
+    "unit_price": 132.98,
+    "currency": "EUR",
+    "total_amount": 27526.86,
+    "incoterm": "CIF",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00020",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "HLCUJEEY421081788",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "ATLANTIC GROUP PLC\n413 EXPORT ZONE\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "PACIFIC SOLUTIONS CO.\n348 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "0613E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUJEEY421081788",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "VEHICLE COMPONENTS AND SPARES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "207",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 132.98",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 27,526.86",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "EUR 27,526.86",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "actual": "VEHICLE COMPONENTS AND SPARES"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": 397,
+  "filename": "bl_bl-10_00397_MSCUNJBMX988039126.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNJBMX988039126",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNJBMX988039126",
+    "shipper_name": "PREMIER SHIPPING AG",
+    "shipper_address": "230 PORT ACCESS ROAD",
+    "consignee_name": "UNITED INDUSTRIES PLC",
+    "consignee_address": "275 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST LOGISTICS INC",
+    "notify_party_address": "388 MAIN STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE433N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "27 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "TRHU1943220",
+    "container_type": "40'RF",
+    "seal_number": "2B2G7H9B",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "131 PALLETS",
+    "gross_weight_kg": "20,094.00",
+    "measurement": "29.641 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU1943220",
+        "seal_number": "2B2G7H9B",
+        "container_type": "40'RF",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "131",
+          "type": "PALLETS",
+          "description": "131 PALLETS"
+        },
+        "gross_weight_kg": "20,094.00",
+        "net_weight_kg": "16,753.64",
+        "measurement": "29.641 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNJBMX988039126",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "TRHU1943220",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "2B2G7H9B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "131",
+        "type": "PALLETS",
+        "description": "131 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "20,094.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "29.641 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "PREMIER SHIPPING AG\n230 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED INDUSTRIES PLC\n275 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST LOGISTICS INC\n388 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        365.1,
+        201.42,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        341.78,
+        365.1,
+        222.31,
+        34.02
+      ],
+      "value": "FE433N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        121.0,
+        399.12,
+        178.76,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        378.22,
+        399.12,
+        185.87,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        433.13,
+        187.64,
+        34.02
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        384.89,
+        433.13,
+        179.2,
+        34.02
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        467.15,
+        188.54,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        360.45,
+        467.15,
+        203.64,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        509.67,
+        184.08,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        395.11,
+        509.67,
+        168.99,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        63.22,
+        538.02,
+        236.55,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        349.33,
+        538.02,
+        214.76,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        566.36,
+        197.87,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

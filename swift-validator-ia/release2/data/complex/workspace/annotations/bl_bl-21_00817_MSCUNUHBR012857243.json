@@ -1,0 +1,318 @@
+{
+  "id": 817,
+  "filename": "bl_bl-21_00817_MSCUNUHBR012857243.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNUHBR012857243",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNUHBR012857243",
+    "shipper_name": "DELTA INDUSTRIES CO.",
+    "shipper_address": "943 PORT ACCESS ROAD",
+    "consignee_name": "PREMIER INDUSTRIES LLC",
+    "consignee_address": "129 COMMERCE BOULEVARD",
+    "notify_party_name": "CENTRAL ENTERPRISES LTD",
+    "notify_party_address": "677 PORT ACCESS ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5129",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "18 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "OOLU1794017",
+    "container_type": "40'FR",
+    "seal_number": "89B67501",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "447 PACKAGES",
+    "gross_weight_kg": "25,333.66",
+    "measurement": "63.244 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU1794017",
+        "seal_number": "89B67501",
+        "container_type": "40'FR",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "447",
+          "type": "PACKAGES",
+          "description": "447 PACKAGES"
+        },
+        "gross_weight_kg": "25,333.66",
+        "net_weight_kg": "21,821.60",
+        "measurement": "63.244 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNUHBR012857243",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "DELTA INDUSTRIES CO.\n943 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "PREMIER INDUSTRIES LLC\n129 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES LTD\n677 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "OOLU1794017",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "89B67501",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '447', 'type': 'PACKAGES', 'description': '447 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "25,333.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "63.244 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "AL5129",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

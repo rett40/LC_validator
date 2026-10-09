@@ -1,0 +1,69 @@
+
+{
+  "message_type": "MT720",
+  "description": "Transfer of a Documentary Credit",
+  "fields": {
+    "27": {
+      "name": "Sequence of Total",
+      "format": "1n/1n",
+      "mandatory": true
+    },
+    "40B": {
+      "name": "Form of Documentary Credit",
+      "format": "24x 24x",
+      "mandatory": true,
+      "structure": {
+        "lc_type": ["IRREVOCABLE"],
+        "confirmation": ["ADDING OUR CONFIRMATION", "WITHOUT OUR CONFIRMATION"]
+      }
+    },
+    "20": {
+      "name": "Transferring Bank's Reference",
+      "format": "16x",
+      "mandatory": true
+    },
+    "21": {
+      "name": "Documentary Credit Number",
+      "format": "16x",
+      "mandatory": true,
+      "description": "Original credit number"
+    },
+    "31C": {
+      "name": "Date of Issue",
+      "format": "6n",
+      "mandatory": true
+    },
+    "40E": {
+      "name": "Applicable Rules",
+      "format": "30x[/35x]",
+      "mandatory": true
+    },
+    "31D": {
+      "name": "Date and Place of Expiry",
+      "format": "6n29x",
+      "mandatory": true
+    },
+    "52a": {
+      "name": "Issuing Bank of the Original Credit",
+      "format": "A or D"
+    },
+    "50": {
+      "name": "First Beneficiary",
+      "format": "4*35x",
+      "mandatory": true
+    },
+    "59": {
+      "name": "Second Beneficiary",
+      "format": "[34x] 4*35x",
+      "mandatory": true
+    },
+    "32B": {
+      "name": "Currency Code, Amount",
+      "format": "3a15d",
+      "mandatory": true
+    }
+  },
+  "rules": [
+    "C4: Either field 52a or field 50B, but not both, must be present"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00147",
+  "filename": "inv_cmacgm_0147_CMAUJUEY698684952.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 147,
+  "fields": {
+    "invoice_number": "INV-2026-00147",
+    "invoice_date": "09 APR 2026",
+    "lc_reference": "LC/BNP/0147/2026",
+    "bl_reference": "CMAUJUEY698684952",
+    "seller_name": "GLOBAL GROUP GMBH",
+    "buyer_name": "GLOBAL SUPPLY CHAIN S.A.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS708S",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "goods_description": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "hs_code": "8541.40",
+    "quantity": 189,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "12,720.58",
+    "unit_price": 79.13,
+    "currency": "USD",
+    "total_amount": 14955.57,
+    "incoterm": "CIF",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00147",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUJUEY698684952",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "GLOBAL GROUP GMBH\n521 COMMERCE STREET\nTOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "GLOBAL SUPPLY CHAIN S.A.\n19 COMMERCE STREET\nLONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "CS708S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUJUEY698684952",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "189",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 79.13",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 14,955.57",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 14,955.57",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "TOKYO, JAPAN",
+      "actual": "VALENCIA, SPAIN"
+    }
+  ]
+}

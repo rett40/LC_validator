@@ -1,0 +1,417 @@
+{
+  "id": 389,
+  "filename": "bl_bl-10_00389_MSCUNKBFT840176873.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNKBFT840176873",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNKBFT840176873",
+    "shipper_name": "APEX ENTERPRISES PLC",
+    "shipper_address": "361 HARBOR ROAD",
+    "consignee_name": "PREMIER TRADING PLC",
+    "consignee_address": "160 TRADE PARK",
+    "notify_party_name": "UNITED GROUP LLC",
+    "notify_party_address": "441 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE12S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "24 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "CMAU9456028",
+    "container_type": "20' DRY / GP",
+    "seal_number": "1B8HH8D7",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "399 PACKAGES",
+    "gross_weight_kg": "17,389.47",
+    "measurement": "47.933 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU9456028",
+        "seal_number": "1B8HH8D7",
+        "container_type": "20' DRY / GP",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "399",
+          "type": "PACKAGES",
+          "description": "399 PACKAGES"
+        },
+        "gross_weight_kg": "5,213.22",
+        "net_weight_kg": "1,466.53",
+        "measurement": "26.904 CBM"
+      },
+      {
+        "container_number": "HLCU5334816",
+        "seal_number": "AF6919AD",
+        "container_type": "40' FLAT RACK",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "212",
+          "type": "BOXES",
+          "description": "212 BOXES"
+        },
+        "gross_weight_kg": "12,176.25",
+        "net_weight_kg": "8,274.74",
+        "measurement": "21.029 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNKBFT840176873",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU9456028",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "1B8HH8D7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "399",
+        "type": "PACKAGES",
+        "description": "399 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "5,213.22",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "26.904 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "HLCU5334816",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "AF6919AD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "212",
+        "type": "BOXES",
+        "description": "212 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "12,176.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "21.029 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "APEX ENTERPRISES PLC\n361 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "PREMIER TRADING PLC\n160 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED GROUP LLC\n441 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        94.35,
+        365.1,
+        205.41,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        340.0,
+        365.1,
+        224.09,
+        34.02
+      ],
+      "value": "AE12S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        399.12,
+        191.65,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        378.22,
+        399.12,
+        185.87,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        138.35,
+        433.13,
+        161.42,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        371.56,
+        433.13,
+        192.53,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        467.15,
+        241.88,
+        34.02
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        467.15,
+        186.75,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        381.77,
+        509.67,
+        182.32,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        538.02,
+        210.31,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        348.44,
+        538.02,
+        215.65,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        566.36,
+        214.31,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 93,
+  "filename": "bl_bl-03_00093_MSCUNYRGL751147878.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNYRGL751147878",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNYRGL751147878",
+    "shipper_name": "UNITED SHIPPING GMBH",
+    "shipper_address": "136 TRADE PARK",
+    "consignee_name": "GLOBAL INDUSTRIES GMBH",
+    "consignee_address": "437 MAIN STREET",
+    "notify_party_name": "UNITED COMMERCE LLC",
+    "notify_party_address": "390 TRADE PARK",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0984S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "30 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "TRHU6322345",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "8DA3FFF2",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "41 DRUMS",
+    "gross_weight_kg": "23,463.20",
+    "measurement": "50.842 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6322345",
+        "seal_number": "8DA3FFF2",
+        "container_type": "20' OPEN TOP",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "41",
+          "type": "DRUMS",
+          "description": "41 DRUMS"
+        },
+        "gross_weight_kg": "10,100.83",
+        "net_weight_kg": "7,248.68",
+        "measurement": "28.872 CBM"
+      },
+      {
+        "container_number": "MSCU6713879",
+        "seal_number": "1G3DG7C5",
+        "container_type": "40' DRY",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "59",
+          "type": "BOXES",
+          "description": "59 BOXES"
+        },
+        "gross_weight_kg": "13,362.37",
+        "net_weight_kg": "10,753.66",
+        "measurement": "21.970 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        360.85,
+        85.89,
+        213.17,
+        31.75
+      ],
+      "value": "MSCUNYRGL751147878",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        43.1,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        176.33,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "0984S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        309.56,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        442.79,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        43.1,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        176.33,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        309.56,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        442.79,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "UNITED SHIPPING GMBH\n136 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        176.33,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "GLOBAL INDUSTRIES GMBH\n437 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        309.56,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "UNITED COMMERCE LLC\n390 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        338.74,
+        90.6,
+        36.85
+      ],
+      "value": "TRHU6322345",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "8DA3FFF2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        338.74,
+        42.63,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        338.74,
+        133.23,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '41', 'type': 'DRUMS', 'description': '41 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "10,100.83",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "28.872 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        375.59,
+        90.6,
+        36.85
+      ],
+      "value": "MSCU6713879",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "1G3DG7C5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        375.59,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        375.59,
+        133.23,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '59', 'type': 'BOXES', 'description': '59 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "13,362.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "21.970 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        43.1,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        176.33,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        309.56,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        442.79,
+        445.04,
+        129.23,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        43.1,
+        473.39,
+        129.23,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

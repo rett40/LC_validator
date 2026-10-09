@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00174",
+  "filename": "inv_maersk_0174_MAEUVBML405520497.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 174,
+  "fields": {
+    "invoice_number": "INV-2026-00174",
+    "invoice_date": "09 APR 2026",
+    "lc_reference": "LC/SCB/0174/2026",
+    "bl_reference": "MAEUVBML405520497",
+    "seller_name": "APEX TRADING CORP",
+    "buyer_name": "CENTRAL LOGISTICS S.A.",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6610",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "BUILDING MATERIALS",
+    "hs_code": "6810.19",
+    "quantity": 388,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "10,703.35",
+    "unit_price": 28.8,
+    "currency": "USD",
+    "total_amount": 11174.0,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00174",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUVBML405520497",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "APEX TRADING CORP\n220 MAIN BOULEVARD\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "CENTRAL LOGISTICS S.A.\n293 EXPORT ZONE\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "AL6610",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUVBML405520497",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "388",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 28.80",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 11,174.00",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 11,174.00",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "9568.08 USD",
+      "actual": "11174.00 USD"
+    }
+  ]
+}

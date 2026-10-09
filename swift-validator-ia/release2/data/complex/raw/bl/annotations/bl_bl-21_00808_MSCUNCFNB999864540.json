@@ -1,0 +1,409 @@
+{
+  "id": 808,
+  "filename": "bl_bl-21_00808_MSCUNCFNB999864540.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNCFNB999864540",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCFNB999864540",
+    "shipper_name": "CENTRAL GROUP LTD",
+    "shipper_address": "83 HARBOR ROAD",
+    "consignee_name": "FIRST SOLUTIONS LLC",
+    "consignee_address": "190 MAIN STREET",
+    "notify_party_name": "INTERNATIONAL ENTERPRISES GMBH",
+    "notify_party_address": "457 TRADE PARK",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0471S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "05 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "EISU5832872",
+    "container_type": "40' DRY",
+    "seal_number": "191DFEBE",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "103 CRATES",
+    "gross_weight_kg": "23,421.42",
+    "measurement": "92.184 CBM",
+    "containers": [
+      {
+        "container_number": "EISU5832872",
+        "seal_number": "191DFEBE",
+        "container_type": "40' DRY",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "103",
+          "type": "CRATES",
+          "description": "103 CRATES"
+        },
+        "gross_weight_kg": "14,312.12",
+        "net_weight_kg": "11,020.99",
+        "measurement": "50.647 CBM"
+      },
+      {
+        "container_number": "TRHU1188304",
+        "seal_number": "3AAFB5D2",
+        "container_type": "20' REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "246",
+          "type": "CARTONS",
+          "description": "246 CARTONS"
+        },
+        "gross_weight_kg": "9,109.30",
+        "net_weight_kg": "5,341.76",
+        "measurement": "41.537 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNCFNB999864540",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "CENTRAL GROUP LTD\n83 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS LLC\n190 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "INTERNATIONAL ENTERPRISES GMBH\n457 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "EISU5832872",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "191DFEBE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '103', 'type': 'CRATES', 'description': '103 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "14,312.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "50.647 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "TRHU1188304",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "3AAFB5D2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '246', 'type': 'CARTONS', 'description': '246 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "9,109.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "41.537 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "0471S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

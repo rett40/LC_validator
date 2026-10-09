@@ -1,0 +1,533 @@
+{
+  "id": 956,
+  "filename": "bl_bl-24_00956_MSCUNSSFX247989456.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNSSFX247989456",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSSFX247989456",
+    "shipper_name": "INTERNATIONAL TRADING BV",
+    "shipper_address": "838 COMMERCE BOULEVARD",
+    "consignee_name": "PREMIER SOLUTIONS CORP",
+    "consignee_address": "343 PORT ACCESS ROAD",
+    "notify_party_name": "EURO SHIPPING LTD",
+    "notify_party_address": "386 TRADE PARK",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE197S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "17 JUN 2026",
+    "eta": "10 JUL 2026",
+    "container_number": "EISU8177560",
+    "container_type": "40'DC",
+    "seal_number": "60E4D224",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "129 PACKAGES",
+    "gross_weight_kg": "65,064.42",
+    "measurement": "113.871 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8177560",
+        "seal_number": "60E4D224",
+        "container_type": "40'DC",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "129",
+          "type": "PACKAGES",
+          "description": "129 PACKAGES"
+        },
+        "gross_weight_kg": "11,169.89",
+        "net_weight_kg": "8,628.40",
+        "measurement": "51.689 CBM"
+      },
+      {
+        "container_number": "TRHU1828957",
+        "seal_number": "0160CE7E",
+        "container_type": "40' OPEN TOP",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "345",
+          "type": "CARTONS",
+          "description": "345 CARTONS"
+        },
+        "gross_weight_kg": "27,402.53",
+        "net_weight_kg": "25,228.41",
+        "measurement": "32.382 CBM"
+      },
+      {
+        "container_number": "HLCU8489290",
+        "seal_number": "0B117HE7",
+        "container_type": "40'OT",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "462",
+          "type": "PALLETS",
+          "description": "462 PALLETS"
+        },
+        "gross_weight_kg": "26,492.00",
+        "net_weight_kg": "23,092.94",
+        "measurement": "29.800 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNSSFX247989456",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        60.35,
+        106.3,
+        145.16,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        275.02,
+        106.3,
+        114.74,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        440.53,
+        106.3,
+        133.49,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        67.02,
+        134.65,
+        138.49,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        267.95,
+        134.65,
+        121.82,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "EISU8177560",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "60E4D224",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '129', 'type': 'PACKAGES', 'description': '129 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "11,169.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "51.689 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU1828957",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "0160CE7E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '345', 'type': 'CARTONS', 'description': '345 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "27,402.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "32.382 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU8489290",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "0B117HE7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '462', 'type': 'PALLETS', 'description': '462 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "26,492.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "29.800 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        80.36,
+        303.31,
+        125.15,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        277.94,
+        303.31,
+        111.82,
+        34.02
+      ],
+      "value": "FE197S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        465.11,
+        303.31,
+        108.9,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        43.68,
+        337.32,
+        161.83,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        277.53,
+        337.32,
+        112.23,
+        34.02
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        472.21,
+        337.32,
+        101.81,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        95.77,
+        371.34,
+        109.74,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        288.78,
+        371.34,
+        100.98,
+        34.02
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "838 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "INTERNATIONAL TRADING BV\n838 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "343 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "PREMIER SOLUTIONS CORP\n343 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "386 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "EURO SHIPPING LTD\n386 TRADE PARK",
+      "page": 1
+    }
+  ]
+}

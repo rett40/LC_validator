@@ -1,0 +1,535 @@
+{
+  "id": 79,
+  "filename": "bl_bl-15_00079_MSCUNNEME350102493.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNNEME350102493",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNNEME350102493",
+    "shipper": {
+      "name": "FIRST SHIPPING S.A.",
+      "address": "830 MAIN STREET",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "FIRST SHIPPING S.A.\n830 MAIN STREET\nBARCELONA, SPAIN 08003"
+    },
+    "consignee": {
+      "name": "GLOBAL COMMERCE LLC",
+      "address": "16 INDUSTRIAL AVENUE",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "GLOBAL COMMERCE LLC\n16 INDUSTRIAL AVENUE\nLOS ANGELES, USA CA 90001"
+    },
+    "notify_party": {
+      "name": "FIRST GROUP CO.",
+      "address": "143 PORT ACCESS ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "FIRST GROUP CO.\n143 PORT ACCESS ROAD\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "vessel": "MSC GULSUN",
+    "voyage": "FE702S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "28 MAY 2026",
+    "eta": "30 JUN 2026",
+    "issue_date": "13 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "CMAU7013911",
+    "container_type": "40' REEFER",
+    "seal_number": "HDEHE7CD",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": {
+      "count": "475",
+      "type": "DRUMS",
+      "description": "475 DRUMS"
+    },
+    "gross_weight_kg": "34,227.42",
+    "net_weight_kg": "26,349.89",
+    "gross_weight_lbs": "75,458.45",
+    "measurement": "136.952 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7013911",
+        "seal_number": "HDEHE7CD",
+        "container_type": "40' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "475",
+          "type": "DRUMS",
+          "description": "475 DRUMS"
+        },
+        "gross_weight_kg": "6,971.82",
+        "net_weight_kg": "3,981.87",
+        "measurement": "20.808 CBM"
+      },
+      {
+        "container_number": "CMAU7328704",
+        "seal_number": "7G3C99CD",
+        "container_type": "40' REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "115",
+          "type": "PACKAGES",
+          "description": "115 PACKAGES"
+        },
+        "gross_weight_kg": "16,916.00",
+        "net_weight_kg": "14,672.19",
+        "measurement": "52.374 CBM"
+      },
+      {
+        "container_number": "MSCU1604949",
+        "seal_number": "02DH2ADH",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "210",
+          "type": "BOXES",
+          "description": "210 BOXES"
+        },
+        "gross_weight_kg": "10,339.60",
+        "net_weight_kg": "7,695.83",
+        "measurement": "63.770 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "incoterm": "FCA",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "CMAU7013911\nHDEHE7CD\nROTTERDAM"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNNEME350102493",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST SHIPPING S.A.\n830 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL COMMERCE LLC\n16 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST GROUP CO.\n143 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "FE702S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7013911",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "HDEHE7CD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '475', 'type': 'DRUMS', 'description': '475 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "6,971.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "20.808 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7328704",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "7G3C99CD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '115', 'type': 'PACKAGES', 'description': '115 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "16,916.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "52.374 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        643.46,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU1604949",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "02DH2ADH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        643.46,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        643.46,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '210', 'type': 'BOXES', 'description': '210 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "10,339.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "63.770 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "13 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        762.52,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

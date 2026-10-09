@@ -1,0 +1,236 @@
+{
+  "pl_number": "PL-2026-00242",
+  "filename": "pl_maersk_0242_MAEUUVMA097513701.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 242,
+  "fields": {
+    "pl_number": "PL-2026-00242",
+    "pl_date": "09 APR 2026",
+    "inv_reference": "INV-2026-00242",
+    "bl_reference": "MAEUUVMA097513701",
+    "exporter_name": "CENTRAL LOGISTICS CO.",
+    "consignee_name": "PACIFIC TRADING GMBH",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0553N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "container_number": "TCKU3830465",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "GHDE0B7E",
+    "goods_description": "COPPER AND COPPER PRODUCTS",
+    "package_unit": "BAGS",
+    "total_packages": 499,
+    "net_weight_kg": "12,285.91",
+    "gross_weight_kg": "15,152.03",
+    "total_cbm": 46.13
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00242",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUUVMA097513701",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "CENTRAL LOGISTICS CO.\n14 EXPORT ZONE\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "PACIFIC TRADING GMBH\n865 INDUSTRIAL AVENUE\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "0553N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "TCKU3830465",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "GHDE0B7E",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUUVMA097513701",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "499",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "12,285.91",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "15,152.03",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "46.130",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "15,152.03",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "499",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "13,353.30",
+      "actual": "15,152.03"
+    }
+  ]
+}

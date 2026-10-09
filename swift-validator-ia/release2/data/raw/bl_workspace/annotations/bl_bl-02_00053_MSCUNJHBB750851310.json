@@ -1,0 +1,500 @@
+{
+  "id": 53,
+  "filename": "bl_bl-02_00053_MSCUNJHBB750851310.pdf",
+  "layout_id": "BL-02",
+  "bl_number": "MSCUNJHBB750851310",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNJHBB750851310",
+    "shipper_name": "GLOBAL INDUSTRIES LLC",
+    "shipper_address": "339 MARKET STREET",
+    "consignee_name": "ATLANTIC COMMERCE INC",
+    "consignee_address": "907 HARBOR ROAD",
+    "notify_party_name": "PACIFIC INDUSTRIES INC",
+    "notify_party_address": "469 PORT ACCESS ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0781N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "20 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "OOLU0455431",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "3DAEB95A",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "374 CRATES",
+    "gross_weight_kg": "44,870.07",
+    "measurement": "162.843 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0455431",
+        "seal_number": "3DAEB95A",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "374",
+          "type": "CRATES",
+          "description": "374 CRATES"
+        },
+        "gross_weight_kg": "15,180.97",
+        "net_weight_kg": "13,043.92",
+        "measurement": "57.735 CBM"
+      },
+      {
+        "container_number": "MSCU6294278",
+        "seal_number": "3DD865G3",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "328",
+          "type": "PACKAGES",
+          "description": "328 PACKAGES"
+        },
+        "gross_weight_kg": "9,096.08",
+        "net_weight_kg": "5,212.40",
+        "measurement": "60.972 CBM"
+      },
+      {
+        "container_number": "TRHU2497128",
+        "seal_number": "8036HHB6",
+        "container_type": "40' OPEN TOP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "98",
+          "type": "DRUMS",
+          "description": "98 DRUMS"
+        },
+        "gross_weight_kg": "20,593.02",
+        "net_weight_kg": "17,424.60",
+        "measurement": "44.136 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "24 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNJHBB750851310",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL INDUSTRIES LLC\n339 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        119.06,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC COMMERCE INC\n907 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        209.76,
+        269.29,
+        79.37
+      ],
+      "value": "PACIFIC INDUSTRIES INC\n469 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        398.27,
+        269.29,
+        24.09
+      ],
+      "value": "0781N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        432.28,
+        269.29,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        466.3,
+        269.29,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0455431",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "3DAEB95A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '374', 'type': 'CRATES', 'description': '374 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "15,180.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "57.735 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU6294278",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "3DD865G3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '328', 'type': 'PACKAGES', 'description': '328 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "9,096.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "60.972 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        622.2,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2497128",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        622.2,
+        53.86,
+        36.85
+      ],
+      "value": "8036HHB6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        622.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        622.2,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        622.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '98', 'type': 'DRUMS', 'description': '98 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        622.2,
+        80.79,
+        36.85
+      ],
+      "value": "20,593.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        622.2,
+        80.79,
+        36.85
+      ],
+      "value": "44.136 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        677.48,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        677.48,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

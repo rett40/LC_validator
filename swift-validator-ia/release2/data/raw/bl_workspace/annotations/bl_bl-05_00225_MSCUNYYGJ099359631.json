@@ -1,0 +1,409 @@
+{
+  "id": 225,
+  "filename": "bl_bl-05_00225_MSCUNYYGJ099359631.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNYYGJ099359631",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNYYGJ099359631",
+    "shipper_name": "EURO GROUP GMBH",
+    "shipper_address": "790 MAIN STREET",
+    "consignee_name": "INTERNATIONAL SUPPLY CHAIN GMBH",
+    "consignee_address": "895 COMMERCE BOULEVARD",
+    "notify_party_name": "APEX GROUP INC",
+    "notify_party_address": "453 COMMERCE BOULEVARD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS274S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "10 MAY 2026",
+    "eta": "30 MAY 2026",
+    "container_number": "EISU7952901",
+    "container_type": "20' DRY",
+    "seal_number": "E9HE36F6",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "474 PACKAGES",
+    "gross_weight_kg": "44,568.52",
+    "measurement": "65.026 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7952901",
+        "seal_number": "E9HE36F6",
+        "container_type": "20' DRY",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "474",
+          "type": "PACKAGES",
+          "description": "474 PACKAGES"
+        },
+        "gross_weight_kg": "24,132.27",
+        "net_weight_kg": "20,769.50",
+        "measurement": "30.112 CBM"
+      },
+      {
+        "container_number": "TCKU1460923",
+        "seal_number": "1009B571",
+        "container_type": "40' REEFER",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "356",
+          "type": "CRATES",
+          "description": "356 CRATES"
+        },
+        "gross_weight_kg": "20,436.25",
+        "net_weight_kg": "17,655.64",
+        "measurement": "34.914 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNYYGJ099359631",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "EURO GROUP GMBH\n790 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN GMBH\n895 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "APEX GROUP INC\n453 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "EISU7952901",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "E9HE36F6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '474', 'type': 'PACKAGES', 'description': '474 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "24,132.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "30.112 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU1460923",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "1009B571",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '356', 'type': 'CRATES', 'description': '356 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "20,436.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "34.914 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "CS274S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        708.66,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "id": 686,
+  "filename": "bl_bl-18_00686_MSCUNFECR600458796.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNFECR600458796",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNFECR600458796",
+    "shipper_name": "DELTA SHIPPING AG",
+    "shipper_address": "356 MARKET STREET",
+    "consignee_name": "APEX LOGISTICS INC",
+    "consignee_address": "681 MARKET STREET",
+    "notify_party_name": "UNITED COMMERCE AG",
+    "notify_party_address": "713 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-776",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "16 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "MAEU2948120",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "2A517B63",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "159 DRUMS",
+    "gross_weight_kg": "34,329.51",
+    "measurement": "136.869 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU2948120",
+        "seal_number": "2A517B63",
+        "container_type": "40' FLAT RACK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "159",
+          "type": "DRUMS",
+          "description": "159 DRUMS"
+        },
+        "gross_weight_kg": "9,642.97",
+        "net_weight_kg": "7,636.26",
+        "measurement": "55.796 CBM"
+      },
+      {
+        "container_number": "MSCU0389040",
+        "seal_number": "8098B273",
+        "container_type": "40'FR",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "426",
+          "type": "PACKAGES",
+          "description": "426 PACKAGES"
+        },
+        "gross_weight_kg": "8,398.74",
+        "net_weight_kg": "5,257.25",
+        "measurement": "54.602 CBM"
+      },
+      {
+        "container_number": "MSCU4930335",
+        "seal_number": "E98AC40H",
+        "container_type": "20'OT",
+        "commodity": "MINERAL WATER AND SOFT DRINKS",
+        "packages": {
+          "count": "488",
+          "type": "CRATES",
+          "description": "488 CRATES"
+        },
+        "gross_weight_kg": "16,287.80",
+        "net_weight_kg": "14,139.44",
+        "measurement": "26.471 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNFECR600458796",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU2948120",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "2A517B63",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '159', 'type': 'DRUMS', 'description': '159 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "9,642.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "55.796 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0389040",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "8098B273",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '426', 'type': 'PACKAGES', 'description': '426 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "8,398.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "54.602 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        201.26,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU4930335",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        201.26,
+        53.86,
+        36.85
+      ],
+      "value": "E98AC40H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        201.26,
+        43.09,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        201.26,
+        134.65,
+        36.85
+      ],
+      "value": "MINERAL WATER AND SOFT DRINKS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        201.26,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '488', 'type': 'CRATES', 'description': '488 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        201.26,
+        80.79,
+        36.85
+      ],
+      "value": "16,287.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        201.26,
+        80.79,
+        36.85
+      ],
+      "value": "26.471 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        266.46,
+        269.29,
+        70.87
+      ],
+      "value": "356 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        246.61,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA SHIPPING AG\n356 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        266.46,
+        269.29,
+        70.87
+      ],
+      "value": "681 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        246.61,
+        269.29,
+        90.71
+      ],
+      "value": "APEX LOGISTICS INC\n681 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        357.17,
+        269.29,
+        70.87
+      ],
+      "value": "713 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        337.32,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED COMMERCE AG\n713 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        527.24,
+        231.72,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        330.29,
+        527.24,
+        243.72,
+        34.02
+      ],
+      "value": "E-776",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        121.0,
+        561.26,
+        183.72,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        389.4,
+        561.26,
+        184.61,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        595.28,
+        192.6,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        379.2,
+        595.28,
+        194.82,
+        34.02
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        629.29,
+        189.95,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        365.41,
+        629.29,
+        208.6,
+        34.02
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        671.81,
+        178.39,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        400.07,
+        671.81,
+        173.95,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        700.16,
+        209.5,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        337.4,
+        700.16,
+        236.61,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        83.67,
+        728.5,
+        221.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

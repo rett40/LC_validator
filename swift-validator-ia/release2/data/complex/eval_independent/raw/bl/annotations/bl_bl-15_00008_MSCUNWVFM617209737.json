@@ -1,0 +1,353 @@
+{
+  "id": 8,
+  "filename": "bl_bl-15_00008_MSCUNWVFM617209737.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNWVFM617209737",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNWVFM617209737",
+    "shipper": {
+      "name": "FIRST TRADING INC",
+      "address": "887 HARBOR ROAD",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "FIRST TRADING INC\n887 HARBOR ROAD\nHAMBURG, GERMANY 20095"
+    },
+    "consignee": {
+      "name": "GLOBAL SUPPLY CHAIN INC",
+      "address": "715 INDUSTRIAL AVENUE",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "GLOBAL SUPPLY CHAIN INC\n715 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "notify_party": {
+      "name": "TRANS SUPPLY CHAIN LTD",
+      "address": "93 MARKET STREET",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "TRANS SUPPLY CHAIN LTD\n93 MARKET STREET\nBUSAN, SOUTH KOREA 48940"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0328E",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "15 JUN 2026",
+    "eta": "14 JUL 2026",
+    "issue_date": "16 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "TRHU2827811",
+    "container_type": "20' REEFER",
+    "seal_number": "G3G34GFE",
+    "commodity": "BUILDING MATERIALS",
+    "packages": {
+      "count": "53",
+      "type": "PALLETS",
+      "description": "53 PALLETS"
+    },
+    "gross_weight_kg": "9,482.75",
+    "net_weight_kg": "6,908.66",
+    "gross_weight_lbs": "20,905.86",
+    "measurement": "40.421 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2827811",
+        "seal_number": "G3G34GFE",
+        "container_type": "20' REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "53",
+          "type": "PALLETS",
+          "description": "53 PALLETS"
+        },
+        "gross_weight_kg": "9,482.75",
+        "net_weight_kg": "6,908.66",
+        "measurement": "40.421 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "DDP",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "TRHU2827811\nG3G34GFE\nNEW YORK"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNWVFM617209737",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST TRADING INC\n887 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN INC\n715 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN LTD\n93 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0328E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2827811",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "G3G34GFE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '53', 'type': 'PALLETS', 'description': '53 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "9,482.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "40.421 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "16 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

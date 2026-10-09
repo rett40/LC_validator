@@ -1,0 +1,500 @@
+{
+  "id": 937,
+  "filename": "bl_bl-19_00937_MSCUNBHVF147370702.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNBHVF147370702",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNBHVF147370702",
+    "shipper_name": "INTERNATIONAL LOGISTICS INC",
+    "shipper_address": "397 TRADE PARK",
+    "consignee_name": "ATLANTIC PARTNERS S.A.",
+    "consignee_address": "908 HARBOR ROAD",
+    "notify_party_name": "PREMIER INDUSTRIES BV",
+    "notify_party_address": "263 COMMERCE BOULEVARD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0923E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "25 MAY 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "HLCU9705928",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "9FC8H832",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "88 BOXES",
+    "gross_weight_kg": "59,614.24",
+    "measurement": "119.204 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU9705928",
+        "seal_number": "9FC8H832",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "88",
+          "type": "BOXES",
+          "description": "88 BOXES"
+        },
+        "gross_weight_kg": "18,873.94",
+        "net_weight_kg": "16,370.51",
+        "measurement": "27.871 CBM"
+      },
+      {
+        "container_number": "EISU6645838",
+        "seal_number": "8DGH062G",
+        "container_type": "20' FLAT RACK",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "270",
+          "type": "BOXES",
+          "description": "270 BOXES"
+        },
+        "gross_weight_kg": "26,001.62",
+        "net_weight_kg": "22,335.81",
+        "measurement": "49.597 CBM"
+      },
+      {
+        "container_number": "TCKU0932095",
+        "seal_number": "G8EGEG37",
+        "container_type": "40' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "182",
+          "type": "CARTONS",
+          "description": "182 CARTONS"
+        },
+        "gross_weight_kg": "14,738.68",
+        "net_weight_kg": "11,348.22",
+        "measurement": "41.736 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNBHVF147370702",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL LOGISTICS INC\n397 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC PARTNERS S.A.\n908 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER INDUSTRIES BV\n263 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "0923E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        368.5,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU9705928",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "9FC8H832",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        368.5,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        368.5,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '88', 'type': 'BOXES', 'description': '88 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "18,873.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "27.871 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        405.35,
+        91.56,
+        36.85
+      ],
+      "value": "EISU6645838",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "8DGH062G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        405.35,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        405.35,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '270', 'type': 'BOXES', 'description': '270 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "26,001.62",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "49.597 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        442.2,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0932095",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        442.2,
+        53.86,
+        36.85
+      ],
+      "value": "G8EGEG37",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        442.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        442.2,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        442.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '182', 'type': 'CARTONS', 'description': '182 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        442.2,
+        80.79,
+        36.85
+      ],
+      "value": "14,738.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        442.2,
+        80.79,
+        36.85
+      ],
+      "value": "41.736 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        532.91,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        532.91,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

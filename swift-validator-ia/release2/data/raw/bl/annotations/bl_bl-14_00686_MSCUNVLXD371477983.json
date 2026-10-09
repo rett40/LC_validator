@@ -1,0 +1,500 @@
+{
+  "id": 686,
+  "filename": "bl_bl-14_00686_MSCUNVLXD371477983.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNVLXD371477983",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNVLXD371477983",
+    "shipper_name": "EURO COMMERCE PLC",
+    "shipper_address": "378 HARBOR ROAD",
+    "consignee_name": "FIRST SUPPLY CHAIN GMBH",
+    "consignee_address": "500 TRADE PARK",
+    "notify_party_name": "ATLANTIC INDUSTRIES PLC",
+    "notify_party_address": "44 TRADE PARK",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0820N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "15 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "EISU0446184",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "1AGC9EGC",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "345 PALLETS",
+    "gross_weight_kg": "47,514.40",
+    "measurement": "152.244 CBM",
+    "containers": [
+      {
+        "container_number": "EISU0446184",
+        "seal_number": "1AGC9EGC",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "345",
+          "type": "PALLETS",
+          "description": "345 PALLETS"
+        },
+        "gross_weight_kg": "17,446.08",
+        "net_weight_kg": "15,436.47",
+        "measurement": "32.904 CBM"
+      },
+      {
+        "container_number": "CMAU7952199",
+        "seal_number": "850FGD0C",
+        "container_type": "20' REEFER",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "174",
+          "type": "BAGS",
+          "description": "174 BAGS"
+        },
+        "gross_weight_kg": "24,017.41",
+        "net_weight_kg": "20,977.03",
+        "measurement": "59.208 CBM"
+      },
+      {
+        "container_number": "MAEU3573498",
+        "seal_number": "20G22DD0",
+        "container_type": "20' OPEN TOP",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "376",
+          "type": "PALLETS",
+          "description": "376 PALLETS"
+        },
+        "gross_weight_kg": "6,050.91",
+        "net_weight_kg": "4,001.22",
+        "measurement": "60.132 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "27 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVLXD371477983",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "EISU0446184",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "1AGC9EGC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '345', 'type': 'PALLETS', 'description': '345 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "17,446.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "32.904 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7952199",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "850FGD0C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '174', 'type': 'BAGS', 'description': '174 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "24,017.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "59.208 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        205.51,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3573498",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "20G22DD0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        205.51,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        205.51,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '376', 'type': 'PALLETS', 'description': '376 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "6,050.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "60.132 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "0820N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "EURO COMMERCE PLC\n378 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST SUPPLY CHAIN GMBH\n500 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC INDUSTRIES PLC\n44 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

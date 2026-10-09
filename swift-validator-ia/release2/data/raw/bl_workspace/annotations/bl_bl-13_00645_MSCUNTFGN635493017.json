@@ -1,0 +1,442 @@
+{
+  "id": 645,
+  "filename": "bl_bl-13_00645_MSCUNTFGN635493017.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNTFGN635493017",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTFGN635493017",
+    "shipper_name": "GLOBAL TRADING GMBH",
+    "shipper_address": "33 TRADE PARK",
+    "consignee_name": "INTERNATIONAL GROUP GMBH",
+    "consignee_address": "190 PORT ACCESS ROAD",
+    "notify_party_name": "UNITED GROUP CORP",
+    "notify_party_address": "949 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE22W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "24 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "MAEU3081143",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "AB65B647",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "137 PALLETS",
+    "gross_weight_kg": "28,441.62",
+    "measurement": "89.734 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3081143",
+        "seal_number": "AB65B647",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "137",
+          "type": "PALLETS",
+          "description": "137 PALLETS"
+        },
+        "gross_weight_kg": "6,133.96",
+        "net_weight_kg": "2,155.64",
+        "measurement": "50.403 CBM"
+      },
+      {
+        "container_number": "MSCU9366782",
+        "seal_number": "ECFHBAEB",
+        "container_type": "20' DRY",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "145",
+          "type": "BOXES",
+          "description": "145 BOXES"
+        },
+        "gross_weight_kg": "22,307.66",
+        "net_weight_kg": "18,533.43",
+        "measurement": "39.331 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNTFGN635493017",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "33 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "GLOBAL TRADING GMBH\n33 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "190 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "INTERNATIONAL GROUP GMBH\n190 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "949 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "UNITED GROUP CORP\n949 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "AE22W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        283.46,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3081143",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "AB65B647",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        283.46,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        283.46,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '137', 'type': 'PALLETS', 'description': '137 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "6,133.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "50.403 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        320.31,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU9366782",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "ECFHBAEB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        320.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        320.31,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '145', 'type': 'BOXES', 'description': '145 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "22,307.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "39.331 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        401.1,
+        134.65,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

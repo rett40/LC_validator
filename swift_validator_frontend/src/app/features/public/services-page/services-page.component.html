@@ -1,0 +1,65 @@
+<!-- Hero -->
+<section class="svc-hero">
+  <div class="svc-hero-inner">
+    <h1>Nos Services</h1>
+    <p>Une suite complète d'outils IA pour la validation des crédits documentaires MT700.</p>
+  </div>
+</section>
+
+<!-- Services grid -->
+<section class="svc-list">
+  <div class="svc-inner">
+    @for (svc of services; track svc.title; let i = $index) {
+      <div class="svc-card" [class.reverse]="i % 2 === 1">
+        <div class="svc-icon-col">
+          <div class="svc-icon-wrap">
+            <i class="pi {{ svc.icon }}"></i>
+          </div>
+        </div>
+        <div class="svc-content">
+          <p-tag [value]="svc.tag" severity="info" class="svc-tag" />
+          <h2>{{ svc.title }}</h2>
+          <p class="svc-desc">{{ svc.desc }}</p>
+          <ul class="svc-items">
+            @for (item of svc.items; track item) {
+              <li><i class="pi pi-check-circle"></i> {{ item }}</li>
+            }
+          </ul>
+        </div>
+      </div>
+    }
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section">
+  <div class="faq-inner">
+    <div class="section-header">
+      <h2>Questions fréquentes</h2>
+      <p>Tout ce que vous devez savoir sur la plateforme.</p>
+    </div>
+    <div class="faq-list">
+      @for (faq of faqs; track faq.q; let i = $index) {
+        <div class="faq-item" [class.open]="openFaqIndex === i">
+          <button class="faq-q" (click)="toggleFaq(i)">
+            <span>{{ faq.q }}</span>
+            <i class="pi" [class.pi-plus]="openFaqIndex !== i" [class.pi-minus]="openFaqIndex === i"></i>
+          </button>
+          @if (openFaqIndex === i) {
+            <div class="faq-a">{{ faq.r }}</div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="svc-cta">
+  <div class="svc-cta-inner">
+    <h2>Besoin d'une démonstration ?</h2>
+    <p>Connectez-vous pour analyser votre premier crédit documentaire gratuitement.</p>
+    <a routerLink="/login" pButton label="Accéder à la plateforme" icon="pi pi-arrow-right" iconPos="right"
+       class="p-button-lg"></a>
+  </div>
+</section>

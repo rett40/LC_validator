@@ -1,0 +1,351 @@
+{
+  "id": 851,
+  "filename": "bl_bl-18_00851_MSCUNWPZM402558220.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNWPZM402558220",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNWPZM402558220",
+    "shipper_name": "PREMIER TRADING BV",
+    "shipper_address": "665 INDUSTRIAL AVENUE",
+    "consignee_name": "ATLANTIC SUPPLY CHAIN BV",
+    "consignee_address": "880 MARKET STREET",
+    "notify_party_name": "APEX SOLUTIONS BV",
+    "notify_party_address": "759 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS206S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "28 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "CMAU7343436",
+    "container_type": "20' REEFER",
+    "seal_number": "0A43B5B1",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "221 CARTONS",
+    "gross_weight_kg": "25,687.32",
+    "measurement": "52.061 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7343436",
+        "seal_number": "0A43B5B1",
+        "container_type": "20' REEFER",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "221",
+          "type": "CARTONS",
+          "description": "221 CARTONS"
+        },
+        "gross_weight_kg": "25,687.32",
+        "net_weight_kg": "22,409.65",
+        "measurement": "52.061 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNWPZM402558220",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7343436",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "0A43B5B1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '221', 'type': 'CARTONS', 'description': '221 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "25,687.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "52.061 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "665 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER TRADING BV\n665 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "880 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN BV\n880 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        279.21,
+        269.29,
+        70.87
+      ],
+      "value": "759 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        259.37,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SOLUTIONS BV\n759 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "CS206S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        650.55,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

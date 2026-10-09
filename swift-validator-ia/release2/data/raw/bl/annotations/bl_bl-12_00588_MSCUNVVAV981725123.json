@@ -1,0 +1,318 @@
+{
+  "id": 588,
+  "filename": "bl_bl-12_00588_MSCUNVVAV981725123.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNVVAV981725123",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNVVAV981725123",
+    "shipper_name": "PREMIER SHIPPING AG",
+    "shipper_address": "387 MARKET STREET",
+    "consignee_name": "INTERNATIONAL SHIPPING BV",
+    "consignee_address": "296 TRADE PARK",
+    "notify_party_name": "DELTA SUPPLY CHAIN LLC",
+    "notify_party_address": "971 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE55N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "19 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "OOLU5476058",
+    "container_type": "40' DRY",
+    "seal_number": "77HG297C",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "99 CARTONS",
+    "gross_weight_kg": "26,413.96",
+    "measurement": "55.291 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU5476058",
+        "seal_number": "77HG297C",
+        "container_type": "40' DRY",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "99",
+          "type": "CARTONS",
+          "description": "99 CARTONS"
+        },
+        "gross_weight_kg": "26,413.96",
+        "net_weight_kg": "24,218.29",
+        "measurement": "55.291 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNVVAV981725123",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER SHIPPING AG\n387 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL SHIPPING BV\n296 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "DELTA SUPPLY CHAIN LLC\n971 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU5476058",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "77HG297C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '99', 'type': 'CARTONS', 'description': '99 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "26,413.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "55.291 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "AE55N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        681.73,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

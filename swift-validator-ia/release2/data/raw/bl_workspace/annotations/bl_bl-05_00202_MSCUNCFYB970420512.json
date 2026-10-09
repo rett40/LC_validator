@@ -1,0 +1,409 @@
+{
+  "id": 202,
+  "filename": "bl_bl-05_00202_MSCUNCFYB970420512.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNCFYB970420512",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCFYB970420512",
+    "shipper_name": "CENTRAL COMMERCE BV",
+    "shipper_address": "162 MAIN STREET",
+    "consignee_name": "TRANS TRADING BV",
+    "consignee_address": "501 TRADE PARK",
+    "notify_party_name": "APEX TRADING AG",
+    "notify_party_address": "964 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE82W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "12 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "MSCU8383469",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "2F3GFHH6",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "199 BAGS",
+    "gross_weight_kg": "22,680.11",
+    "measurement": "52.354 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8383469",
+        "seal_number": "2F3GFHH6",
+        "container_type": "40' FLAT RACK",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "199",
+          "type": "BAGS",
+          "description": "199 BAGS"
+        },
+        "gross_weight_kg": "5,766.94",
+        "net_weight_kg": "2,914.74",
+        "measurement": "23.925 CBM"
+      },
+      {
+        "container_number": "MAEU7359172",
+        "seal_number": "78D7A809",
+        "container_type": "40' FLAT RACK",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "179",
+          "type": "BOXES",
+          "description": "179 BOXES"
+        },
+        "gross_weight_kg": "16,913.17",
+        "net_weight_kg": "13,045.23",
+        "measurement": "28.429 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNCFYB970420512",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL COMMERCE BV\n162 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS TRADING BV\n501 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "APEX TRADING AG\n964 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU8383469",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "2F3GFHH6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '199', 'type': 'BAGS', 'description': '199 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "5,766.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "23.925 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU7359172",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "78D7A809",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '179', 'type': 'BOXES', 'description': '179 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "16,913.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "28.429 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        500.31,
+        269.29,
+        24.09
+      ],
+      "value": "AE82W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        534.33,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        568.35,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        24.09
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        651.97,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        680.31,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        708.66,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

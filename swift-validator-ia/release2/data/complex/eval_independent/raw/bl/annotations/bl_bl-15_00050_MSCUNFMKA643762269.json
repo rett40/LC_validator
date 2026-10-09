@@ -1,0 +1,353 @@
+{
+  "id": 50,
+  "filename": "bl_bl-15_00050_MSCUNFMKA643762269.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNFMKA643762269",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNFMKA643762269",
+    "shipper": {
+      "name": "INTERNATIONAL TRADING GMBH",
+      "address": "647 MAIN STREET",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "INTERNATIONAL TRADING GMBH\n647 MAIN STREET\nNEW YORK, USA NY 10001"
+    },
+    "consignee": {
+      "name": "PACIFIC SHIPPING GMBH",
+      "address": "665 TRADE PARK",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "PACIFIC SHIPPING GMBH\n665 TRADE PARK\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "TRANS ENTERPRISES LLC",
+      "address": "778 INDUSTRIAL AVENUE",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "TRANS ENTERPRISES LLC\n778 INDUSTRIAL AVENUE\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8955",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "12 JUN 2026",
+    "eta": "10 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "CMAU0897712",
+    "container_type": "40' REEFER",
+    "seal_number": "89C2E87D",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": {
+      "count": "349",
+      "type": "PALLETS",
+      "description": "349 PALLETS"
+    },
+    "gross_weight_kg": "26,337.95",
+    "net_weight_kg": "23,172.63",
+    "gross_weight_lbs": "58,065.17",
+    "measurement": "67.681 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU0897712",
+        "seal_number": "89C2E87D",
+        "container_type": "40' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "349",
+          "type": "PALLETS",
+          "description": "349 PALLETS"
+        },
+        "gross_weight_kg": "26,337.95",
+        "net_weight_kg": "23,172.63",
+        "measurement": "67.681 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "DPU",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "CMAU0897712\n89C2E87D\nGENOA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNFMKA643762269",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING GMBH\n647 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "PACIFIC SHIPPING GMBH\n665 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS ENTERPRISES LLC\n778 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AL8955",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0897712",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "89C2E87D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '349', 'type': 'PALLETS', 'description': '349 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "26,337.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "67.681 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

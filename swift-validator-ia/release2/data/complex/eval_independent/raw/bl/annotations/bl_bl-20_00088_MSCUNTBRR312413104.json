@@ -1,0 +1,535 @@
+{
+  "id": 88,
+  "filename": "bl_bl-20_00088_MSCUNTBRR312413104.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNTBRR312413104",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNTBRR312413104",
+    "shipper": {
+      "name": "PREMIER LOGISTICS PLC",
+      "address": "505 MARKET STREET",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "PREMIER LOGISTICS PLC\n505 MARKET STREET\nHAMBURG, GERMANY 20095"
+    },
+    "consignee": {
+      "name": "TRANS PARTNERS PLC",
+      "address": "582 HARBOR ROAD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "TRANS PARTNERS PLC\n582 HARBOR ROAD\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "GLOBAL SHIPPING AG",
+      "address": "168 TRADE PARK",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "GLOBAL SHIPPING AG\n168 TRADE PARK\nBARCELONA, SPAIN 08003"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-960",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "10 JUN 2026",
+    "eta": "10 JUL 2026",
+    "issue_date": "19 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "TRHU5555604",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "AA881AA9",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": {
+      "count": "202",
+      "type": "DRUMS",
+      "description": "202 DRUMS"
+    },
+    "gross_weight_kg": "50,767.59",
+    "net_weight_kg": "41,937.24",
+    "gross_weight_lbs": "111,923.24",
+    "measurement": "129.331 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU5555604",
+        "seal_number": "AA881AA9",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "202",
+          "type": "DRUMS",
+          "description": "202 DRUMS"
+        },
+        "gross_weight_kg": "26,494.78",
+        "net_weight_kg": "23,372.63",
+        "measurement": "29.892 CBM"
+      },
+      {
+        "container_number": "MSCU3924564",
+        "seal_number": "A53D3F5G",
+        "container_type": "40' REEFER",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "481",
+          "type": "PACKAGES",
+          "description": "481 PACKAGES"
+        },
+        "gross_weight_kg": "17,811.45",
+        "net_weight_kg": "14,521.86",
+        "measurement": "37.751 CBM"
+      },
+      {
+        "container_number": "OOLU3089258",
+        "seal_number": "C49BGFH1",
+        "container_type": "40' DRY",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "413",
+          "type": "PACKAGES",
+          "description": "413 PACKAGES"
+        },
+        "gross_weight_kg": "6,461.36",
+        "net_weight_kg": "4,042.75",
+        "measurement": "61.688 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "CIF",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "TRHU5555604\nAA881AA9\nJEBEL ALI"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNTBRR312413104",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "E-960",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER LOGISTICS PLC\n505 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS PARTNERS PLC\n582 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL SHIPPING AG\n168 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU5555604",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "AA881AA9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '202', 'type': 'DRUMS', 'description': '202 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "26,494.78",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "29.892 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3924564",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "A53D3F5G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '481', 'type': 'PACKAGES', 'description': '481 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "17,811.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "37.751 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU3089258",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "C49BGFH1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '413', 'type': 'PACKAGES', 'description': '413 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "6,461.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "61.688 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        704.41,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

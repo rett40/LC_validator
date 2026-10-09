@@ -1,0 +1,318 @@
+{
+  "id": 1020,
+  "filename": "bl_bl-21_01020_MSCUNEUPG595879496.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNEUPG595879496",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNEUPG595879496",
+    "shipper_name": "DELTA LOGISTICS INC",
+    "shipper_address": "279 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST LOGISTICS BV",
+    "consignee_address": "294 TRADE PARK",
+    "notify_party_name": "FIRST PARTNERS PLC",
+    "notify_party_address": "963 COMMERCE BOULEVARD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0689W",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "17 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "CMAU2181848",
+    "container_type": "40' DRY",
+    "seal_number": "B8BAHA67",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "497 PALLETS",
+    "gross_weight_kg": "18,698.89",
+    "measurement": "48.808 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2181848",
+        "seal_number": "B8BAHA67",
+        "container_type": "40' DRY",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "497",
+          "type": "PALLETS",
+          "description": "497 PALLETS"
+        },
+        "gross_weight_kg": "18,698.89",
+        "net_weight_kg": "16,694.22",
+        "measurement": "48.808 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNEUPG595879496",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA LOGISTICS INC\n279 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS BV\n294 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST PARTNERS PLC\n963 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2181848",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "B8BAHA67",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '497', 'type': 'PALLETS', 'description': '497 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "18,698.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "48.808 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "0689W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

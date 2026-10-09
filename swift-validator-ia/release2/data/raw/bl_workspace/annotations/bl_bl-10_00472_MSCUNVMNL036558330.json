@@ -1,0 +1,533 @@
+{
+  "id": 472,
+  "filename": "bl_bl-10_00472_MSCUNVMNL036558330.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNVMNL036558330",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNVMNL036558330",
+    "shipper_name": "EURO COMMERCE CO.",
+    "shipper_address": "976 TRADE PARK",
+    "consignee_name": "INTERNATIONAL COMMERCE INC",
+    "consignee_address": "586 MAIN STREET",
+    "notify_party_name": "PREMIER GROUP GMBH",
+    "notify_party_address": "346 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE157S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "08 MAY 2026",
+    "eta": "30 MAY 2026",
+    "container_number": "HLCU7898021",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "296EF8A8",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "273 CARTONS",
+    "gross_weight_kg": "54,745.65",
+    "measurement": "163.570 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7898021",
+        "seal_number": "296EF8A8",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "273",
+          "type": "CARTONS",
+          "description": "273 CARTONS"
+        },
+        "gross_weight_kg": "8,171.90",
+        "net_weight_kg": "5,681.14",
+        "measurement": "64.559 CBM"
+      },
+      {
+        "container_number": "CMAU9407958",
+        "seal_number": "F7CH155H",
+        "container_type": "20' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "444",
+          "type": "CARTONS",
+          "description": "444 CARTONS"
+        },
+        "gross_weight_kg": "25,010.91",
+        "net_weight_kg": "22,948.14",
+        "measurement": "54.854 CBM"
+      },
+      {
+        "container_number": "MAEU3109036",
+        "seal_number": "H1EG2DAA",
+        "container_type": "20' TANK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "207",
+          "type": "PACKAGES",
+          "description": "207 PACKAGES"
+        },
+        "gross_weight_kg": "21,562.84",
+        "net_weight_kg": "18,745.06",
+        "measurement": "44.157 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVMNL036558330",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7898021",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "296EF8A8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '273', 'type': 'CARTONS', 'description': '273 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "8,171.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "64.559 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9407958",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "F7CH155H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '444', 'type': 'CARTONS', 'description': '444 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "25,010.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "54.854 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        205.51,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3109036",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "H1EG2DAA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        205.51,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        205.51,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '207', 'type': 'PACKAGES', 'description': '207 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "21,562.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "44.157 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        270.71,
+        269.29,
+        70.87
+      ],
+      "value": "976 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        250.87,
+        269.29,
+        90.71
+      ],
+      "value": "EURO COMMERCE CO.\n976 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        270.71,
+        269.29,
+        70.87
+      ],
+      "value": "586 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        250.87,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL COMMERCE INC\n586 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        361.42,
+        269.29,
+        70.87
+      ],
+      "value": "346 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        341.57,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER GROUP GMBH\n346 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        531.5,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        531.5,
+        269.29,
+        34.02
+      ],
+      "value": "FE157S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        565.51,
+        269.29,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        565.51,
+        269.29,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        599.53,
+        269.29,
+        34.02
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        599.53,
+        269.29,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        633.54,
+        269.29,
+        34.02
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        633.54,
+        269.29,
+        34.02
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        676.06,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        676.06,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        704.41,
+        269.29,
+        28.35
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        704.41,
+        269.29,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        732.76,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "id": 943,
+  "filename": "bl_bl-19_00943_MSCUNUWUF411580048.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNUWUF411580048",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNUWUF411580048",
+    "shipper_name": "FIRST SHIPPING S.A.",
+    "shipper_address": "647 PORT ACCESS ROAD",
+    "consignee_name": "TRANS SUPPLY CHAIN S.A.",
+    "consignee_address": "950 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL SOLUTIONS LTD",
+    "notify_party_address": "160 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0404W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "15 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "MSCU7516425",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "C18FED35",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "114 BOXES",
+    "gross_weight_kg": "61,698.92",
+    "measurement": "103.789 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU7516425",
+        "seal_number": "C18FED35",
+        "container_type": "20' FLAT RACK",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "114",
+          "type": "BOXES",
+          "description": "114 BOXES"
+        },
+        "gross_weight_kg": "26,232.23",
+        "net_weight_kg": "24,002.24",
+        "measurement": "33.091 CBM"
+      },
+      {
+        "container_number": "TCKU9962636",
+        "seal_number": "209FG4ED",
+        "container_type": "20' DRY",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "90",
+          "type": "CARTONS",
+          "description": "90 CARTONS"
+        },
+        "gross_weight_kg": "11,049.92",
+        "net_weight_kg": "8,966.90",
+        "measurement": "31.648 CBM"
+      },
+      {
+        "container_number": "TCKU7638346",
+        "seal_number": "0EG2C0EB",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "106",
+          "type": "DRUMS",
+          "description": "106 DRUMS"
+        },
+        "gross_weight_kg": "24,416.77",
+        "net_weight_kg": "21,711.34",
+        "measurement": "39.050 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNUWUF411580048",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST SHIPPING S.A.\n647 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN S.A.\n950 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL SOLUTIONS LTD\n160 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "0404W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        368.5,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU7516425",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "C18FED35",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        368.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        368.5,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '114', 'type': 'BOXES', 'description': '114 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "26,232.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "33.091 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        405.35,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9962636",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "209FG4ED",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        405.35,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        405.35,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '90', 'type': 'CARTONS', 'description': '90 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "11,049.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "31.648 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        442.2,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU7638346",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        442.2,
+        53.86,
+        36.85
+      ],
+      "value": "0EG2C0EB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        442.2,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        442.2,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        442.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '106', 'type': 'DRUMS', 'description': '106 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        442.2,
+        80.79,
+        36.85
+      ],
+      "value": "24,416.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        442.2,
+        80.79,
+        36.85
+      ],
+      "value": "39.050 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        504.57,
+        179.53,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        532.91,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        532.91,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": 892,
+  "filename": "bl_bl-18_00892_MSCUNUCGN017933039.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNUCGN017933039",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUCGN017933039",
+    "shipper_name": "APEX LOGISTICS CORP",
+    "shipper_address": "116 PORT ACCESS ROAD",
+    "consignee_name": "ATLANTIC SUPPLY CHAIN CO.",
+    "consignee_address": "450 COMMERCE BOULEVARD",
+    "notify_party_name": "EURO SUPPLY CHAIN AG",
+    "notify_party_address": "425 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE81E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "12 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "MSCU5004607",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "8C171E21",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "276 PALLETS",
+    "gross_weight_kg": "25,808.07",
+    "measurement": "95.843 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU5004607",
+        "seal_number": "8C171E21",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "276",
+          "type": "PALLETS",
+          "description": "276 PALLETS"
+        },
+        "gross_weight_kg": "8,701.88",
+        "net_weight_kg": "5,307.51",
+        "measurement": "31.257 CBM"
+      },
+      {
+        "container_number": "TCKU7552717",
+        "seal_number": "49GCC254",
+        "container_type": "20' REEFER",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "112",
+          "type": "PACKAGES",
+          "description": "112 PACKAGES"
+        },
+        "gross_weight_kg": "17,106.19",
+        "net_weight_kg": "13,210.62",
+        "measurement": "64.586 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNUCGN017933039",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU5004607",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "8C171E21",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '276', 'type': 'PALLETS', 'description': '276 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "8,701.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "31.257 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU7552717",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "49GCC254",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '112', 'type': 'PACKAGES', 'description': '112 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "17,106.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "64.586 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "116 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "APEX LOGISTICS CORP\n116 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "450 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN CO.\n450 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        316.06,
+        269.29,
+        70.87
+      ],
+      "value": "425 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        296.22,
+        269.29,
+        90.71
+      ],
+      "value": "EURO SUPPLY CHAIN AG\n425 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "AE81E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        687.4,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

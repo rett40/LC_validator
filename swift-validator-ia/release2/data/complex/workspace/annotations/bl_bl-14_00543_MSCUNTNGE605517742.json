@@ -1,0 +1,409 @@
+{
+  "id": 543,
+  "filename": "bl_bl-14_00543_MSCUNTNGE605517742.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNTNGE605517742",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTNGE605517742",
+    "shipper_name": "TRANS TRADING GMBH",
+    "shipper_address": "356 MARKET STREET",
+    "consignee_name": "UNITED PARTNERS S.A.",
+    "consignee_address": "49 MARKET STREET",
+    "notify_party_name": "CENTRAL ENTERPRISES LLC",
+    "notify_party_address": "442 PORT ACCESS ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0447E",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "07 JUN 2026",
+    "eta": "10 JUL 2026",
+    "container_number": "CMAU1664311",
+    "container_type": "40' HC",
+    "seal_number": "4A4D22D2",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "114 PACKAGES",
+    "gross_weight_kg": "38,562.03",
+    "measurement": "42.582 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU1664311",
+        "seal_number": "4A4D22D2",
+        "container_type": "40' HC",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "114",
+          "type": "PACKAGES",
+          "description": "114 PACKAGES"
+        },
+        "gross_weight_kg": "22,292.30",
+        "net_weight_kg": "18,654.05",
+        "measurement": "20.353 CBM"
+      },
+      {
+        "container_number": "OOLU8966080",
+        "seal_number": "7H5CG1A5",
+        "container_type": "40' FLAT RACK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "225",
+          "type": "PACKAGES",
+          "description": "225 PACKAGES"
+        },
+        "gross_weight_kg": "16,269.73",
+        "net_weight_kg": "12,643.25",
+        "measurement": "22.229 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNTNGE605517742",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "CMAU1664311",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "4A4D22D2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '114', 'type': 'PACKAGES', 'description': '114 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "22,292.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "20.353 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU8966080",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "7H5CG1A5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '225', 'type': 'PACKAGES', 'description': '225 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "16,269.73",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "22.229 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "0447E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        344.41,
+        298.51,
+        94.96
+      ],
+      "value": "TRANS TRADING GMBH\n356 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        342.99,
+        215.06,
+        41.1
+      ],
+      "value": "UNITED PARTNERS S.A.\n49 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        398.27,
+        215.06,
+        41.1
+      ],
+      "value": "CENTRAL ENTERPRISES LLC\n442 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00963",
+  "filename": "inv_inv-25_00963.pdf",
+  "layout_id": "INV-25",
+  "bl_id": 963,
+  "fields": {
+    "invoice_number": "INV-2026-00963",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/CITI/0963/2026",
+    "bl_reference": "MSCUNPJXX122952694",
+    "seller_name": "UNITED COMMERCE LLC",
+    "buyer_name": "CENTRAL SUPPLY CHAIN LTD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS505E",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "hs_code": "8541.40",
+    "quantity": 445,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "29,043.78",
+    "unit_price": 168.21,
+    "currency": "USD",
+    "total_amount": 74853.45,
+    "incoterm": "CIP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00963",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        68.03,
+        109.08,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        68.03,
+        131.58,
+        25.51
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        99.21,
+        120.54,
+        19.84
+      ],
+      "value": "29,043.78 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        119.06,
+        120.54,
+        19.84
+      ],
+      "value": "74853.45 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        147.4,
+        310.73,
+        56.69
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        147.4,
+        70.01,
+        28.35
+      ],
+      "value": "8541.40",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        147.4,
+        88.01,
+        28.35
+      ],
+      "value": 445,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        175.75,
+        83.51,
+        28.35
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        175.75,
+        56.51,
+        28.35
+      ],
+      "value": "168.21 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        209.76,
+        241.09,
+        25.51
+      ],
+      "value": "74853.45 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        243.78,
+        535.75,
+        52.44
+      ],
+      "value": "UNITED COMMERCE LLC\nUNITED COMMERCE LLC\n691 MAIN BOULEVARD\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        296.22,
+        535.75,
+        52.44
+      ],
+      "value": "CENTRAL SUPPLY CHAIN LTD\nCENTRAL SUPPLY CHAIN LTD\n926 TRADE PARK\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        357.17,
+        68.94,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        263.28,
+        357.17,
+        32.94,
+        28.35
+      ],
+      "value": "LC/CITI/0963/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        357.17,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNPJXX122952694",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        463.66,
+        357.17,
+        100.44,
+        28.35
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        120.35,
+        385.51,
+        41.94,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        231.78,
+        385.51,
+        64.44,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "HAMBURG, GERMANY"
+    }
+  ]
+}

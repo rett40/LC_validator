@@ -1,0 +1,351 @@
+{
+  "id": 895,
+  "filename": "bl_bl-18_00895_MSCUNTGCV620190336.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNTGCV620190336",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNTGCV620190336",
+    "shipper_name": "INTERNATIONAL SHIPPING INC",
+    "shipper_address": "630 COMMERCE BOULEVARD",
+    "consignee_name": "APEX COMMERCE LLC",
+    "consignee_address": "603 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC SHIPPING BV",
+    "notify_party_address": "401 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE85E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "26 MAY 2026",
+    "eta": "11 JUN 2026",
+    "container_number": "HLCU4663276",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "G5G65E4E",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "269 PALLETS",
+    "gross_weight_kg": "5,467.23",
+    "measurement": "58.349 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4663276",
+        "seal_number": "G5G65E4E",
+        "container_type": "40' FLAT RACK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "269",
+          "type": "PALLETS",
+          "description": "269 PALLETS"
+        },
+        "gross_weight_kg": "5,467.23",
+        "net_weight_kg": "2,676.99",
+        "measurement": "58.349 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTGCV620190336",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4663276",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "G5G65E4E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '269', 'type': 'PALLETS', 'description': '269 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "5,467.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "58.349 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "630 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL SHIPPING INC\n630 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "603 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "APEX COMMERCE LLC\n603 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        279.21,
+        269.29,
+        70.87
+      ],
+      "value": "401 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        259.37,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SHIPPING BV\n401 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "AE85E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "11 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        650.55,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

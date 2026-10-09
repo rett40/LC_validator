@@ -1,0 +1,351 @@
+{
+  "id": 482,
+  "filename": "bl_bl-10_00482_MSCUNYNCV879104160.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNYNCV879104160",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNYNCV879104160",
+    "shipper_name": "INTERNATIONAL SOLUTIONS AG",
+    "shipper_address": "689 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC SOLUTIONS CO.",
+    "consignee_address": "670 HARBOR ROAD",
+    "notify_party_name": "FIRST SUPPLY CHAIN INC",
+    "notify_party_address": "712 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE250S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "28 MAY 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "HLCU6501836",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "0FBCDDEB",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "468 CRATES",
+    "gross_weight_kg": "25,714.90",
+    "measurement": "29.996 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU6501836",
+        "seal_number": "0FBCDDEB",
+        "container_type": "20' FLAT RACK",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "468",
+          "type": "CRATES",
+          "description": "468 CRATES"
+        },
+        "gross_weight_kg": "25,714.90",
+        "net_weight_kg": "23,688.46",
+        "measurement": "29.996 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNYNCV879104160",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU6501836",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "0FBCDDEB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '468', 'type': 'CRATES', 'description': '468 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "25,714.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "29.996 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "689 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL SOLUTIONS AG\n689 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "670 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SOLUTIONS CO.\n670 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        287.72,
+        269.29,
+        70.87
+      ],
+      "value": "712 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST SUPPLY CHAIN INC\n712 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "FE250S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

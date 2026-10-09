@@ -1,0 +1,318 @@
+{
+  "id": 825,
+  "filename": "bl_bl-21_00825_MSCUNSLFU016434129.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNSLFU016434129",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNSLFU016434129",
+    "shipper_name": "EURO SUPPLY CHAIN LTD",
+    "shipper_address": "604 INDUSTRIAL AVENUE",
+    "consignee_name": "INTERNATIONAL SHIPPING CO.",
+    "consignee_address": "496 HARBOR ROAD",
+    "notify_party_name": "EURO ENTERPRISES GMBH",
+    "notify_party_address": "35 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0861W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "20 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "OOLU1592786",
+    "container_type": "40' DRY",
+    "seal_number": "404F4B92",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "435 PALLETS",
+    "gross_weight_kg": "17,384.54",
+    "measurement": "30.795 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU1592786",
+        "seal_number": "404F4B92",
+        "container_type": "40' DRY",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "435",
+          "type": "PALLETS",
+          "description": "435 PALLETS"
+        },
+        "gross_weight_kg": "17,384.54",
+        "net_weight_kg": "13,927.12",
+        "measurement": "30.795 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNSLFU016434129",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "EURO SUPPLY CHAIN LTD\n604 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "INTERNATIONAL SHIPPING CO.\n496 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "EURO ENTERPRISES GMBH\n35 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "OOLU1592786",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "404F4B92",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '435', 'type': 'PALLETS', 'description': '435 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "17,384.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "30.795 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "0861W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

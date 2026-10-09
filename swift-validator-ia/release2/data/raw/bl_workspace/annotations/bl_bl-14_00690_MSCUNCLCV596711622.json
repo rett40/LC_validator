@@ -1,0 +1,409 @@
+{
+  "id": 690,
+  "filename": "bl_bl-14_00690_MSCUNCLCV596711622.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNCLCV596711622",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCLCV596711622",
+    "shipper_name": "DELTA GROUP GMBH",
+    "shipper_address": "64 TRADE PARK",
+    "consignee_name": "PACIFIC COMMERCE PLC",
+    "consignee_address": "542 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED INDUSTRIES GMBH",
+    "notify_party_address": "435 MAIN STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE940N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "28 MAY 2026",
+    "eta": "24 JUN 2026",
+    "container_number": "EISU9103450",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "C1E9C6B6",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "393 PACKAGES",
+    "gross_weight_kg": "28,680.52",
+    "measurement": "102.862 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9103450",
+        "seal_number": "C1E9C6B6",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "393",
+          "type": "PACKAGES",
+          "description": "393 PACKAGES"
+        },
+        "gross_weight_kg": "11,761.58",
+        "net_weight_kg": "8,646.93",
+        "measurement": "52.507 CBM"
+      },
+      {
+        "container_number": "MAEU4555182",
+        "seal_number": "82B3C577",
+        "container_type": "20' TANK",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "135",
+          "type": "DRUMS",
+          "description": "135 DRUMS"
+        },
+        "gross_weight_kg": "16,918.94",
+        "net_weight_kg": "14,646.26",
+        "measurement": "50.355 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "27 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNCLCV596711622",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9103450",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "C1E9C6B6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '393', 'type': 'PACKAGES', 'description': '393 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "11,761.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "52.507 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU4555182",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "82B3C577",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '135', 'type': 'DRUMS', 'description': '135 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "16,918.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "50.355 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "FE940N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA GROUP GMBH\n64 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC COMMERCE PLC\n542 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED INDUSTRIES GMBH\n435 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 349,
+  "filename": "bl_bl-07_00349_MSCUNMRAY274686444.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNMRAY274686444",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMRAY274686444",
+    "shipper_name": "INTERNATIONAL SUPPLY CHAIN S.A.",
+    "shipper_address": "687 TRADE PARK",
+    "consignee_name": "ATLANTIC GROUP LLC",
+    "consignee_address": "650 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL PARTNERS S.A.",
+    "notify_party_address": "952 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS539S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "07 JUN 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "MSCU3182552",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "G754695H",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "208 PALLETS",
+    "gross_weight_kg": "40,829.44",
+    "measurement": "102.959 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3182552",
+        "seal_number": "G754695H",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "208",
+          "type": "PALLETS",
+          "description": "208 PALLETS"
+        },
+        "gross_weight_kg": "27,306.54",
+        "net_weight_kg": "24,164.18",
+        "measurement": "61.207 CBM"
+      },
+      {
+        "container_number": "HLCU7397102",
+        "seal_number": "66337667",
+        "container_type": "20' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "147",
+          "type": "BAGS",
+          "description": "147 BAGS"
+        },
+        "gross_weight_kg": "13,522.90",
+        "net_weight_kg": "11,378.19",
+        "measurement": "41.752 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNMRAY274686444",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "CS539S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        228.19,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3182552",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "G754695H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        228.19,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        228.19,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '208', 'type': 'PALLETS', 'description': '208 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "27,306.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "61.207 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        265.04,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7397102",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "66337667",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        265.04,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        265.04,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '147', 'type': 'BAGS', 'description': '147 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "13,522.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "41.752 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN S.A.\n687 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "ATLANTIC GROUP LLC\n650 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "INTERNATIONAL PARTNERS S.A.\n952 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        462.05,
+        134.65,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

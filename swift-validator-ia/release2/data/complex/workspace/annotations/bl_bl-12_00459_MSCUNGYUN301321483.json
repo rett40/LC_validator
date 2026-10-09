@@ -1,0 +1,318 @@
+{
+  "id": 459,
+  "filename": "bl_bl-12_00459_MSCUNGYUN301321483.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNGYUN301321483",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGYUN301321483",
+    "shipper_name": "TRANS LOGISTICS PLC",
+    "shipper_address": "254 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA SHIPPING AG",
+    "consignee_address": "336 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX GROUP LTD",
+    "notify_party_address": "642 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE26S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "27 JUN 2026",
+    "eta": "15 JUL 2026",
+    "container_number": "EISU7944551",
+    "container_type": "20' REEFER",
+    "seal_number": "E3C0A1EG",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "143 BOXES",
+    "gross_weight_kg": "13,152.28",
+    "measurement": "45.952 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7944551",
+        "seal_number": "E3C0A1EG",
+        "container_type": "20' REEFER",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "143",
+          "type": "BOXES",
+          "description": "143 BOXES"
+        },
+        "gross_weight_kg": "13,152.28",
+        "net_weight_kg": "9,383.06",
+        "measurement": "45.952 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNGYUN301321483",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "TRANS LOGISTICS PLC\n254 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA SHIPPING AG\n336 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "APEX GROUP LTD\n642 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "EISU7944551",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "E3C0A1EG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '143', 'type': 'BOXES', 'description': '143 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "13,152.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "45.952 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "AE26S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "15 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        671.81,
+        272.38,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

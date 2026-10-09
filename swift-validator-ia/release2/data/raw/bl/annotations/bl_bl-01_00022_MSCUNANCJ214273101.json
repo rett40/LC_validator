@@ -1,0 +1,409 @@
+{
+  "id": 22,
+  "filename": "bl_bl-01_00022_MSCUNANCJ214273101.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNANCJ214273101",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNANCJ214273101",
+    "shipper_name": "GLOBAL LOGISTICS LLC",
+    "shipper_address": "332 MAIN STREET",
+    "consignee_name": "PREMIER SHIPPING S.A.",
+    "consignee_address": "795 HARBOR ROAD",
+    "notify_party_name": "PACIFIC TRADING LTD",
+    "notify_party_address": "236 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE94S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "06 MAY 2026",
+    "eta": "10 JUN 2026",
+    "container_number": "TCKU3275009",
+    "container_type": "20' TANK",
+    "seal_number": "E705F0D2",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": "275 PALLETS",
+    "gross_weight_kg": "35,671.34",
+    "measurement": "121.906 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU3275009",
+        "seal_number": "E705F0D2",
+        "container_type": "20' TANK",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "275",
+          "type": "PALLETS",
+          "description": "275 PALLETS"
+        },
+        "gross_weight_kg": "15,582.10",
+        "net_weight_kg": "12,574.91",
+        "measurement": "65.101 CBM"
+      },
+      {
+        "container_number": "TRHU1293703",
+        "seal_number": "1H2B49F8",
+        "container_type": "20' TANK",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "70",
+          "type": "CRATES",
+          "description": "70 CRATES"
+        },
+        "gross_weight_kg": "20,089.24",
+        "net_weight_kg": "17,089.00",
+        "measurement": "56.805 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNANCJ214273101",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL LOGISTICS LLC\n332 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER SHIPPING S.A.\n795 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC TRADING LTD\n236 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "AE94S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        362.83,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU3275009",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "E705F0D2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        362.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        362.83,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '275', 'type': 'PALLETS', 'description': '275 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "15,582.10",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "65.101 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        399.69,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU1293703",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "1H2B49F8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        399.69,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        399.69,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '70', 'type': 'CRATES', 'description': '70 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "20,089.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "56.805 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

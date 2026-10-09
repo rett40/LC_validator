@@ -1,0 +1,241 @@
+{
+  "invoice_number": "INV-2026-01110",
+  "filename": "inv_inv-28_01110.pdf",
+  "layout_id": "INV-28",
+  "bl_id": 1110,
+  "fields": {
+    "invoice_number": "INV-2026-01110",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/HSBC/1110/2026",
+    "bl_reference": "MSCUNUJNF932346310",
+    "seller_name": "PREMIER ENTERPRISES GMBH",
+    "buyer_name": "GLOBAL ENTERPRISES LTD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0577E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "COPPER AND COPPER PRODUCTS",
+    "hs_code": "7408.19",
+    "quantity": 131,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "15,264.53",
+    "unit_price": 59.92,
+    "currency": "USD",
+    "total_amount": 7849.52,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        70.02,
+        217.13,
+        27.78
+      ],
+      "value": "INV-2026-01110",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        202.2,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        144.57,
+        542.83,
+        52.44
+      ],
+      "value": "PREMIER ENTERPRISES GMBH\nPREMIER ENTERPRISES GMBH\n600 INDUSTRIAL AVENUE\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        197.01,
+        542.83,
+        52.44
+      ],
+      "value": "GLOBAL ENTERPRISES LTD\nGLOBAL ENTERPRISES LTD\n298 TRADE PARK\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        263.62,
+        122.14,
+        19.84
+      ],
+      "value": "15,264.53 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        283.46,
+        122.14,
+        19.84
+      ],
+      "value": "7849.52 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        318.9,
+        314.84,
+        56.69
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        336.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": "7408.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        450.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": 131,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        336.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        450.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "59.92 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        381.26,
+        244.28,
+        25.51
+      ],
+      "value": "7849.52 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        21.26,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        156.97,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "LC/HSBC/1110/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "MSCUNUJNF932346310",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        428.39,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        156.97,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": true,
+  "discrepancies": []
+}

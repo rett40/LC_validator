@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00537",
+  "filename": "inv_inv-11_00537.pdf",
+  "layout_id": "INV-11",
+  "bl_id": 537,
+  "fields": {
+    "invoice_number": "INV-2026-00537",
+    "invoice_date": "23 APR 2026",
+    "lc_reference": "LC/SCB/0537/2026",
+    "bl_reference": "MSCUNFAAG642238163",
+    "seller_name": "EURO GROUP CO.",
+    "buyer_name": "GLOBAL TRADING AG",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS879N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "LEISURE GOODS AND GAMES",
+    "hs_code": "9503.00",
+    "quantity": 318,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "57,216.29",
+    "unit_price": 23.53,
+    "currency": "USD",
+    "total_amount": 7483.34,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        215.43,
+        11.34
+      ],
+      "value": "INV-2026-00537",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        100.63,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        100.63,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "LC/SCB/0537/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNFAAG642238163",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        283.46,
+        172.35,
+        42.52
+      ],
+      "value": "LEISURE GOODS AND GAMES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        283.46,
+        64.63,
+        42.52
+      ],
+      "value": "9503.00",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        283.46,
+        53.86,
+        42.52
+      ],
+      "value": "318",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        283.46,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        283.46,
+        96.94,
+        42.52
+      ],
+      "value": "23.53 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        283.46,
+        96.94,
+        42.52
+      ],
+      "value": "7483.34 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "57,216.29 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "7483.34 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        398.27,
+        179.53,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        398.27,
+        179.53,
+        15.59
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "8376.12 USD",
+      "actual": "7483.34 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "actual": "LEISURE GOODS AND GAMES"
+    }
+  ]
+}

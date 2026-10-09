@@ -1,0 +1,409 @@
+{
+  "id": 444,
+  "filename": "bl_bl-12_00444_MSCUNNEKD412271865.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNNEKD412271865",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNEKD412271865",
+    "shipper_name": "CENTRAL TRADING CO.",
+    "shipper_address": "543 MARKET STREET",
+    "consignee_name": "ATLANTIC SUPPLY CHAIN LTD",
+    "consignee_address": "200 MAIN STREET",
+    "notify_party_name": "FIRST GROUP GMBH",
+    "notify_party_address": "752 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE40E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "14 JUN 2026",
+    "eta": "17 JUL 2026",
+    "container_number": "MAEU7644161",
+    "container_type": "40' REEFER",
+    "seal_number": "235F772A",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "158 PALLETS",
+    "gross_weight_kg": "37,566.72",
+    "measurement": "106.788 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU7644161",
+        "seal_number": "235F772A",
+        "container_type": "40' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "158",
+          "type": "PALLETS",
+          "description": "158 PALLETS"
+        },
+        "gross_weight_kg": "10,220.93",
+        "net_weight_kg": "6,418.42",
+        "measurement": "66.957 CBM"
+      },
+      {
+        "container_number": "OOLU0499827",
+        "seal_number": "601FC435",
+        "container_type": "40' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "188",
+          "type": "BOXES",
+          "description": "188 BOXES"
+        },
+        "gross_weight_kg": "27,345.79",
+        "net_weight_kg": "23,826.76",
+        "measurement": "39.831 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNNEKD412271865",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "CENTRAL TRADING CO.\n543 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LTD\n200 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "FIRST GROUP GMBH\n752 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU7644161",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "235F772A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '158', 'type': 'PALLETS', 'description': '158 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "10,220.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "66.957 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "OOLU0499827",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "601FC435",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '188', 'type': 'BOXES', 'description': '188 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "27,345.79",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "39.831 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "AE40E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "17 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        708.66,
+        272.38,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

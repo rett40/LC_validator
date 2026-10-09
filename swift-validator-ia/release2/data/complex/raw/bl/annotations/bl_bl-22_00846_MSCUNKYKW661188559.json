@@ -1,0 +1,322 @@
+{
+  "id": 846,
+  "filename": "bl_bl-22_00846_MSCUNKYKW661188559.pdf",
+  "layout_id": "BL-22",
+  "bl_number": "MSCUNKYKW661188559",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNKYKW661188559",
+    "shipper_name": "GLOBAL SOLUTIONS PLC",
+    "shipper_address": "85 PORT ACCESS ROAD",
+    "consignee_name": "DELTA COMMERCE CORP",
+    "consignee_address": "175 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED COMMERCE AG",
+    "notify_party_address": "674 PORT ACCESS ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE472S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "21 JUN 2026",
+    "eta": "15 JUL 2026",
+    "container_number": "TRHU6685106",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "BH0D0CE9",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "227 CRATES",
+    "gross_weight_kg": "15,635.26",
+    "measurement": "25.183 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6685106",
+        "seal_number": "BH0D0CE9",
+        "container_type": "40' OPEN TOP",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "227",
+          "type": "CRATES",
+          "description": "227 CRATES"
+        },
+        "gross_weight_kg": "15,635.26",
+        "net_weight_kg": "12,891.69",
+        "measurement": "25.183 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        326.2,
+        32.6,
+        237.9,
+        70.87
+      ],
+      "value": "MSCUNKYKW661188559",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        70.99,
+        111.97,
+        96.61,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        243.81,
+        111.97,
+        55.95,
+        34.02
+      ],
+      "value": "FE472S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        321.1,
+        111.97,
+        110.83,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        518.6,
+        111.97,
+        45.49,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.44,
+        145.98,
+        66.16,
+        34.02
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        235.38,
+        145.98,
+        64.38,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.43,
+        145.98,
+        55.5,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        521.03,
+        145.98,
+        43.06,
+        34.02
+      ],
+      "value": "15 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        188.5,
+        528.66,
+        55.28
+      ],
+      "value": "GLOBAL SOLUTIONS PLC\n85 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        243.78,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA COMMERCE CORP\n175 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        299.06,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED COMMERCE AG\n674 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        365.67,
+        528.66,
+        12.76
+      ],
+      "value": "TRHU6685106",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        383.53,
+        237.9,
+        6.8
+      ],
+      "value": "BH0D0CE9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        392.6,
+        237.9,
+        6.8
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        401.67,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "227",
+        "type": "CRATES",
+        "description": "227 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        410.74,
+        237.9,
+        6.8
+      ],
+      "value": "15,635.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        419.81,
+        237.9,
+        6.8
+      ],
+      "value": "25.183 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        383.31,
+        211.46,
+        31.96
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        104.11,
+        433.13,
+        63.49,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        239.37,
+        433.13,
+        60.39,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        351.54,
+        433.13,
+        80.39,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        480.15,
+        433.13,
+        83.95,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        84.76,
+        461.48,
+        82.84,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

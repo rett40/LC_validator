@@ -1,0 +1,276 @@
+{
+  "version": "4.0",
+  "feature_schema_version": "4.0",
+  "trained_at": "2026-05-29T14:06:08.812416",
+  "dataset_sha256": "8697d4f46b8bacadcef28f22e1f6fb63230be1713abc5eb99ddf56093e28136b",
+  "feature_cols": [
+    "lc_amount",
+    "country_risk_score",
+    "external_currency_risk",
+    "incoterm_risk",
+    "ucp_compliance_score",
+    "n_ucp_warnings",
+    "ucp_warning_rate",
+    "ucp_errors_count",
+    "ucp_warnings_count",
+    "nlp_score",
+    "semantic_score",
+    "completeness_score",
+    "missing_critical_score",
+    "coherence_dates",
+    "contradiction_flag",
+    "country_risk_applicant",
+    "country_risk_beneficiary",
+    "days_to_shipment",
+    "presentation_days",
+    "validity_days",
+    "amount_tier",
+    "transshipment_allowed",
+    "charges_beneficiary",
+    "red_clause_flag",
+    "bank_tier",
+    "tenor_risk"
+  ],
+  "n_features": 26,
+  "feature_contracts": {
+    "external_currency_risk": {
+      "source": "external_validation API → details.currency.risk",
+      "scale": "0-4 (CLEAN=0, LOW=1, MEDIUM=2, HIGH=3, CRITICAL=4)"
+    },
+    "country_risk_score": {
+      "source": "max(internal ISO2 tier, DS analysis × 33.3, OFAC/EU level × 25)",
+      "scale": "0-100"
+    },
+    "incoterm_risk": {
+      "source": "ds_analysis.features.incoterm_risk > lc_criteria.incoterm > entities.incoterm",
+      "scale": "0-5 (DDP=1 … EXW=5)"
+    }
+  },
+  "future_features_roadmap": [
+    {
+      "name": "confirming_bank_risk",
+      "expected_f1_gain": "+2%",
+      "source": "Field 58A"
+    },
+    {
+      "name": "doc_discrepancy_rate",
+      "expected_f1_gain": "+3%",
+      "source": "CRM history"
+    },
+    {
+      "name": "red_clause_flag",
+      "expected_f1_gain": "+4% HIGH recall",
+      "source": "Field 47A"
+    },
+    {
+      "name": "commodity_risk",
+      "expected_f1_gain": "+1.5%",
+      "source": "Field 45A"
+    },
+    {
+      "name": "bank_tier",
+      "expected_f1_gain": "+2%",
+      "source": "Field 57A"
+    },
+    {
+      "name": "applicant_history_score",
+      "expected_f1_gain": "+3%",
+      "source": "CRM data"
+    },
+    {
+      "name": "tenor_type",
+      "expected_f1_gain": "+1%",
+      "source": "Field 42C"
+    },
+    {
+      "name": "embargo_flag",
+      "expected_f1_gain": "BLOCK override",
+      "source": "OFAC/EU"
+    }
+  ],
+  "label_map": {
+    "LOW": 0,
+    "MEDIUM": 1,
+    "HIGH": 2
+  },
+  "label_map_inv": {
+    "0": "LOW",
+    "1": "MEDIUM",
+    "2": "HIGH"
+  },
+  "n_clusters": 4,
+  "cluster_names": {
+    "0": "LOW_RISK_STANDARD",
+    "1": "MEDIUM_RISK_COMPLEX",
+    "2": "HIGH_RISK_SENSITIVE",
+    "3": "STRUCTURED_TRADE_FINANCE"
+  },
+  "best_model": "XGBoost",
+  "model_comparison": {
+    "XGBoost": {
+      "accuracy": 0.95,
+      "f1_weighted": 0.9500450133874819,
+      "f1_macro": 0.9394946211113097
+    },
+    "LightGBM": {
+      "accuracy": 0.9468333333333333,
+      "f1_weighted": 0.9467645548535296,
+      "f1_macro": 0.9356505290546614
+    }
+  },
+  "shap_importance": {
+    "LOW": {
+      "n_ucp_warnings": 1.34588623046875,
+      "country_risk_score": 0.8684508204460144,
+      "missing_critical_score": 0.8620112538337708,
+      "validity_days": 0.7751885056495667,
+      "ucp_errors_count": 0.7433735132217407,
+      "ucp_compliance_score": 0.5320806503295898,
+      "incoterm_risk": 0.5119124054908752,
+      "completeness_score": 0.3933042287826538,
+      "transshipment_allowed": 0.34966376423835754,
+      "days_to_shipment": 0.34220317006111145,
+      "external_currency_risk": 0.29759737849235535,
+      "country_risk_applicant": 0.2939019799232483,
+      "charges_beneficiary": 0.24200183153152466,
+      "ucp_warnings_count": 0.19185854494571686,
+      "tenor_risk": 0.18929290771484375,
+      "bank_tier": 0.18163134157657623,
+      "nlp_score": 0.152009978890419,
+      "lc_amount": 0.14938408136367798,
+      "semantic_score": 0.1378435641527176,
+      "presentation_days": 0.13491246104240417,
+      "contradiction_flag": 0.11630749702453613,
+      "country_risk_beneficiary": 0.11298743635416031,
+      "ucp_warning_rate": 0.06320147961378098,
+      "amount_tier": 0.024327578023076057,
+      "coherence_dates": 0.011007851921021938,
+      "red_clause_flag": 0.0
+    },
+    "MEDIUM": {
+      "ucp_errors_count": 0.3974948227405548,
+      "country_risk_score": 0.3260771334171295,
+      "ucp_compliance_score": 0.2685817778110504,
+      "red_clause_flag": 0.23137179017066956,
+      "ucp_warning_rate": 0.21165494620800018,
+      "n_ucp_warnings": 0.20553946495056152,
+      "contradiction_flag": 0.20269401371479034,
+      "ucp_warnings_count": 0.201767697930336,
+      "presentation_days": 0.19225378334522247,
+      "coherence_dates": 0.18251138925552368,
+      "validity_days": 0.14787815511226654,
+      "lc_amount": 0.1436748057603836,
+      "amount_tier": 0.1368052214384079,
+      "missing_critical_score": 0.12368122488260269,
+      "tenor_risk": 0.1214337944984436,
+      "country_risk_beneficiary": 0.11407743394374847,
+      "nlp_score": 0.10086321830749512,
+      "days_to_shipment": 0.08008722960948944,
+      "semantic_score": 0.0735263079404831,
+      "completeness_score": 0.06936419010162354,
+      "incoterm_risk": 0.05898614972829819,
+      "external_currency_risk": 0.04090338572859764,
+      "country_risk_applicant": 0.03962574526667595,
+      "bank_tier": 0.036180246621370316,
+      "charges_beneficiary": 0.016042688861489296,
+      "transshipment_allowed": 0.012414587661623955
+    },
+    "HIGH": {
+      "country_risk_score": 1.312758445739746,
+      "validity_days": 0.6393808722496033,
+      "ucp_errors_count": 0.6136574149131775,
+      "n_ucp_warnings": 0.559039294719696,
+      "missing_critical_score": 0.5548264384269714,
+      "ucp_warning_rate": 0.37413525581359863,
+      "contradiction_flag": 0.3739956319332123,
+      "external_currency_risk": 0.32267796993255615,
+      "completeness_score": 0.3089452385902405,
+      "days_to_shipment": 0.29552966356277466,
+      "tenor_risk": 0.24973808228969574,
+      "incoterm_risk": 0.2474057376384735,
+      "transshipment_allowed": 0.20549128949642181,
+      "charges_beneficiary": 0.18568448722362518,
+      "nlp_score": 0.1646868884563446,
+      "bank_tier": 0.16169534623622894,
+      "semantic_score": 0.16039076447486877,
+      "ucp_compliance_score": 0.14981253445148468,
+      "coherence_dates": 0.14161242544651031,
+      "country_risk_applicant": 0.14036908745765686,
+      "country_risk_beneficiary": 0.10065457969903946,
+      "ucp_warnings_count": 0.09375894069671631,
+      "presentation_days": 0.08244502544403076,
+      "red_clause_flag": 0.07458263635635376,
+      "lc_amount": 0.05112620070576668,
+      "amount_tier": 0.013472329825162888
+    }
+  },
+  "evaluation": {
+    "accuracy": 0.95,
+    "f1_weighted": 0.9500450133874819,
+    "confusion_matrix": [
+      [
+        1838,
+        61,
+        0
+      ],
+      [
+        67,
+        1128,
+        80
+      ],
+      [
+        0,
+        92,
+        2734
+      ]
+    ],
+    "report": {
+      "LOW": {
+        "precision": 0.9648293963254593,
+        "recall": 0.9678778304370721,
+        "f1-score": 0.9663512092534174,
+        "support": 1899.0
+      },
+      "MEDIUM": {
+        "precision": 0.8805620608899297,
+        "recall": 0.8847058823529412,
+        "f1-score": 0.8826291079812206,
+        "support": 1275.0
+      },
+      "HIGH": {
+        "precision": 0.9715707178393745,
+        "recall": 0.967445152158528,
+        "f1-score": 0.9695035460992908,
+        "support": 2826.0
+      },
+      "accuracy": 0.95,
+      "macro avg": {
+        "precision": 0.9389873916849211,
+        "recall": 0.9400096216495138,
+        "f1-score": 0.9394946211113097,
+        "support": 6000.0
+      },
+      "weighted avg": {
+        "precision": 0.9500977499784634,
+        "recall": 0.95,
+        "f1-score": 0.9500450133874819,
+        "support": 6000.0
+      }
+    },
+    "cv_note": "CV F1 is computed on SMOTE-resampled data and overestimates real-world performance. Rely on test-set F1 (no SMOTE) for production estimates."
+  },
+  "model_notes": {
+    "shap_vs_calibrated": "SHAP explainer is fitted on the raw XGBoost model (not CalibratedClassifierCV). Feature attributions are accurate; predicted probabilities at inference use the calibrated wrapper for reliability."
+  },
+  "models": {
+    "scaler": "services\\risk_service\\models\\scaler.pkl",
+    "isolation_forest": "services\\risk_service\\models\\isolation_forest.pkl",
+    "kmeans": "services\\risk_service\\models\\kmeans.pkl",
+    "xgboost": "services\\risk_service\\models\\xgboost.pkl",
+    "lightgbm": "services\\risk_service\\models\\lightgbm.pkl",
+    "xgboost_calibrated": "services\\risk_service\\models\\xgboost_calibrated.pkl",
+    "shap_explainer": "services\\risk_service\\models\\shap_explainer.pkl",
+    "cluster_names": "services\\risk_service\\models\\cluster_names.json",
+    "narrative_config": "services\\risk_service\\models\\narrative_config.json"
+  }
+}

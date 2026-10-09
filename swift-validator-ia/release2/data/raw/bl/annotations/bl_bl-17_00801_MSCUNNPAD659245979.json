@@ -1,0 +1,409 @@
+{
+  "id": 801,
+  "filename": "bl_bl-17_00801_MSCUNNPAD659245979.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNNPAD659245979",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNPAD659245979",
+    "shipper_name": "UNITED GROUP CO.",
+    "shipper_address": "53 COMMERCE BOULEVARD",
+    "consignee_name": "PACIFIC SUPPLY CHAIN CO.",
+    "consignee_address": "542 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED GROUP GMBH",
+    "notify_party_address": "946 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE77S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "28 MAY 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "MSCU1386514",
+    "container_type": "20' TANK",
+    "seal_number": "2BD0B8BH",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "275 PALLETS",
+    "gross_weight_kg": "27,160.97",
+    "measurement": "87.969 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU1386514",
+        "seal_number": "2BD0B8BH",
+        "container_type": "20' TANK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "275",
+          "type": "PALLETS",
+          "description": "275 PALLETS"
+        },
+        "gross_weight_kg": "21,346.04",
+        "net_weight_kg": "17,364.56",
+        "measurement": "51.698 CBM"
+      },
+      {
+        "container_number": "HLCU3803951",
+        "seal_number": "6A2G1B0H",
+        "container_type": "20' REEFER",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "355",
+          "type": "CRATES",
+          "description": "355 CRATES"
+        },
+        "gross_weight_kg": "5,814.93",
+        "net_weight_kg": "3,521.83",
+        "measurement": "36.271 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNNPAD659245979",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "UNITED GROUP CO.\n53 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "PACIFIC SUPPLY CHAIN CO.\n542 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "UNITED GROUP GMBH\n946 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "AE77S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU1386514",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "2BD0B8BH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '275', 'type': 'PALLETS', 'description': '275 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "21,346.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "51.698 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3803951",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "6A2G1B0H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '355', 'type': 'CRATES', 'description': '355 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "5,814.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "36.271 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        456.38,
+        134.65,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

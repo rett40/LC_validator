@@ -1,0 +1,105 @@
+<section class="about-hero">
+  <div class="about-hero-inner">
+    <p-tag value="À propos du projet" severity="warn" />
+    <h1>LC Validator</h1>
+    <p>Une plateforme dédiée aux professionnels bancaires pour valider les crédits documentaires MT700 et contrôler la cohérence des documents commerciaux qui les accompagnent.</p>
+  </div>
+</section>
+
+<!-- Mission -->
+<section class="mission-section">
+  <div class="section-inner">
+    <div class="mission-grid">
+      <div class="mission-text">
+        <h2>Notre Mission</h2>
+        <p>
+          La vérification manuelle des crédits documentaires et de leurs documents commerciaux est un
+          processus long, coûteux et source d'erreurs. LC Validator automatise la conformité du crédit
+          MT700 (UCP 600 / ISBP 745) puis le recoupement des documents commerciaux entre eux et avec le crédit.
+        </p>
+        <p>
+          Notre objectif : permettre aux agents bancaires de se concentrer sur les cas complexes,
+          en automatisant les contrôles standardisés et la détection des incohérences.
+        </p>
+      </div>
+      <div class="mission-stats">
+        <div class="ms-item"><span class="ms-val">10+</span><span class="ms-label">Axes de contrôle</span></div>
+        <div class="ms-item"><span class="ms-val">UCP 600</span><span class="ms-label">Conformité totale</span></div>
+        <div class="ms-item"><span class="ms-val">< 2s</span><span class="ms-label">Analyse complète</span></div>
+        <div class="ms-item"><span class="ms-val">3</span><span class="ms-label">Décisions possibles</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Architecture -->
+<section class="arch-section">
+  <div class="section-inner">
+    <h2 class="arch-title">Architecture technique</h2>
+    <div class="arch-flow">
+      <div class="arch-block">
+        <i class="pi pi-file-import"></i>
+        <span class="ab-label">Document MT700</span>
+        <span class="ab-sub">OCR + parsing SWIFT</span>
+      </div>
+      <i class="pi pi-arrow-right arch-arrow"></i>
+      <div class="arch-block">
+        <i class="pi pi-cog"></i>
+        <span class="ab-label">Moteur d'analyse</span>
+        <span class="ab-sub">Conformité · Cohérence · Concordance</span>
+      </div>
+      <i class="pi pi-arrow-right arch-arrow"></i>
+      <div class="arch-block">
+        <i class="pi pi-server"></i>
+        <span class="ab-label">API Spring Boot</span>
+        <span class="ab-sub">JWT · REST · PostgreSQL</span>
+      </div>
+      <i class="pi pi-arrow-right arch-arrow"></i>
+      <div class="arch-block">
+        <i class="pi pi-desktop"></i>
+        <span class="ab-label">Interface Angular</span>
+        <span class="ab-sub">PrimeNG · Visualisation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Technologies -->
+<section class="tech-section">
+  <div class="section-inner">
+    <h2>Technologies utilisées</h2>
+    <div class="tech-grid">
+      @for (t of techs; track t.name) {
+        <div class="tech-chip">
+          <span class="tc-cat">{{ t.cat }}</span>
+          <span class="tc-name">{{ t.name }}</span>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Team -->
+<section class="team-section">
+  <div class="section-inner">
+    <h2>Organisation</h2>
+    <div class="team-grid">
+      @for (m of team; track m.name) {
+        <div class="team-card">
+          <div class="tm-icon"><i class="pi {{ m.icon }}"></i></div>
+          <h3>{{ m.name }}</h3>
+          <p>{{ m.role }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="about-cta">
+  <div class="about-cta-inner">
+    <h2>Rejoindre la plateforme</h2>
+    <p>Accédez à LC Validator et optimisez vos analyses de crédits documentaires dès aujourd'hui.</p>
+    <a routerLink="/login" pButton label="Se connecter" icon="pi pi-sign-in" class="p-button-lg"></a>
+  </div>
+</section>

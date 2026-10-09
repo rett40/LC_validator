@@ -1,0 +1,442 @@
+{
+  "id": 689,
+  "filename": "bl_bl-18_00689_MSCUNGNYG691957108.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNGNYG691957108",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGNYG691957108",
+    "shipper_name": "APEX COMMERCE BV",
+    "shipper_address": "119 INDUSTRIAL AVENUE",
+    "consignee_name": "APEX SHIPPING BV",
+    "consignee_address": "64 COMMERCE BOULEVARD",
+    "notify_party_name": "EURO TRADING LLC",
+    "notify_party_address": "847 TRADE PARK",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE838N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "21 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "HLCU1581547",
+    "container_type": "20' REEFER",
+    "seal_number": "A673BH7E",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "300 CARTONS",
+    "gross_weight_kg": "35,004.40",
+    "measurement": "112.336 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1581547",
+        "seal_number": "A673BH7E",
+        "container_type": "20' REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "300",
+          "type": "CARTONS",
+          "description": "300 CARTONS"
+        },
+        "gross_weight_kg": "19,349.08",
+        "net_weight_kg": "15,534.32",
+        "measurement": "54.632 CBM"
+      },
+      {
+        "container_number": "OOLU7369641",
+        "seal_number": "8501B24C",
+        "container_type": "40' FLAT RACK",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "499",
+          "type": "BAGS",
+          "description": "499 BAGS"
+        },
+        "gross_weight_kg": "15,655.32",
+        "net_weight_kg": "13,369.25",
+        "measurement": "57.704 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNGNYG691957108",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU1581547",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "A673BH7E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '300', 'type': 'CARTONS', 'description': '300 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "19,349.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "54.632 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU7369641",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "8501B24C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '499', 'type': 'BAGS', 'description': '499 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "15,655.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "57.704 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "119 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "APEX COMMERCE BV\n119 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "64 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SHIPPING BV\n64 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "847 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "EURO TRADING LLC\n847 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        490.39,
+        201.04,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        330.29,
+        490.39,
+        243.72,
+        34.02
+      ],
+      "value": "FE838N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        57.89,
+        524.41,
+        246.84,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        402.74,
+        524.41,
+        171.28,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        558.43,
+        202.84,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        592.44,
+        189.95,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        326.73,
+        592.44,
+        247.28,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        634.96,
+        201.5,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        663.31,
+        209.5,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        376.97,
+        663.31,
+        197.04,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        691.65,
+        202.83,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 837,
+  "filename": "bl_bl-21_00837_MSCUNKPAX333133353.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNKPAX333133353",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNKPAX333133353",
+    "shipper_name": "TRANS LOGISTICS CO.",
+    "shipper_address": "210 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC SOLUTIONS LLC",
+    "consignee_address": "2 HARBOR ROAD",
+    "notify_party_name": "UNITED SUPPLY CHAIN S.A.",
+    "notify_party_address": "143 PORT ACCESS ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE332N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "05 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "HLCU7315398",
+    "container_type": "20' REEFER",
+    "seal_number": "3CFC89G4",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "344 PALLETS",
+    "gross_weight_kg": "9,357.50",
+    "measurement": "53.725 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7315398",
+        "seal_number": "3CFC89G4",
+        "container_type": "20' REEFER",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "344",
+          "type": "PALLETS",
+          "description": "344 PALLETS"
+        },
+        "gross_weight_kg": "9,357.50",
+        "net_weight_kg": "5,818.66",
+        "measurement": "53.725 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNKPAX333133353",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS CO.\n210 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "ATLANTIC SOLUTIONS LLC\n2 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN S.A.\n143 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "HLCU7315398",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "3CFC89G4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '344', 'type': 'PALLETS', 'description': '344 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "9,357.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "53.725 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "FE332N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

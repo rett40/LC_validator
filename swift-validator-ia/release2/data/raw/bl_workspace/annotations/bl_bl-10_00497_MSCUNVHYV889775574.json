@@ -1,0 +1,442 @@
+{
+  "id": 497,
+  "filename": "bl_bl-10_00497_MSCUNVHYV889775574.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNVHYV889775574",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVHYV889775574",
+    "shipper_name": "EURO ENTERPRISES BV",
+    "shipper_address": "238 HARBOR ROAD",
+    "consignee_name": "TRANS COMMERCE INC",
+    "consignee_address": "479 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC PARTNERS PLC",
+    "notify_party_address": "458 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-577",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "11 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "OOLU0400604",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "0DC29263",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "93 DRUMS",
+    "gross_weight_kg": "24,355.58",
+    "measurement": "76.936 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0400604",
+        "seal_number": "0DC29263",
+        "container_type": "40' OPEN TOP",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "93",
+          "type": "DRUMS",
+          "description": "93 DRUMS"
+        },
+        "gross_weight_kg": "9,464.10",
+        "net_weight_kg": "6,434.62",
+        "measurement": "35.418 CBM"
+      },
+      {
+        "container_number": "OOLU6810952",
+        "seal_number": "CF0081A5",
+        "container_type": "40' REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "196",
+          "type": "CARTONS",
+          "description": "196 CARTONS"
+        },
+        "gross_weight_kg": "14,891.48",
+        "net_weight_kg": "11,215.37",
+        "measurement": "41.518 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVHYV889775574",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0400604",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "0DC29263",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '93', 'type': 'DRUMS', 'description': '93 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "9,464.10",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "35.418 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6810952",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "CF0081A5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '196', 'type': 'CARTONS', 'description': '196 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "14,891.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "41.518 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "238 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "EURO ENTERPRISES BV\n238 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "479 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS COMMERCE INC\n479 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        324.57,
+        269.29,
+        70.87
+      ],
+      "value": "458 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        304.72,
+        269.29,
+        90.71
+      ],
+      "value": "PACIFIC PARTNERS PLC\n458 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "E-577",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

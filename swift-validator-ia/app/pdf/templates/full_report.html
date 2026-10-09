@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Rapport Complet — {{ lc_number }}</title>
+  <link rel="stylesheet" href="styles/report.css">
+</head>
+<body>
+
+{# Mappe les niveaux métier (info/low/medium/high/critical, fail/warning) vers les
+   3 classes CSS disponibles : block (rouge), high (orange), warn (gris). #}
+{% set SEVCLASS = {
+  'critical': 'block', 'fail': 'block', 'block': 'block',
+  'high': 'high', 'warning': 'high', 'medium': 'high',
+  'low': 'warn', 'info': 'warn', 'warn': 'warn'
+} %}
+
+{# Sources commerciales / cohérence — cœur du rapport « complet ». #}
+{% set comm  = commercial_validation %}
+{% set cross = cross_validation_report %}
+{% set lcc   = lc_coherence %}
+{% set has_commercial = commercial_documents or cross or lcc %}
+
+<!-- ══ PAGE DE GARDE ══════════════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-header">
+    <div class="cover-logo">SWIFT<span>Validator</span></div>
+    <div class="cover-subtitle">Plateforme d'analyse documentaire LC</div>
+  </div>
+
+  <div class="cover-body">
+    <div><span class="cover-badge badge-full">COMPLET</span></div>
+    <div class="cover-title">Cross-validation des Documents<br>&amp; Cohérence avec le MT700</div>
+
+    <table class="cover-meta-table">
+      <tr><td>Référence LC</td>       <td>{{ lc_number }}</td></tr>
+      <tr><td>Donneur d'ordre</td>    <td>{{ applicant }}</td></tr>
+      <tr><td>Bénéficiaire</td>       <td>{{ beneficiary }}</td></tr>
+      <tr><td>Banque émettrice</td>   <td>{{ issuing_bank }}</td></tr>
+      <tr><td>Montant</td>            <td>{% if amount %}{{ "%.2f"|format(amount|float) }} {{ currency }}{% else %}—{% endif %}</td></tr>
+      <tr><td>Documents analysés</td> <td>{{ commercial_documents|length }} document(s)</td></tr>
+      <tr><td>Généré le</td>          <td>{{ generated_at }}</td></tr>
+    </table>
+
+    {% if has_commercial %}
+    {% set cov_risk = (lcc.get('risk_level') if lcc else None) or (cross.get('risk_level') if cross else None) or (comm.get('risk_level') if comm else None) %}
+    <div class="alert {% if cov_risk in ['HIGH','CRITICAL'] %}alert-danger{% elif cov_risk == 'MEDIUM' %}alert-warning{% else %}alert-success{% endif %} no-break">
+      <div class="alert-icon">{% if cov_risk in ['HIGH','CRITICAL'] %}⚠{% elif cov_risk == 'MEDIUM' %}⚡{% else %}✓{% endif %}</div>
+      <div>
+        <strong>Cohérence documentaire : {{ cov_risk or '—' }}</strong>
+        <p>
+          {% if cross %}Inter-documents : {{ "%.0f"|format((cross.get('final_score') or 0)|float * 100) }}/100 · {% endif %}
+          {% if lcc %}Docs ↔ MT700 : {{ "%.0f"|format((lcc.get('final_score') or 0)|float * 100) }}/100 · {% endif %}
+          Risque MT700 : {{ risk_level or '—' }}{% if payment_blocked %} · <strong>PAIEMENT BLOQUÉ</strong>{% endif %}
+        </p>
+      </div>
+    </div>
+    {% else %}
+    <div class="alert alert-warning no-break">
+      <div class="alert-icon">⚡</div>
+      <div>
+        <strong>Aucun document commercial rattaché — rapport limité au MT700.</strong>
+        <p>Risque MT700 : {{ risk_level or '—' }} · Score UCP : {{ ucp_score }}/100</p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="cover-footer">
+    Document confidentiel généré automatiquement. Non substitut à un audit juridique ou bancaire.
+  </div>
+</div>
+
+<!-- ══ SECTION 1 — SYNTHÈSE DE COHÉRENCE ═════════════════════════════════ -->
+<div class="page-break">
+<h1>1. Synthèse de Cohérence</h1>
+
+<div class="score-hero no-break">
+  {% if comm %}
+  <div class="score-card {% if comm.get('risk_level') == 'HIGH' %}risk-high{% elif comm.get('risk_level') == 'MEDIUM' %}risk-medium{% else %}risk-low{% endif %}">
+    <div class="score-label">Docs Commerciaux</div>
+    <div class="score-value">{{ "%.0f"|format((comm.get('final_score') or 0)|float * 100) }}</div>
+    <div class="score-badge">{{ comm.get('risk_level', '—') }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ "%.0f"|format((comm.get('final_score') or 0)|float * 100) }}%"></div></div>
+  </div>
+  {% endif %}
+  {% if cross %}
+  <div class="score-card {% if cross.get('risk_level') in ['HIGH','CRITICAL'] %}risk-high{% elif cross.get('risk_level') == 'MEDIUM' %}risk-medium{% else %}risk-low{% endif %}">
+    <div class="score-label">Cohérence inter-docs</div>
+    <div class="score-value">{{ "%.0f"|format((cross.get('final_score') or 0)|float * 100) }}</div>
+    <div class="score-badge">{{ cross.get('risk_level', '—') }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ "%.0f"|format((cross.get('final_score') or 0)|float * 100) }}%"></div></div>
+  </div>
+  {% endif %}
+  {% if lcc %}
+  <div class="score-card {% if lcc.get('risk_level') in ['HIGH','CRITICAL'] %}risk-high{% elif lcc.get('risk_level') == 'MEDIUM' %}risk-medium{% else %}risk-low{% endif %}">
+    <div class="score-label">Docs ↔ MT700</div>
+    <div class="score-value">{{ "%.0f"|format((lcc.get('final_score') or 0)|float * 100) }}</div>
+    <div class="score-badge">{{ lcc.get('risk_level', '—') }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ "%.0f"|format((lcc.get('final_score') or 0)|float * 100) }}%"></div></div>
+  </div>
+  {% endif %}
+  {% set risk_class = "risk-high" if risk_level == "HIGH" else ("risk-medium" if risk_level == "MEDIUM" else "risk-low") %}
+  <div class="score-card {{ risk_class }}">
+    <div class="score-label">Risque MT700 (ML)</div>
+    <div class="score-value">{{ ml_risk_score or "—" }}</div>
+    <div class="score-badge">{{ risk_level or "—" }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ ((ml_risk_score or 0)|float / 80 * 100)|round|int }}%"></div></div>
+  </div>
+</div>
+
+<p class="text-muted" style="font-size:9pt;margin-top:2mm">
+  Ce rapport « complet » se concentre sur la cross-validation entre les documents commerciaux
+  et leur cohérence avec le crédit documentaire (MT700). Les scores détaillés du MT700
+  (UCP 600, ML/LIME, sanctions) figurent en fin de rapport à titre de contexte.
+</p>
+
+<!-- ══ SECTION 2 — DOCUMENTS COMMERCIAUX ═════════════════════════════════ -->
+<h1 class="page-break">2. Documents Commerciaux</h1>
+
+{% if not commercial_documents %}
+<div class="alert alert-warning">
+  <div class="alert-icon">⚡</div>
+  <div><strong>Aucun document commercial analysé.</strong></div>
+</div>
+{% else %}
+{% for doc in commercial_documents %}
+<div class="doc-card no-break">
+  <div class="doc-card-header">
+    <div>
+      <span class="doc-type-badge">{{ doc.get('doc_type', 'DOC') }}</span>
+      <strong style="margin-left:3mm">{{ doc.get('source_filename', '—') }}</strong>
+    </div>
+    <div class="text-muted" style="font-size:9pt">
+      {{ doc.get('n_fields', 0) }} champs · {{ doc.get('n_pages', 0) }} page(s)
+    </div>
+  </div>
+  <table class="info-table">
+    <tr>
+      <td class="label-col">Statut</td>
+      <td style="color:{% if doc.get('status') == 'OK' %}#16a34a{% elif doc.get('status') == 'ERROR' %}#dc2626{% else %}#d97706{% endif %};font-weight:700">{{ doc.get('status', '—') }}</td>
+      <td class="label-col">Confiance</td>
+      <td>{{ "%.1f"|format((doc.get('confidence') or 0)|float * 100) }}%</td>
+    </tr>
+    <tr>
+      <td class="label-col">Violations</td>
+      <td>{{ doc.get('n_rule_fails', 0) }} erreur(s)</td>
+      <td class="label-col">Avertissements</td>
+      <td>{{ doc.get('n_warnings', 0) }}</td>
+    </tr>
+  </table>
+</div>
+{% endfor %}
+{% endif %}
+
+<!-- ══ SECTION 3 — COHÉRENCE INTER-DOCUMENTS ═════════════════════════════ -->
+{% if cross %}
+<h1 class="page-break">3. Cohérence Inter-Documents</h1>
+<div class="alert {{ 'alert-danger' if cross.get('risk_level') in ['HIGH','CRITICAL'] else ('alert-warning' if cross.get('risk_level') == 'MEDIUM' else 'alert-success') }} no-break">
+  <div class="alert-icon">{{ '⚠' if cross.get('risk_level') in ['HIGH','CRITICAL'] else '✓' }}</div>
+  <div>
+    <strong>Résultat croisé : {{ cross.get('risk_level', '—') }}</strong>
+    <p>Score : {{ "%.1f"|format((cross.get('final_score') or 0)|float * 100) }}/100</p>
+  </div>
+</div>
+
+{% set inconsistencies = cross.get('inconsistencies', []) %}
+{% if inconsistencies %}
+<h3>Incohérences détectées</h3>
+{% for inc in inconsistencies[:12] %}
+{% set _cls = SEVCLASS.get((inc.get('severity') or 'info')|lower, 'warn') %}
+<div class="violation violation-{{ _cls }} no-break">
+  <div class="violation-title">
+    <span class="sev-badge sev-{{ _cls }}">{{ (inc.get('severity') or 'INFO')|upper }}</span>
+    {{ inc.get('field', '') }} — {{ inc.get('type', '') }}
+  </div>
+  {% if inc.get('detail') %}<div class="violation-detail">{{ inc.get('detail') }}</div>{% endif %}
+</div>
+{% endfor %}
+{% else %}
+<div class="alert alert-success no-break">
+  <div class="alert-icon">✓</div>
+  <div><strong>Aucune incohérence bloquante entre les documents.</strong></div>
+</div>
+{% endif %}
+{% endif %}
+
+<!-- ══ SECTION 4 — COHÉRENCE AVEC LE MT700 ═══════════════════════════════ -->
+{% if lcc %}
+<h1 class="page-break">4. Cohérence des Documents avec le MT700</h1>
+<div class="alert {{ 'alert-danger' if lcc.get('risk_level') in ['HIGH','CRITICAL'] else ('alert-warning' if lcc.get('risk_level') == 'MEDIUM' else 'alert-success') }} no-break">
+  <div class="alert-icon">{{ '⚠' if lcc.get('risk_level') in ['HIGH','CRITICAL'] else ('⚡' if lcc.get('risk_level') == 'MEDIUM' else '✓') }}</div>
+  <div>
+    <strong>Conformité LC ↔ Documents : {{ lcc.get('risk_level', '—') }}{% if lcc.get('decision') %} · Décision : {{ lcc.get('decision') }}{% endif %}</strong>
+    <p>Score de cohérence : {{ "%.1f"|format((lcc.get('final_score') or 0)|float * 100) }}/100</p>
+  </div>
+</div>
+
+{% set breakdown = lcc.get('score_breakdown', {}) %}
+{% if breakdown %}
+<h3>Décomposition par catégorie</h3>
+<table class="info-table no-break" style="margin-bottom:3mm">
+  <tr><th>Catégorie</th><th style="width:30%">Score</th></tr>
+  {% for cat, sc in breakdown.items() %}
+  <tr>
+    <td>{{ cat.replace('_', ' ')|title }}</td>
+    <td style="font-weight:700">{{ "%.0f"|format((sc or 0)|float * 100) }}/100</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+{% set lc_rules = lcc.get('rule_results', []) %}
+{% if lc_rules %}
+<h3>Écarts détectés (LC vs documents)</h3>
+{% for r in lc_rules[:14] %}
+{% set _cls = SEVCLASS.get((r.get('severity') or r.get('status') or 'info')|lower, 'warn') %}
+<div class="violation violation-{{ _cls }} no-break">
+  <div class="violation-title">
+    <span class="sev-badge sev-{{ _cls }}">{{ (r.get('severity') or r.get('status') or 'INFO')|upper }}</span>
+    {{ r.get('rule', '') }}{% if r.get('doc_type') %} — {{ r.get('doc_type')|upper }}{% endif %}
+  </div>
+  {% if r.get('message') %}<div class="violation-detail">{{ r.get('message') }}</div>{% endif %}
+  {% if r.get('lc_value') is not none or r.get('doc_value') is not none %}
+  <div class="violation-detail" style="font-size:8pt;color:#64748b">
+    LC : <strong>{{ r.get('lc_value') if r.get('lc_value') is not none else '—' }}</strong> ·
+    Document : <strong>{{ r.get('doc_value') if r.get('doc_value') is not none else '—' }}</strong>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+{% else %}
+<div class="alert alert-success no-break">
+  <div class="alert-icon">✓</div>
+  <div><strong>Aucun écart bloquant entre les documents et le MT700.</strong></div>
+</div>
+{% endif %}
+{% endif %}
+
+<!-- ══ SECTION 5 — CONTEXTE MT700 (CONDENSÉ) ═════════════════════════════ -->
+<h1 class="page-break">5. Contexte MT700</h1>
+<p class="text-muted" style="font-size:9pt;margin-bottom:3mm">
+  Rappel synthétique du crédit documentaire servant de référentiel à la cross-validation
+  ci-dessus. Analyse MT700 détaillée : voir le rapport MT700 dédié.
+</p>
+
+<h3>Informations du crédit documentaire</h3>
+<table class="info-table no-break">
+  <tr><td class="label-col">Référence LC</td>          <td>{{ lc_number }}</td>
+      <td class="label-col">Incoterm</td>               <td>{{ incoterm }}</td></tr>
+  <tr><td class="label-col">Donneur d'ordre</td>       <td>{{ applicant }}</td>
+      <td class="label-col">Pays</td>                   <td>{{ country }}</td></tr>
+  <tr><td class="label-col">Bénéficiaire</td>          <td>{{ beneficiary }}</td>
+      <td class="label-col">Validité</td>               <td>{{ validity_days or "—" }} jours</td></tr>
+  <tr><td class="label-col">Banque émettrice</td>      <td>{{ issuing_bank }}</td>
+      <td class="label-col">Présentation</td>           <td>{{ presentation_period_days or "—" }} jours</td></tr>
+  <tr><td class="label-col">Montant</td>               <td colspan="3">{% if amount %}{{ "%.2f"|format(amount|float) }} {{ currency }}{% else %}—{% endif %}{% if payment_blocked %} — <strong style="color:#dc2626">PAIEMENT BLOQUÉ</strong>{% endif %}</td></tr>
+</table>
+
+<h3 style="margin-top:4mm">Conformité UCP 600</h3>
+{% if n_ucp_errors == 0 and n_ucp_warnings == 0 %}
+<div class="alert alert-success no-break">
+  <div class="alert-icon">✓</div>
+  <div><strong>Document conforme — aucune violation UCP</strong></div>
+</div>
+{% else %}
+<table class="info-table no-break" style="margin-bottom:3mm">
+  <tr>
+    <th>Erreurs (×1.0)</th><th>Avert. (×0.4)</th><th>Score UCP</th><th>Paiement</th>
+  </tr>
+  <tr>
+    <td style="color:{% if n_ucp_errors > 0 %}#dc2626{% else %}#16a34a{% endif %};font-weight:700">{{ n_ucp_errors }}</td>
+    <td style="color:{% if n_ucp_warnings > 2 %}#d97706{% else %}#64748b{% endif %};font-weight:700">{{ n_ucp_warnings }}</td>
+    <td style="font-weight:700">{{ ucp_score }}/100</td>
+    <td style="color:{% if payment_blocked %}#dc2626{% else %}#16a34a{% endif %};font-weight:700">{{ "BLOQUÉ" if payment_blocked else "OK" }}</td>
+  </tr>
+</table>
+{% for finding in ucp_findings[:5] %}
+<div class="violation violation-{{ finding.severity|lower if finding.severity else 'warn' }} no-break">
+  <div class="violation-title">
+    <span class="sev-badge sev-{{ finding.severity|lower if finding.severity else 'warn' }}">{{ finding.severity or 'WARN' }}</span>
+    {{ finding.article or '' }} {% if finding.article_title %}— {{ finding.article_title }}{% endif %}
+  </div>
+  {% if finding.message %}<div class="violation-detail">{{ finding.message }}</div>{% endif %}
+</div>
+{% endfor %}
+{% if ucp_findings|length > 5 %}
+<p class="text-muted" style="font-size:8pt">… et {{ ucp_findings|length - 5 }} autre(s) constatation(s) UCP — voir le rapport MT700.</p>
+{% endif %}
+{% endif %}
+
+<!-- ══ SECTION 6 — ANNEXES ANALYTIQUES MT700 ═════════════════════════════ -->
+{% set lime_items = risk_ml.get('explanation', {}).get('lime_score_waterfall', []) if risk_ml else [] %}
+{% if lime_items or external_validation %}
+<h1 class="page-break">6. Annexes Analytiques MT700</h1>
+
+{% if lime_items %}
+<h3>Décomposition du score ML (LIME)</h3>
+<table class="lime-table no-break">
+  <tr>
+    <th style="width:32%">Feature</th>
+    <th style="width:12%">Valeur</th>
+    <th style="width:12%">Contribution</th>
+    <th style="width:10%">SHAP</th>
+    <th>Impact</th>
+  </tr>
+  {% set max_contrib = lime_items|map(attribute='score_contribution')|map('abs')|max %}
+  {% for item in lime_items[:8] %}
+  <tr>
+    <td style="font-weight:500">{{ item.label }}</td>
+    <td class="text-muted">{{ item.value if item.value is not none else "—" }}</td>
+    <td class="{{ 'contrib-pos' if item.score_contribution > 0 else 'contrib-neg' }}">
+      {{ "+" if item.score_contribution > 0 else "" }}{{ "%.2f"|format(item.score_contribution) }}
+    </td>
+    <td class="text-muted">{{ "%.4f"|format(item.shap_value) }}</td>
+    <td>
+      <div class="lime-bar">
+        <div class="lime-bar-fill {{ 'lime-bar-pos' if item.score_contribution > 0 else 'lime-bar-neg' }}"
+             style="width:{{ ((item.score_contribution|abs / max_contrib) * 100)|round|int }}%"></div>
+      </div>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+{% if external_validation %}
+<h3 style="margin-top:4mm">Validation externe (OFAC / Sanctions)</h3>
+<div class="alert {{ 'alert-danger' if external_validation.get('risk_level') == 'CRITICAL' else ('alert-warning' if external_validation.get('risk_level') == 'HIGH' else 'alert-success') }} no-break">
+  <div class="alert-icon">{{ '⚠' if external_validation.get('risk_level') in ['CRITICAL','HIGH'] else '✓' }}</div>
+  <div>
+    <strong>Niveau : {{ external_validation.get('risk_level', '—') }}</strong>
+    <p>
+      Pays : {{ external_validation.get('country_iso2','—') }} ·
+      Sanctionné : {{ 'OUI ⚠' if external_validation.get('country_sanctioned') else 'Non' }} ·
+      OFAC entités : {{ external_validation.get('ofac_entity_count', 0) }} ·
+      FATF : {{ external_validation.get('fatf_list', 'N/A') }}
+    </p>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+<!-- ══ AVERTISSEMENT LÉGAL ════════════════════════════════════════════════ -->
+<div style="margin-top:8mm; padding:4mm; background:#f8fafc; border:1px solid #e2e8f0; border-radius:5px; font-size:8pt; color:#64748b;">
+  <strong>Avertissement légal :</strong> Ce rapport est généré automatiquement par SWIFT Validator à des fins d'aide à la décision.
+  Il ne constitue pas un avis juridique ou bancaire. Généré le {{ generated_at }}.
+</div>
+</div>
+
+</body>
+</html>

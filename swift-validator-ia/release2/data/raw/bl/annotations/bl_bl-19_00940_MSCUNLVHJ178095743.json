@@ -1,0 +1,318 @@
+{
+  "id": 940,
+  "filename": "bl_bl-19_00940_MSCUNLVHJ178095743.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNLVHJ178095743",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLVHJ178095743",
+    "shipper_name": "EURO TRADING S.A.",
+    "shipper_address": "251 PORT ACCESS ROAD",
+    "consignee_name": "GLOBAL TRADING INC",
+    "consignee_address": "31 PORT ACCESS ROAD",
+    "notify_party_name": "TRANS ENTERPRISES INC",
+    "notify_party_address": "18 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0852E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "13 JUN 2026",
+    "eta": "12 JUL 2026",
+    "container_number": "TCKU1178983",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "7F45GFC0",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "243 CRATES",
+    "gross_weight_kg": "15,871.95",
+    "measurement": "28.558 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU1178983",
+        "seal_number": "7F45GFC0",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "243",
+          "type": "CRATES",
+          "description": "243 CRATES"
+        },
+        "gross_weight_kg": "15,871.95",
+        "net_weight_kg": "12,940.84",
+        "measurement": "28.558 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNLVHJ178095743",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "EURO TRADING S.A.\n251 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL TRADING INC\n31 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS ENTERPRISES INC\n18 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "0852E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "12 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        368.5,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU1178983",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "7F45GFC0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        368.5,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        368.5,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '243', 'type': 'CRATES', 'description': '243 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "15,871.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "28.558 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        430.87,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        430.87,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        430.87,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        459.21,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        459.21,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00445",
+  "filename": "inv_inv-12_00445.pdf",
+  "layout_id": "INV-12",
+  "bl_id": 445,
+  "fields": {
+    "invoice_number": "INV-2026-00445",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0445/2026",
+    "bl_reference": "MSCUNBESA952880565",
+    "seller_name": "PACIFIC INDUSTRIES INC",
+    "buyer_name": "ATLANTIC GROUP S.A.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS697N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "BUILDING MATERIALS",
+    "hs_code": "6810.19",
+    "quantity": 186,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "26,930.01",
+    "unit_price": 8.21,
+    "currency": "GBP",
+    "total_amount": 1526.46,
+    "incoterm": "CFR",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00445",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "LC/BARCLAYS/0445/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNBESA952880565",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        221.1,
+        176.88,
+        42.52
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        221.1,
+        66.33,
+        42.52
+      ],
+      "value": "6810.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "186",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "8.21 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "1526.46 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "PACIFIC INDUSTRIES INC\nPACIFIC INDUSTRIES INC\n982 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "ATLANTIC GROUP S.A.\nATLANTIC GROUP S.A.\n614 MAIN BOULEVARD\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        360.0,
+        124.37,
+        19.84
+      ],
+      "value": "26,930.01 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        379.84,
+        124.37,
+        19.84
+      ],
+      "value": "1526.46 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "1294.56 USD",
+      "actual": "1526.46 USD"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

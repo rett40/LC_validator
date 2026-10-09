@@ -1,0 +1,500 @@
+{
+  "id": 1159,
+  "filename": "bl_bl-29_01159_MSCUNPAUT357852942.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNPAUT357852942",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPAUT357852942",
+    "shipper_name": "DELTA INDUSTRIES GMBH",
+    "shipper_address": "384 PORT ACCESS ROAD",
+    "consignee_name": "EURO SHIPPING CORP",
+    "consignee_address": "968 MARKET STREET",
+    "notify_party_name": "UNITED SUPPLY CHAIN AG",
+    "notify_party_address": "346 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS779E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "20 MAY 2026",
+    "eta": "05 JUN 2026",
+    "container_number": "TRHU6579452",
+    "container_type": "40' REEFER",
+    "seal_number": "FEAAEDCG",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "348 BAGS",
+    "gross_weight_kg": "49,037.24",
+    "measurement": "122.679 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6579452",
+        "seal_number": "FEAAEDCG",
+        "container_type": "40' REEFER",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "348",
+          "type": "BAGS",
+          "description": "348 BAGS"
+        },
+        "gross_weight_kg": "15,744.77",
+        "net_weight_kg": "12,472.57",
+        "measurement": "56.923 CBM"
+      },
+      {
+        "container_number": "EISU9588366",
+        "seal_number": "9C47B6ED",
+        "container_type": "20'OT",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "138",
+          "type": "CARTONS",
+          "description": "138 CARTONS"
+        },
+        "gross_weight_kg": "12,650.05",
+        "net_weight_kg": "8,877.06",
+        "measurement": "25.645 CBM"
+      },
+      {
+        "container_number": "OOLU1720263",
+        "seal_number": "FD69D1F5",
+        "container_type": "40' DRY / GP",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "392",
+          "type": "BOXES",
+          "description": "392 BOXES"
+        },
+        "gross_weight_kg": "20,642.42",
+        "net_weight_kg": "18,432.75",
+        "measurement": "40.111 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNPAUT357852942",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU6579452",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "FEAAEDCG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '348', 'type': 'BAGS', 'description': '348 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "15,744.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "56.923 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "EISU9588366",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "9C47B6ED",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '138', 'type': 'CARTONS', 'description': '138 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "12,650.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "25.645 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        209.76,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU1720263",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "FD69D1F5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        209.76,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        209.76,
+        132.17,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '392', 'type': 'BOXES', 'description': '392 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "20,642.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "40.111 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "CS779E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        384.09,
+        132.17,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        430.87,
+        302.62,
+        94.96
+      ],
+      "value": "DELTA INDUSTRIES GMBH\n384 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        429.45,
+        218.04,
+        41.1
+      ],
+      "value": "EURO SHIPPING CORP\n968 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        484.72,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED SUPPLY CHAIN AG\n346 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "id": 494,
+  "filename": "bl_bl-10_00494_MSCUNDUEY814159655.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNDUEY814159655",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNDUEY814159655",
+    "shipper_name": "ATLANTIC TRADING GMBH",
+    "shipper_address": "856 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA SHIPPING INC",
+    "consignee_address": "920 HARBOR ROAD",
+    "notify_party_name": "DELTA PARTNERS S.A.",
+    "notify_party_address": "728 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-137",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "04 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "CMAU6283028",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "04HD8E85",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "84 PALLETS",
+    "gross_weight_kg": "18,290.02",
+    "measurement": "61.655 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU6283028",
+        "seal_number": "04HD8E85",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "84",
+          "type": "PALLETS",
+          "description": "84 PALLETS"
+        },
+        "gross_weight_kg": "18,290.02",
+        "net_weight_kg": "14,690.38",
+        "measurement": "61.655 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNDUEY814159655",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU6283028",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "04HD8E85",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '84', 'type': 'PALLETS', 'description': '84 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "18,290.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "61.655 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "856 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC TRADING GMBH\n856 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "920 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA SHIPPING INC\n920 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        287.72,
+        269.29,
+        70.87
+      ],
+      "value": "728 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA PARTNERS S.A.\n728 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "E-137",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

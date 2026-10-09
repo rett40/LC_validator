@@ -1,0 +1,351 @@
+{
+  "id": 286,
+  "filename": "bl_bl-06_00286_MSCUNMAKV053621367.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNMAKV053621367",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMAKV053621367",
+    "shipper_name": "UNITED INDUSTRIES CORP",
+    "shipper_address": "933 INDUSTRIAL AVENUE",
+    "consignee_name": "EURO TRADING PLC",
+    "consignee_address": "408 PORT ACCESS ROAD",
+    "notify_party_name": "GLOBAL GROUP BV",
+    "notify_party_address": "168 TRADE PARK",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE294S",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "15 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "TRHU7239334",
+    "container_type": "20' REEFER",
+    "seal_number": "9H24EE88",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "199 CRATES",
+    "gross_weight_kg": "18,219.27",
+    "measurement": "31.797 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU7239334",
+        "seal_number": "9H24EE88",
+        "container_type": "20' REEFER",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "199",
+          "type": "CRATES",
+          "description": "199 CRATES"
+        },
+        "gross_weight_kg": "18,219.27",
+        "net_weight_kg": "14,924.08",
+        "measurement": "31.797 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNMAKV053621367",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "933 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED INDUSTRIES CORP\n933 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "408 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "EURO TRADING PLC\n408 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "168 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL GROUP BV\n168 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "FE294S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "15 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        341.57,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU7239334",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "9H24EE88",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        341.57,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        341.57,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '199', 'type': 'CRATES', 'description': '199 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "18,219.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "31.797 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        386.93,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        386.93,
+        179.53,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        386.93,
+        179.53,
+        28.35
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

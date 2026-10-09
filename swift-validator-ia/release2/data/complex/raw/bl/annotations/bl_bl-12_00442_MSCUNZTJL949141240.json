@@ -1,0 +1,409 @@
+{
+  "id": 442,
+  "filename": "bl_bl-12_00442_MSCUNZTJL949141240.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNZTJL949141240",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNZTJL949141240",
+    "shipper_name": "PREMIER SOLUTIONS LLC",
+    "shipper_address": "593 HARBOR ROAD",
+    "consignee_name": "FIRST GROUP PLC",
+    "consignee_address": "363 MARKET STREET",
+    "notify_party_name": "GLOBAL INDUSTRIES CORP",
+    "notify_party_address": "907 TRADE PARK",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE963S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "22 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "HLCU7635767",
+    "container_type": "20' DRY",
+    "seal_number": "6CCA799B",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "331 PACKAGES",
+    "gross_weight_kg": "43,502.59",
+    "measurement": "80.499 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7635767",
+        "seal_number": "6CCA799B",
+        "container_type": "20' DRY",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "331",
+          "type": "PACKAGES",
+          "description": "331 PACKAGES"
+        },
+        "gross_weight_kg": "20,493.71",
+        "net_weight_kg": "16,678.75",
+        "measurement": "59.763 CBM"
+      },
+      {
+        "container_number": "TRHU7021987",
+        "seal_number": "C888GBF2",
+        "container_type": "40' REEFER",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "155",
+          "type": "BAGS",
+          "description": "155 BAGS"
+        },
+        "gross_weight_kg": "23,008.88",
+        "net_weight_kg": "20,330.16",
+        "measurement": "20.736 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNZTJL949141240",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "PREMIER SOLUTIONS LLC\n593 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "FIRST GROUP PLC\n363 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "GLOBAL INDUSTRIES CORP\n907 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU7635767",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "6CCA799B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '331', 'type': 'PACKAGES', 'description': '331 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "20,493.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "59.763 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU7021987",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "C888GBF2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '155', 'type': 'BAGS', 'description': '155 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "23,008.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "20.736 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "FE963S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        708.66,
+        272.38,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

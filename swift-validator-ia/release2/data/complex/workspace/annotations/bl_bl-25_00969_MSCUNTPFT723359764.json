@@ -1,0 +1,417 @@
+{
+  "id": 969,
+  "filename": "bl_bl-25_00969_MSCUNTPFT723359764.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNTPFT723359764",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTPFT723359764",
+    "shipper_name": "ATLANTIC SUPPLY CHAIN LTD",
+    "shipper_address": "364 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED GROUP GMBH",
+    "consignee_address": "881 INDUSTRIAL AVENUE",
+    "notify_party_name": "ATLANTIC SOLUTIONS LTD",
+    "notify_party_address": "481 MAIN STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE808S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "07 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "EISU8847081",
+    "container_type": "40' REEFER",
+    "seal_number": "5HA36D41",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "11 BOXES",
+    "gross_weight_kg": "31,181.55",
+    "measurement": "47.249 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8847081",
+        "seal_number": "5HA36D41",
+        "container_type": "40' REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "11",
+          "type": "BOXES",
+          "description": "11 BOXES"
+        },
+        "gross_weight_kg": "22,345.15",
+        "net_weight_kg": "19,182.29",
+        "measurement": "20.314 CBM"
+      },
+      {
+        "container_number": "CMAU0931973",
+        "seal_number": "DFFHED9G",
+        "container_type": "20' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "173",
+          "type": "PALLETS",
+          "description": "173 PALLETS"
+        },
+        "gross_weight_kg": "8,836.40",
+        "net_weight_kg": "4,958.07",
+        "measurement": "26.935 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNTPFT723359764",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "EISU8847081",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "5HA36D41",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "11",
+        "type": "BOXES",
+        "description": "11 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "22,345.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "20.314 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "CMAU0931973",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "DFFHED9G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "173",
+        "type": "PALLETS",
+        "description": "173 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "8,836.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "26.935 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "FE808S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LTD\n364 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "UNITED GROUP GMBH\n881 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC SOLUTIONS LTD\n481 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

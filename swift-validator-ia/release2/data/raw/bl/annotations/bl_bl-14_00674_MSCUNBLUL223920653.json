@@ -1,0 +1,318 @@
+{
+  "id": 674,
+  "filename": "bl_bl-14_00674_MSCUNBLUL223920653.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNBLUL223920653",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNBLUL223920653",
+    "shipper_name": "PREMIER ENTERPRISES AG",
+    "shipper_address": "674 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL INDUSTRIES CORP",
+    "consignee_address": "281 TRADE PARK",
+    "notify_party_name": "FIRST INDUSTRIES PLC",
+    "notify_party_address": "171 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS865E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "12 MAY 2026",
+    "eta": "02 JUN 2026",
+    "container_number": "CMAU2486205",
+    "container_type": "40' DRY",
+    "seal_number": "182G9GA4",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "457 CRATES",
+    "gross_weight_kg": "15,794.02",
+    "measurement": "38.780 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2486205",
+        "seal_number": "182G9GA4",
+        "container_type": "40' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "457",
+          "type": "CRATES",
+          "description": "457 CRATES"
+        },
+        "gross_weight_kg": "15,794.02",
+        "net_weight_kg": "12,470.83",
+        "measurement": "38.780 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNBLUL223920653",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2486205",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "182G9GA4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '457', 'type': 'CRATES', 'description': '457 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "15,794.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "38.780 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "CS865E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES AG\n674 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL INDUSTRIES CORP\n281 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES PLC\n171 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

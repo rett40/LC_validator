@@ -1,0 +1,442 @@
+{
+  "id": 1169,
+  "filename": "bl_bl-30_01169_MSCUNJNYA709438603.pdf",
+  "layout_id": "BL-30",
+  "bl_number": "MSCUNJNYA709438603",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNJNYA709438603",
+    "shipper_name": "APEX INDUSTRIES S.A.",
+    "shipper_address": "570 PORT ACCESS ROAD",
+    "consignee_name": "FIRST TRADING PLC",
+    "consignee_address": "43 HARBOR ROAD",
+    "notify_party_name": "INTERNATIONAL ENTERPRISES GMBH",
+    "notify_party_address": "785 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE97E",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "01 JUN 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "MAEU5524208",
+    "container_type": "40' DRY / GP",
+    "seal_number": "DAH69DG3",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "472 BAGS",
+    "gross_weight_kg": "53,557.47",
+    "measurement": "69.314 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5524208",
+        "seal_number": "DAH69DG3",
+        "container_type": "40' DRY / GP",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "472",
+          "type": "BAGS",
+          "description": "472 BAGS"
+        },
+        "gross_weight_kg": "25,579.75",
+        "net_weight_kg": "22,330.78",
+        "measurement": "27.580 CBM"
+      },
+      {
+        "container_number": "CMAU9051749",
+        "seal_number": "BF8D82GD",
+        "container_type": "20' TANK",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "328",
+          "type": "DRUMS",
+          "description": "328 DRUMS"
+        },
+        "gross_weight_kg": "27,977.72",
+        "net_weight_kg": "24,257.66",
+        "measurement": "41.734 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        85.95,
+        83.62,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNJNYA709438603",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        113.93,
+        126.14,
+        101.03,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        288.96,
+        126.14,
+        105.53,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        454.99,
+        126.14,
+        119.03,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        95.93,
+        154.49,
+        119.03,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        270.96,
+        154.49,
+        123.53,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        100.43,
+        188.5,
+        114.53,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        257.46,
+        188.5,
+        137.03,
+        34.02
+      ],
+      "value": "AE97E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        459.49,
+        188.5,
+        114.53,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        122.93,
+        222.52,
+        92.03,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        252.96,
+        222.52,
+        141.53,
+        34.02
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        468.49,
+        222.52,
+        105.53,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        122.93,
+        256.54,
+        92.03,
+        34.02
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        293.46,
+        256.54,
+        101.03,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        314.65,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU5524208",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "DAH69DG3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        314.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        314.65,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '472', 'type': 'BAGS', 'description': '472 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "25,579.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "27.580 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        351.5,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9051749",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "BF8D82GD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        351.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        351.5,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '328', 'type': 'DRUMS', 'description': '328 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "27,977.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "41.734 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "570 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "APEX INDUSTRIES S.A.\n570 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "43 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "FIRST TRADING PLC\n43 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "785 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL ENTERPRISES GMBH\n785 INDUSTRIAL AVENUE",
+      "page": 1
+    }
+  ]
+}

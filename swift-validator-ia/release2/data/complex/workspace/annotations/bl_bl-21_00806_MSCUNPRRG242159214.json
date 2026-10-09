@@ -1,0 +1,409 @@
+{
+  "id": 806,
+  "filename": "bl_bl-21_00806_MSCUNPRRG242159214.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNPRRG242159214",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPRRG242159214",
+    "shipper_name": "EURO SHIPPING CORP",
+    "shipper_address": "787 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST SUPPLY CHAIN CORP",
+    "consignee_address": "969 TRADE PARK",
+    "notify_party_name": "FIRST PARTNERS CORP",
+    "notify_party_address": "806 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE188S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "30 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "MAEU4927486",
+    "container_type": "20' DRY",
+    "seal_number": "EA896A1F",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "267 CRATES",
+    "gross_weight_kg": "34,357.99",
+    "measurement": "52.621 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU4927486",
+        "seal_number": "EA896A1F",
+        "container_type": "20' DRY",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "267",
+          "type": "CRATES",
+          "description": "267 CRATES"
+        },
+        "gross_weight_kg": "27,686.93",
+        "net_weight_kg": "24,571.65",
+        "measurement": "31.442 CBM"
+      },
+      {
+        "container_number": "TCKU0506430",
+        "seal_number": "159G44FE",
+        "container_type": "40' DRY / GP",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "395",
+          "type": "BOXES",
+          "description": "395 BOXES"
+        },
+        "gross_weight_kg": "6,671.06",
+        "net_weight_kg": "3,958.30",
+        "measurement": "21.179 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNPRRG242159214",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "EURO SHIPPING CORP\n787 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST SUPPLY CHAIN CORP\n969 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST PARTNERS CORP\n806 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "MAEU4927486",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "EA896A1F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '267', 'type': 'CRATES', 'description': '267 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "27,686.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "31.442 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "TCKU0506430",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "159G44FE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '395', 'type': 'BOXES', 'description': '395 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "6,671.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "21.179 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "FE188S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

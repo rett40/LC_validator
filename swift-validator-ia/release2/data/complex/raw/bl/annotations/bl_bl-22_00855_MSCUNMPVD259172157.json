@@ -1,0 +1,322 @@
+{
+  "id": 855,
+  "filename": "bl_bl-22_00855_MSCUNMPVD259172157.pdf",
+  "layout_id": "BL-22",
+  "bl_number": "MSCUNMPVD259172157",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMPVD259172157",
+    "shipper_name": "TRANS TRADING PLC",
+    "shipper_address": "368 HARBOR ROAD",
+    "consignee_name": "DELTA COMMERCE GMBH",
+    "consignee_address": "495 MAIN STREET",
+    "notify_party_name": "DELTA LOGISTICS BV",
+    "notify_party_address": "430 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE17N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "25 JUN 2026",
+    "eta": "19 JUL 2026",
+    "container_number": "EISU9019067",
+    "container_type": "40' HC",
+    "seal_number": "E5C25308",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "37 BAGS",
+    "gross_weight_kg": "18,773.68",
+    "measurement": "26.446 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9019067",
+        "seal_number": "E5C25308",
+        "container_type": "40' HC",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "37",
+          "type": "BAGS",
+          "description": "37 BAGS"
+        },
+        "gross_weight_kg": "18,773.68",
+        "net_weight_kg": "15,014.93",
+        "measurement": "26.446 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        326.2,
+        32.6,
+        237.9,
+        70.87
+      ],
+      "value": "MSCUNMPVD259172157",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        84.55,
+        111.97,
+        83.05,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        243.81,
+        111.97,
+        55.95,
+        34.02
+      ],
+      "value": "AE17N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        364.87,
+        111.97,
+        67.06,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        526.15,
+        111.97,
+        37.95,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        63.22,
+        145.98,
+        104.38,
+        34.02
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        253.37,
+        145.98,
+        46.39,
+        34.02
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        388.65,
+        145.98,
+        43.28,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        521.03,
+        145.98,
+        43.06,
+        34.02
+      ],
+      "value": "19 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        188.5,
+        528.66,
+        55.28
+      ],
+      "value": "TRANS TRADING PLC\n368 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        243.78,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA COMMERCE GMBH\n495 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        299.06,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA LOGISTICS BV\n430 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        365.67,
+        528.66,
+        12.76
+      ],
+      "value": "EISU9019067",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        383.53,
+        237.9,
+        6.8
+      ],
+      "value": "E5C25308",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        392.6,
+        237.9,
+        6.8
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        401.67,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "37",
+        "type": "BAGS",
+        "description": "37 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        410.74,
+        237.9,
+        6.8
+      ],
+      "value": "18,773.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        419.81,
+        237.9,
+        6.8
+      ],
+      "value": "26.446 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        383.31,
+        211.46,
+        31.96
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        114.32,
+        433.13,
+        53.28,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        229.16,
+        433.13,
+        70.61,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        351.54,
+        433.13,
+        80.39,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        493.49,
+        433.13,
+        70.61,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        112.54,
+        461.48,
+        55.06,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

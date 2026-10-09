@@ -1,0 +1,409 @@
+{
+  "id": 814,
+  "filename": "bl_bl-21_00814_MSCUNKREK675195673.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNKREK675195673",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNKREK675195673",
+    "shipper_name": "PACIFIC ENTERPRISES LLC",
+    "shipper_address": "144 COMMERCE BOULEVARD",
+    "consignee_name": "DELTA SHIPPING PLC",
+    "consignee_address": "131 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST LOGISTICS INC",
+    "notify_party_address": "578 HARBOR ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE736S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "13 JUN 2026",
+    "eta": "18 JUL 2026",
+    "container_number": "CMAU4562010",
+    "container_type": "20' TANK",
+    "seal_number": "1997C8AA",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "138 PALLETS",
+    "gross_weight_kg": "48,166.67",
+    "measurement": "85.243 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4562010",
+        "seal_number": "1997C8AA",
+        "container_type": "20' TANK",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "138",
+          "type": "PALLETS",
+          "description": "138 PALLETS"
+        },
+        "gross_weight_kg": "25,435.54",
+        "net_weight_kg": "21,577.29",
+        "measurement": "30.140 CBM"
+      },
+      {
+        "container_number": "HLCU2338549",
+        "seal_number": "83G553B3",
+        "container_type": "45'HC",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "270",
+          "type": "BOXES",
+          "description": "270 BOXES"
+        },
+        "gross_weight_kg": "22,731.13",
+        "net_weight_kg": "19,270.44",
+        "measurement": "55.103 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNKREK675195673",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "PACIFIC ENTERPRISES LLC\n144 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "DELTA SHIPPING PLC\n131 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS INC\n578 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "CMAU4562010",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "1997C8AA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '138', 'type': 'PALLETS', 'description': '138 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "25,435.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "30.140 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "HLCU2338549",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "83G553B3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '270', 'type': 'BOXES', 'description': '270 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "22,731.13",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "55.103 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "FE736S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "18 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

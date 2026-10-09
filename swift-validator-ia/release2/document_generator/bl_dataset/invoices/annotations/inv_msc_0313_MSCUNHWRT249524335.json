@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00313",
+  "filename": "inv_msc_0313_MSCUNHWRT249524335.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 313,
+  "fields": {
+    "invoice_number": "INV-2026-00313",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/CITI/0313/2026",
+    "bl_reference": "MSCUNHWRT249524335",
+    "seller_name": "EURO PARTNERS CO.",
+    "buyer_name": "PACIFIC ENTERPRISES AG",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0915E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "PHOTOVOLTAIC MODULES AND CELLS",
+    "hs_code": "8541.40",
+    "quantity": 16,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "21,240.25",
+    "unit_price": 134.7,
+    "currency": "USD",
+    "total_amount": 2155.2,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00313",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/CITI/0313/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "EURO PARTNERS CO.\n582 INDUSTRIAL AVENUE\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "PACIFIC ENTERPRISES AG\n446 EXPORT ZONE\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "0915E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNHWRT249524335",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "PHOTOVOLTAIC MODULES AND CELLS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "16",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "USD 134.70",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "USD 2,155.20",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "USD 2,155.20",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SINGAPORE",
+      "actual": "TOKYO, JAPAN"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "actual": "PHOTOVOLTAIC MODULES AND CELLS"
+    }
+  ]
+}

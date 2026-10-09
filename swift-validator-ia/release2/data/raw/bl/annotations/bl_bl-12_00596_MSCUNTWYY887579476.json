@@ -1,0 +1,409 @@
+{
+  "id": 596,
+  "filename": "bl_bl-12_00596_MSCUNTWYY887579476.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNTWYY887579476",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTWYY887579476",
+    "shipper_name": "APEX ENTERPRISES GMBH",
+    "shipper_address": "674 COMMERCE BOULEVARD",
+    "consignee_name": "APEX SHIPPING CORP",
+    "consignee_address": "464 MAIN STREET",
+    "notify_party_name": "GLOBAL LOGISTICS GMBH",
+    "notify_party_address": "137 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS742N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "17 MAY 2026",
+    "eta": "04 JUN 2026",
+    "container_number": "EISU1010672",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "5G2D3HD5",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "67 CRATES",
+    "gross_weight_kg": "30,858.77",
+    "measurement": "123.560 CBM",
+    "containers": [
+      {
+        "container_number": "EISU1010672",
+        "seal_number": "5G2D3HD5",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "67",
+          "type": "CRATES",
+          "description": "67 CRATES"
+        },
+        "gross_weight_kg": "16,681.60",
+        "net_weight_kg": "14,597.68",
+        "measurement": "61.296 CBM"
+      },
+      {
+        "container_number": "OOLU2702934",
+        "seal_number": "56GDDG57",
+        "container_type": "20' TANK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "386",
+          "type": "CARTONS",
+          "description": "386 CARTONS"
+        },
+        "gross_weight_kg": "14,177.17",
+        "net_weight_kg": "11,111.99",
+        "measurement": "62.264 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "23 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNTWYY887579476",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "APEX ENTERPRISES GMBH\n674 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "APEX SHIPPING CORP\n464 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL LOGISTICS GMBH\n137 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1010672",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "5G2D3HD5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '67', 'type': 'CRATES', 'description': '67 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "16,681.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "61.296 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2702934",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "56GDDG57",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '386', 'type': 'CARTONS', 'description': '386 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "14,177.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "62.264 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "CS742N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        718.58,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

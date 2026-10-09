@@ -1,0 +1,442 @@
+{
+  "id": 261,
+  "filename": "bl_bl-06_00261_MSCUNXVWH365258519.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNXVWH365258519",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNXVWH365258519",
+    "shipper_name": "DELTA LOGISTICS AG",
+    "shipper_address": "268 COMMERCE BOULEVARD",
+    "consignee_name": "EURO SUPPLY CHAIN LLC",
+    "consignee_address": "53 MAIN STREET",
+    "notify_party_name": "UNITED LOGISTICS CO.",
+    "notify_party_address": "860 HARBOR ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE353S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "29 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "MSCU6250381",
+    "container_type": "20' TANK",
+    "seal_number": "5234HGH4",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "35 PACKAGES",
+    "gross_weight_kg": "30,174.14",
+    "measurement": "69.603 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU6250381",
+        "seal_number": "5234HGH4",
+        "container_type": "20' TANK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "35",
+          "type": "PACKAGES",
+          "description": "35 PACKAGES"
+        },
+        "gross_weight_kg": "19,241.55",
+        "net_weight_kg": "17,073.65",
+        "measurement": "48.546 CBM"
+      },
+      {
+        "container_number": "TRHU8953688",
+        "seal_number": "GD3310D7",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "333",
+          "type": "BAGS",
+          "description": "333 BAGS"
+        },
+        "gross_weight_kg": "10,932.59",
+        "net_weight_kg": "8,751.00",
+        "measurement": "21.057 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "29 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNXVWH365258519",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "268 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "DELTA LOGISTICS AG\n268 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "53 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "EURO SUPPLY CHAIN LLC\n53 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "860 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED LOGISTICS CO.\n860 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "FE353S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        341.57,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU6250381",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "5234HGH4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        341.57,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        341.57,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '35', 'type': 'PACKAGES', 'description': '35 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "19,241.55",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "48.546 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        378.43,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8953688",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "GD3310D7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        378.43,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        378.43,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '333', 'type': 'BAGS', 'description': '333 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "10,932.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "21.057 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

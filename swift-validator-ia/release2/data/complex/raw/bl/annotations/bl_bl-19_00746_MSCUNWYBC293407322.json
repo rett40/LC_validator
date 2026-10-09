@@ -1,0 +1,512 @@
+{
+  "id": 746,
+  "filename": "bl_bl-19_00746_MSCUNWYBC293407322.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNWYBC293407322",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNWYBC293407322",
+    "shipper_name": "EURO SHIPPING CORP",
+    "shipper_address": "691 INDUSTRIAL AVENUE",
+    "consignee_name": "GLOBAL SOLUTIONS S.A.",
+    "consignee_address": "367 INDUSTRIAL AVENUE",
+    "notify_party_name": "INTERNATIONAL SOLUTIONS CORP",
+    "notify_party_address": "533 HARBOR ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS135E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "03 JUN 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "MAEU1809851",
+    "container_type": "40' DRY",
+    "seal_number": "04B71709",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "46 BOXES",
+    "gross_weight_kg": "51,485.66",
+    "measurement": "132.717 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU1809851",
+        "seal_number": "04B71709",
+        "container_type": "40' DRY",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "46",
+          "type": "BOXES",
+          "description": "46 BOXES"
+        },
+        "gross_weight_kg": "9,310.08",
+        "net_weight_kg": "5,665.93",
+        "measurement": "41.914 CBM"
+      },
+      {
+        "container_number": "TCKU8417474",
+        "seal_number": "9EB7GF97",
+        "container_type": "40' OPEN TOP",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "498",
+          "type": "BOXES",
+          "description": "498 BOXES"
+        },
+        "gross_weight_kg": "14,300.72",
+        "net_weight_kg": "11,263.22",
+        "measurement": "62.834 CBM"
+      },
+      {
+        "container_number": "OOLU9015950",
+        "seal_number": "693G14F8",
+        "container_type": "20'RF",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "280",
+          "type": "CARTONS",
+          "description": "280 CARTONS"
+        },
+        "gross_weight_kg": "27,874.86",
+        "net_weight_kg": "24,132.49",
+        "measurement": "27.969 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "MSCUNWYBC293407322",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        55.28
+      ],
+      "value": "EURO SHIPPING CORP\n691 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        41.1,
+        194.17,
+        522.99,
+        55.28
+      ],
+      "value": "GLOBAL SOLUTIONS S.A.\n367 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        249.45,
+        522.99,
+        55.28
+      ],
+      "value": "INTERNATIONAL SOLUTIONS CORP\n533 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        215.43,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "CS135E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.76,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        41.1,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        215.43,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.76,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        215.43,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "MAEU1809851",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "04B71709",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "46",
+        "type": "BOXES",
+        "description": "46 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "9,310.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "41.914 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        305.15,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "TCKU8417474",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        338.5,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "9EB7GF97",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        338.5,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        338.5,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "498",
+        "type": "BOXES",
+        "description": "498 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        338.5,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "14,300.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        338.5,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "62.834 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        447.57,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        504.0,
+        258.94,
+        12.76
+      ],
+      "value": "OOLU9015950",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        521.86,
+        116.53,
+        6.8
+      ],
+      "value": "693G14F8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        530.93,
+        116.53,
+        6.8
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        540.0,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "280",
+        "type": "CARTONS",
+        "description": "280 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        549.07,
+        116.53,
+        6.8
+      ],
+      "value": "27,874.86",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        558.14,
+        116.53,
+        6.8
+      ],
+      "value": "27.969 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        521.65,
+        103.58,
+        31.96
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        215.43,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.76,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        41.1,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        215.43,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

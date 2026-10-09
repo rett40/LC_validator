@@ -1,0 +1,353 @@
+{
+  "id": 118,
+  "filename": "bl_bl-20_00118_MSCUNKJLH142617312.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNKJLH142617312",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNKJLH142617312",
+    "shipper": {
+      "name": "FIRST SHIPPING GMBH",
+      "address": "340 COMMERCE BOULEVARD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "FIRST SHIPPING GMBH\n340 COMMERCE BOULEVARD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "consignee": {
+      "name": "GLOBAL SHIPPING CORP",
+      "address": "158 COMMERCE BOULEVARD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "GLOBAL SHIPPING CORP\n158 COMMERCE BOULEVARD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "notify_party": {
+      "name": "INTERNATIONAL LOGISTICS CO.",
+      "address": "934 TRADE PARK",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "INTERNATIONAL LOGISTICS CO.\n934 TRADE PARK\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0916S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "01 JUN 2026",
+    "eta": "24 JUN 2026",
+    "issue_date": "13 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "container_number": "OOLU6315320",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "859D01H8",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": {
+      "count": "16",
+      "type": "CRATES",
+      "description": "16 CRATES"
+    },
+    "gross_weight_kg": "23,941.18",
+    "net_weight_kg": "20,462.97",
+    "gross_weight_lbs": "52,781.20",
+    "measurement": "30.896 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU6315320",
+        "seal_number": "859D01H8",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "16",
+          "type": "CRATES",
+          "description": "16 CRATES"
+        },
+        "gross_weight_kg": "23,941.18",
+        "net_weight_kg": "20,462.97",
+        "measurement": "30.896 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "EXW",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "OOLU6315320\n859D01H8\nPIRAEUS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNKJLH142617312",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "0916S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST SHIPPING GMBH\n340 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL SHIPPING CORP\n158 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL LOGISTICS CO.\n934 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6315320",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "859D01H8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '16', 'type': 'CRATES', 'description': '16 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "23,941.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "30.896 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "13 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 218,
+  "filename": "bl_bl-05_00218_MSCUNUKZM084641097.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNUKZM084641097",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNUKZM084641097",
+    "shipper_name": "APEX SHIPPING GMBH",
+    "shipper_address": "825 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC LOGISTICS PLC",
+    "consignee_address": "892 PORT ACCESS ROAD",
+    "notify_party_name": "PREMIER TRADING GMBH",
+    "notify_party_address": "171 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-507",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "06 MAY 2026",
+    "eta": "20 MAY 2026",
+    "container_number": "OOLU0239770",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "E2AC8FDE",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "248 CRATES",
+    "gross_weight_kg": "9,867.89",
+    "measurement": "56.352 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0239770",
+        "seal_number": "E2AC8FDE",
+        "container_type": "20' FLAT RACK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "248",
+          "type": "CRATES",
+          "description": "248 CRATES"
+        },
+        "gross_weight_kg": "9,867.89",
+        "net_weight_kg": "6,656.91",
+        "measurement": "56.352 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNUKZM084641097",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "APEX SHIPPING GMBH\n825 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC LOGISTICS PLC\n892 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER TRADING GMBH\n171 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0239770",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "E2AC8FDE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '248', 'type': 'CRATES', 'description': '248 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "9,867.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "56.352 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        463.46,
+        269.29,
+        24.09
+      ],
+      "value": "E-507",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        497.48,
+        269.29,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        531.5,
+        269.29,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        565.51,
+        269.29,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        615.12,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        643.46,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        671.81,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

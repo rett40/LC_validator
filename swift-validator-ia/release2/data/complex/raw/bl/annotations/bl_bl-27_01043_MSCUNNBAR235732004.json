@@ -1,0 +1,318 @@
+{
+  "id": 1043,
+  "filename": "bl_bl-27_01043_MSCUNNBAR235732004.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNNBAR235732004",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNNBAR235732004",
+    "shipper_name": "GLOBAL COMMERCE LLC",
+    "shipper_address": "45 PORT ACCESS ROAD",
+    "consignee_name": "TRANS LOGISTICS LLC",
+    "consignee_address": "903 PORT ACCESS ROAD",
+    "notify_party_name": "PACIFIC GROUP PLC",
+    "notify_party_address": "785 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0963N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "18 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "HLCU6654372",
+    "container_type": "45'HC",
+    "seal_number": "8E8FG8HG",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "124 BOXES",
+    "gross_weight_kg": "22,817.76",
+    "measurement": "30.786 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU6654372",
+        "seal_number": "8E8FG8HG",
+        "container_type": "45'HC",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "124",
+          "type": "BOXES",
+          "description": "124 BOXES"
+        },
+        "gross_weight_kg": "22,817.76",
+        "net_weight_kg": "20,531.02",
+        "measurement": "30.786 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNNBAR235732004",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "HLCU6654372",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "8E8FG8HG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '124', 'type': 'BOXES', 'description': '124 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "22,817.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "30.786 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        259.37,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "GLOBAL COMMERCE LLC\n45 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS LLC\n903 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        392.6,
+        266.46,
+        79.37
+      ],
+      "value": "PACIFIC GROUP PLC\n785 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "0963N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 681,
+  "filename": "bl_bl-14_00681_MSCUNTCXF834947437.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNTCXF834947437",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTCXF834947437",
+    "shipper_name": "INTERNATIONAL TRADING CORP",
+    "shipper_address": "293 MARKET STREET",
+    "consignee_name": "INTERNATIONAL SHIPPING GMBH",
+    "consignee_address": "104 INDUSTRIAL AVENUE",
+    "notify_party_name": "GLOBAL SUPPLY CHAIN CORP",
+    "notify_party_address": "514 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0189W",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "10 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "TCKU9511155",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "AA6GEEBB",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "195 BAGS",
+    "gross_weight_kg": "12,604.11",
+    "measurement": "103.736 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9511155",
+        "seal_number": "AA6GEEBB",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "195",
+          "type": "BAGS",
+          "description": "195 BAGS"
+        },
+        "gross_weight_kg": "6,647.48",
+        "net_weight_kg": "3,096.61",
+        "measurement": "64.932 CBM"
+      },
+      {
+        "container_number": "CMAU4142588",
+        "seal_number": "D48BFC1H",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "420",
+          "type": "BOXES",
+          "description": "420 BOXES"
+        },
+        "gross_weight_kg": "5,956.63",
+        "net_weight_kg": "3,455.17",
+        "measurement": "38.804 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNTCXF834947437",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9511155",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "AA6GEEBB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '195', 'type': 'BAGS', 'description': '195 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "6,647.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "64.932 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU4142588",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "D48BFC1H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '420', 'type': 'BOXES', 'description': '420 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "5,956.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "38.804 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "0189W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        223.94,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        257.95,
+        179.53,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        291.97,
+        179.53,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING CORP\n293 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL SHIPPING GMBH\n104 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        335.91,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN CORP\n514 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        433.7,
+        179.53,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

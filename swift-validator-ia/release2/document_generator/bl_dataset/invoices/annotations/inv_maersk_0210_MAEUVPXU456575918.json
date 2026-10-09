@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00210",
+  "filename": "inv_maersk_0210_MAEUVPXU456575918.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 210,
+  "fields": {
+    "invoice_number": "INV-2026-00210",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/BNP/0210/2026",
+    "bl_reference": "MAEUVPXU456575918",
+    "seller_name": "FIRST TRADING GMBH",
+    "buyer_name": "INTERNATIONAL INDUSTRIES CO.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS480E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "BUILDING MATERIALS",
+    "hs_code": "6810.19",
+    "quantity": 454,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "17,686.95",
+    "unit_price": 39.62,
+    "currency": "EUR",
+    "total_amount": 17987.48,
+    "incoterm": "CFR",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00210",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUVPXU456575918",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "FIRST TRADING GMBH\n480 COMMERCE STREET\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL INDUSTRIES CO.\n198 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "CS480E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUVPXU456575918",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "454",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 39.62",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 17,987.48",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "EUR 17,987.48",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "BUSAN, SOUTH KOREA"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

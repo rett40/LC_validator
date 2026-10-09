@@ -1,0 +1,409 @@
+{
+  "id": 480,
+  "filename": "bl_bl-12_00480_MSCUNGEUR064805248.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNGEUR064805248",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGEUR064805248",
+    "shipper_name": "UNITED SUPPLY CHAIN CO.",
+    "shipper_address": "782 MARKET STREET",
+    "consignee_name": "PREMIER GROUP LTD",
+    "consignee_address": "98 PORT ACCESS ROAD",
+    "notify_party_name": "PREMIER TRADING CO.",
+    "notify_party_address": "546 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-407",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "23 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "HLCU3388789",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "149E1E36",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "44 PACKAGES",
+    "gross_weight_kg": "43,341.16",
+    "measurement": "91.276 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU3388789",
+        "seal_number": "149E1E36",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "44",
+          "type": "PACKAGES",
+          "description": "44 PACKAGES"
+        },
+        "gross_weight_kg": "17,692.75",
+        "net_weight_kg": "15,319.53",
+        "measurement": "34.971 CBM"
+      },
+      {
+        "container_number": "TRHU9114412",
+        "seal_number": "3G4AC9F3",
+        "container_type": "40' DRY / GP",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "69",
+          "type": "PALLETS",
+          "description": "69 PALLETS"
+        },
+        "gross_weight_kg": "25,648.41",
+        "net_weight_kg": "22,632.89",
+        "measurement": "56.305 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNGEUR064805248",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "UNITED SUPPLY CHAIN CO.\n782 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "PREMIER GROUP LTD\n98 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "PREMIER TRADING CO.\n546 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU3388789",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "149E1E36",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '44', 'type': 'PACKAGES', 'description': '44 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "17,692.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "34.971 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU9114412",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "3G4AC9F3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '69', 'type': 'PALLETS', 'description': '69 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "25,648.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "56.305 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "E-407",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "23 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        708.66,
+        272.38,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

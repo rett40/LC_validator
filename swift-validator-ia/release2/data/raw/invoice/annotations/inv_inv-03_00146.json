@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00146",
+  "filename": "inv_inv-03_00146.pdf",
+  "layout_id": "INV-03",
+  "bl_id": 146,
+  "fields": {
+    "invoice_number": "INV-2026-00146",
+    "invoice_date": "26 APR 2026",
+    "lc_reference": "LC/DBS/0146/2026",
+    "bl_reference": "MSCUNKWBB257759958",
+    "seller_name": "ATLANTIC SUPPLY CHAIN LTD",
+    "buyer_name": "INTERNATIONAL INDUSTRIES PLC",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE614S",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "hs_code": "9503.00",
+    "quantity": 129,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "20,751.62",
+    "unit_price": 26.75,
+    "currency": "USD",
+    "total_amount": 3451.12,
+    "incoterm": "CIP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00146",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        123.31,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        123.31,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        30.35,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        164.99,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "LC/DBS/0146/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        299.64,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "MSCUNKWBB257759958",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        434.28,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        263.62,
+        130.65,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        164.99,
+        263.62,
+        130.65,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        306.14,
+        172.35,
+        42.52
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        306.14,
+        64.63,
+        42.52
+      ],
+      "value": "9503.00",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "129",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "26.75 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "3451.12 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "20,751.62 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "3451.12 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        426.33,
+        175.53,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        209.87,
+        426.33,
+        175.53,
+        11.48
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "HAMBURG, GERMANY"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "3016.02 USD",
+      "actual": "3451.12 USD"
+    }
+  ]
+}

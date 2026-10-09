@@ -1,0 +1,533 @@
+{
+  "id": 1175,
+  "filename": "bl_bl-30_01175_MSCUNLCVC690632019.pdf",
+  "layout_id": "BL-30",
+  "bl_number": "MSCUNLCVC690632019",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNLCVC690632019",
+    "shipper_name": "FIRST SOLUTIONS S.A.",
+    "shipper_address": "977 PORT ACCESS ROAD",
+    "consignee_name": "INTERNATIONAL PARTNERS GMBH",
+    "consignee_address": "923 TRADE PARK",
+    "notify_party_name": "UNITED COMMERCE CORP",
+    "notify_party_address": "101 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS852E",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "16 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "EISU7291633",
+    "container_type": "45'HC",
+    "seal_number": "GF1FA868",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "319 PACKAGES",
+    "gross_weight_kg": "36,542.95",
+    "measurement": "111.755 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7291633",
+        "seal_number": "GF1FA868",
+        "container_type": "45'HC",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "319",
+          "type": "PACKAGES",
+          "description": "319 PACKAGES"
+        },
+        "gross_weight_kg": "20,631.34",
+        "net_weight_kg": "17,140.11",
+        "measurement": "38.927 CBM"
+      },
+      {
+        "container_number": "HLCU1570039",
+        "seal_number": "BGFE704E",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "239",
+          "type": "CRATES",
+          "description": "239 CRATES"
+        },
+        "gross_weight_kg": "10,601.68",
+        "net_weight_kg": "6,615.41",
+        "measurement": "52.259 CBM"
+      },
+      {
+        "container_number": "CMAU2503638",
+        "seal_number": "57H97C16",
+        "container_type": "20'OT",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "79",
+          "type": "PACKAGES",
+          "description": "79 PACKAGES"
+        },
+        "gross_weight_kg": "5,309.93",
+        "net_weight_kg": "3,016.97",
+        "measurement": "20.569 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        85.95,
+        83.62,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNLCVC690632019",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        113.93,
+        126.14,
+        101.03,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        279.96,
+        126.14,
+        114.53,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        445.99,
+        126.14,
+        128.03,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        68.93,
+        154.49,
+        146.03,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        266.46,
+        154.49,
+        128.03,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        95.93,
+        188.5,
+        119.03,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        270.96,
+        188.5,
+        123.53,
+        34.02
+      ],
+      "value": "CS852E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        468.49,
+        188.5,
+        105.53,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        59.93,
+        222.52,
+        155.03,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        279.96,
+        222.52,
+        114.53,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        481.99,
+        222.52,
+        92.03,
+        34.02
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        109.43,
+        256.54,
+        105.53,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        279.96,
+        256.54,
+        114.53,
+        34.02
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        314.65,
+        91.56,
+        36.85
+      ],
+      "value": "EISU7291633",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "GF1FA868",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        314.65,
+        43.09,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        314.65,
+        134.65,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '319', 'type': 'PACKAGES', 'description': '319 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "20,631.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "38.927 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        351.5,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU1570039",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "BGFE704E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        351.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        351.5,
+        134.65,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '239', 'type': 'CRATES', 'description': '239 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "10,601.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "52.259 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        388.35,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2503638",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        388.35,
+        53.86,
+        36.85
+      ],
+      "value": "57H97C16",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        388.35,
+        43.09,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        388.35,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        388.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '79', 'type': 'PACKAGES', 'description': '79 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        388.35,
+        80.79,
+        36.85
+      ],
+      "value": "5,309.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        388.35,
+        80.79,
+        36.85
+      ],
+      "value": "20.569 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "977 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "FIRST SOLUTIONS S.A.\n977 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "923 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL PARTNERS GMBH\n923 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "101 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED COMMERCE CORP\n101 MARKET STREET",
+      "page": 1
+    }
+  ]
+}

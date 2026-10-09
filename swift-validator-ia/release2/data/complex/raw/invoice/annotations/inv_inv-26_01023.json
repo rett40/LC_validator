@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-01023",
+  "filename": "inv_inv-26_01023.pdf",
+  "layout_id": "INV-26",
+  "bl_id": 1023,
+  "fields": {
+    "invoice_number": "INV-2026-01023",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/CITI/1023/2026",
+    "bl_reference": "MSCUNHYRB551247746",
+    "seller_name": "CENTRAL LOGISTICS CORP",
+    "buyer_name": "EURO SOLUTIONS AG",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE422S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "goods_description": "FOOTWEAR OF ALL TYPES",
+    "hs_code": "6404.11",
+    "quantity": 403,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "18,657.79",
+    "unit_price": 35.99,
+    "currency": "EUR",
+    "total_amount": 14503.97,
+    "incoterm": "EXW",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "INV-2026-01023",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        117.64,
+        117.35,
+        19.84
+      ],
+      "value": "18,657.79 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        137.48,
+        117.35,
+        19.84
+      ],
+      "value": "14503.97 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        204.09,
+        323.38,
+        79.37
+      ],
+      "value": "CENTRAL LOGISTICS CORP\nCENTRAL LOGISTICS CORP\n207 EXPORT ZONE\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        204.09,
+        198.2,
+        79.37
+      ],
+      "value": "EURO SOLUTIONS AG\nEURO SOLUTIONS AG\n952 INDUSTRIAL AVENUE\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        314.65,
+        166.9,
+        42.52
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        314.65,
+        62.59,
+        42.52
+      ],
+      "value": "6404.11",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "403",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "35.99 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "14503.97 EUR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        296.22,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "LC/CITI/1023/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "MSCUNHYRB551247746",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        296.22,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

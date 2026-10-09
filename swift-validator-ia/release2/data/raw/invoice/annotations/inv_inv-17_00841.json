@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00841",
+  "filename": "inv_inv-17_00841.pdf",
+  "layout_id": "INV-17",
+  "bl_id": 841,
+  "fields": {
+    "invoice_number": "INV-2026-00841",
+    "invoice_date": "21 APR 2026",
+    "lc_reference": "LC/CITI/0841/2026",
+    "bl_reference": "MSCUNCAPH075134330",
+    "seller_name": "CENTRAL PARTNERS PLC",
+    "buyer_name": "FIRST ENTERPRISES BV",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-588",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "hs_code": "0709.99",
+    "quantity": 175,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "33,731.40",
+    "unit_price": 20.67,
+    "currency": "USD",
+    "total_amount": 3617.5,
+    "incoterm": "DAP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00841",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "LC/CITI/0841/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "MSCUNCAPH075134330",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        195.59,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        195.59,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        306.14,
+        172.35,
+        42.52
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        306.14,
+        64.63,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "175",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "20.67 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "3617.5 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "33,731.40 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "3617.5 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "4032.00 USD",
+      "actual": "3617.50 USD"
+    }
+  ]
+}

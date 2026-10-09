@@ -1,0 +1,500 @@
+{
+  "id": 465,
+  "filename": "bl_bl-12_00465_MSCUNFJGT655901137.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNFJGT655901137",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNFJGT655901137",
+    "shipper_name": "DELTA TRADING LTD",
+    "shipper_address": "199 PORT ACCESS ROAD",
+    "consignee_name": "INTERNATIONAL SHIPPING CORP",
+    "consignee_address": "380 INDUSTRIAL AVENUE",
+    "notify_party_name": "DELTA GROUP S.A.",
+    "notify_party_address": "144 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS266N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "13 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "TCKU4358641",
+    "container_type": "20' REEFER",
+    "seal_number": "E0E7B14G",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "285 CRATES",
+    "gross_weight_kg": "67,630.67",
+    "measurement": "118.902 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4358641",
+        "seal_number": "E0E7B14G",
+        "container_type": "20' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "285",
+          "type": "CRATES",
+          "description": "285 CRATES"
+        },
+        "gross_weight_kg": "26,308.06",
+        "net_weight_kg": "23,065.72",
+        "measurement": "25.237 CBM"
+      },
+      {
+        "container_number": "CMAU2860725",
+        "seal_number": "7BBGD4ED",
+        "container_type": "40' DRY",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "177",
+          "type": "DRUMS",
+          "description": "177 DRUMS"
+        },
+        "gross_weight_kg": "22,593.24",
+        "net_weight_kg": "18,615.14",
+        "measurement": "63.699 CBM"
+      },
+      {
+        "container_number": "CMAU4024692",
+        "seal_number": "1B9A30EF",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "220",
+          "type": "CARTONS",
+          "description": "220 CARTONS"
+        },
+        "gross_weight_kg": "18,729.37",
+        "net_weight_kg": "15,700.72",
+        "measurement": "29.966 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNFJGT655901137",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA TRADING LTD\n199 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "INTERNATIONAL SHIPPING CORP\n380 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA GROUP S.A.\n144 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "TCKU4358641",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "E0E7B14G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '285', 'type': 'CRATES', 'description': '285 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "26,308.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "25.237 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU2860725",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "7BBGD4ED",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '177', 'type': 'DRUMS', 'description': '177 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "22,593.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "63.699 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        481.89,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU4024692",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        481.89,
+        55.28,
+        36.85
+      ],
+      "value": "1B9A30EF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        481.89,
+        44.22,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        481.89,
+        138.19,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        481.89,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '220', 'type': 'CARTONS', 'description': '220 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        481.89,
+        82.91,
+        36.85
+      ],
+      "value": "18,729.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        481.89,
+        82.91,
+        36.85
+      ],
+      "value": "29.966 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        547.65,
+        272.38,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        547.65,
+        272.38,
+        15.31
+      ],
+      "value": "CS266N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        581.67,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        581.67,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        615.69,
+        272.38,
+        15.31
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        615.69,
+        272.38,
+        15.31
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        649.7,
+        272.38,
+        15.31
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        649.7,
+        272.38,
+        15.31
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        688.82,
+        272.38,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        688.82,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        717.17,
+        272.38,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        717.17,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        745.51,
+        272.38,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

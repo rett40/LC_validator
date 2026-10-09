@@ -1,0 +1,442 @@
+{
+  "id": 701,
+  "filename": "bl_bl-18_00701_MSCUNSKHG874637252.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNSKHG874637252",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSKHG874637252",
+    "shipper_name": "TRANS PARTNERS AG",
+    "shipper_address": "134 HARBOR ROAD",
+    "consignee_name": "PREMIER SHIPPING S.A.",
+    "consignee_address": "329 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED COMMERCE LLC",
+    "notify_party_address": "527 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE249N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "14 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "MSCU9234640",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "4786H686",
+    "commodity": "FERTILIZERS AND AGROCHEMICALS",
+    "packages": "115 PACKAGES",
+    "gross_weight_kg": "38,318.08",
+    "measurement": "94.548 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU9234640",
+        "seal_number": "4786H686",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "115",
+          "type": "PACKAGES",
+          "description": "115 PACKAGES"
+        },
+        "gross_weight_kg": "23,916.74",
+        "net_weight_kg": "20,056.98",
+        "measurement": "59.856 CBM"
+      },
+      {
+        "container_number": "OOLU6780138",
+        "seal_number": "CD3E8588",
+        "container_type": "40'HC",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "373",
+          "type": "DRUMS",
+          "description": "373 DRUMS"
+        },
+        "gross_weight_kg": "14,401.34",
+        "net_weight_kg": "10,639.55",
+        "measurement": "34.692 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSKHG874637252",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU9234640",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "4786H686",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '115', 'type': 'PACKAGES', 'description': '115 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "23,916.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "59.856 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6780138",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "CD3E8588",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '373', 'type': 'DRUMS', 'description': '373 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "14,401.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "34.692 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "134 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS PARTNERS AG\n134 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "329 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER SHIPPING S.A.\n329 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "527 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED COMMERCE LLC\n527 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        490.39,
+        231.72,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        346.74,
+        490.39,
+        227.28,
+        34.02
+      ],
+      "value": "FE249N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        524.41,
+        209.95,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        328.51,
+        524.41,
+        245.51,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        558.43,
+        202.84,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        592.44,
+        193.5,
+        34.02
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        326.73,
+        592.44,
+        247.28,
+        34.02
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        634.96,
+        189.04,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        386.73,
+        634.96,
+        187.28,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        85.89,
+        663.31,
+        218.84,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        363.64,
+        663.31,
+        210.38,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        691.65,
+        169.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

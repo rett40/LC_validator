@@ -1,0 +1,197 @@
+{
+  "invoice_number": "INV-2026-00100",
+  "filename": "inv_hapaglloyd_0100_HLCUFAFT499037448.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 100,
+  "fields": {
+    "invoice_number": "INV-2026-00100",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/CITI/0100/2026",
+    "bl_reference": "HLCUFAFT499037448",
+    "seller_name": "GLOBAL SUPPLY CHAIN INC",
+    "buyer_name": "PREMIER SOLUTIONS PLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0720N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "CHEMICAL PRODUCTS NEC",
+    "hs_code": "3824.99",
+    "quantity": 456,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "6,015.73",
+    "unit_price": 15.17,
+    "currency": "USD",
+    "total_amount": 6917.52,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00100",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/CITI/0100/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "GLOBAL SUPPLY CHAIN INC\n707 COMMERCE STREET\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "PREMIER SOLUTIONS PLC\n468 COMMERCE STREET\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "0720N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUFAFT499037448",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "456",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "USD 15.17",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "USD 6,917.52",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "USD 6,917.52",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": true,
+  "discrepancies": []
+}

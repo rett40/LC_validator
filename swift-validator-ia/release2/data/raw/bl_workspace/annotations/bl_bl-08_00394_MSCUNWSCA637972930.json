@@ -1,0 +1,409 @@
+{
+  "id": 394,
+  "filename": "bl_bl-08_00394_MSCUNWSCA637972930.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNWSCA637972930",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNWSCA637972930",
+    "shipper_name": "GLOBAL COMMERCE S.A.",
+    "shipper_address": "840 MAIN STREET",
+    "consignee_name": "UNITED GROUP LLC",
+    "consignee_address": "526 MARKET STREET",
+    "notify_party_name": "EURO ENTERPRISES S.A.",
+    "notify_party_address": "667 PORT ACCESS ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE275S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "10 MAY 2026",
+    "eta": "26 MAY 2026",
+    "container_number": "OOLU3356659",
+    "container_type": "20' TANK",
+    "seal_number": "HH6CF7GF",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "195 DRUMS",
+    "gross_weight_kg": "39,573.07",
+    "measurement": "105.662 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU3356659",
+        "seal_number": "HH6CF7GF",
+        "container_type": "20' TANK",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "195",
+          "type": "DRUMS",
+          "description": "195 DRUMS"
+        },
+        "gross_weight_kg": "24,981.74",
+        "net_weight_kg": "21,937.38",
+        "measurement": "63.532 CBM"
+      },
+      {
+        "container_number": "CMAU1676456",
+        "seal_number": "6GD5HD3B",
+        "container_type": "20' REEFER",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "417",
+          "type": "PACKAGES",
+          "description": "417 PACKAGES"
+        },
+        "gross_weight_kg": "14,591.33",
+        "net_weight_kg": "12,465.68",
+        "measurement": "42.130 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNWSCA637972930",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL COMMERCE S.A.\n840 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED GROUP LLC\n526 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        178.58,
+        265.29,
+        73.7
+      ],
+      "value": "EURO ENTERPRISES S.A.\n667 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "FE275S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU3356659",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "HH6CF7GF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '195', 'type': 'DRUMS', 'description': '195 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "24,981.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "63.532 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1676456",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "6GD5HD3B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '417', 'type': 'PACKAGES', 'description': '417 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "14,591.33",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "42.130 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        667.56,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

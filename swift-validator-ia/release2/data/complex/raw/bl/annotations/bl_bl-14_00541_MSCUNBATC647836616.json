@@ -1,0 +1,409 @@
+{
+  "id": 541,
+  "filename": "bl_bl-14_00541_MSCUNBATC647836616.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNBATC647836616",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNBATC647836616",
+    "shipper_name": "CENTRAL LOGISTICS BV",
+    "shipper_address": "865 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC INDUSTRIES PLC",
+    "consignee_address": "920 TRADE PARK",
+    "notify_party_name": "DELTA TRADING CO.",
+    "notify_party_address": "13 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS991W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "31 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "MSCU1592768",
+    "container_type": "40'RF",
+    "seal_number": "D376FEEF",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "331 DRUMS",
+    "gross_weight_kg": "24,283.11",
+    "measurement": "97.442 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU1592768",
+        "seal_number": "D376FEEF",
+        "container_type": "40'RF",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "331",
+          "type": "DRUMS",
+          "description": "331 DRUMS"
+        },
+        "gross_weight_kg": "15,909.38",
+        "net_weight_kg": "11,926.63",
+        "measurement": "47.220 CBM"
+      },
+      {
+        "container_number": "OOLU5800048",
+        "seal_number": "42EGBBG3",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "221",
+          "type": "CARTONS",
+          "description": "221 CARTONS"
+        },
+        "gross_weight_kg": "8,373.73",
+        "net_weight_kg": "5,718.44",
+        "measurement": "50.222 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNBATC647836616",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU1592768",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "D376FEEF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '331', 'type': 'DRUMS', 'description': '331 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "15,909.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "47.220 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU5800048",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "42EGBBG3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '221', 'type': 'CARTONS', 'description': '221 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "8,373.73",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "50.222 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "CS991W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        344.41,
+        298.51,
+        94.96
+      ],
+      "value": "CENTRAL LOGISTICS BV\n865 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        342.99,
+        215.06,
+        41.1
+      ],
+      "value": "ATLANTIC INDUSTRIES PLC\n920 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        398.27,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA TRADING CO.\n13 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

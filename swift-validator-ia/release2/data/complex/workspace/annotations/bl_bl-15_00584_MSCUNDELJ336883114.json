@@ -1,0 +1,500 @@
+{
+  "id": 584,
+  "filename": "bl_bl-15_00584_MSCUNDELJ336883114.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNDELJ336883114",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNDELJ336883114",
+    "shipper_name": "TRANS SHIPPING LTD",
+    "shipper_address": "476 TRADE PARK",
+    "consignee_name": "GLOBAL TRADING S.A.",
+    "consignee_address": "201 PORT ACCESS ROAD",
+    "notify_party_name": "GLOBAL GROUP CORP",
+    "notify_party_address": "474 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE76W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "12 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "OOLU2263785",
+    "container_type": "40'HC",
+    "seal_number": "B7D1084C",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "245 CRATES",
+    "gross_weight_kg": "35,221.16",
+    "measurement": "166.365 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU2263785",
+        "seal_number": "B7D1084C",
+        "container_type": "40'HC",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "245",
+          "type": "CRATES",
+          "description": "245 CRATES"
+        },
+        "gross_weight_kg": "12,885.80",
+        "net_weight_kg": "9,793.47",
+        "measurement": "61.128 CBM"
+      },
+      {
+        "container_number": "TCKU3705794",
+        "seal_number": "8BFCD076",
+        "container_type": "40' DRY",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "141",
+          "type": "BAGS",
+          "description": "141 BAGS"
+        },
+        "gross_weight_kg": "10,981.60",
+        "net_weight_kg": "7,083.84",
+        "measurement": "53.223 CBM"
+      },
+      {
+        "container_number": "EISU7505824",
+        "seal_number": "A2HA587H",
+        "container_type": "20' REEFER",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "121",
+          "type": "PALLETS",
+          "description": "121 PALLETS"
+        },
+        "gross_weight_kg": "11,353.76",
+        "net_weight_kg": "8,812.95",
+        "measurement": "52.014 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNDELJ336883114",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS SHIPPING LTD\n476 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "GLOBAL TRADING S.A.\n201 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        226.77,
+        266.46,
+        79.37
+      ],
+      "value": "GLOBAL GROUP CORP\n474 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "AE76W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        579.69,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU2263785",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "B7D1084C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        579.69,
+        42.63,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        579.69,
+        133.23,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '245', 'type': 'CRATES', 'description': '245 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "12,885.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "61.128 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        616.54,
+        90.6,
+        36.85
+      ],
+      "value": "TCKU3705794",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        616.54,
+        53.29,
+        36.85
+      ],
+      "value": "8BFCD076",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        616.54,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        616.54,
+        133.23,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        616.54,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '141', 'type': 'BAGS', 'description': '141 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        616.54,
+        79.94,
+        36.85
+      ],
+      "value": "10,981.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        616.54,
+        79.94,
+        36.85
+      ],
+      "value": "53.223 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        653.39,
+        90.6,
+        36.85
+      ],
+      "value": "EISU7505824",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        653.39,
+        53.29,
+        36.85
+      ],
+      "value": "A2HA587H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        653.39,
+        42.63,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        653.39,
+        133.23,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        653.39,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '121', 'type': 'PALLETS', 'description': '121 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        653.39,
+        79.94,
+        36.85
+      ],
+      "value": "11,353.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        653.39,
+        79.94,
+        36.85
+      ],
+      "value": "52.014 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        715.75,
+        266.46,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        715.75,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        744.09,
+        266.46,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        744.09,
+        266.46,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        772.44,
+        266.46,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

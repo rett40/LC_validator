@@ -1,0 +1,500 @@
+{
+  "id": 1037,
+  "filename": "bl_bl-21_01037_MSCUNCLFR197716416.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNCLFR197716416",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNCLFR197716416",
+    "shipper_name": "APEX SOLUTIONS GMBH",
+    "shipper_address": "932 HARBOR ROAD",
+    "consignee_name": "GLOBAL SOLUTIONS CO.",
+    "consignee_address": "181 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST GROUP LLC",
+    "notify_party_address": "949 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE12W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "07 MAY 2026",
+    "eta": "26 MAY 2026",
+    "container_number": "HLCU4847186",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "58H4B4AF",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "286 DRUMS",
+    "gross_weight_kg": "48,292.10",
+    "measurement": "157.834 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4847186",
+        "seal_number": "58H4B4AF",
+        "container_type": "40' FLAT RACK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "286",
+          "type": "DRUMS",
+          "description": "286 DRUMS"
+        },
+        "gross_weight_kg": "9,455.05",
+        "net_weight_kg": "6,125.37",
+        "measurement": "45.607 CBM"
+      },
+      {
+        "container_number": "TRHU9945029",
+        "seal_number": "0A69C06E",
+        "container_type": "20' REEFER",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "450",
+          "type": "PALLETS",
+          "description": "450 PALLETS"
+        },
+        "gross_weight_kg": "12,828.61",
+        "net_weight_kg": "9,985.38",
+        "measurement": "66.023 CBM"
+      },
+      {
+        "container_number": "MSCU8581932",
+        "seal_number": "C1H5232D",
+        "container_type": "40' FLAT RACK",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "361",
+          "type": "BOXES",
+          "description": "361 BOXES"
+        },
+        "gross_weight_kg": "26,008.44",
+        "net_weight_kg": "22,426.87",
+        "measurement": "46.204 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "27 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNCLFR197716416",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "APEX SOLUTIONS GMBH\n932 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS CO.\n181 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST GROUP LLC\n949 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4847186",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "58H4B4AF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '286', 'type': 'DRUMS', 'description': '286 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "9,455.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "45.607 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9945029",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "0A69C06E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '450', 'type': 'PALLETS', 'description': '450 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "12,828.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "66.023 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        318.9,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU8581932",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "C1H5232D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        318.9,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        318.9,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '361', 'type': 'BOXES', 'description': '361 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "26,008.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "46.204 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "AE12W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

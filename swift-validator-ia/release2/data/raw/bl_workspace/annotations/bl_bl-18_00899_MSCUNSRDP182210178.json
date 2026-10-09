@@ -1,0 +1,442 @@
+{
+  "id": 899,
+  "filename": "bl_bl-18_00899_MSCUNSRDP182210178.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNSRDP182210178",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSRDP182210178",
+    "shipper_name": "PREMIER ENTERPRISES GMBH",
+    "shipper_address": "756 TRADE PARK",
+    "consignee_name": "UNITED INDUSTRIES BV",
+    "consignee_address": "927 TRADE PARK",
+    "notify_party_name": "GLOBAL LOGISTICS GMBH",
+    "notify_party_address": "295 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE84E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "07 JUN 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "CMAU4560813",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "EAG9EC7C",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "316 PALLETS",
+    "gross_weight_kg": "30,210.02",
+    "measurement": "85.403 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4560813",
+        "seal_number": "EAG9EC7C",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "316",
+          "type": "PALLETS",
+          "description": "316 PALLETS"
+        },
+        "gross_weight_kg": "21,498.96",
+        "net_weight_kg": "18,985.74",
+        "measurement": "58.379 CBM"
+      },
+      {
+        "container_number": "OOLU0074321",
+        "seal_number": "2AAEE344",
+        "container_type": "40' OPEN TOP",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "106",
+          "type": "PALLETS",
+          "description": "106 PALLETS"
+        },
+        "gross_weight_kg": "8,711.06",
+        "net_weight_kg": "6,107.59",
+        "measurement": "27.024 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSRDP182210178",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU4560813",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "EAG9EC7C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '316', 'type': 'PALLETS', 'description': '316 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "21,498.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "58.379 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0074321",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "2AAEE344",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '106', 'type': 'PALLETS', 'description': '106 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "8,711.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "27.024 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "756 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER ENTERPRISES GMBH\n756 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "927 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED INDUSTRIES BV\n927 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        316.06,
+        269.29,
+        70.87
+      ],
+      "value": "295 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        296.22,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL LOGISTICS GMBH\n295 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "AE84E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        687.4,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

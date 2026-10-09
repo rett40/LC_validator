@@ -1,0 +1,236 @@
+{
+  "pl_number": "PL-2026-00254",
+  "filename": "pl_maersk_0254_MAEUJLAF458549646.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 254,
+  "fields": {
+    "pl_number": "PL-2026-00254",
+    "pl_date": "16 APR 2026",
+    "inv_reference": "INV-2026-00254",
+    "bl_reference": "MAEUJLAF458549646",
+    "exporter_name": "TRANS TRADING LTD",
+    "consignee_name": "FIRST ENTERPRISES S.A.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS437W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "container_number": "MSCU8516959",
+    "container_type": "40' REEFER",
+    "seal_number": "01A55H1F",
+    "goods_description": "BEVERAGES AND SPIRITS",
+    "package_unit": "CARTONS",
+    "total_packages": 492,
+    "net_weight_kg": "6,953.58",
+    "gross_weight_kg": "8,135.08",
+    "total_cbm": 21.47
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00254",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUJLAF458549646",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "TRANS TRADING LTD\n450 COMMERCE STREET\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "FIRST ENTERPRISES S.A.\n413 HARBOR ROAD\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "CS437W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "MSCU8516959",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "01A55H1F",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUJLAF458549646",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "492",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "6,953.58",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "8,135.08",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "21.470",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "8,135.08",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "492",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "7,076.81",
+      "actual": "8,135.08"
+    }
+  ]
+}

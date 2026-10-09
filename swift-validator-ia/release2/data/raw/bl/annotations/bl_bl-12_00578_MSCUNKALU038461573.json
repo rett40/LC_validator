@@ -1,0 +1,409 @@
+{
+  "id": 578,
+  "filename": "bl_bl-12_00578_MSCUNKALU038461573.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNKALU038461573",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNKALU038461573",
+    "shipper_name": "CENTRAL SUPPLY CHAIN LLC",
+    "shipper_address": "610 TRADE PARK",
+    "consignee_name": "APEX LOGISTICS CO.",
+    "consignee_address": "890 INDUSTRIAL AVENUE",
+    "notify_party_name": "TRANS TRADING LTD",
+    "notify_party_address": "254 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5140",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "11 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "MAEU9597282",
+    "container_type": "20' TANK",
+    "seal_number": "4EA6D90E",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "322 DRUMS",
+    "gross_weight_kg": "31,110.91",
+    "measurement": "106.931 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU9597282",
+        "seal_number": "4EA6D90E",
+        "container_type": "20' TANK",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "322",
+          "type": "DRUMS",
+          "description": "322 DRUMS"
+        },
+        "gross_weight_kg": "26,098.11",
+        "net_weight_kg": "22,303.86",
+        "measurement": "49.840 CBM"
+      },
+      {
+        "container_number": "TRHU8996176",
+        "seal_number": "H19DCFH1",
+        "container_type": "20' TANK",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "474",
+          "type": "BOXES",
+          "description": "474 BOXES"
+        },
+        "gross_weight_kg": "5,012.80",
+        "net_weight_kg": "1,693.48",
+        "measurement": "57.091 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNKALU038461573",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "CENTRAL SUPPLY CHAIN LLC\n610 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "APEX LOGISTICS CO.\n890 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS TRADING LTD\n254 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU9597282",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "4EA6D90E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '322', 'type': 'DRUMS', 'description': '322 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "26,098.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "49.840 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8996176",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "H19DCFH1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '474', 'type': 'BOXES', 'description': '474 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "5,012.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "57.091 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "AL5140",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        718.58,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

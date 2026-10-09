@@ -1,0 +1,442 @@
+{
+  "id": 281,
+  "filename": "bl_bl-06_00281_MSCUNLCUA560607080.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNLCUA560607080",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLCUA560607080",
+    "shipper_name": "GLOBAL LOGISTICS GMBH",
+    "shipper_address": "86 MAIN STREET",
+    "consignee_name": "TRANS PARTNERS CORP",
+    "consignee_address": "807 COMMERCE BOULEVARD",
+    "notify_party_name": "TRANS SOLUTIONS INC",
+    "notify_party_address": "374 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5699",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "18 MAY 2026",
+    "eta": "01 JUN 2026",
+    "container_number": "OOLU0736386",
+    "container_type": "20' REEFER",
+    "seal_number": "EAG2F0FC",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "348 DRUMS",
+    "gross_weight_kg": "29,575.40",
+    "measurement": "86.567 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0736386",
+        "seal_number": "EAG2F0FC",
+        "container_type": "20' REEFER",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "348",
+          "type": "DRUMS",
+          "description": "348 DRUMS"
+        },
+        "gross_weight_kg": "24,308.14",
+        "net_weight_kg": "20,681.42",
+        "measurement": "42.584 CBM"
+      },
+      {
+        "container_number": "MAEU3465352",
+        "seal_number": "BE11A00G",
+        "container_type": "40' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "132",
+          "type": "PALLETS",
+          "description": "132 PALLETS"
+        },
+        "gross_weight_kg": "5,267.26",
+        "net_weight_kg": "2,460.77",
+        "measurement": "43.983 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNLCUA560607080",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "86 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL LOGISTICS GMBH\n86 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "807 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "TRANS PARTNERS CORP\n807 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        70.87
+      ],
+      "value": "374 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        90.71
+      ],
+      "value": "TRANS SOLUTIONS INC\n374 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "AL5699",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        215.43,
+        179.53,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        249.45,
+        179.53,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        283.46,
+        179.53,
+        34.02
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        341.57,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0736386",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "EAG2F0FC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        341.57,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        341.57,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        341.57,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '348', 'type': 'DRUMS', 'description': '348 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "24,308.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        341.57,
+        80.79,
+        36.85
+      ],
+      "value": "42.584 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        378.43,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3465352",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "BE11A00G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        378.43,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        378.43,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        378.43,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '132', 'type': 'PALLETS', 'description': '132 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "5,267.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        378.43,
+        80.79,
+        36.85
+      ],
+      "value": "43.983 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        423.78,
+        179.53,
+        28.35
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

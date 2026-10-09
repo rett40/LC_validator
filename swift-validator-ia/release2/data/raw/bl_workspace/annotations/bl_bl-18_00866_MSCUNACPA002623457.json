@@ -1,0 +1,442 @@
+{
+  "id": 866,
+  "filename": "bl_bl-18_00866_MSCUNACPA002623457.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNACPA002623457",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNACPA002623457",
+    "shipper_name": "ATLANTIC SOLUTIONS LTD",
+    "shipper_address": "642 PORT ACCESS ROAD",
+    "consignee_name": "UNITED PARTNERS INC",
+    "consignee_address": "114 PORT ACCESS ROAD",
+    "notify_party_name": "CENTRAL INDUSTRIES PLC",
+    "notify_party_address": "829 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0229N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "01 JUN 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "HLCU7816971",
+    "container_type": "20' DRY",
+    "seal_number": "49C01HA9",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "479 PALLETS",
+    "gross_weight_kg": "34,608.93",
+    "measurement": "81.514 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7816971",
+        "seal_number": "49C01HA9",
+        "container_type": "20' DRY",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "479",
+          "type": "PALLETS",
+          "description": "479 PALLETS"
+        },
+        "gross_weight_kg": "12,394.98",
+        "net_weight_kg": "8,797.19",
+        "measurement": "39.405 CBM"
+      },
+      {
+        "container_number": "CMAU5269478",
+        "seal_number": "7BAHAF22",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "150",
+          "type": "PACKAGES",
+          "description": "150 PACKAGES"
+        },
+        "gross_weight_kg": "22,213.95",
+        "net_weight_kg": "18,415.69",
+        "measurement": "42.109 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "30 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNACPA002623457",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7816971",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "49C01HA9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '479', 'type': 'PALLETS', 'description': '479 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "12,394.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "39.405 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU5269478",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "7BAHAF22",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '150', 'type': 'PACKAGES', 'description': '150 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "22,213.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "42.109 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "642 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SOLUTIONS LTD\n642 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "114 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED PARTNERS INC\n114 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        316.06,
+        269.29,
+        70.87
+      ],
+      "value": "829 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        296.22,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL INDUSTRIES PLC\n829 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "0229N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        687.4,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

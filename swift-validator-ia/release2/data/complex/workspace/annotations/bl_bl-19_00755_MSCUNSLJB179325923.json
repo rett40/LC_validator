@@ -1,0 +1,512 @@
+{
+  "id": 755,
+  "filename": "bl_bl-19_00755_MSCUNSLJB179325923.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNSLJB179325923",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSLJB179325923",
+    "shipper_name": "CENTRAL SUPPLY CHAIN LLC",
+    "shipper_address": "312 PORT ACCESS ROAD",
+    "consignee_name": "CENTRAL SHIPPING LLC",
+    "consignee_address": "925 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL SHIPPING LTD",
+    "notify_party_address": "151 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-213",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "05 JUN 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "TRHU7790809",
+    "container_type": "20'DC",
+    "seal_number": "G06F1B3E",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "20 PALLETS",
+    "gross_weight_kg": "43,441.30",
+    "measurement": "120.750 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU7790809",
+        "seal_number": "G06F1B3E",
+        "container_type": "20'DC",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "20",
+          "type": "PALLETS",
+          "description": "20 PALLETS"
+        },
+        "gross_weight_kg": "6,465.65",
+        "net_weight_kg": "3,834.17",
+        "measurement": "36.234 CBM"
+      },
+      {
+        "container_number": "HLCU6851139",
+        "seal_number": "7E8095H5",
+        "container_type": "20'OT",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "142",
+          "type": "DRUMS",
+          "description": "142 DRUMS"
+        },
+        "gross_weight_kg": "18,825.24",
+        "net_weight_kg": "15,138.28",
+        "measurement": "24.999 CBM"
+      },
+      {
+        "container_number": "TCKU6947152",
+        "seal_number": "47EF5A7C",
+        "container_type": "40' REEFER",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "466",
+          "type": "CARTONS",
+          "description": "466 CARTONS"
+        },
+        "gross_weight_kg": "18,150.41",
+        "net_weight_kg": "15,309.19",
+        "measurement": "59.517 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "MSCUNSLJB179325923",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        55.28
+      ],
+      "value": "CENTRAL SUPPLY CHAIN LLC\n312 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        41.1,
+        194.17,
+        522.99,
+        55.28
+      ],
+      "value": "CENTRAL SHIPPING LLC\n925 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        249.45,
+        522.99,
+        55.28
+      ],
+      "value": "INTERNATIONAL SHIPPING LTD\n151 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        215.43,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "E-213",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.76,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        41.1,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        215.43,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.76,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        215.43,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "TRHU7790809",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "G06F1B3E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "20",
+        "type": "PALLETS",
+        "description": "20 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "6,465.65",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "36.234 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        305.15,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "HLCU6851139",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        338.5,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "7E8095H5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        338.5,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        338.5,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "142",
+        "type": "DRUMS",
+        "description": "142 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        338.5,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "18,825.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        338.5,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "24.999 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        447.57,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        504.0,
+        258.94,
+        12.76
+      ],
+      "value": "TCKU6947152",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        521.86,
+        116.53,
+        6.8
+      ],
+      "value": "47EF5A7C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        530.93,
+        116.53,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        540.0,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "466",
+        "type": "CARTONS",
+        "description": "466 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        549.07,
+        116.53,
+        6.8
+      ],
+      "value": "18,150.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        558.14,
+        116.53,
+        6.8
+      ],
+      "value": "59.517 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        521.65,
+        103.58,
+        31.96
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        215.43,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.76,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        41.1,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        215.43,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

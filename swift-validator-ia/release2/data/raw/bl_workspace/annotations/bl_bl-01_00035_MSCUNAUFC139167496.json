@@ -1,0 +1,500 @@
+{
+  "id": 35,
+  "filename": "bl_bl-01_00035_MSCUNAUFC139167496.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNAUFC139167496",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNAUFC139167496",
+    "shipper_name": "FIRST TRADING PLC",
+    "shipper_address": "47 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL COMMERCE BV",
+    "consignee_address": "710 MAIN STREET",
+    "notify_party_name": "PREMIER SUPPLY CHAIN INC",
+    "notify_party_address": "315 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-442",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "15 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "TRHU2678948",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "222FHA3F",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "206 BOXES",
+    "gross_weight_kg": "54,440.39",
+    "measurement": "70.479 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2678948",
+        "seal_number": "222FHA3F",
+        "container_type": "40' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "206",
+          "type": "BOXES",
+          "description": "206 BOXES"
+        },
+        "gross_weight_kg": "14,256.59",
+        "net_weight_kg": "10,904.86",
+        "measurement": "28.663 CBM"
+      },
+      {
+        "container_number": "CMAU8603156",
+        "seal_number": "5AHE8E94",
+        "container_type": "20' OPEN TOP",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "339",
+          "type": "CARTONS",
+          "description": "339 CARTONS"
+        },
+        "gross_weight_kg": "26,295.69",
+        "net_weight_kg": "22,853.69",
+        "measurement": "21.728 CBM"
+      },
+      {
+        "container_number": "OOLU0270751",
+        "seal_number": "E4F70E2F",
+        "container_type": "20' OPEN TOP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "27",
+          "type": "BOXES",
+          "description": "27 BOXES"
+        },
+        "gross_weight_kg": "13,888.11",
+        "net_weight_kg": "10,234.31",
+        "measurement": "20.088 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNAUFC139167496",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST TRADING PLC\n47 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL COMMERCE BV\n710 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN INC\n315 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "E-442",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "15 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        362.83,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2678948",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "222FHA3F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        362.83,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        362.83,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '206', 'type': 'BOXES', 'description': '206 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "14,256.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "28.663 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        399.69,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU8603156",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "5AHE8E94",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        399.69,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        399.69,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '339', 'type': 'CARTONS', 'description': '339 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "26,295.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "21.728 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        436.54,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0270751",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        436.54,
+        53.86,
+        36.85
+      ],
+      "value": "E4F70E2F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        436.54,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        436.54,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        436.54,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '27', 'type': 'BOXES', 'description': '27 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        436.54,
+        80.79,
+        36.85
+      ],
+      "value": "13,888.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        436.54,
+        80.79,
+        36.85
+      ],
+      "value": "20.088 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

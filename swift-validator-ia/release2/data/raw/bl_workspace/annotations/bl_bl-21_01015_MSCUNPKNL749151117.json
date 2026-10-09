@@ -1,0 +1,318 @@
+{
+  "id": 1015,
+  "filename": "bl_bl-21_01015_MSCUNPKNL749151117.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNPKNL749151117",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNPKNL749151117",
+    "shipper_name": "TRANS INDUSTRIES GMBH",
+    "shipper_address": "763 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA SHIPPING LTD",
+    "consignee_address": "293 COMMERCE BOULEVARD",
+    "notify_party_name": "DELTA SUPPLY CHAIN S.A.",
+    "notify_party_address": "181 INDUSTRIAL AVENUE",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-208",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "31 MAY 2026",
+    "eta": "15 JUN 2026",
+    "container_number": "TCKU5508667",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "FDG423F2",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "85 BOXES",
+    "gross_weight_kg": "23,113.17",
+    "measurement": "43.650 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU5508667",
+        "seal_number": "FDG423F2",
+        "container_type": "20' OPEN TOP",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "85",
+          "type": "BOXES",
+          "description": "85 BOXES"
+        },
+        "gross_weight_kg": "23,113.17",
+        "net_weight_kg": "20,088.73",
+        "measurement": "43.650 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "21 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNPKNL749151117",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS INDUSTRIES GMBH\n763 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA SHIPPING LTD\n293 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA SUPPLY CHAIN S.A.\n181 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU5508667",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "FDG423F2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '85', 'type': 'BOXES', 'description': '85 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "23,113.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "43.650 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "E-208",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        341.57,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        375.59,
+        179.53,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        453.54,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00263",
+  "filename": "inv_cmacgm_0263_CMAULJPW175172878.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 263,
+  "fields": {
+    "invoice_number": "INV-2026-00263",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/HSBC/0263/2026",
+    "bl_reference": "CMAULJPW175172878",
+    "seller_name": "EURO SHIPPING GMBH",
+    "buyer_name": "PREMIER GROUP CO.",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1789",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "LITHIUM-ION BATTERIES",
+    "hs_code": "8541.40",
+    "quantity": 181,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "8,004.78",
+    "unit_price": 136.46,
+    "currency": "GBP",
+    "total_amount": 24699.26,
+    "incoterm": "FCA",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00263",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "CMAULJPW175172878",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "EURO SHIPPING GMBH\n989 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "PREMIER GROUP CO.\n109 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "AL1789",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "CMAULJPW175172878",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "181",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 136.46",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 24,699.26",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "GBP 24,699.26",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

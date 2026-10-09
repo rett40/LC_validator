@@ -1,0 +1,409 @@
+{
+  "id": 1039,
+  "filename": "bl_bl-26_01039_MSCUNAXTF343946549.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNAXTF343946549",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNAXTF343946549",
+    "shipper_name": "GLOBAL COMMERCE GMBH",
+    "shipper_address": "651 TRADE PARK",
+    "consignee_name": "FIRST SUPPLY CHAIN CO.",
+    "consignee_address": "19 COMMERCE BOULEVARD",
+    "notify_party_name": "PREMIER SHIPPING GMBH",
+    "notify_party_address": "935 MARKET STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0208N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "27 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "MSCU7280162",
+    "container_type": "40'OT",
+    "seal_number": "6112CHFC",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "341 DRUMS",
+    "gross_weight_kg": "18,845.36",
+    "measurement": "80.240 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU7280162",
+        "seal_number": "6112CHFC",
+        "container_type": "40'OT",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "341",
+          "type": "DRUMS",
+          "description": "341 DRUMS"
+        },
+        "gross_weight_kg": "7,399.07",
+        "net_weight_kg": "4,327.85",
+        "measurement": "27.157 CBM"
+      },
+      {
+        "container_number": "HLCU5974735",
+        "seal_number": "C5A8158F",
+        "container_type": "40' OPEN TOP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "279",
+          "type": "BAGS",
+          "description": "279 BAGS"
+        },
+        "gross_weight_kg": "11,446.29",
+        "net_weight_kg": "8,127.94",
+        "measurement": "53.083 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNAXTF343946549",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        111.58,
+        75.12,
+        54.25,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        252.84,
+        75.12,
+        43.39,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        367.66,
+        75.12,
+        58.96,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        489.08,
+        75.12,
+        67.92,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        141.81,
+        103.46,
+        24.01,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "GLOBAL COMMERCE GMBH\n651 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST SUPPLY CHAIN CO.\n19 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "PREMIER SHIPPING GMBH\n935 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        88.92,
+        256.54,
+        76.91,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.34,
+        256.54,
+        85.88,
+        34.02
+      ],
+      "value": "0208N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        353.95,
+        256.54,
+        72.67,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        471.12,
+        256.54,
+        85.89,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        123.4,
+        290.55,
+        42.42,
+        34.02
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        242.93,
+        290.55,
+        53.29,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.62,
+        290.55,
+        49.99,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        494.74,
+        290.55,
+        62.26,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU7280162",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "6112CHFC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '341', 'type': 'DRUMS', 'description': '341 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "7,399.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "27.157 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU5974735",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "C5A8158F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '279', 'type': 'BAGS', 'description': '279 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "11,446.29",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "53.083 CBM",
+      "page": 1
+    }
+  ]
+}

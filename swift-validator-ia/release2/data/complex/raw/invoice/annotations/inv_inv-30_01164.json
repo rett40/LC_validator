@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01164",
+  "filename": "inv_inv-30_01164.pdf",
+  "layout_id": "INV-30",
+  "bl_id": 1164,
+  "fields": {
+    "invoice_number": "INV-2026-01164",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/1164/2026",
+    "bl_reference": "MSCUNYBFU359693838",
+    "seller_name": "PREMIER TRADING BV",
+    "buyer_name": "CENTRAL ENTERPRISES CORP",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0716E",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "hs_code": "0709.99",
+    "quantity": 344,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "16,075.49",
+    "unit_price": 7.12,
+    "currency": "USD",
+    "total_amount": 2448.89,
+    "incoterm": "CFR",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        304.72,
+        32.6,
+        269.29,
+        34.02
+      ],
+      "value": "INV-2026-01164",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        82.2,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER TRADING BV\nPREMIER TRADING BV\n672 INDUSTRIAL AVENUE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        82.2,
+        269.29,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES CORP\nCENTRAL ENTERPRISES CORP\n239 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        175.75,
+        121.18,
+        19.84
+      ],
+      "value": "16,075.49 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        195.59,
+        121.18,
+        19.84
+      ],
+      "value": "2448.89 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        246.61,
+        172.35,
+        42.52
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        246.61,
+        64.63,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        246.61,
+        53.86,
+        42.52
+      ],
+      "value": "344",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        246.61,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        246.61,
+        96.94,
+        42.52
+      ],
+      "value": "7.12 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        246.61,
+        96.94,
+        42.52
+      ],
+      "value": "2448.89 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        307.56,
+        269.29,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        304.72,
+        307.56,
+        269.29,
+        15.59
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        345.83,
+        269.29,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        304.72,
+        345.83,
+        269.29,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/1164/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        374.17,
+        269.29,
+        18.43
+      ],
+      "value": "MSCUNYBFU359693838",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        304.72,
+        374.17,
+        269.29,
+        18.43
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        402.52,
+        269.29,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        304.72,
+        402.52,
+        269.29,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "VALENCIA, SPAIN"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "2294.48 USD",
+      "actual": "2448.89 USD"
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 335,
+  "filename": "bl_bl-07_00335_MSCUNWCSZ176232711.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNWCSZ176232711",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNWCSZ176232711",
+    "shipper_name": "TRANS SUPPLY CHAIN CORP",
+    "shipper_address": "239 MAIN STREET",
+    "consignee_name": "CENTRAL GROUP BV",
+    "consignee_address": "516 MARKET STREET",
+    "notify_party_name": "ATLANTIC SHIPPING LLC",
+    "notify_party_address": "10 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0776S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "08 MAY 2026",
+    "eta": "01 JUN 2026",
+    "container_number": "TRHU6382328",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "5GC33F84",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "212 CRATES",
+    "gross_weight_kg": "20,047.48",
+    "measurement": "109.269 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6382328",
+        "seal_number": "5GC33F84",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "212",
+          "type": "CRATES",
+          "description": "212 CRATES"
+        },
+        "gross_weight_kg": "9,954.87",
+        "net_weight_kg": "6,499.13",
+        "measurement": "51.894 CBM"
+      },
+      {
+        "container_number": "HLCU3593090",
+        "seal_number": "GB642G15",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "62",
+          "type": "BOXES",
+          "description": "62 BOXES"
+        },
+        "gross_weight_kg": "10,092.61",
+        "net_weight_kg": "7,767.91",
+        "measurement": "57.375 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNWCSZ176232711",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "0776S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        228.19,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU6382328",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "5GC33F84",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        228.19,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        228.19,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '212', 'type': 'CRATES', 'description': '212 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "9,954.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "51.894 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        265.04,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3593090",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "GB642G15",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        265.04,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        265.04,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '62', 'type': 'BOXES', 'description': '62 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "10,092.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "57.375 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN CORP\n239 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "CENTRAL GROUP BV\n516 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "ATLANTIC SHIPPING LLC\n10 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        462.05,
+        134.65,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

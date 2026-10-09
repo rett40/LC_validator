@@ -1,0 +1,535 @@
+{
+  "id": 54,
+  "filename": "bl_bl-15_00054_MSCUNYXPL649753980.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNYXPL649753980",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNYXPL649753980",
+    "shipper": {
+      "name": "GLOBAL ENTERPRISES S.A.",
+      "address": "662 MARKET STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "GLOBAL ENTERPRISES S.A.\n662 MARKET STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "consignee": {
+      "name": "ATLANTIC ENTERPRISES GMBH",
+      "address": "918 COMMERCE BOULEVARD",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "ATLANTIC ENTERPRISES GMBH\n918 COMMERCE BOULEVARD\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "notify_party": {
+      "name": "ATLANTIC PARTNERS S.A.",
+      "address": "922 MARKET STREET",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "ATLANTIC PARTNERS S.A.\n922 MARKET STREET\nLOS ANGELES, USA CA 90001"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE81E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "02 JUL 2026",
+    "eta": "23 JUL 2026",
+    "issue_date": "22 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "MAEU0757852",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "94C31BCE",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": {
+      "count": "399",
+      "type": "PACKAGES",
+      "description": "399 PACKAGES"
+    },
+    "gross_weight_kg": "58,414.11",
+    "net_weight_kg": "49,399.73",
+    "gross_weight_lbs": "128,780.92",
+    "measurement": "112.187 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU0757852",
+        "seal_number": "94C31BCE",
+        "container_type": "40' FLAT RACK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "399",
+          "type": "PACKAGES",
+          "description": "399 PACKAGES"
+        },
+        "gross_weight_kg": "21,350.61",
+        "net_weight_kg": "17,511.76",
+        "measurement": "49.058 CBM"
+      },
+      {
+        "container_number": "EISU2094816",
+        "seal_number": "975193GE",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "280",
+          "type": "CARTONS",
+          "description": "280 CARTONS"
+        },
+        "gross_weight_kg": "25,764.03",
+        "net_weight_kg": "22,983.03",
+        "measurement": "40.602 CBM"
+      },
+      {
+        "container_number": "TCKU4588001",
+        "seal_number": "0AB193C8",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "50",
+          "type": "PACKAGES",
+          "description": "50 PACKAGES"
+        },
+        "gross_weight_kg": "11,299.47",
+        "net_weight_kg": "8,904.94",
+        "measurement": "22.527 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "DDP",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "MAEU0757852\n94C31BCE\nJEBEL ALI"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNYXPL649753980",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL ENTERPRISES S.A.\n662 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC ENTERPRISES GMBH\n918 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "ATLANTIC PARTNERS S.A.\n922 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AE81E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "23 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU0757852",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "94C31BCE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '399', 'type': 'PACKAGES', 'description': '399 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "21,350.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "49.058 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "EISU2094816",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "975193GE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '280', 'type': 'CARTONS', 'description': '280 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "25,764.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "40.602 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        643.46,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU4588001",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "0AB193C8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        643.46,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        643.46,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '50', 'type': 'PACKAGES', 'description': '50 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "11,299.47",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "22.527 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        762.52,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

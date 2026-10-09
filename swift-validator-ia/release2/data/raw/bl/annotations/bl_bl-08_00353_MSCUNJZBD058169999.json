@@ -1,0 +1,409 @@
+{
+  "id": 353,
+  "filename": "bl_bl-08_00353_MSCUNJZBD058169999.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNJZBD058169999",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNJZBD058169999",
+    "shipper_name": "TRANS INDUSTRIES INC",
+    "shipper_address": "801 PORT ACCESS ROAD",
+    "consignee_name": "EURO SHIPPING PLC",
+    "consignee_address": "629 PORT ACCESS ROAD",
+    "notify_party_name": "PACIFIC SUPPLY CHAIN S.A.",
+    "notify_party_address": "515 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS799W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "18 MAY 2026",
+    "eta": "08 JUN 2026",
+    "container_number": "CMAU2596383",
+    "container_type": "20' REEFER",
+    "seal_number": "0417E272",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "172 DRUMS",
+    "gross_weight_kg": "52,814.46",
+    "measurement": "95.607 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2596383",
+        "seal_number": "0417E272",
+        "container_type": "20' REEFER",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "172",
+          "type": "DRUMS",
+          "description": "172 DRUMS"
+        },
+        "gross_weight_kg": "27,090.74",
+        "net_weight_kg": "23,162.79",
+        "measurement": "64.968 CBM"
+      },
+      {
+        "container_number": "HLCU4163642",
+        "seal_number": "A293CF80",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "215",
+          "type": "PALLETS",
+          "description": "215 PALLETS"
+        },
+        "gross_weight_kg": "25,723.72",
+        "net_weight_kg": "23,266.21",
+        "measurement": "30.639 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNJZBD058169999",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS INDUSTRIES INC\n801 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "EURO SHIPPING PLC\n629 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        178.58,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC SUPPLY CHAIN S.A.\n515 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "CS799W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2596383",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "0417E272",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '172', 'type': 'DRUMS', 'description': '172 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "27,090.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "64.968 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4163642",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "A293CF80",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '215', 'type': 'PALLETS', 'description': '215 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "25,723.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "30.639 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        667.56,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

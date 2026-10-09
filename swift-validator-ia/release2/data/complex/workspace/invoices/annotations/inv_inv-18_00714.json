@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00714",
+  "filename": "inv_inv-18_00714.pdf",
+  "layout_id": "INV-18",
+  "bl_id": 714,
+  "fields": {
+    "invoice_number": "INV-2026-00714",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/BNP/0714/2026",
+    "bl_reference": "MSCUNTLJK928777171",
+    "seller_name": "FIRST INDUSTRIES LLC",
+    "buyer_name": "PACIFIC GROUP PLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0980N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "PHARMACEUTICAL PRODUCTS NEC",
+    "hs_code": "8428.90",
+    "quantity": 422,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "45,107.16",
+    "unit_price": 553.4,
+    "currency": "EUR",
+    "total_amount": 233534.8,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00714",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        98.34,
+        111.97,
+        206.39,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        357.4,
+        111.97,
+        216.62,
+        28.35
+      ],
+      "value": "LC/BNP/0714/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        105.45,
+        140.31,
+        199.28,
+        28.35
+      ],
+      "value": "MSCUNTLJK928777171",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        353.84,
+        140.31,
+        220.18,
+        28.35
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        105.9,
+        168.66,
+        198.83,
+        28.35
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        328.06,
+        168.66,
+        245.96,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        221.1,
+        172.35,
+        42.52
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        221.1,
+        64.63,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        221.1,
+        53.86,
+        42.52
+      ],
+      "value": "422",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        221.1,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        221.1,
+        96.94,
+        42.52
+      ],
+      "value": "553.4 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        221.1,
+        96.94,
+        42.52
+      ],
+      "value": "233534.8 EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        272.13,
+        269.29,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES LLC\nFIRST INDUSTRIES LLC\n346 TRADE PARK\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        272.13,
+        269.29,
+        79.37
+      ],
+      "value": "PACIFIC GROUP PLC\nPACIFIC GROUP PLC\n21 MAIN BOULEVARD\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "45,107.16 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        379.84,
+        121.18,
+        19.84
+      ],
+      "value": "233534.8 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        110.78,
+        408.19,
+        193.95,
+        25.51
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        353.84,
+        408.19,
+        220.18,
+        25.51
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PHARMACEUTICAL PRODUCTS",
+      "actual": "PHARMACEUTICAL PRODUCTS NEC"
+    }
+  ]
+}

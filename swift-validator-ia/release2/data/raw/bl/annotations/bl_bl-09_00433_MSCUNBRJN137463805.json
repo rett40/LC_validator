@@ -1,0 +1,500 @@
+{
+  "id": 433,
+  "filename": "bl_bl-09_00433_MSCUNBRJN137463805.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNBRJN137463805",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNBRJN137463805",
+    "shipper_name": "CENTRAL ENTERPRISES INC",
+    "shipper_address": "514 MARKET STREET",
+    "consignee_name": "APEX LOGISTICS CO.",
+    "consignee_address": "849 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED SUPPLY CHAIN CO.",
+    "notify_party_address": "401 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE67E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "06 JUN 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "EISU7179935",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "B9G11026",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "114 PALLETS",
+    "gross_weight_kg": "47,583.50",
+    "measurement": "147.997 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7179935",
+        "seal_number": "B9G11026",
+        "container_type": "20' OPEN TOP",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "114",
+          "type": "PALLETS",
+          "description": "114 PALLETS"
+        },
+        "gross_weight_kg": "14,539.96",
+        "net_weight_kg": "12,185.62",
+        "measurement": "57.076 CBM"
+      },
+      {
+        "container_number": "HLCU2317884",
+        "seal_number": "6H8DFAFG",
+        "container_type": "20' OPEN TOP",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "349",
+          "type": "PALLETS",
+          "description": "349 PALLETS"
+        },
+        "gross_weight_kg": "7,905.85",
+        "net_weight_kg": "4,982.00",
+        "measurement": "26.015 CBM"
+      },
+      {
+        "container_number": "HLCU4373640",
+        "seal_number": "1303EEFF",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "12",
+          "type": "CARTONS",
+          "description": "12 CARTONS"
+        },
+        "gross_weight_kg": "25,137.69",
+        "net_weight_kg": "21,821.23",
+        "measurement": "64.906 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNBRJN137463805",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES INC\n514 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "APEX LOGISTICS CO.\n849 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN CO.\n401 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "AE67E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        354.33,
+        91.56,
+        36.85
+      ],
+      "value": "EISU7179935",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "B9G11026",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        354.33,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        354.33,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '114', 'type': 'PALLETS', 'description': '114 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "14,539.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "57.076 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        391.18,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU2317884",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "6H8DFAFG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        391.18,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        391.18,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '349', 'type': 'PALLETS', 'description': '349 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "7,905.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "26.015 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        428.03,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4373640",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "1303EEFF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        428.03,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        428.03,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '12', 'type': 'CARTONS', 'description': '12 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "25,137.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "64.906 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

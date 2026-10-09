@@ -1,0 +1,353 @@
+{
+  "id": 114,
+  "filename": "bl_bl-20_00114_MSCUNYVLF903046867.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNYVLF903046867",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNYVLF903046867",
+    "shipper": {
+      "name": "UNITED PARTNERS LTD",
+      "address": "32 TRADE PARK",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "UNITED PARTNERS LTD\n32 TRADE PARK\nBUSAN, SOUTH KOREA 48940"
+    },
+    "consignee": {
+      "name": "TRANS COMMERCE CO.",
+      "address": "656 HARBOR ROAD",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "TRANS COMMERCE CO.\n656 HARBOR ROAD\nDUBAI, UAE 00000"
+    },
+    "notify_party": {
+      "name": "GLOBAL SUPPLY CHAIN INC",
+      "address": "37 PORT ACCESS ROAD",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "GLOBAL SUPPLY CHAIN INC\n37 PORT ACCESS ROAD\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS393N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "17 JUN 2026",
+    "eta": "02 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "MSCU8091473",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "H648221G",
+    "commodity": "BUILDING MATERIALS",
+    "packages": {
+      "count": "314",
+      "type": "BAGS",
+      "description": "314 BAGS"
+    },
+    "gross_weight_kg": "7,707.37",
+    "net_weight_kg": "5,098.72",
+    "gross_weight_lbs": "16,991.82",
+    "measurement": "59.049 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8091473",
+        "seal_number": "H648221G",
+        "container_type": "40' OPEN TOP",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "314",
+          "type": "BAGS",
+          "description": "314 BAGS"
+        },
+        "gross_weight_kg": "7,707.37",
+        "net_weight_kg": "5,098.72",
+        "measurement": "59.049 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "EXW",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "MSCU8091473\nH648221G\nANTWERP"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNYVLF903046867",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "CS393N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED PARTNERS LTD\n32 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS COMMERCE CO.\n656 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL SUPPLY CHAIN INC\n37 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU8091473",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "H648221G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '314', 'type': 'BAGS', 'description': '314 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "7,707.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "59.049 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

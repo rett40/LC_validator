@@ -1,0 +1,351 @@
+{
+  "id": 863,
+  "filename": "bl_bl-18_00863_MSCUNHGKX995386847.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNHGKX995386847",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNHGKX995386847",
+    "shipper_name": "UNITED ENTERPRISES CORP",
+    "shipper_address": "703 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED INDUSTRIES INC",
+    "consignee_address": "253 HARBOR ROAD",
+    "notify_party_name": "EURO SHIPPING PLC",
+    "notify_party_address": "789 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE988S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "19 MAY 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "MAEU8469955",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "HCBB89E2",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "42 BOXES",
+    "gross_weight_kg": "16,710.44",
+    "measurement": "39.100 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU8469955",
+        "seal_number": "HCBB89E2",
+        "container_type": "40' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "42",
+          "type": "BOXES",
+          "description": "42 BOXES"
+        },
+        "gross_weight_kg": "16,710.44",
+        "net_weight_kg": "14,408.14",
+        "measurement": "39.100 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNHGKX995386847",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8469955",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "HCBB89E2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '42', 'type': 'BOXES', 'description': '42 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "16,710.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "39.100 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "703 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED ENTERPRISES CORP\n703 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "253 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED INDUSTRIES INC\n253 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        279.21,
+        269.29,
+        70.87
+      ],
+      "value": "789 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        259.37,
+        269.29,
+        90.71
+      ],
+      "value": "EURO SHIPPING PLC\n789 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "FE988S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        650.55,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

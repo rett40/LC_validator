@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00558",
+  "filename": "inv_inv-14_00558.pdf",
+  "layout_id": "INV-14",
+  "bl_id": 558,
+  "fields": {
+    "invoice_number": "INV-2026-00558",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/CITI/0558/2026",
+    "bl_reference": "MSCUNNWGW986429199",
+    "seller_name": "FIRST SOLUTIONS PLC",
+    "buyer_name": "INTERNATIONAL SUPPLY CHAIN INC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0680E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "VULCANIZED RUBBER ARTICLES",
+    "hs_code": "4016.99",
+    "quantity": 98,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "45,688.52",
+    "unit_price": 14.61,
+    "currency": "GBP",
+    "total_amount": 1431.78,
+    "incoterm": "CIP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        208.63,
+        27.78
+      ],
+      "value": "INV-2026-00558",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        136.06,
+        166.9,
+        42.52
+      ],
+      "value": "VULCANIZED RUBBER ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        136.06,
+        62.59,
+        42.52
+      ],
+      "value": "4016.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        136.06,
+        52.16,
+        42.52
+      ],
+      "value": "98",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        136.06,
+        52.16,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        136.06,
+        93.88,
+        42.52
+      ],
+      "value": "14.61 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        136.06,
+        93.88,
+        42.52
+      ],
+      "value": "1431.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        187.09,
+        323.38,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS PLC\nFIRST SOLUTIONS PLC\n557 INDUSTRIAL AVENUE\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        187.09,
+        198.2,
+        79.37
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN INC\nINTERNATIONAL SUPPLY CHAIN INC\n623 HARBOR ROAD\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        209.29,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "LC/CITI/0558/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        383.15,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "MSCUNNWGW986429199",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        35.43,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        209.29,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        383.15,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        340.16,
+        117.35,
+        19.84
+      ],
+      "value": "45,688.52 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        360.0,
+        117.35,
+        19.84
+      ],
+      "value": "1431.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        398.27,
+        173.86,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        209.29,
+        398.27,
+        173.86,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "RUBBER PRODUCTS AND TYRES",
+      "actual": "VULCANIZED RUBBER ARTICLES"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 456,
+  "filename": "bl_bl-12_00456_MSCUNUMGT233844011.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNUMGT233844011",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNUMGT233844011",
+    "shipper_name": "TRANS COMMERCE BV",
+    "shipper_address": "825 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA LOGISTICS CORP",
+    "consignee_address": "542 HARBOR ROAD",
+    "notify_party_name": "TRANS LOGISTICS LLC",
+    "notify_party_address": "875 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-124",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "19 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "CMAU0813220",
+    "container_type": "40'FR",
+    "seal_number": "1865E873",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "188 DRUMS",
+    "gross_weight_kg": "6,212.05",
+    "measurement": "20.625 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU0813220",
+        "seal_number": "1865E873",
+        "container_type": "40'FR",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "188",
+          "type": "DRUMS",
+          "description": "188 DRUMS"
+        },
+        "gross_weight_kg": "6,212.05",
+        "net_weight_kg": "2,526.68",
+        "measurement": "20.625 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNUMGT233844011",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "TRANS COMMERCE BV\n825 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "DELTA LOGISTICS CORP\n542 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "TRANS LOGISTICS LLC\n875 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU0813220",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "1865E873",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '188', 'type': 'DRUMS', 'description': '188 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "6,212.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "20.625 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "E-124",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        671.81,
+        272.38,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

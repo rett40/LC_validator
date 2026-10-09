@@ -1,0 +1,119 @@
+<div class="dashboard-page">
+  <div class="page-header">
+    <div>
+      <h1>Tableau de bord</h1>
+      <p>Vue d'ensemble des activités de validation MT700</p>
+    </div>
+  </div>
+
+  <!-- Loading skeletons -->
+  @if (loading) {
+    <div class="kpi-grid">
+      @for (i of [1,2,3,4]; track i) {
+        <p-skeleton height="120px" borderRadius="12px" />
+      }
+    </div>
+    <div class="charts-row">
+      <p-skeleton height="320px" borderRadius="12px" styleClass="flex-2" />
+      <p-skeleton height="320px" borderRadius="12px" styleClass="flex-1" />
+    </div>
+  }
+
+  <!-- Error state -->
+  @if (!loading && error) {
+    <div class="error-state">
+      <i class="pi pi-exclamation-triangle"></i>
+      <p>Impossible de charger les statistiques. Vérifiez que le serveur backend est démarré.</p>
+      <button pButton label="Réessayer" icon="pi pi-refresh" (click)="reload()"></button>
+    </div>
+  }
+
+  <!-- Content (only when data is ready) -->
+  @if (!loading && !error && stats) {
+
+    <!-- KPI row -->
+    <div class="kpi-grid">
+      <div class="kpi-card blue">
+        <div class="kpi-icon"><i class="pi pi-users"></i></div>
+        <div class="kpi-body">
+          <span class="kpi-value">{{ stats.totalAgents }}</span>
+          <span class="kpi-label">Agents actifs</span>
+        </div>
+      </div>
+
+      <div class="kpi-card navy">
+        <div class="kpi-icon"><i class="pi pi-file-check"></i></div>
+        <div class="kpi-body">
+          <span class="kpi-value">{{ stats.totalAnalyses }}</span>
+          <span class="kpi-label">Analyses totales</span>
+          <span class="kpi-sub">+{{ stats.todayAnalyses }} aujourd'hui</span>
+        </div>
+      </div>
+
+      <div class="kpi-card gold">
+        <div class="kpi-icon"><i class="pi pi-chart-bar"></i></div>
+        <div class="kpi-body">
+          <span class="kpi-value">{{ stats.avgScore | number:'1.1-1' }}</span>
+          <span class="kpi-label">Score moyen</span>
+          <span class="kpi-sub">sur 100 points</span>
+        </div>
+      </div>
+
+      <div class="kpi-card green">
+        <div class="kpi-icon"><i class="pi pi-check-circle"></i></div>
+        <div class="kpi-body">
+          <span class="kpi-value">{{ acceptPct }}%</span>
+          <span class="kpi-label">Taux d'acceptation</span>
+          <span class="kpi-sub">{{ stats.acceptCount }} / {{ stats.totalAnalyses }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts row -->
+    <div class="charts-row">
+      <div class="chart-card flex-2">
+        <div class="chart-header">
+          <h3>Tendance hebdomadaire</h3>
+          <p>Nombre d'analyses par jour</p>
+        </div>
+        <div class="chart-body" style="height: 260px">
+          <p-chart type="bar" [data]="barData" [options]="barOptions" height="260" />
+        </div>
+      </div>
+
+      <div class="chart-card flex-1">
+        <div class="chart-header">
+          <h3>Répartition des décisions</h3>
+          <p>ACCEPT / REVIEW / REJECT</p>
+        </div>
+        <div class="chart-body" style="height: 260px">
+          <p-chart type="doughnut" [data]="donutData" [options]="donutOptions" height="260" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Decision breakdown -->
+    <div class="decision-row">
+      <div class="decision-card accept">
+        <div class="dc-header"><i class="pi pi-check-circle"></i><span>ACCEPTÉ</span></div>
+        <div class="dc-value">{{ stats.acceptCount }}</div>
+        <div class="dc-bar"><div class="dc-fill" [style.width]="acceptPct + '%'"></div></div>
+        <div class="dc-pct">{{ acceptPct }}%</div>
+      </div>
+
+      <div class="decision-card review">
+        <div class="dc-header"><i class="pi pi-exclamation-triangle"></i><span>RÉVISION</span></div>
+        <div class="dc-value">{{ stats.reviewCount }}</div>
+        <div class="dc-bar"><div class="dc-fill" [style.width]="reviewPct + '%'"></div></div>
+        <div class="dc-pct">{{ reviewPct }}%</div>
+      </div>
+
+      <div class="decision-card reject">
+        <div class="dc-header"><i class="pi pi-times-circle"></i><span>REJETÉ</span></div>
+        <div class="dc-value">{{ stats.rejectCount }}</div>
+        <div class="dc-bar"><div class="dc-fill" [style.width]="rejectPct + '%'"></div></div>
+        <div class="dc-pct">{{ rejectPct }}%</div>
+      </div>
+    </div>
+  }
+</div>

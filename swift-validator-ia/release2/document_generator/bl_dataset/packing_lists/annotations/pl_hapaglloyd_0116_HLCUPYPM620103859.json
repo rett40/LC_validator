@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00116",
+  "filename": "pl_hapaglloyd_0116_HLCUPYPM620103859.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 116,
+  "fields": {
+    "pl_number": "PL-2026-00116",
+    "pl_date": "16 APR 2026",
+    "inv_reference": "INV-2026-00116",
+    "bl_reference": "HLCUPYPM620103859",
+    "exporter_name": "CENTRAL ENTERPRISES GMBH",
+    "consignee_name": "UNITED GROUP S.A.",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0681W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "container_number": "HLCU2600516",
+    "container_type": "40' REEFER",
+    "seal_number": "H9CH5H8D",
+    "goods_description": "COPPER ALLOYS AND ARTICLES",
+    "package_unit": "BAGS",
+    "total_packages": 45,
+    "net_weight_kg": "14,441.38",
+    "gross_weight_kg": "18,001.80",
+    "total_cbm": 42.09
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00116",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "HLCUPYPM620103859",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "CENTRAL ENTERPRISES GMBH\n841 HARBOR ROAD\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "UNITED GROUP S.A.\n362 INDUSTRIAL AVENUE\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "0681W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "HLCU2600516",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "H9CH5H8D",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUPYPM620103859",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "COPPER ALLOYS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "45",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "14,441.38",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "18,001.80",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "42.090",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "18,001.80",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "45",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "COPPER AND COPPER PRODUCTS",
+      "actual": "COPPER ALLOYS AND ARTICLES"
+    },
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "16,238.11",
+      "actual": "18,001.80"
+    }
+  ]
+}

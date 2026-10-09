@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00052",
+  "filename": "pl_hapaglloyd_0052_HLCUGBVX836418801.pdf",
+  "style": "StandardPLRenderer",
+  "bl_id": 52,
+  "fields": {
+    "pl_number": "PL-2026-00052",
+    "pl_date": "12 APR 2026",
+    "inv_reference": "INV-2026-00052",
+    "bl_reference": "HLCUGBVX836418801",
+    "exporter_name": "CENTRAL INDUSTRIES BV",
+    "consignee_name": "FIRST LOGISTICS AG",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE66W",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "container_number": "TRHU2047930",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "ABB2096B",
+    "goods_description": "SHOES AND LEATHER GOODS",
+    "package_unit": "PACKAGES",
+    "total_packages": 113,
+    "net_weight_kg": "19,523.59",
+    "gross_weight_kg": "22,893.06",
+    "total_cbm": 35.776
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "PL-2026-00052",
+      "page": 1
+    },
+    {
+      "field": "inv_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "INV-2026-00052",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "CENTRAL INDUSTRIES BV\n46 EXPORT ZONE\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "FIRST LOGISTICS AG\n222 MAIN BOULEVARD\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "AE66W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "TRHU2047930",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "ABB2096B",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUGBVX836418801",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        290.55,
+        136.06,
+        48.19
+      ],
+      "value": "SHOES AND LEATHER GOODS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        290.55,
+        56.69,
+        48.19
+      ],
+      "value": "113",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "19,523.59",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "22,893.06",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        290.55,
+        73.7,
+        48.19
+      ],
+      "value": "35.776",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        344.41,
+        242.36,
+        62.36
+      ],
+      "value": "22,893.06",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        389.76,
+        121.18,
+        17.01
+      ],
+      "value": "113",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "FOOTWEAR OF ALL TYPES",
+      "actual": "SHOES AND LEATHER GOODS"
+    },
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "TRHU2042930",
+      "actual": "TRHU2047930"
+    }
+  ]
+}

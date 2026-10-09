@@ -1,0 +1,318 @@
+{
+  "id": 802,
+  "filename": "bl_bl-21_00802_MSCUNDHUP183331004.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNDHUP183331004",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNDHUP183331004",
+    "shipper_name": "GLOBAL SUPPLY CHAIN BV",
+    "shipper_address": "136 MARKET STREET",
+    "consignee_name": "INTERNATIONAL TRADING S.A.",
+    "consignee_address": "818 MAIN STREET",
+    "notify_party_name": "TRANS SUPPLY CHAIN AG",
+    "notify_party_address": "580 HARBOR ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE373S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "10 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "TCKU7478724",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "DABE588B",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "158 BOXES",
+    "gross_weight_kg": "5,561.37",
+    "measurement": "34.683 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU7478724",
+        "seal_number": "DABE588B",
+        "container_type": "40' FLAT RACK",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "158",
+          "type": "BOXES",
+          "description": "158 BOXES"
+        },
+        "gross_weight_kg": "5,561.37",
+        "net_weight_kg": "2,965.00",
+        "measurement": "34.683 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNDHUP183331004",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN BV\n136 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING S.A.\n818 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN AG\n580 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "TCKU7478724",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "DABE588B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '158', 'type': 'BOXES', 'description': '158 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "5,561.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "34.683 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "FE373S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        304.72,
+        181.89,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        338.74,
+        181.89,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        372.76,
+        181.89,
+        24.09
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        422.36,
+        181.89,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 787,
+  "filename": "bl_bl-16_00787_MSCUNDZTP370759297.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNDZTP370759297",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNDZTP370759297",
+    "shipper_name": "TRANS SOLUTIONS AG",
+    "shipper_address": "709 MAIN STREET",
+    "consignee_name": "ATLANTIC SUPPLY CHAIN LTD",
+    "consignee_address": "466 MAIN STREET",
+    "notify_party_name": "INTERNATIONAL TRADING INC",
+    "notify_party_address": "378 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0469W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "18 MAY 2026",
+    "eta": "10 JUN 2026",
+    "container_number": "MSCU0903366",
+    "container_type": "40' REEFER",
+    "seal_number": "470BH545",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "242 DRUMS",
+    "gross_weight_kg": "49,632.17",
+    "measurement": "93.496 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0903366",
+        "seal_number": "470BH545",
+        "container_type": "40' REEFER",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "242",
+          "type": "DRUMS",
+          "description": "242 DRUMS"
+        },
+        "gross_weight_kg": "27,277.38",
+        "net_weight_kg": "25,100.43",
+        "measurement": "45.470 CBM"
+      },
+      {
+        "container_number": "TCKU2113742",
+        "seal_number": "CFH794H5",
+        "container_type": "20' OPEN TOP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "25",
+          "type": "PACKAGES",
+          "description": "25 PACKAGES"
+        },
+        "gross_weight_kg": "22,354.79",
+        "net_weight_kg": "18,887.74",
+        "measurement": "48.026 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNDZTP370759297",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "0469W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0903366",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "470BH545",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '242', 'type': 'DRUMS', 'description': '242 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "27,277.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "45.470 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        253.7,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU2113742",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "CFH794H5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        253.7,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        253.7,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '25', 'type': 'PACKAGES', 'description': '25 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "22,354.79",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "48.026 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "TRANS SOLUTIONS AG\n709 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LTD\n466 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "INTERNATIONAL TRADING INC\n378 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00281",
+  "filename": "inv_inv-08_00281.pdf",
+  "layout_id": "INV-08",
+  "bl_id": 281,
+  "fields": {
+    "invoice_number": "INV-2026-00281",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DB/0281/2026",
+    "bl_reference": "MSCUNSVFK250076263",
+    "seller_name": "GLOBAL COMMERCE LTD",
+    "buyer_name": "FIRST INDUSTRIES PLC",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6373",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+    "hs_code": "9018.90",
+    "quantity": 389,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "22,836.03",
+    "unit_price": 126.22,
+    "currency": "USD",
+    "total_amount": 49099.91,
+    "incoterm": "DAP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00281",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "LC/DB/0281/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNSVFK250076263",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        154.49,
+        332.16,
+        79.37
+      ],
+      "value": "GLOBAL COMMERCE LTD\nGLOBAL COMMERCE LTD\n274 MAIN BOULEVARD\nHONG KONG, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        154.49,
+        203.58,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES PLC\nFIRST INDUSTRIES PLC\n922 EXPORT ZONE\nNEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "9018.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "389",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "126.22 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "49099.91 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "22,836.03 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "49099.91 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "45664.71 USD",
+      "actual": "49099.91 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "MEDICAL DEVICES AND EQUIPMENT",
+      "actual": "HEALTHCARE EQUIPMENT AND SUPPLIES"
+    }
+  ]
+}

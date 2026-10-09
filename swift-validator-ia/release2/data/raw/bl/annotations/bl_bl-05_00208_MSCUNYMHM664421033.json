@@ -1,0 +1,500 @@
+{
+  "id": 208,
+  "filename": "bl_bl-05_00208_MSCUNYMHM664421033.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNYMHM664421033",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYMHM664421033",
+    "shipper_name": "UNITED INDUSTRIES GMBH",
+    "shipper_address": "770 COMMERCE BOULEVARD",
+    "consignee_name": "GLOBAL SOLUTIONS LTD",
+    "consignee_address": "155 MAIN STREET",
+    "notify_party_name": "INTERNATIONAL SHIPPING BV",
+    "notify_party_address": "119 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE12N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "31 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "HLCU5709428",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "06G3D240",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "37 BOXES",
+    "gross_weight_kg": "34,512.42",
+    "measurement": "148.286 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5709428",
+        "seal_number": "06G3D240",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "37",
+          "type": "BOXES",
+          "description": "37 BOXES"
+        },
+        "gross_weight_kg": "5,744.35",
+        "net_weight_kg": "1,990.56",
+        "measurement": "31.180 CBM"
+      },
+      {
+        "container_number": "TRHU2308222",
+        "seal_number": "D6G2A51C",
+        "container_type": "20' REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "237",
+          "type": "PACKAGES",
+          "description": "237 PACKAGES"
+        },
+        "gross_weight_kg": "14,416.20",
+        "net_weight_kg": "10,883.94",
+        "measurement": "51.044 CBM"
+      },
+      {
+        "container_number": "TRHU8685240",
+        "seal_number": "1F67E7D2",
+        "container_type": "40' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "429",
+          "type": "BAGS",
+          "description": "429 BAGS"
+        },
+        "gross_weight_kg": "14,351.87",
+        "net_weight_kg": "10,675.13",
+        "measurement": "66.062 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "27 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNYMHM664421033",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED INDUSTRIES GMBH\n770 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS LTD\n155 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL SHIPPING BV\n119 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU5709428",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "06G3D240",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '37', 'type': 'BOXES', 'description': '37 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "5,744.35",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "31.180 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2308222",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "D6G2A51C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '237', 'type': 'PACKAGES', 'description': '237 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "14,416.20",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "51.044 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        474.8,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8685240",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "1F67E7D2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        474.8,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        474.8,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '429', 'type': 'BAGS', 'description': '429 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "14,351.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "66.062 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "AE12N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        745.51,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

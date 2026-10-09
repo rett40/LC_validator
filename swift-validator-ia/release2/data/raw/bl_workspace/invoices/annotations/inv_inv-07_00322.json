@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00322",
+  "filename": "inv_inv-07_00322.pdf",
+  "layout_id": "INV-07",
+  "bl_id": 322,
+  "fields": {
+    "invoice_number": "INV-2026-00322",
+    "invoice_date": "23 APR 2026",
+    "lc_reference": "LC/CITI/0322/2026",
+    "bl_reference": "MSCUNSLCB594185610",
+    "seller_name": "TRANS COMMERCE GMBH",
+    "buyer_name": "APEX COMMERCE BV",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE131S",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "hs_code": "0709.99",
+    "quantity": 364,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "20,355.76",
+    "unit_price": 5.73,
+    "currency": "USD",
+    "total_amount": 2085.72,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "INV-2026-00322",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        128.98,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        128.98,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        233.86,
+        134.65,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        233.86,
+        134.65,
+        18.43
+      ],
+      "value": "LC/CITI/0322/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        233.86,
+        134.65,
+        18.43
+      ],
+      "value": "MSCUNSLCB594185610",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        233.86,
+        134.65,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        262.2,
+        134.65,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        262.2,
+        134.65,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        311.81,
+        172.35,
+        42.52
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        311.81,
+        64.63,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        311.81,
+        53.86,
+        42.52
+      ],
+      "value": "364",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        311.81,
+        53.86,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        311.81,
+        96.94,
+        42.52
+      ],
+      "value": "5.73 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        311.81,
+        96.94,
+        42.52
+      ],
+      "value": "2085.72 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        368.5,
+        121.18,
+        19.84
+      ],
+      "value": "20,355.76 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        388.35,
+        121.18,
+        19.84
+      ],
+      "value": "2085.72 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        426.61,
+        179.53,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        426.61,
+        179.53,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "HAMBURG, GERMANY"
+    }
+  ]
+}

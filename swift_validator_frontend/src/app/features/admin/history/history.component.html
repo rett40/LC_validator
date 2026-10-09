@@ -1,0 +1,178 @@
+<p-toast />
+
+<div class="history-page">
+  <div class="page-header">
+    <div>
+      <h1>Historique par agent</h1>
+      <p>Consultez les analyses réalisées par chaque agent bancaire.</p>
+    </div>
+  </div>
+
+  <div class="history-layout">
+    <!-- Agent sidebar -->
+    <div class="agent-sidebar">
+      <div class="as-header">
+        <h3>Agents</h3>
+        <span class="as-count">{{ agents.length }}</span>
+      </div>
+
+      @if (agentsLoading) {
+        @for (i of [1,2,3,4]; track i) {
+          <div class="agent-skeleton">
+            <p-skeleton width="36px" height="36px" borderRadius="8px" />
+            <div style="flex:1"><p-skeleton height="14px" /><p-skeleton height="10px" width="60%" class="mt-1" /></div>
+          </div>
+        }
+      }
+
+      @for (agent of agents; track agent.id) {
+        <div
+          class="agent-item"
+          [class.selected]="selectedAgent?.id === agent.id"
+          (click)="selectAgent(agent)"
+        >
+          <div class="ai-avatar">{{ agent.username.slice(0,2).toUpperCase() }}</div>
+          <div class="ai-meta">
+            <span class="ai-name">{{ agent.username }}</span>
+            <span class="ai-sub">{{ agent.analysisCount ?? 0 }} analyses</span>
+          </div>
+          <span class="ai-status" [class.enabled]="agent.enabled"></span>
+        </div>
+      }
+    </div>
+
+    <!-- History content -->
+    <div class="history-content">
+      @if (!selectedAgent) {
+        <div class="empty-state">
+          <i class="pi pi-users"></i>
+          <h3>Sélectionnez un agent</h3>
+          <p>Choisissez un agent dans la liste pour voir son historique d'analyses.</p>
+        </div>
+      } @else {
+        <!-- Mini KPIs -->
+        <div class="history-kpis">
+          <div class="hk-card total">
+            <span class="hk-val">{{ history.length }}</span>
+            <span class="hk-label">Total</span>
+          </div>
+          <div class="hk-card accept">
+            <span class="hk-val">{{ acceptCount }}</span>
+            <span class="hk-label">Acceptés</span>
+          </div>
+          <div class="hk-card review">
+            <span class="hk-val">{{ reviewCount }}</span>
+            <span class="hk-label">En révision</span>
+          </div>
+          <div class="hk-card reject">
+            <span class="hk-val">{{ rejectCount }}</span>
+            <span class="hk-label">Rejetés</span>
+          </div>
+          <div class="hk-card score">
+            <span class="hk-val">{{ avgScore }}</span>
+            <span class="hk-label">Score moyen</span>
+          </div>
+        </div>
+
+        <!-- Filter + table -->
+        <div class="table-card">
+          <div class="tc-header">
+            <div class="tc-title">
+              <div class="agent-chip">
+                <div class="ac-avatar">{{ selectedAgent.username.slice(0,2).toUpperCase() }}</div>
+                <span>{{ selectedAgent.username }}</span>
+              </div>
+            </div>
+            <p-select
+              [(ngModel)]="decisionFilter"
+              [options]="decisionOptions"
+              optionLabel="label"
+              optionValue="value"
+              placeholder="Filtrer par décision"
+              styleClass="filter-select"
+            />
+          </div>
+
+          <p-table
+            [value]="filteredHistory"
+            [loading]="loading"
+            [paginator]="true"
+            [rows]="8"
+            [showCurrentPageReport]="true"
+            currentPageReportTemplate="{first}–{last} sur {totalRecords}"
+            sortMode="single"
+            styleClass="p-datatable-sm"
+          >
+            <ng-template pTemplate="header">
+              <tr>
+                <th pSortableColumn="lcReference">Référence LC <p-sortIcon field="lcReference" /></th>
+                <th pSortableColumn="decision">Décision <p-sortIcon field="decision" /></th>
+                <th pSortableColumn="score">Score <p-sortIcon field="score" /></th>
+                <th pSortableColumn="warnings">Alertes <p-sortIcon field="warnings" /></th>
+                <th pSortableColumn="contradictions">Contradictions <p-sortIcon field="contradictions" /></th>
+                <th pSortableColumn="analyzedAt">Date <p-sortIcon field="analyzedAt" /></th>
+                <th>Rapports</th>
+              </tr>
+            </ng-template>
+
+            <ng-template pTemplate="body" let-h>
+              <tr>
+                <td class="ref-cell">
+                  <i class="pi pi-file"></i>
+                  {{ h.lcReference }}
+                </td>
+                <td>
+                  <p-tag [value]="decisionLabel(h.decision)" [severity]="decisionSeverity(h.decision)" />
+                </td>
+                <td>
+                  <div class="score-cell">
+                    <div class="score-bar">
+                      <div class="sb-fill" [style.width]="h.score + '%'" [class.good]="h.score >= 70" [class.mid]="h.score >= 50 && h.score < 70" [class.low]="h.score < 50"></div>
+                    </div>
+                    <span class="score-val">{{ h.score }}</span>
+                  </div>
+                </td>
+                <td>
+                  @if (h.warnings > 0) {
+                    <span class="badge warn">{{ h.warnings }}</span>
+                  } @else {
+                    <span class="text-muted">—</span>
+                  }
+                </td>
+                <td>
+                  @if (h.contradictions > 0) {
+                    <span class="badge err">{{ h.contradictions }}</span>
+                  } @else {
+                    <span class="text-muted">—</span>
+                  }
+                </td>
+                <td class="date-cell">{{ formatDate(h.analyzedAt) }}</td>
+                <td class="report-cell">
+                  @for (r of reportsFor(h.id); track r.id) {
+                    <button class="rep-btn" [class.full]="r.reportType === 'FULL_REPORT'"
+                            (click)="openReport(r)"
+                            [title]="r.reportType === 'FULL_REPORT' ? 'Voir rapport complet' : 'Voir rapport MT700'">
+                      <i class="pi pi-file-pdf"></i>{{ r.reportType === 'FULL_REPORT' ? 'Complet' : 'MT700' }}
+                    </button>
+                  }
+                  @if (reportsFor(h.id).length === 0) {
+                    <button class="rep-btn gen" (click)="generateReport(h.id, 'MT700_REPORT')"
+                            [disabled]="reportBusyId === h.id">
+                      <i class="pi pi-plus"></i>{{ reportBusyId === h.id ? '…' : 'Générer' }}
+                    </button>
+                  }
+                </td>
+              </tr>
+            </ng-template>
+
+            <ng-template pTemplate="emptymessage">
+              <tr>
+                <td colspan="7" class="empty-row">Aucune analyse pour ce filtre</td>
+              </tr>
+            </ng-template>
+          </p-table>
+        </div>
+      }
+    </div>
+  </div>
+</div>

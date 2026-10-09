@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00544",
+  "filename": "inv_inv-14_00544.pdf",
+  "layout_id": "INV-14",
+  "bl_id": 544,
+  "fields": {
+    "invoice_number": "INV-2026-00544",
+    "invoice_date": "02 MAY 2026",
+    "lc_reference": "LC/BNP/0544/2026",
+    "bl_reference": "MSCUNAFWV782975708",
+    "seller_name": "APEX INDUSTRIES LLC",
+    "buyer_name": "TRANS SHIPPING PLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE83S",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "PHARMACEUTICAL PRODUCTS NEC",
+    "hs_code": "8428.90",
+    "quantity": 431,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "8,749.85",
+    "unit_price": 592.7,
+    "currency": "USD",
+    "total_amount": 255453.7,
+    "incoterm": "EXW",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        208.63,
+        27.78
+      ],
+      "value": "INV-2026-00544",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        136.06,
+        166.9,
+        42.52
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        136.06,
+        62.59,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        136.06,
+        52.16,
+        42.52
+      ],
+      "value": "431",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        136.06,
+        52.16,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        136.06,
+        93.88,
+        42.52
+      ],
+      "value": "592.7 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        136.06,
+        93.88,
+        42.52
+      ],
+      "value": "255453.7 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        187.09,
+        323.38,
+        79.37
+      ],
+      "value": "APEX INDUSTRIES LLC\nAPEX INDUSTRIES LLC\n238 TRADE PARK\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        187.09,
+        198.2,
+        79.37
+      ],
+      "value": "TRANS SHIPPING PLC\nTRANS SHIPPING PLC\n704 INDUSTRIAL AVENUE\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "02 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        209.29,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "LC/BNP/0544/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        383.15,
+        284.88,
+        173.86,
+        18.43
+      ],
+      "value": "MSCUNAFWV782975708",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        35.43,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        209.29,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        383.15,
+        313.23,
+        173.86,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        340.16,
+        117.35,
+        19.84
+      ],
+      "value": "8,749.85 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        360.0,
+        117.35,
+        19.84
+      ],
+      "value": "255453.7 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        398.27,
+        173.86,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        209.29,
+        398.27,
+        173.86,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PHARMACEUTICAL PRODUCTS",
+      "actual": "PHARMACEUTICAL PRODUCTS NEC"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "MUMBAI, INDIA",
+      "actual": "VALENCIA, SPAIN"
+    }
+  ]
+}

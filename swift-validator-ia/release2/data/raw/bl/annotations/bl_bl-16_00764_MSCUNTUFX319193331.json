@@ -1,0 +1,409 @@
+{
+  "id": 764,
+  "filename": "bl_bl-16_00764_MSCUNTUFX319193331.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNTUFX319193331",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTUFX319193331",
+    "shipper_name": "ATLANTIC PARTNERS LTD",
+    "shipper_address": "93 MAIN STREET",
+    "consignee_name": "EURO SOLUTIONS PLC",
+    "consignee_address": "360 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL LOGISTICS LLC",
+    "notify_party_address": "198 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-178",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "14 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "CMAU4866697",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "9CB6D1C6",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "211 CARTONS",
+    "gross_weight_kg": "39,374.77",
+    "measurement": "89.849 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4866697",
+        "seal_number": "9CB6D1C6",
+        "container_type": "20' OPEN TOP",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "211",
+          "type": "CARTONS",
+          "description": "211 CARTONS"
+        },
+        "gross_weight_kg": "13,828.99",
+        "net_weight_kg": "11,583.79",
+        "measurement": "52.104 CBM"
+      },
+      {
+        "container_number": "EISU1625305",
+        "seal_number": "6FBA4258",
+        "container_type": "20' FLAT RACK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "466",
+          "type": "DRUMS",
+          "description": "466 DRUMS"
+        },
+        "gross_weight_kg": "25,545.78",
+        "net_weight_kg": "22,568.64",
+        "measurement": "37.745 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNTUFX319193331",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "E-178",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU4866697",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "9CB6D1C6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '211', 'type': 'CARTONS', 'description': '211 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "13,828.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "52.104 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        253.7,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1625305",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "6FBA4258",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        253.7,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        253.7,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '466', 'type': 'DRUMS', 'description': '466 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "25,545.78",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "37.745 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC PARTNERS LTD\n93 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "EURO SOLUTIONS PLC\n360 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "INTERNATIONAL LOGISTICS LLC\n198 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

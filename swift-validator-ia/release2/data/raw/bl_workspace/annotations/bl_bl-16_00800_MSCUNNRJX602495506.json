@@ -1,0 +1,409 @@
+{
+  "id": 800,
+  "filename": "bl_bl-16_00800_MSCUNNRJX602495506.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNNRJX602495506",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNRJX602495506",
+    "shipper_name": "ATLANTIC PARTNERS CO.",
+    "shipper_address": "336 MAIN STREET",
+    "consignee_name": "APEX PARTNERS CO.",
+    "consignee_address": "519 PORT ACCESS ROAD",
+    "notify_party_name": "TRANS TRADING LTD",
+    "notify_party_address": "156 HARBOR ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0417E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "12 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "HLCU9077761",
+    "container_type": "40' REEFER",
+    "seal_number": "8FF34CB4",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "157 PALLETS",
+    "gross_weight_kg": "49,191.35",
+    "measurement": "84.633 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU9077761",
+        "seal_number": "8FF34CB4",
+        "container_type": "40' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "157",
+          "type": "PALLETS",
+          "description": "157 PALLETS"
+        },
+        "gross_weight_kg": "22,994.68",
+        "net_weight_kg": "20,141.18",
+        "measurement": "51.642 CBM"
+      },
+      {
+        "container_number": "EISU1892637",
+        "seal_number": "EBHE089D",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "270",
+          "type": "BOXES",
+          "description": "270 BOXES"
+        },
+        "gross_weight_kg": "26,196.67",
+        "net_weight_kg": "23,426.11",
+        "measurement": "32.991 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNNRJX602495506",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "0417E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU9077761",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "8FF34CB4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '157', 'type': 'PALLETS', 'description': '157 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "22,994.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "51.642 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        253.7,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1892637",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "EBHE089D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        253.7,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        253.7,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '270', 'type': 'BOXES', 'description': '270 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "26,196.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "32.991 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC PARTNERS CO.\n336 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "APEX PARTNERS CO.\n519 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "TRANS TRADING LTD\n156 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

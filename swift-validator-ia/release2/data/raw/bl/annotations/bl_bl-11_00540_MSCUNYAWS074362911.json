@@ -1,0 +1,500 @@
+{
+  "id": 540,
+  "filename": "bl_bl-11_00540_MSCUNYAWS074362911.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNYAWS074362911",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYAWS074362911",
+    "shipper_name": "CENTRAL SUPPLY CHAIN PLC",
+    "shipper_address": "259 PORT ACCESS ROAD",
+    "consignee_name": "GLOBAL SUPPLY CHAIN S.A.",
+    "consignee_address": "512 MAIN STREET",
+    "notify_party_name": "ATLANTIC SUPPLY CHAIN INC",
+    "notify_party_address": "533 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS229N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "31 MAY 2026",
+    "eta": "20 JUN 2026",
+    "container_number": "CMAU8195568",
+    "container_type": "20' TANK",
+    "seal_number": "469E72GB",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "149 PACKAGES",
+    "gross_weight_kg": "75,702.01",
+    "measurement": "132.120 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU8195568",
+        "seal_number": "469E72GB",
+        "container_type": "20' TANK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "149",
+          "type": "PACKAGES",
+          "description": "149 PACKAGES"
+        },
+        "gross_weight_kg": "22,791.27",
+        "net_weight_kg": "20,245.99",
+        "measurement": "27.928 CBM"
+      },
+      {
+        "container_number": "EISU7564401",
+        "seal_number": "95350328",
+        "container_type": "40' FLAT RACK",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "61",
+          "type": "BOXES",
+          "description": "61 BOXES"
+        },
+        "gross_weight_kg": "25,620.67",
+        "net_weight_kg": "21,980.15",
+        "measurement": "58.790 CBM"
+      },
+      {
+        "container_number": "MAEU6719771",
+        "seal_number": "FB7G2G6E",
+        "container_type": "20' DRY",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "359",
+          "type": "CARTONS",
+          "description": "359 CARTONS"
+        },
+        "gross_weight_kg": "27,290.07",
+        "net_weight_kg": "24,582.14",
+        "measurement": "45.402 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "22 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNYAWS074362911",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "CS229N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL SUPPLY CHAIN PLC\n259 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN S.A.\n512 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN INC\n533 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU8195568",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "469E72GB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '149', 'type': 'PACKAGES', 'description': '149 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "22,791.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "27.928 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "EISU7564401",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "95350328",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '61', 'type': 'BOXES', 'description': '61 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "25,620.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "58.790 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        411.02,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6719771",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "FB7G2G6E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        411.02,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        411.02,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '359', 'type': 'CARTONS', 'description': '359 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "27,290.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "45.402 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

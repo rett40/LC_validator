@@ -1,0 +1,409 @@
+{
+  "id": 179,
+  "filename": "bl_bl-05_00179_MSCUNLMMB492263205.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNLMMB492263205",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLMMB492263205",
+    "shipper_name": "APEX SOLUTIONS S.A.",
+    "shipper_address": "479 INDUSTRIAL AVENUE",
+    "consignee_name": "DELTA SHIPPING GMBH",
+    "consignee_address": "115 HARBOR ROAD",
+    "notify_party_name": "ATLANTIC SHIPPING PLC",
+    "notify_party_address": "789 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-916",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "27 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "TCKU4772262",
+    "container_type": "45'HC",
+    "seal_number": "0A71GDB0",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "427 PALLETS",
+    "gross_weight_kg": "44,117.47",
+    "measurement": "81.782 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4772262",
+        "seal_number": "0A71GDB0",
+        "container_type": "45'HC",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "427",
+          "type": "PALLETS",
+          "description": "427 PALLETS"
+        },
+        "gross_weight_kg": "20,689.96",
+        "net_weight_kg": "17,448.38",
+        "measurement": "20.606 CBM"
+      },
+      {
+        "container_number": "HLCU8271393",
+        "seal_number": "F16E8FEF",
+        "container_type": "20' DRY / GP",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "411",
+          "type": "BAGS",
+          "description": "411 BAGS"
+        },
+        "gross_weight_kg": "23,427.51",
+        "net_weight_kg": "21,292.97",
+        "measurement": "61.176 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNLMMB492263205",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "APEX SOLUTIONS S.A.\n479 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "DELTA SHIPPING GMBH\n115 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "ATLANTIC SHIPPING PLC\n789 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU4772262",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "0A71GDB0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '427', 'type': 'PALLETS', 'description': '427 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "20,689.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "20.606 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "HLCU8271393",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "F16E8FEF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '411', 'type': 'BAGS', 'description': '411 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "23,427.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "61.176 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "E-916",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        544.25,
+        264.33,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "doc_type": "invoice",
+  "model_name": "microsoft/layoutlmv3-base",
+  "epochs": 5,
+  "batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "effective_batch_size": 8,
+  "learning_rate": 2e-05,
+  "lr_scheduler_type": "cosine",
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "label_smoothing": 0.1,
+  "use_class_weights": true,
+  "bbox_jitter": 5,
+  "bbox_jitter_mode": "per_token_independent",
+  "seed": 42,
+  "fp16": true,
+  "bf16": false,
+  "gradient_checkpointing": false,
+  "num_labels": 41,
+  "early_stopping_patience": 7
+}

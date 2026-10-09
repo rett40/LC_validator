@@ -1,0 +1,318 @@
+{
+  "id": 575,
+  "filename": "bl_bl-12_00575_MSCUNHJKP108838314.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNHJKP108838314",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNHJKP108838314",
+    "shipper_name": "APEX INDUSTRIES BV",
+    "shipper_address": "735 HARBOR ROAD",
+    "consignee_name": "APEX TRADING INC",
+    "consignee_address": "595 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST SHIPPING PLC",
+    "notify_party_address": "188 HARBOR ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6439",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "03 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "MSCU2959511",
+    "container_type": "40' DRY",
+    "seal_number": "8GCAECA7",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "227 PACKAGES",
+    "gross_weight_kg": "26,049.22",
+    "measurement": "52.975 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU2959511",
+        "seal_number": "8GCAECA7",
+        "container_type": "40' DRY",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "227",
+          "type": "PACKAGES",
+          "description": "227 PACKAGES"
+        },
+        "gross_weight_kg": "26,049.22",
+        "net_weight_kg": "22,689.52",
+        "measurement": "52.975 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNHJKP108838314",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "APEX INDUSTRIES BV\n735 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "APEX TRADING INC\n595 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST SHIPPING PLC\n188 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2959511",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "8GCAECA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '227', 'type': 'PACKAGES', 'description': '227 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "26,049.22",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "52.975 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        483.87,
+        265.29,
+        15.31
+      ],
+      "value": "AL6439",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        517.89,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        551.91,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        585.92,
+        265.29,
+        15.31
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        625.04,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        653.39,
+        265.29,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        681.73,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

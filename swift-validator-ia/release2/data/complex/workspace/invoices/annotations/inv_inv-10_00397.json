@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00397",
+  "filename": "inv_inv-10_00397.pdf",
+  "layout_id": "INV-10",
+  "bl_id": 397,
+  "fields": {
+    "invoice_number": "INV-2026-00397",
+    "invoice_date": "30 APR 2026",
+    "lc_reference": "LC/SCB/0397/2026",
+    "bl_reference": "MSCUNJBMX988039126",
+    "seller_name": "PREMIER SHIPPING AG",
+    "buyer_name": "UNITED INDUSTRIES PLC",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE433N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "VULCANIZED RUBBER ARTICLES",
+    "hs_code": "4016.99",
+    "quantity": 131,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "20,094.00",
+    "unit_price": 13.57,
+    "currency": "EUR",
+    "total_amount": 1777.67,
+    "incoterm": "FCA",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        211.46,
+        27.78
+      ],
+      "value": "INV-2026-00397",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        120.47,
+        306.62,
+        56.69
+      ],
+      "value": "VULCANIZED RUBBER ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        384.95,
+        120.47,
+        68.12,
+        28.35
+      ],
+      "value": "4016.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        475.97,
+        120.47,
+        88.12,
+        28.35
+      ],
+      "value": 131,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        367.17,
+        148.82,
+        85.91,
+        28.35
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        504.86,
+        148.82,
+        59.23,
+        28.35
+      ],
+      "value": "13.57 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        326.2,
+        182.83,
+        237.9,
+        25.51
+      ],
+      "value": "1777.67 EUR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        98.34,
+        216.85,
+        201.43,
+        28.35
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        332.88,
+        216.85,
+        231.21,
+        28.35
+      ],
+      "value": "LC/SCB/0397/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        105.45,
+        245.2,
+        194.31,
+        28.35
+      ],
+      "value": "MSCUNJBMX988039126",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        348.88,
+        245.2,
+        215.22,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        124.11,
+        273.54,
+        175.65,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        323.1,
+        273.54,
+        240.99,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        310.39,
+        528.66,
+        52.44
+      ],
+      "value": "PREMIER SHIPPING AG\nPREMIER SHIPPING AG\n81 HARBOR ROAD\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        35.43,
+        362.83,
+        528.66,
+        52.44
+      ],
+      "value": "UNITED INDUSTRIES PLC\nUNITED INDUSTRIES PLC\n455 MAIN BOULEVARD\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.15,
+        423.78,
+        118.95,
+        19.84
+      ],
+      "value": "20,094.00 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.15,
+        443.62,
+        118.95,
+        19.84
+      ],
+      "value": "1777.67 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        110.78,
+        471.97,
+        188.99,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        348.88,
+        471.97,
+        215.22,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "RUBBER PRODUCTS AND TYRES",
+      "actual": "VULCANIZED RUBBER ARTICLES"
+    }
+  ]
+}

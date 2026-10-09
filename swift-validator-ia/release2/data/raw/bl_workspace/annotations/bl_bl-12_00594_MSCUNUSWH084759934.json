@@ -1,0 +1,409 @@
+{
+  "id": 594,
+  "filename": "bl_bl-12_00594_MSCUNUSWH084759934.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNUSWH084759934",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUSWH084759934",
+    "shipper_name": "ATLANTIC LOGISTICS INC",
+    "shipper_address": "342 TRADE PARK",
+    "consignee_name": "PREMIER PARTNERS CO.",
+    "consignee_address": "41 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED ENTERPRISES LTD",
+    "notify_party_address": "43 COMMERCE BOULEVARD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0616W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "11 MAY 2026",
+    "eta": "07 JUN 2026",
+    "container_number": "MAEU6503900",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "ED55282B",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "277 DRUMS",
+    "gross_weight_kg": "39,156.28",
+    "measurement": "63.084 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU6503900",
+        "seal_number": "ED55282B",
+        "container_type": "40' FLAT RACK",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "277",
+          "type": "DRUMS",
+          "description": "277 DRUMS"
+        },
+        "gross_weight_kg": "20,242.12",
+        "net_weight_kg": "16,927.02",
+        "measurement": "37.604 CBM"
+      },
+      {
+        "container_number": "MAEU8363283",
+        "seal_number": "7GG83HEA",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "407",
+          "type": "BAGS",
+          "description": "407 BAGS"
+        },
+        "gross_weight_kg": "18,914.16",
+        "net_weight_kg": "16,263.50",
+        "measurement": "25.480 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNUSWH084759934",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "ATLANTIC LOGISTICS INC\n342 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER PARTNERS CO.\n41 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED ENTERPRISES LTD\n43 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6503900",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "ED55282B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '277', 'type': 'DRUMS', 'description': '277 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "20,242.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "37.604 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8363283",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "7GG83HEA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '407', 'type': 'BAGS', 'description': '407 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "18,914.16",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "25.480 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "0616W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        718.58,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

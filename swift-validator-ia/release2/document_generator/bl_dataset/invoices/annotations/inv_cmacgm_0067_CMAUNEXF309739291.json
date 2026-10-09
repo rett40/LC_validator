@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00067",
+  "filename": "inv_cmacgm_0067_CMAUNEXF309739291.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 67,
+  "fields": {
+    "invoice_number": "INV-2026-00067",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0067/2026",
+    "bl_reference": "CMAUNEXF309739291",
+    "seller_name": "DELTA PARTNERS S.A.",
+    "buyer_name": "INTERNATIONAL SHIPPING INC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-369",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "MEDICAL DEVICES AND EQUIPMENT",
+    "hs_code": "9018.90",
+    "quantity": 35,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "9,319.16",
+    "unit_price": 204.39,
+    "currency": "GBP",
+    "total_amount": 7153.65,
+    "incoterm": "CIP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00067",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/BARCLAYS/0067/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "DELTA PARTNERS S.A.\n96 COMMERCE STREET\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "INTERNATIONAL SHIPPING INC\n227 HARBOR ROAD\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "E-369",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUNEXF309739291",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "35",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 204.39",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 7,153.65",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "GBP 7,153.65",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "MUMBAI, INDIA",
+      "actual": "TOKYO, JAPAN"
+    }
+  ]
+}

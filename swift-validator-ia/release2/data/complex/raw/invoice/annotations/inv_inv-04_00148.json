@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00148",
+  "filename": "inv_inv-04_00148.pdf",
+  "layout_id": "INV-04",
+  "bl_id": 148,
+  "fields": {
+    "invoice_number": "INV-2026-00148",
+    "invoice_date": "08 MAY 2026",
+    "lc_reference": "LC/BNP/0148/2026",
+    "bl_reference": "MSCUNAMUE774571731",
+    "seller_name": "ATLANTIC GROUP INC",
+    "buyer_name": "ATLANTIC SHIPPING BV",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-580",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "goods_description": "REFINED OLIVE OIL",
+    "hs_code": "8428.90",
+    "quantity": 465,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "17,657.26",
+    "unit_price": 250.81,
+    "currency": "USD",
+    "total_amount": 116626.65,
+    "incoterm": "CIF",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        319.82,
+        18.43,
+        244.28,
+        70.87
+      ],
+      "value": "INV-2026-00148",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        84.16,
+        97.8,
+        118.04,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        237.55,
+        97.8,
+        145.6,
+        28.35
+      ],
+      "value": "LC/BNP/0148/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        453.17,
+        97.8,
+        110.93,
+        28.35
+      ],
+      "value": "MSCUNAMUE774571731",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        97.5,
+        126.14,
+        104.7,
+        28.35
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        299.77,
+        126.14,
+        83.38,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        460.26,
+        126.14,
+        103.83,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        162.99,
+        314.84,
+        56.69
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        379.0,
+        162.99,
+        71.1,
+        28.35
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        473.0,
+        162.99,
+        91.1,
+        28.35
+      ],
+      "value": 465,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        361.22,
+        191.34,
+        88.88,
+        28.35
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        501.88,
+        191.34,
+        62.21,
+        28.35
+      ],
+      "value": "250.81 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        225.35,
+        244.28,
+        25.51
+      ],
+      "value": "116626.65 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        259.37,
+        542.83,
+        52.44
+      ],
+      "value": "ATLANTIC GROUP INC\nATLANTIC GROUP INC\n521 COMMERCE STREET\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        311.81,
+        542.83,
+        52.44
+      ],
+      "value": "ATLANTIC SHIPPING BV\nATLANTIC SHIPPING BV\n19 COMMERCE STREET\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        372.76,
+        122.14,
+        19.84
+      ],
+      "value": "17,657.26 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        392.6,
+        122.14,
+        19.84
+      ],
+      "value": "116626.65 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        96.6,
+        420.94,
+        105.6,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        251.32,
+        420.94,
+        131.83,
+        25.51
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "TIANJIN, CHINA",
+      "actual": "MUMBAI, INDIA"
+    }
+  ]
+}

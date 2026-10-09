@@ -1,0 +1,318 @@
+{
+  "id": 1078,
+  "filename": "bl_bl-27_01078_MSCUNAGKX639581823.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNAGKX639581823",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNAGKX639581823",
+    "shipper_name": "TRANS SUPPLY CHAIN CO.",
+    "shipper_address": "68 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL SHIPPING AG",
+    "consignee_address": "843 PORT ACCESS ROAD",
+    "notify_party_name": "UNITED PARTNERS INC",
+    "notify_party_address": "41 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS149S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "05 JUN 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "MSCU4903074",
+    "container_type": "40' DRY",
+    "seal_number": "3CB119D1",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "53 PACKAGES",
+    "gross_weight_kg": "8,720.32",
+    "measurement": "62.012 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU4903074",
+        "seal_number": "3CB119D1",
+        "container_type": "40' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "53",
+          "type": "PACKAGES",
+          "description": "53 PACKAGES"
+        },
+        "gross_weight_kg": "8,720.32",
+        "net_weight_kg": "6,682.04",
+        "measurement": "62.012 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNAGKX639581823",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "MSCU4903074",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "3CB119D1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '53', 'type': 'PACKAGES', 'description': '53 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "8,720.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "62.012 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        202.68,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        231.02,
+        266.46,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        259.37,
+        266.46,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN CO.\n68 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        301.89,
+        266.46,
+        79.37
+      ],
+      "value": "INTERNATIONAL SHIPPING AG\n843 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        392.6,
+        266.46,
+        79.37
+      ],
+      "value": "UNITED PARTNERS INC\n41 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        588.19,
+        266.46,
+        24.09
+      ],
+      "value": "CS149S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        622.2,
+        266.46,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        656.22,
+        266.46,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        690.24,
+        266.46,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    }
+  ]
+}

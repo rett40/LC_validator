@@ -1,0 +1,409 @@
+{
+  "id": 562,
+  "filename": "bl_bl-12_00562_MSCUNWAMD546218948.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNWAMD546218948",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNWAMD546218948",
+    "shipper_name": "UNITED ENTERPRISES GMBH",
+    "shipper_address": "135 MARKET STREET",
+    "consignee_name": "CENTRAL SOLUTIONS S.A.",
+    "consignee_address": "110 HARBOR ROAD",
+    "notify_party_name": "TRANS PARTNERS CO.",
+    "notify_party_address": "382 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-768",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "29 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "OOLU6792513",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "D00E733B",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "351 CRATES",
+    "gross_weight_kg": "36,758.70",
+    "measurement": "80.529 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU6792513",
+        "seal_number": "D00E733B",
+        "container_type": "20' FLAT RACK",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "351",
+          "type": "CRATES",
+          "description": "351 CRATES"
+        },
+        "gross_weight_kg": "25,881.02",
+        "net_weight_kg": "22,248.86",
+        "measurement": "20.430 CBM"
+      },
+      {
+        "container_number": "TRHU9884966",
+        "seal_number": "4EEA3GCA",
+        "container_type": "40' DRY",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "182",
+          "type": "BAGS",
+          "description": "182 BAGS"
+        },
+        "gross_weight_kg": "10,877.68",
+        "net_weight_kg": "7,323.58",
+        "measurement": "60.099 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "29 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNWAMD546218948",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED ENTERPRISES GMBH\n135 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "CENTRAL SOLUTIONS S.A.\n110 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS PARTNERS CO.\n382 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6792513",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "D00E733B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '351', 'type': 'CRATES', 'description': '351 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "25,881.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "20.430 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9884966",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "4EEA3GCA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '182', 'type': 'BAGS', 'description': '182 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "10,877.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "60.099 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "E-768",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        718.58,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

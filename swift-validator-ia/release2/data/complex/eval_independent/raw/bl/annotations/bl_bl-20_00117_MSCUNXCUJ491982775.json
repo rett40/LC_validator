@@ -1,0 +1,444 @@
+{
+  "id": 117,
+  "filename": "bl_bl-20_00117_MSCUNXCUJ491982775.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNXCUJ491982775",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNXCUJ491982775",
+    "shipper": {
+      "name": "CENTRAL SHIPPING AG",
+      "address": "228 INDUSTRIAL AVENUE",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "CENTRAL SHIPPING AG\n228 INDUSTRIAL AVENUE\nSHANGHAI, CHINA 200120"
+    },
+    "consignee": {
+      "name": "PREMIER PARTNERS LTD",
+      "address": "709 MAIN STREET",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "PREMIER PARTNERS LTD\n709 MAIN STREET\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "ATLANTIC ENTERPRISES CO.",
+      "address": "384 HARBOR ROAD",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "ATLANTIC ENTERPRISES CO.\n384 HARBOR ROAD\nNEW YORK, USA NY 10001"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-884",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "03 JUL 2026",
+    "eta": "19 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "MSCU9415316",
+    "container_type": "20' REEFER",
+    "seal_number": "DD2C2DF0",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": {
+      "count": "255",
+      "type": "PACKAGES",
+      "description": "255 PACKAGES"
+    },
+    "gross_weight_kg": "23,820.11",
+    "net_weight_kg": "18,043.33",
+    "gross_weight_lbs": "52,514.29",
+    "measurement": "82.852 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU9415316",
+        "seal_number": "DD2C2DF0",
+        "container_type": "20' REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "255",
+          "type": "PACKAGES",
+          "description": "255 PACKAGES"
+        },
+        "gross_weight_kg": "5,310.08",
+        "net_weight_kg": "2,102.00",
+        "measurement": "26.754 CBM"
+      },
+      {
+        "container_number": "TRHU4078948",
+        "seal_number": "157ECB58",
+        "container_type": "20' TANK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "482",
+          "type": "PACKAGES",
+          "description": "482 PACKAGES"
+        },
+        "gross_weight_kg": "18,510.03",
+        "net_weight_kg": "15,941.33",
+        "measurement": "56.098 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "DPU",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY",
+    "marks_numbers": "MSCU9415316\nDD2C2DF0\nROTTERDAM"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNXCUJ491982775",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "E-884",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "19 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "CENTRAL SHIPPING AG\n228 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER PARTNERS LTD\n709 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "ATLANTIC ENTERPRISES CO.\n384 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU9415316",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "DD2C2DF0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '255', 'type': 'PACKAGES', 'description': '255 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "5,310.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "26.754 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU4078948",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "157ECB58",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '482', 'type': 'PACKAGES', 'description': '482 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "18,510.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "56.098 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        667.56,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

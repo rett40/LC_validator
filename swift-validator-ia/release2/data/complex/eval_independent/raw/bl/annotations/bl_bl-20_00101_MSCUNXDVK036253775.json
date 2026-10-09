@@ -1,0 +1,444 @@
+{
+  "id": 101,
+  "filename": "bl_bl-20_00101_MSCUNXDVK036253775.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNXDVK036253775",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNXDVK036253775",
+    "shipper": {
+      "name": "APEX PARTNERS LLC",
+      "address": "506 HARBOR ROAD",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "APEX PARTNERS LLC\n506 HARBOR ROAD\nSHANGHAI, CHINA 200120"
+    },
+    "consignee": {
+      "name": "PACIFIC LOGISTICS LLC",
+      "address": "492 MARKET STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "PACIFIC LOGISTICS LLC\n492 MARKET STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "notify_party": {
+      "name": "PACIFIC INDUSTRIES LTD",
+      "address": "613 MAIN STREET",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "PACIFIC INDUSTRIES LTD\n613 MAIN STREET\nHAMBURG, GERMANY 20095"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0817N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "05 JUN 2026",
+    "eta": "04 JUL 2026",
+    "issue_date": "15 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "TRHU0776923",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "B4D6HAF1",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": {
+      "count": "345",
+      "type": "PACKAGES",
+      "description": "345 PACKAGES"
+    },
+    "gross_weight_kg": "40,691.79",
+    "net_weight_kg": "36,290.30",
+    "gross_weight_lbs": "89,709.93",
+    "measurement": "80.179 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU0776923",
+        "seal_number": "B4D6HAF1",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "345",
+          "type": "PACKAGES",
+          "description": "345 PACKAGES"
+        },
+        "gross_weight_kg": "13,617.08",
+        "net_weight_kg": "11,509.28",
+        "measurement": "53.926 CBM"
+      },
+      {
+        "container_number": "OOLU9260416",
+        "seal_number": "GF017CB6",
+        "container_type": "20' REEFER",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "332",
+          "type": "DRUMS",
+          "description": "332 DRUMS"
+        },
+        "gross_weight_kg": "27,074.71",
+        "net_weight_kg": "24,781.02",
+        "measurement": "26.253 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "PREPAID",
+    "incoterm": "FAS",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "TRHU0776923\nB4D6HAF1\nANTWERP"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNXDVK036253775",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "0817N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "APEX PARTNERS LLC\n506 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC LOGISTICS LLC\n492 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC INDUSTRIES LTD\n613 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU0776923",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "B4D6HAF1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '345', 'type': 'PACKAGES', 'description': '345 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "13,617.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "53.926 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU9260416",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "GF017CB6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '332', 'type': 'DRUMS', 'description': '332 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "27,074.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "26.253 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        610.87,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "15 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        639.21,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        667.56,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

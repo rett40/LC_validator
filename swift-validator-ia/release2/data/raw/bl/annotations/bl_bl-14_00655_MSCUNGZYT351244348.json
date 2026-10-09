@@ -1,0 +1,318 @@
+{
+  "id": 655,
+  "filename": "bl_bl-14_00655_MSCUNGZYT351244348.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNGZYT351244348",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGZYT351244348",
+    "shipper_name": "APEX SHIPPING BV",
+    "shipper_address": "574 MARKET STREET",
+    "consignee_name": "UNITED COMMERCE CORP",
+    "consignee_address": "554 TRADE PARK",
+    "notify_party_name": "PREMIER LOGISTICS S.A.",
+    "notify_party_address": "949 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE85N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "30 MAY 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "TRHU9453469",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "17929D8D",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "324 CARTONS",
+    "gross_weight_kg": "17,762.93",
+    "measurement": "49.015 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9453469",
+        "seal_number": "17929D8D",
+        "container_type": "40' OPEN TOP",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "324",
+          "type": "CARTONS",
+          "description": "324 CARTONS"
+        },
+        "gross_weight_kg": "17,762.93",
+        "net_weight_kg": "14,803.01",
+        "measurement": "49.015 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNGZYT351244348",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9453469",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "17929D8D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '324', 'type': 'CARTONS', 'description': '324 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "17,762.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "49.015 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "AE85N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "APEX SHIPPING BV\n574 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED COMMERCE CORP\n554 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER LOGISTICS S.A.\n949 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

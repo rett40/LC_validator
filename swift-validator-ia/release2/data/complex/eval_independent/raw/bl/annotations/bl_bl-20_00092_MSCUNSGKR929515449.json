@@ -1,0 +1,353 @@
+{
+  "id": 92,
+  "filename": "bl_bl-20_00092_MSCUNSGKR929515449.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNSGKR929515449",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNSGKR929515449",
+    "shipper": {
+      "name": "GLOBAL ENTERPRISES PLC",
+      "address": "846 INDUSTRIAL AVENUE",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "GLOBAL ENTERPRISES PLC\n846 INDUSTRIAL AVENUE\nANTWERP, BELGIUM 2000"
+    },
+    "consignee": {
+      "name": "DELTA COMMERCE CORP",
+      "address": "766 INDUSTRIAL AVENUE",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "DELTA COMMERCE CORP\n766 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "notify_party": {
+      "name": "FIRST GROUP LTD",
+      "address": "346 TRADE PARK",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "FIRST GROUP LTD\n346 TRADE PARK\nNEW YORK, USA NY 10001"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE23S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "21 JUN 2026",
+    "eta": "17 JUL 2026",
+    "issue_date": "20 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "MAEU6480155",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "80572EF6",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": {
+      "count": "119",
+      "type": "CARTONS",
+      "description": "119 CARTONS"
+    },
+    "gross_weight_kg": "11,867.71",
+    "net_weight_kg": "9,864.55",
+    "gross_weight_lbs": "26,163.79",
+    "measurement": "40.240 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU6480155",
+        "seal_number": "80572EF6",
+        "container_type": "20' FLAT RACK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "119",
+          "type": "CARTONS",
+          "description": "119 CARTONS"
+        },
+        "gross_weight_kg": "11,867.71",
+        "net_weight_kg": "9,864.55",
+        "measurement": "40.240 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "COLLECT",
+    "incoterm": "FAS",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "MAEU6480155\n80572EF6\nVALENCIA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNSGKR929515449",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "AE23S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "17 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "GLOBAL ENTERPRISES PLC\n846 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "DELTA COMMERCE CORP\n766 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST GROUP LTD\n346 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6480155",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "80572EF6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '119', 'type': 'CARTONS', 'description': '119 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "11,867.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "40.240 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00285",
+  "filename": "inv_msc_0285_MSCUNHBWB304347631.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 285,
+  "fields": {
+    "invoice_number": "INV-2026-00285",
+    "invoice_date": "16 APR 2026",
+    "lc_reference": "LC/HSBC/0285/2026",
+    "bl_reference": "MSCUNHBWB304347631",
+    "seller_name": "UNITED TRADING LTD",
+    "buyer_name": "PACIFIC SHIPPING LLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0106W",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "MEDICAL DEVICES AND EQUIPMENT",
+    "hs_code": "9018.90",
+    "quantity": 284,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "8,612.22",
+    "unit_price": 191.81,
+    "currency": "GBP",
+    "total_amount": 54473.01,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00285",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MSCUNHBWB304347631",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "UNITED TRADING LTD\n916 EXPORT ZONE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "PACIFIC SHIPPING LLC\n781 INDUSTRIAL AVENUE\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "0106W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNHBWB304347631",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "284",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 191.81",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 54,473.01",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "GBP 54,473.01",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "50486.68 USD",
+      "actual": "54473.01 USD"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

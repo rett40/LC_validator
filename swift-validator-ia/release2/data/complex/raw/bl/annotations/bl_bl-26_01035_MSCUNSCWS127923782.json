@@ -1,0 +1,500 @@
+{
+  "id": 1035,
+  "filename": "bl_bl-26_01035_MSCUNSCWS127923782.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNSCWS127923782",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSCWS127923782",
+    "shipper_name": "UNITED LOGISTICS LTD",
+    "shipper_address": "330 MAIN STREET",
+    "consignee_name": "DELTA GROUP S.A.",
+    "consignee_address": "857 MARKET STREET",
+    "notify_party_name": "CENTRAL TRADING BV",
+    "notify_party_address": "482 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE37E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "27 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "TCKU2332122",
+    "container_type": "40'OT",
+    "seal_number": "8H3BBD23",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": "322 CARTONS",
+    "gross_weight_kg": "52,286.28",
+    "measurement": "117.473 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU2332122",
+        "seal_number": "8H3BBD23",
+        "container_type": "40'OT",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "322",
+          "type": "CARTONS",
+          "description": "322 CARTONS"
+        },
+        "gross_weight_kg": "25,447.77",
+        "net_weight_kg": "22,880.68",
+        "measurement": "37.046 CBM"
+      },
+      {
+        "container_number": "MSCU9469618",
+        "seal_number": "BD040E6C",
+        "container_type": "40'RF",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "241",
+          "type": "DRUMS",
+          "description": "241 DRUMS"
+        },
+        "gross_weight_kg": "5,827.57",
+        "net_weight_kg": "3,677.81",
+        "measurement": "56.828 CBM"
+      },
+      {
+        "container_number": "TCKU3303117",
+        "seal_number": "D81HC291",
+        "container_type": "20'TK",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "469",
+          "type": "CARTONS",
+          "description": "469 CARTONS"
+        },
+        "gross_weight_kg": "21,010.94",
+        "net_weight_kg": "17,315.25",
+        "measurement": "23.599 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNSCWS127923782",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        120.57,
+        75.12,
+        45.26,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        252.84,
+        75.12,
+        43.39,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        359.62,
+        75.12,
+        66.99,
+        28.35
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        489.08,
+        75.12,
+        67.92,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        88.45,
+        103.46,
+        77.38,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "UNITED LOGISTICS LTD\n330 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA GROUP S.A.\n857 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "CENTRAL TRADING BV\n482 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        57.27,
+        256.54,
+        108.55,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        225.93,
+        256.54,
+        70.29,
+        34.02
+      ],
+      "value": "AE37E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        353.95,
+        256.54,
+        72.67,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        495.69,
+        256.54,
+        61.32,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        109.23,
+        290.55,
+        56.59,
+        34.02
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        256.15,
+        290.55,
+        40.07,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        394.57,
+        290.55,
+        32.05,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        490.97,
+        290.55,
+        66.04,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU2332122",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "8H3BBD23",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '322', 'type': 'CARTONS', 'description': '322 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "25,447.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "37.046 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU9469618",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "BD040E6C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '241', 'type': 'DRUMS', 'description': '241 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "5,827.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "56.828 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        422.36,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU3303117",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "D81HC291",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        422.36,
+        41.73,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        422.36,
+        130.39,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '469', 'type': 'CARTONS', 'description': '469 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "21,010.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "23.599 CBM",
+      "page": 1
+    }
+  ]
+}

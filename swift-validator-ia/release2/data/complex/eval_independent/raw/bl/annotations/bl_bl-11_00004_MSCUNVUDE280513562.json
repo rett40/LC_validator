@@ -1,0 +1,353 @@
+{
+  "id": 4,
+  "filename": "bl_bl-11_00004_MSCUNVUDE280513562.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNVUDE280513562",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNVUDE280513562",
+    "shipper": {
+      "name": "TRANS INDUSTRIES GMBH",
+      "address": "838 MARKET STREET",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "TRANS INDUSTRIES GMBH\n838 MARKET STREET\nSHANGHAI, CHINA 200120"
+    },
+    "consignee": {
+      "name": "CENTRAL LOGISTICS INC",
+      "address": "948 MARKET STREET",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "CENTRAL LOGISTICS INC\n948 MARKET STREET\nBARCELONA, SPAIN 08003"
+    },
+    "notify_party": {
+      "name": "DELTA COMMERCE S.A.",
+      "address": "709 MAIN STREET",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "DELTA COMMERCE S.A.\n709 MAIN STREET\nANTWERP, BELGIUM 2000"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-562",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "30 MAY 2026",
+    "eta": "18 JUN 2026",
+    "issue_date": "18 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "EISU9260854",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "GE27FGF7",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": {
+      "count": "146",
+      "type": "PALLETS",
+      "description": "146 PALLETS"
+    },
+    "gross_weight_kg": "25,749.69",
+    "net_weight_kg": "23,060.54",
+    "gross_weight_lbs": "56,768.28",
+    "measurement": "60.783 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9260854",
+        "seal_number": "GE27FGF7",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "146",
+          "type": "PALLETS",
+          "description": "146 PALLETS"
+        },
+        "gross_weight_kg": "25,749.69",
+        "net_weight_kg": "23,060.54",
+        "measurement": "60.783 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "COLLECT",
+    "incoterm": "CIF",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY",
+    "marks_numbers": "EISU9260854\nGE27FGF7\nANTWERP"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNVUDE280513562",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "E-562",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS INDUSTRIES GMBH\n838 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL LOGISTICS INC\n948 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA COMMERCE S.A.\n709 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9260854",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "GE27FGF7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '146', 'type': 'PALLETS', 'description': '146 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "25,749.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "60.783 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

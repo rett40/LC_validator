@@ -1,0 +1,497 @@
+{
+  "evaluation_date": "2026-05-20 01:23:16.313225",
+  "classifier": "SwiftClauseClassifier v2.0",
+  "dataset": "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\data\\data_stati\\clause_classification.jsonl",
+  "n_total": 1500,
+  "n_train": 1200,
+  "n_test": 300,
+  "A_type_classification": {
+    "accuracy": 0.93,
+    "f1_weighted": 0.9288,
+    "f1_macro": 0.9288,
+    "precision_weighted": 0.9337,
+    "recall_weighted": 0.93,
+    "per_class": {
+      "document_condition": {
+        "precision": 0.9219,
+        "recall": 0.9833,
+        "f1": 0.9516,
+        "support": 60
+      },
+      "shipment_condition": {
+        "precision": 0.9661,
+        "recall": 0.95,
+        "f1": 0.958,
+        "support": 60
+      },
+      "payment_condition": {
+        "precision": 0.9792,
+        "recall": 0.7833,
+        "f1": 0.8704,
+        "support": 60
+      },
+      "compliance_condition": {
+        "precision": 0.9355,
+        "recall": 0.9667,
+        "f1": 0.9508,
+        "support": 60
+      },
+      "tolerance_condition": {
+        "precision": 0.8657,
+        "recall": 0.9667,
+        "f1": 0.9134,
+        "support": 60
+      }
+    },
+    "confusion_matrix": [
+      [
+        59,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        57,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        47,
+        2,
+        9
+      ],
+      [
+        1,
+        0,
+        1,
+        58,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        58
+      ]
+    ],
+    "confusion_labels": [
+      "document_condition",
+      "shipment_condition",
+      "payment_condition",
+      "compliance_condition",
+      "tolerance_condition"
+    ]
+  },
+  "B_importance_classification": {
+    "accuracy": 0.8967,
+    "f1_weighted": 0.897,
+    "f1_macro": 0.8974,
+    "precision_weighted": 0.8991,
+    "recall_weighted": 0.8967,
+    "per_class": {
+      "high": {
+        "precision": 0.8559,
+        "recall": 0.9223,
+        "f1": 0.8879,
+        "support": 103
+      },
+      "medium": {
+        "precision": 0.8889,
+        "recall": 0.88,
+        "f1": 0.8844,
+        "support": 100
+      },
+      "normal": {
+        "precision": 0.9556,
+        "recall": 0.8866,
+        "f1": 0.9198,
+        "support": 97
+      }
+    },
+    "confusion_matrix": [
+      [
+        95,
+        7,
+        1
+      ],
+      [
+        9,
+        88,
+        3
+      ],
+      [
+        7,
+        4,
+        86
+      ]
+    ],
+    "confusion_labels": [
+      "high",
+      "medium",
+      "normal"
+    ]
+  },
+  "C_risk_level_classification": {
+    "accuracy": 0.88,
+    "f1_weighted": 0.8806,
+    "f1_macro": 0.8614,
+    "precision_weighted": 0.8823,
+    "recall_weighted": 0.88,
+    "per_class": {
+      "high": {
+        "precision": 0.7812,
+        "recall": 0.8621,
+        "f1": 0.8197,
+        "support": 58
+      },
+      "medium": {
+        "precision": 0.859,
+        "recall": 0.8272,
+        "f1": 0.8428,
+        "support": 81
+      },
+      "normal": {
+        "precision": 0.9304,
+        "recall": 0.913,
+        "f1": 0.9216,
+        "support": 161
+      }
+    },
+    "confusion_matrix": [
+      [
+        50,
+        5,
+        3
+      ],
+      [
+        6,
+        67,
+        8
+      ],
+      [
+        8,
+        6,
+        147
+      ]
+    ],
+    "confusion_labels": [
+      "high",
+      "medium",
+      "normal"
+    ]
+  },
+  "diagnostics": {
+    "method_distribution": {
+      "rule": 144,
+      "embedding": 148,
+      "scoring+knn": 8
+    },
+    "avg_confidence": 0.9432,
+    "low_confidence_pct": 2.0,
+    "n_errors_type": 21,
+    "n_errors_importance": 31,
+    "n_errors_risk_level": 36
+  },
+  "error_details": [
+    {
+      "text": "PORT OF DISCHARGE HAMBURG OR ROTTERDAM AT CARRIER OPTION",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": false,
+      "true_type": "shipment_condition",
+      "pred_type": "shipment_condition",
+      "true_importance": "medium",
+      "pred_importance": "normal",
+      "true_risk": "normal",
+      "pred_risk": "normal",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "MULTIPLE PARTIAL SHIPMENTS ALLOWED NOT EXCEEDING 2 DISPATCH",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "shipment_condition",
+      "pred_type": "shipment_condition",
+      "true_importance": "medium",
+      "pred_importance": "high",
+      "true_risk": "normal",
+      "pred_risk": "medium",
+      "confidence": 1.0,
+      "method": "embedding"
+    },
+    {
+      "text": "ALL BANKING CHARGES OUTSIDE CHINA FOR BENEFICIARY'S ACCOUNT",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "payment_condition",
+      "true_importance": "normal",
+      "pred_importance": "medium",
+      "true_risk": "normal",
+      "pred_risk": "medium",
+      "confidence": 1.0,
+      "method": "embedding"
+    },
+    {
+      "text": "ALL DOCUMENTS MUST INDICATE LC NUMBER",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "document_condition",
+      "pred_type": "document_condition",
+      "true_importance": "normal",
+      "pred_importance": "high",
+      "true_risk": "normal",
+      "pred_risk": "high",
+      "confidence": 1.0,
+      "method": "embedding"
+    },
+    {
+      "text": "CONFIRMATION CHARGES 0.10 PERCENT QUARTERLY FOR BENEFICIARY",
+      "type_error": true,
+      "imp_error": false,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "tolerance_condition",
+      "true_importance": "medium",
+      "pred_importance": "medium",
+      "true_risk": "medium",
+      "pred_risk": "normal",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "RED CLAUSE ADVANCE PAYMENT 1 PERCENT AGAINST SIMPLE RECEIPT FROM BENEFICIARY",
+      "type_error": true,
+      "imp_error": false,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "tolerance_condition",
+      "true_importance": "high",
+      "pred_importance": "high",
+      "true_risk": "high",
+      "pred_risk": "medium",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "EXTENSION COMMISSION 0.50 PERCENT PER MONTH IF CREDIT EXTENDED",
+      "type_error": true,
+      "imp_error": false,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "tolerance_condition",
+      "true_importance": "medium",
+      "pred_importance": "medium",
+      "true_risk": "medium",
+      "pred_risk": "normal",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "PREPAYMENT OF 20 PERCENT REQUIRED PRIOR TO SHIPMENT",
+      "type_error": true,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "shipment_condition",
+      "true_importance": "high",
+      "pred_importance": "medium",
+      "true_risk": "high",
+      "pred_risk": "normal",
+      "confidence": 0.575,
+      "method": "embedding"
+    },
+    {
+      "text": "ALL BANK CHARGES OUTSIDE GERMANY FOR BENEFICIARY ACCOUNT",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "payment_condition",
+      "true_importance": "high",
+      "pred_importance": "medium",
+      "true_risk": "high",
+      "pred_risk": "medium",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "ALL BANKING CHARGES OUTSIDE UK FOR BENEFICIARY'S ACCOUNT",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "payment_condition",
+      "true_importance": "normal",
+      "pred_importance": "medium",
+      "true_risk": "normal",
+      "pred_risk": "medium",
+      "confidence": 1.0,
+      "method": "embedding"
+    },
+    {
+      "text": "MIXED PAYMENT: 3% ADVANCE AND 85% AGAINST DOCUMENTS",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "payment_condition",
+      "true_importance": "medium",
+      "pred_importance": "high",
+      "true_risk": "medium",
+      "pred_risk": "high",
+      "confidence": 1.0,
+      "method": "embedding"
+    },
+    {
+      "text": "PARTIAL DRAWINGS PERMITTED MINIMUM 3,000 DKK PER DRAWING",
+      "type_error": true,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "compliance_condition",
+      "true_importance": "high",
+      "pred_importance": "medium",
+      "true_risk": "high",
+      "pred_risk": "medium",
+      "confidence": 0.589,
+      "method": "embedding"
+    },
+    {
+      "text": "ORIGINAL OR COPY OF WEIGHT CERTIFICATE FROM PORT AUTHORITY REQUIRED",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "document_condition",
+      "pred_type": "document_condition",
+      "true_importance": "medium",
+      "pred_importance": "high",
+      "true_risk": "normal",
+      "pred_risk": "high",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "STANDARD BANK DISCLAIMER FOR TRANSMISSION ERRORS PER UCP 600",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "compliance_condition",
+      "pred_type": "compliance_condition",
+      "true_importance": "normal",
+      "pred_importance": "high",
+      "true_risk": "normal",
+      "pred_risk": "high",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "TOLERANCE 5 PERCENT ON AMOUNT ALLOWED",
+      "type_error": true,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "payment_condition",
+      "pred_type": "tolerance_condition",
+      "true_importance": "high",
+      "pred_importance": "medium",
+      "true_risk": "high",
+      "pred_risk": "normal",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "BANK EXAMINATION FOLLOWS ISBP 745 AND UCP 600 STANDARDS",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "compliance_condition",
+      "pred_type": "compliance_condition",
+      "true_importance": "medium",
+      "pred_importance": "high",
+      "true_risk": "medium",
+      "pred_risk": "high",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "FULL SET OF THREE ORIGINALS SHIPPED ON BOARD OCEAN BILLS OF LADING MANDATORY",
+      "type_error": true,
+      "imp_error": false,
+      "risk_error": true,
+      "true_type": "document_condition",
+      "pred_type": "shipment_condition",
+      "true_importance": "high",
+      "pred_importance": "high",
+      "true_risk": "high",
+      "pred_risk": "medium",
+      "confidence": 0.723,
+      "method": "embedding"
+    },
+    {
+      "text": "INSURANCE CERTIFICATE MAY BE SUBMITTED IN LIEU OF INSURANCE POLICY",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": false,
+      "true_type": "document_condition",
+      "pred_type": "document_condition",
+      "true_importance": "medium",
+      "pred_importance": "normal",
+      "true_risk": "normal",
+      "pred_risk": "normal",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "CREDIT TERMS FOLLOW STANDARD UCP 600 PROVISIONS THROUGHOUT",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "compliance_condition",
+      "pred_type": "compliance_condition",
+      "true_importance": "normal",
+      "pred_importance": "high",
+      "true_risk": "normal",
+      "pred_risk": "high",
+      "confidence": 0.97,
+      "method": "rule"
+    },
+    {
+      "text": "AMENDMENT EFFECTIVE DATE IS DATE OF BENEFICIARY ACCEPTANCE ADVICE",
+      "type_error": false,
+      "imp_error": true,
+      "risk_error": true,
+      "true_type": "compliance_condition",
+      "pred_type": "compliance_condition",
+      "true_importance": "medium",
+      "pred_importance": "high",
+      "true_risk": "medium",
+      "pred_risk": "high",
+      "confidence": 1.0,
+      "method": "embedding"
+    }
+  ],
+  "outputs": [
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\confidence_type.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\confusion_importance.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\confusion_risk_level.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\confusion_type.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\dataset_distribution.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\f1_importance.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\f1_risk_level.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\f1_type.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\importance_by_type.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\method_distribution.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\risk_by_type_heatmap.png",
+    "C:\\Users\\Aziz\\Desktop\\projet_lc\\swift-validator-ia\\evaluation\\clauses\\reports\\risk_distribution_comparison.png"
+  ]
+}

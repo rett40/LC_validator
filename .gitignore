@@ -1,0 +1,56 @@
+# Secrets — ne jamais committer
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+cookies.txt
+
+# Environnements Python et caches
+**/.venv/
+**/venv/
+**/env/
+**/.mlops_venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.tox/
+**/.ipynb_checkpoints/
+**/.cache/
+*.py[cod]
+**/.hf_cache/
+**/.easyocr_cache/
+
+# Données d'entraînement générées
+**/checkpoint*/
+**/optimizer.pt
+**/runs/
+**/lightning_logs/
+**/wandb/
+swift-validator-ia/release2/data/processed/
+swift-validator-ia/release2/data/complex/processed/
+
+# Build artifacts
+**/target/
+**/dist/
+**/node_modules/
+**/.angular/cache/
+**/coverage/
+
+# Fichiers temporaires et journaux
+*.log
+**/log.txt
+*.bak
+docker-compose.yml.bak*
+**/logs/
+scratch_perf/
+
+# IDE et système
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,318 @@
+{
+  "id": 164,
+  "filename": "bl_bl-05_00164_MSCUNAVUM643016672.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNAVUM643016672",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNAVUM643016672",
+    "shipper_name": "APEX COMMERCE BV",
+    "shipper_address": "844 MARKET STREET",
+    "consignee_name": "GLOBAL TRADING LLC",
+    "consignee_address": "541 MAIN STREET",
+    "notify_party_name": "UNITED INDUSTRIES LLC",
+    "notify_party_address": "645 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE75W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "13 JUN 2026",
+    "eta": "18 JUL 2026",
+    "container_number": "HLCU8966034",
+    "container_type": "20' TANK",
+    "seal_number": "E8H2HB87",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "100 CRATES",
+    "gross_weight_kg": "6,249.44",
+    "measurement": "39.355 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU8966034",
+        "seal_number": "E8H2HB87",
+        "container_type": "20' TANK",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "100",
+          "type": "CRATES",
+          "description": "100 CRATES"
+        },
+        "gross_weight_kg": "6,249.44",
+        "net_weight_kg": "3,433.86",
+        "measurement": "39.355 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNAVUM643016672",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "APEX COMMERCE BV\n844 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "GLOBAL TRADING LLC\n541 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED INDUSTRIES LLC\n645 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "HLCU8966034",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "E8H2HB87",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '100', 'type': 'CRATES', 'description': '100 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "6,249.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "39.355 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "AE75W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "18 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        507.4,
+        264.33,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,998 @@
+<div class="app-shell">
+  <header class="topnav">
+    <div class="nav-brand">
+      <span class="logo-icon sm">⬡</span>
+      <span class="brand-name">SWIFT<em>Analyser</em></span>
+    </div>
+    <div class="nav-actions">
+      <button class="nav-link" [class.active]="!showHistory" (click)="showHistory = false">Analyse</button>
+      <button class="nav-link" [class.active]="showHistory" (click)="showHistory = true; loadHistory()">Historique</button>
+      <button class="nav-link" (click)="logout()">Deconnexion</button>
+    </div>
+  </header>
+
+  <section class="stats-grid" *ngIf="stats && !showHistory">
+    <article class="stat-card"><h4>Total</h4><p>{{ stats.totalAnalyses }}</p></article>
+    <article class="stat-card"><h4>Critiques</h4><p class="red">{{ stats.criticalCount }}</p></article>
+    <article class="stat-card"><h4>Eleves</h4><p class="orange">{{ stats.highCount }}</p></article>
+    <article class="stat-card"><h4>Moy. UCP</h4><p class="blue">{{ stats.avgUcpScore | number:'1.0-0' }}%</p></article>
+  </section>
+
+  <main class="main-content">
+    <section *ngIf="showHistory" class="history-view">
+      <h2>Historique des analyses</h2>
+      <div class="loading-block" *ngIf="historyLoading">Chargement...</div>
+      <div class="history-grid" *ngIf="!historyLoading">
+        <button
+          class="history-card"
+          *ngFor="let item of history | slice:0:maxHistoryItems; trackBy: trackByAnalysisId"
+          (click)="loadFromHistory(item)">
+          <div class="row">
+            <span class="swift-badge">{{ item.swiftType || '-' }}</span>
+            <span class="risk-pill" [class]="riskColor(item.riskLevel)">{{ item.riskLevel }}</span>
+          </div>
+          <strong>{{ item.lcNumber || 'N/A' }}</strong>
+          <small>{{ formatDate(item.createdAt) }}</small>
+        </button>
+      </div>
+    </section>
+
+    <section *ngIf="!showHistory" class="analysis-view">
+      <div class="upload-section">
+        <h2>Uploader un message SWIFT</h2>
+        <div class="drop-zone"
+             [class.dragging]="isDragging"
+             [class.has-file]="selectedFile"
+             (dragover)="onDragOver($event)"
+             (dragleave)="onDragLeave()"
+             (drop)="onDrop($event)">
+          <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.tiff" (change)="onFileChange($event)" hidden>
+          <label for="fileInput">
+            {{ selectedFile ? selectedFile.name : 'Glissez un PDF/image ou cliquez ici' }}
+          </label>
+        </div>
+        <button class="btn-analyze" [disabled]="!selectedFile || uploading" (click)="analyze()">
+          {{ uploading ? 'Analyse en cours...' : 'Lancer l analyse' }}
+        </button>
+        <div class="upload-error" *ngIf="uploadError">{{ uploadError }}</div>
+      </div>
+
+      <section *ngIf="analysis" class="results-wrapper">
+        <div class="result-header">
+          <div>
+            <h3>{{ analysis.lcNumber || 'Validation Globale' }}</h3>
+            <p>{{ formatDate(analysis.createdAt) }} - {{ analysis.processingMs }} ms</p>
+          </div>
+          <div class="kpi">
+            <span class="risk-pill" [class]="riskColor(analysis.riskLevel)">{{ analysis.riskLevel }}</span>
+            <strong>{{ globalScore }}/100</strong>
+          </div>
+        </div>
+
+        <nav class="validation-tabs">
+          <button
+            *ngFor="let panel of validationPanels; trackBy: trackByPanelId"
+            class="tab-btn"
+            [class.active]="activePanel === panel.id"
+            (click)="setPanel(panel.id)">
+            {{ panel.icon }} {{ panel.label }}
+            <span *ngIf="panel.count !== undefined" class="count">{{ panel.count }}</span>
+          </button>
+        </nav>
+
+        <section *ngIf="activePanel === 'swift-fields'" class="panel">
+          <h4>Champs SWIFT</h4>
+          <table class="swift-table">
+            <thead><tr><th>Tag</th><th>Champ</th><th>Valeur</th></tr></thead>
+            <tbody>
+              <tr *ngFor="let row of swiftFieldRows; trackBy: trackBySwiftTag">
+                <td>{{ row.tag }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.value }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section *ngIf="activePanel === 'ucp'" class="panel">
+          <h4>Validation UCP</h4>
+          <p>Erreurs: {{ ucpErrorCount() }} | Warnings: {{ ucpWarningCount() }}</p>
+          <ul>
+            <li *ngFor="let finding of analysis.ucpFindings | slice:0:20">
+              <strong>[{{ finding.severity }}]</strong> {{ finding.article }} - {{ finding.message }}
+            </li>
+          </ul>
+        </section>
+
+        <section *ngIf="activePanel === 'semantic'" class="panel">
+          <h4>Clauses et classification</h4>
+          <div *ngFor="let type of clauseTypes; trackBy: trackByClauseType" class="clause-group">
+            <h5>{{ clauseTypeLabel(type) }}</h5>
+            <ul>
+              <li *ngFor="let c of clausesByType(type) | slice:0:15">
+                <strong>{{ c.riskLevel }}</strong> - {{ c.text | slice:0:180 }}{{ c.text?.length > 180 ? '...' : '' }}
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section *ngIf="activePanel === 'external'" class="panel">
+          <h4>Validation Externe</h4>
+          <p>Niveau: <strong>{{ analysis.externalValidation.riskLevel || 'N/A' }}</strong></p>
+          <p>Approche: {{ analysis.externalValidation.approach || '-' }}</p>
+          <p>Devise: {{ analysis.externalValidation.currencyCode || '-' }}</p>
+        </section>
+
+        <section *ngIf="activePanel === 'ds-risk'" class="panel">
+          <h4>Validation DS / ML</h4>
+          <p>Niveau: <strong>{{ analysis.dsRiskScore.riskLevel || 'N/A' }}</strong></p>
+          <p>Modele: {{ analysis.dsRiskScore.modelUsed || '-' }}</p>
+          <p>Clauses critiques: {{ analysis.dsRiskScore.nCriticalClauses || 0 }}</p>
+        </section>
+      </section>
+    </section>
+  </main>
+</div>
+<div class="app-shell">
+  <header class="topnav">
+    <div class="nav-brand">
+      <span class="logo-icon sm">⬡</span>
+      <span class="brand-name">SWIFT<em>Analyser</em></span>
+    </div>
+    <div class="nav-actions">
+      <button class="nav-link" [class.active]="!showHistory" (click)="showHistory = false">Analyse</button>
+      <button class="nav-link" [class.active]="showHistory" (click)="showHistory = true; loadHistory()">Historique</button>
+      <button class="nav-link" (click)="logout()">Deconnexion</button>
+    </div>
+  </header>
+
+  <section class="stats-grid" *ngIf="stats && !showHistory">
+    <article class="stat-card"><h4>Total</h4><p>{{ stats.totalAnalyses }}</p></article>
+    <article class="stat-card"><h4>Critiques</h4><p class="red">{{ stats.criticalCount }}</p></article>
+    <article class="stat-card"><h4>Eleves</h4><p class="orange">{{ stats.highCount }}</p></article>
+    <article class="stat-card"><h4>Moy. UCP</h4><p class="blue">{{ stats.avgUcpScore | number:'1.0-0' }}%</p></article>
+  </section>
+
+  <main class="main-content">
+    <section *ngIf="showHistory" class="history-view">
+      <h2>Historique des analyses</h2>
+      <div class="loading-block" *ngIf="historyLoading">Chargement...</div>
+      <div class="history-grid" *ngIf="!historyLoading">
+        <button
+          class="history-card"
+          *ngFor="let item of history | slice:0:maxHistoryItems; trackBy: trackByAnalysisId"
+          (click)="loadFromHistory(item)">
+          <div class="row">
+            <span class="swift-badge">{{ item.swiftType || '-' }}</span>
+            <span class="risk-pill" [class]="riskColor(item.riskLevel)">{{ item.riskLevel }}</span>
+          </div>
+          <strong>{{ item.lcNumber || 'N/A' }}</strong>
+          <small>{{ formatDate(item.createdAt) }}</small>
+        </button>
+      </div>
+    </section>
+
+    <section *ngIf="!showHistory" class="analysis-view">
+      <div class="upload-section">
+        <h2>Uploader un message SWIFT</h2>
+        <div class="drop-zone"
+             [class.dragging]="isDragging"
+             [class.has-file]="selectedFile"
+             (dragover)="onDragOver($event)"
+             (dragleave)="onDragLeave()"
+             (drop)="onDrop($event)">
+          <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.tiff" (change)="onFileChange($event)" hidden>
+          <label for="fileInput">
+            {{ selectedFile ? selectedFile.name : 'Glissez un PDF/image ou cliquez ici' }}
+          </label>
+        </div>
+        <button class="btn-analyze" [disabled]="!selectedFile || uploading" (click)="analyze()">
+          {{ uploading ? 'Analyse en cours...' : 'Lancer l analyse' }}
+        </button>
+        <div class="upload-error" *ngIf="uploadError">{{ uploadError }}</div>
+      </div>
+
+      <section *ngIf="analysis" class="results-wrapper">
+        <div class="result-header">
+          <div>
+            <h3>{{ analysis.lcNumber || 'Validation Globale' }}</h3>
+            <p>{{ formatDate(analysis.createdAt) }} - {{ analysis.processingMs }} ms</p>
+          </div>
+          <div class="kpi">
+            <span class="risk-pill" [class]="riskColor(analysis.riskLevel)">{{ analysis.riskLevel }}</span>
+            <strong>{{ globalScore }}/100</strong>
+          </div>
+        </div>
+
+        <nav class="validation-tabs">
+          <button
+            *ngFor="let panel of validationPanels; trackBy: trackByPanelId"
+            class="tab-btn"
+            [class.active]="activePanel === panel.id"
+            (click)="setPanel(panel.id)">
+            {{ panel.icon }} {{ panel.label }}
+            <span *ngIf="panel.count !== undefined" class="count">{{ panel.count }}</span>
+          </button>
+        </nav>
+
+        <section *ngIf="activePanel === 'swift-fields'" class="panel">
+          <h4>Champs SWIFT</h4>
+          <table class="swift-table">
+            <thead>
+              <tr><th>Tag</th><th>Champ</th><th>Valeur</th></tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let row of swiftFieldRows; trackBy: trackBySwiftTag">
+                <td>{{ row.tag }}</td>
+                <td>{{ row.name }}</td>
+                <td>{{ row.value }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section *ngIf="activePanel === 'ucp'" class="panel">
+          <h4>Validation UCP</h4>
+          <p>Erreurs: {{ ucpErrorCount() }} | Warnings: {{ ucpWarningCount() }}</p>
+          <ul>
+            <li *ngFor="let finding of analysis.ucpFindings | slice:0:20">
+              <strong>[{{ finding.severity }}]</strong> {{ finding.article }} - {{ finding.message }}
+            </li>
+          </ul>
+        </section>
+
+        <section *ngIf="activePanel === 'semantic'" class="panel">
+          <h4>Clauses et classification</h4>
+          <div *ngFor="let type of clauseTypes; trackBy: trackByClauseType" class="clause-group">
+            <h5>{{ clauseTypeLabel(type) }}</h5>
+            <ul>
+              <li *ngFor="let c of clausesByType(type) | slice:0:15">
+                <strong>{{ c.riskLevel }}</strong> - {{ c.text | slice:0:180 }}{{ c.text?.length > 180 ? '...' : '' }}
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section *ngIf="activePanel === 'external'" class="panel">
+          <h4>Validation Externe</h4>
+          <p>Niveau: <strong>{{ analysis.externalValidation?.riskLevel || 'N/A' }}</strong></p>
+          <p>Approche: {{ analysis.externalValidation?.approach || '-' }}</p>
+          <p>Devise: {{ analysis.externalValidation?.currencyCode || '-' }}</p>
+        </section>
+
+        <section *ngIf="activePanel === 'ds-risk'" class="panel">
+          <h4>Validation DS / ML</h4>
+          <p>Niveau: <strong>{{ analysis.dsRiskScore?.riskLevel || 'N/A' }}</strong></p>
+          <p>Modele: {{ analysis.dsRiskScore?.modelUsed || '-' }}</p>
+          <p>Clauses critiques: {{ analysis.dsRiskScore?.nCriticalClauses || 0 }}</p>
+        </section>
+      </section>
+    </section>
+  </main>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<!-- MAIN APP                                                           -->
+<!-- ══════════════════════════════════════════════════════════════════ -->
+<div class="app-shell">
+
+  <!-- ── TOP NAV ─────────────────────────────────────────────────── -->
+  <nav class="topnav">
+    <div class="nav-brand">
+      <span class="logo-icon sm">⬡</span>
+      <span class="brand-name">SWIFT<em>Analyser</em></span>
+      <span class="brand-version">v8</span>
+    </div>
+    <div class="nav-center">
+      <button class="nav-link" [class.active]="!showHistory" (click)="showHistory=false">
+        <span>Analyse</span>
+      </button>
+      <button class="nav-link" [class.active]="showHistory" (click)="showHistory=true; loadHistory()">
+        <span>Historique</span>
+        <span class="nav-badge" *ngIf="stats">{{ stats!.totalAnalyses }}</span>
+      </button>
+    </div>
+    <div class="nav-right">
+      <div class="stats-pill" *ngIf="stats">
+        <span class="dot red"></span>{{ stats!.criticalCount }} critiques
+      </div>
+      <button class="nav-link" (click)="logout()">Deconnexion</button>
+    </div>
+  </nav>
+
+  <!-- ── STATS BAR ───────────────────────────────────────────────── -->
+  <div class="stats-bar" *ngIf="stats && !showHistory">
+    <div class="stat-item">
+      <div class="stat-num">{{ stats!.totalAnalyses }}</div>
+      <div class="stat-lbl">Total</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num red">{{ stats!.criticalCount }}</div>
+      <div class="stat-lbl">Critiques</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num orange">{{ stats!.highCount }}</div>
+      <div class="stat-lbl">Élevés</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num yellow">{{ stats!.mediumCount }}</div>
+      <div class="stat-lbl">Modérés</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num green">{{ stats!.cleanCount }}</div>
+      <div class="stat-lbl">Propres</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">{{ stats!.last24hCount }}</div>
+      <div class="stat-lbl">Dernières 24h</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num blue">{{ stats!.avgUcpScore | number:'1.0-0' }}%</div>
+      <div class="stat-lbl">Moy. UCP</div>
+    </div>
+  </div>
+
+  <div class="main-content">
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- HISTORY VIEW                                               -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <div class="history-view" *ngIf="showHistory">
+      <div class="section-header">
+        <div class="section-tag">HISTORIQUE</div>
+        <h2>Analyses récentes</h2>
+      </div>
+      <div class="history-grid" *ngIf="!historyLoading">
+        <div class="history-card" *ngFor="let item of history" (click)="loadFromHistory(item)">
+          <div class="hcard-top">
+            <span class="swift-badge">{{ item.swiftType }}</span>
+            <span class="risk-pill" [class]="riskColor(item.riskLevel)">{{ item.riskLevel }}</span>
+          </div>
+          <div class="hcard-lc">{{ item.lcNumber || '—' }}</div>
+          <div class="hcard-parties">
+            <span>{{ item.applicant | slice:0:25 }}</span>
+            <span class="arrow">→</span>
+            <span>{{ item.beneficiary | slice:0:25 }}</span>
+          </div>
+          <div class="hcard-bottom">
+            <span class="amount">{{ formatAmount(item.amount, item.currency) }}</span>
+            <span class="date">{{ formatDate(item.createdAt) }}</span>
+          </div>
+          <div class="hcard-scores">
+            <div class="mini-score" [class]="scoreColor(item.ucpComplianceScore)">
+              UCP {{ item.ucpComplianceScore }}/100
+            </div>
+            <div class="mini-score" [class]="scoreColor(item.completenessScore)">
+              NLP {{ item.nlpScore }}/100
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="loading-block" *ngIf="historyLoading">
+        <div class="spinner"></div><span>Chargement…</span>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <!-- MAIN ANALYSIS VIEW                                         -->
+    <!-- ══════════════════════════════════════════════════════════ -->
+    <div class="analysis-view" *ngIf="!showHistory">
+
+      <!-- ── ZONE 1 : UPLOAD ─────────────────────────────────── -->
+      <section class="upload-section">
+        <div class="section-tag">ÉTAPE 1</div>
+        <h2 class="section-title">Déposer un message SWIFT</h2>
+
+        <div class="upload-grid">
+          <!-- Drop Zone -->
+          <div class="drop-zone"
+               [class.dragging]="isDragging"
+               [class.has-file]="selectedFile"
+               (dragover)="onDragOver($event)"
+               (dragleave)="onDragLeave()"
+               (drop)="onDrop($event)">
+            <input type="file" id="fileInput" accept=".pdf,.png,.jpg,.jpeg,.tiff"
+                   (change)="onFileChange($event)" hidden>
+            <label for="fileInput" class="drop-inner">
+              <div class="drop-icon" *ngIf="!selectedFile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"/>
+                </svg>
+              </div>
+              <div class="file-preview" *ngIf="selectedFile">
+                <div class="file-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
+                  </svg>
+                </div>
+                <div class="file-info">
+                  <div class="file-name">{{ selectedFile!.name }}</div>
+                  <div class="file-size">{{ (selectedFile!.size / 1024).toFixed(1) }} Ko</div>
+                </div>
+                <button class="remove-file" (click)="selectedFile=null; $event.preventDefault()">✕</button>
+              </div>
+              <p *ngIf="!selectedFile">Glissez-déposez un PDF ou une image<br><small>ou cliquez pour sélectionner</small></p>
+              <div class="format-tags" *ngIf="!selectedFile">
+                <span>PDF</span><span>PNG</span><span>JPEG</span><span>TIFF</span>
+              </div>
+            </label>
+          </div>
+
+          <!-- Upload CTA -->
+          <div class="upload-cta">
+            <div class="cta-info" *ngIf="selectedFile">
+              <div class="cta-label">Fichier prêt</div>
+              <div class="cta-filename">{{ selectedFile!.name }}</div>
+            </div>
+            <button class="btn-analyze" [disabled]="!selectedFile || uploading" (click)="analyze()">
+              <span class="btn-icon" *ngIf="!uploading">
+                <svg viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z"/>
+                </svg>
+              </span>
+              <div class="spinner-sm" *ngIf="uploading"></div>
+              {{ uploading ? 'Analyse en cours…' : 'Lancer l\'analyse' }}
+            </button>
+            <div class="pipeline-tags">
+              <span>OCR</span><span>UCP 600</span><span>NER</span><span>OFAC</span><span>GLEIF</span>
+            </div>
+            <div class="upload-error" *ngIf="uploadError">
+              <svg viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-5a.75.75 0 01.75.75v4.5a.75.75 0 01-1.5 0v-4.5A.75.75 0 0110 5zm0 10a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
+              </svg>
+              {{ uploadError }}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════ -->
+      <!-- RESULTS (shown after analysis)                         -->
+      <!-- ══════════════════════════════════════════════════════ -->
+      <div id="results" *ngIf="analysis" class="results-wrapper">
+
+        <!-- ── SWIFT TYPE HEADER ───────────────────────────── -->
+        <div class="result-header">
+          <div class="result-header-left">
+            <span class="swift-type-badge">{{ analysis!.swiftType }}</span>
+            <div class="result-title-block">
+              <h3>{{ analysis!.lcNumber || 'Crédit documentaire' }}</h3>
+              <p>{{ formatDate(analysis!.createdAt) }} — {{ analysis!.processingMs }}ms</p>
+            </div>
+          </div>
+          <div class="result-header-right">
+            <span class="risk-badge" [class]="riskColor(analysis!.riskLevel)">
+              <span class="risk-dot"></span>
+              {{ analysis!.riskLevel }}
+            </span>
+            <span class="blocked-badge" *ngIf="analysis!.paymentBlocked">
+              ⊘ Paiement bloqué
+            </span>
+          </div>
+        </div>
+
+        <!-- ── ZONE 2 : SWIFT FIELDS ───────────────────────── -->
+        <section class="details-section">
+          <div class="section-tag">ÉTAPE 2</div>
+          <h2 class="section-title">Détails du message SWIFT</h2>
+
+          <!-- Parties -->
+          <div class="parties-grid">
+            <div class="party-card" *ngIf="analysis!.applicant">
+              <div class="party-role">🏢 Donneur d'ordre</div>
+              <div class="party-name">{{ analysis!.applicant }}</div>
+              <div class="party-tag">:50:</div>
+            </div>
+            <div class="party-arrow">→</div>
+            <div class="party-card" *ngIf="analysis!.beneficiary">
+              <div class="party-role">🏢 Bénéficiaire</div>
+              <div class="party-name">{{ analysis!.beneficiary }}</div>
+              <div class="party-tag">:59:</div>
+            </div>
+            <div class="party-via">via</div>
+            <div class="party-card bank" *ngIf="analysis!.issuingBank">
+              <div class="party-role">🏦 Banque émettrice</div>
+              <div class="party-name">{{ analysis!.issuingBank }}</div>
+              <div class="party-tag">:52A:</div>
+            </div>
+          </div>
+
+          <!-- Key Fields Grid -->
+          <div class="fields-grid">
+            <div class="field-item" *ngIf="analysis!.currency || analysis!.amount">
+              <div class="fi-tag">:32B: Montant</div>
+              <div class="fi-val big">{{ formatAmount(analysis!.amount, analysis!.currency) }}</div>
+              <div class="fi-sub" *ngIf="analysis!.tolerancePlus">±{{ analysis!.tolerancePlus }}%</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.issueDate">
+              <div class="fi-tag">:31C: Émission</div>
+              <div class="fi-val">{{ formatDate(analysis!.issueDate) }}</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.expiryDate">
+              <div class="fi-tag">:31D: Expiration</div>
+              <div class="fi-val">{{ formatDate(analysis!.expiryDate) }}</div>
+              <div class="fi-sub" *ngIf="analysis!.expiryDate">{{ analysis!.validityDays }} jours</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.shipmentDate">
+              <div class="fi-tag">:44C: Expédition</div>
+              <div class="fi-val">{{ formatDate(analysis!.shipmentDate) }}</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.incoterm">
+              <div class="fi-tag">:45A: Incoterm</div>
+              <div class="fi-val">{{ analysis!.incoterm }}</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.presentationPeriodDays">
+              <div class="fi-tag">:48: Présentation</div>
+              <div class="fi-val">{{ analysis!.presentationPeriodDays }} jours</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.applicableRules">
+              <div class="fi-tag">:40E: Règles</div>
+              <div class="fi-val">{{ analysis!.applicableRules }}</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.confirmationInstructions">
+              <div class="fi-tag">:49: Confirmation</div>
+              <div class="fi-val">{{ analysis!.confirmationInstructions }}</div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.partialShipmentsAllowed !== null">
+              <div class="fi-tag">:43P: Expéd. partielles</div>
+              <div class="fi-val" [class.ok]="analysis!.partialShipmentsAllowed" [class.no]="!analysis!.partialShipmentsAllowed">
+                {{ analysis!.partialShipmentsAllowed ? 'Autorisées' : 'Interdites' }}
+              </div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.transhipmentAllowed !== null">
+              <div class="fi-tag">:43T: Transbordement</div>
+              <div class="fi-val" [class.ok]="analysis!.transhipmentAllowed" [class.no]="!analysis!.transhipmentAllowed">
+                {{ analysis!.transhipmentAllowed ? 'Autorisé' : 'Interdit' }}
+              </div>
+            </div>
+            <div class="field-item" *ngIf="analysis!.country">
+              <div class="fi-tag">Pays</div>
+              <div class="fi-val">{{ analysis!.country }}</div>
+            </div>
+          </div>
+
+          <!-- Long text fields -->
+          <div class="long-fields">
+            <details class="long-field" *ngIf="analysis!.goodsDescription">
+              <summary><span class="lf-tag">:45A:</span> Marchandises</summary>
+              <div class="lf-content">{{ analysis!.goodsDescription }}</div>
+            </details>
+            <details class="long-field" *ngIf="analysis!.documentsRequired">
+              <summary><span class="lf-tag">:46A:</span> Documents requis</summary>
+              <div class="lf-content">{{ analysis!.documentsRequired }}</div>
+            </details>
+            <details class="long-field" *ngIf="analysis!.additionalConditions">
+              <summary><span class="lf-tag">:47A:</span> Conditions supplémentaires</summary>
+              <div class="lf-content">{{ analysis!.additionalConditions }}</div>
+            </details>
+          </div>
+        </section>
+
+        <!-- ── ZONE 3 : VALIDATION DASHBOARD ─────────────────── -->
+        <section class="validation-section" id="validation">
+          <div class="section-tag">ÉTAPE 3</div>
+          <h2 class="section-title">Dashboard de validation</h2>
+
+          <!-- Global Score -->
+          <div class="global-score-row">
+            <div class="global-card" [class.valid]="isValid" [class.invalid]="!isValid">
+              <div class="gc-verdict">{{ isValid ? '✓ VALIDÉ' : '✗ NON VALIDÉ' }}</div>
+              <div class="gc-score" [class]="scoreColor(globalScore)">{{ globalScore }}</div>
+              <div class="gc-label">SCORE GLOBAL / 100</div>
+              <div class="gc-blocked" *ngIf="analysis!.paymentBlocked">
+                ⊘ Paiement bloqué
+              </div>
+            </div>
+
+            <!-- Module Score Cards -->
+            <div class="module-scores">
+              <div class="module-score-card" *ngFor="let p of validationPanels"
+                   [class.active]="activePanel === p.id"
+                   (click)="setPanel(p.id)">
+                <div class="msc-icon">{{ p.icon }}</div>
+                <div class="msc-label">{{ p.label }}</div>
+                <div class="msc-value" [class]="p.level ?? 'gray'">
+                  <ng-container [ngSwitch]="p.id">
+                    <span *ngSwitchCase="'swift-fields'">{{ analysis!.ucpComplianceScore }}/100</span>
+                    <span *ngSwitchCase="'ucp'">{{ analysis!.ucpComplianceScore }}/100</span>
+                    <span *ngSwitchCase="'semantic'">{{ analysis!.completenessScore }}%</span>
+                    <span *ngSwitchCase="'external'">{{ analysis!.externalValidation.riskLevel || 'N/A' }}</span>
+                    <span *ngSwitchCase="'ds-risk'">{{ analysis!.dsRiskScore.riskLevel || 'N/A' }}</span>
+                  </ng-container>
+                </div>
+                <div class="msc-count" *ngIf="p.count !== undefined">
+                  <span [class.error]="(p.id === 'ucp') && p.count > 0">
+                    {{ p.count }} {{ p.id === 'ucp' ? 'erreur(s)' : 'clause(s)' }}
+                  </span>
+                </div>
+                <!-- Score bar -->
+                <div class="msc-bar-bg">
+                  <div class="msc-bar-fill" [class]="p.level + '-gray'"
+                       [style.width.%]="p.id === 'swift-fields' ? analysis!.ucpComplianceScore
+                                       : p.id === 'ucp' ? analysis!.ucpComplianceScore
+                                       : p.id === 'semantic' ? analysis!.completenessScore
+                                       : p.id === 'external' ? riskToScore(analysis!.externalValidation?.riskLevel)
+                                       : riskToScoreDs(analysis!.dsRiskScore?.riskLevel)">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ── PANEL NAVIGATION BUTTONS ────────────────────── -->
+          <div class="panel-nav">
+            <button *ngFor="let p of validationPanels"
+                    class="panel-btn"
+                    [class.active]="activePanel === p.id"
+                    (click)="setPanel(p.id)">
+              <span class="pb-icon">{{ p.icon }}</span>
+              <span class="pb-label">{{ p.label }}</span>
+              <span class="pb-badge error" *ngIf="p.id === 'ucp' && ucpErrorCount() > 0">{{ ucpErrorCount() }}</span>
+              <span class="pb-badge warn" *ngIf="p.id === 'ucp' && ucpWarningCount() > 0 && ucpErrorCount() === 0">{{ ucpWarningCount() }}</span>
+              <span class="pb-badge" [class]="p.level ?? 'gray'" *ngIf="p.id !== 'ucp' && p.level">●</span>
+            </button>
+          </div>
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- PANEL : CHAMPS SWIFT                              -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="panel" *ngIf="activePanel === 'swift-fields' && analysis">
+            <div class="panel-title">⬡ Validation des champs SWIFT obligatoires</div>
+            <div class="panel-summary">
+              <div class="ps-item green" *ngIf="!analysis!.paymentBlocked">
+                <span class="ps-icon">✓</span> Champs principaux présents
+              </div>
+              <div class="ps-item" [class]="scoreColor(analysis!.ucpComplianceScore)">
+                Score UCP : <strong>{{ analysis!.ucpComplianceScore }}/100</strong>
+              </div>
+              <div class="ps-item" [class]="analysis!.nUcpErrors > 0 ? 'red' : 'green'">
+                {{ analysis!.nUcpErrors }} erreur(s) · {{ analysis!.nUcpWarnings }} alerte(s)
+              </div>
+            </div>
+
+            <!-- Key fields checklist -->
+            <div class="checklist">
+              <div class="check-item" [class.ok]="analysis!.lcNumber" [class.missing]="!analysis!.lcNumber">
+                <span class="check-icon">{{ analysis!.lcNumber ? '✓' : '✗' }}</span>
+                <span class="check-tag">:20:</span> Référence LC
+                <span class="check-val">{{ analysis!.lcNumber || 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.swiftType" [class.missing]="!analysis!.swiftType">
+                <span class="check-icon">{{ analysis!.swiftType ? '✓' : '✗' }}</span>
+                <span class="check-tag">:40A:</span> Forme du crédit
+                <span class="check-val">{{ analysis!.lcForm || analysis!.swiftType }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.applicant" [class.missing]="!analysis!.applicant">
+                <span class="check-icon">{{ analysis!.applicant ? '✓' : '✗' }}</span>
+                <span class="check-tag">:50:</span> Donneur d'ordre
+                <span class="check-val">{{ analysis!.applicant ? '✓' : 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.beneficiary" [class.missing]="!analysis!.beneficiary">
+                <span class="check-icon">{{ analysis!.beneficiary ? '✓' : '✗' }}</span>
+                <span class="check-tag">:59:</span> Bénéficiaire
+                <span class="check-val">{{ analysis!.beneficiary ? '✓' : 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.amount" [class.missing]="!analysis!.amount">
+                <span class="check-icon">{{ analysis!.amount ? '✓' : '✗' }}</span>
+                <span class="check-tag">:32B:</span> Montant
+                <span class="check-val">{{ analysis!.amount ? formatAmount(analysis!.amount, analysis!.currency) : 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.expiryDate" [class.missing]="!analysis!.expiryDate">
+                <span class="check-icon">{{ analysis!.expiryDate ? '✓' : '✗' }}</span>
+                <span class="check-tag">:31D:</span> Date d'expiration
+                <span class="check-val">{{ formatDate(analysis!.expiryDate) }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.issuingBank" [class.missing]="!analysis!.issuingBank">
+                <span class="check-icon">{{ analysis!.issuingBank ? '✓' : '✗' }}</span>
+                <span class="check-tag">:52A:</span> Banque émettrice
+                <span class="check-val">{{ analysis!.issuingBank ? '✓' : 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.goodsDescription" [class.missing]="!analysis!.goodsDescription">
+                <span class="check-icon">{{ analysis!.goodsDescription ? '✓' : '✗' }}</span>
+                <span class="check-tag">:45A:</span> Description marchandises
+                <span class="check-val">{{ analysis!.goodsDescription ? '✓' : 'MANQUANT' }}</span>
+              </div>
+              <div class="check-item" [class.ok]="analysis!.documentsRequired" [class.missing]="!analysis!.documentsRequired">
+                <span class="check-icon">{{ analysis!.documentsRequired ? '✓' : '✗' }}</span>
+                <span class="check-tag">:46A:</span> Documents requis
+                <span class="check-val">{{ analysis!.documentsRequired ? '✓' : 'MANQUANT' }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- PANEL : UCP 600                                   -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="panel" *ngIf="activePanel === 'ucp' && analysis">
+            <div class="panel-title">⚖ Conformité UCP 600</div>
+
+            <div class="ucp-scores">
+              <div class="ucp-score-block" [class]="scoreColor(analysis!.ucpComplianceScore)">
+                <div class="usb-num">{{ analysis!.ucpComplianceScore }}/100</div>
+                <div class="usb-label">Score UCP global</div>
+              </div>
+              <div class="ucp-stats">
+                <div class="ust-item red">
+                  <div class="ust-num">{{ ucpErrorCount() }}</div>
+                  <div class="ust-lbl">Erreurs bloquantes</div>
+                </div>
+                <div class="ust-item yellow">
+                  <div class="ust-num">{{ ucpWarningCount() }}</div>
+                  <div class="ust-lbl">Alertes</div>
+                </div>
+                <div class="ust-item gray">
+                  <div class="ust-num">{{ analysis!.nUcpExclusions || 0 }}</div>
+                  <div class="ust-lbl">Articles exclus</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment blocked alert -->
+            <div class="alert-critical" *ngIf="analysis!.paymentBlocked">
+              ⊘ <strong>PAIEMENT BLOQUÉ</strong> — Des violations UCP critiques empêchent le traitement
+            </div>
+
+            <!-- Findings: Errors -->
+            <div class="findings-section" *ngIf="ucpErrorCount() > 0">
+              <div class="findings-header error">
+                🔴 Erreurs bloquantes ({{ ucpErrorCount() }})
+              </div>
+              <div class="finding-card error"
+                   *ngFor="let f of analysis!.ucpFindings | slice:0:20"
+                   [class.hidden]="f.severity !== 'error'">
+                <ng-container *ngIf="f.severity === 'error'">
+                  <div class="fc-top">
+                    <span class="fc-article">Art. {{ f.article }}</span>
+                    <span class="fc-title">{{ f.articleTitle }}</span>
+                    <span class="fc-blocks" *ngIf="f.blocksPayment">⊘ Bloque le paiement</span>
+                  </div>
+                  <div class="fc-message">{{ f.message }}</div>
+                  <div class="fc-clause" *ngIf="f.clauseText">
+                    <span class="fc-clause-label">Clause :</span> {{ f.clauseText | slice:0:150 }}
+                  </div>
+                  <div class="fc-rec" *ngIf="f.recommendation">
+                    💡 {{ f.recommendation }}
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+
+            <!-- Findings: Warnings -->
+            <div class="findings-section" *ngIf="ucpWarningCount() > 0">
+              <div class="findings-header warning">
+                🟡 Alertes ({{ ucpWarningCount() }})
+              </div>
+              <div class="finding-card warning"
+                   *ngFor="let f of analysis!.ucpFindings"
+                   [class.hidden]="f.severity !== 'warning'">
+                <ng-container *ngIf="f.severity === 'warning'">
+                  <div class="fc-top">
+                    <span class="fc-article">Art. {{ f.article }}</span>
+                    <span class="fc-title">{{ f.articleTitle }}</span>
+                  </div>
+                  <div class="fc-message">{{ f.message }}</div>
+                  <div class="fc-rec" *ngIf="f.recommendation">💡 {{ f.recommendation }}</div>
+                </ng-container>
+              </div>
+            </div>
+
+            <div class="no-issues" *ngIf="ucpErrorCount() === 0 && ucpWarningCount() === 0">
+              <span class="ni-icon">✓</span>
+              <span>Aucune violation UCP 600 détectée</span>
+            </div>
+          </div>
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- PANEL : ANALYSE SÉMANTIQUE / NLP                  -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="panel" *ngIf="activePanel === 'semantic' && analysis">
+            <div class="panel-title">◈ Analyse sémantique NLP</div>
+
+            <div class="nlp-scores">
+              <div class="nlp-score-block">
+                <div class="nsb-label">Complétude</div>
+                <div class="nsb-bar">
+                  <div class="nsb-fill" [class]="scoreColor(analysis!.completenessScore)"
+                       [style.width.%]="analysis!.completenessScore"></div>
+                </div>
+                <div class="nsb-val" [class]="scoreColor(analysis!.completenessScore)">{{ analysis!.completenessScore }}%</div>
+              </div>
+              <div class="nlp-score-block">
+                <div class="nsb-label">Cohérence NLP</div>
+                <div class="nsb-bar">
+                  <div class="nsb-fill" [class]="scoreColor(analysis!.semanticScore)"
+                       [style.width.%]="analysis!.semanticScore"></div>
+                </div>
+                <div class="nsb-val" [class]="scoreColor(analysis!.semanticScore)">{{ analysis!.semanticScore }}%</div>
+              </div>
+              <div class="nlp-score-block">
+                <div class="nsb-label">Score NLP</div>
+                <div class="nsb-bar">
+                  <div class="nsb-fill" [class]="scoreColor(analysis!.nlpScore)"
+                       [style.width.%]="analysis!.nlpScore"></div>
+                </div>
+                <div class="nsb-val" [class]="scoreColor(analysis!.nlpScore)">{{ analysis!.nlpScore }}/100</div>
+              </div>
+            </div>
+
+            <!-- Clauses stats -->
+            <div class="clause-stats">
+              <div class="cs-item">
+                <div class="cs-num">{{ analysis!.nClauses }}</div>
+                <div class="cs-lbl">Total clauses</div>
+              </div>
+              <div class="cs-item red">
+                <div class="cs-num">{{ analysis!.nCriticalClauses }}</div>
+                <div class="cs-lbl">Critiques</div>
+              </div>
+            </div>
+
+            <!-- Clauses by type -->
+            <div class="clauses-container" *ngIf="analysis!.nlpClauses?.length">
+              <div class="clause-group" *ngFor="let type of clauseTypes">
+                <div class="cg-header">
+                  <span class="cg-type">{{ clauseTypeLabel(type) }}</span>
+                  <span class="cg-count">{{ clausesByType(type).length }}</span>
+                </div>
+                <div class="clause-card" *ngFor="let c of clausesByType(type)"
+                     [class]="c.riskLevel">
+                  <div class="cc-meta">
+                    <span class="cc-imp">{{ c.importance }}</span>
+                    <span class="cc-conf">conf {{ c.confidence | number:'1.2-2' }}</span>
+                    <span class="cc-ml" *ngIf="c.method === 'supervised' || c.method === 'embedding'">ML</span>
+                    <span class="cc-ucp" *ngIf="c.ucpRefs">{{ c.ucpRefs }}</span>
+                  </div>
+                  <div class="cc-text">{{ c.text | slice:0:250 }}{{ c.text?.length > 250 ? '…' : '' }}</div>
+                </div>
+              </div>
+              <div class="no-issues" *ngIf="!analysis!.nlpClauses?.length">
+                <span>Aucune clause extraite</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- PANEL : VALIDATION EXTERNE                        -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="panel" *ngIf="activePanel === 'external' && analysis">
+            <div class="panel-title">◉ Validation externe (OFAC · EU · UN · GLEIF)</div>
+
+            <div class="ext-summary" *ngIf="analysis!.externalValidation as ev">
+              <div class="ext-risk-block" [class]="riskColor(ev.riskLevel)">
+                <div class="erb-level">{{ ev.riskLevel }}</div>
+                <div class="erb-score">{{ ev.rawScore | number:'1.2-2' }}</div>
+                <div class="erb-label">score pondéré</div>
+              </div>
+              <div class="ext-details">
+                <div class="ed-item">
+                  <span class="ed-label">Approche</span>
+                  <span class="ed-val">{{ ev.approach || 'B — APIs web' }}</span>
+                </div>
+                <div class="ed-item">
+                  <span class="ed-label">Devise</span>
+                  <ng-container *ngIf="ev.details?.currency as cur; else currencySimple">
+                    <span class="ed-val">
+                      {{ ev.currencyCode || cur.code || '—' }}
+                      <span class="mini-tag" [class]="riskColor(cur.risk)">{{ cur.risk || 'CLEAN' }}</span>
+                      <span *ngIf="!cur.isValid" class="mini-tag no">ISO invalide</span>
+                      <span *ngIf="cur.details" class="ed-hint">{{ cur.details }}</span>
+                    </span>
+                  </ng-container>
+                  <ng-template #currencySimple>
+                    <span class="ed-val" [class.ok]="ev.currencyValid" [class.no]="!ev.currencyValid">
+                      {{ ev.currencyCode || '—' }} {{ ev.currencyValid ? '✓' : '✗' }}
+                    </span>
+                  </ng-template>
+                </div>
+                <div class="ed-item" *ngIf="ev.countryIso2">
+                  <span class="ed-label">Pays (ISO-2)</span>
+                  <span class="ed-val" [class.no]="ev.countrySanctioned">
+                    {{ ev.countryIso2 }} {{ ev.countrySanctioned ? '⚠ Sanctionné' : '✓' }}
+                  </span>
+                </div>
+                <div class="ed-item" *ngIf="ev.fatfList">
+                  <span class="ed-label">FATF</span>
+                  <span class="ed-val no">{{ ev.fatfList }}</span>
+                </div>
+                <div class="ed-item">
+                  <span class="ed-label">Sources</span>
+                  <span class="ed-val sources">{{ ev.sourcesConsulted }}</span>
+                </div>
+                <div class="ed-item">
+                  <span class="ed-label">Temps API</span>
+                  <span class="ed-val">{{ ev.processingMs }}ms</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="no-issues" *ngIf="!analysis!.externalValidation">
+              <span>Validation externe non disponible</span>
+            </div>
+
+            <!-- Risk factors summary -->
+            <div class="ext-risk-factors" *ngIf="analysis!.riskFactors?.length">
+              <div class="erf-header">⚠ Facteurs de risque détectés</div>
+              <div class="erf-item" *ngFor="let f of analysis!.riskFactors">
+                <span class="erf-icon" [class.critical]="f.includes('BLOQUER')">●</span>
+                {{ f }}
+              </div>
+            </div>
+
+            <div class="ext-clean" *ngIf="analysis!.externalValidation?.riskLevel === 'CLEAN'">
+              <span class="ec-icon">✓</span>
+              <div>
+                <div class="ec-title">Aucune correspondance sanctions</div>
+                <div class="ec-sub">OFAC · EU · UN · GLEIF — aucun risque identifié</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ══════════════════════════════════════════════════ -->
+          <!-- PANEL : ANALYSE DS / ML                           -->
+          <!-- ══════════════════════════════════════════════════ -->
+          <div class="panel" *ngIf="activePanel === 'ds-risk' && analysis">
+            <div class="panel-title">⬟ Analyse Data Science & Machine Learning</div>
+
+            <div class="ds-summary" *ngIf="analysis!.dsRiskScore as ds">
+              <div class="ds-risk-block" [class]="riskColor(ds.riskLevel)">
+                <div class="dsrb-level">{{ ds.riskLevel }}</div>
+                <div class="dsrb-score">{{ ds.riskScore | number:'1.3-3' }}</div>
+                <div class="dsrb-label">risk score</div>
+              </div>
+              <div class="ds-details">
+                <div class="dd-item">
+                  <span class="dd-label">Modèle utilisé</span>
+                  <span class="dd-val ml" *ngIf="ds.modelUsed !== 'rules'">🤖 {{ ds.modelUsed }}</span>
+                  <span class="dd-val" *ngIf="ds.modelUsed === 'rules'">📏 Règles heuristiques</span>
+                </div>
+                <div class="dd-item" *ngIf="ds.mlRiskScore">
+                  <span class="dd-label">Score ML</span>
+                  <span class="dd-val">{{ ds.mlRiskScore | number:'1.3-3' }}</span>
+                </div>
+                <div class="dd-item">
+                  <span class="dd-label">Complétude</span>
+                  <span class="dd-val" [class]="scoreColor(ds.completenessScore)">{{ ds.completenessScore }}%</span>
+                </div>
+                <div class="dd-item">
+                  <span class="dd-label">Clauses analysées</span>
+                  <span class="dd-val">{{ ds.nClauses }}</span>
+                </div>
+                <div class="dd-item">
+                  <span class="dd-label">Clauses critiques</span>
+                  <span class="dd-val" [class.no]="ds.nCriticalClauses > 0">{{ ds.nCriticalClauses }}</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Risk factors -->
+            <div class="ds-factors" *ngIf="analysis!.riskFactors?.length">
+              <div class="dsf-header">Facteurs contributifs</div>
+              <div class="dsf-item" *ngFor="let f of analysis!.riskFactors">
+                <span class="dsf-bullet">→</span>{{ f }}
+              </div>
+            </div>
+
+            <div class="no-issues" *ngIf="analysis!.dsRiskScore?.riskLevel === 'LOW'">
+              <span class="ni-icon">✓</span>
+              <span>Risque DS/ML faible — crédit documentaire standard</span>
+            </div>
+
+            <div class="no-issues" *ngIf="!analysis!.dsRiskScore">
+              <span>Analyse DS non disponible</span>
+            </div>
+          </div>
+
+        </section>
+        <!-- END VALIDATION SECTION -->
+
+      </div>
+      <!-- END RESULTS -->
+
+    </div>
+    <!-- END ANALYSIS VIEW -->
+  </div>
+  <!-- END MAIN CONTENT -->
+
+</div>
+<!-- END APP SHELL -->

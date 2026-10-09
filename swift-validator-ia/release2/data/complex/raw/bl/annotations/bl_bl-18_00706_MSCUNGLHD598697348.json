@@ -1,0 +1,442 @@
+{
+  "id": 706,
+  "filename": "bl_bl-18_00706_MSCUNGLHD598697348.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNGLHD598697348",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGLHD598697348",
+    "shipper_name": "UNITED COMMERCE LLC",
+    "shipper_address": "819 HARBOR ROAD",
+    "consignee_name": "DELTA SUPPLY CHAIN GMBH",
+    "consignee_address": "860 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL COMMERCE CO.",
+    "notify_party_address": "453 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7582",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "26 JUN 2026",
+    "eta": "24 JUL 2026",
+    "container_number": "TCKU4345622",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "CEHGB13F",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "259 PALLETS",
+    "gross_weight_kg": "20,160.90",
+    "measurement": "93.622 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4345622",
+        "seal_number": "CEHGB13F",
+        "container_type": "20' FLAT RACK",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "259",
+          "type": "PALLETS",
+          "description": "259 PALLETS"
+        },
+        "gross_weight_kg": "15,116.04",
+        "net_weight_kg": "11,142.97",
+        "measurement": "48.575 CBM"
+      },
+      {
+        "container_number": "CMAU3201188",
+        "seal_number": "CA6GB51A",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "370",
+          "type": "BOXES",
+          "description": "370 BOXES"
+        },
+        "gross_weight_kg": "5,044.86",
+        "net_weight_kg": "1,811.79",
+        "measurement": "45.047 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNGLHD598697348",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU4345622",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "CEHGB13F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '259', 'type': 'PALLETS', 'description': '259 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "15,116.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "48.575 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU3201188",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "CA6GB51A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '370', 'type': 'BOXES', 'description': '370 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "5,044.86",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "45.047 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "819 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED COMMERCE LLC\n819 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "860 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA SUPPLY CHAIN GMBH\n860 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "453 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL COMMERCE CO.\n453 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.89,
+        490.39,
+        218.84,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        490.39,
+        229.5,
+        34.02
+      ],
+      "value": "AL7582",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        524.41,
+        196.61,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        369.85,
+        524.41,
+        204.16,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        558.43,
+        192.6,
+        34.02
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        592.44,
+        246.84,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        382.3,
+        592.44,
+        191.72,
+        34.02
+      ],
+      "value": "24 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        386.73,
+        634.96,
+        187.28,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        663.31,
+        215.28,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        376.97,
+        663.31,
+        197.04,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        113.9,
+        691.65,
+        190.83,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

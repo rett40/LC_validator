@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00887",
+  "filename": "inv_inv-23_00887.pdf",
+  "layout_id": "INV-23",
+  "bl_id": 887,
+  "fields": {
+    "invoice_number": "INV-2026-00887",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/CITI/0887/2026",
+    "bl_reference": "MSCUNBGTY324979571",
+    "seller_name": "CENTRAL COMMERCE AG",
+    "buyer_name": "FIRST ENTERPRISES INC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0782W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 359,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "75,711.48",
+    "unit_price": 6.61,
+    "currency": "USD",
+    "total_amount": 2373.56,
+    "incoterm": "CIF",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        206.36,
+        27.78
+      ],
+      "value": "INV-2026-00887",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        126.14,
+        116.08,
+        19.84
+      ],
+      "value": "75,711.48 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        145.98,
+        116.08,
+        19.84
+      ],
+      "value": "2373.56 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        174.33,
+        319.86,
+        79.37
+      ],
+      "value": "CENTRAL COMMERCE AG\nCENTRAL COMMERCE AG\n219 INDUSTRIAL AVENUE\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        174.33,
+        196.04,
+        79.37
+      ],
+      "value": "FIRST ENTERPRISES INC\nFIRST ENTERPRISES INC\n366 COMMERCE STREET\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        277.8,
+        165.09,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        277.8,
+        61.91,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "359",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "6.61 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "2373.56 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        100.2,
+        328.82,
+        112.87,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        305.92,
+        328.82,
+        79.12,
+        28.35
+      ],
+      "value": "LC/CITI/0887/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        450.8,
+        328.82,
+        106.2,
+        28.35
+      ],
+      "value": "MSCUNBGTY324979571",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        133.54,
+        357.17,
+        79.53,
+        28.35
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        304.67,
+        357.17,
+        80.37,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        407.45,
+        357.17,
+        149.55,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        111.86,
+        394.02,
+        101.21,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        259.24,
+        394.02,
+        125.8,
+        25.51
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "2778.66 USD",
+      "actual": "2373.56 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    }
+  ]
+}

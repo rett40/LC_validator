@@ -1,0 +1,27 @@
+# ── Environnements virtuels / caches ───────────────────────
+.venv
+venv
+**/__pycache__
+*.pyc
+.pytest_cache
+.git
+*.log
+training_v4.log
+# Caches modèles montés en volume (jamais dans l'image)
+.hf_cache
+.easyocr_cache
+
+# ── Modèles ML (montés en volumes, JAMAIS dans l'image) ─────
+# models principal (3.5 GB) — risk-clf, clause-clf, nli, swift-ner
+models
+# release2 models (19 GB) — LayoutLM, Donut, classifiers
+release2/models
+# release2 datasets (4.7 GB)
+release2/data
+# logs release2
+release2/logs
+
+# ── Éval (non requis au runtime) ────────────────────────────
+evaluation
+# Note : 'data' (0.17 GB) et 'sanctions_data' (0.01 GB) sont CONSERVÉS
+# car potentiellement requis au runtime (templates, listes OFAC).

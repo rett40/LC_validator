@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00099",
+  "filename": "inv_cmacgm_0099_CMAURXJS401366777.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 99,
+  "fields": {
+    "invoice_number": "INV-2026-00099",
+    "invoice_date": "13 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0099/2026",
+    "bl_reference": "CMAURXJS401366777",
+    "seller_name": "PREMIER COMMERCE S.A.",
+    "buyer_name": "GLOBAL ENTERPRISES BV",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7997",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "hs_code": "8428.90",
+    "quantity": 405,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "5,324.64",
+    "unit_price": 338.79,
+    "currency": "EUR",
+    "total_amount": 137209.95,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00099",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAURXJS401366777",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "PREMIER COMMERCE S.A.\n654 COMMERCE STREET\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "GLOBAL ENTERPRISES BV\n471 COMMERCE STREET\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "AL7997",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "CMAURXJS401366777",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "405",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 338.79",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 137,209.95",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "EUR 137,209.95",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "NINGBO, CHINA",
+      "actual": "VALENCIA, SPAIN"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

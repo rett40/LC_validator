@@ -1,0 +1,409 @@
+{
+  "id": 343,
+  "filename": "bl_bl-07_00343_MSCUNVVUB243403681.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNVVUB243403681",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVVUB243403681",
+    "shipper_name": "EURO LOGISTICS CORP",
+    "shipper_address": "970 COMMERCE BOULEVARD",
+    "consignee_name": "APEX COMMERCE LTD",
+    "consignee_address": "728 TRADE PARK",
+    "notify_party_name": "CENTRAL GROUP GMBH",
+    "notify_party_address": "186 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE172S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "10 JUN 2026",
+    "eta": "29 JUN 2026",
+    "container_number": "TCKU5383180",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "07BE1319",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "102 CRATES",
+    "gross_weight_kg": "43,865.41",
+    "measurement": "92.859 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU5383180",
+        "seal_number": "07BE1319",
+        "container_type": "20' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "102",
+          "type": "CRATES",
+          "description": "102 CRATES"
+        },
+        "gross_weight_kg": "17,410.35",
+        "net_weight_kg": "14,083.19",
+        "measurement": "59.736 CBM"
+      },
+      {
+        "container_number": "TCKU9435388",
+        "seal_number": "AE3B4D2F",
+        "container_type": "20' FLAT RACK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "254",
+          "type": "CRATES",
+          "description": "254 CRATES"
+        },
+        "gross_weight_kg": "26,455.06",
+        "net_weight_kg": "23,661.91",
+        "measurement": "33.123 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "29 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNVVUB243403681",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "FE172S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        228.19,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU5383180",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "07BE1319",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        228.19,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        228.19,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '102', 'type': 'CRATES', 'description': '102 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "17,410.35",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "59.736 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        265.04,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9435388",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "AE3B4D2F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        265.04,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        265.04,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '254', 'type': 'CRATES', 'description': '254 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "26,455.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "33.123 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "EURO LOGISTICS CORP\n970 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "APEX COMMERCE LTD\n728 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "CENTRAL GROUP GMBH\n186 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        462.05,
+        134.65,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

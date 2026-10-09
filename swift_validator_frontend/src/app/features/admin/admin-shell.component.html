@@ -1,0 +1,76 @@
+<div class="admin-layout" [class.collapsed]="sidebarCollapsed">
+
+  <!-- Sidebar -->
+  <aside class="admin-sidebar">
+    <div class="sidebar-header">
+      <div class="sh-brand">
+        <i class="pi pi-verified"></i>
+        @if (!sidebarCollapsed) {
+          <span><span class="gold">LC</span> Validator</span>
+        }
+      </div>
+      <button class="collapse-btn" (click)="sidebarCollapsed = !sidebarCollapsed">
+        <i class="pi" [class.pi-chevron-left]="!sidebarCollapsed" [class.pi-chevron-right]="sidebarCollapsed"></i>
+      </button>
+    </div>
+
+    <nav class="sidebar-nav">
+      @for (item of navItems; track item.route) {
+        <a
+          [routerLink]="item.route"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{exact: item.route === '/admin/dashboard'}"
+          class="nav-item"
+          [title]="sidebarCollapsed ? item.label : ''"
+        >
+          <i class="pi {{ item.icon }}"></i>
+          @if (!sidebarCollapsed) { <span>{{ item.label }}</span> }
+        </a>
+      }
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="user-info" [class.compact]="sidebarCollapsed">
+        <div class="user-avatar">{{ initials }}</div>
+        @if (!sidebarCollapsed) {
+          <div class="user-meta">
+            <span class="user-name">{{ user?.username ?? '—' }}</span>
+            <span class="user-role">ADMIN</span>
+          </div>
+        }
+      </div>
+      <button class="logout-btn" (click)="logout()" [title]="sidebarCollapsed ? 'Déconnexion' : ''">
+        <i class="pi pi-sign-out"></i>
+        @if (!sidebarCollapsed) { <span>Déconnexion</span> }
+      </button>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <div class="admin-main">
+    <header class="admin-topbar">
+      <div class="topbar-left">
+        <button class="mobile-toggle" (click)="sidebarCollapsed = !sidebarCollapsed">
+          <i class="pi pi-bars"></i>
+        </button>
+        <div class="page-breadcrumb">
+          <i class="pi pi-home"></i>
+          <span>Administration</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="user-chip">
+          <div class="uc-avatar">{{ initials }}</div>
+          <div class="uc-info">
+            <span class="uc-name">{{ user?.username }}</span>
+            <span class="uc-role">Administrateur</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="admin-content">
+      <router-outlet />
+    </div>
+  </div>
+</div>

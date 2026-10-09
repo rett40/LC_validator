@@ -1,0 +1,318 @@
+{
+  "id": 443,
+  "filename": "bl_bl-12_00443_MSCUNGGKY425318590.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNGGKY425318590",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGGKY425318590",
+    "shipper_name": "EURO LOGISTICS PLC",
+    "shipper_address": "191 HARBOR ROAD",
+    "consignee_name": "CENTRAL TRADING BV",
+    "consignee_address": "307 MAIN STREET",
+    "notify_party_name": "PREMIER SOLUTIONS S.A.",
+    "notify_party_address": "33 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE24W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "14 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "CMAU5462879",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "3B59816H",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "291 PACKAGES",
+    "gross_weight_kg": "19,123.36",
+    "measurement": "66.829 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU5462879",
+        "seal_number": "3B59816H",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "291",
+          "type": "PACKAGES",
+          "description": "291 PACKAGES"
+        },
+        "gross_weight_kg": "19,123.36",
+        "net_weight_kg": "16,421.37",
+        "measurement": "66.829 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNGGKY425318590",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "EURO LOGISTICS PLC\n191 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "CENTRAL TRADING BV\n307 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "PREMIER SOLUTIONS S.A.\n33 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU5462879",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "3B59816H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '291', 'type': 'PACKAGES', 'description': '291 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "19,123.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "66.829 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        473.95,
+        272.38,
+        15.31
+      ],
+      "value": "AE24W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        507.97,
+        272.38,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        541.98,
+        272.38,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        576.0,
+        272.38,
+        15.31
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        615.12,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        643.46,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        671.81,
+        272.38,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

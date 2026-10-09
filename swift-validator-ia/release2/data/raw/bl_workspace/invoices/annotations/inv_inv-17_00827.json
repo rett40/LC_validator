@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00827",
+  "filename": "inv_inv-17_00827.pdf",
+  "layout_id": "INV-17",
+  "bl_id": 827,
+  "fields": {
+    "invoice_number": "INV-2026-00827",
+    "invoice_date": "23 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0827/2026",
+    "bl_reference": "MSCUNHPRB317571423",
+    "seller_name": "PREMIER SHIPPING AG",
+    "buyer_name": "GLOBAL TRADING INC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0744N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "COSMETICS AND TOILETRIES",
+    "hs_code": "3304.99",
+    "quantity": 488,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "25,898.29",
+    "unit_price": 34.18,
+    "currency": "USD",
+    "total_amount": 16679.84,
+    "incoterm": "FOB",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00827",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0827/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "MSCUNHPRB317571423",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        133.23,
+        134.65,
+        18.43
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        195.59,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        195.59,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        306.14,
+        172.35,
+        42.52
+      ],
+      "value": "COSMETICS AND TOILETRIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        306.14,
+        64.63,
+        42.52
+      ],
+      "value": "3304.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "488",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "34.18 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "16679.84 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "25,898.29 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "16679.84 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "HONG KONG",
+      "actual": "SINGAPORE"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PERSONAL CARE PRODUCTS",
+      "actual": "COSMETICS AND TOILETRIES"
+    }
+  ]
+}

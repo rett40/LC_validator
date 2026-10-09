@@ -1,0 +1,409 @@
+{
+  "id": 447,
+  "filename": "bl_bl-12_00447_MSCUNGNPD783223183.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNGNPD783223183",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGNPD783223183",
+    "shipper_name": "EURO PARTNERS PLC",
+    "shipper_address": "516 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST SHIPPING GMBH",
+    "consignee_address": "558 PORT ACCESS ROAD",
+    "notify_party_name": "CENTRAL ENTERPRISES LLC",
+    "notify_party_address": "949 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0984E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "22 MAY 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "TRHU9186676",
+    "container_type": "40'FR",
+    "seal_number": "27AG0BH1",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "218 PALLETS",
+    "gross_weight_kg": "37,655.85",
+    "measurement": "61.745 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9186676",
+        "seal_number": "27AG0BH1",
+        "container_type": "40'FR",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "218",
+          "type": "PALLETS",
+          "description": "218 PALLETS"
+        },
+        "gross_weight_kg": "23,348.53",
+        "net_weight_kg": "20,430.15",
+        "measurement": "30.527 CBM"
+      },
+      {
+        "container_number": "TCKU7840823",
+        "seal_number": "G048GC29",
+        "container_type": "40'OT",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "355",
+          "type": "CARTONS",
+          "description": "355 CARTONS"
+        },
+        "gross_weight_kg": "14,307.32",
+        "net_weight_kg": "10,890.59",
+        "measurement": "31.218 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "MSCUNGNPD783223183",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "EURO PARTNERS PLC\n516 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        73.7
+      ],
+      "value": "FIRST SHIPPING GMBH\n558 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        23.26,
+        219.69,
+        272.38,
+        73.7
+      ],
+      "value": "CENTRAL ENTERPRISES LLC\n949 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        408.19,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU9186676",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "27AG0BH1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        408.19,
+        44.22,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        408.19,
+        138.19,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        408.19,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '218', 'type': 'PALLETS', 'description': '218 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "23,348.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        408.19,
+        82.91,
+        36.85
+      ],
+      "value": "30.527 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        445.04,
+        93.97,
+        36.85
+      ],
+      "value": "TCKU7840823",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "G048GC29",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        445.04,
+        44.22,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        445.04,
+        138.19,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        445.04,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '355', 'type': 'CARTONS', 'description': '355 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "14,307.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        445.04,
+        82.91,
+        36.85
+      ],
+      "value": "31.218 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        510.8,
+        272.38,
+        15.31
+      ],
+      "value": "0984E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        544.82,
+        272.38,
+        15.31
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        578.83,
+        272.38,
+        15.31
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        612.85,
+        272.38,
+        15.31
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        651.97,
+        272.38,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        680.31,
+        272.38,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        708.66,
+        272.38,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

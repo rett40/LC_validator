@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01065",
+  "filename": "inv_inv-27_01065.pdf",
+  "layout_id": "INV-27",
+  "bl_id": 1065,
+  "fields": {
+    "invoice_number": "INV-2026-01065",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/DBS/1065/2026",
+    "bl_reference": "MSCUNTKXH268431238",
+    "seller_name": "PREMIER COMMERCE GMBH",
+    "buyer_name": "DELTA COMMERCE GMBH",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE28S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "hs_code": "9503.00",
+    "quantity": 453,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "23,870.36",
+    "unit_price": 24.16,
+    "currency": "EUR",
+    "total_amount": 10945.17,
+    "incoterm": "CIF",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        83.62,
+        213.17,
+        11.34
+      ],
+      "value": "INV-2026-01065",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        119.06,
+        170.53,
+        42.52
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        211.63,
+        119.06,
+        63.95,
+        42.52
+      ],
+      "value": "9503.00",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        275.58,
+        119.06,
+        53.29,
+        42.52
+      ],
+      "value": "453",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        328.88,
+        119.06,
+        53.29,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        382.17,
+        119.06,
+        95.92,
+        42.52
+      ],
+      "value": "24.16 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        478.09,
+        119.06,
+        95.92,
+        42.52
+      ],
+      "value": "10945.17 EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        170.08,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER COMMERCE GMBH\nPREMIER COMMERCE GMBH\n356 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        307.56,
+        170.08,
+        266.46,
+        79.37
+      ],
+      "value": "DELTA COMMERCE GMBH\nDELTA COMMERCE GMBH\n629 MAIN BOULEVARD\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        454.11,
+        257.95,
+        119.91,
+        19.84
+      ],
+      "value": "23,870.36 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        454.11,
+        277.8,
+        119.91,
+        19.84
+      ],
+      "value": "10945.17 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        43.1,
+        321.45,
+        173.64,
+        11.48
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        220.74,
+        321.45,
+        173.64,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        43.1,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        220.74,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "LC/DBS/1065/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        398.38,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "MSCUNTKXH268431238",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        43.1,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        220.74,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        398.38,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "9734.97 USD",
+      "actual": "10945.17 USD"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

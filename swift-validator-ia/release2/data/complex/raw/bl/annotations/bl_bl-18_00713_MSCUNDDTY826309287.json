@@ -1,0 +1,351 @@
+{
+  "id": 713,
+  "filename": "bl_bl-18_00713_MSCUNDDTY826309287.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNDDTY826309287",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNDDTY826309287",
+    "shipper_name": "APEX SHIPPING AG",
+    "shipper_address": "998 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED GROUP LTD",
+    "consignee_address": "186 PORT ACCESS ROAD",
+    "notify_party_name": "DELTA ENTERPRISES LTD",
+    "notify_party_address": "651 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL3226",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "27 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "OOLU1087967",
+    "container_type": "40'RF",
+    "seal_number": "40DC1D30",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "396 CRATES",
+    "gross_weight_kg": "24,471.93",
+    "measurement": "55.096 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU1087967",
+        "seal_number": "40DC1D30",
+        "container_type": "40'RF",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "396",
+          "type": "CRATES",
+          "description": "396 CRATES"
+        },
+        "gross_weight_kg": "24,471.93",
+        "net_weight_kg": "22,242.66",
+        "measurement": "55.096 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNDDTY826309287",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU1087967",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "40DC1D30",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '396', 'type': 'CRATES', 'description': '396 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "24,471.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "55.096 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "998 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SHIPPING AG\n998 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "186 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED GROUP LTD\n186 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "651 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA ENTERPRISES LTD\n651 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        453.54,
+        231.72,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        453.54,
+        229.5,
+        34.02
+      ],
+      "value": "AL3226",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        487.56,
+        209.95,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        396.52,
+        487.56,
+        177.5,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        521.57,
+        238.84,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        521.57,
+        184.16,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        555.59,
+        207.72,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        555.59,
+        180.6,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        598.11,
+        186.84,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        598.11,
+        201.5,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        626.46,
+        227.28,
+        28.35
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        626.46,
+        219.72,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        654.8,
+        169.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

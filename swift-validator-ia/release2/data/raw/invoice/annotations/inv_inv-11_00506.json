@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00506",
+  "filename": "inv_inv-11_00506.pdf",
+  "layout_id": "INV-11",
+  "bl_id": 506,
+  "fields": {
+    "invoice_number": "INV-2026-00506",
+    "invoice_date": "30 APR 2026",
+    "lc_reference": "LC/CITI/0506/2026",
+    "bl_reference": "MSCUNSRNV417222387",
+    "seller_name": "CENTRAL SOLUTIONS CORP",
+    "buyer_name": "ATLANTIC SOLUTIONS LLC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0798E",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "MEDICAL DEVICES AND EQUIPMENT",
+    "hs_code": "9018.90",
+    "quantity": 498,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "23,673.39",
+    "unit_price": 292.92,
+    "currency": "EUR",
+    "total_amount": 145874.16,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        215.43,
+        11.34
+      ],
+      "value": "INV-2026-00506",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        100.63,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        100.63,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "LC/CITI/0506/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        205.51,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNSRNV417222387",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        233.86,
+        179.53,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        283.46,
+        172.35,
+        42.52
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        283.46,
+        64.63,
+        42.52
+      ],
+      "value": "9018.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        283.46,
+        53.86,
+        42.52
+      ],
+      "value": "498",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        283.46,
+        53.86,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        283.46,
+        96.94,
+        42.52
+      ],
+      "value": "292.92 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        283.46,
+        96.94,
+        42.52
+      ],
+      "value": "145874.16 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "23,673.39 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "145874.16 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        398.27,
+        179.53,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        398.27,
+        179.53,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "VALENCIA, SPAIN"
+    }
+  ]
+}

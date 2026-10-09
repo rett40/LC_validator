@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00211",
+  "filename": "inv_inv-06_00211.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 211,
+  "fields": {
+    "invoice_number": "INV-2026-00211",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/BNP/0211/2026",
+    "bl_reference": "MSCUNJASK632146635",
+    "seller_name": "PACIFIC LOGISTICS LTD",
+    "buyer_name": "DELTA INDUSTRIES CORP",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS177W",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "BUILDING MATERIALS",
+    "hs_code": "6810.19",
+    "quantity": 84,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "12,047.04",
+    "unit_price": 39.62,
+    "currency": "EUR",
+    "total_amount": 3328.08,
+    "incoterm": "CFR",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00211",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        104.63,
+        120.47,
+        110.33,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        288.96,
+        120.47,
+        105.53,
+        28.35
+      ],
+      "value": "LC/BNP/0211/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        468.49,
+        120.47,
+        105.53,
+        28.35
+      ],
+      "value": "MSCUNJASK632146635",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        71.03,
+        148.82,
+        143.93,
+        28.35
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        288.96,
+        148.82,
+        105.53,
+        28.35
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        420.49,
+        148.82,
+        153.53,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "PACIFIC LOGISTICS LTD\nPACIFIC LOGISTICS LTD\n480 COMMERCE STREET\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA INDUSTRIES CORP\nDELTA INDUSTRIES CORP\n198 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        289.13,
+        172.35,
+        42.52
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        289.13,
+        64.63,
+        42.52
+      ],
+      "value": "6810.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "84",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "39.62 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "3328.08 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "12,047.04 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "3328.08 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        109.43,
+        388.35,
+        105.53,
+        25.51
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        264.96,
+        388.35,
+        129.53,
+        25.51
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "BUSAN, SOUTH KOREA"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

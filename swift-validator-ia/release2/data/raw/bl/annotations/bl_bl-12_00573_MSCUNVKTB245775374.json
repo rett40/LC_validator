@@ -1,0 +1,409 @@
+{
+  "id": 573,
+  "filename": "bl_bl-12_00573_MSCUNVKTB245775374.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNVKTB245775374",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVKTB245775374",
+    "shipper_name": "EURO SHIPPING S.A.",
+    "shipper_address": "270 INDUSTRIAL AVENUE",
+    "consignee_name": "CENTRAL TRADING BV",
+    "consignee_address": "759 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SHIPPING CO.",
+    "notify_party_address": "396 TRADE PARK",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0418W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "19 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "OOLU0861974",
+    "container_type": "40' REEFER",
+    "seal_number": "760912E2",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "153 CRATES",
+    "gross_weight_kg": "27,064.14",
+    "measurement": "100.429 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0861974",
+        "seal_number": "760912E2",
+        "container_type": "40' REEFER",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "153",
+          "type": "CRATES",
+          "description": "153 CRATES"
+        },
+        "gross_weight_kg": "7,923.78",
+        "net_weight_kg": "5,436.78",
+        "measurement": "44.234 CBM"
+      },
+      {
+        "container_number": "TCKU9376030",
+        "seal_number": "B3B41804",
+        "container_type": "40' DRY",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "36",
+          "type": "CRATES",
+          "description": "36 CRATES"
+        },
+        "gross_weight_kg": "19,140.36",
+        "net_weight_kg": "16,274.34",
+        "measurement": "56.195 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "27 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNVKTB245775374",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "EURO SHIPPING S.A.\n270 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "CENTRAL TRADING BV\n759 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC SHIPPING CO.\n396 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0861974",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "760912E2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '153', 'type': 'CRATES', 'description': '153 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "7,923.78",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "44.234 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9376030",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "B3B41804",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '36', 'type': 'CRATES', 'description': '36 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "19,140.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "56.195 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        520.72,
+        265.29,
+        15.31
+      ],
+      "value": "0418W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        554.74,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        588.76,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        622.77,
+        265.29,
+        15.31
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        661.89,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        690.24,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        718.58,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

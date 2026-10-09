@@ -1,0 +1,65 @@
+==================================================================
+  COUNTRY RISK CLASSIFICATION  –  2026-05-11  (mensuel)
+==================================================================
+  Répertoire  : data\scraping
+  Total pays  : 249
+
+  🔴 CRITICAL : 9 pays
+  🟠 HIGH     : 25 pays
+  🟡 MEDIUM   : 18 pays
+  🟢 LOW      : 197 pays
+
+  ✅ Validations OK        : 249 pays
+  ❌ Erreurs pays          : 0
+  ❌ Erreurs devise        : 4
+  ⚠️  Avertissements devise : 0
+  ➖ Sans devise           : 1
+
+  Sources :
+    1. FATF Black & Grey Lists    (2025)
+    2. OFAC Comprehensive/Partial (2025)
+    3. EU AML High-Risk + Restrictive Measures (2025)
+    4. UN Security Council Sanctions (2025)
+    5. Basel AML Index (2024)
+    6. Transparency International CPI (2024)
+
+──────────────────────────────────────────────────────────────────
+  Pays CRITICAL :
+    [IR] Iran                                score=100  IRR
+    [KP] North Korea                         score=100  KPW
+    [MM] Myanmar                             score= 76  MMK
+    [SY] Syria                               score= 75  SYP
+    [VE] Venezuela                           score= 75  VES
+    [HT] Haiti                               score= 68  HTG
+    [CD] Democratic Republic of the Congo    score= 63  CDF
+    [ML] Mali                                score= 58  XOF
+    [RU] Russia                              score= 58  RUB
+
+──────────────────────────────────────────────────────────────────
+  Pays HIGH :
+    [SS] South Sudan                         score= 50  SSP
+    [YE] Yemen                               score= 50  YER
+    [CF] Central African Republic            score= 43  XAF
+    [LY] Libya                               score= 43  LYD
+    [SO] Somalia                             score= 43  SOS
+    [SD] Sudan                               score= 43  SDG
+    [BY] Belarus                             score= 40  BYN
+    [GW] Guinea-Bissau                       score= 35  XOF
+    [CM] Cameroon                            score= 30  XAF
+    [CU] Cuba                                score= 30  CUP
+    [ER] Eritrea                             score= 28  ERN
+    [ET] Ethiopia                            score= 28  ETB
+    [NI] Nicaragua                           score= 28  NIO
+    [ZW] Zimbabwe                            score= 28  ZWL
+    [AO] Angola                              score= 25  AOA
+    [BF] Burkina Faso                        score= 25  XOF
+    [CI] Côte d'Ivoire                       score= 25  XOF
+    [KE] Kenya                               score= 25  KES
+    [LB] Lebanon                             score= 25  LBP
+    [MZ] Mozambique                          score= 25  MZN
+    [NA] Namibia                             score= 25  NAD
+    [NP] Nepal                               score= 25  NPR
+    [NG] Nigeria                             score= 25  NGN
+    [TZ] Tanzania                            score= 25  TZS
+    [VN] Vietnam                             score= 25  VND
+==================================================================

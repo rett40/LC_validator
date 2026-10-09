@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00771",
+  "filename": "inv_inv-20_00771.pdf",
+  "layout_id": "INV-20",
+  "bl_id": 771,
+  "fields": {
+    "invoice_number": "INV-2026-00771",
+    "invoice_date": "30 APR 2026",
+    "lc_reference": "LC/SCB/0771/2026",
+    "bl_reference": "MSCUNERPP319291735",
+    "seller_name": "PACIFIC INDUSTRIES S.A.",
+    "buyer_name": "UNITED SHIPPING INC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-314",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "COSMETICS AND TOILETRIES",
+    "hs_code": "3304.99",
+    "quantity": 286,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "47,259.59",
+    "unit_price": 41.79,
+    "currency": "USD",
+    "total_amount": 11951.94,
+    "incoterm": "EXW",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00771",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        60.94,
+        332.16,
+        79.37
+      ],
+      "value": "PACIFIC INDUSTRIES S.A.\nPACIFIC INDUSTRIES S.A.\n309 HARBOR ROAD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        60.94,
+        203.58,
+        79.37
+      ],
+      "value": "UNITED SHIPPING INC\nUNITED SHIPPING INC\n152 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "LC/SCB/0771/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNERPP319291735",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "COSMETICS AND TOILETRIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "3304.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "286",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "41.79 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "11951.94 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "47,259.59 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "11951.94 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PERSONAL CARE PRODUCTS",
+      "actual": "COSMETICS AND TOILETRIES"
+    }
+  ]
+}

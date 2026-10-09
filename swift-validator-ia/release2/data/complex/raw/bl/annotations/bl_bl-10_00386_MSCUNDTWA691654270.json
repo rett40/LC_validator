@@ -1,0 +1,417 @@
+{
+  "id": 386,
+  "filename": "bl_bl-10_00386_MSCUNDTWA691654270.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNDTWA691654270",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNDTWA691654270",
+    "shipper_name": "PACIFIC COMMERCE CORP",
+    "shipper_address": "748 MAIN STREET",
+    "consignee_name": "EURO GROUP S.A.",
+    "consignee_address": "152 MAIN STREET",
+    "notify_party_name": "CENTRAL LOGISTICS AG",
+    "notify_party_address": "198 TRADE PARK",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE505N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "31 MAY 2026",
+    "eta": "03 JUL 2026",
+    "container_number": "CMAU7652355",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "CAH5F9G4",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "440 CRATES",
+    "gross_weight_kg": "43,309.04",
+    "measurement": "70.669 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7652355",
+        "seal_number": "CAH5F9G4",
+        "container_type": "20' OPEN TOP",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "440",
+          "type": "CRATES",
+          "description": "440 CRATES"
+        },
+        "gross_weight_kg": "16,524.63",
+        "net_weight_kg": "14,216.92",
+        "measurement": "40.099 CBM"
+      },
+      {
+        "container_number": "MAEU4454188",
+        "seal_number": "BG07C69E",
+        "container_type": "40' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "121",
+          "type": "BOXES",
+          "description": "121 BOXES"
+        },
+        "gross_weight_kg": "26,784.41",
+        "net_weight_kg": "22,913.77",
+        "measurement": "30.570 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNDTWA691654270",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU7652355",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "CAH5F9G4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "440",
+        "type": "CRATES",
+        "description": "440 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "16,524.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "40.099 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "MAEU4454188",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "BG07C69E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "121",
+        "type": "BOXES",
+        "description": "121 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "26,784.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "30.570 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC COMMERCE CORP\n748 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "EURO GROUP S.A.\n152 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL LOGISTICS AG\n198 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        365.1,
+        196.08,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        325.33,
+        365.1,
+        238.76,
+        34.02
+      ],
+      "value": "FE505N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        121.0,
+        399.12,
+        178.76,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        323.55,
+        399.12,
+        240.55,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        433.13,
+        194.75,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        371.56,
+        433.13,
+        192.53,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        128.11,
+        467.15,
+        171.65,
+        34.02
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        467.15,
+        186.75,
+        34.02
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        107.22,
+        509.67,
+        192.55,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        381.77,
+        509.67,
+        182.32,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        538.02,
+        204.54,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        332.44,
+        538.02,
+        231.65,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        566.36,
+        184.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

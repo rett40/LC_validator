@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00617",
+  "filename": "inv_inv-13_00617.pdf",
+  "layout_id": "INV-13",
+  "bl_id": 617,
+  "fields": {
+    "invoice_number": "INV-2026-00617",
+    "invoice_date": "21 APR 2026",
+    "lc_reference": "LC/SCB/0617/2026",
+    "bl_reference": "MSCUNNJUT175644858",
+    "seller_name": "GLOBAL SHIPPING INC",
+    "buyer_name": "GLOBAL LOGISTICS GMBH",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0759S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "IRON AND STEEL ARTICLES",
+    "hs_code": "7308.90",
+    "quantity": 266,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "43,377.11",
+    "unit_price": 50.24,
+    "currency": "GBP",
+    "total_amount": 13363.84,
+    "incoterm": "CFR",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "INV-2026-00617",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "LC/SCB/0617/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "MSCUNNJUT175644858",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        432.28,
+        77.95,
+        134.65,
+        28.35
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        162.99,
+        106.3,
+        134.65,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        150.24,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        172.35,
+        42.52
+      ],
+      "value": "IRON AND STEEL ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        260.79,
+        64.63,
+        42.52
+      ],
+      "value": "7308.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "266",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        260.79,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "50.24 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        260.79,
+        96.94,
+        42.52
+      ],
+      "value": "13363.84 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        317.48,
+        121.18,
+        19.84
+      ],
+      "value": "43,377.11 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        337.32,
+        121.18,
+        19.84
+      ],
+      "value": "13363.84 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        365.67,
+        179.53,
+        25.51
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "STEEL PRODUCTS AND STRUCTURES",
+      "actual": "IRON AND STEEL ARTICLES"
+    }
+  ]
+}

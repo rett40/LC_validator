@@ -1,0 +1,500 @@
+{
+  "id": 598,
+  "filename": "bl_bl-12_00598_MSCUNLVUV331540968.pdf",
+  "layout_id": "BL-12",
+  "bl_number": "MSCUNLVUV331540968",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNLVUV331540968",
+    "shipper_name": "FIRST SOLUTIONS AG",
+    "shipper_address": "226 HARBOR ROAD",
+    "consignee_name": "UNITED TRADING LLC",
+    "consignee_address": "385 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC LOGISTICS CO.",
+    "notify_party_address": "918 HARBOR ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0434S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "22 MAY 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "TRHU0697019",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "H63DHHG4",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "64 BOXES",
+    "gross_weight_kg": "58,927.81",
+    "measurement": "76.500 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU0697019",
+        "seal_number": "H63DHHG4",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "64",
+          "type": "BOXES",
+          "description": "64 BOXES"
+        },
+        "gross_weight_kg": "27,426.17",
+        "net_weight_kg": "23,825.22",
+        "measurement": "20.090 CBM"
+      },
+      {
+        "container_number": "CMAU5914980",
+        "seal_number": "CG161FC9",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "471",
+          "type": "BAGS",
+          "description": "471 BAGS"
+        },
+        "gross_weight_kg": "8,988.68",
+        "net_weight_kg": "5,918.19",
+        "measurement": "28.616 CBM"
+      },
+      {
+        "container_number": "TCKU5106507",
+        "seal_number": "F2BC9GG8",
+        "container_type": "40' REEFER",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "147",
+          "type": "CARTONS",
+          "description": "147 CARTONS"
+        },
+        "gross_weight_kg": "22,512.96",
+        "net_weight_kg": "19,928.35",
+        "measurement": "27.794 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNLVUV331540968",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST SOLUTIONS AG\n226 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        138.9,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED TRADING LLC\n385 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        229.61,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC LOGISTICS CO.\n918 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        418.11,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU0697019",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "H63DHHG4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        418.11,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        418.11,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        418.11,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '64', 'type': 'BOXES', 'description': '64 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "27,426.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        418.11,
+        80.79,
+        36.85
+      ],
+      "value": "20.090 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        454.96,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU5914980",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "CG161FC9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        454.96,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        454.96,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        454.96,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '471', 'type': 'BAGS', 'description': '471 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "8,988.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        454.96,
+        80.79,
+        36.85
+      ],
+      "value": "28.616 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        491.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU5106507",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        491.81,
+        53.86,
+        36.85
+      ],
+      "value": "F2BC9GG8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        491.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        491.81,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        491.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '147', 'type': 'CARTONS', 'description': '147 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        491.81,
+        80.79,
+        36.85
+      ],
+      "value": "22,512.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        491.81,
+        80.79,
+        36.85
+      ],
+      "value": "27.794 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        557.57,
+        265.29,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        557.57,
+        265.29,
+        15.31
+      ],
+      "value": "0434S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        591.59,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        591.59,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        625.61,
+        265.29,
+        15.31
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        625.61,
+        265.29,
+        15.31
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        659.62,
+        265.29,
+        15.31
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        659.62,
+        265.29,
+        15.31
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        698.74,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        698.74,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        727.09,
+        265.29,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        727.09,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        755.43,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

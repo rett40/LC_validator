@@ -1,0 +1,500 @@
+{
+  "id": 919,
+  "filename": "bl_bl-23_00919_MSCUNNLFZ517409273.pdf",
+  "layout_id": "BL-23",
+  "bl_number": "MSCUNNLFZ517409273",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNLFZ517409273",
+    "shipper_name": "PREMIER SOLUTIONS BV",
+    "shipper_address": "484 TRADE PARK",
+    "consignee_name": "PACIFIC INDUSTRIES BV",
+    "consignee_address": "609 MARKET STREET",
+    "notify_party_name": "CENTRAL SUPPLY CHAIN CORP",
+    "notify_party_address": "109 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-354",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "14 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "CMAU5414252",
+    "container_type": "40'OT",
+    "seal_number": "CF4B7C15",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "460 CRATES",
+    "gross_weight_kg": "48,017.74",
+    "measurement": "135.236 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU5414252",
+        "seal_number": "CF4B7C15",
+        "container_type": "40'OT",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "460",
+          "type": "CRATES",
+          "description": "460 CRATES"
+        },
+        "gross_weight_kg": "8,837.05",
+        "net_weight_kg": "5,714.61",
+        "measurement": "63.166 CBM"
+      },
+      {
+        "container_number": "MSCU5117869",
+        "seal_number": "F6HH7C87",
+        "container_type": "20'RF",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "55",
+          "type": "BOXES",
+          "description": "55 BOXES"
+        },
+        "gross_weight_kg": "20,856.31",
+        "net_weight_kg": "16,916.65",
+        "measurement": "38.240 CBM"
+      },
+      {
+        "container_number": "HLCU9516198",
+        "seal_number": "G46CG84D",
+        "container_type": "40'OT",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "200",
+          "type": "DRUMS",
+          "description": "200 DRUMS"
+        },
+        "gross_weight_kg": "18,324.38",
+        "net_weight_kg": "14,393.73",
+        "measurement": "33.830 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNNLFZ517409273",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        170.08,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.06,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        428.03,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        145.98,
+        128.98,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        170.08,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "E-354",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.06,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        428.03,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        170.08,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.06,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        428.03,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        276.38,
+        295.23,
+        94.96
+      ],
+      "value": "PREMIER SOLUTIONS BV\n484 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        274.96,
+        212.68,
+        41.1
+      ],
+      "value": "PACIFIC INDUSTRIES BV\n609 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        330.24,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL SUPPLY CHAIN CORP\n109 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        402.52,
+        87.7,
+        36.85
+      ],
+      "value": "CMAU5414252",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "CF4B7C15",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        402.52,
+        41.27,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        402.52,
+        128.98,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '460', 'type': 'CRATES', 'description': '460 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "8,837.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "63.166 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        439.37,
+        87.7,
+        36.85
+      ],
+      "value": "MSCU5117869",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "F6HH7C87",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        439.37,
+        41.27,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        439.37,
+        128.98,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '55', 'type': 'BOXES', 'description': '55 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "20,856.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "38.240 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        476.22,
+        87.7,
+        36.85
+      ],
+      "value": "HLCU9516198",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "G46CG84D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        476.22,
+        41.27,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        476.22,
+        128.98,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '200', 'type': 'DRUMS', 'description': '200 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "18,324.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "33.830 CBM",
+      "page": 1
+    }
+  ]
+}

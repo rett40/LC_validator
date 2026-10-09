@@ -1,0 +1,87 @@
+{
+  "model": "swift-ner (systeme hybride : modele + regles)",
+  "evaluation": "jeu frais hold-out, vocabulaire neuf, bruit documentaire realiste",
+  "n_examples": 600,
+  "seed": 2026,
+  "noise": 1.0,
+  "token_level_accuracy": 0.9932764158636643,
+  "entity_level": {
+    "micro": {
+      "precision": 0.9723086496577473,
+      "recall": 0.946969696969697,
+      "f1": 0.959471906662573
+    },
+    "macro": {
+      "precision": 0.9705504119646079,
+      "recall": 0.94825,
+      "f1": 0.9589150958394661
+    },
+    "weighted": {
+      "precision": 0.9732276472405529,
+      "recall": 0.946969696969697,
+      "f1": 0.9595558095818422
+    },
+    "per_entity": {
+      "AMOUNT": {
+        "precision": 1.0,
+        "recall": 0.9566666666666667,
+        "f1": 0.9778534923339013,
+        "support": 600
+      },
+      "APPLICANT": {
+        "precision": 0.9802631578947368,
+        "recall": 0.9933333333333333,
+        "f1": 0.9867549668874172,
+        "support": 600
+      },
+      "BENEFICIARY": {
+        "precision": 0.9485903814262023,
+        "recall": 0.9533333333333334,
+        "f1": 0.9509559434746467,
+        "support": 600
+      },
+      "EXPIRY_DATE": {
+        "precision": 1.0,
+        "recall": 0.9266666666666666,
+        "f1": 0.9619377162629758,
+        "support": 600
+      },
+      "GOODS": {
+        "precision": 0.9029605263157895,
+        "recall": 0.915,
+        "f1": 0.9089403973509935,
+        "support": 600
+      },
+      "INCOTERM": {
+        "precision": 0.9732441471571907,
+        "recall": 0.97,
+        "f1": 0.9716193656093489,
+        "support": 600
+      },
+      "ISSUE_DATE": {
+        "precision": 0.9111842105263158,
+        "recall": 0.9233333333333333,
+        "f1": 0.9172185430463575,
+        "support": 600
+      },
+      "ISSUING_BANK": {
+        "precision": 0.9983361064891847,
+        "recall": 1.0,
+        "f1": 0.9991673605328892,
+        "support": 600
+      },
+      "PORT": {
+        "precision": 1.0,
+        "recall": 0.9341666666666667,
+        "f1": 0.9659629470056011,
+        "support": 1200
+      },
+      "SHIPMENT_DATE": {
+        "precision": 0.9909255898366606,
+        "recall": 0.91,
+        "f1": 0.94874022589053,
+        "support": 600
+      }
+    }
+  }
+}

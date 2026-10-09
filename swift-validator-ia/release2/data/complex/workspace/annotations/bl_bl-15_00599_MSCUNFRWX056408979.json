@@ -1,0 +1,500 @@
+{
+  "id": 599,
+  "filename": "bl_bl-15_00599_MSCUNFRWX056408979.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNFRWX056408979",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNFRWX056408979",
+    "shipper_name": "FIRST SHIPPING LLC",
+    "shipper_address": "929 HARBOR ROAD",
+    "consignee_name": "EURO PARTNERS S.A.",
+    "consignee_address": "754 INDUSTRIAL AVENUE",
+    "notify_party_name": "ATLANTIC TRADING CO.",
+    "notify_party_address": "309 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS452S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "23 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "CMAU8555033",
+    "container_type": "40' DRY / GP",
+    "seal_number": "932F17AE",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "20 CRATES",
+    "gross_weight_kg": "64,603.17",
+    "measurement": "172.170 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU8555033",
+        "seal_number": "932F17AE",
+        "container_type": "40' DRY / GP",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "20",
+          "type": "CRATES",
+          "description": "20 CRATES"
+        },
+        "gross_weight_kg": "27,366.55",
+        "net_weight_kg": "23,581.58",
+        "measurement": "63.657 CBM"
+      },
+      {
+        "container_number": "CMAU5454768",
+        "seal_number": "HA9D1550",
+        "container_type": "20' REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "185",
+          "type": "PACKAGES",
+          "description": "185 PACKAGES"
+        },
+        "gross_weight_kg": "12,074.18",
+        "net_weight_kg": "9,627.66",
+        "measurement": "49.261 CBM"
+      },
+      {
+        "container_number": "MSCU1356250",
+        "seal_number": "C4EABGF1",
+        "container_type": "20' DRY",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "365",
+          "type": "PACKAGES",
+          "description": "365 PACKAGES"
+        },
+        "gross_weight_kg": "25,162.44",
+        "net_weight_kg": "22,881.22",
+        "measurement": "59.252 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNFRWX056408979",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "FIRST SHIPPING LLC\n929 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        136.06,
+        266.46,
+        79.37
+      ],
+      "value": "EURO PARTNERS S.A.\n754 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        226.77,
+        266.46,
+        79.37
+      ],
+      "value": "ATLANTIC TRADING CO.\n309 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        422.36,
+        266.46,
+        24.09
+      ],
+      "value": "CS452S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        456.38,
+        266.46,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        490.39,
+        266.46,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "23 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        524.41,
+        266.46,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        579.69,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU8555033",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "932F17AE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        579.69,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        579.69,
+        133.23,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        579.69,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '20', 'type': 'CRATES', 'description': '20 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "27,366.55",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        579.69,
+        79.94,
+        36.85
+      ],
+      "value": "63.657 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        616.54,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU5454768",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        616.54,
+        53.29,
+        36.85
+      ],
+      "value": "HA9D1550",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        616.54,
+        42.63,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        616.54,
+        133.23,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        616.54,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '185', 'type': 'PACKAGES', 'description': '185 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        616.54,
+        79.94,
+        36.85
+      ],
+      "value": "12,074.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        616.54,
+        79.94,
+        36.85
+      ],
+      "value": "49.261 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        653.39,
+        90.6,
+        36.85
+      ],
+      "value": "MSCU1356250",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        653.39,
+        53.29,
+        36.85
+      ],
+      "value": "C4EABGF1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        653.39,
+        42.63,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        653.39,
+        133.23,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        653.39,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '365', 'type': 'PACKAGES', 'description': '365 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        653.39,
+        79.94,
+        36.85
+      ],
+      "value": "25,162.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        653.39,
+        79.94,
+        36.85
+      ],
+      "value": "59.252 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        715.75,
+        266.46,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        715.75,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        744.09,
+        266.46,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        744.09,
+        266.46,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        772.44,
+        266.46,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

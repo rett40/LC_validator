@@ -1,0 +1,442 @@
+{
+  "id": 884,
+  "filename": "bl_bl-18_00884_MSCUNFTDP510152693.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNFTDP510152693",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNFTDP510152693",
+    "shipper_name": "DELTA PARTNERS AG",
+    "shipper_address": "937 INDUSTRIAL AVENUE",
+    "consignee_name": "PREMIER TRADING GMBH",
+    "consignee_address": "243 HARBOR ROAD",
+    "notify_party_name": "CENTRAL SOLUTIONS GMBH",
+    "notify_party_address": "623 PORT ACCESS ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE222N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "06 JUN 2026",
+    "eta": "10 JUL 2026",
+    "container_number": "MSCU3732722",
+    "container_type": "40' REEFER",
+    "seal_number": "03B45GGE",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "66 CRATES",
+    "gross_weight_kg": "34,427.50",
+    "measurement": "87.837 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3732722",
+        "seal_number": "03B45GGE",
+        "container_type": "40' REEFER",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "66",
+          "type": "CRATES",
+          "description": "66 CRATES"
+        },
+        "gross_weight_kg": "14,382.51",
+        "net_weight_kg": "11,339.56",
+        "measurement": "35.038 CBM"
+      },
+      {
+        "container_number": "EISU8890116",
+        "seal_number": "55D75F42",
+        "container_type": "40' DRY",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "232",
+          "type": "CARTONS",
+          "description": "232 CARTONS"
+        },
+        "gross_weight_kg": "20,044.99",
+        "net_weight_kg": "17,312.46",
+        "measurement": "52.799 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNFTDP510152693",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3732722",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "03B45GGE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '66', 'type': 'CRATES', 'description': '66 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "14,382.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "35.038 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "EISU8890116",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "55D75F42",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '232', 'type': 'CARTONS', 'description': '232 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "20,044.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "52.799 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "937 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA PARTNERS AG\n937 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "243 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER TRADING GMBH\n243 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        316.06,
+        269.29,
+        70.87
+      ],
+      "value": "623 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        296.22,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL SOLUTIONS GMBH\n623 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "FE222N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        687.4,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

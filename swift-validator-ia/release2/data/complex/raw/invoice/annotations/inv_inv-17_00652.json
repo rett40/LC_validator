@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00652",
+  "filename": "inv_inv-17_00652.pdf",
+  "layout_id": "INV-17",
+  "bl_id": 652,
+  "fields": {
+    "invoice_number": "INV-2026-00652",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/SCB/0652/2026",
+    "bl_reference": "MSCUNTTFK223617199",
+    "seller_name": "PREMIER GROUP CO.",
+    "buyer_name": "DELTA PARTNERS S.A.",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0376E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "IRON AND STEEL SCRAP",
+    "hs_code": "8428.90",
+    "quantity": 180,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "36,960.97",
+    "unit_price": 526.12,
+    "currency": "EUR",
+    "total_amount": 94701.6,
+    "incoterm": "CIP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        77.1,
+        211.46,
+        27.78
+      ],
+      "value": "INV-2026-00652",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        160.51,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "LC/SCB/0652/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "MSCUNTTFK223617199",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        424.84,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        160.51,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        192.76,
+        327.77,
+        79.37
+      ],
+      "value": "PREMIER GROUP CO.\nPREMIER GROUP CO.\n791 TRADE PARK\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        356.12,
+        192.76,
+        200.89,
+        79.37
+      ],
+      "value": "DELTA PARTNERS S.A.\nDELTA PARTNERS S.A.\n896 EXPORT ZONE\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        303.31,
+        169.17,
+        42.52
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        197.52,
+        303.31,
+        63.44,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        260.96,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "180",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        313.82,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        366.69,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "526.12 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        461.85,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "94701.6 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        438.06,
+        360.0,
+        118.95,
+        19.84
+      ],
+      "value": "36,960.97 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        438.06,
+        379.84,
+        118.95,
+        19.84
+      ],
+      "value": "94701.6 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.57,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "SINGAPORE"
+    }
+  ]
+}

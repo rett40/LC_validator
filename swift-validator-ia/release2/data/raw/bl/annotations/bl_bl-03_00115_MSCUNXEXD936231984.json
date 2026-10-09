@@ -1,0 +1,409 @@
+{
+  "id": 115,
+  "filename": "bl_bl-03_00115_MSCUNXEXD936231984.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNXEXD936231984",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNXEXD936231984",
+    "shipper_name": "TRANS GROUP CORP",
+    "shipper_address": "339 HARBOR ROAD",
+    "consignee_name": "GLOBAL GROUP BV",
+    "consignee_address": "385 COMMERCE BOULEVARD",
+    "notify_party_name": "GLOBAL SHIPPING CO.",
+    "notify_party_address": "139 PORT ACCESS ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0483E",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "10 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "MAEU2434990",
+    "container_type": "40' DRY",
+    "seal_number": "ABBH0700",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "281 BAGS",
+    "gross_weight_kg": "34,524.57",
+    "measurement": "65.268 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU2434990",
+        "seal_number": "ABBH0700",
+        "container_type": "40' DRY",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "281",
+          "type": "BAGS",
+          "description": "281 BAGS"
+        },
+        "gross_weight_kg": "11,082.24",
+        "net_weight_kg": "7,252.81",
+        "measurement": "42.925 CBM"
+      },
+      {
+        "container_number": "TRHU3266999",
+        "seal_number": "5G8G0245",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "236",
+          "type": "CRATES",
+          "description": "236 CRATES"
+        },
+        "gross_weight_kg": "23,442.33",
+        "net_weight_kg": "20,345.07",
+        "measurement": "22.343 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNXEXD936231984",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        164.99,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "0483E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.64,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        434.28,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        164.99,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.64,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        434.28,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "TRANS GROUP CORP\n339 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        164.99,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "GLOBAL GROUP BV\n385 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        299.64,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "GLOBAL SHIPPING CO.\n139 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU2434990",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "ABBH0700",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '281', 'type': 'BAGS', 'description': '281 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "11,082.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "42.925 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU3266999",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "5G8G0245",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '236', 'type': 'CRATES', 'description': '236 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "23,442.33",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "22.343 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        164.99,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.64,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        434.28,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        463.46,
+        130.65,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

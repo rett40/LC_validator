@@ -1,0 +1,318 @@
+{
+  "id": 171,
+  "filename": "bl_bl-05_00171_MSCUNPJAV189337870.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNPJAV189337870",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNPJAV189337870",
+    "shipper_name": "FIRST ENTERPRISES LLC",
+    "shipper_address": "936 HARBOR ROAD",
+    "consignee_name": "GLOBAL LOGISTICS BV",
+    "consignee_address": "33 TRADE PARK",
+    "notify_party_name": "PACIFIC SOLUTIONS AG",
+    "notify_party_address": "955 HARBOR ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE30N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "18 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "EISU2016638",
+    "container_type": "40' DRY / GP",
+    "seal_number": "B5FBF643",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "230 BAGS",
+    "gross_weight_kg": "5,851.53",
+    "measurement": "64.253 CBM",
+    "containers": [
+      {
+        "container_number": "EISU2016638",
+        "seal_number": "B5FBF643",
+        "container_type": "40' DRY / GP",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "230",
+          "type": "BAGS",
+          "description": "230 BAGS"
+        },
+        "gross_weight_kg": "5,851.53",
+        "net_weight_kg": "2,707.76",
+        "measurement": "64.253 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNPJAV189337870",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "FIRST ENTERPRISES LLC\n936 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "GLOBAL LOGISTICS BV\n33 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC SOLUTIONS AG\n955 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "EISU2016638",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "B5FBF643",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '230', 'type': 'BAGS', 'description': '230 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "5,851.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "64.253 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "AE30N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        507.4,
+        264.33,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01027",
+  "filename": "inv_inv-21_01027.pdf",
+  "layout_id": "INV-21",
+  "bl_id": 1027,
+  "fields": {
+    "invoice_number": "INV-2026-01027",
+    "invoice_date": "28 APR 2026",
+    "lc_reference": "LC/SCB/1027/2026",
+    "bl_reference": "MSCUNRCPP488328957",
+    "seller_name": "APEX INDUSTRIES CO.",
+    "buyer_name": "GLOBAL PARTNERS CORP",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0598E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "CHEMICAL PRODUCTS NEC",
+    "hs_code": "3824.99",
+    "quantity": 412,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "38,370.27",
+    "unit_price": 58.39,
+    "currency": "USD",
+    "total_amount": 24055.87,
+    "incoterm": "CIP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-01027",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "LC/SCB/1027/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNRCPP488328957",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        211.18,
+        172.35,
+        42.52
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        211.18,
+        64.63,
+        42.52
+      ],
+      "value": "3824.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "412",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "58.39 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "24055.87 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "38,370.27 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "24055.87 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "BUSAN, SOUTH KOREA"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "22169.72 USD",
+      "actual": "24055.87 USD"
+    }
+  ]
+}

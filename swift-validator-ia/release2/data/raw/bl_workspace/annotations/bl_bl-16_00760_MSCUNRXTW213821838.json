@@ -1,0 +1,318 @@
+{
+  "id": 760,
+  "filename": "bl_bl-16_00760_MSCUNRXTW213821838.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNRXTW213821838",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNRXTW213821838",
+    "shipper_name": "PACIFIC TRADING PLC",
+    "shipper_address": "149 INDUSTRIAL AVENUE",
+    "consignee_name": "GLOBAL LOGISTICS BV",
+    "consignee_address": "848 TRADE PARK",
+    "notify_party_name": "ATLANTIC ENTERPRISES CO.",
+    "notify_party_address": "754 TRADE PARK",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-671",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "07 MAY 2026",
+    "eta": "30 MAY 2026",
+    "container_number": "CMAU3784256",
+    "container_type": "20' DRY",
+    "seal_number": "ECG5EC24",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "17 BAGS",
+    "gross_weight_kg": "15,248.44",
+    "measurement": "50.040 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU3784256",
+        "seal_number": "ECG5EC24",
+        "container_type": "20' DRY",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "17",
+          "type": "BAGS",
+          "description": "17 BAGS"
+        },
+        "gross_weight_kg": "15,248.44",
+        "net_weight_kg": "11,743.92",
+        "measurement": "50.040 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "22 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNRXTW213821838",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "E-671",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU3784256",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "ECG5EC24",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '17', 'type': 'BAGS', 'description': '17 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "15,248.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "50.040 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "PACIFIC TRADING PLC\n149 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "GLOBAL LOGISTICS BV\n848 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC ENTERPRISES CO.\n754 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        406.77,
+        175.53,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        406.77,
+        175.53,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

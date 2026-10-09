@@ -1,0 +1,444 @@
+{
+  "id": 17,
+  "filename": "bl_bl-11_00017_MSCUNCWJY645080273.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNCWJY645080273",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNCWJY645080273",
+    "shipper": {
+      "name": "TRANS TRADING LTD",
+      "address": "624 INDUSTRIAL AVENUE",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "TRANS TRADING LTD\n624 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "consignee": {
+      "name": "EURO PARTNERS BV",
+      "address": "110 PORT ACCESS ROAD",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "EURO PARTNERS BV\n110 PORT ACCESS ROAD\nDUBAI, UAE 00000"
+    },
+    "notify_party": {
+      "name": "APEX LOGISTICS S.A.",
+      "address": "154 INDUSTRIAL AVENUE",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "APEX LOGISTICS S.A.\n154 INDUSTRIAL AVENUE\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0334N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "07 JUN 2026",
+    "eta": "01 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "HLCU3295050",
+    "container_type": "40' REEFER",
+    "seal_number": "7B64B5F0",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": {
+      "count": "434",
+      "type": "CRATES",
+      "description": "434 CRATES"
+    },
+    "gross_weight_kg": "48,852.24",
+    "net_weight_kg": "43,748.36",
+    "gross_weight_lbs": "107,700.63",
+    "measurement": "89.028 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU3295050",
+        "seal_number": "7B64B5F0",
+        "container_type": "40' REEFER",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "434",
+          "type": "CRATES",
+          "description": "434 CRATES"
+        },
+        "gross_weight_kg": "23,451.61",
+        "net_weight_kg": "20,894.49",
+        "measurement": "57.383 CBM"
+      },
+      {
+        "container_number": "MAEU8351433",
+        "seal_number": "4AF50HCF",
+        "container_type": "40' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "286",
+          "type": "BOXES",
+          "description": "286 BOXES"
+        },
+        "gross_weight_kg": "25,400.63",
+        "net_weight_kg": "22,853.87",
+        "measurement": "31.645 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "FCA",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "HLCU3295050\n7B64B5F0\nGENOA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNCWJY645080273",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "0334N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS TRADING LTD\n624 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "EURO PARTNERS BV\n110 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX LOGISTICS S.A.\n154 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3295050",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "7B64B5F0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '434', 'type': 'CRATES', 'description': '434 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "23,451.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "57.383 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU8351433",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "4AF50HCF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '286', 'type': 'BOXES', 'description': '286 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "25,400.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "31.645 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

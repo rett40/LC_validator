@@ -1,0 +1,119 @@
+{
+  "BL_01_MSCU_2026_0451.pdf": {
+    "tp": 18,
+    "fp": [
+      "etd",
+      "issue_place"
+    ],
+    "wrong": [
+      "port_of_discharge: gold='Hamburg, Germany' != ext='Tunis, Tunisia'",
+      "place_of_delivery: gold='Hamburg, Germany' != ext='/ FCL'"
+    ],
+    "missing": [],
+    "n_gold": 20
+  },
+  "BL_02_CMAU_2026_0892.pdf": {
+    "tp": 19,
+    "fp": [
+      "etd"
+    ],
+    "wrong": [
+      "port_of_discharge: gold='Genoa, Italy' != ext='Tunis, Tunisia'"
+    ],
+    "missing": [],
+    "n_gold": 20
+  },
+  "BL_03_HLXU_2026_1134.pdf": {
+    "tp": 19,
+    "fp": [
+      "etd",
+      "issue_place"
+    ],
+    "wrong": [
+      "port_of_discharge: gold='Marseille, France' != ext='Tunis, Tunisia'"
+    ],
+    "missing": [],
+    "n_gold": 20
+  },
+  "INV_01_INV_2026_0451.pdf": {
+    "tp": 8,
+    "fp": [
+      "lc_reference",
+      "gross_weight_kg"
+    ],
+    "wrong": [
+      "port_of_loading: gold='Tunis, Tunisia' != ext='Germany'"
+    ],
+    "missing": [
+      "buyer",
+      "port_of_discharge"
+    ],
+    "n_gold": 11
+  },
+  "INV_02_INV_2026_0892.pdf": {
+    "tp": 8,
+    "fp": [
+      "lc_reference",
+      "gross_weight_kg"
+    ],
+    "wrong": [
+      "total_amount: gold='7,591.83 EUR' != ext='EUR 1680'"
+    ],
+    "missing": [
+      "buyer",
+      "port_of_discharge"
+    ],
+    "n_gold": 11
+  },
+  "INV_03_INV_2026_1134.pdf": {
+    "tp": 6,
+    "fp": [
+      "lc_reference",
+      "gross_weight_kg"
+    ],
+    "wrong": [
+      "bl_reference: gold='HLXU-2026-1134' != ext='atlas@distribution.fr'",
+      "port_of_loading: gold='Tunis, Tunisia' != ext='MISTRAL'",
+      "total_amount: gold='8,654.25 USD' != ext='USD 1296'"
+    ],
+    "missing": [
+      "buyer",
+      "port_of_discharge"
+    ],
+    "n_gold": 11
+  },
+  "PL_01_PL_2026_0451.pdf": {
+    "tp": 13,
+    "fp": [],
+    "wrong": [
+      "consignee: gold='EUROPA IMPORTS GmbH' != ext='GLOBAL'",
+      "vessel: gold='MSC AURORA' != ext='FOB'"
+    ],
+    "missing": [],
+    "n_gold": 15
+  },
+  "PL_02_PL_2026_0892.pdf": {
+    "tp": 12,
+    "fp": [],
+    "wrong": [
+      "vessel: gold='EVER GIVEN II' != ext='CIF'",
+      "port_of_loading: gold='Tunis, Tunisia' != ext='Genoa,'"
+    ],
+    "missing": [
+      "bl_reference"
+    ],
+    "n_gold": 15
+  },
+  "PL_03_PL_2026_1134.pdf": {
+    "tp": 12,
+    "fp": [],
+    "wrong": [
+      "vessel: gold='CMA CGM MISTRAL' != ext='TUNISIE AGRO EXPORT'",
+      "port_of_loading: gold='Tunis, Tunisia' != ext='Marseille, France'"
+    ],
+    "missing": [
+      "bl_reference"
+    ],
+    "n_gold": 15
+  }
+}

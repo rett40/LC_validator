@@ -1,0 +1,417 @@
+{
+  "id": 398,
+  "filename": "bl_bl-10_00398_MSCUNCTEV544153722.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNCTEV544153722",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCTEV544153722",
+    "shipper_name": "DELTA PARTNERS INC",
+    "shipper_address": "10 MAIN STREET",
+    "consignee_name": "APEX SHIPPING BV",
+    "consignee_address": "223 MARKET STREET",
+    "notify_party_name": "DELTA LOGISTICS GMBH",
+    "notify_party_address": "401 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE810S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "02 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "HLCU4550402",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "591D3G5G",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "90 PALLETS",
+    "gross_weight_kg": "38,775.40",
+    "measurement": "120.702 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4550402",
+        "seal_number": "591D3G5G",
+        "container_type": "20' OPEN TOP",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "90",
+          "type": "PALLETS",
+          "description": "90 PALLETS"
+        },
+        "gross_weight_kg": "23,753.53",
+        "net_weight_kg": "20,912.14",
+        "measurement": "56.139 CBM"
+      },
+      {
+        "container_number": "CMAU1631550",
+        "seal_number": "78D6CC64",
+        "container_type": "40' FLAT RACK",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "196",
+          "type": "PACKAGES",
+          "description": "196 PACKAGES"
+        },
+        "gross_weight_kg": "15,021.87",
+        "net_weight_kg": "11,046.47",
+        "measurement": "64.563 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNCTEV544153722",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "HLCU4550402",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "591D3G5G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "90",
+        "type": "PALLETS",
+        "description": "90 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "23,753.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "56.139 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU1631550",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "78D6CC64",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "196",
+        "type": "PACKAGES",
+        "description": "196 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "15,021.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "64.563 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA PARTNERS INC\n10 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "APEX SHIPPING BV\n223 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "DELTA LOGISTICS GMBH\n401 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        356.45,
+        365.1,
+        207.64,
+        34.02
+      ],
+      "value": "FE810S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        399.12,
+        204.99,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        384.44,
+        399.12,
+        179.65,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        138.35,
+        433.13,
+        161.42,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        371.56,
+        433.13,
+        192.53,
+        34.02
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        467.15,
+        241.88,
+        34.02
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        360.45,
+        467.15,
+        203.64,
+        34.02
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        364.45,
+        509.67,
+        199.64,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        538.02,
+        204.54,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        349.33,
+        538.02,
+        214.76,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

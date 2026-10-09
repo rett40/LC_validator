@@ -1,0 +1,442 @@
+{
+  "id": 229,
+  "filename": "bl_bl-06_00229_MSCUNMCDF016340446.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNMCDF016340446",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMCDF016340446",
+    "shipper_name": "ATLANTIC PARTNERS BV",
+    "shipper_address": "330 HARBOR ROAD",
+    "consignee_name": "APEX PARTNERS PLC",
+    "consignee_address": "34 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED PARTNERS CORP",
+    "notify_party_address": "336 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE28N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "05 JUN 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "CMAU2067153",
+    "container_type": "40' HC",
+    "seal_number": "GE20H263",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "491 BOXES",
+    "gross_weight_kg": "16,552.03",
+    "measurement": "103.187 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2067153",
+        "seal_number": "GE20H263",
+        "container_type": "40' HC",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "491",
+          "type": "BOXES",
+          "description": "491 BOXES"
+        },
+        "gross_weight_kg": "8,674.68",
+        "net_weight_kg": "5,102.88",
+        "measurement": "46.818 CBM"
+      },
+      {
+        "container_number": "MSCU6841045",
+        "seal_number": "E80HB129",
+        "container_type": "40' DRY / GP",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "491",
+          "type": "CRATES",
+          "description": "491 CRATES"
+        },
+        "gross_weight_kg": "7,877.35",
+        "net_weight_kg": "4,001.97",
+        "measurement": "56.369 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNMCDF016340446",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "330 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "ATLANTIC PARTNERS BV\n330 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "34 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "APEX PARTNERS PLC\n34 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "336 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED PARTNERS CORP\n336 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        99.83,
+        219.69,
+        115.13,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        255.36,
+        219.69,
+        139.13,
+        34.02
+      ],
+      "value": "AE28N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        478.09,
+        219.69,
+        95.93,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        114.23,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        317.76,
+        253.7,
+        76.73,
+        34.02
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        487.69,
+        253.7,
+        86.33,
+        34.02
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.23,
+        287.72,
+        100.73,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        284.16,
+        287.72,
+        110.33,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2067153",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "GE20H263",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'BOXES', 'description': '491 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "8,674.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "46.818 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU6841045",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "E80HB129",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'CRATES', 'description': '491 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "7,877.35",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "56.369 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        157.43,
+        428.03,
+        57.53,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        260.16,
+        428.03,
+        134.33,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        468.49,
+        428.03,
+        105.53,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        71.03,
+        456.38,
+        143.93,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        269.76,
+        456.38,
+        124.73,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

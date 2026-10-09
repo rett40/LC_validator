@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.26.xsd">
+
+  <changeSet id="1" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="users"/></not>
+    </preConditions>
+    <createTable tableName="users">
+      <column name="id" type="BIGSERIAL"><constraints primaryKey="true" nullable="false"/></column>
+      <column name="username"      type="VARCHAR(100)"><constraints unique="true" nullable="false"/></column>
+      <column name="email"         type="VARCHAR(255)"><constraints unique="true" nullable="false"/></column>
+      <column name="password_hash" type="TEXT"><constraints nullable="false"/></column>
+      <column name="role"          type="VARCHAR(30)" defaultValue="ANALYST"/>
+      <column name="enabled"       type="BOOLEAN" defaultValueBoolean="true"/>
+      <column name="created_at"    type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+    </createTable>
+  </changeSet>
+
+  <changeSet id="2" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="documents"/></not>
+    </preConditions>
+    <createTable tableName="documents">
+      <column name="id"                type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="original_filename" type="VARCHAR(255)"/>
+      <column name="stored_filename"   type="VARCHAR(255)"/>
+      <column name="content_type"      type="VARCHAR(100)"/>
+      <column name="file_size"         type="BIGINT"/>
+      <column name="minio_bucket"      type="VARCHAR(100)"/>
+      <column name="minio_object_key"  type="VARCHAR(500)"/>
+      <column name="checksum"          type="VARCHAR(64)"/>
+      <column name="uploaded_at"       type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+      <column name="user_id"           type="BIGINT">
+        <constraints foreignKeyName="fk_doc_user" references="users(id)"/>
+      </column>
+    </createTable>
+  </changeSet>
+
+  <changeSet id="3" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="swift_analyses"/></not>
+    </preConditions>
+    <createTable tableName="swift_analyses">
+      <column name="id"                     type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="lc_number"              type="VARCHAR(50)"/>
+      <column name="swift_type"             type="VARCHAR(10)"/>
+      <column name="lc_form"                type="VARCHAR(30)"/>
+      <column name="applicant"              type="VARCHAR(500)"/>
+      <column name="beneficiary"            type="VARCHAR(500)"/>
+      <column name="issuing_bank"           type="VARCHAR(200)"/>
+      <column name="currency"               type="VARCHAR(3)"/>
+      <column name="amount"                 type="NUMERIC(20,2)"/>
+      <column name="tolerance_plus"         type="INTEGER"/>
+      <column name="tolerance_minus"        type="INTEGER"/>
+      <column name="issue_date"             type="DATE"/>
+      <column name="expiry_date"            type="DATE"/>
+      <column name="expiry_place"           type="VARCHAR(100)"/>
+      <column name="shipment_date"          type="DATE"/>
+      <column name="presentation_period_days" type="INTEGER"/>
+      <column name="validity_days"          type="INTEGER"/>
+      <column name="incoterm"               type="VARCHAR(10)"/>
+      <column name="country"                type="VARCHAR(100)"/>
+      <column name="partial_shipments_allowed" type="BOOLEAN"/>
+      <column name="transhipment_allowed"   type="BOOLEAN"/>
+      <column name="confirmation_instructions" type="VARCHAR(50)"/>
+      <column name="applicable_rules"       type="VARCHAR(100)"/>
+      <column name="goods_description"      type="TEXT"/>
+      <column name="documents_required"     type="TEXT"/>
+      <column name="additional_conditions"  type="TEXT"/>
+      <column name="charges_details"        type="TEXT"/>
+      <column name="charges_beneficiary"    type="BOOLEAN"/>
+      <column name="ucp_compliance_score"   type="INTEGER"/>
+      <column name="nlp_score"              type="INTEGER"/>
+      <column name="completeness_score"     type="INTEGER"/>
+      <column name="semantic_score"         type="INTEGER"/>
+      <column name="validation_score"       type="INTEGER"/>
+      <column name="risk_level"             type="VARCHAR(20)"/>
+      <column name="risk_score"             type="NUMERIC(6,4)"/>
+      <column name="ml_risk_score"          type="NUMERIC(6,4)"/>
+      <column name="incoterm_risk_score"    type="INTEGER"/>
+      <column name="country_risk"           type="VARCHAR(20)"/>
+      <column name="payment_blocked"        type="BOOLEAN"/>
+      <column name="n_ucp_errors"           type="INTEGER"/>
+      <column name="n_ucp_warnings"         type="INTEGER"/>
+      <column name="n_ucp_exclusions"       type="INTEGER"/>
+      <column name="n_clauses"              type="INTEGER"/>
+      <column name="n_critical_clauses"     type="INTEGER"/>
+      <column name="n_high_risk_clauses"    type="INTEGER"/>
+      <column name="raw_text"               type="TEXT"/>
+      <column name="ocr_confidence"         type="NUMERIC(4,3)"/>
+      <column name="full_payload"           type="JSONB"/>
+      <column name="status"                 type="VARCHAR(20)" defaultValue="PENDING"/>
+      <column name="error_message"          type="TEXT"/>
+      <column name="processing_ms"          type="BIGINT"/>
+      <column name="created_at"             type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+      <column name="updated_at"             type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+      <column name="user_id"               type="BIGINT">
+        <constraints foreignKeyName="fk_analysis_user" references="users(id)"/>
+      </column>
+      <column name="document_id"           type="BIGINT">
+        <constraints foreignKeyName="fk_analysis_doc" references="documents(id)"/>
+      </column>
+    </createTable>
+
+    <createIndex tableName="swift_analyses" indexName="idx_analysis_lc_number">
+      <column name="lc_number"/>
+    </createIndex>
+    <createIndex tableName="swift_analyses" indexName="idx_analysis_user_created">
+      <column name="user_id"/>
+      <column name="created_at" descending="true"/>
+    </createIndex>
+    <createIndex tableName="swift_analyses" indexName="idx_analysis_risk_level">
+      <column name="risk_level"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="4" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="ucp_findings"/></not>
+    </preConditions>
+    <createTable tableName="ucp_findings">
+      <column name="id"            type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="analysis_id"   type="BIGINT"><constraints nullable="false" foreignKeyName="fk_finding_analysis" references="swift_analyses(id)" deleteCascade="true"/></column>
+      <column name="article"       type="VARCHAR(20)"/>
+      <column name="article_title" type="VARCHAR(200)"/>
+      <column name="code"          type="VARCHAR(60)"/>
+      <column name="category"      type="VARCHAR(30)"/>
+      <column name="severity"      type="VARCHAR(20)"/>
+      <column name="tier"          type="INTEGER"/>
+      <column name="weight"        type="NUMERIC(4,2)"/>
+      <column name="message"       type="TEXT"/>
+      <column name="clause_text"   type="TEXT"/>
+      <column name="recommendation" type="TEXT"/>
+      <column name="blocks_payment" type="BOOLEAN"/>
+      <column name="cascade_impact" type="INTEGER"/>
+      <column name="exclusion_type" type="VARCHAR(30)"/>
+      <column name="confidence"    type="NUMERIC(4,3)"/>
+    </createTable>
+    <createIndex tableName="ucp_findings" indexName="idx_finding_analysis">
+      <column name="analysis_id"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="5" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="nlp_clauses"/></not>
+    </preConditions>
+    <createTable tableName="nlp_clauses">
+      <column name="id"          type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="analysis_id" type="BIGINT"><constraints nullable="false" foreignKeyName="fk_clause_analysis" references="swift_analyses(id)" deleteCascade="true"/></column>
+      <column name="text"        type="TEXT"/>
+      <column name="clause_type" type="VARCHAR(60)"/>
+      <column name="importance"  type="VARCHAR(20)"/>
+      <column name="risk_level"  type="VARCHAR(20)"/>
+      <column name="confidence"  type="NUMERIC(4,3)"/>
+      <column name="method"      type="VARCHAR(20)"/>
+      <column name="ucp_refs"    type="VARCHAR(200)"/>
+    </createTable>
+    <createIndex tableName="nlp_clauses" indexName="idx_clause_analysis">
+      <column name="analysis_id"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="6" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="external_validations"/></not>
+    </preConditions>
+    <createTable tableName="external_validations">
+      <column name="id"                type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="analysis_id"       type="BIGINT"><constraints nullable="false" unique="true" foreignKeyName="fk_ext_analysis" references="swift_analyses(id)" deleteCascade="true"/></column>
+      <column name="risk_level"        type="VARCHAR(20)"/>
+      <column name="raw_score"         type="NUMERIC(6,4)"/>
+      <column name="approach"          type="VARCHAR(10)"/>
+      <column name="currency_code"     type="VARCHAR(3)"/>
+      <column name="currency_valid"    type="BOOLEAN"/>
+      <column name="country_iso2"      type="VARCHAR(5)"/>
+      <column name="country_sanctioned" type="BOOLEAN"/>
+      <column name="ofac_entity_count" type="INTEGER"/>
+      <column name="fatf_list"         type="VARCHAR(30)"/>
+      <column name="sources_consulted" type="VARCHAR(500)"/>
+      <column name="details_json"      type="JSONB"/>
+      <column name="processing_ms"     type="BIGINT"/>
+      <column name="processed_at"      type="TIMESTAMPTZ"/>
+    </createTable>
+  </changeSet>
+
+  <changeSet id="7" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="ds_risk_scores"/></not>
+    </preConditions>
+    <createTable tableName="ds_risk_scores">
+      <column name="id"               type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="analysis_id"      type="BIGINT"><constraints nullable="false" unique="true" foreignKeyName="fk_ds_analysis" references="swift_analyses(id)" deleteCascade="true"/></column>
+      <column name="risk_level"       type="VARCHAR(20)"/>
+      <column name="risk_score"       type="NUMERIC(6,4)"/>
+      <column name="ml_risk_score"    type="NUMERIC(6,4)"/>
+      <column name="model_used"       type="VARCHAR(30)"/>
+      <column name="completeness_score" type="INTEGER"/>
+      <column name="n_clauses"        type="INTEGER"/>
+      <column name="n_compliance_clauses" type="INTEGER"/>
+      <column name="n_critical_clauses" type="INTEGER"/>
+      <column name="n_high_risk_clauses" type="INTEGER"/>
+      <column name="n_documents_required" type="INTEGER"/>
+      <column name="incoterm_risk"    type="INTEGER"/>
+      <column name="presentation_days" type="INTEGER"/>
+      <column name="validity_days"    type="INTEGER"/>
+      <column name="processing_ms"    type="BIGINT"/>
+    </createTable>
+  </changeSet>
+
+  <changeSet id="8" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="audit_logs"/></not>
+    </preConditions>
+    <createTable tableName="audit_logs">
+      <column name="id"          type="BIGSERIAL"><constraints primaryKey="true"/></column>
+      <column name="action"      type="VARCHAR(60)"/>
+      <column name="entity_type" type="VARCHAR(60)"/>
+      <column name="entity_id"   type="BIGINT"/>
+      <column name="user_id"     type="BIGINT"/>
+      <column name="username"    type="VARCHAR(100)"/>
+      <column name="ip_address"  type="VARCHAR(50)"/>
+      <column name="details"     type="TEXT"/>
+      <column name="created_at"  type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+    </createTable>
+    <createIndex tableName="audit_logs" indexName="idx_audit_user">
+      <column name="user_id"/>
+    </createIndex>
+    <createIndex tableName="audit_logs" indexName="idx_audit_entity">
+      <column name="entity_type"/>
+      <column name="entity_id"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="9" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <sqlCheck expectedResult="0">SELECT COUNT(*) FROM public.users WHERE username = 'admin'</sqlCheck>
+    </preConditions>
+    <insert tableName="users">
+      <column name="username"      value="admin"/>
+      <column name="email"         value="admin@swiftvalidator.local"/>
+      <column name="password_hash" value="$2a$10$N7Vvbm2MuT3wJPj0QFwMR.mHD0b7MFqR6GW8dJxhVJGU5uCjqHFMK"/>
+      <column name="role"          value="ADMIN"/>
+    </insert>
+  </changeSet>
+
+  <changeSet id="10" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="commercial_validations"/></not>
+    </preConditions>
+    <createTable tableName="commercial_validations">
+      <column name="id"                type="BIGSERIAL"><constraints primaryKey="true" nullable="false"/></column>
+      <column name="lc_reference"      type="VARCHAR(50)"/>
+      <column name="swift_analysis_id" type="BIGINT">
+        <constraints foreignKeyName="fk_commercial_swift" references="swift_analyses(id)" nullable="true"/>
+      </column>
+      <column name="user_id"           type="BIGINT">
+        <constraints foreignKeyName="fk_commercial_user" references="users(id)" nullable="false"/>
+      </column>
+      <column name="status"            type="VARCHAR(20)" defaultValue="PENDING"/>
+      <column name="risk_level"        type="VARCHAR(20)"/>
+      <column name="final_score"       type="NUMERIC(6,4)"/>
+      <column name="n_documents"       type="INTEGER" defaultValueNumeric="0"/>
+      <column name="n_processed"       type="INTEGER" defaultValueNumeric="0"/>
+      <column name="n_failed"          type="INTEGER" defaultValueNumeric="0"/>
+      <column name="processing_time_s" type="NUMERIC(10,3)"/>
+      <column name="cross_report"      type="JSONB"/>
+      <column name="full_payload"      type="JSONB"/>
+      <column name="error_message"     type="TEXT"/>
+      <column name="created_at"        type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+      <column name="updated_at"        type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+    </createTable>
+    <createIndex tableName="commercial_validations" indexName="idx_comm_val_user">
+      <column name="user_id"/>
+    </createIndex>
+    <createIndex tableName="commercial_validations" indexName="idx_comm_val_lc_ref">
+      <column name="lc_reference"/>
+    </createIndex>
+    <createIndex tableName="commercial_validations" indexName="idx_comm_val_risk">
+      <column name="risk_level"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="11" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="commercial_documents"/></not>
+    </preConditions>
+    <createTable tableName="commercial_documents">
+      <column name="id"                type="BIGSERIAL"><constraints primaryKey="true" nullable="false"/></column>
+      <column name="validation_id"     type="BIGINT">
+        <constraints foreignKeyName="fk_commdoc_validation" references="commercial_validations(id)"
+                     nullable="false" deleteCascade="true"/>
+      </column>
+      <column name="document_id"       type="BIGINT">
+        <constraints foreignKeyName="fk_commdoc_document" references="documents(id)" nullable="true"/>
+      </column>
+      <column name="source_filename"   type="VARCHAR(255)"/>
+      <column name="doc_type"          type="VARCHAR(30)"/>
+      <column name="input_type"        type="VARCHAR(30)"/>
+      <column name="confidence"        type="NUMERIC(6,4)"/>
+      <column name="extraction_score"  type="NUMERIC(6,4)"/>
+      <column name="n_fields"          type="INTEGER" defaultValueNumeric="0"/>
+      <column name="n_pages"           type="INTEGER" defaultValueNumeric="0"/>
+      <column name="n_warnings"        type="INTEGER" defaultValueNumeric="0"/>
+      <column name="n_rule_fails"      type="INTEGER" defaultValueNumeric="0"/>
+      <column name="fields_json"       type="JSONB"/>
+      <column name="tables_json"       type="JSONB"/>
+      <column name="tiers_json"        type="JSONB"/>
+      <column name="rule_results_json" type="JSONB"/>
+      <column name="status"            type="VARCHAR(20)"/>
+      <column name="processing_time_s" type="NUMERIC(10,3)"/>
+    </createTable>
+    <createIndex tableName="commercial_documents" indexName="idx_commdoc_validation">
+      <column name="validation_id"/>
+    </createIndex>
+  </changeSet>
+
+
+  <changeSet id="12" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><columnExists tableName="ucp_findings" columnName="finding_nature"/></not>
+    </preConditions>
+    <addColumn tableName="ucp_findings">
+      <column name="finding_nature"      type="VARCHAR(40)"  remarks="true_violation | contractual_modification | operational_discrepancy"/>
+      <column name="impact_level"        type="VARCHAR(10)"  remarks="HIGH | MEDIUM | LOW"/>
+      <column name="clause_type"         type="VARCHAR(30)"  remarks="financial | transport | authentication | identity | compliance | document_format"/>
+      <column name="blocks_payment_reason" type="TEXT"/>
+    </addColumn>
+  </changeSet>
+
+
+  <!-- ══ Changeset 13 — Rapports PDF ══════════════════════════════════════ -->
+  <changeSet id="13" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><columnExists tableName="swift_analyses" columnName="validation_type"/></not>
+    </preConditions>
+    <addColumn tableName="swift_analyses">
+      <column name="validation_type" type="VARCHAR(20)" defaultValue="MT700_ONLY"
+              remarks="MT700_ONLY | FULL_VALIDATION"/>
+    </addColumn>
+    <createIndex tableName="swift_analyses" indexName="idx_analysis_validation_type">
+      <column name="validation_type"/>
+    </createIndex>
+  </changeSet>
+
+  <changeSet id="14" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><tableExists schemaName="public" tableName="analysis_reports"/></not>
+    </preConditions>
+    <createTable tableName="analysis_reports">
+      <column name="id"               type="BIGSERIAL"><constraints primaryKey="true" nullable="false"/></column>
+      <column name="analysis_id"      type="BIGINT">
+        <constraints nullable="false" foreignKeyName="fk_report_analysis"
+                     references="swift_analyses(id)" deleteCascade="true"/>
+      </column>
+      <column name="report_type"      type="VARCHAR(20)" remarks="MT700_REPORT | FULL_REPORT"/>
+      <column name="display_name"     type="VARCHAR(255)"/>
+      <column name="minio_object_key" type="VARCHAR(500)"/>
+      <column name="file_size"        type="BIGINT"/>
+      <column name="generated_at"     type="TIMESTAMPTZ" defaultValueComputed="NOW()"/>
+      <column name="generated_by"     type="BIGINT">
+        <constraints foreignKeyName="fk_report_user" references="users(id)" nullable="true"/>
+      </column>
+    </createTable>
+    <createIndex tableName="analysis_reports" indexName="idx_report_analysis">
+      <column name="analysis_id"/>
+    </createIndex>
+    <createIndex tableName="analysis_reports" indexName="idx_report_type">
+      <column name="report_type"/>
+    </createIndex>
+  </changeSet>
+
+  <!-- Historique commercial aligné sur le MT700 : index pour findBySwiftAnalysisId. -->
+  <changeSet id="15" author="swift-team">
+    <preConditions onFail="MARK_RAN">
+      <not><indexExists tableName="commercial_validations" indexName="idx_comm_val_swift_analysis"/></not>
+    </preConditions>
+    <createIndex tableName="commercial_validations" indexName="idx_comm_val_swift_analysis">
+      <column name="swift_analysis_id"/>
+    </createIndex>
+  </changeSet>
+
+</databaseChangeLog>

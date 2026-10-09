@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00852",
+  "filename": "inv_inv-22_00852.pdf",
+  "layout_id": "INV-22",
+  "bl_id": 852,
+  "fields": {
+    "invoice_number": "INV-2026-00852",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/DB/0852/2026",
+    "bl_reference": "MSCUNDVRK696635242",
+    "seller_name": "EURO PARTNERS GMBH",
+    "buyer_name": "DELTA GROUP S.A.",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS399S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "MISCELLANEOUS CHEMICAL PREPARATIONS",
+    "hs_code": "3824.99",
+    "quantity": 261,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "26,202.72",
+    "unit_price": 51.11,
+    "currency": "USD",
+    "total_amount": 13339.71,
+    "incoterm": "CFR",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        77.95,
+        211.46,
+        11.34
+      ],
+      "value": "INV-2026-00852",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.15,
+        103.46,
+        118.95,
+        19.84
+      ],
+      "value": "26,202.72 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.15,
+        123.31,
+        118.95,
+        19.84
+      ],
+      "value": "13339.71 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        158.74,
+        306.62,
+        56.69
+      ],
+      "value": "MISCELLANEOUS CHEMICAL PREPARATIONS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        342.06,
+        168.66,
+        111.02,
+        18.43
+      ],
+      "value": "3824.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        453.08,
+        168.66,
+        111.02,
+        18.43
+      ],
+      "value": 261,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        342.06,
+        197.01,
+        111.02,
+        18.43
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        453.08,
+        197.01,
+        111.02,
+        18.43
+      ],
+      "value": "51.11 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        326.2,
+        221.1,
+        237.9,
+        25.51
+      ],
+      "value": "13339.71 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        262.2,
+        528.66,
+        52.44
+      ],
+      "value": "EURO PARTNERS GMBH\nEURO PARTNERS GMBH\n254 INDUSTRIAL AVENUE\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        35.43,
+        314.65,
+        528.66,
+        52.44
+      ],
+      "value": "DELTA GROUP S.A.\nDELTA GROUP S.A.\n645 COMMERCE STREET\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        167.6,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "LC/DB/0852/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        299.76,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "MSCUNDVRK696635242",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        431.93,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        132.17,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        167.6,
+        420.94,
+        132.17,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        176.22,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        211.65,
+        457.8,
+        176.22,
+        15.59
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "CHEMICAL PRODUCTS NEC",
+      "actual": "MISCELLANEOUS CHEMICAL PREPARATIONS"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "SINGAPORE"
+    }
+  ]
+}

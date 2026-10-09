@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00494",
+  "filename": "inv_inv-13_00494.pdf",
+  "layout_id": "INV-13",
+  "bl_id": 494,
+  "fields": {
+    "invoice_number": "INV-2026-00494",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/BNP/0494/2026",
+    "bl_reference": "MSCUNYYHC556056941",
+    "seller_name": "TRANS ENTERPRISES GMBH",
+    "buyer_name": "ATLANTIC LOGISTICS PLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE11E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES",
+    "hs_code": "0709.99",
+    "quantity": 369,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "11,007.41",
+    "unit_price": 17.62,
+    "currency": "GBP",
+    "total_amount": 6501.78,
+    "incoterm": "FCA",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00494",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        75.12,
+        68.94,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        227.28,
+        75.12,
+        68.94,
+        28.35
+      ],
+      "value": "LC/BNP/0494/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        75.12,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNYYHC556056941",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        504.16,
+        75.12,
+        59.94,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        103.46,
+        64.44,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        231.78,
+        103.46,
+        64.44,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        147.4,
+        535.75,
+        52.44
+      ],
+      "value": "TRANS ENTERPRISES GMBH\nTRANS ENTERPRISES GMBH\n874 INDUSTRIAL AVENUE\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        199.84,
+        535.75,
+        52.44
+      ],
+      "value": "ATLANTIC LOGISTICS PLC\nATLANTIC LOGISTICS PLC\n187 TRADE PARK\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        267.87,
+        310.73,
+        56.69
+      ],
+      "value": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        267.87,
+        70.01,
+        28.35
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        267.87,
+        88.01,
+        28.35
+      ],
+      "value": 369,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        296.22,
+        83.51,
+        28.35
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        296.22,
+        56.51,
+        28.35
+      ],
+      "value": "17.62 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        330.24,
+        241.09,
+        25.51
+      ],
+      "value": "6501.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        369.92,
+        120.54,
+        19.84
+      ],
+      "value": "11,007.41 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        389.76,
+        120.54,
+        19.84
+      ],
+      "value": "6501.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        418.11,
+        109.08,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        418.11,
+        131.58,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "BEVERAGES AND SPIRITS",
+      "actual": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES"
+    }
+  ]
+}

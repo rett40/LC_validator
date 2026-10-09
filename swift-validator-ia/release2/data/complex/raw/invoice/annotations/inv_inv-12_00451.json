@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00451",
+  "filename": "inv_inv-12_00451.pdf",
+  "layout_id": "INV-12",
+  "bl_id": 451,
+  "fields": {
+    "invoice_number": "INV-2026-00451",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/DB/0451/2026",
+    "bl_reference": "MSCUNGJNR500120913",
+    "seller_name": "GLOBAL SUPPLY CHAIN S.A.",
+    "buyer_name": "EURO SUPPLY CHAIN PLC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0862W",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "BUILDING MATERIALS",
+    "hs_code": "6810.19",
+    "quantity": 157,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "27,213.59",
+    "unit_price": 36.84,
+    "currency": "USD",
+    "total_amount": 5783.24,
+    "incoterm": "CIF",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00451",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "LC/DB/0451/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNGJNR500120913",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        221.1,
+        176.88,
+        42.52
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        221.1,
+        66.33,
+        42.52
+      ],
+      "value": "6810.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "157",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "36.84 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "5783.24 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN S.A.\nGLOBAL SUPPLY CHAIN S.A.\n138 COMMERCE STREET\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "EURO SUPPLY CHAIN PLC\nEURO SUPPLY CHAIN PLC\n489 TRADE PARK\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        360.0,
+        124.37,
+        19.84
+      ],
+      "value": "27,213.59 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        379.84,
+        124.37,
+        19.84
+      ],
+      "value": "5783.24 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "BUSAN, SOUTH KOREA",
+      "actual": "HAMBURG, GERMANY"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "5008.30 USD",
+      "actual": "5783.24 USD"
+    }
+  ]
+}

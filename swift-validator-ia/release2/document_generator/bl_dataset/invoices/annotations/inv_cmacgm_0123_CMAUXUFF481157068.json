@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00123",
+  "filename": "inv_cmacgm_0123_CMAUXUFF481157068.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 123,
+  "fields": {
+    "invoice_number": "INV-2026-00123",
+    "invoice_date": "09 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0123/2026",
+    "bl_reference": "CMAUXUFF481157068",
+    "seller_name": "TRANS GROUP GMBH",
+    "buyer_name": "DELTA SUPPLY CHAIN LLC",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE733N",
+    "port_of_loading": "ANTWERP, BELGIUM",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "BEVERAGES AND SPIRITS",
+    "hs_code": "0709.99",
+    "quantity": 302,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "8,292.71",
+    "unit_price": 11.83,
+    "currency": "EUR",
+    "total_amount": 3572.66,
+    "incoterm": "FOB",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00123",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUXUFF481157068",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "TRANS GROUP GMBH\n980 MAIN BOULEVARD\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "DELTA SUPPLY CHAIN LLC\n576 COMMERCE STREET\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "FE733N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUXUFF481157068",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "302",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 11.83",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 3,572.66",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "EUR 3,572.66",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "COLOMBO, SRI LANKA",
+      "actual": "ANTWERP, BELGIUM"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": 13,
+  "filename": "bl_bl-01_00013_MSCUNCSPN329029772.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNCSPN329029772",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNCSPN329029772",
+    "shipper_name": "UNITED SUPPLY CHAIN AG",
+    "shipper_address": "624 PORT ACCESS ROAD",
+    "consignee_name": "DELTA INDUSTRIES LTD",
+    "consignee_address": "280 PORT ACCESS ROAD",
+    "notify_party_name": "EURO SOLUTIONS CO.",
+    "notify_party_address": "186 MARKET STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0217S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "31 MAY 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "HLCU3413399",
+    "container_type": "20'OT",
+    "seal_number": "BAC34E30",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "25 PALLETS",
+    "gross_weight_kg": "6,600.46",
+    "measurement": "39.881 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU3413399",
+        "seal_number": "BAC34E30",
+        "container_type": "20'OT",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "25",
+          "type": "PALLETS",
+          "description": "25 PALLETS"
+        },
+        "gross_weight_kg": "6,600.46",
+        "net_weight_kg": "3,118.53",
+        "measurement": "39.881 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNCSPN329029772",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "UNITED SUPPLY CHAIN AG\n624 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "DELTA INDUSTRIES LTD\n280 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "EURO SOLUTIONS CO.\n186 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "0217S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        535.75,
+        12.76
+      ],
+      "value": "HLCU3413399",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        241.09,
+        6.8
+      ],
+      "value": "BAC34E30",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        241.09,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "25",
+        "type": "PALLETS",
+        "description": "25 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        241.09,
+        6.8
+      ],
+      "value": "6,600.46",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        241.09,
+        6.8
+      ],
+      "value": "39.881 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        440.01,
+        214.3,
+        31.96
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

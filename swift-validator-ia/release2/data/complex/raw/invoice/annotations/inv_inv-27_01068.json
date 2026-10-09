@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01068",
+  "filename": "inv_inv-27_01068.pdf",
+  "layout_id": "INV-27",
+  "bl_id": 1068,
+  "fields": {
+    "invoice_number": "INV-2026-01068",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/BNP/1068/2026",
+    "bl_reference": "MSCUNYKTW699248112",
+    "seller_name": "PREMIER SUPPLY CHAIN INC",
+    "buyer_name": "INTERNATIONAL INDUSTRIES LLC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-685",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "hs_code": "8541.40",
+    "quantity": 80,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "34,026.93",
+    "unit_price": 88.73,
+    "currency": "GBP",
+    "total_amount": 7098.75,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        83.62,
+        213.17,
+        11.34
+      ],
+      "value": "INV-2026-01068",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        119.06,
+        170.53,
+        42.52
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        211.63,
+        119.06,
+        63.95,
+        42.52
+      ],
+      "value": "8541.40",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        275.58,
+        119.06,
+        53.29,
+        42.52
+      ],
+      "value": "80",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        328.88,
+        119.06,
+        53.29,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        382.17,
+        119.06,
+        95.92,
+        42.52
+      ],
+      "value": "88.73 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        478.09,
+        119.06,
+        95.92,
+        42.52
+      ],
+      "value": "7098.75 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        170.08,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN INC\nPREMIER SUPPLY CHAIN INC\n970 HARBOR ROAD\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        307.56,
+        170.08,
+        266.46,
+        79.37
+      ],
+      "value": "INTERNATIONAL INDUSTRIES LLC\nINTERNATIONAL INDUSTRIES LLC\n945 TRADE PARK\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        454.11,
+        257.95,
+        119.91,
+        19.84
+      ],
+      "value": "34,026.93 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        454.11,
+        277.8,
+        119.91,
+        19.84
+      ],
+      "value": "7098.75 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        43.1,
+        321.45,
+        173.64,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        220.74,
+        321.45,
+        173.64,
+        11.48
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        43.1,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        220.74,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "LC/BNP/1068/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        398.38,
+        354.33,
+        173.64,
+        12.76
+      ],
+      "value": "MSCUNYKTW699248112",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        43.1,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        220.74,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        398.38,
+        382.68,
+        173.64,
+        12.76
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "8325.60 GBP",
+      "actual": "7098.75 GBP"
+    }
+  ]
+}

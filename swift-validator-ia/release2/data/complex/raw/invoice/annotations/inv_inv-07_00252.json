@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00252",
+  "filename": "inv_inv-07_00252.pdf",
+  "layout_id": "INV-07",
+  "bl_id": 252,
+  "fields": {
+    "invoice_number": "INV-2026-00252",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0252/2026",
+    "bl_reference": "MSCUNZHHZ948637692",
+    "seller_name": "DELTA LOGISTICS GMBH",
+    "buyer_name": "TRANS SUPPLY CHAIN AG",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0122N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 185,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "23,433.29",
+    "unit_price": 7.51,
+    "currency": "EUR",
+    "total_amount": 1389.35,
+    "incoterm": "FCA",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "INV-2026-00252",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        52.44
+      ],
+      "value": "DELTA LOGISTICS GMBH\nDELTA LOGISTICS GMBH\n791 MAIN BOULEVARD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        41.1,
+        191.34,
+        522.99,
+        52.44
+      ],
+      "value": "TRANS SUPPLY CHAIN AG\nTRANS SUPPLY CHAIN AG\n303 TRADE PARK\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        171.85,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0252/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        302.6,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "MSCUNZHHZ948637692",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        433.35,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        297.64,
+        130.75,
+        18.43
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        171.85,
+        297.64,
+        130.75,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        331.65,
+        303.34,
+        56.69
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        344.44,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        454.27,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": 185,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        344.44,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        454.27,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "7.51 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        328.75,
+        394.02,
+        235.35,
+        25.51
+      ],
+      "value": "1389.35 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        446.42,
+        433.7,
+        117.67,
+        19.84
+      ],
+      "value": "23,433.29 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        446.42,
+        453.54,
+        117.67,
+        19.84
+      ],
+      "value": "1389.35 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        215.43,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

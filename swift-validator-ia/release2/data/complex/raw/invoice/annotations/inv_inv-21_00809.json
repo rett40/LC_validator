@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00809",
+  "filename": "inv_inv-21_00809.pdf",
+  "layout_id": "INV-21",
+  "bl_id": 809,
+  "fields": {
+    "invoice_number": "INV-2026-00809",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/DBS/0809/2026",
+    "bl_reference": "MSCUNHMHE132610252",
+    "seller_name": "UNITED ENTERPRISES LLC",
+    "buyer_name": "APEX TRADING LTD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0889W",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "goods_description": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "hs_code": "0709.99",
+    "quantity": 342,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "40,435.32",
+    "unit_price": 24.06,
+    "currency": "USD",
+    "total_amount": 8228.52,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        77.1,
+        218.27,
+        27.78
+      ],
+      "value": "INV-2026-00809",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        130.39,
+        181.89,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        130.39,
+        181.89,
+        18.43
+      ],
+      "value": "LC/DBS/0809/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        130.39,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNHMHE132610252",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        158.74,
+        181.89,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        158.74,
+        181.89,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        158.74,
+        181.89,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        208.35,
+        174.61,
+        42.52
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        208.35,
+        65.48,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        208.35,
+        54.57,
+        42.52
+      ],
+      "value": "342",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        208.35,
+        54.57,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        208.35,
+        98.22,
+        42.52
+      ],
+      "value": "24.06 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        208.35,
+        98.22,
+        42.52
+      ],
+      "value": "8228.52 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        266.46,
+        272.83,
+        79.37
+      ],
+      "value": "UNITED ENTERPRISES LLC\nUNITED ENTERPRISES LLC\n515 INDUSTRIAL AVENUE\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        266.46,
+        272.83,
+        79.37
+      ],
+      "value": "APEX TRADING LTD\nAPEX TRADING LTD\n124 EXPORT ZONE\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        360.0,
+        122.78,
+        19.84
+      ],
+      "value": "40,435.32 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        379.84,
+        122.78,
+        19.84
+      ],
+      "value": "8228.52 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        418.11,
+        181.89,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        418.11,
+        181.89,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "TIANJIN, CHINA",
+      "actual": "NEW YORK, USA"
+    }
+  ]
+}

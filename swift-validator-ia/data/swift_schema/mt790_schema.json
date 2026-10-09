@@ -1,0 +1,39 @@
+
+{
+  "message_type": "MT790",
+  "description": "Advice of Charges, Interest and Other Adjustments",
+  "fields": {
+    "20": {
+      "name": "Transaction Reference Number",
+      "format": "16x",
+      "mandatory": true
+    },
+    "21": {
+      "name": "Related Reference",
+      "format": "16x"
+    },
+    "25": {
+      "name": "Account Identification",
+      "format": "35x",
+      "mandatory": true
+    },
+    "32A": {
+      "name": "Value Date, Currency Code, Amount",
+      "format": "6n3a15d",
+      "mandatory": true
+    },
+    "52a": {
+      "name": "Ordering Institution",
+      "format": "A or D"
+    },
+    "71B": {
+      "name": "Details of Charges",
+      "format": "6*35x",
+      "mandatory": true
+    },
+    "72": {
+      "name": "Sender to Receiver Information",
+      "format": "6*35x"
+    }
+  }
+}

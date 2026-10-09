@@ -1,0 +1,322 @@
+{
+  "id": 997,
+  "filename": "bl_bl-25_00997_MSCUNFRYH265440284.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNFRYH265440284",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNFRYH265440284",
+    "shipper_name": "PACIFIC LOGISTICS CO.",
+    "shipper_address": "946 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC PARTNERS INC",
+    "consignee_address": "811 MARKET STREET",
+    "notify_party_name": "APEX LOGISTICS S.A.",
+    "notify_party_address": "750 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE97W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "14 JUN 2026",
+    "eta": "29 JUN 2026",
+    "container_number": "TRHU0184745",
+    "container_type": "20' DRY / GP",
+    "seal_number": "GGGE3GG6",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "189 CRATES",
+    "gross_weight_kg": "17,453.30",
+    "measurement": "36.553 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU0184745",
+        "seal_number": "GGGE3GG6",
+        "container_type": "20' DRY / GP",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "189",
+          "type": "CRATES",
+          "description": "189 CRATES"
+        },
+        "gross_weight_kg": "17,453.30",
+        "net_weight_kg": "15,238.34",
+        "measurement": "36.553 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNFRYH265440284",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        535.75,
+        12.76
+      ],
+      "value": "TRHU0184745",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        241.09,
+        6.8
+      ],
+      "value": "GGGE3GG6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        241.09,
+        6.8
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "189",
+        "type": "CRATES",
+        "description": "189 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        241.09,
+        6.8
+      ],
+      "value": "17,453.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        241.09,
+        6.8
+      ],
+      "value": "36.553 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        146.62,
+        214.3,
+        31.96
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "AE97W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "PACIFIC LOGISTICS CO.\n946 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC PARTNERS INC\n811 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "APEX LOGISTICS S.A.\n750 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

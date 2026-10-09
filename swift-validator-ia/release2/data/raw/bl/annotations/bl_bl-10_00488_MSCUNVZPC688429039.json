@@ -1,0 +1,351 @@
+{
+  "id": 488,
+  "filename": "bl_bl-10_00488_MSCUNVZPC688429039.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNVZPC688429039",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNVZPC688429039",
+    "shipper_name": "PREMIER ENTERPRISES BV",
+    "shipper_address": "959 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED LOGISTICS CORP",
+    "consignee_address": "469 INDUSTRIAL AVENUE",
+    "notify_party_name": "ATLANTIC SOLUTIONS LTD",
+    "notify_party_address": "592 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE992S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "18 MAY 2026",
+    "eta": "05 JUN 2026",
+    "container_number": "TCKU8402278",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "75CE9708",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "430 CARTONS",
+    "gross_weight_kg": "8,909.01",
+    "measurement": "21.682 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8402278",
+        "seal_number": "75CE9708",
+        "container_type": "20' FLAT RACK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "430",
+          "type": "CARTONS",
+          "description": "430 CARTONS"
+        },
+        "gross_weight_kg": "8,909.01",
+        "net_weight_kg": "5,334.20",
+        "measurement": "21.682 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "27 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVZPC688429039",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU8402278",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "75CE9708",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '430', 'type': 'CARTONS', 'description': '430 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "8,909.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "21.682 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "959 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER ENTERPRISES BV\n959 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "469 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED LOGISTICS CORP\n469 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        287.72,
+        269.29,
+        70.87
+      ],
+      "value": "592 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SOLUTIONS LTD\n592 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "FE992S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

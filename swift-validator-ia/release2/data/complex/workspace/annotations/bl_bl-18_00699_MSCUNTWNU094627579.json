@@ -1,0 +1,351 @@
+{
+  "id": 699,
+  "filename": "bl_bl-18_00699_MSCUNTWNU094627579.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNTWNU094627579",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNTWNU094627579",
+    "shipper_name": "APEX SOLUTIONS LTD",
+    "shipper_address": "516 COMMERCE BOULEVARD",
+    "consignee_name": "ATLANTIC INDUSTRIES PLC",
+    "consignee_address": "670 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED SUPPLY CHAIN CO.",
+    "notify_party_address": "728 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-290",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "09 JUN 2026",
+    "eta": "10 JUL 2026",
+    "container_number": "CMAU1443525",
+    "container_type": "40' REEFER",
+    "seal_number": "CGF4CAG1",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "340 PACKAGES",
+    "gross_weight_kg": "9,582.41",
+    "measurement": "62.878 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU1443525",
+        "seal_number": "CGF4CAG1",
+        "container_type": "40' REEFER",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "340",
+          "type": "PACKAGES",
+          "description": "340 PACKAGES"
+        },
+        "gross_weight_kg": "9,582.41",
+        "net_weight_kg": "6,636.55",
+        "measurement": "62.878 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTWNU094627579",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1443525",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "CGF4CAG1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '340', 'type': 'PACKAGES', 'description': '340 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "9,582.41",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "62.878 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "516 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SOLUTIONS LTD\n516 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "670 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC INDUSTRIES PLC\n670 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "728 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED SUPPLY CHAIN CO.\n728 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.89,
+        453.54,
+        218.84,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.96,
+        453.54,
+        229.05,
+        34.02
+      ],
+      "value": "E-290",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        487.56,
+        202.39,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        369.85,
+        487.56,
+        204.16,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        521.57,
+        186.38,
+        34.02
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        379.2,
+        521.57,
+        194.82,
+        34.02
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        555.59,
+        246.84,
+        34.02
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        382.3,
+        555.59,
+        191.72,
+        34.02
+      ],
+      "value": "10 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        107.22,
+        598.11,
+        197.51,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        346.29,
+        598.11,
+        227.72,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        63.22,
+        626.46,
+        241.51,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        626.46,
+        219.72,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        654.8,
+        219.28,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

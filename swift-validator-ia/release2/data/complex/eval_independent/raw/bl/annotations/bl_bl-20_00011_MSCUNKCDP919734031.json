@@ -1,0 +1,535 @@
+{
+  "id": 11,
+  "filename": "bl_bl-20_00011_MSCUNKCDP919734031.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNKCDP919734031",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNKCDP919734031",
+    "shipper": {
+      "name": "EURO SHIPPING BV",
+      "address": "104 COMMERCE BOULEVARD",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "EURO SHIPPING BV\n104 COMMERCE BOULEVARD\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "consignee": {
+      "name": "PACIFIC COMMERCE INC",
+      "address": "949 INDUSTRIAL AVENUE",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "PACIFIC COMMERCE INC\n949 INDUSTRIAL AVENUE\nBARCELONA, SPAIN 08003"
+    },
+    "notify_party": {
+      "name": "FIRST PARTNERS GMBH",
+      "address": "857 INDUSTRIAL AVENUE",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "FIRST PARTNERS GMBH\n857 INDUSTRIAL AVENUE\nBARCELONA, SPAIN 08003"
+    },
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7188",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "19 JUN 2026",
+    "eta": "05 JUL 2026",
+    "issue_date": "18 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "MAEU3608690",
+    "container_type": "40' REEFER",
+    "seal_number": "D0AC0A5C",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": {
+      "count": "345",
+      "type": "BOXES",
+      "description": "345 BOXES"
+    },
+    "gross_weight_kg": "46,807.03",
+    "net_weight_kg": "37,942.69",
+    "gross_weight_lbs": "103,191.71",
+    "measurement": "142.351 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3608690",
+        "seal_number": "D0AC0A5C",
+        "container_type": "40' REEFER",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "345",
+          "type": "BOXES",
+          "description": "345 BOXES"
+        },
+        "gross_weight_kg": "16,447.43",
+        "net_weight_kg": "14,022.04",
+        "measurement": "20.450 CBM"
+      },
+      {
+        "container_number": "MAEU4732070",
+        "seal_number": "2CB7137F",
+        "container_type": "20' REEFER",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "245",
+          "type": "PACKAGES",
+          "description": "245 PACKAGES"
+        },
+        "gross_weight_kg": "13,412.03",
+        "net_weight_kg": "10,125.63",
+        "measurement": "58.031 CBM"
+      },
+      {
+        "container_number": "TRHU8523229",
+        "seal_number": "FH4FC445",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "306",
+          "type": "DRUMS",
+          "description": "306 DRUMS"
+        },
+        "gross_weight_kg": "16,947.57",
+        "net_weight_kg": "13,795.02",
+        "measurement": "63.870 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "FAS",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "MAEU3608690\nD0AC0A5C\nLE HAVRE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNKCDP919734031",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "AL7188",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "EURO SHIPPING BV\n104 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC COMMERCE INC\n949 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST PARTNERS GMBH\n857 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3608690",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "D0AC0A5C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '345', 'type': 'BOXES', 'description': '345 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "16,447.43",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "20.450 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU4732070",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "2CB7137F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '245', 'type': 'PACKAGES', 'description': '245 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "13,412.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "58.031 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8523229",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "FH4FC445",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '306', 'type': 'DRUMS', 'description': '306 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "16,947.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "63.870 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        704.41,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

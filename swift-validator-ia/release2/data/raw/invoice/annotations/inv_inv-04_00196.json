@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00196",
+  "filename": "inv_inv-04_00196.pdf",
+  "layout_id": "INV-04",
+  "bl_id": 196,
+  "fields": {
+    "invoice_number": "INV-2026-00196",
+    "invoice_date": "29 APR 2026",
+    "lc_reference": "LC/HSBC/0196/2026",
+    "bl_reference": "MSCUNAANU360966866",
+    "seller_name": "EURO TRADING PLC",
+    "buyer_name": "ATLANTIC SHIPPING BV",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS446W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 340,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "15,520.29",
+    "unit_price": 9.39,
+    "currency": "USD",
+    "total_amount": 3192.6,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00196",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "LC/HSBC/0196/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNAANU360966866",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        136.06,
+        179.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        188.5,
+        172.35,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        188.5,
+        64.63,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        188.5,
+        53.86,
+        42.52
+      ],
+      "value": "340",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        188.5,
+        53.86,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        188.5,
+        96.94,
+        42.52
+      ],
+      "value": "9.39 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        188.5,
+        96.94,
+        42.52
+      ],
+      "value": "3192.6 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        239.53,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        239.53,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        327.4,
+        121.18,
+        19.84
+      ],
+      "value": "15,520.29 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        347.24,
+        121.18,
+        19.84
+      ],
+      "value": "3192.6 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        375.59,
+        179.53,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        375.59,
+        179.53,
+        25.51
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "GUANGZHOU, CHINA",
+      "actual": "TOKYO, JAPAN"
+    }
+  ]
+}

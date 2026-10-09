@@ -1,0 +1,26 @@
+
+{
+  "message_type": "MT799",
+  "description": "Free Format Message",
+  "fields": {
+    "20": {
+      "name": "Transaction Reference Number",
+      "format": "16x",
+      "mandatory": true
+    },
+    "21": {
+      "name": "Related Reference",
+      "format": "16x"
+    },
+    "79": {
+      "name": "Free Text",
+      "format": "35*50x",
+      "mandatory": true,
+      "description": "Free format text message"
+    },
+    "72": {
+      "name": "Sender to Receiver Information",
+      "format": "6*35x"
+    }
+  }
+}

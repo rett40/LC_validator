@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00761",
+  "filename": "inv_inv-20_00761.pdf",
+  "layout_id": "INV-20",
+  "bl_id": 761,
+  "fields": {
+    "invoice_number": "INV-2026-00761",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/SCB/0761/2026",
+    "bl_reference": "MSCUNHXDC114885111",
+    "seller_name": "EURO GROUP LTD",
+    "buyer_name": "GLOBAL PARTNERS CORP",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-591",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "COSMETICS AND TOILETRIES",
+    "hs_code": "3304.99",
+    "quantity": 48,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "35,623.33",
+    "unit_price": 30.23,
+    "currency": "USD",
+    "total_amount": 1451.27,
+    "incoterm": "DDP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00761",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        60.94,
+        332.16,
+        79.37
+      ],
+      "value": "EURO GROUP LTD\nEURO GROUP LTD\n205 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        60.94,
+        203.58,
+        79.37
+      ],
+      "value": "GLOBAL PARTNERS CORP\nGLOBAL PARTNERS CORP\n457 HARBOR ROAD\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "LC/SCB/0761/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNHXDC114885111",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "COSMETICS AND TOILETRIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "3304.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "48",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "30.23 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "1451.27 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "35,623.33 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "1451.27 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "1280.16 USD",
+      "actual": "1451.27 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PERSONAL CARE PRODUCTS",
+      "actual": "COSMETICS AND TOILETRIES"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+.agents-page { display: flex; flex-direction: column; gap: 24px; }
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  h1 { font-size: 1.6rem; font-weight: 700; color: var(--brand-primary); margin-bottom: 4px; }
+  p  { color: var(--text-secondary); font-size: .9rem; }
+}
+
+.table-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  border: 1px solid var(--surface-200);
+}
+
+.table-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  gap: 16px;
+  border-bottom: 1px solid var(--surface-200);
+}
+
+.search-input {
+  width: 280px;
+  border-radius: 8px;
+  border: 1.5px solid var(--surface-200);
+  padding: 8px 14px;
+  font-size: .875rem;
+  &:focus { border-color: var(--brand-primary); outline: none; }
+}
+
+.agent-count { font-size: .875rem; color: var(--text-secondary); }
+
+.agent-id {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--brand-primary);
+}
+
+.ag-avatar {
+  width: 32px; height: 32px;
+  border-radius: 8px;
+  background: var(--brand-light);
+  color: var(--brand-primary);
+  font-weight: 700;
+  font-size: .8rem;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.text-secondary { color: var(--text-secondary); font-size: .875rem; }
+
+.count-badge {
+  display: inline-flex;
+  align-items: center;
+  background: var(--brand-light);
+  color: var(--brand-primary);
+  font-weight: 700;
+  font-size: .8rem;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.action-btns {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 48px !important;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  i { font-size: 2rem; }
+}
+
+/* Dialog form */
+.dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.df-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  label { font-size: .85rem; font-weight: 600; color: var(--text-primary); }
+
+  input, p-select { width: 100%; }
+}

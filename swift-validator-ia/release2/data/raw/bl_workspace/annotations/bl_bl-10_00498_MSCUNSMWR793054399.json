@@ -1,0 +1,351 @@
+{
+  "id": 498,
+  "filename": "bl_bl-10_00498_MSCUNSMWR793054399.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNSMWR793054399",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNSMWR793054399",
+    "shipper_name": "CENTRAL LOGISTICS LLC",
+    "shipper_address": "954 MAIN STREET",
+    "consignee_name": "EURO ENTERPRISES AG",
+    "consignee_address": "513 TRADE PARK",
+    "notify_party_name": "TRANS TRADING INC",
+    "notify_party_address": "980 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS219W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "20 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "EISU8280163",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "D18H3DEC",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "174 CARTONS",
+    "gross_weight_kg": "11,523.20",
+    "measurement": "52.242 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8280163",
+        "seal_number": "D18H3DEC",
+        "container_type": "40' FLAT RACK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "174",
+          "type": "CARTONS",
+          "description": "174 CARTONS"
+        },
+        "gross_weight_kg": "11,523.20",
+        "net_weight_kg": "8,340.96",
+        "measurement": "52.242 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNSMWR793054399",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "EISU8280163",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "D18H3DEC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '174', 'type': 'CARTONS', 'description': '174 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "11,523.20",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "52.242 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "954 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL LOGISTICS LLC\n954 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        197.01,
+        269.29,
+        70.87
+      ],
+      "value": "513 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        177.17,
+        269.29,
+        90.71
+      ],
+      "value": "EURO ENTERPRISES AG\n513 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        287.72,
+        269.29,
+        70.87
+      ],
+      "value": "980 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS TRADING INC\n980 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        457.8,
+        269.29,
+        34.02
+      ],
+      "value": "CS219W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        491.81,
+        269.29,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        525.83,
+        269.29,
+        34.02
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        559.84,
+        269.29,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        602.36,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

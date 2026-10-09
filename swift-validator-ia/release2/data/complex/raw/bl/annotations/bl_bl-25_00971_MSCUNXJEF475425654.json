@@ -1,0 +1,417 @@
+{
+  "id": 971,
+  "filename": "bl_bl-25_00971_MSCUNXJEF475425654.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNXJEF475425654",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNXJEF475425654",
+    "shipper_name": "CENTRAL LOGISTICS INC",
+    "shipper_address": "275 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED COMMERCE INC",
+    "consignee_address": "400 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX SOLUTIONS LLC",
+    "notify_party_address": "972 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE85W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "10 JUN 2026",
+    "eta": "13 JUL 2026",
+    "container_number": "TRHU9564286",
+    "container_type": "40'DC",
+    "seal_number": "94ED56G9",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "54 BAGS",
+    "gross_weight_kg": "17,797.94",
+    "measurement": "49.233 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9564286",
+        "seal_number": "94ED56G9",
+        "container_type": "40'DC",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "54",
+          "type": "BAGS",
+          "description": "54 BAGS"
+        },
+        "gross_weight_kg": "12,487.31",
+        "net_weight_kg": "9,440.83",
+        "measurement": "24.120 CBM"
+      },
+      {
+        "container_number": "MSCU6934002",
+        "seal_number": "55EE50B9",
+        "container_type": "40' REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "250",
+          "type": "CARTONS",
+          "description": "250 CARTONS"
+        },
+        "gross_weight_kg": "5,310.63",
+        "net_weight_kg": "2,511.24",
+        "measurement": "25.113 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNXJEF475425654",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "TRHU9564286",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "94ED56G9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "54",
+        "type": "BAGS",
+        "description": "54 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "12,487.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "24.120 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "MSCU6934002",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "55EE50B9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "250",
+        "type": "CARTONS",
+        "description": "250 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "5,310.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "25.113 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "AE85W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "13 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "CENTRAL LOGISTICS INC\n275 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "UNITED COMMERCE INC\n400 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "APEX SOLUTIONS LLC\n972 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

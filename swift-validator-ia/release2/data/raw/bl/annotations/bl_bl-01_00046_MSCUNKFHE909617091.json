@@ -1,0 +1,409 @@
+{
+  "id": 46,
+  "filename": "bl_bl-01_00046_MSCUNKFHE909617091.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNKFHE909617091",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNKFHE909617091",
+    "shipper_name": "APEX INDUSTRIES LTD",
+    "shipper_address": "359 MAIN STREET",
+    "consignee_name": "CENTRAL PARTNERS INC",
+    "consignee_address": "47 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX LOGISTICS PLC",
+    "notify_party_address": "181 INDUSTRIAL AVENUE",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-952",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "13 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "OOLU9738216",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "HDEF567E",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "202 CRATES",
+    "gross_weight_kg": "36,074.82",
+    "measurement": "85.848 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU9738216",
+        "seal_number": "HDEF567E",
+        "container_type": "40' OPEN TOP",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "202",
+          "type": "CRATES",
+          "description": "202 CRATES"
+        },
+        "gross_weight_kg": "24,420.70",
+        "net_weight_kg": "21,094.87",
+        "measurement": "31.313 CBM"
+      },
+      {
+        "container_number": "CMAU1987207",
+        "seal_number": "6573F2G1",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "439",
+          "type": "PALLETS",
+          "description": "439 PALLETS"
+        },
+        "gross_weight_kg": "11,654.12",
+        "net_weight_kg": "9,105.39",
+        "measurement": "54.535 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "30 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNKFHE909617091",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "APEX INDUSTRIES LTD\n359 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL PARTNERS INC\n47 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "APEX LOGISTICS PLC\n181 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "E-952",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        362.83,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU9738216",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "HDEF567E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        362.83,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        362.83,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '202', 'type': 'CRATES', 'description': '202 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "24,420.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "31.313 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        399.69,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1987207",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "6573F2G1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        399.69,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        399.69,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '439', 'type': 'PALLETS', 'description': '439 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "11,654.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "54.535 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

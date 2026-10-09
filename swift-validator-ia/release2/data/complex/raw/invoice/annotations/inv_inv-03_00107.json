@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00107",
+  "filename": "inv_inv-03_00107.pdf",
+  "layout_id": "INV-03",
+  "bl_id": 107,
+  "fields": {
+    "invoice_number": "INV-2026-00107",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/DB/0107/2026",
+    "bl_reference": "MSCUNRNDB430072126",
+    "seller_name": "UNITED TRADING INC",
+    "buyer_name": "PREMIER ENTERPRISES INC",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS138N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 280,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "22,069.54",
+    "unit_price": 13.96,
+    "currency": "USD",
+    "total_amount": 3908.8,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        213.17,
+        27.78
+      ],
+      "value": "INV-2026-00107",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        133.23,
+        266.46,
+        79.37
+      ],
+      "value": "UNITED TRADING INC\nUNITED TRADING INC\n991 COMMERCE STREET\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        307.56,
+        133.23,
+        266.46,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES INC\nPREMIER ENTERPRISES INC\n765 COMMERCE STREET\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        43.1,
+        245.2,
+        129.23,
+        12.76
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        176.33,
+        245.2,
+        129.23,
+        12.76
+      ],
+      "value": "LC/DB/0107/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        309.56,
+        245.2,
+        129.23,
+        12.76
+      ],
+      "value": "MSCUNRNDB430072126",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        442.79,
+        245.2,
+        129.23,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        43.1,
+        273.54,
+        129.23,
+        12.76
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        176.33,
+        273.54,
+        129.23,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        316.06,
+        170.53,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        211.63,
+        316.06,
+        63.95,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        275.58,
+        316.06,
+        53.29,
+        42.52
+      ],
+      "value": "280",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        328.88,
+        316.06,
+        53.29,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        382.17,
+        316.06,
+        95.92,
+        42.52
+      ],
+      "value": "13.96 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        478.09,
+        316.06,
+        95.92,
+        42.52
+      ],
+      "value": "3908.8 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        454.11,
+        372.76,
+        119.91,
+        19.84
+      ],
+      "value": "22,069.54 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        454.11,
+        392.6,
+        119.91,
+        19.84
+      ],
+      "value": "3908.8 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        43.1,
+        436.25,
+        173.64,
+        11.48
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        220.74,
+        436.25,
+        173.64,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    }
+  ]
+}

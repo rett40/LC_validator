@@ -1,0 +1,417 @@
+{
+  "id": 993,
+  "filename": "bl_bl-25_00993_MSCUNCNNL808145935.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNCNNL808145935",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCNNL808145935",
+    "shipper_name": "FIRST SUPPLY CHAIN CO.",
+    "shipper_address": "851 TRADE PARK",
+    "consignee_name": "PACIFIC SOLUTIONS LLC",
+    "consignee_address": "405 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL SUPPLY CHAIN INC",
+    "notify_party_address": "403 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE86N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "02 JUN 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "MAEU5271043",
+    "container_type": "20' DRY / GP",
+    "seal_number": "7C4585H4",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "248 BOXES",
+    "gross_weight_kg": "26,638.26",
+    "measurement": "92.119 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5271043",
+        "seal_number": "7C4585H4",
+        "container_type": "20' DRY / GP",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "248",
+          "type": "BOXES",
+          "description": "248 BOXES"
+        },
+        "gross_weight_kg": "10,467.86",
+        "net_weight_kg": "7,591.92",
+        "measurement": "36.552 CBM"
+      },
+      {
+        "container_number": "OOLU8900199",
+        "seal_number": "AH1E60C8",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "387",
+          "type": "DRUMS",
+          "description": "387 DRUMS"
+        },
+        "gross_weight_kg": "16,170.40",
+        "net_weight_kg": "12,827.67",
+        "measurement": "55.567 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNCNNL808145935",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "MAEU5271043",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "7C4585H4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "248",
+        "type": "BOXES",
+        "description": "248 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "10,467.86",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "36.552 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "OOLU8900199",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "AH1E60C8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "387",
+        "type": "DRUMS",
+        "description": "387 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "16,170.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "55.567 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        220.54,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        248.88,
+        263.87,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        277.23,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        321.73,
+        263.87,
+        15.31
+      ],
+      "value": "AE86N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        355.75,
+        263.87,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        389.76,
+        263.87,
+        15.31
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        423.78,
+        263.87,
+        15.31
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        452.98,
+        535.75,
+        55.28
+      ],
+      "value": "FIRST SUPPLY CHAIN CO.\n851 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        508.25,
+        535.75,
+        55.28
+      ],
+      "value": "PACIFIC SOLUTIONS LLC\n405 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        563.53,
+        535.75,
+        55.28
+      ],
+      "value": "CENTRAL SUPPLY CHAIN INC\n403 MARKET STREET",
+      "page": 1
+    }
+  ]
+}

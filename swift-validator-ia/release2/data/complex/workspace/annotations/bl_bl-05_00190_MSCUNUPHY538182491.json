@@ -1,0 +1,409 @@
+{
+  "id": 190,
+  "filename": "bl_bl-05_00190_MSCUNUPHY538182491.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNUPHY538182491",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUPHY538182491",
+    "shipper_name": "TRANS TRADING CO.",
+    "shipper_address": "242 HARBOR ROAD",
+    "consignee_name": "ATLANTIC INDUSTRIES GMBH",
+    "consignee_address": "829 PORT ACCESS ROAD",
+    "notify_party_name": "ATLANTIC LOGISTICS LLC",
+    "notify_party_address": "855 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS237S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "06 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "EISU8736647",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "H449488G",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "378 PACKAGES",
+    "gross_weight_kg": "29,371.84",
+    "measurement": "101.323 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8736647",
+        "seal_number": "H449488G",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "378",
+          "type": "PACKAGES",
+          "description": "378 PACKAGES"
+        },
+        "gross_weight_kg": "14,330.36",
+        "net_weight_kg": "11,582.64",
+        "measurement": "37.304 CBM"
+      },
+      {
+        "container_number": "TRHU3773844",
+        "seal_number": "CDFA4AF7",
+        "container_type": "40' FLAT RACK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "448",
+          "type": "PACKAGES",
+          "description": "448 PACKAGES"
+        },
+        "gross_weight_kg": "15,041.48",
+        "net_weight_kg": "11,912.85",
+        "measurement": "64.019 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNUPHY538182491",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "TRANS TRADING CO.\n242 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "ATLANTIC INDUSTRIES GMBH\n829 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "ATLANTIC LOGISTICS LLC\n855 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "EISU8736647",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "H449488G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '378', 'type': 'PACKAGES', 'description': '378 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "14,330.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "37.304 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU3773844",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "CDFA4AF7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '448', 'type': 'PACKAGES', 'description': '448 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "15,041.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "64.019 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "CS237S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        544.25,
+        264.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

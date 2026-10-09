@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00744",
+  "filename": "inv_inv-19_00744.pdf",
+  "layout_id": "INV-19",
+  "bl_id": 744,
+  "fields": {
+    "invoice_number": "INV-2026-00744",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/DBS/0744/2026",
+    "bl_reference": "MSCUNHWBH747110657",
+    "seller_name": "ATLANTIC PARTNERS S.A.",
+    "buyer_name": "CENTRAL LOGISTICS GMBH",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE751N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "PRECISION OPTICAL INSTRUMENTS",
+    "hs_code": "9013.80",
+    "quantity": 26,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "20,017.93",
+    "unit_price": 334.69,
+    "currency": "EUR",
+    "total_amount": 8701.94,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "INV-2026-00744",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        215.43,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "LC/DBS/0744/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        389.76,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "MSCUNHWBH747110657",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        41.1,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        215.43,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        389.76,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        211.18,
+        522.99,
+        52.44
+      ],
+      "value": "ATLANTIC PARTNERS S.A.\nATLANTIC PARTNERS S.A.\n392 TRADE PARK\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        41.1,
+        263.62,
+        522.99,
+        52.44
+      ],
+      "value": "CENTRAL LOGISTICS GMBH\nCENTRAL LOGISTICS GMBH\n442 TRADE PARK\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        331.65,
+        303.34,
+        56.69
+      ],
+      "value": "PRECISION OPTICAL INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        344.44,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": "9013.80",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        454.27,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": 26,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        344.44,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        454.27,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "334.69 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        328.75,
+        394.02,
+        235.35,
+        25.51
+      ],
+      "value": "8701.94 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        446.42,
+        433.7,
+        117.67,
+        19.84
+      ],
+      "value": "20,017.93 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        446.42,
+        453.54,
+        117.67,
+        19.84
+      ],
+      "value": "8701.94 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        215.43,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "actual": "PRECISION OPTICAL INSTRUMENTS"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

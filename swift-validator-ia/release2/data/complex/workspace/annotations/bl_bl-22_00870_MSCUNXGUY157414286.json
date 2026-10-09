@@ -1,0 +1,512 @@
+{
+  "id": 870,
+  "filename": "bl_bl-22_00870_MSCUNXGUY157414286.pdf",
+  "layout_id": "BL-22",
+  "bl_number": "MSCUNXGUY157414286",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNXGUY157414286",
+    "shipper_name": "EURO SUPPLY CHAIN CORP",
+    "shipper_address": "958 MAIN STREET",
+    "consignee_name": "UNITED GROUP GMBH",
+    "consignee_address": "623 HARBOR ROAD",
+    "notify_party_name": "APEX SUPPLY CHAIN LLC",
+    "notify_party_address": "94 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-246",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "22 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "MSCU8295632",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "AD03EFA7",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "19 PALLETS",
+    "gross_weight_kg": "73,095.60",
+    "measurement": "128.338 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8295632",
+        "seal_number": "AD03EFA7",
+        "container_type": "20' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "19",
+          "type": "PALLETS",
+          "description": "19 PALLETS"
+        },
+        "gross_weight_kg": "23,523.96",
+        "net_weight_kg": "21,339.78",
+        "measurement": "47.002 CBM"
+      },
+      {
+        "container_number": "CMAU0221697",
+        "seal_number": "HE2CD256",
+        "container_type": "20'RF",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "410",
+          "type": "BAGS",
+          "description": "410 BAGS"
+        },
+        "gross_weight_kg": "25,550.49",
+        "net_weight_kg": "22,650.16",
+        "measurement": "25.744 CBM"
+      },
+      {
+        "container_number": "TCKU0855657",
+        "seal_number": "1086G268",
+        "container_type": "40' OPEN TOP",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "470",
+          "type": "BOXES",
+          "description": "470 BOXES"
+        },
+        "gross_weight_kg": "24,021.15",
+        "net_weight_kg": "20,422.04",
+        "measurement": "55.592 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        326.2,
+        32.6,
+        237.9,
+        70.87
+      ],
+      "value": "MSCUNXGUY157414286",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        70.99,
+        111.97,
+        96.61,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.59,
+        111.97,
+        92.17,
+        34.02
+      ],
+      "value": "E-246",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        380.66,
+        111.97,
+        51.27,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        454.15,
+        111.97,
+        109.94,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        63.22,
+        145.98,
+        104.38,
+        34.02
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        235.38,
+        145.98,
+        64.38,
+        34.02
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.43,
+        145.98,
+        55.5,
+        34.02
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        453.71,
+        145.98,
+        110.39,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        188.5,
+        528.66,
+        55.28
+      ],
+      "value": "EURO SUPPLY CHAIN CORP\n958 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        243.78,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED GROUP GMBH\n623 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        299.06,
+        528.66,
+        55.28
+      ],
+      "value": "APEX SUPPLY CHAIN LLC\n94 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        365.67,
+        261.78,
+        12.76
+      ],
+      "value": "MSCU8295632",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        383.53,
+        117.8,
+        6.8
+      ],
+      "value": "AD03EFA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        392.6,
+        117.8,
+        6.8
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        401.67,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "19",
+        "type": "PALLETS",
+        "description": "19 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        410.74,
+        117.8,
+        6.8
+      ],
+      "value": "23,523.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        419.81,
+        117.8,
+        6.8
+      ],
+      "value": "47.002 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        383.31,
+        104.71,
+        31.96
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        365.67,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU0221697",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        383.53,
+        117.8,
+        6.8
+      ],
+      "value": "HE2CD256",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        392.6,
+        117.8,
+        6.8
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        401.67,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "410",
+        "type": "BAGS",
+        "description": "410 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        410.74,
+        117.8,
+        6.8
+      ],
+      "value": "25,550.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        419.81,
+        117.8,
+        6.8
+      ],
+      "value": "25.744 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        383.31,
+        104.71,
+        31.96
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        428.88,
+        261.78,
+        12.76
+      ],
+      "value": "TCKU0855657",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        446.74,
+        117.8,
+        6.8
+      ],
+      "value": "1086G268",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        455.81,
+        117.8,
+        6.8
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        464.88,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "470",
+        "type": "BOXES",
+        "description": "470 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        473.95,
+        117.8,
+        6.8
+      ],
+      "value": "24,021.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        483.02,
+        117.8,
+        6.8
+      ],
+      "value": "55.592 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        446.53,
+        104.71,
+        31.96
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        116.1,
+        496.35,
+        51.5,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        246.05,
+        496.35,
+        53.72,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        327.32,
+        496.35,
+        104.61,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        487.71,
+        496.35,
+        76.38,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        100.31,
+        524.69,
+        67.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

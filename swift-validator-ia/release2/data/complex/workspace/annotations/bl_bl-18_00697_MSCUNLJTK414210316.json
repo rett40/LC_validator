@@ -1,0 +1,351 @@
+{
+  "id": 697,
+  "filename": "bl_bl-18_00697_MSCUNLJTK414210316.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNLJTK414210316",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLJTK414210316",
+    "shipper_name": "UNITED COMMERCE S.A.",
+    "shipper_address": "82 MAIN STREET",
+    "consignee_name": "TRANS SHIPPING CO.",
+    "consignee_address": "276 MARKET STREET",
+    "notify_party_name": "INTERNATIONAL ENTERPRISES CO.",
+    "notify_party_address": "442 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7671",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "27 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "TRHU5321857",
+    "container_type": "40' DRY / GP",
+    "seal_number": "CH978EB6",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "161 PALLETS",
+    "gross_weight_kg": "24,135.59",
+    "measurement": "62.797 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU5321857",
+        "seal_number": "CH978EB6",
+        "container_type": "40' DRY / GP",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "161",
+          "type": "PALLETS",
+          "description": "161 PALLETS"
+        },
+        "gross_weight_kg": "24,135.59",
+        "net_weight_kg": "22,084.03",
+        "measurement": "62.797 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNLJTK414210316",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU5321857",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "CH978EB6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '161', 'type': 'PALLETS', 'description': '161 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "24,135.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "62.797 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "82 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED COMMERCE S.A.\n82 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "276 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS SHIPPING CO.\n276 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "442 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL ENTERPRISES CO.\n442 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        453.54,
+        248.62,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        361.41,
+        453.54,
+        212.6,
+        34.02
+      ],
+      "value": "AL7671",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        57.89,
+        487.56,
+        246.84,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        383.18,
+        487.56,
+        190.84,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        521.57,
+        192.6,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        377.41,
+        521.57,
+        196.6,
+        34.02
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        555.59,
+        207.72,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        555.59,
+        180.6,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        107.22,
+        598.11,
+        197.51,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        598.11,
+        201.5,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        626.46,
+        201.94,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        376.97,
+        626.46,
+        197.04,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        654.8,
+        219.28,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

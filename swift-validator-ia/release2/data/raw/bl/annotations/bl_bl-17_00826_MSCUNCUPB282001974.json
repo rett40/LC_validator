@@ -1,0 +1,318 @@
+{
+  "id": 826,
+  "filename": "bl_bl-17_00826_MSCUNCUPB282001974.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNCUPB282001974",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNCUPB282001974",
+    "shipper_name": "PREMIER PARTNERS GMBH",
+    "shipper_address": "58 HARBOR ROAD",
+    "consignee_name": "PACIFIC TRADING GMBH",
+    "consignee_address": "814 TRADE PARK",
+    "notify_party_name": "GLOBAL TRADING CO.",
+    "notify_party_address": "629 MAIN STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE480S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "01 JUN 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "EISU4093822",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "7D39G4GF",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "62 CARTONS",
+    "gross_weight_kg": "22,637.91",
+    "measurement": "45.760 CBM",
+    "containers": [
+      {
+        "container_number": "EISU4093822",
+        "seal_number": "7D39G4GF",
+        "container_type": "40' OPEN TOP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "62",
+          "type": "CARTONS",
+          "description": "62 CARTONS"
+        },
+        "gross_weight_kg": "22,637.91",
+        "net_weight_kg": "20,167.89",
+        "measurement": "45.760 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNCUPB282001974",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "PREMIER PARTNERS GMBH\n58 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "PACIFIC TRADING GMBH\n814 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "GLOBAL TRADING CO.\n629 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "FE480S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4093822",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "7D39G4GF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '62', 'type': 'CARTONS', 'description': '62 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "22,637.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "45.760 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        391.18,
+        134.65,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        391.18,
+        134.65,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        391.18,
+        134.65,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        391.18,
+        134.65,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        419.53,
+        134.65,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

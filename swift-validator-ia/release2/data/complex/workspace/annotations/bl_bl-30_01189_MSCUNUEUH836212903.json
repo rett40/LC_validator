@@ -1,0 +1,442 @@
+{
+  "id": 1189,
+  "filename": "bl_bl-30_01189_MSCUNUEUH836212903.pdf",
+  "layout_id": "BL-30",
+  "bl_number": "MSCUNUEUH836212903",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUEUH836212903",
+    "shipper_name": "EURO PARTNERS LLC",
+    "shipper_address": "487 HARBOR ROAD",
+    "consignee_name": "UNITED COMMERCE INC",
+    "consignee_address": "48 MAIN STREET",
+    "notify_party_name": "APEX GROUP INC",
+    "notify_party_address": "210 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE80W",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "03 JUN 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "MAEU3482771",
+    "container_type": "40'OT",
+    "seal_number": "2A85417C",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "72 CARTONS",
+    "gross_weight_kg": "26,360.61",
+    "measurement": "102.417 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3482771",
+        "seal_number": "2A85417C",
+        "container_type": "40'OT",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "72",
+          "type": "CARTONS",
+          "description": "72 CARTONS"
+        },
+        "gross_weight_kg": "5,722.44",
+        "net_weight_kg": "2,059.56",
+        "measurement": "57.477 CBM"
+      },
+      {
+        "container_number": "HLCU3768138",
+        "seal_number": "11981AGG",
+        "container_type": "40'RF",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "27",
+          "type": "DRUMS",
+          "description": "27 DRUMS"
+        },
+        "gross_weight_kg": "20,638.17",
+        "net_weight_kg": "16,941.13",
+        "measurement": "44.940 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        85.95,
+        83.62,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNUEUH836212903",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        113.93,
+        126.14,
+        101.03,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        302.46,
+        126.14,
+        92.03,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        445.99,
+        126.14,
+        128.03,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        109.43,
+        154.49,
+        105.53,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        266.46,
+        154.49,
+        128.03,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        59.93,
+        188.5,
+        155.03,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        261.96,
+        188.5,
+        132.53,
+        34.02
+      ],
+      "value": "AE80W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        418.99,
+        188.5,
+        155.03,
+        34.02
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        131.93,
+        222.52,
+        83.03,
+        34.02
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        284.46,
+        222.52,
+        110.03,
+        34.02
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        495.49,
+        222.52,
+        78.53,
+        34.02
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        109.43,
+        256.54,
+        105.53,
+        34.02
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        279.96,
+        256.54,
+        114.53,
+        34.02
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        314.65,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3482771",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "2A85417C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        314.65,
+        43.09,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        314.65,
+        134.65,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '72', 'type': 'CARTONS', 'description': '72 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "5,722.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "57.477 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        351.5,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3768138",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "11981AGG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        351.5,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        351.5,
+        134.65,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '27', 'type': 'DRUMS', 'description': '27 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "20,638.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "44.940 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "487 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "EURO PARTNERS LLC\n487 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "48 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED COMMERCE INC\n48 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        416.69,
+        179.53,
+        70.87
+      ],
+      "value": "210 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        396.85,
+        179.53,
+        90.71
+      ],
+      "value": "APEX GROUP INC\n210 TRADE PARK",
+      "page": 1
+    }
+  ]
+}

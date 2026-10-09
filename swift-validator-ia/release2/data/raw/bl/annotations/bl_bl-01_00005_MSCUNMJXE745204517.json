@@ -1,0 +1,409 @@
+{
+  "id": 5,
+  "filename": "bl_bl-01_00005_MSCUNMJXE745204517.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNMJXE745204517",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMJXE745204517",
+    "shipper_name": "ATLANTIC COMMERCE BV",
+    "shipper_address": "580 PORT ACCESS ROAD",
+    "consignee_name": "TRANS LOGISTICS PLC",
+    "consignee_address": "874 PORT ACCESS ROAD",
+    "notify_party_name": "ATLANTIC GROUP S.A.",
+    "notify_party_address": "755 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS788W",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "07 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "MSCU2167000",
+    "container_type": "20' REEFER",
+    "seal_number": "7EC9BD29",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "309 BOXES",
+    "gross_weight_kg": "35,422.78",
+    "measurement": "126.068 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU2167000",
+        "seal_number": "7EC9BD29",
+        "container_type": "20' REEFER",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "309",
+          "type": "BOXES",
+          "description": "309 BOXES"
+        },
+        "gross_weight_kg": "21,744.95",
+        "net_weight_kg": "18,969.32",
+        "measurement": "67.418 CBM"
+      },
+      {
+        "container_number": "CMAU7040492",
+        "seal_number": "AH785A78",
+        "container_type": "20' OPEN TOP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "308",
+          "type": "BOXES",
+          "description": "308 BOXES"
+        },
+        "gross_weight_kg": "13,677.83",
+        "net_weight_kg": "10,429.59",
+        "measurement": "58.650 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "29 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNMJXE745204517",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC COMMERCE BV\n580 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS PLC\n874 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC GROUP S.A.\n755 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "CS788W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        362.83,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2167000",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "7EC9BD29",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        362.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        362.83,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '309', 'type': 'BOXES', 'description': '309 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "21,744.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "67.418 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        399.69,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7040492",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "AH785A78",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        399.69,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        399.69,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '308', 'type': 'BOXES', 'description': '308 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "13,677.83",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "58.650 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        462.05,
+        179.53,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

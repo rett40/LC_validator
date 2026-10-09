@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00243",
+  "filename": "pl_cmacgm_0243_CMAUVBPN864094433.pdf",
+  "style": "TealPLRenderer",
+  "bl_id": 243,
+  "fields": {
+    "pl_number": "PL-2026-00243",
+    "pl_date": "14 APR 2026",
+    "inv_reference": "INV-2026-00243",
+    "bl_reference": "CMAUVBPN864094433",
+    "exporter_name": "INTERNATIONAL COMMERCE LTD",
+    "consignee_name": "TRANS LOGISTICS LTD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0574N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "container_number": "CMAU9864757",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "ACAD47DH",
+    "goods_description": "HOME FURNITURE AND FITTINGS",
+    "package_unit": "DRUMS",
+    "total_packages": 18,
+    "net_weight_kg": "6,360.35",
+    "gross_weight_kg": "7,626.73",
+    "total_cbm": 56.245
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "PL-2026-00243",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUVBPN864094433",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "INTERNATIONAL COMMERCE LTD\n684 COMMERCE STREET\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "TRANS LOGISTICS LTD\n37 TRADE PARK\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "0574N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "CMAU9864757",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "ACAD47DH",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUVBPN864094433",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        277.8,
+        136.06,
+        48.19
+      ],
+      "value": "HOME FURNITURE AND FITTINGS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        277.8,
+        56.69,
+        48.19
+      ],
+      "value": "18",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "6,360.35",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "7,626.73",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        277.8,
+        73.7,
+        48.19
+      ],
+      "value": "56.245",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        331.65,
+        242.36,
+        62.36
+      ],
+      "value": "7,626.73",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        377.01,
+        121.18,
+        17.01
+      ],
+      "value": "18",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "CMAU3864757",
+      "actual": "CMAU9864757"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "FURNITURE AND PARTS THEREOF",
+      "actual": "HOME FURNITURE AND FITTINGS"
+    }
+  ]
+}

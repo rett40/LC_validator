@@ -1,0 +1,444 @@
+{
+  "id": 78,
+  "filename": "bl_bl-15_00078_MSCUNTBWU650982472.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNTBWU650982472",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNTBWU650982472",
+    "shipper": {
+      "name": "GLOBAL LOGISTICS AG",
+      "address": "994 MAIN STREET",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "GLOBAL LOGISTICS AG\n994 MAIN STREET\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "consignee": {
+      "name": "DELTA LOGISTICS BV",
+      "address": "5 COMMERCE BOULEVARD",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "DELTA LOGISTICS BV\n5 COMMERCE BOULEVARD\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "notify_party": {
+      "name": "DELTA SHIPPING LTD",
+      "address": "740 TRADE PARK",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "DELTA SHIPPING LTD\n740 TRADE PARK\nNEW YORK, USA NY 10001"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-775",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "01 JUN 2026",
+    "eta": "05 JUL 2026",
+    "issue_date": "17 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "HLCU6239363",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "GEGD8A69",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": {
+      "count": "459",
+      "type": "PACKAGES",
+      "description": "459 PACKAGES"
+    },
+    "gross_weight_kg": "17,289.65",
+    "net_weight_kg": "12,321.13",
+    "gross_weight_lbs": "38,117.11",
+    "measurement": "64.043 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU6239363",
+        "seal_number": "GEGD8A69",
+        "container_type": "20' FLAT RACK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "459",
+          "type": "PACKAGES",
+          "description": "459 PACKAGES"
+        },
+        "gross_weight_kg": "6,042.91",
+        "net_weight_kg": "3,897.96",
+        "measurement": "28.653 CBM"
+      },
+      {
+        "container_number": "OOLU2003779",
+        "seal_number": "54664HA9",
+        "container_type": "20' TANK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "228",
+          "type": "BOXES",
+          "description": "228 BOXES"
+        },
+        "gross_weight_kg": "11,246.74",
+        "net_weight_kg": "8,423.17",
+        "measurement": "35.390 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "COLLECT",
+    "incoterm": "DPU",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "HLCU6239363\nGEGD8A69\nLONG BEACH"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTBWU650982472",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL LOGISTICS AG\n994 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA LOGISTICS BV\n5 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA SHIPPING LTD\n740 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "E-775",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU6239363",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "GEGD8A69",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '459', 'type': 'PACKAGES', 'description': '459 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "6,042.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "28.653 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2003779",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "54664HA9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '228', 'type': 'BOXES', 'description': '228 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "11,246.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "35.390 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        725.67,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

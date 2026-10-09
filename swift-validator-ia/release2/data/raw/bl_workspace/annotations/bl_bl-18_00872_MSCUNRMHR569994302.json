@@ -1,0 +1,351 @@
+{
+  "id": 872,
+  "filename": "bl_bl-18_00872_MSCUNRMHR569994302.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNRMHR569994302",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNRMHR569994302",
+    "shipper_name": "APEX SOLUTIONS S.A.",
+    "shipper_address": "209 MARKET STREET",
+    "consignee_name": "APEX SHIPPING CO.",
+    "consignee_address": "197 INDUSTRIAL AVENUE",
+    "notify_party_name": "PREMIER INDUSTRIES AG",
+    "notify_party_address": "418 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0721W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "17 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "OOLU2775672",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "C0DCB000",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "280 CARTONS",
+    "gross_weight_kg": "25,441.58",
+    "measurement": "23.974 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU2775672",
+        "seal_number": "C0DCB000",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "280",
+          "type": "CARTONS",
+          "description": "280 CARTONS"
+        },
+        "gross_weight_kg": "25,441.58",
+        "net_weight_kg": "22,906.47",
+        "measurement": "23.974 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNRMHR569994302",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2775672",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "C0DCB000",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '280', 'type': 'CARTONS', 'description': '280 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "25,441.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "23.974 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "209 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SOLUTIONS S.A.\n209 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        188.5,
+        269.29,
+        70.87
+      ],
+      "value": "197 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        168.66,
+        269.29,
+        90.71
+      ],
+      "value": "APEX SHIPPING CO.\n197 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        279.21,
+        269.29,
+        70.87
+      ],
+      "value": "418 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        259.37,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER INDUSTRIES AG\n418 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        449.29,
+        269.29,
+        34.02
+      ],
+      "value": "0721W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        483.31,
+        269.29,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        517.32,
+        269.29,
+        34.02
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        551.34,
+        269.29,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        593.86,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        622.2,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        650.55,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

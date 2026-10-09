@@ -1,0 +1,500 @@
+{
+  "id": 1023,
+  "filename": "bl_bl-21_01023_MSCUNAUSZ417022714.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNAUSZ417022714",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNAUSZ417022714",
+    "shipper_name": "FIRST INDUSTRIES INC",
+    "shipper_address": "140 PORT ACCESS ROAD",
+    "consignee_name": "GLOBAL SHIPPING PLC",
+    "consignee_address": "538 MAIN STREET",
+    "notify_party_name": "FIRST TRADING PLC",
+    "notify_party_address": "823 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE57N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "31 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "EISU0172035",
+    "container_type": "40' DRY",
+    "seal_number": "8FF87GF2",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "268 CARTONS",
+    "gross_weight_kg": "41,882.58",
+    "measurement": "135.762 CBM",
+    "containers": [
+      {
+        "container_number": "EISU0172035",
+        "seal_number": "8FF87GF2",
+        "container_type": "40' DRY",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "268",
+          "type": "CARTONS",
+          "description": "268 CARTONS"
+        },
+        "gross_weight_kg": "10,933.64",
+        "net_weight_kg": "7,715.79",
+        "measurement": "20.748 CBM"
+      },
+      {
+        "container_number": "MSCU2924348",
+        "seal_number": "0EA6EG22",
+        "container_type": "40' FLAT RACK",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "248",
+          "type": "PACKAGES",
+          "description": "248 PACKAGES"
+        },
+        "gross_weight_kg": "24,437.47",
+        "net_weight_kg": "22,029.13",
+        "measurement": "53.383 CBM"
+      },
+      {
+        "container_number": "CMAU2760517",
+        "seal_number": "7EDG258G",
+        "container_type": "20' FLAT RACK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "61",
+          "type": "BAGS",
+          "description": "61 BAGS"
+        },
+        "gross_weight_kg": "6,511.47",
+        "net_weight_kg": "4,099.29",
+        "measurement": "61.631 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "22 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNAUSZ417022714",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES INC\n140 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SHIPPING PLC\n538 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST TRADING PLC\n823 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "EISU0172035",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "8FF87GF2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '268', 'type': 'CARTONS', 'description': '268 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "10,933.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "20.748 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2924348",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "0EA6EG22",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '248', 'type': 'PACKAGES', 'description': '248 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "24,437.47",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "53.383 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        318.9,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2760517",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "7EDG258G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        318.9,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        318.9,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '61', 'type': 'BAGS', 'description': '61 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "6,511.47",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "61.631 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "AE57N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

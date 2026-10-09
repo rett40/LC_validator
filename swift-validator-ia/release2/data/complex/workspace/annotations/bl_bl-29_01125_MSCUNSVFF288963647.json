@@ -1,0 +1,409 @@
+{
+  "id": 1125,
+  "filename": "bl_bl-29_01125_MSCUNSVFF288963647.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNSVFF288963647",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSVFF288963647",
+    "shipper_name": "TRANS COMMERCE GMBH",
+    "shipper_address": "751 COMMERCE BOULEVARD",
+    "consignee_name": "PACIFIC PARTNERS INC",
+    "consignee_address": "680 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC INDUSTRIES BV",
+    "notify_party_address": "726 HARBOR ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0994N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "12 JUN 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "MAEU8507983",
+    "container_type": "40' REEFER",
+    "seal_number": "93F1G23F",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "81 CRATES",
+    "gross_weight_kg": "37,012.03",
+    "measurement": "102.981 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU8507983",
+        "seal_number": "93F1G23F",
+        "container_type": "40' REEFER",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "81",
+          "type": "CRATES",
+          "description": "81 CRATES"
+        },
+        "gross_weight_kg": "27,322.14",
+        "net_weight_kg": "23,668.28",
+        "measurement": "45.223 CBM"
+      },
+      {
+        "container_number": "HLCU7330623",
+        "seal_number": "DEB845B7",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "487",
+          "type": "CARTONS",
+          "description": "487 CARTONS"
+        },
+        "gross_weight_kg": "9,689.89",
+        "net_weight_kg": "7,150.07",
+        "measurement": "57.758 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNSVFF288963647",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "MAEU8507983",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "93F1G23F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '81', 'type': 'CRATES', 'description': '81 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "27,322.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "45.223 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "HLCU7330623",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "DEB845B7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '487', 'type': 'CARTONS', 'description': '487 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "9,689.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "57.758 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "0994N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        347.24,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        394.02,
+        302.62,
+        94.96
+      ],
+      "value": "TRANS COMMERCE GMBH\n751 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        392.6,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC PARTNERS INC\n680 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        447.87,
+        218.04,
+        41.1
+      ],
+      "value": "ATLANTIC INDUSTRIES BV\n726 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00893",
+  "filename": "inv_inv-23_00893.pdf",
+  "layout_id": "INV-23",
+  "bl_id": 893,
+  "fields": {
+    "invoice_number": "INV-2026-00893",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/CITI/0893/2026",
+    "bl_reference": "MSCUNKEGS649860029",
+    "seller_name": "PREMIER SHIPPING LLC",
+    "buyer_name": "CENTRAL GROUP AG",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE277N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "DOMESTIC ELECTRICAL APPLIANCES",
+    "hs_code": "8516.60",
+    "quantity": 491,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "38,662.18",
+    "unit_price": 36.73,
+    "currency": "USD",
+    "total_amount": 18034.43,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        206.36,
+        27.78
+      ],
+      "value": "INV-2026-00893",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        126.14,
+        116.08,
+        19.84
+      ],
+      "value": "38,662.18 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        145.98,
+        116.08,
+        19.84
+      ],
+      "value": "18034.43 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        174.33,
+        319.86,
+        79.37
+      ],
+      "value": "PREMIER SHIPPING LLC\nPREMIER SHIPPING LLC\n235 EXPORT ZONE\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        174.33,
+        196.04,
+        79.37
+      ],
+      "value": "CENTRAL GROUP AG\nCENTRAL GROUP AG\n340 COMMERCE STREET\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        277.8,
+        165.09,
+        42.52
+      ],
+      "value": "DOMESTIC ELECTRICAL APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        277.8,
+        61.91,
+        42.52
+      ],
+      "value": "8516.60",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "491",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "36.73 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "18034.43 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        100.2,
+        328.82,
+        112.87,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        246.33,
+        328.82,
+        138.71,
+        28.35
+      ],
+      "value": "LC/CITI/0893/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        450.8,
+        328.82,
+        106.2,
+        28.35
+      ],
+      "value": "MSCUNKEGS649860029",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        101.02,
+        357.17,
+        112.05,
+        28.35
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        262.58,
+        357.17,
+        122.46,
+        28.35
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        407.04,
+        357.17,
+        149.97,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        111.86,
+        394.02,
+        101.21,
+        25.51
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        259.24,
+        394.02,
+        125.8,
+        25.51
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "HOUSEHOLD APPLIANCES",
+      "actual": "DOMESTIC ELECTRICAL APPLIANCES"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00900",
+  "filename": "inv_inv-23_00900.pdf",
+  "layout_id": "INV-23",
+  "bl_id": 900,
+  "fields": {
+    "invoice_number": "INV-2026-00900",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/CITI/0900/2026",
+    "bl_reference": "MSCUNSWMY227528803",
+    "seller_name": "GLOBAL SOLUTIONS LLC",
+    "buyer_name": "CENTRAL SUPPLY CHAIN INC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0252S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "CERAMIC PRODUCTS AND TILES",
+    "hs_code": "6908.90",
+    "quantity": 36,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "57,462.00",
+    "unit_price": 19.76,
+    "currency": "GBP",
+    "total_amount": 711.36,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        206.36,
+        27.78
+      ],
+      "value": "INV-2026-00900",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        126.14,
+        116.08,
+        19.84
+      ],
+      "value": "57,462.00 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        145.98,
+        116.08,
+        19.84
+      ],
+      "value": "711.36 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        174.33,
+        319.86,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS LLC\nGLOBAL SOLUTIONS LLC\n733 HARBOR ROAD\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        174.33,
+        196.04,
+        79.37
+      ],
+      "value": "CENTRAL SUPPLY CHAIN INC\nCENTRAL SUPPLY CHAIN INC\n201 TRADE PARK\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        277.8,
+        165.09,
+        42.52
+      ],
+      "value": "CERAMIC PRODUCTS AND TILES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        277.8,
+        61.91,
+        42.52
+      ],
+      "value": "6908.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "36",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "19.76 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "711.36 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        100.2,
+        328.82,
+        112.87,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        246.33,
+        328.82,
+        138.71,
+        28.35
+      ],
+      "value": "LC/CITI/0900/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        450.8,
+        328.82,
+        106.2,
+        28.35
+      ],
+      "value": "MSCUNSWMY227528803",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        87.27,
+        357.17,
+        125.8,
+        28.35
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        262.58,
+        357.17,
+        122.46,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        457.46,
+        357.17,
+        99.55,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        111.86,
+        394.02,
+        101.21,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        259.24,
+        394.02,
+        125.8,
+        25.51
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "CERAMIC TILES AND SANITARY WARE",
+      "actual": "CERAMIC PRODUCTS AND TILES"
+    }
+  ]
+}

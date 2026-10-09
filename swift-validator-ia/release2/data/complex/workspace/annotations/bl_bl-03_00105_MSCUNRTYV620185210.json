@@ -1,0 +1,500 @@
+{
+  "id": 105,
+  "filename": "bl_bl-03_00105_MSCUNRTYV620185210.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNRTYV620185210",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRTYV620185210",
+    "shipper_name": "ATLANTIC ENTERPRISES BV",
+    "shipper_address": "298 HARBOR ROAD",
+    "consignee_name": "GLOBAL GROUP CO.",
+    "consignee_address": "832 PORT ACCESS ROAD",
+    "notify_party_name": "APEX ENTERPRISES CORP",
+    "notify_party_address": "991 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0458S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "18 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "EISU8172414",
+    "container_type": "20'OT",
+    "seal_number": "B231G7HC",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "233 BOXES",
+    "gross_weight_kg": "53,130.65",
+    "measurement": "102.807 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8172414",
+        "seal_number": "B231G7HC",
+        "container_type": "20'OT",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "233",
+          "type": "BOXES",
+          "description": "233 BOXES"
+        },
+        "gross_weight_kg": "18,731.89",
+        "net_weight_kg": "16,385.29",
+        "measurement": "53.318 CBM"
+      },
+      {
+        "container_number": "TRHU4949071",
+        "seal_number": "53FE1C12",
+        "container_type": "20' REEFER",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "249",
+          "type": "PACKAGES",
+          "description": "249 PACKAGES"
+        },
+        "gross_weight_kg": "26,502.24",
+        "net_weight_kg": "23,077.04",
+        "measurement": "22.570 CBM"
+      },
+      {
+        "container_number": "TCKU8029154",
+        "seal_number": "247C2144",
+        "container_type": "40'OT",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "246",
+          "type": "CRATES",
+          "description": "246 CRATES"
+        },
+        "gross_weight_kg": "7,896.52",
+        "net_weight_kg": "4,556.37",
+        "measurement": "26.919 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        360.85,
+        85.89,
+        213.17,
+        31.75
+      ],
+      "value": "MSCUNRTYV620185210",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        43.1,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        176.33,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "0458S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        309.56,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        442.79,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        43.1,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        176.33,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        309.56,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        442.79,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "ATLANTIC ENTERPRISES BV\n298 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        176.33,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "GLOBAL GROUP CO.\n832 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        309.56,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "APEX ENTERPRISES CORP\n991 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        338.74,
+        90.6,
+        36.85
+      ],
+      "value": "EISU8172414",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "B231G7HC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        338.74,
+        42.63,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        338.74,
+        133.23,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '233', 'type': 'BOXES', 'description': '233 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "18,731.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "53.318 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        375.59,
+        90.6,
+        36.85
+      ],
+      "value": "TRHU4949071",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "53FE1C12",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        375.59,
+        42.63,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        375.59,
+        133.23,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '249', 'type': 'PACKAGES', 'description': '249 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "26,502.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "22.570 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        412.44,
+        90.6,
+        36.85
+      ],
+      "value": "TCKU8029154",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "247C2144",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        412.44,
+        42.63,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        412.44,
+        133.23,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '246', 'type': 'CRATES', 'description': '246 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "7,896.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "26.919 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        43.1,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        176.33,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        309.56,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        442.79,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        43.1,
+        510.24,
+        129.23,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

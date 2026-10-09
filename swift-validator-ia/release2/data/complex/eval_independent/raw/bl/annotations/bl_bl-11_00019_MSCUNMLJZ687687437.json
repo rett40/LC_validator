@@ -1,0 +1,353 @@
+{
+  "id": 19,
+  "filename": "bl_bl-11_00019_MSCUNMLJZ687687437.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNMLJZ687687437",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNMLJZ687687437",
+    "shipper": {
+      "name": "GLOBAL SOLUTIONS CO.",
+      "address": "955 TRADE PARK",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "GLOBAL SOLUTIONS CO.\n955 TRADE PARK\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL TRADING CORP",
+      "address": "792 HARBOR ROAD",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "INTERNATIONAL TRADING CORP\n792 HARBOR ROAD\nLOS ANGELES, USA CA 90001"
+    },
+    "notify_party": {
+      "name": "INTERNATIONAL PARTNERS CO.",
+      "address": "36 MAIN STREET",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "INTERNATIONAL PARTNERS CO.\n36 MAIN STREET\nHAMBURG, GERMANY 20095"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-692",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "09 JUN 2026",
+    "eta": "02 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "EISU9792358",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "CGGB1E00",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": {
+      "count": "31",
+      "type": "BOXES",
+      "description": "31 BOXES"
+    },
+    "gross_weight_kg": "11,361.46",
+    "net_weight_kg": "8,291.74",
+    "gross_weight_lbs": "25,047.70",
+    "measurement": "52.772 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9792358",
+        "seal_number": "CGGB1E00",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "31",
+          "type": "BOXES",
+          "description": "31 BOXES"
+        },
+        "gross_weight_kg": "11,361.46",
+        "net_weight_kg": "8,291.74",
+        "measurement": "52.772 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "CFR",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "EISU9792358\nCGGB1E00\nLONG BEACH"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNMLJZ687687437",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "E-692",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS CO.\n955 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING CORP\n792 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL PARTNERS CO.\n36 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9792358",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "CGGB1E00",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '31', 'type': 'BOXES', 'description': '31 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "11,361.46",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "52.772 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

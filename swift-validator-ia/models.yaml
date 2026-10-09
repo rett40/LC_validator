@@ -1,0 +1,128 @@
+# Manifest des modèles servis — généré par scripts/build_model_manifest.py
+# NE PAS éditer à la main : ré-exécuter le script après tout ré-entraînement.
+generated: 2026-07-03T19:18:07Z
+inference_device: cpu
+hub_models:
+  cross-encoder/nli-deberta-v3-small: fa2804872c3b4bd748f38c0185cc85775361e735
+  cross-encoder/nli-deberta-v3-xsmall: a150876415327c80daeff35ca6f68f5ed8cf5c24
+  dslim/bert-base-NER: d1a3e8f13f8c3566299d95fcfc9a8d2382a9affc
+  sentence-transformers/all-MiniLM-L6-v2: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+local_models:
+  clause-clf:
+    path: models/clause-clf
+    files:
+      model.safetensors:
+        sha256: 40576ad50be15cc77304f9f1404ba8e56aab722790ac98e01b0b03838e3639c4
+        size_bytes: 470637392
+        modified: '2026-03-25'
+      clf.pkl:
+        sha256: 8add83eb45766f2c2ddca1c0e3b3ffb0128935d5c0481cac302e276484296474
+        size_bytes: 16623
+        modified: '2026-03-25'
+  nli-offline:
+    path: models/nli
+    files:
+      model.safetensors:
+        sha256: c9c4af691577df4856227934001116fa2f720321673e6ad1ec912e703508672a
+        size_bytes: 283348948
+        modified: '2026-04-14'
+  r2-doc-classifier:
+    path: release2/models/doc_classifier
+    files:
+      best_model.pt:
+        sha256: 396b8b94d56f816da78210a0a4ec5e748e7c7310058e5cc399fed4d95bc69d76
+        size_bytes: 45050170
+        modified: '2026-04-28'
+  r2-ensemble:
+    path: release2/models/ensemble
+    files:
+      logistic_regression.joblib:
+        sha256: 6d7af927da1733c14e0dec6daeac64cdd2abe41154d63c740472348b730d48f2
+        size_bytes: 1375
+        modified: '2026-05-05'
+      random_forest.joblib:
+        sha256: ef4d44a6dd802cad6619996e0e7652ea5e431dab80eee2a3b5d6a013c124542a
+        size_bytes: 2698945
+        modified: '2026-05-05'
+      tfidf_vectorizer.joblib:
+        sha256: 07c9e714a4cd1dc5babd23819179b98b4ccd861522e68763143c8f3334a3b78c
+        size_bytes: 1615
+        modified: '2026-05-05'
+  r2-layoutlm-bl:
+    path: release2/models/models_layout/best_bl/best_bl
+    files:
+      model.safetensors:
+        sha256: 86a1da2132cafc87c3156316da5c9938d1088a8dc68c1977717d089889d98ae7
+        size_bytes: 503847324
+        modified: '2026-05-14'
+  r2-layoutlm-invoice:
+    path: release2/models/models_layout/best_invoice/best_invoice
+    files:
+      model.safetensors:
+        sha256: a5ec7196c62d06cf4a5fa30b0ea03643194ae626627ddd94138955698a4674b9
+        size_bytes: 503822716
+        modified: '2026-05-14'
+  r2-layoutlm-pl:
+    path: release2/models/models_layout/best_pl/best_pl
+    files:
+      model.safetensors:
+        sha256: b27487627e51e9160f3ca10ccdb1e4cf2c8fbc10aabc16d7df134e40f2497c07
+        size_bytes: 503828868
+        modified: '2026-05-14'
+  r2-layoutlm-universal:
+    path: release2/models/layoutlmv3-finetuned/best/best
+    files:
+      model.safetensors:
+        sha256: 68cb40e6ba0f8a709b19d453efed7cf8e0057691c5ee5b2ab416fc5d49966a86
+        size_bytes: 503964188
+        modified: '2026-05-04'
+  risk-clf:
+    path: models/risk-clf
+    files:
+      risk_clf.pkl:
+        sha256: 2efda24d33fa66f1f36a02f2380d2ec252df321dd456c72975e6f4a9b15e76fb
+        size_bytes: 494552
+        modified: '2026-03-25'
+      risk_vectorizer.pkl:
+        sha256: 9c298d589a2158eb513cb52191144518a2acab2cb0c04f1df14fca0f712fa4a1
+        size_bytes: 4
+        modified: '2026-03-25'
+  risk-ml-engine:
+    path: services/risk_service/models
+    files:
+      xgboost.pkl:
+        sha256: 5b322f426e342b7b702364cbb758385cc1faa29b99782c77b2208f1de6061374
+        size_bytes: 6682948
+        modified: '2026-05-29'
+      xgboost_calibrated.pkl:
+        sha256: 5acbbb9628358b25e4c1b8c1f7c1ee9ba2d7d2fdc725bd46c1dead05649b9fdf
+        size_bytes: 30481035
+        modified: '2026-05-29'
+      lightgbm.pkl:
+        sha256: e46076db387903f2d82564d5cd43e8318d842c7e17d262899a7179ec68728184
+        size_bytes: 7865164
+        modified: '2026-05-29'
+      isolation_forest.pkl:
+        sha256: 3f2c661bbfae88749b8e78a82c77d7d136dd45faa60834370423a35c429c721e
+        size_bytes: 7575881
+        modified: '2026-05-29'
+      kmeans.pkl:
+        sha256: 8f9a579997040c7e857c57e558b9fc9fa4c99bfbe99a6f7b63360823ac8d6076
+        size_bytes: 73559
+        modified: '2026-05-29'
+      scaler.pkl:
+        sha256: 7788944053804e8aace70b7eccabee81589c057256308e0dfecea704a8af218e
+        size_bytes: 2455
+        modified: '2026-05-29'
+      shap_explainer.pkl:
+        sha256: 1af0510f714d488308546105175e7f05433fa4ab2ad36d5cf9b042ca16b1b4c0
+        size_bytes: 29751847
+        modified: '2026-05-29'
+  swift-ner:
+    path: models/swift-ner
+    files:
+      model.safetensors:
+        sha256: b4e3a26fc0467e3baa86689e769a9490b651a09aa6180bbb88be975dad4f2c64
+        size_bytes: 430966628
+        modified: '2026-03-28'

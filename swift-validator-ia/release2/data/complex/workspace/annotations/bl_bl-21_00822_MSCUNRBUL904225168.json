@@ -1,0 +1,409 @@
+{
+  "id": 822,
+  "filename": "bl_bl-21_00822_MSCUNRBUL904225168.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNRBUL904225168",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNRBUL904225168",
+    "shipper_name": "FIRST SHIPPING GMBH",
+    "shipper_address": "687 MAIN STREET",
+    "consignee_name": "PREMIER ENTERPRISES AG",
+    "consignee_address": "889 TRADE PARK",
+    "notify_party_name": "ATLANTIC GROUP S.A.",
+    "notify_party_address": "20 TRADE PARK",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5937",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "18 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "CMAU8088266",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "4FFF2192",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "196 CRATES",
+    "gross_weight_kg": "40,016.79",
+    "measurement": "84.616 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU8088266",
+        "seal_number": "4FFF2192",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "196",
+          "type": "CRATES",
+          "description": "196 CRATES"
+        },
+        "gross_weight_kg": "18,110.29",
+        "net_weight_kg": "15,609.54",
+        "measurement": "48.758 CBM"
+      },
+      {
+        "container_number": "OOLU3478762",
+        "seal_number": "C856660D",
+        "container_type": "20' DRY",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "456",
+          "type": "PALLETS",
+          "description": "456 PALLETS"
+        },
+        "gross_weight_kg": "21,906.50",
+        "net_weight_kg": "18,056.29",
+        "measurement": "35.858 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNRBUL904225168",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST SHIPPING GMBH\n687 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "PREMIER ENTERPRISES AG\n889 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "ATLANTIC GROUP S.A.\n20 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "CMAU8088266",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "4FFF2192",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '196', 'type': 'CRATES', 'description': '196 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "18,110.29",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "48.758 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "OOLU3478762",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "C856660D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '456', 'type': 'PALLETS', 'description': '456 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "21,906.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "35.858 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "AL5937",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

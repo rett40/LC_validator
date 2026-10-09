@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00360",
+  "filename": "inv_inv-09_00360.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 360,
+  "fields": {
+    "invoice_number": "INV-2026-00360",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/CITI/0360/2026",
+    "bl_reference": "MSCUNPFVC215158200",
+    "seller_name": "FIRST PARTNERS BV",
+    "buyer_name": "INTERNATIONAL ENTERPRISES S.A.",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-851",
+    "port_of_loading": "ANTWERP, BELGIUM",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "PHARMACEUTICAL PRODUCTS",
+    "hs_code": "8428.90",
+    "quantity": 256,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "30,067.90",
+    "unit_price": 352.63,
+    "currency": "USD",
+    "total_amount": 90273.28,
+    "incoterm": "CFR",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "INV-2026-00360",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "LC/CITI/0360/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNPFVC215158200",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "FIRST PARTNERS BV\nFIRST PARTNERS BV\n897 TRADE PARK\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "INTERNATIONAL ENTERPRISES S.A.\nINTERNATIONAL ENTERPRISES S.A.\n858 INDUSTRIAL AVENUE\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        294.8,
+        174.61,
+        42.52
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        294.8,
+        65.48,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "256",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "352.63 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "90273.28 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        351.5,
+        122.78,
+        19.84
+      ],
+      "value": "30,067.90 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        371.34,
+        122.78,
+        19.84
+      ],
+      "value": "90273.28 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SINGAPORE",
+      "actual": "ANTWERP, BELGIUM"
+    }
+  ]
+}

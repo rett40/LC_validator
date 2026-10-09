@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-05-11T14:37:57",
+  "data_month": "2026-05",
+  "total": 249,
+  "country_errors": [],
+  "currency_errors": [
+    {
+      "alpha2": "BG",
+      "currency": "BGN",
+      "errors": [
+        "Code devise ISO-4217 introuvable : 'BGN'"
+      ]
+    },
+    {
+      "alpha2": "CW",
+      "currency": "ANG",
+      "errors": [
+        "Code devise ISO-4217 introuvable : 'ANG'"
+      ]
+    },
+    {
+      "alpha2": "SX",
+      "currency": "ANG",
+      "errors": [
+        "Code devise ISO-4217 introuvable : 'ANG'"
+      ]
+    },
+    {
+      "alpha2": "ZW",
+      "currency": "ZWL",
+      "errors": [
+        "Code devise ISO-4217 introuvable : 'ZWL'"
+      ]
+    }
+  ],
+  "currency_warnings": [],
+  "missing_currency": [
+    "AQ"
+  ],
+  "summary": {
+    "country_errors_count": 0,
+    "currency_errors_count": 4,
+    "currency_warnings_count": 0,
+    "missing_currency_count": 1
+  }
+}

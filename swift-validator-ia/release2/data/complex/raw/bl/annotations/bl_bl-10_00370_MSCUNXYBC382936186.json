@@ -1,0 +1,322 @@
+{
+  "id": 370,
+  "filename": "bl_bl-10_00370_MSCUNXYBC382936186.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNXYBC382936186",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNXYBC382936186",
+    "shipper_name": "PACIFIC SHIPPING PLC",
+    "shipper_address": "342 MARKET STREET",
+    "consignee_name": "ATLANTIC COMMERCE S.A.",
+    "consignee_address": "962 TRADE PARK",
+    "notify_party_name": "APEX SHIPPING LTD",
+    "notify_party_address": "421 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS666W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "10 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "MAEU3626396",
+    "container_type": "40' HC",
+    "seal_number": "DD72DDGA",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "363 CARTONS",
+    "gross_weight_kg": "22,929.52",
+    "measurement": "32.785 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3626396",
+        "seal_number": "DD72DDGA",
+        "container_type": "40' HC",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "363",
+          "type": "CARTONS",
+          "description": "363 CARTONS"
+        },
+        "gross_weight_kg": "22,929.52",
+        "net_weight_kg": "20,696.14",
+        "measurement": "32.785 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNXYBC382936186",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "MAEU3626396",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "DD72DDGA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "363",
+        "type": "CARTONS",
+        "description": "363 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "22,929.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "32.785 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC SHIPPING PLC\n342 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "ATLANTIC COMMERCE S.A.\n962 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "APEX SHIPPING LTD\n421 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        365.1,
+        196.08,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        356.45,
+        365.1,
+        207.64,
+        34.02
+      ],
+      "value": "CS666W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        399.12,
+        197.43,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        341.77,
+        399.12,
+        222.32,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        433.13,
+        181.42,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.57,
+        433.13,
+        176.52,
+        34.02
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        128.11,
+        467.15,
+        171.65,
+        34.02
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        509.67,
+        184.08,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        341.33,
+        509.67,
+        222.76,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        538.02,
+        204.54,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        538.02,
+        205.42,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-01046",
+  "filename": "inv_inv-21_01046.pdf",
+  "layout_id": "INV-21",
+  "bl_id": 1046,
+  "fields": {
+    "invoice_number": "INV-2026-01046",
+    "invoice_date": "26 APR 2026",
+    "lc_reference": "LC/DB/1046/2026",
+    "bl_reference": "MSCUNNPXT907914779",
+    "seller_name": "DELTA SUPPLY CHAIN INC",
+    "buyer_name": "CENTRAL LOGISTICS GMBH",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE434S",
+    "port_of_loading": "ANTWERP, BELGIUM",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "MEDICAL DEVICES AND EQUIPMENT",
+    "hs_code": "9018.90",
+    "quantity": 75,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "24,439.68",
+    "unit_price": 199.75,
+    "currency": "USD",
+    "total_amount": 14981.25,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-01046",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "LC/DB/1046/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNNPXT907914779",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        211.18,
+        172.35,
+        42.52
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        211.18,
+        64.63,
+        42.52
+      ],
+      "value": "9018.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "75",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "199.75 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "14981.25 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "24,439.68 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "14981.25 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "NINGBO, CHINA",
+      "actual": "ANTWERP, BELGIUM"
+    }
+  ]
+}

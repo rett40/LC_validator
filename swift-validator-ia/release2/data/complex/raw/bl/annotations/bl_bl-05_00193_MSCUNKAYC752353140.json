@@ -1,0 +1,500 @@
+{
+  "id": 193,
+  "filename": "bl_bl-05_00193_MSCUNKAYC752353140.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNKAYC752353140",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNKAYC752353140",
+    "shipper_name": "EURO SHIPPING INC",
+    "shipper_address": "994 HARBOR ROAD",
+    "consignee_name": "DELTA SHIPPING INC",
+    "consignee_address": "942 PORT ACCESS ROAD",
+    "notify_party_name": "CENTRAL TRADING LLC",
+    "notify_party_address": "300 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE364S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "04 JUN 2026",
+    "eta": "20 JUN 2026",
+    "container_number": "CMAU7668196",
+    "container_type": "40'FR",
+    "seal_number": "BD79GGAH",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "389 DRUMS",
+    "gross_weight_kg": "51,782.08",
+    "measurement": "155.398 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7668196",
+        "seal_number": "BD79GGAH",
+        "container_type": "40'FR",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "389",
+          "type": "DRUMS",
+          "description": "389 DRUMS"
+        },
+        "gross_weight_kg": "17,884.90",
+        "net_weight_kg": "14,544.20",
+        "measurement": "57.937 CBM"
+      },
+      {
+        "container_number": "MAEU5264127",
+        "seal_number": "4E2FC2C7",
+        "container_type": "20'DC",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "447",
+          "type": "BOXES",
+          "description": "447 BOXES"
+        },
+        "gross_weight_kg": "24,883.34",
+        "net_weight_kg": "22,394.06",
+        "measurement": "30.548 CBM"
+      },
+      {
+        "container_number": "OOLU6284304",
+        "seal_number": "6AF2683G",
+        "container_type": "20' OPEN TOP",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "270",
+          "type": "CRATES",
+          "description": "270 CRATES"
+        },
+        "gross_weight_kg": "9,013.84",
+        "net_weight_kg": "5,691.64",
+        "measurement": "66.913 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNKAYC752353140",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "EURO SHIPPING INC\n994 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "DELTA SHIPPING INC\n942 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "CENTRAL TRADING LLC\n300 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "CMAU7668196",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "BD79GGAH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '389', 'type': 'DRUMS', 'description': '389 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "17,884.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "57.937 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "MAEU5264127",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "4E2FC2C7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '447', 'type': 'BOXES', 'description': '447 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "24,883.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "30.548 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        310.39,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU6284304",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "6AF2683G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        310.39,
+        42.29,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        310.39,
+        132.17,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '270', 'type': 'CRATES', 'description': '270 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "9,013.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "66.913 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "FE364S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        581.1,
+        264.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

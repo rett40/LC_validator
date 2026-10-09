@@ -1,0 +1,500 @@
+{
+  "id": 692,
+  "filename": "bl_bl-14_00692_MSCUNBEBY940213281.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNBEBY940213281",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNBEBY940213281",
+    "shipper_name": "TRANS SUPPLY CHAIN CO.",
+    "shipper_address": "953 HARBOR ROAD",
+    "consignee_name": "GLOBAL GROUP INC",
+    "consignee_address": "77 PORT ACCESS ROAD",
+    "notify_party_name": "TRANS ENTERPRISES PLC",
+    "notify_party_address": "209 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE21W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "25 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "TRHU4337910",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "H8151DDG",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "459 CARTONS",
+    "gross_weight_kg": "60,906.94",
+    "measurement": "153.733 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU4337910",
+        "seal_number": "H8151DDG",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "459",
+          "type": "CARTONS",
+          "description": "459 CARTONS"
+        },
+        "gross_weight_kg": "26,207.38",
+        "net_weight_kg": "22,835.79",
+        "measurement": "36.629 CBM"
+      },
+      {
+        "container_number": "TRHU2055724",
+        "seal_number": "96AFCBG2",
+        "container_type": "40' FLAT RACK",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "36",
+          "type": "BAGS",
+          "description": "36 BAGS"
+        },
+        "gross_weight_kg": "15,162.52",
+        "net_weight_kg": "12,871.38",
+        "measurement": "62.693 CBM"
+      },
+      {
+        "container_number": "TCKU8780386",
+        "seal_number": "546GFCC9",
+        "container_type": "20' FLAT RACK",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "57",
+          "type": "BOXES",
+          "description": "57 BOXES"
+        },
+        "gross_weight_kg": "19,537.04",
+        "net_weight_kg": "17,315.82",
+        "measurement": "54.411 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNBEBY940213281",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU4337910",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "H8151DDG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '459', 'type': 'CARTONS', 'description': '459 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "26,207.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "36.629 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2055724",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "96AFCBG2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '36', 'type': 'BAGS', 'description': '36 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "15,162.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "62.693 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        205.51,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU8780386",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "546GFCC9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        205.51,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        205.51,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '57', 'type': 'BOXES', 'description': '57 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "19,537.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "54.411 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "AE21W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        260.79,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        294.8,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        328.82,
+        179.53,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN CO.\n953 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL GROUP INC\n77 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        372.76,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS ENTERPRISES PLC\n209 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        470.55,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

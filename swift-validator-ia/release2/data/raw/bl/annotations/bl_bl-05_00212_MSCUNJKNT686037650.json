@@ -1,0 +1,500 @@
+{
+  "id": 212,
+  "filename": "bl_bl-05_00212_MSCUNJKNT686037650.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNJKNT686037650",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNJKNT686037650",
+    "shipper_name": "PREMIER SUPPLY CHAIN GMBH",
+    "shipper_address": "991 TRADE PARK",
+    "consignee_name": "DELTA PARTNERS BV",
+    "consignee_address": "346 MAIN STREET",
+    "notify_party_name": "UNITED COMMERCE LTD",
+    "notify_party_address": "21 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE51S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "04 JUN 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "EISU2960703",
+    "container_type": "40' REEFER",
+    "seal_number": "G6BCE201",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "256 PACKAGES",
+    "gross_weight_kg": "45,503.95",
+    "measurement": "177.264 CBM",
+    "containers": [
+      {
+        "container_number": "EISU2960703",
+        "seal_number": "G6BCE201",
+        "container_type": "40' REEFER",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "256",
+          "type": "PACKAGES",
+          "description": "256 PACKAGES"
+        },
+        "gross_weight_kg": "7,433.88",
+        "net_weight_kg": "3,916.71",
+        "measurement": "51.165 CBM"
+      },
+      {
+        "container_number": "CMAU1893104",
+        "seal_number": "85H840H2",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "371",
+          "type": "DRUMS",
+          "description": "371 DRUMS"
+        },
+        "gross_weight_kg": "15,024.53",
+        "net_weight_kg": "12,293.84",
+        "measurement": "65.001 CBM"
+      },
+      {
+        "container_number": "MSCU7534990",
+        "seal_number": "72CA8HE5",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "426",
+          "type": "CARTONS",
+          "description": "426 CARTONS"
+        },
+        "gross_weight_kg": "23,045.54",
+        "net_weight_kg": "20,094.07",
+        "measurement": "61.098 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "26 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNJKNT686037650",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER SUPPLY CHAIN GMBH\n991 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        109.13,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA PARTNERS BV\n346 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        199.84,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED COMMERCE LTD\n21 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        401.1,
+        91.56,
+        36.85
+      ],
+      "value": "EISU2960703",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "G6BCE201",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        401.1,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        401.1,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        401.1,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '256', 'type': 'PACKAGES', 'description': '256 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "7,433.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        401.1,
+        80.79,
+        36.85
+      ],
+      "value": "51.165 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        437.95,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1893104",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "85H840H2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        437.95,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        437.95,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        437.95,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '371', 'type': 'DRUMS', 'description': '371 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "15,024.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        437.95,
+        80.79,
+        36.85
+      ],
+      "value": "65.001 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        474.8,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU7534990",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "72CA8HE5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        474.8,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        474.8,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        474.8,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '426', 'type': 'CARTONS', 'description': '426 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "23,045.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        474.8,
+        80.79,
+        36.85
+      ],
+      "value": "61.098 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        537.17,
+        269.29,
+        24.09
+      ],
+      "value": "AE51S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        571.18,
+        269.29,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        605.2,
+        269.29,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        717.17,
+        269.29,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        745.51,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

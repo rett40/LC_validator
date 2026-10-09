@@ -1,0 +1,512 @@
+{
+  "id": 984,
+  "filename": "bl_bl-25_00984_MSCUNJFPD412003249.pdf",
+  "layout_id": "BL-25",
+  "bl_number": "MSCUNJFPD412003249",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNJFPD412003249",
+    "shipper_name": "FIRST SOLUTIONS BV",
+    "shipper_address": "320 COMMERCE BOULEVARD",
+    "consignee_name": "APEX COMMERCE CORP",
+    "consignee_address": "491 COMMERCE BOULEVARD",
+    "notify_party_name": "PACIFIC TRADING AG",
+    "notify_party_address": "741 INDUSTRIAL AVENUE",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0149S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "17 JUN 2026",
+    "eta": "20 JUL 2026",
+    "container_number": "TCKU9456541",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "0BEH6EAE",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "71 PALLETS",
+    "gross_weight_kg": "23,285.83",
+    "measurement": "101.677 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9456541",
+        "seal_number": "0BEH6EAE",
+        "container_type": "20' OPEN TOP",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "71",
+          "type": "PALLETS",
+          "description": "71 PALLETS"
+        },
+        "gross_weight_kg": "7,455.17",
+        "net_weight_kg": "5,151.02",
+        "measurement": "37.087 CBM"
+      },
+      {
+        "container_number": "CMAU5433879",
+        "seal_number": "ED05691C",
+        "container_type": "40'HC",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "238",
+          "type": "DRUMS",
+          "description": "238 DRUMS"
+        },
+        "gross_weight_kg": "8,638.35",
+        "net_weight_kg": "5,092.12",
+        "measurement": "30.975 CBM"
+      },
+      {
+        "container_number": "MAEU5521287",
+        "seal_number": "7A9704DD",
+        "container_type": "40' OPEN TOP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "111",
+          "type": "CRATES",
+          "description": "111 CRATES"
+        },
+        "gross_weight_kg": "7,192.31",
+        "net_weight_kg": "4,429.25",
+        "measurement": "33.615 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        76.54,
+        267.87,
+        25.51
+      ],
+      "value": "MSCUNJFPD412003249",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "TCKU9456541",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "0BEH6EAE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "71",
+        "type": "PALLETS",
+        "description": "71 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "7,455.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "37.087 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        128.98,
+        265.32,
+        12.76
+      ],
+      "value": "CMAU5433879",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        146.83,
+        119.4,
+        6.8
+      ],
+      "value": "ED05691C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        155.91,
+        119.4,
+        6.8
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        164.98,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "238",
+        "type": "DRUMS",
+        "description": "238 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        174.05,
+        119.4,
+        6.8
+      ],
+      "value": "8,638.35",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        183.12,
+        119.4,
+        6.8
+      ],
+      "value": "30.975 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        146.62,
+        106.13,
+        31.96
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        192.19,
+        265.32,
+        12.76
+      ],
+      "value": "MAEU5521287",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        210.05,
+        119.4,
+        6.8
+      ],
+      "value": "7A9704DD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        219.12,
+        119.4,
+        6.8
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        228.19,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "111",
+        "type": "CRATES",
+        "description": "111 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        237.26,
+        119.4,
+        6.8
+      ],
+      "value": "7,192.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        246.33,
+        119.4,
+        6.8
+      ],
+      "value": "33.615 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        209.83,
+        106.13,
+        31.96
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        283.75,
+        263.87,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        298.22,
+        283.75,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        312.09,
+        263.87,
+        12.76
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        298.22,
+        312.09,
+        263.87,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        340.44,
+        263.87,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        384.94,
+        263.87,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        298.22,
+        384.94,
+        263.87,
+        15.31
+      ],
+      "value": "0149S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        418.96,
+        263.87,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        298.22,
+        418.96,
+        263.87,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        452.98,
+        263.87,
+        15.31
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        298.22,
+        452.98,
+        263.87,
+        15.31
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        486.99,
+        263.87,
+        15.31
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.22,
+        486.99,
+        263.87,
+        15.31
+      ],
+      "value": "20 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        516.19,
+        535.75,
+        55.28
+      ],
+      "value": "FIRST SOLUTIONS BV\n320 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        571.46,
+        535.75,
+        55.28
+      ],
+      "value": "APEX COMMERCE CORP\n491 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        626.74,
+        535.75,
+        55.28
+      ],
+      "value": "PACIFIC TRADING AG\n741 INDUSTRIAL AVENUE",
+      "page": 1
+    }
+  ]
+}

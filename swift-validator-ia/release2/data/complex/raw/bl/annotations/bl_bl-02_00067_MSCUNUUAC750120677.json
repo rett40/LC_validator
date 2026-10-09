@@ -1,0 +1,500 @@
+{
+  "id": 67,
+  "filename": "bl_bl-02_00067_MSCUNUUAC750120677.pdf",
+  "layout_id": "BL-02",
+  "bl_number": "MSCUNUUAC750120677",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNUUAC750120677",
+    "shipper_name": "FIRST INDUSTRIES PLC",
+    "shipper_address": "838 MAIN STREET",
+    "consignee_name": "TRANS PARTNERS BV",
+    "consignee_address": "866 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SUPPLY CHAIN LTD",
+    "notify_party_address": "328 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS168S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "23 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "EISU0260161",
+    "container_type": "40' REEFER",
+    "seal_number": "2DFF76E4",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "194 BAGS",
+    "gross_weight_kg": "44,837.12",
+    "measurement": "92.954 CBM",
+    "containers": [
+      {
+        "container_number": "EISU0260161",
+        "seal_number": "2DFF76E4",
+        "container_type": "40' REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "194",
+          "type": "BAGS",
+          "description": "194 BAGS"
+        },
+        "gross_weight_kg": "13,219.87",
+        "net_weight_kg": "11,114.09",
+        "measurement": "24.600 CBM"
+      },
+      {
+        "container_number": "EISU7491253",
+        "seal_number": "62497446",
+        "container_type": "20' OPEN TOP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "275",
+          "type": "PACKAGES",
+          "description": "275 PACKAGES"
+        },
+        "gross_weight_kg": "23,936.24",
+        "net_weight_kg": "21,910.45",
+        "measurement": "42.104 CBM"
+      },
+      {
+        "container_number": "EISU3388575",
+        "seal_number": "DF5CC44F",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "18",
+          "type": "BAGS",
+          "description": "18 BAGS"
+        },
+        "gross_weight_kg": "7,681.01",
+        "net_weight_kg": "5,418.55",
+        "measurement": "26.250 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "MSCUNUUAC750120677",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        127.56,
+        298.51,
+        94.96
+      ],
+      "value": "FIRST INDUSTRIES PLC\n838 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        126.14,
+        215.06,
+        41.1
+      ],
+      "value": "TRANS PARTNERS BV\n866 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        181.42,
+        215.06,
+        41.1
+      ],
+      "value": "PACIFIC SUPPLY CHAIN LTD\n328 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        240.94,
+        260.79,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        296.22,
+        240.94,
+        260.79,
+        24.09
+      ],
+      "value": "CS168S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        35.43,
+        274.96,
+        260.79,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        296.22,
+        274.96,
+        260.79,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        35.43,
+        308.98,
+        260.79,
+        24.09
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        296.22,
+        308.98,
+        260.79,
+        24.09
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        342.99,
+        260.79,
+        24.09
+      ],
+      "value": "23 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        296.22,
+        342.99,
+        260.79,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        391.18,
+        88.67,
+        36.85
+      ],
+      "value": "EISU0260161",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        391.18,
+        52.16,
+        36.85
+      ],
+      "value": "2DFF76E4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        391.18,
+        41.73,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        391.18,
+        130.39,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        391.18,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '194', 'type': 'BAGS', 'description': '194 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        391.18,
+        78.24,
+        36.85
+      ],
+      "value": "13,219.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        391.18,
+        78.24,
+        36.85
+      ],
+      "value": "24.600 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        428.03,
+        88.67,
+        36.85
+      ],
+      "value": "EISU7491253",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        428.03,
+        52.16,
+        36.85
+      ],
+      "value": "62497446",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        428.03,
+        41.73,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        428.03,
+        130.39,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        428.03,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '275', 'type': 'PACKAGES', 'description': '275 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        428.03,
+        78.24,
+        36.85
+      ],
+      "value": "23,936.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        428.03,
+        78.24,
+        36.85
+      ],
+      "value": "42.104 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        464.88,
+        88.67,
+        36.85
+      ],
+      "value": "EISU3388575",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        464.88,
+        52.16,
+        36.85
+      ],
+      "value": "DF5CC44F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        464.88,
+        41.73,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        464.88,
+        130.39,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        464.88,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '18', 'type': 'BAGS', 'description': '18 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        464.88,
+        78.24,
+        36.85
+      ],
+      "value": "7,681.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        464.88,
+        78.24,
+        36.85
+      ],
+      "value": "26.250 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        520.16,
+        260.79,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        296.22,
+        520.16,
+        260.79,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        35.43,
+        548.5,
+        260.79,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        296.22,
+        548.5,
+        260.79,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        35.43,
+        576.85,
+        260.79,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

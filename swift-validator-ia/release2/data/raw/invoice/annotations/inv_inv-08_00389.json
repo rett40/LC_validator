@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00389",
+  "filename": "inv_inv-08_00389.pdf",
+  "layout_id": "INV-08",
+  "bl_id": 389,
+  "fields": {
+    "invoice_number": "INV-2026-00389",
+    "invoice_date": "28 APR 2026",
+    "lc_reference": "LC/SCB/0389/2026",
+    "bl_reference": "MSCUNRCUW423982162",
+    "seller_name": "FIRST LOGISTICS S.A.",
+    "buyer_name": "UNITED PARTNERS BV",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE251N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "hs_code": "8428.90",
+    "quantity": 146,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "24,747.38",
+    "unit_price": 627.14,
+    "currency": "USD",
+    "total_amount": 91561.95,
+    "incoterm": "FOB",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "INV-2026-00389",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        30.35,
+        87.87,
+        265.29,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        87.87,
+        265.29,
+        12.76
+      ],
+      "value": "LC/SCB/0389/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        30.35,
+        116.22,
+        265.29,
+        12.76
+      ],
+      "value": "MSCUNRCUW423982162",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        116.22,
+        265.29,
+        12.76
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        144.57,
+        265.29,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        144.57,
+        265.29,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        164.41,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        164.41,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        267.87,
+        172.35,
+        42.52
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        267.87,
+        64.63,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        267.87,
+        53.86,
+        42.52
+      ],
+      "value": "146",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        267.87,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        267.87,
+        96.94,
+        42.52
+      ],
+      "value": "627.14 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        267.87,
+        96.94,
+        42.52
+      ],
+      "value": "91561.95 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        318.9,
+        121.18,
+        19.84
+      ],
+      "value": "24,747.38 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        338.74,
+        121.18,
+        19.84
+      ],
+      "value": "91561.95 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        382.39,
+        265.29,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        382.39,
+        265.29,
+        11.48
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "83922.26 USD",
+      "actual": "91561.95 USD"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "TOKYO, JAPAN"
+    }
+  ]
+}

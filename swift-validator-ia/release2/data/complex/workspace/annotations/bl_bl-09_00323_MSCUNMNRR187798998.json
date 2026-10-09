@@ -1,0 +1,318 @@
+{
+  "id": 323,
+  "filename": "bl_bl-09_00323_MSCUNMNRR187798998.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNMNRR187798998",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMNRR187798998",
+    "shipper_name": "UNITED SOLUTIONS PLC",
+    "shipper_address": "809 COMMERCE BOULEVARD",
+    "consignee_name": "GLOBAL LOGISTICS LTD",
+    "consignee_address": "189 MARKET STREET",
+    "notify_party_name": "EURO SOLUTIONS PLC",
+    "notify_party_address": "987 COMMERCE BOULEVARD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE234N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "23 MAY 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "MAEU5671965",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "AGCB66E8",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "478 BOXES",
+    "gross_weight_kg": "17,855.54",
+    "measurement": "45.548 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5671965",
+        "seal_number": "AGCB66E8",
+        "container_type": "20' OPEN TOP",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "478",
+          "type": "BOXES",
+          "description": "478 BOXES"
+        },
+        "gross_weight_kg": "17,855.54",
+        "net_weight_kg": "15,086.01",
+        "measurement": "45.548 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "MSCUNMNRR187798998",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "UNITED SOLUTIONS PLC\n809 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "GLOBAL LOGISTICS LTD\n189 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "EURO SOLUTIONS PLC\n987 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "FE234N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "23 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        351.5,
+        92.76,
+        36.85
+      ],
+      "value": "MAEU5671965",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "AGCB66E8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        351.5,
+        43.65,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        351.5,
+        136.42,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '478', 'type': 'BOXES', 'description': '478 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "17,855.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "45.548 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        413.86,
+        181.89,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        413.86,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        413.86,
+        181.89,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        442.2,
+        181.89,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        442.2,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

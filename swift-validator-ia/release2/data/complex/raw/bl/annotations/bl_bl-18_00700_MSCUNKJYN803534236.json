@@ -1,0 +1,351 @@
+{
+  "id": 700,
+  "filename": "bl_bl-18_00700_MSCUNKJYN803534236.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNKJYN803534236",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNKJYN803534236",
+    "shipper_name": "TRANS SHIPPING AG",
+    "shipper_address": "2 MAIN STREET",
+    "consignee_name": "PREMIER INDUSTRIES BV",
+    "consignee_address": "562 PORT ACCESS ROAD",
+    "notify_party_name": "APEX PARTNERS PLC",
+    "notify_party_address": "922 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0311N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "14 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "MSCU0943903",
+    "container_type": "40'RF",
+    "seal_number": "39GC7589",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "456 CRATES",
+    "gross_weight_kg": "5,853.34",
+    "measurement": "33.248 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0943903",
+        "seal_number": "39GC7589",
+        "container_type": "40'RF",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "456",
+          "type": "CRATES",
+          "description": "456 CRATES"
+        },
+        "gross_weight_kg": "5,853.34",
+        "net_weight_kg": "2,286.75",
+        "measurement": "33.248 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNKJYN803534236",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0943903",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "39GC7589",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '456', 'type': 'CRATES', 'description': '456 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "5,853.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "33.248 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "2 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS SHIPPING AG\n2 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "562 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER INDUSTRIES BV\n562 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "922 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "APEX PARTNERS PLC\n922 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        453.54,
+        248.62,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        453.54,
+        229.5,
+        34.02
+      ],
+      "value": "0311N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        487.56,
+        202.39,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        389.4,
+        487.56,
+        184.61,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        521.57,
+        199.72,
+        34.02
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        379.2,
+        521.57,
+        194.82,
+        34.02
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        555.59,
+        189.95,
+        34.02
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        326.73,
+        555.59,
+        247.28,
+        34.02
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        598.11,
+        151.27,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        378.73,
+        598.11,
+        195.28,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        626.46,
+        227.28,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        626.46,
+        219.72,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        83.67,
+        654.8,
+        221.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

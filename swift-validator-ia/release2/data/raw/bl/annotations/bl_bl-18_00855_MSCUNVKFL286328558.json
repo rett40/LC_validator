@@ -1,0 +1,442 @@
+{
+  "id": 855,
+  "filename": "bl_bl-18_00855_MSCUNVKFL286328558.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNVKFL286328558",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVKFL286328558",
+    "shipper_name": "PREMIER TRADING S.A.",
+    "shipper_address": "299 HARBOR ROAD",
+    "consignee_name": "GLOBAL INDUSTRIES PLC",
+    "consignee_address": "993 TRADE PARK",
+    "notify_party_name": "ATLANTIC LOGISTICS S.A.",
+    "notify_party_address": "834 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-118",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "27 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "TCKU0199982",
+    "container_type": "20' DRY",
+    "seal_number": "388173F2",
+    "commodity": "WOOD PRODUCTS AND TIMBER",
+    "packages": "409 PACKAGES",
+    "gross_weight_kg": "26,694.51",
+    "measurement": "96.472 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU0199982",
+        "seal_number": "388173F2",
+        "container_type": "20' DRY",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "409",
+          "type": "PACKAGES",
+          "description": "409 PACKAGES"
+        },
+        "gross_weight_kg": "15,106.39",
+        "net_weight_kg": "12,532.85",
+        "measurement": "50.739 CBM"
+      },
+      {
+        "container_number": "TRHU9740044",
+        "seal_number": "EA2678GB",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "212",
+          "type": "CRATES",
+          "description": "212 CRATES"
+        },
+        "gross_weight_kg": "11,588.12",
+        "net_weight_kg": "9,351.93",
+        "measurement": "45.733 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNVKFL286328558",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0199982",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "388173F2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '409', 'type': 'PACKAGES', 'description': '409 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "15,106.39",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "50.739 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9740044",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "EA2678GB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '212', 'type': 'CRATES', 'description': '212 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "11,588.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "45.733 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "299 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER TRADING S.A.\n299 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        225.35,
+        269.29,
+        70.87
+      ],
+      "value": "993 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        205.51,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL INDUSTRIES PLC\n993 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        316.06,
+        269.29,
+        70.87
+      ],
+      "value": "834 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        296.22,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC LOGISTICS S.A.\n834 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        486.14,
+        269.29,
+        34.02
+      ],
+      "value": "E-118",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        520.16,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        554.17,
+        269.29,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        588.19,
+        269.29,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        630.71,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        659.06,
+        269.29,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        687.4,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

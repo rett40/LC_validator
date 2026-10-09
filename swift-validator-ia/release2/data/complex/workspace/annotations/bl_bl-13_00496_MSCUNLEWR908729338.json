@@ -1,0 +1,322 @@
+{
+  "id": 496,
+  "filename": "bl_bl-13_00496_MSCUNLEWR908729338.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNLEWR908729338",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLEWR908729338",
+    "shipper_name": "TRANS INDUSTRIES GMBH",
+    "shipper_address": "709 TRADE PARK",
+    "consignee_name": "ATLANTIC ENTERPRISES CORP",
+    "consignee_address": "515 TRADE PARK",
+    "notify_party_name": "INTERNATIONAL LOGISTICS PLC",
+    "notify_party_address": "989 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0732N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "20 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "EISU9698459",
+    "container_type": "20'OT",
+    "seal_number": "G6CEH6B2",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "397 PACKAGES",
+    "gross_weight_kg": "27,199.68",
+    "measurement": "53.786 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9698459",
+        "seal_number": "G6CEH6B2",
+        "container_type": "20'OT",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "397",
+          "type": "PACKAGES",
+          "description": "397 PACKAGES"
+        },
+        "gross_weight_kg": "27,199.68",
+        "net_weight_kg": "24,514.69",
+        "measurement": "53.786 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNLEWR908729338",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        75.12,
+        535.75,
+        55.28
+      ],
+      "value": "TRANS INDUSTRIES GMBH\n709 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        130.39,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC ENTERPRISES CORP\n515 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        185.67,
+        535.75,
+        55.28
+      ],
+      "value": "INTERNATIONAL LOGISTICS PLC\n989 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        93.35,
+        256.54,
+        68.94,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.28,
+        256.54,
+        86.94,
+        34.02
+      ],
+      "value": "0732N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        370.22,
+        256.54,
+        59.94,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        517.66,
+        256.54,
+        46.44,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        93.35,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        249.78,
+        290.55,
+        46.44,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        361.22,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        495.16,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        342.99,
+        535.75,
+        12.76
+      ],
+      "value": "EISU9698459",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        360.85,
+        241.09,
+        6.8
+      ],
+      "value": "G6CEH6B2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        369.92,
+        241.09,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        378.99,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "397",
+        "type": "PACKAGES",
+        "description": "397 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        388.06,
+        241.09,
+        6.8
+      ],
+      "value": "27,199.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        397.13,
+        241.09,
+        6.8
+      ],
+      "value": "53.786 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        360.64,
+        214.3,
+        31.96
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.85,
+        417.54,
+        55.44,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        204.78,
+        417.54,
+        91.44,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        343.22,
+        417.54,
+        86.94,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        481.66,
+        417.54,
+        82.44,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        97.85,
+        445.89,
+        64.44,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

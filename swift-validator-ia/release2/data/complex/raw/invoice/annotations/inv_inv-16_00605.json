@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00605",
+  "filename": "inv_inv-16_00605.pdf",
+  "layout_id": "INV-16",
+  "bl_id": 605,
+  "fields": {
+    "invoice_number": "INV-2026-00605",
+    "invoice_date": "05 MAY 2026",
+    "lc_reference": "LC/DBS/0605/2026",
+    "bl_reference": "MSCUNZEET989889956",
+    "seller_name": "PACIFIC TRADING LTD",
+    "buyer_name": "CENTRAL ENTERPRISES CO.",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0768W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "PRECISION OPTICAL INSTRUMENTS",
+    "hs_code": "9013.80",
+    "quantity": 57,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "30,028.36",
+    "unit_price": 278.66,
+    "currency": "USD",
+    "total_amount": 15883.87,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        63.78,
+        217.13,
+        11.34
+      ],
+      "value": "INV-2026-00605",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        83.62,
+        542.83,
+        52.44
+      ],
+      "value": "PACIFIC TRADING LTD\nPACIFIC TRADING LTD\n645 HARBOR ROAD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        136.06,
+        542.83,
+        52.44
+      ],
+      "value": "CENTRAL ENTERPRISES CO.\nCENTRAL ENTERPRISES CO.\n593 TRADE PARK\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        197.01,
+        314.84,
+        56.69
+      ],
+      "value": "PRECISION OPTICAL INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        338.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": "9013.80",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        452.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": 57,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        338.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        452.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "278.66 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        259.37,
+        244.28,
+        25.51
+      ],
+      "value": "15883.87 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        204.2,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "LC/DBS/0605/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.15,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "MSCUNZEET989889956",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        23.26,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        204.2,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.15,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        358.58,
+        122.14,
+        19.84
+      ],
+      "value": "30,028.36 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        378.43,
+        122.14,
+        19.84
+      ],
+      "value": "15883.87 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.2,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "14772.69 USD",
+      "actual": "15883.87 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "actual": "PRECISION OPTICAL INSTRUMENTS"
+    }
+  ]
+}

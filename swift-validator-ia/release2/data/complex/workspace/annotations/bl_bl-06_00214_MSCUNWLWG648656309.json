@@ -1,0 +1,533 @@
+{
+  "id": 214,
+  "filename": "bl_bl-06_00214_MSCUNWLWG648656309.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNWLWG648656309",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNWLWG648656309",
+    "shipper_name": "GLOBAL INDUSTRIES CORP",
+    "shipper_address": "25 MAIN STREET",
+    "consignee_name": "INTERNATIONAL SHIPPING AG",
+    "consignee_address": "535 HARBOR ROAD",
+    "notify_party_name": "PREMIER LOGISTICS LTD",
+    "notify_party_address": "741 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0454N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "26 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "TRHU0009970",
+    "container_type": "20' REEFER",
+    "seal_number": "0H5E6885",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "386 BOXES",
+    "gross_weight_kg": "72,789.54",
+    "measurement": "136.513 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU0009970",
+        "seal_number": "0H5E6885",
+        "container_type": "20' REEFER",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "386",
+          "type": "BOXES",
+          "description": "386 BOXES"
+        },
+        "gross_weight_kg": "27,623.01",
+        "net_weight_kg": "25,368.71",
+        "measurement": "38.328 CBM"
+      },
+      {
+        "container_number": "TCKU4263911",
+        "seal_number": "FA053D50",
+        "container_type": "40' DRY / GP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "100",
+          "type": "CARTONS",
+          "description": "100 CARTONS"
+        },
+        "gross_weight_kg": "27,324.84",
+        "net_weight_kg": "24,713.91",
+        "measurement": "32.455 CBM"
+      },
+      {
+        "container_number": "CMAU1316862",
+        "seal_number": "H9174GG4",
+        "container_type": "40'RF",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "261",
+          "type": "BAGS",
+          "description": "261 BAGS"
+        },
+        "gross_weight_kg": "17,841.69",
+        "net_weight_kg": "14,997.98",
+        "measurement": "65.730 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNWLWG648656309",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "25 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL INDUSTRIES CORP\n25 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "535 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL SHIPPING AG\n535 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "741 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER LOGISTICS LTD\n741 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        99.83,
+        219.69,
+        115.13,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        245.76,
+        219.69,
+        148.73,
+        34.02
+      ],
+      "value": "0454N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        449.29,
+        219.69,
+        124.73,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        123.83,
+        253.7,
+        91.13,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        288.96,
+        253.7,
+        105.53,
+        34.02
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        487.69,
+        253.7,
+        86.33,
+        34.02
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        61.43,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        308.16,
+        287.72,
+        86.33,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU0009970",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "0H5E6885",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '386', 'type': 'BOXES', 'description': '386 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "27,623.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "38.328 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU4263911",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "FA053D50",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '100', 'type': 'CARTONS', 'description': '100 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "27,324.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "32.455 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        419.53,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1316862",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "H9174GG4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        419.53,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        419.53,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '261', 'type': 'BAGS', 'description': '261 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "17,841.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "65.730 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        119.03,
+        464.88,
+        95.93,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        308.16,
+        464.88,
+        86.33,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        444.49,
+        464.88,
+        129.53,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        90.23,
+        493.23,
+        124.73,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        298.56,
+        493.23,
+        95.93,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

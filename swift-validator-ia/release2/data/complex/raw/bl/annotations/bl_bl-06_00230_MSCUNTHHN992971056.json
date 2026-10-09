@@ -1,0 +1,442 @@
+{
+  "id": 230,
+  "filename": "bl_bl-06_00230_MSCUNTHHN992971056.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNTHHN992971056",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTHHN992971056",
+    "shipper_name": "EURO PARTNERS BV",
+    "shipper_address": "799 INDUSTRIAL AVENUE",
+    "consignee_name": "PREMIER ENTERPRISES LTD",
+    "consignee_address": "768 COMMERCE BOULEVARD",
+    "notify_party_name": "FIRST SHIPPING GMBH",
+    "notify_party_address": "68 MAIN STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-405",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "05 JUN 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "MAEU7696891",
+    "container_type": "40' HC",
+    "seal_number": "0E372BGD",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "397 DRUMS",
+    "gross_weight_kg": "32,353.31",
+    "measurement": "41.907 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU7696891",
+        "seal_number": "0E372BGD",
+        "container_type": "40' HC",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "397",
+          "type": "DRUMS",
+          "description": "397 DRUMS"
+        },
+        "gross_weight_kg": "14,511.39",
+        "net_weight_kg": "12,358.96",
+        "measurement": "21.778 CBM"
+      },
+      {
+        "container_number": "EISU5070844",
+        "seal_number": "434E38A0",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "10",
+          "type": "PACKAGES",
+          "description": "10 PACKAGES"
+        },
+        "gross_weight_kg": "17,841.92",
+        "net_weight_kg": "15,133.89",
+        "measurement": "20.129 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNTHHN992971056",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "799 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "EURO PARTNERS BV\n799 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "768 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER ENTERPRISES LTD\n768 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "68 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "FIRST SHIPPING GMBH\n68 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        90.23,
+        219.69,
+        124.73,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        260.16,
+        219.69,
+        134.33,
+        34.02
+      ],
+      "value": "E-405",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        420.49,
+        219.69,
+        153.53,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        104.63,
+        253.7,
+        110.33,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        284.16,
+        253.7,
+        110.33,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        473.29,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        61.43,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        298.56,
+        287.72,
+        95.93,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU7696891",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "0E372BGD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '397', 'type': 'DRUMS', 'description': '397 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "14,511.39",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "21.778 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "EISU5070844",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "434E38A0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '10', 'type': 'PACKAGES', 'description': '10 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "17,841.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "20.129 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        157.43,
+        428.03,
+        57.53,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        288.96,
+        428.03,
+        105.53,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        468.49,
+        428.03,
+        105.53,
+        28.35
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        99.83,
+        456.38,
+        115.13,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        274.56,
+        456.38,
+        119.93,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

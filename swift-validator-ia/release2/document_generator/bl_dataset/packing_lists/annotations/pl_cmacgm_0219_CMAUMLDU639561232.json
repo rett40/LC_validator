@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00219",
+  "filename": "pl_cmacgm_0219_CMAUMLDU639561232.pdf",
+  "style": "TealPLRenderer",
+  "bl_id": 219,
+  "fields": {
+    "pl_number": "PL-2026-00219",
+    "pl_date": "15 APR 2026",
+    "inv_reference": "INV-2026-00219",
+    "bl_reference": "CMAUMLDU639561232",
+    "exporter_name": "FIRST PARTNERS S.A.",
+    "consignee_name": "APEX SHIPPING GMBH",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE763S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "container_number": "MSCU7721222",
+    "container_type": "20' DRY",
+    "seal_number": "HA612G30",
+    "goods_description": "RUBBER PRODUCTS AND TYRES",
+    "package_unit": "CARTONS",
+    "total_packages": 232,
+    "net_weight_kg": "5,078.39",
+    "gross_weight_kg": "6,125.47",
+    "total_cbm": 33.047
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "PL-2026-00219",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUMLDU639561232",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "FIRST PARTNERS S.A.\n161 INDUSTRIAL AVENUE\nHONG KONG, N/A",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "APEX SHIPPING GMBH\n396 MAIN BOULEVARD\nNEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "FE763S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "MSCU7721222",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "HA612G30",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUMLDU639561232",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        277.8,
+        136.06,
+        48.19
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        277.8,
+        56.69,
+        48.19
+      ],
+      "value": "232",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "5,078.39",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "6,125.47",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        277.8,
+        73.7,
+        48.19
+      ],
+      "value": "33.047",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        331.65,
+        242.36,
+        62.36
+      ],
+      "value": "6,125.47",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        377.01,
+        121.18,
+        17.01
+      ],
+      "value": "232",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "MSCU7521222",
+      "actual": "MSCU7721222"
+    },
+    {
+      "type": "quantity_mismatch",
+      "field": "total_packages",
+      "expected": "247",
+      "actual": "232"
+    }
+  ]
+}

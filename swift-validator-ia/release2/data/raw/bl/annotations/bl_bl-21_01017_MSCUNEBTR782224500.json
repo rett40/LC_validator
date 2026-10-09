@@ -1,0 +1,500 @@
+{
+  "id": 1017,
+  "filename": "bl_bl-21_01017_MSCUNEBTR782224500.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNEBTR782224500",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNEBTR782224500",
+    "shipper_name": "EURO TRADING AG",
+    "shipper_address": "122 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED PARTNERS PLC",
+    "consignee_address": "329 TRADE PARK",
+    "notify_party_name": "PACIFIC COMMERCE GMBH",
+    "notify_party_address": "80 HARBOR ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0573N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "06 MAY 2026",
+    "eta": "30 MAY 2026",
+    "container_number": "CMAU7815329",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "4H44FDAC",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "463 BOXES",
+    "gross_weight_kg": "51,354.64",
+    "measurement": "156.439 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU7815329",
+        "seal_number": "4H44FDAC",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "463",
+          "type": "BOXES",
+          "description": "463 BOXES"
+        },
+        "gross_weight_kg": "24,039.40",
+        "net_weight_kg": "20,340.06",
+        "measurement": "52.569 CBM"
+      },
+      {
+        "container_number": "MAEU9301656",
+        "seal_number": "EBB40062",
+        "container_type": "20' DRY",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "182",
+          "type": "PALLETS",
+          "description": "182 PALLETS"
+        },
+        "gross_weight_kg": "17,408.23",
+        "net_weight_kg": "14,662.27",
+        "measurement": "55.668 CBM"
+      },
+      {
+        "container_number": "MSCU9310351",
+        "seal_number": "3HF12DG8",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "148",
+          "type": "PACKAGES",
+          "description": "148 PACKAGES"
+        },
+        "gross_weight_kg": "9,907.01",
+        "net_weight_kg": "7,435.98",
+        "measurement": "48.202 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "26 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNEBTR782224500",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "EURO TRADING AG\n122 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED PARTNERS PLC\n329 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC COMMERCE GMBH\n80 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7815329",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "4H44FDAC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '463', 'type': 'BOXES', 'description': '463 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "24,039.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "52.569 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU9301656",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "EBB40062",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '182', 'type': 'PALLETS', 'description': '182 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "17,408.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "55.668 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        318.9,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU9310351",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "3HF12DG8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        318.9,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        318.9,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '148', 'type': 'PACKAGES', 'description': '148 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "9,907.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "48.202 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "0573N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

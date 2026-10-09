@@ -1,0 +1,442 @@
+{
+  "id": 1090,
+  "filename": "bl_bl-22_01090_MSCUNELSB339734033.pdf",
+  "layout_id": "BL-22",
+  "bl_number": "MSCUNELSB339734033",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNELSB339734033",
+    "shipper_name": "CENTRAL INDUSTRIES AG",
+    "shipper_address": "993 TRADE PARK",
+    "consignee_name": "CENTRAL TRADING LTD",
+    "consignee_address": "165 MAIN STREET",
+    "notify_party_name": "CENTRAL SOLUTIONS BV",
+    "notify_party_address": "655 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE68S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "24 MAY 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "TCKU9945122",
+    "container_type": "20' REEFER",
+    "seal_number": "A29ACHA4",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "452 DRUMS",
+    "gross_weight_kg": "21,228.08",
+    "measurement": "89.196 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9945122",
+        "seal_number": "A29ACHA4",
+        "container_type": "20' REEFER",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "452",
+          "type": "DRUMS",
+          "description": "452 DRUMS"
+        },
+        "gross_weight_kg": "7,530.28",
+        "net_weight_kg": "4,803.64",
+        "measurement": "28.250 CBM"
+      },
+      {
+        "container_number": "OOLU8069629",
+        "seal_number": "BCAA16A4",
+        "container_type": "20' TANK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "477",
+          "type": "CARTONS",
+          "description": "477 CARTONS"
+        },
+        "gross_weight_kg": "13,697.80",
+        "net_weight_kg": "11,597.01",
+        "measurement": "60.946 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNELSB339734033",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        134.65,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        107.72,
+        134.65,
+        34.02
+      ],
+      "value": "AE68S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        107.72,
+        134.65,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        107.72,
+        134.65,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        141.73,
+        134.65,
+        34.02
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        141.73,
+        134.65,
+        34.02
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        141.73,
+        134.65,
+        34.02
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        141.73,
+        134.65,
+        34.02
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        204.09,
+        134.65,
+        70.87
+      ],
+      "value": "993 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        90.71
+      ],
+      "value": "CENTRAL INDUSTRIES AG\n993 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        204.09,
+        134.65,
+        70.87
+      ],
+      "value": "165 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        90.71
+      ],
+      "value": "CENTRAL TRADING LTD\n165 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        204.09,
+        134.65,
+        70.87
+      ],
+      "value": "655 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        90.71
+      ],
+      "value": "CENTRAL SOLUTIONS BV\n655 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        299.06,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9945122",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        299.06,
+        53.86,
+        36.85
+      ],
+      "value": "A29ACHA4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        299.06,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        299.06,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        299.06,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '452', 'type': 'DRUMS', 'description': '452 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        299.06,
+        80.79,
+        36.85
+      ],
+      "value": "7,530.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        299.06,
+        80.79,
+        36.85
+      ],
+      "value": "28.250 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        335.91,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU8069629",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        335.91,
+        53.86,
+        36.85
+      ],
+      "value": "BCAA16A4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        335.91,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        335.91,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        335.91,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '477', 'type': 'CARTONS', 'description': '477 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        335.91,
+        80.79,
+        36.85
+      ],
+      "value": "13,697.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        335.91,
+        80.79,
+        36.85
+      ],
+      "value": "60.946 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        381.26,
+        134.65,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        381.26,
+        134.65,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        381.26,
+        134.65,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        381.26,
+        134.65,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

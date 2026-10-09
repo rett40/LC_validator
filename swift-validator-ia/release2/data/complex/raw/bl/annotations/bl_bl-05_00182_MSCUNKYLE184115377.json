@@ -1,0 +1,318 @@
+{
+  "id": 182,
+  "filename": "bl_bl-05_00182_MSCUNKYLE184115377.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNKYLE184115377",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNKYLE184115377",
+    "shipper_name": "CENTRAL PARTNERS INC",
+    "shipper_address": "95 COMMERCE BOULEVARD",
+    "consignee_name": "DELTA SUPPLY CHAIN CORP",
+    "consignee_address": "447 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SHIPPING INC",
+    "notify_party_address": "966 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE68W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "21 MAY 2026",
+    "eta": "06 JUN 2026",
+    "container_number": "EISU2183240",
+    "container_type": "45'HC",
+    "seal_number": "F6C7C7G6",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "461 PACKAGES",
+    "gross_weight_kg": "15,333.42",
+    "measurement": "47.577 CBM",
+    "containers": [
+      {
+        "container_number": "EISU2183240",
+        "seal_number": "F6C7C7G6",
+        "container_type": "45'HC",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "461",
+          "type": "PACKAGES",
+          "description": "461 PACKAGES"
+        },
+        "gross_weight_kg": "15,333.42",
+        "net_weight_kg": "11,711.09",
+        "measurement": "47.577 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNKYLE184115377",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "CENTRAL PARTNERS INC\n95 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "DELTA SUPPLY CHAIN CORP\n447 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC SHIPPING INC\n966 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "EISU2183240",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "F6C7C7G6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '461', 'type': 'PACKAGES', 'description': '461 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "15,333.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "47.577 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        299.06,
+        264.33,
+        24.09
+      ],
+      "value": "AE68W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        333.07,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        367.09,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        401.1,
+        264.33,
+        24.09
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        450.71,
+        264.33,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        479.06,
+        264.33,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        507.4,
+        264.33,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": 820,
+  "filename": "bl_bl-21_00820_MSCUNCUUP928083568.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNCUUP928083568",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCUUP928083568",
+    "shipper_name": "GLOBAL SOLUTIONS CO.",
+    "shipper_address": "755 MAIN STREET",
+    "consignee_name": "INTERNATIONAL INDUSTRIES GMBH",
+    "consignee_address": "887 MAIN STREET",
+    "notify_party_name": "PACIFIC GROUP CORP",
+    "notify_party_address": "670 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE575S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "16 JUN 2026",
+    "eta": "14 JUL 2026",
+    "container_number": "MSCU2972290",
+    "container_type": "45'HC",
+    "seal_number": "2EA18C90",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "403 PACKAGES",
+    "gross_weight_kg": "32,245.91",
+    "measurement": "95.338 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU2972290",
+        "seal_number": "2EA18C90",
+        "container_type": "45'HC",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "403",
+          "type": "PACKAGES",
+          "description": "403 PACKAGES"
+        },
+        "gross_weight_kg": "20,433.28",
+        "net_weight_kg": "18,179.26",
+        "measurement": "39.503 CBM"
+      },
+      {
+        "container_number": "HLCU9238017",
+        "seal_number": "E85F4GH4",
+        "container_type": "40' DRY / GP",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "379",
+          "type": "CARTONS",
+          "description": "379 CARTONS"
+        },
+        "gross_weight_kg": "11,812.63",
+        "net_weight_kg": "8,990.80",
+        "measurement": "55.835 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNCUUP928083568",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS CO.\n755 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "INTERNATIONAL INDUSTRIES GMBH\n887 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "PACIFIC GROUP CORP\n670 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "MSCU2972290",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "2EA18C90",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '403', 'type': 'PACKAGES', 'description': '403 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "20,433.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "39.503 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "HLCU9238017",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "E85F4GH4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '379', 'type': 'CARTONS', 'description': '379 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "11,812.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "55.835 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "FE575S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        341.57,
+        181.89,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        375.59,
+        181.89,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        24.09
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        459.21,
+        181.89,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        487.56,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

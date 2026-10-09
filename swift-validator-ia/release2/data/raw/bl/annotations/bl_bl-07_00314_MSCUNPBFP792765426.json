@@ -1,0 +1,409 @@
+{
+  "id": 314,
+  "filename": "bl_bl-07_00314_MSCUNPBFP792765426.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNPBFP792765426",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPBFP792765426",
+    "shipper_name": "EURO TRADING CO.",
+    "shipper_address": "455 MAIN STREET",
+    "consignee_name": "GLOBAL ENTERPRISES GMBH",
+    "consignee_address": "522 HARBOR ROAD",
+    "notify_party_name": "FIRST INDUSTRIES CORP",
+    "notify_party_address": "44 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS971W",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "07 MAY 2026",
+    "eta": "26 MAY 2026",
+    "container_number": "EISU0544176",
+    "container_type": "40' DRY",
+    "seal_number": "3F3H5HH8",
+    "commodity": "PAPER AND PAPERBOARD ARTICLES",
+    "packages": "67 PACKAGES",
+    "gross_weight_kg": "21,648.76",
+    "measurement": "105.507 CBM",
+    "containers": [
+      {
+        "container_number": "EISU0544176",
+        "seal_number": "3F3H5HH8",
+        "container_type": "40' DRY",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "67",
+          "type": "PACKAGES",
+          "description": "67 PACKAGES"
+        },
+        "gross_weight_kg": "14,663.01",
+        "net_weight_kg": "12,010.05",
+        "measurement": "63.124 CBM"
+      },
+      {
+        "container_number": "HLCU0700327",
+        "seal_number": "2GEAG14E",
+        "container_type": "20' REEFER",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "130",
+          "type": "PACKAGES",
+          "description": "130 PACKAGES"
+        },
+        "gross_weight_kg": "6,985.75",
+        "net_weight_kg": "4,247.82",
+        "measurement": "42.383 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "24 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNPBFP792765426",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "CS971W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        138.9,
+        134.65,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        172.91,
+        134.65,
+        24.09
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        228.19,
+        91.56,
+        36.85
+      ],
+      "value": "EISU0544176",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "3F3H5HH8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        228.19,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        228.19,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        228.19,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '67', 'type': 'PACKAGES', 'description': '67 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "14,663.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        228.19,
+        80.79,
+        36.85
+      ],
+      "value": "63.124 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        265.04,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU0700327",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "2GEAG14E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        265.04,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        265.04,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        265.04,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '130', 'type': 'PACKAGES', 'description': '130 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "6,985.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        265.04,
+        80.79,
+        36.85
+      ],
+      "value": "42.383 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "EURO TRADING CO.\n455 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "GLOBAL ENTERPRISES GMBH\n522 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        328.82,
+        134.65,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES CORP\n44 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        433.7,
+        134.65,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        462.05,
+        134.65,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

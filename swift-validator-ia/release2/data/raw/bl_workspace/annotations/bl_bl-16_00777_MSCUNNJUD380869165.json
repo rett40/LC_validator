@@ -1,0 +1,318 @@
+{
+  "id": 777,
+  "filename": "bl_bl-16_00777_MSCUNNJUD380869165.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNNJUD380869165",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNNJUD380869165",
+    "shipper_name": "ATLANTIC ENTERPRISES CORP",
+    "shipper_address": "947 MARKET STREET",
+    "consignee_name": "INTERNATIONAL LOGISTICS INC",
+    "consignee_address": "563 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SOLUTIONS S.A.",
+    "notify_party_address": "796 PORT ACCESS ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL3974",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "14 JUN 2026",
+    "eta": "29 JUN 2026",
+    "container_number": "EISU9353356",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "4CD995DB",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "62 CARTONS",
+    "gross_weight_kg": "15,885.01",
+    "measurement": "20.392 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9353356",
+        "seal_number": "4CD995DB",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "62",
+          "type": "CARTONS",
+          "description": "62 CARTONS"
+        },
+        "gross_weight_kg": "15,885.01",
+        "net_weight_kg": "12,543.09",
+        "measurement": "20.392 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNNJUD380869165",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "AL3974",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9353356",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "4CD995DB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '62', 'type': 'CARTONS', 'description': '62 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "15,885.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "20.392 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC ENTERPRISES CORP\n947 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "INTERNATIONAL LOGISTICS INC\n563 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        279.21,
+        175.53,
+        73.7
+      ],
+      "value": "PACIFIC SOLUTIONS S.A.\n796 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        378.43,
+        175.53,
+        12.76
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        406.77,
+        175.53,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        406.77,
+        175.53,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

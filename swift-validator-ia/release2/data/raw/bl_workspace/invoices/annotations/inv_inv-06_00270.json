@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00270",
+  "filename": "inv_inv-06_00270.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 270,
+  "fields": {
+    "invoice_number": "INV-2026-00270",
+    "invoice_date": "29 APR 2026",
+    "lc_reference": "LC/SCB/0270/2026",
+    "bl_reference": "MSCUNZASH018642009",
+    "seller_name": "UNITED COMMERCE LTD",
+    "buyer_name": "INTERNATIONAL SHIPPING CO.",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0786S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "BEVERAGES AND SPIRITS",
+    "hs_code": "0709.99",
+    "quantity": 432,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "19,014.27",
+    "unit_price": 24.49,
+    "currency": "GBP",
+    "total_amount": 10579.68,
+    "incoterm": "DDP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00270",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "LC/SCB/0270/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        116.22,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNZASH018642009",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        144.57,
+        179.53,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        181.42,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        181.42,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        284.88,
+        172.35,
+        42.52
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        284.88,
+        64.63,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        284.88,
+        53.86,
+        42.52
+      ],
+      "value": "432",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        284.88,
+        53.86,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        284.88,
+        96.94,
+        42.52
+      ],
+      "value": "24.49 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        284.88,
+        96.94,
+        42.52
+      ],
+      "value": "10579.68 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        335.91,
+        121.18,
+        19.84
+      ],
+      "value": "19,014.27 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        355.75,
+        121.18,
+        19.84
+      ],
+      "value": "10579.68 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        384.09,
+        179.53,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        384.09,
+        179.53,
+        25.51
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

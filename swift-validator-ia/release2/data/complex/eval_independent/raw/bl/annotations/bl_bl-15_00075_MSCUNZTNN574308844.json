@@ -1,0 +1,353 @@
+{
+  "id": 75,
+  "filename": "bl_bl-15_00075_MSCUNZTNN574308844.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNZTNN574308844",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNZTNN574308844",
+    "shipper": {
+      "name": "UNITED SOLUTIONS CORP",
+      "address": "798 MAIN STREET",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "UNITED SOLUTIONS CORP\n798 MAIN STREET\nNEW YORK, USA NY 10001"
+    },
+    "consignee": {
+      "name": "DELTA PARTNERS CORP",
+      "address": "971 COMMERCE BOULEVARD",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "DELTA PARTNERS CORP\n971 COMMERCE BOULEVARD\nSHANGHAI, CHINA 200120"
+    },
+    "notify_party": {
+      "name": "INTERNATIONAL SOLUTIONS S.A.",
+      "address": "287 MAIN STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "INTERNATIONAL SOLUTIONS S.A.\n287 MAIN STREET\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE78E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "16 JUN 2026",
+    "eta": "01 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "TRHU3632451",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "CA7B1CA8",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": {
+      "count": "79",
+      "type": "DRUMS",
+      "description": "79 DRUMS"
+    },
+    "gross_weight_kg": "12,481.60",
+    "net_weight_kg": "10,248.04",
+    "gross_weight_lbs": "27,517.18",
+    "measurement": "30.598 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU3632451",
+        "seal_number": "CA7B1CA8",
+        "container_type": "40' OPEN TOP",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "79",
+          "type": "DRUMS",
+          "description": "79 DRUMS"
+        },
+        "gross_weight_kg": "12,481.60",
+        "net_weight_kg": "10,248.04",
+        "measurement": "30.598 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "DPU",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY",
+    "marks_numbers": "TRHU3632451\nCA7B1CA8\nLOS ANGELES"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNZTNN574308844",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED SOLUTIONS CORP\n798 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA PARTNERS CORP\n971 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "INTERNATIONAL SOLUTIONS S.A.\n287 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AE78E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU3632451",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "CA7B1CA8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '79', 'type': 'DRUMS', 'description': '79 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "12,481.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "30.598 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

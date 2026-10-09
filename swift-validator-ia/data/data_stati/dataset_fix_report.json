@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-03-09",
+  "corrections": {
+    "ner_offsets": {
+      "status": "APPLIED",
+      "total_entities": 5595,
+      "with_span": 5063,
+      "coverage_pct": 90.5,
+      "new_fields": [
+        "start",
+        "end",
+        "matched_text",
+        "in_text",
+        "ner_label",
+        "spacy_spans"
+      ]
+    },
+    "clause_dedup_augment": {
+      "status": "APPLIED",
+      "original_count": 1721,
+      "unique_texts": 262,
+      "augmented_added": 200,
+      "total": 262
+    },
+    "spell_enrichment": {
+      "status": "APPLIED",
+      "original_unique_errors": 14,
+      "new_unique_errors": 87,
+      "total_pairs": 1502
+    },
+    "null_labels_fix": {
+      "status": "APPLIED",
+      "records_fixed": 158,
+      "fields_targeted": [
+        "applicant",
+        "beneficiary",
+        "amount",
+        "expiry_date",
+        "issue_date"
+      ]
+    }
+  },
+  "readiness": {
+    "ner_classification": "READY",
+    "ner_span_extraction": "PARTIAL (56% → voir coverage_pct)",
+    "clause_classification": "READY",
+    "spell_correction_seq2seq": "READY",
+    "mt_type_classification": "READY",
+    "summarization": "READY"
+  }
+}

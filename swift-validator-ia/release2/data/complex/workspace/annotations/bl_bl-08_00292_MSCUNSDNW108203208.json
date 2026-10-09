@@ -1,0 +1,500 @@
+{
+  "id": 292,
+  "filename": "bl_bl-08_00292_MSCUNSDNW108203208.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNSDNW108203208",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSDNW108203208",
+    "shipper_name": "CENTRAL COMMERCE LTD",
+    "shipper_address": "31 COMMERCE BOULEVARD",
+    "consignee_name": "INTERNATIONAL INDUSTRIES GMBH",
+    "consignee_address": "162 COMMERCE BOULEVARD",
+    "notify_party_name": "EURO SUPPLY CHAIN GMBH",
+    "notify_party_address": "504 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-486",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "27 MAY 2026",
+    "eta": "10 JUN 2026",
+    "container_number": "TRHU3271665",
+    "container_type": "40'DC",
+    "seal_number": "B2GCC63B",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "299 BOXES",
+    "gross_weight_kg": "29,686.48",
+    "measurement": "96.814 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU3271665",
+        "seal_number": "B2GCC63B",
+        "container_type": "40'DC",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "299",
+          "type": "BOXES",
+          "description": "299 BOXES"
+        },
+        "gross_weight_kg": "7,446.20",
+        "net_weight_kg": "3,463.02",
+        "measurement": "26.115 CBM"
+      },
+      {
+        "container_number": "EISU3489135",
+        "seal_number": "156B1351",
+        "container_type": "20' DRY",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "156",
+          "type": "PALLETS",
+          "description": "156 PALLETS"
+        },
+        "gross_weight_kg": "7,981.70",
+        "net_weight_kg": "4,188.42",
+        "measurement": "36.167 CBM"
+      },
+      {
+        "container_number": "MAEU8215229",
+        "seal_number": "A26HF036",
+        "container_type": "20' REEFER",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "287",
+          "type": "CRATES",
+          "description": "287 CRATES"
+        },
+        "gross_weight_kg": "14,258.58",
+        "net_weight_kg": "12,171.69",
+        "measurement": "34.532 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNSDNW108203208",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        76.54,
+        306.73,
+        94.96
+      ],
+      "value": "CENTRAL COMMERCE LTD\n31 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        75.12,
+        221.01,
+        41.1
+      ],
+      "value": "INTERNATIONAL INDUSTRIES GMBH\n162 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        130.39,
+        221.01,
+        41.1
+      ],
+      "value": "EURO SUPPLY CHAIN GMBH\n504 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "E-486",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "TRHU3271665",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "B2GCC63B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '299', 'type': 'BOXES', 'description': '299 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "7,446.20",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "26.115 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "EISU3489135",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "156B1351",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '156', 'type': 'PALLETS', 'description': '156 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "7,981.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "36.167 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        413.86,
+        91.08,
+        36.85
+      ],
+      "value": "MAEU8215229",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "A26HF036",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        413.86,
+        42.86,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        413.86,
+        133.94,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '287', 'type': 'CRATES', 'description': '287 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "14,258.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "34.532 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        532.91,
+        263.87,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

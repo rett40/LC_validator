@@ -1,0 +1,442 @@
+{
+  "id": 226,
+  "filename": "bl_bl-06_00226_MSCUNVSVB714806922.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNVSVB714806922",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVSVB714806922",
+    "shipper_name": "PACIFIC SUPPLY CHAIN LTD",
+    "shipper_address": "197 MARKET STREET",
+    "consignee_name": "UNITED SUPPLY CHAIN INC",
+    "consignee_address": "860 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL SUPPLY CHAIN AG",
+    "notify_party_address": "503 MAIN STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE99N",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "19 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "HLCU4490489",
+    "container_type": "20'DC",
+    "seal_number": "EHFA4243",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "403 CARTONS",
+    "gross_weight_kg": "48,181.59",
+    "measurement": "83.515 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4490489",
+        "seal_number": "EHFA4243",
+        "container_type": "20'DC",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "403",
+          "type": "CARTONS",
+          "description": "403 CARTONS"
+        },
+        "gross_weight_kg": "21,155.84",
+        "net_weight_kg": "17,224.29",
+        "measurement": "52.379 CBM"
+      },
+      {
+        "container_number": "MSCU1359499",
+        "seal_number": "D36HAE2C",
+        "container_type": "40' HC",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "337",
+          "type": "DRUMS",
+          "description": "337 DRUMS"
+        },
+        "gross_weight_kg": "27,025.75",
+        "net_weight_kg": "24,420.78",
+        "measurement": "31.136 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVSVB714806922",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "197 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "PACIFIC SUPPLY CHAIN LTD\n197 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "860 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED SUPPLY CHAIN INC\n860 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "503 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN AG\n503 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        104.63,
+        219.69,
+        110.33,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        260.16,
+        219.69,
+        134.33,
+        34.02
+      ],
+      "value": "AE99N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        482.89,
+        219.69,
+        91.13,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        104.63,
+        253.7,
+        110.33,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        288.96,
+        253.7,
+        105.53,
+        34.02
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        473.29,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.23,
+        287.72,
+        100.73,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        240.96,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4490489",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "EHFA4243",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '403', 'type': 'CARTONS', 'description': '403 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "21,155.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "52.379 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU1359499",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "D36HAE2C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '337', 'type': 'DRUMS', 'description': '337 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "27,025.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "31.136 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        128.63,
+        428.03,
+        86.33,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        284.16,
+        428.03,
+        110.33,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        454.09,
+        428.03,
+        119.93,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        90.23,
+        456.38,
+        124.73,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        303.36,
+        456.38,
+        91.13,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

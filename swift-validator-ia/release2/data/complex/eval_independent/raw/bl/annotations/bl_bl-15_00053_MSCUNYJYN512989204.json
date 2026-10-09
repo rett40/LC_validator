@@ -1,0 +1,353 @@
+{
+  "id": 53,
+  "filename": "bl_bl-15_00053_MSCUNYJYN512989204.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNYJYN512989204",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNYJYN512989204",
+    "shipper": {
+      "name": "TRANS PARTNERS CO.",
+      "address": "274 TRADE PARK",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "TRANS PARTNERS CO.\n274 TRADE PARK\nBUSAN, SOUTH KOREA 48940"
+    },
+    "consignee": {
+      "name": "TRANS TRADING AG",
+      "address": "493 COMMERCE BOULEVARD",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "TRANS TRADING AG\n493 COMMERCE BOULEVARD\nDUBAI, UAE 00000"
+    },
+    "notify_party": {
+      "name": "DELTA SHIPPING LLC",
+      "address": "989 TRADE PARK",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "DELTA SHIPPING LLC\n989 TRADE PARK\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0132E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "04 JUN 2026",
+    "eta": "27 JUN 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "CMAU9691425",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "D140CFCF",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": {
+      "count": "285",
+      "type": "CARTONS",
+      "description": "285 CARTONS"
+    },
+    "gross_weight_kg": "27,477.15",
+    "net_weight_kg": "23,505.80",
+    "gross_weight_lbs": "60,576.67",
+    "measurement": "59.857 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU9691425",
+        "seal_number": "D140CFCF",
+        "container_type": "40' OPEN TOP",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "285",
+          "type": "CARTONS",
+          "description": "285 CARTONS"
+        },
+        "gross_weight_kg": "27,477.15",
+        "net_weight_kg": "23,505.80",
+        "measurement": "59.857 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT COLLECT",
+    "incoterm": "FCA",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "CMAU9691425\nD140CFCF\nPIRAEUS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNYJYN512989204",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS PARTNERS CO.\n274 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS TRADING AG\n493 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA SHIPPING LLC\n989 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0132E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9691425",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "D140CFCF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '285', 'type': 'CARTONS', 'description': '285 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "27,477.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "59.857 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

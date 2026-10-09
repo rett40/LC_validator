@@ -1,0 +1,535 @@
+{
+  "id": 45,
+  "filename": "bl_bl-15_00045_MSCUNBHGZ455408586.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNBHGZ455408586",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNBHGZ455408586",
+    "shipper": {
+      "name": "PREMIER GROUP GMBH",
+      "address": "380 COMMERCE BOULEVARD",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "PREMIER GROUP GMBH\n380 COMMERCE BOULEVARD\nBARCELONA, SPAIN 08003"
+    },
+    "consignee": {
+      "name": "APEX SOLUTIONS AG",
+      "address": "948 COMMERCE BOULEVARD",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "APEX SOLUTIONS AG\n948 COMMERCE BOULEVARD\nLOS ANGELES, USA CA 90001"
+    },
+    "notify_party": {
+      "name": "GLOBAL INDUSTRIES INC",
+      "address": "931 INDUSTRIAL AVENUE",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "GLOBAL INDUSTRIES INC\n931 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "MSC GULSUN",
+    "voyage": "FE861S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "18 JUN 2026",
+    "eta": "04 JUL 2026",
+    "issue_date": "21 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "TCKU7314341",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "CB5A4BCA",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": {
+      "count": "61",
+      "type": "DRUMS",
+      "description": "61 DRUMS"
+    },
+    "gross_weight_kg": "56,673.75",
+    "net_weight_kg": "48,550.61",
+    "gross_weight_lbs": "124,944.08",
+    "measurement": "118.591 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU7314341",
+        "seal_number": "CB5A4BCA",
+        "container_type": "40' FLAT RACK",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "61",
+          "type": "DRUMS",
+          "description": "61 DRUMS"
+        },
+        "gross_weight_kg": "24,090.56",
+        "net_weight_kg": "22,029.50",
+        "measurement": "27.380 CBM"
+      },
+      {
+        "container_number": "TCKU7041661",
+        "seal_number": "384GH830",
+        "container_type": "40' DRY",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "495",
+          "type": "DRUMS",
+          "description": "495 DRUMS"
+        },
+        "gross_weight_kg": "12,301.57",
+        "net_weight_kg": "9,107.57",
+        "measurement": "44.938 CBM"
+      },
+      {
+        "container_number": "TCKU0626097",
+        "seal_number": "BD13B4C0",
+        "container_type": "20' REEFER",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "18",
+          "type": "BOXES",
+          "description": "18 BOXES"
+        },
+        "gross_weight_kg": "20,281.62",
+        "net_weight_kg": "17,413.54",
+        "measurement": "46.273 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "PREPAID",
+    "incoterm": "CFR",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "TCKU7314341\nCB5A4BCA\nLOS ANGELES"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNBHGZ455408586",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER GROUP GMBH\n380 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "APEX SOLUTIONS AG\n948 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL INDUSTRIES INC\n931 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "FE861S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU7314341",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "CB5A4BCA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '61', 'type': 'DRUMS', 'description': '61 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "24,090.56",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "27.380 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU7041661",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "384GH830",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '495', 'type': 'DRUMS', 'description': '495 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "12,301.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "44.938 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        643.46,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU0626097",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "BD13B4C0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        643.46,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        643.46,
+        134.65,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        643.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '18', 'type': 'BOXES', 'description': '18 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "20,281.62",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        643.46,
+        80.79,
+        36.85
+      ],
+      "value": "46.273 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        705.83,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        734.17,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        762.52,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

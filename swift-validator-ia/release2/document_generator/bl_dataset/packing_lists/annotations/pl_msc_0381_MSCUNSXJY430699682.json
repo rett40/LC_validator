@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00381",
+  "filename": "pl_msc_0381_MSCUNSXJY430699682.pdf",
+  "style": "TealPLRenderer",
+  "bl_id": 381,
+  "fields": {
+    "pl_number": "PL-2026-00381",
+    "pl_date": "15 APR 2026",
+    "inv_reference": "INV-2026-00381",
+    "bl_reference": "MSCUNSXJY430699682",
+    "exporter_name": "GLOBAL COMMERCE CORP",
+    "consignee_name": "GLOBAL COMMERCE CORP",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0989W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "container_number": "HLCU2568246",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "B45A777F",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "package_unit": "BOXES",
+    "total_packages": 392,
+    "net_weight_kg": "14,509.59",
+    "gross_weight_kg": "16,699.41",
+    "total_cbm": 66.377
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "PL-2026-00381",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MSCUNSXJY430699682",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "GLOBAL COMMERCE CORP\n452 COMMERCE STREET\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "GLOBAL COMMERCE CORP\n911 TRADE PARK\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "0989W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "HLCU2568246",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "B45A777F",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNSXJY430699682",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        277.8,
+        136.06,
+        48.19
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        277.8,
+        56.69,
+        48.19
+      ],
+      "value": "392",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "14,509.59",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "16,699.41",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        277.8,
+        73.7,
+        48.19
+      ],
+      "value": "66.377",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        331.65,
+        242.36,
+        62.36
+      ],
+      "value": "16,699.41",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        377.01,
+        121.18,
+        17.01
+      ],
+      "value": "392",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "HLCU2561246",
+      "actual": "HLCU2568246"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "id": 1031,
+  "filename": "bl_bl-21_01031_MSCUNZEMZ130960406.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNZEMZ130960406",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNZEMZ130960406",
+    "shipper_name": "CENTRAL ENTERPRISES CORP",
+    "shipper_address": "391 INDUSTRIAL AVENUE",
+    "consignee_name": "CENTRAL ENTERPRISES PLC",
+    "consignee_address": "594 MARKET STREET",
+    "notify_party_name": "TRANS ENTERPRISES PLC",
+    "notify_party_address": "599 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS587S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "14 MAY 2026",
+    "eta": "29 MAY 2026",
+    "container_number": "EISU3962114",
+    "container_type": "20' DRY",
+    "seal_number": "97E71B4F",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "346 DRUMS",
+    "gross_weight_kg": "63,521.95",
+    "measurement": "154.752 CBM",
+    "containers": [
+      {
+        "container_number": "EISU3962114",
+        "seal_number": "97E71B4F",
+        "container_type": "20' DRY",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "346",
+          "type": "DRUMS",
+          "description": "346 DRUMS"
+        },
+        "gross_weight_kg": "25,584.03",
+        "net_weight_kg": "22,412.15",
+        "measurement": "61.644 CBM"
+      },
+      {
+        "container_number": "OOLU3822972",
+        "seal_number": "HB447CH8",
+        "container_type": "20' REEFER",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "207",
+          "type": "CRATES",
+          "description": "207 CRATES"
+        },
+        "gross_weight_kg": "10,799.17",
+        "net_weight_kg": "8,732.17",
+        "measurement": "27.580 CBM"
+      },
+      {
+        "container_number": "TRHU2874366",
+        "seal_number": "G9206786",
+        "container_type": "20' TANK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "260",
+          "type": "BAGS",
+          "description": "260 BAGS"
+        },
+        "gross_weight_kg": "27,138.75",
+        "net_weight_kg": "23,891.98",
+        "measurement": "65.528 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "21 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNZEMZ130960406",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES CORP\n391 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES PLC\n594 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS ENTERPRISES PLC\n599 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "EISU3962114",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "97E71B4F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '346', 'type': 'DRUMS', 'description': '346 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "25,584.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "61.644 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU3822972",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "HB447CH8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '207', 'type': 'CRATES', 'description': '207 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "10,799.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "27.580 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        318.9,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2874366",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "G9206786",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        318.9,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        318.9,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '260', 'type': 'BAGS', 'description': '260 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "27,138.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "65.528 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "CS587S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

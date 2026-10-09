@@ -1,0 +1,512 @@
+{
+  "id": 1118,
+  "filename": "bl_bl-28_01118_MSCUNRKZF107527968.pdf",
+  "layout_id": "BL-28",
+  "bl_number": "MSCUNRKZF107527968",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRKZF107527968",
+    "shipper_name": "CENTRAL SHIPPING BV",
+    "shipper_address": "559 INDUSTRIAL AVENUE",
+    "consignee_name": "PACIFIC INDUSTRIES BV",
+    "consignee_address": "853 TRADE PARK",
+    "notify_party_name": "DELTA SHIPPING LLC",
+    "notify_party_address": "97 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0706E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "13 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "TRHU5300644",
+    "container_type": "20'TK",
+    "seal_number": "710HG6H7",
+    "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+    "packages": "139 CARTONS",
+    "gross_weight_kg": "65,659.67",
+    "measurement": "95.048 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU5300644",
+        "seal_number": "710HG6H7",
+        "container_type": "20'TK",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "139",
+          "type": "CARTONS",
+          "description": "139 CARTONS"
+        },
+        "gross_weight_kg": "17,659.06",
+        "net_weight_kg": "13,719.08",
+        "measurement": "25.816 CBM"
+      },
+      {
+        "container_number": "TCKU2970615",
+        "seal_number": "ECE7A5DD",
+        "container_type": "20'FR",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "188",
+          "type": "PACKAGES",
+          "description": "188 PACKAGES"
+        },
+        "gross_weight_kg": "21,469.55",
+        "net_weight_kg": "18,540.37",
+        "measurement": "22.852 CBM"
+      },
+      {
+        "container_number": "TCKU4730611",
+        "seal_number": "1E1E9GAH",
+        "container_type": "20' DRY / GP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "34",
+          "type": "CRATES",
+          "description": "34 CRATES"
+        },
+        "gross_weight_kg": "26,531.06",
+        "net_weight_kg": "23,436.32",
+        "measurement": "46.380 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        63.78,
+        271.42,
+        11.34
+      ],
+      "value": "MSCUNRKZF107527968",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        204.2,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "0706E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.15,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        23.26,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        204.2,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.15,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        204.2,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        204.2,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.15,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        23.26,
+        236.69,
+        176.94,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        204.2,
+        236.69,
+        176.94,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        256.54,
+        268.87,
+        12.76
+      ],
+      "value": "TRHU5300644",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        274.39,
+        120.99,
+        6.8
+      ],
+      "value": "710HG6H7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        283.46,
+        120.99,
+        6.8
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        292.54,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "139",
+        "type": "CARTONS",
+        "description": "139 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        301.61,
+        120.99,
+        6.8
+      ],
+      "value": "17,659.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        310.68,
+        120.99,
+        6.8
+      ],
+      "value": "25.816 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        169.14,
+        274.18,
+        107.55,
+        31.96
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        295.23,
+        256.54,
+        268.87,
+        12.76
+      ],
+      "value": "TCKU2970615",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        328.57,
+        274.39,
+        120.99,
+        6.8
+      ],
+      "value": "ECE7A5DD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        328.57,
+        283.46,
+        120.99,
+        6.8
+      ],
+      "value": "20'FR",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        328.57,
+        292.54,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "188",
+        "type": "PACKAGES",
+        "description": "188 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        328.57,
+        301.61,
+        120.99,
+        6.8
+      ],
+      "value": "21,469.55",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        328.57,
+        310.68,
+        120.99,
+        6.8
+      ],
+      "value": "22.852 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        443.1,
+        274.18,
+        107.55,
+        31.96
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        319.75,
+        268.87,
+        12.76
+      ],
+      "value": "TCKU4730611",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        337.61,
+        120.99,
+        6.8
+      ],
+      "value": "1E1E9GAH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        346.68,
+        120.99,
+        6.8
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        355.75,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "34",
+        "type": "CRATES",
+        "description": "34 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        364.82,
+        120.99,
+        6.8
+      ],
+      "value": "26,531.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        373.89,
+        120.99,
+        6.8
+      ],
+      "value": "46.380 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        169.14,
+        337.39,
+        107.55,
+        31.96
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        387.21,
+        542.83,
+        55.28
+      ],
+      "value": "CENTRAL SHIPPING BV\n559 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        21.26,
+        442.49,
+        542.83,
+        55.28
+      ],
+      "value": "PACIFIC INDUSTRIES BV\n853 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        21.26,
+        497.76,
+        542.83,
+        55.28
+      ],
+      "value": "DELTA SHIPPING LLC\n97 HARBOR ROAD",
+      "page": 1
+    }
+  ]
+}

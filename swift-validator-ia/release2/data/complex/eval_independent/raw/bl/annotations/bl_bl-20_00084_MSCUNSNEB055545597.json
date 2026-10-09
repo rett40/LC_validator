@@ -1,0 +1,353 @@
+{
+  "id": 84,
+  "filename": "bl_bl-20_00084_MSCUNSNEB055545597.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNSNEB055545597",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNSNEB055545597",
+    "shipper": {
+      "name": "INTERNATIONAL SOLUTIONS CO.",
+      "address": "165 MARKET STREET",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "INTERNATIONAL SOLUTIONS CO.\n165 MARKET STREET\nSINGAPORE, SINGAPORE 018989"
+    },
+    "consignee": {
+      "name": "DELTA PARTNERS INC",
+      "address": "449 MAIN STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "DELTA PARTNERS INC\n449 MAIN STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "notify_party": {
+      "name": "TRANS INDUSTRIES CO.",
+      "address": "26 TRADE PARK",
+      "city": "NEW YORK",
+      "country": "USA",
+      "zip": "NY 10001",
+      "full": "TRANS INDUSTRIES CO.\n26 TRADE PARK\nNEW YORK, USA NY 10001"
+    },
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL4883",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "01 JUL 2026",
+    "eta": "20 JUL 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "MAEU5455128",
+    "container_type": "20' TANK",
+    "seal_number": "19FG81H7",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": {
+      "count": "63",
+      "type": "DRUMS",
+      "description": "63 DRUMS"
+    },
+    "gross_weight_kg": "20,762.45",
+    "net_weight_kg": "18,197.53",
+    "gross_weight_lbs": "45,773.31",
+    "measurement": "62.819 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5455128",
+        "seal_number": "19FG81H7",
+        "container_type": "20' TANK",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "63",
+          "type": "DRUMS",
+          "description": "63 DRUMS"
+        },
+        "gross_weight_kg": "20,762.45",
+        "net_weight_kg": "18,197.53",
+        "measurement": "62.819 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "PREPAID",
+    "incoterm": "DAP",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "MAEU5455128\n19FG81H7\nLE HAVRE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNSNEB055545597",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "AL4883",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "20 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL SOLUTIONS CO.\n165 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "DELTA PARTNERS INC\n449 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS INDUSTRIES CO.\n26 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU5455128",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "19FG81H7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '63', 'type': 'DRUMS', 'description': '63 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "20,762.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "62.819 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

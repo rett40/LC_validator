@@ -1,0 +1,500 @@
+{
+  "id": 549,
+  "filename": "bl_bl-11_00549_MSCUNYYSM301346267.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNYYSM301346267",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYYSM301346267",
+    "shipper_name": "APEX SHIPPING LTD",
+    "shipper_address": "821 HARBOR ROAD",
+    "consignee_name": "PREMIER INDUSTRIES LTD",
+    "consignee_address": "374 PORT ACCESS ROAD",
+    "notify_party_name": "EURO SOLUTIONS INC",
+    "notify_party_address": "75 HARBOR ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE156N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "04 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "CMAU6619986",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "5H8H2H9H",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "23 PACKAGES",
+    "gross_weight_kg": "70,018.65",
+    "measurement": "157.325 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU6619986",
+        "seal_number": "5H8H2H9H",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "23",
+          "type": "PACKAGES",
+          "description": "23 PACKAGES"
+        },
+        "gross_weight_kg": "23,032.89",
+        "net_weight_kg": "20,528.07",
+        "measurement": "64.195 CBM"
+      },
+      {
+        "container_number": "TRHU5163650",
+        "seal_number": "52HG07HF",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "416",
+          "type": "BOXES",
+          "description": "416 BOXES"
+        },
+        "gross_weight_kg": "19,659.22",
+        "net_weight_kg": "16,198.78",
+        "measurement": "51.345 CBM"
+      },
+      {
+        "container_number": "OOLU9591782",
+        "seal_number": "561E2AC7",
+        "container_type": "20' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "230",
+          "type": "DRUMS",
+          "description": "230 DRUMS"
+        },
+        "gross_weight_kg": "27,326.54",
+        "net_weight_kg": "25,161.90",
+        "measurement": "41.785 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNYYSM301346267",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "FE156N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX SHIPPING LTD\n821 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER INDUSTRIES LTD\n374 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "EURO SOLUTIONS INC\n75 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU6619986",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "5H8H2H9H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '23', 'type': 'PACKAGES', 'description': '23 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "23,032.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "64.195 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU5163650",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "52HG07HF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '416', 'type': 'BOXES', 'description': '416 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "19,659.22",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "51.345 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        411.02,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU9591782",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "561E2AC7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        411.02,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        411.02,
+        134.65,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '230', 'type': 'DRUMS', 'description': '230 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "27,326.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "41.785 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

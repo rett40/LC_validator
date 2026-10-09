@@ -1,0 +1,22 @@
+# Interface Streamlit — Swift Validator IA
+streamlit>=1.35.0
+
+# Déjà requis par le pipeline (normalement installés)
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.45.0
+Pillow>=10.0.0
+PyMuPDF>=1.23.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR pour PDFs scannés et images (optionnel — requis si input scanné)
+easyocr>=1.7.0
+
+# Extraction mots/boîtes depuis PDFs natifs (extracteurs spécialisés BL/Invoice/PL)
+pdfplumber>=0.11.0
+
+# Cross-validator — analyse sémantique & NLI
+sentence-transformers>=2.6.0   # embeddings MiniLM-L6-v2 (similarité cosine)
+scikit-learn>=1.3.0            # TF-IDF fallback + cosine_similarity
+rapidfuzz>=3.6.0               # fuzzy matching rapide (party names, goods)

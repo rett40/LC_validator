@@ -1,0 +1,500 @@
+{
+  "id": 528,
+  "filename": "bl_bl-14_00528_MSCUNCPPF408438935.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNCPPF408438935",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNCPPF408438935",
+    "shipper_name": "EURO COMMERCE INC",
+    "shipper_address": "104 MAIN STREET",
+    "consignee_name": "APEX SUPPLY CHAIN LTD",
+    "consignee_address": "448 PORT ACCESS ROAD",
+    "notify_party_name": "FIRST SHIPPING GMBH",
+    "notify_party_address": "461 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-241",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "25 MAY 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "MSCU6929317",
+    "container_type": "40' HC",
+    "seal_number": "15AFDD71",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "413 CARTONS",
+    "gross_weight_kg": "63,587.50",
+    "measurement": "172.376 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU6929317",
+        "seal_number": "15AFDD71",
+        "container_type": "40' HC",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "413",
+          "type": "CARTONS",
+          "description": "413 CARTONS"
+        },
+        "gross_weight_kg": "23,004.13",
+        "net_weight_kg": "19,107.38",
+        "measurement": "50.388 CBM"
+      },
+      {
+        "container_number": "TRHU4579900",
+        "seal_number": "482G751F",
+        "container_type": "40' REEFER",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "470",
+          "type": "DRUMS",
+          "description": "470 DRUMS"
+        },
+        "gross_weight_kg": "14,587.46",
+        "net_weight_kg": "11,780.64",
+        "measurement": "61.528 CBM"
+      },
+      {
+        "container_number": "EISU4169494",
+        "seal_number": "35BF116G",
+        "container_type": "20'TK",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "148",
+          "type": "CARTONS",
+          "description": "148 CARTONS"
+        },
+        "gross_weight_kg": "25,995.91",
+        "net_weight_kg": "22,289.43",
+        "measurement": "60.460 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNCPPF408438935",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU6929317",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "15AFDD71",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '413', 'type': 'CARTONS', 'description': '413 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "23,004.13",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "50.388 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "TRHU4579900",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "482G751F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '470', 'type': 'DRUMS', 'description': '470 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "14,587.46",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "61.528 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        209.76,
+        88.67,
+        36.85
+      ],
+      "value": "EISU4169494",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        209.76,
+        52.16,
+        36.85
+      ],
+      "value": "35BF116G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        209.76,
+        41.73,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        209.76,
+        130.39,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        209.76,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '148', 'type': 'CARTONS', 'description': '148 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        209.76,
+        78.24,
+        36.85
+      ],
+      "value": "25,995.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        209.76,
+        78.24,
+        36.85
+      ],
+      "value": "60.460 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "E-241",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        333.07,
+        173.86,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        333.07,
+        173.86,
+        24.09
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        381.26,
+        298.51,
+        94.96
+      ],
+      "value": "EURO COMMERCE INC\n104 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        379.84,
+        215.06,
+        41.1
+      ],
+      "value": "APEX SUPPLY CHAIN LTD\n448 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        435.12,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST SHIPPING GMBH\n461 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        522.99,
+        173.86,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        522.99,
+        173.86,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

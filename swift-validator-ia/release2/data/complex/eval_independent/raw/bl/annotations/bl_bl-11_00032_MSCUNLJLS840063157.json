@@ -1,0 +1,353 @@
+{
+  "id": 32,
+  "filename": "bl_bl-11_00032_MSCUNLJLS840063157.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNLJLS840063157",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNLJLS840063157",
+    "shipper": {
+      "name": "UNITED INDUSTRIES INC",
+      "address": "763 TRADE PARK",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "UNITED INDUSTRIES INC\n763 TRADE PARK\nHAMBURG, GERMANY 20095"
+    },
+    "consignee": {
+      "name": "DELTA TRADING GMBH",
+      "address": "271 MAIN STREET",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "DELTA TRADING GMBH\n271 MAIN STREET\nHAMBURG, GERMANY 20095"
+    },
+    "notify_party": {
+      "name": "UNITED SUPPLY CHAIN PLC",
+      "address": "145 PORT ACCESS ROAD",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "UNITED SUPPLY CHAIN PLC\n145 PORT ACCESS ROAD\nBARCELONA, SPAIN 08003"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-729",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "28 MAY 2026",
+    "eta": "11 JUN 2026",
+    "issue_date": "19 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "TRHU2239954",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "4EH80857",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": {
+      "count": "364",
+      "type": "BOXES",
+      "description": "364 BOXES"
+    },
+    "gross_weight_kg": "5,395.00",
+    "net_weight_kg": "3,062.95",
+    "gross_weight_lbs": "11,893.92",
+    "measurement": "22.582 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2239954",
+        "seal_number": "4EH80857",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "364",
+          "type": "BOXES",
+          "description": "364 BOXES"
+        },
+        "gross_weight_kg": "5,395.00",
+        "net_weight_kg": "3,062.95",
+        "measurement": "22.582 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT COLLECT",
+    "incoterm": "DDP",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "TRHU2239954\n4EH80857\nGENOA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNLJLS840063157",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "E-729",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "11 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED INDUSTRIES INC\n763 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA TRADING GMBH\n271 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN PLC\n145 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2239954",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "4EH80857",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '364', 'type': 'BOXES', 'description': '364 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "5,395.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "22.582 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

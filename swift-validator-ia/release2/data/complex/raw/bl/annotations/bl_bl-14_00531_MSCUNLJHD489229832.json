@@ -1,0 +1,409 @@
+{
+  "id": 531,
+  "filename": "bl_bl-14_00531_MSCUNLJHD489229832.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNLJHD489229832",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLJHD489229832",
+    "shipper_name": "GLOBAL GROUP INC",
+    "shipper_address": "404 TRADE PARK",
+    "consignee_name": "DELTA LOGISTICS AG",
+    "consignee_address": "548 INDUSTRIAL AVENUE",
+    "notify_party_name": "ATLANTIC PARTNERS AG",
+    "notify_party_address": "392 MARKET STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0655W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "20 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "MSCU8640394",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "EAAA4E4C",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "110 BOXES",
+    "gross_weight_kg": "31,648.51",
+    "measurement": "88.024 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8640394",
+        "seal_number": "EAAA4E4C",
+        "container_type": "40' FLAT RACK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "110",
+          "type": "BOXES",
+          "description": "110 BOXES"
+        },
+        "gross_weight_kg": "24,724.70",
+        "net_weight_kg": "21,297.66",
+        "measurement": "49.504 CBM"
+      },
+      {
+        "container_number": "MSCU0482987",
+        "seal_number": "DD063FED",
+        "container_type": "40'FR",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "128",
+          "type": "CARTONS",
+          "description": "128 CARTONS"
+        },
+        "gross_weight_kg": "6,923.81",
+        "net_weight_kg": "3,897.32",
+        "measurement": "38.520 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNLJHD489229832",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU8640394",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "EAAA4E4C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '110', 'type': 'BOXES', 'description': '110 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "24,724.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "49.504 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU0482987",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "DD063FED",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '128', 'type': 'CARTONS', 'description': '128 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "6,923.81",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "38.520 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "0655W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        344.41,
+        298.51,
+        94.96
+      ],
+      "value": "GLOBAL GROUP INC\n404 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        342.99,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA LOGISTICS AG\n548 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        398.27,
+        215.06,
+        41.1
+      ],
+      "value": "ATLANTIC PARTNERS AG\n392 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

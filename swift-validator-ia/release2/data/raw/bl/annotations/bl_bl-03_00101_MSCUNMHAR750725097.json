@@ -1,0 +1,409 @@
+{
+  "id": 101,
+  "filename": "bl_bl-03_00101_MSCUNMHAR750725097.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNMHAR750725097",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNMHAR750725097",
+    "shipper_name": "GLOBAL TRADING S.A.",
+    "shipper_address": "434 MAIN STREET",
+    "consignee_name": "DELTA INDUSTRIES PLC",
+    "consignee_address": "15 PORT ACCESS ROAD",
+    "notify_party_name": "UNITED SOLUTIONS AG",
+    "notify_party_address": "652 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE871S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "12 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "EISU1764888",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "2AHE5B27",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "149 CARTONS",
+    "gross_weight_kg": "33,540.81",
+    "measurement": "86.707 CBM",
+    "containers": [
+      {
+        "container_number": "EISU1764888",
+        "seal_number": "2AHE5B27",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "149",
+          "type": "CARTONS",
+          "description": "149 CARTONS"
+        },
+        "gross_weight_kg": "15,526.16",
+        "net_weight_kg": "11,617.16",
+        "measurement": "43.313 CBM"
+      },
+      {
+        "container_number": "CMAU6111613",
+        "seal_number": "E1EE36EC",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "459",
+          "type": "BAGS",
+          "description": "459 BAGS"
+        },
+        "gross_weight_kg": "18,014.65",
+        "net_weight_kg": "15,360.91",
+        "measurement": "43.394 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "27 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNMHAR750725097",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        164.99,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "FE871S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.64,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        434.28,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        164.99,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.64,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        434.28,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "GLOBAL TRADING S.A.\n434 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        164.99,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "DELTA INDUSTRIES PLC\n15 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        299.64,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "UNITED SOLUTIONS AG\n652 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1764888",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "2AHE5B27",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '149', 'type': 'CARTONS', 'description': '149 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "15,526.16",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "43.313 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU6111613",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "E1EE36EC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '459', 'type': 'BAGS', 'description': '459 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "18,014.65",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "43.394 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        164.99,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.64,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        434.28,
+        435.12,
+        130.65,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        463.46,
+        130.65,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

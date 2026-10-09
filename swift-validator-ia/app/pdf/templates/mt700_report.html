@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Rapport MT700 — {{ lc_number }}</title>
+  <link rel="stylesheet" href="styles/report.css">
+</head>
+<body>
+
+<!-- ══ PAGE DE GARDE ══════════════════════════════════════════════════════ -->
+<div class="cover">
+  <div class="cover-header">
+    <div class="cover-logo">SWIFT<span>Validator</span></div>
+    <div class="cover-subtitle">Plateforme d'analyse documentaire LC</div>
+  </div>
+
+  <div class="cover-body">
+    <div>
+      <span class="cover-badge badge-mt700">MT700</span>
+    </div>
+    <div class="cover-title">Rapport de Validation<br>MT700 — Crédit Documentaire</div>
+
+    <table class="cover-meta-table">
+      <tr><td>Référence LC</td>        <td>{{ lc_number }}</td></tr>
+      <tr><td>Donneur d'ordre</td>     <td>{{ applicant }}</td></tr>
+      <tr><td>Bénéficiaire</td>        <td>{{ beneficiary }}</td></tr>
+      <tr><td>Banque émettrice</td>    <td>{{ issuing_bank }}</td></tr>
+      <tr><td>Montant</td>             <td>{% if amount %}{{ "%.2f"|format(amount|float) }} {{ currency }}{% else %}—{% endif %}</td></tr>
+      <tr><td>Date d'émission</td>     <td>{{ issue_date }}</td></tr>
+      <tr><td>Date d'expiration</td>   <td>{{ expiry_date }}</td></tr>
+      <tr><td>Généré le</td>           <td>{{ generated_at }}</td></tr>
+    </table>
+
+    <!-- Résultat global -->
+    {% set risk_class = "risk-high" if risk_level == "HIGH" else ("risk-medium" if risk_level == "MEDIUM" else "risk-low") %}
+    <div class="alert {% if risk_level == 'HIGH' %}alert-danger{% elif risk_level == 'MEDIUM' %}alert-warning{% else %}alert-success{% endif %} no-break">
+      <div class="alert-icon">{% if risk_level == 'HIGH' %}⚠{% elif risk_level == 'MEDIUM' %}⚡{% else %}✓{% endif %}</div>
+      <div>
+        <strong>Niveau de risque : {{ risk_level or '—' }}</strong>
+        <p>Score ML : {{ ml_risk_score }}/80 · Score UCP : {{ ucp_score }}/100 · Score NLP : {{ nlp_score }}/100
+        {% if payment_blocked %} · <strong>PAIEMENT BLOQUÉ</strong>{% endif %}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cover-footer">
+    Document confidentiel généré automatiquement. Non substitut à un audit juridique ou bancaire.
+  </div>
+</div>
+
+<!-- ══ SECTION 1 — SCORES ══════════════════════════════════════════════════ -->
+<div class="page-break">
+<h1>1. Résumé des Scores</h1>
+
+{% set risk_class = "risk-high" if risk_level == "HIGH" else ("risk-medium" if risk_level == "MEDIUM" else "risk-low") %}
+<div class="score-hero no-break">
+
+  <div class="score-card {{ risk_class }}">
+    <div class="score-label">Score ML (XGBoost)</div>
+    <div class="score-value">{{ ml_risk_score or "—" }}</div>
+    <div class="score-badge">{{ risk_level or "—" }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ ((ml_risk_score or 0)|float / 80 * 100)|round|int }}%"></div></div>
+  </div>
+
+  <div class="score-card {% if (ucp_score or 0) >= 80 %}risk-low{% elif (ucp_score or 0) >= 50 %}risk-medium{% else %}risk-high{% endif %}">
+    <div class="score-label">Score UCP 600</div>
+    <div class="score-value">{{ ucp_score or "—" }}</div>
+    <div class="score-badge">{{ "Conforme" if (ucp_score or 0) >= 80 else ("Attention" if (ucp_score or 0) >= 50 else "Non conforme") }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ ucp_score or 0 }}%"></div></div>
+  </div>
+
+  <div class="score-card {% if (nlp_score or 0) >= 75 %}risk-low{% elif (nlp_score or 0) >= 50 %}risk-medium{% else %}risk-high{% endif %}">
+    <div class="score-label">Score NLP</div>
+    <div class="score-value">{{ nlp_score or "—" }}</div>
+    <div class="score-badge">{{ "Bon" if (nlp_score or 0) >= 75 else ("Moyen" if (nlp_score or 0) >= 50 else "Faible") }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ nlp_score or 0 }}%"></div></div>
+  </div>
+
+  <div class="score-card {% if (completeness_score or 0) >= 80 %}risk-low{% elif (completeness_score or 0) >= 60 %}risk-medium{% else %}risk-high{% endif %}">
+    <div class="score-label">Complétude</div>
+    <div class="score-value">{{ completeness_score or "—" }}</div>
+    <div class="score-badge">{{ "Complet" if (completeness_score or 0) >= 80 else "Incomplet" }}</div>
+    <div class="score-bar"><div class="score-bar-fill" style="width:{{ completeness_score or 0 }}%"></div></div>
+  </div>
+
+</div>
+
+<!-- ══ SECTION 2 — INFORMATIONS LC ════════════════════════════════════════ -->
+<h1>2. Informations du Crédit Documentaire</h1>
+<table class="info-table no-break">
+  <tr><td class="label-col">Référence LC</td>               <td>{{ lc_number }}</td>
+      <td class="label-col">Incoterm</td>                   <td>{{ incoterm }}</td></tr>
+  <tr><td class="label-col">Donneur d'ordre</td>            <td>{{ applicant }}</td>
+      <td class="label-col">Pays</td>                       <td>{{ country }}</td></tr>
+  <tr><td class="label-col">Bénéficiaire</td>               <td>{{ beneficiary }}</td>
+      <td class="label-col">Durée validité</td>             <td>{{ validity_days or "—" }} jours</td></tr>
+  <tr><td class="label-col">Banque émettrice</td>           <td>{{ issuing_bank }}</td>
+      <td class="label-col">Période présentation</td>       <td>{{ presentation_period_days or "—" }} jours</td></tr>
+  <tr><td class="label-col">Montant</td>                    <td>{% if amount %}{{ "%.2f"|format(amount|float) }} {{ currency }}{% else %}—{% endif %}</td>
+      <td class="label-col">Paiement bloqué</td>            <td>{{ "OUI ⚠" if payment_blocked else "Non" }}</td></tr>
+</table>
+
+{% if goods_description %}
+<h3>Marchandises</h3>
+<p style="font-size:9pt; color:#475569;">{{ goods_description[:500] }}{% if goods_description|length > 500 %}…{% endif %}</p>
+{% endif %}
+
+<!-- ══ SECTION 3 — CONFORMITÉ UCP 600 ════════════════════════════════════ -->
+<h1>3. Conformité UCP 600</h1>
+
+{% if n_ucp_errors == 0 and n_ucp_warnings == 0 %}
+<div class="alert alert-success no-break">
+  <div class="alert-icon">✓</div>
+  <div><strong>Document conforme — aucune violation UCP détectée</strong>
+    <p>Toutes les règles UCP 600 ont été vérifiées sans violation.</p></div>
+</div>
+{% else %}
+<table class="info-table no-break" style="margin-bottom:3mm">
+  <tr>
+    <th>Erreurs (×1.0)</th>
+    <th>Avertissements (×0.4)</th>
+    <th>Score UCP</th>
+    <th>Statut paiement</th>
+  </tr>
+  <tr>
+    <td style="color:{% if n_ucp_errors > 0 %}#dc2626{% else %}#16a34a{% endif %};font-weight:700">{{ n_ucp_errors }}</td>
+    <td style="color:{% if n_ucp_warnings > 2 %}#d97706{% else %}#64748b{% endif %};font-weight:700">{{ n_ucp_warnings }}</td>
+    <td style="font-weight:700">{{ ucp_score }}/100</td>
+    <td style="color:{% if payment_blocked %}#dc2626{% else %}#16a34a{% endif %};font-weight:700">{{ "BLOQUÉ" if payment_blocked else "OK" }}</td>
+  </tr>
+</table>
+{% endif %}
+
+{% if ucp_findings %}
+{% for finding in ucp_findings[:15] %}
+<div class="violation violation-{{ finding.severity|lower if finding.severity else 'warn' }} no-break">
+  <div class="violation-title">
+    <span class="sev-badge sev-{{ finding.severity|lower if finding.severity else 'warn' }}">{{ finding.severity or 'WARN' }}</span>
+    {{ finding.article or '' }} {% if finding.article_title %}— {{ finding.article_title }}{% endif %}
+  </div>
+  {% if finding.message %}<div class="violation-detail">{{ finding.message }}</div>{% endif %}
+  {% if finding.recommendation %}<div class="violation-detail text-muted" style="margin-top:1mm">→ {{ finding.recommendation }}</div>{% endif %}
+</div>
+{% endfor %}
+{% if ucp_findings|length > 15 %}
+<p class="text-muted" style="font-size:9pt; margin-top:2mm">… et {{ ucp_findings|length - 15 }} autres violations (voir rapport complet).</p>
+{% endif %}
+{% endif %}
+
+<!-- ══ SECTION 4 — ANALYSE SHAP / LIME ════════════════════════════════════ -->
+{% set lime_items = risk_ml.get('explanation', {}).get('lime_score_waterfall', []) if risk_ml else [] %}
+{% if lime_items %}
+<h1 class="page-break">4. Décomposition du Score ML (LIME)</h1>
+<p class="text-muted" style="font-size:9pt; margin-bottom:2mm">
+  Contribution de chaque feature au score ML de risque. Base : {{ risk_ml.get('explanation', {}).get('lime_score_base', 0)|round(1) }} pts.
+</p>
+<table class="lime-table no-break">
+  <tr>
+    <th style="width:35%">Feature</th>
+    <th style="width:12%">Valeur</th>
+    <th style="width:12%">Contribution</th>
+    <th style="width:11%">SHAP</th>
+    <th>Impact</th>
+  </tr>
+  {% set max_contrib = lime_items|map(attribute='score_contribution')|map('abs')|max %}
+  {% for item in lime_items[:12] %}
+  <tr>
+    <td style="font-weight:500">{{ item.label }}</td>
+    <td class="text-muted">{{ item.value if item.value is not none else "—" }}</td>
+    <td class="{{ 'contrib-pos' if item.score_contribution > 0 else 'contrib-neg' }}">
+      {{ "+" if item.score_contribution > 0 else "" }}{{ "%.2f"|format(item.score_contribution) }}
+    </td>
+    <td class="text-muted">{{ "%.4f"|format(item.shap_value) }}</td>
+    <td>
+      <div class="lime-bar">
+        <div class="lime-bar-fill {{ 'lime-bar-pos' if item.score_contribution > 0 else 'lime-bar-neg' }}"
+             style="width:{{ ((item.score_contribution|abs / max_contrib) * 100)|round|int }}%"></div>
+      </div>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+
+<!-- ══ SECTION 5 — VALIDATION EXTERNE ════════════════════════════════════ -->
+{% if external_validation %}
+<h1>5. Validation Externe (OFAC / Sanctions)</h1>
+<div class="alert {{ 'alert-danger' if external_validation.get('risk_level') == 'CRITICAL' else ('alert-warning' if external_validation.get('risk_level') == 'HIGH' else 'alert-success') }} no-break">
+  <div class="alert-icon">{{ '⚠' if external_validation.get('risk_level') in ['CRITICAL','HIGH'] else '✓' }}</div>
+  <div>
+    <strong>Niveau : {{ external_validation.get('risk_level', '—') }}</strong>
+    <p>
+      Devise : {{ external_validation.get('currency_code','—') }} (valide : {{ 'Oui' if external_validation.get('currency_valid') else 'Non' }}) ·
+      Pays : {{ external_validation.get('country_iso2','—') }} ·
+      Sanctionné : {{ 'OUI ⚠' if external_validation.get('country_sanctioned') else 'Non' }}
+    </p>
+  </div>
+</div>
+{% endif %}
+
+<!-- ══ AVERTISSEMENT LÉGAL ════════════════════════════════════════════════ -->
+<div style="margin-top:8mm; padding:4mm; background:#f8fafc; border:1px solid #e2e8f0; border-radius:5px; font-size:8pt; color:#64748b;">
+  <strong>Avertissement légal :</strong> Ce rapport est généré automatiquement par SWIFT Validator à des fins d'aide à la décision.
+  Il ne constitue pas un avis juridique ou bancaire et ne remplace pas l'expertise d'un professionnel qualifié.
+  Les décisions de crédit restent sous l'entière responsabilité de l'établissement émetteur.
+  Généré le {{ generated_at }}.
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,442 @@
+{
+  "id": 690,
+  "filename": "bl_bl-18_00690_MSCUNVUTL149494013.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNVUTL149494013",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVUTL149494013",
+    "shipper_name": "GLOBAL PARTNERS S.A.",
+    "shipper_address": "700 PORT ACCESS ROAD",
+    "consignee_name": "PREMIER INDUSTRIES LTD",
+    "consignee_address": "137 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL TRADING LLC",
+    "notify_party_address": "490 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-324",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "17 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "MSCU5209941",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "B5CFA399",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "485 DRUMS",
+    "gross_weight_kg": "16,662.89",
+    "measurement": "54.157 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU5209941",
+        "seal_number": "B5CFA399",
+        "container_type": "20' OPEN TOP",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "485",
+          "type": "DRUMS",
+          "description": "485 DRUMS"
+        },
+        "gross_weight_kg": "7,354.02",
+        "net_weight_kg": "3,489.27",
+        "measurement": "23.975 CBM"
+      },
+      {
+        "container_number": "TRHU8781151",
+        "seal_number": "34860376",
+        "container_type": "20'DC",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "419",
+          "type": "CRATES",
+          "description": "419 CRATES"
+        },
+        "gross_weight_kg": "9,308.87",
+        "net_weight_kg": "6,701.32",
+        "measurement": "30.182 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNVUTL149494013",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU5209941",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "B5CFA399",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '485', 'type': 'DRUMS', 'description': '485 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "7,354.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "23.975 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8781151",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "34860376",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '419', 'type': 'CRATES', 'description': '419 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "9,308.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "30.182 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "700 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL PARTNERS S.A.\n700 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "137 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER INDUSTRIES LTD\n137 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "490 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL TRADING LLC\n490 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        490.39,
+        201.04,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        344.52,
+        490.39,
+        229.5,
+        34.02
+      ],
+      "value": "E-324",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        57.89,
+        524.41,
+        246.84,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        396.52,
+        524.41,
+        177.5,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        558.43,
+        186.38,
+        34.02
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        401.42,
+        558.43,
+        172.6,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        592.44,
+        189.95,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        368.96,
+        592.44,
+        205.05,
+        34.02
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        107.22,
+        634.96,
+        197.51,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        634.96,
+        201.5,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        63.22,
+        663.31,
+        241.51,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        376.97,
+        663.31,
+        197.04,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        691.65,
+        202.83,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

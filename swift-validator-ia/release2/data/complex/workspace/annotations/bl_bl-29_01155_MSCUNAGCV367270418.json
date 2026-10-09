@@ -1,0 +1,500 @@
+{
+  "id": 1155,
+  "filename": "bl_bl-29_01155_MSCUNAGCV367270418.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNAGCV367270418",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNAGCV367270418",
+    "shipper_name": "CENTRAL SHIPPING LLC",
+    "shipper_address": "835 MAIN STREET",
+    "consignee_name": "PACIFIC GROUP S.A.",
+    "consignee_address": "155 INDUSTRIAL AVENUE",
+    "notify_party_name": "DELTA GROUP LLC",
+    "notify_party_address": "548 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS701S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "19 JUN 2026",
+    "eta": "19 JUL 2026",
+    "container_number": "OOLU8277493",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "23850AB0",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "489 PALLETS",
+    "gross_weight_kg": "57,600.84",
+    "measurement": "133.450 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU8277493",
+        "seal_number": "23850AB0",
+        "container_type": "40' OPEN TOP",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "489",
+          "type": "PALLETS",
+          "description": "489 PALLETS"
+        },
+        "gross_weight_kg": "12,698.94",
+        "net_weight_kg": "9,060.42",
+        "measurement": "24.468 CBM"
+      },
+      {
+        "container_number": "TCKU5189500",
+        "seal_number": "A278GHGE",
+        "container_type": "40' REEFER",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "186",
+          "type": "PALLETS",
+          "description": "186 PALLETS"
+        },
+        "gross_weight_kg": "27,133.23",
+        "net_weight_kg": "23,938.90",
+        "measurement": "56.858 CBM"
+      },
+      {
+        "container_number": "TCKU7940152",
+        "seal_number": "A9G9277B",
+        "container_type": "40' DRY / GP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "307",
+          "type": "PACKAGES",
+          "description": "307 PACKAGES"
+        },
+        "gross_weight_kg": "17,768.67",
+        "net_weight_kg": "15,560.34",
+        "measurement": "52.124 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNAGCV367270418",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU8277493",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "23850AB0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '489', 'type': 'PALLETS', 'description': '489 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "12,698.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "24.468 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU5189500",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "A278GHGE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '186', 'type': 'PALLETS', 'description': '186 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "27,133.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "56.858 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        209.76,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU7940152",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "A9G9277B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        209.76,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        209.76,
+        132.17,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        209.76,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '307', 'type': 'PACKAGES', 'description': '307 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "17,768.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        209.76,
+        79.3,
+        36.85
+      ],
+      "value": "52.124 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "CS701S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        272.13,
+        132.17,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        306.14,
+        132.17,
+        24.09
+      ],
+      "value": "19 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        355.75,
+        132.17,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        384.09,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        430.87,
+        302.62,
+        94.96
+      ],
+      "value": "CENTRAL SHIPPING LLC\n835 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        429.45,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC GROUP S.A.\n155 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        484.72,
+        218.04,
+        41.1
+      ],
+      "value": "DELTA GROUP LLC\n548 MARKET STREET",
+      "page": 1
+    }
+  ]
+}

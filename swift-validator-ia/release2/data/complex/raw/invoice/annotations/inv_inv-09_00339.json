@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00339",
+  "filename": "inv_inv-09_00339.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 339,
+  "fields": {
+    "invoice_number": "INV-2026-00339",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DB/0339/2026",
+    "bl_reference": "MSCUNKZEM577120497",
+    "seller_name": "FIRST SOLUTIONS PLC",
+    "buyer_name": "APEX SOLUTIONS PLC",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE613S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "goods_description": "HOUSEHOLD APPLIANCES",
+    "hs_code": "8516.60",
+    "quantity": 255,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "41,000.73",
+    "unit_price": 96.46,
+    "currency": "USD",
+    "total_amount": 24596.84,
+    "incoterm": "EXW",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "INV-2026-00339",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "LC/DB/0339/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNKZEM577120497",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS PLC\nFIRST SOLUTIONS PLC\n710 INDUSTRIAL AVENUE\nTOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "APEX SOLUTIONS PLC\nAPEX SOLUTIONS PLC\n359 COMMERCE STREET\nLONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        294.8,
+        174.61,
+        42.52
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        294.8,
+        65.48,
+        42.52
+      ],
+      "value": "8516.60",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "255",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "96.46 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "24596.84 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        351.5,
+        122.78,
+        19.84
+      ],
+      "value": "41,000.73 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        371.34,
+        122.78,
+        19.84
+      ],
+      "value": "24596.84 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "27012.15 USD",
+      "actual": "24596.84 USD"
+    }
+  ]
+}

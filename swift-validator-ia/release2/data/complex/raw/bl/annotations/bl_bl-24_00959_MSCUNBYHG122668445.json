@@ -1,0 +1,351 @@
+{
+  "id": 959,
+  "filename": "bl_bl-24_00959_MSCUNBYHG122668445.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNBYHG122668445",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNBYHG122668445",
+    "shipper_name": "FIRST SHIPPING PLC",
+    "shipper_address": "758 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL SHIPPING GMBH",
+    "consignee_address": "150 COMMERCE BOULEVARD",
+    "notify_party_name": "APEX SUPPLY CHAIN INC",
+    "notify_party_address": "261 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE81N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "15 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "MAEU7344039",
+    "container_type": "20' TANK",
+    "seal_number": "50CD868H",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "135 PALLETS",
+    "gross_weight_kg": "12,370.34",
+    "measurement": "24.598 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU7344039",
+        "seal_number": "50CD868H",
+        "container_type": "20' TANK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "135",
+          "type": "PALLETS",
+          "description": "135 PALLETS"
+        },
+        "gross_weight_kg": "12,370.34",
+        "net_weight_kg": "10,268.09",
+        "measurement": "24.598 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNBYHG122668445",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.61,
+        106.3,
+        98.9,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        244.61,
+        106.3,
+        145.16,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        415.94,
+        106.3,
+        158.08,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        67.02,
+        134.65,
+        138.49,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        252.53,
+        134.65,
+        137.24,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU7344039",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "50CD868H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '135', 'type': 'PALLETS', 'description': '135 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "12,370.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "24.598 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        229.61,
+        148.9,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        245.03,
+        229.61,
+        144.74,
+        34.02
+      ],
+      "value": "AE81N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        452.61,
+        229.61,
+        121.4,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        113.27,
+        263.62,
+        92.24,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        267.94,
+        263.62,
+        121.82,
+        34.02
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        458.03,
+        263.62,
+        115.98,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        108.27,
+        297.64,
+        97.24,
+        34.02
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        265.86,
+        297.64,
+        123.9,
+        34.02
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "758 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "FIRST SHIPPING PLC\n758 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "150 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "INTERNATIONAL SHIPPING GMBH\n150 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "261 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "APEX SUPPLY CHAIN INC\n261 MARKET STREET",
+      "page": 1
+    }
+  ]
+}

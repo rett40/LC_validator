@@ -1,0 +1,318 @@
+{
+  "id": 773,
+  "filename": "bl_bl-20_00773_MSCUNLXNH210931048.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNLXNH210931048",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLXNH210931048",
+    "shipper_name": "INTERNATIONAL SUPPLY CHAIN PLC",
+    "shipper_address": "412 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST COMMERCE AG",
+    "consignee_address": "381 TRADE PARK",
+    "notify_party_name": "UNITED TRADING INC",
+    "notify_party_address": "455 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0277N",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CY",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "02 JUN 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "HLCU5981107",
+    "container_type": "20' TANK",
+    "seal_number": "4A92EH3A",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "285 PALLETS",
+    "gross_weight_kg": "27,513.39",
+    "measurement": "52.054 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5981107",
+        "seal_number": "4A92EH3A",
+        "container_type": "20' TANK",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "285",
+          "type": "PALLETS",
+          "description": "285 PALLETS"
+        },
+        "gross_weight_kg": "27,513.39",
+        "net_weight_kg": "24,687.17",
+        "measurement": "52.054 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNLXNH210931048",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "0277N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "MUMBAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        221.1,
+        306.73,
+        94.96
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN PLC\n412 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        219.69,
+        221.01,
+        41.1
+      ],
+      "value": "FIRST COMMERCE AG\n381 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        274.96,
+        221.01,
+        41.1
+      ],
+      "value": "UNITED TRADING INC\n455 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "HLCU5981107",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "4A92EH3A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '285', 'type': 'PALLETS', 'description': '285 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "27,513.39",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "52.054 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        402.52,
+        263.87,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        402.52,
+        263.87,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        430.87,
+        263.87,
+        12.76
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        430.87,
+        263.87,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        459.21,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

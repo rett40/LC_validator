@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00996",
+  "filename": "inv_inv-25_00996.pdf",
+  "layout_id": "INV-25",
+  "bl_id": 996,
+  "fields": {
+    "invoice_number": "INV-2026-00996",
+    "invoice_date": "01 MAY 2026",
+    "lc_reference": "LC/BNP/0996/2026",
+    "bl_reference": "MSCUNWAPY001171843",
+    "seller_name": "PACIFIC TRADING LTD",
+    "buyer_name": "APEX SHIPPING LTD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE623S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "goods_description": "CERAMIC PRODUCTS AND TILES",
+    "hs_code": "6908.90",
+    "quantity": 58,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "18,017.83",
+    "unit_price": 7.91,
+    "currency": "USD",
+    "total_amount": 458.68,
+    "incoterm": "CFR",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00996",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        68.03,
+        109.08,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        68.03,
+        131.58,
+        25.51
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        99.21,
+        120.54,
+        19.84
+      ],
+      "value": "18,017.83 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        119.06,
+        120.54,
+        19.84
+      ],
+      "value": "458.68 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        147.4,
+        310.73,
+        56.69
+      ],
+      "value": "CERAMIC PRODUCTS AND TILES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        147.4,
+        70.01,
+        28.35
+      ],
+      "value": "6908.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        147.4,
+        88.01,
+        28.35
+      ],
+      "value": 58,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        175.75,
+        83.51,
+        28.35
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        175.75,
+        56.51,
+        28.35
+      ],
+      "value": "7.91 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        209.76,
+        241.09,
+        25.51
+      ],
+      "value": "458.68 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        243.78,
+        535.75,
+        52.44
+      ],
+      "value": "PACIFIC TRADING LTD\nPACIFIC TRADING LTD\n238 EXPORT ZONE\nTIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        296.22,
+        535.75,
+        52.44
+      ],
+      "value": "APEX SHIPPING LTD\nAPEX SHIPPING LTD\n744 HARBOR ROAD\nVALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        357.17,
+        68.94,
+        28.35
+      ],
+      "value": "01 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        218.28,
+        357.17,
+        77.94,
+        28.35
+      ],
+      "value": "LC/BNP/0996/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        357.17,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNWAPY001171843",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        526.66,
+        357.17,
+        37.44,
+        28.35
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        79.85,
+        385.51,
+        82.44,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        186.78,
+        385.51,
+        109.44,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "539.40 USD",
+      "actual": "458.68 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "CERAMIC TILES AND SANITARY WARE",
+      "actual": "CERAMIC PRODUCTS AND TILES"
+    }
+  ]
+}

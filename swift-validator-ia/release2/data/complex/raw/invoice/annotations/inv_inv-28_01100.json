@@ -1,0 +1,241 @@
+{
+  "invoice_number": "INV-2026-01100",
+  "filename": "inv_inv-28_01100.pdf",
+  "layout_id": "INV-28",
+  "bl_id": 1100,
+  "fields": {
+    "invoice_number": "INV-2026-01100",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DB/1100/2026",
+    "bl_reference": "MSCUNUNZB517582128",
+    "seller_name": "CENTRAL LOGISTICS BV",
+    "buyer_name": "EURO SHIPPING BV",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0312W",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "hs_code": "8428.90",
+    "quantity": 500,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "19,286.47",
+    "unit_price": 315.36,
+    "currency": "USD",
+    "total_amount": 157680.0,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        70.02,
+        217.13,
+        27.78
+      ],
+      "value": "INV-2026-01100",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        202.2,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        144.57,
+        542.83,
+        52.44
+      ],
+      "value": "CENTRAL LOGISTICS BV\nCENTRAL LOGISTICS BV\n260 COMMERCE STREET\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        197.01,
+        542.83,
+        52.44
+      ],
+      "value": "EURO SHIPPING BV\nEURO SHIPPING BV\n470 INDUSTRIAL AVENUE\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        263.62,
+        122.14,
+        19.84
+      ],
+      "value": "19,286.47 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        283.46,
+        122.14,
+        19.84
+      ],
+      "value": "157680.0 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        318.9,
+        314.84,
+        56.69
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        336.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        450.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": 500,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        336.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        450.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "315.36 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        381.26,
+        244.28,
+        25.51
+      ],
+      "value": "157680.0 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        21.26,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        156.97,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "LC/DB/1100/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "MSCUNUNZB517582128",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        428.39,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        156.97,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": true,
+  "discrepancies": []
+}

@@ -1,0 +1,500 @@
+{
+  "id": 1033,
+  "filename": "bl_bl-21_01033_MSCUNMXNR867683024.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNMXNR867683024",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNMXNR867683024",
+    "shipper_name": "PACIFIC SHIPPING LTD",
+    "shipper_address": "676 COMMERCE BOULEVARD",
+    "consignee_name": "APEX INDUSTRIES CORP",
+    "consignee_address": "853 TRADE PARK",
+    "notify_party_name": "UNITED SHIPPING BV",
+    "notify_party_address": "681 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-477",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "09 MAY 2026",
+    "eta": "30 MAY 2026",
+    "container_number": "TRHU9194271",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "D47H2H6G",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "391 PACKAGES",
+    "gross_weight_kg": "54,184.87",
+    "measurement": "135.412 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9194271",
+        "seal_number": "D47H2H6G",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "391",
+          "type": "PACKAGES",
+          "description": "391 PACKAGES"
+        },
+        "gross_weight_kg": "11,902.49",
+        "net_weight_kg": "9,701.20",
+        "measurement": "37.697 CBM"
+      },
+      {
+        "container_number": "OOLU0349724",
+        "seal_number": "0806AADE",
+        "container_type": "20' TANK",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "38",
+          "type": "DRUMS",
+          "description": "38 DRUMS"
+        },
+        "gross_weight_kg": "23,823.06",
+        "net_weight_kg": "21,623.87",
+        "measurement": "59.853 CBM"
+      },
+      {
+        "container_number": "MAEU0276498",
+        "seal_number": "2812G63F",
+        "container_type": "20' DRY",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "474",
+          "type": "CARTONS",
+          "description": "474 CARTONS"
+        },
+        "gross_weight_kg": "18,459.32",
+        "net_weight_kg": "15,212.34",
+        "measurement": "37.862 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "27 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNMXNR867683024",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC SHIPPING LTD\n676 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "APEX INDUSTRIES CORP\n853 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SHIPPING BV\n681 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        245.2,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9194271",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "D47H2H6G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        245.2,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        245.2,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        245.2,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '391', 'type': 'PACKAGES', 'description': '391 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "11,902.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        245.2,
+        80.79,
+        36.85
+      ],
+      "value": "37.697 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        282.05,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0349724",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "0806AADE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        282.05,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        282.05,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        282.05,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '38', 'type': 'DRUMS', 'description': '38 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "23,823.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        282.05,
+        80.79,
+        36.85
+      ],
+      "value": "59.853 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        318.9,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU0276498",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "2812G63F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        318.9,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        318.9,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        318.9,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '474', 'type': 'CARTONS', 'description': '474 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "18,459.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        318.9,
+        80.79,
+        36.85
+      ],
+      "value": "37.862 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "E-477",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        381.26,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        449.29,
+        179.53,
+        24.09
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

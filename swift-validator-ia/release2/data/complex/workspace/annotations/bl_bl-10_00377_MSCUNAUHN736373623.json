@@ -1,0 +1,417 @@
+{
+  "id": 377,
+  "filename": "bl_bl-10_00377_MSCUNAUHN736373623.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNAUHN736373623",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNAUHN736373623",
+    "shipper_name": "FIRST COMMERCE LTD",
+    "shipper_address": "166 TRADE PARK",
+    "consignee_name": "APEX TRADING S.A.",
+    "consignee_address": "210 TRADE PARK",
+    "notify_party_name": "UNITED SHIPPING INC",
+    "notify_party_address": "834 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE49W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "20 MAY 2026",
+    "eta": "09 JUN 2026",
+    "container_number": "CMAU4497131",
+    "container_type": "40' REEFER",
+    "seal_number": "5B67E937",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "491 PALLETS",
+    "gross_weight_kg": "34,443.10",
+    "measurement": "112.262 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4497131",
+        "seal_number": "5B67E937",
+        "container_type": "40' REEFER",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "491",
+          "type": "PALLETS",
+          "description": "491 PALLETS"
+        },
+        "gross_weight_kg": "10,760.11",
+        "net_weight_kg": "8,289.99",
+        "measurement": "52.033 CBM"
+      },
+      {
+        "container_number": "CMAU1434637",
+        "seal_number": "G3F516AF",
+        "container_type": "20' DRY",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "413",
+          "type": "CARTONS",
+          "description": "413 CARTONS"
+        },
+        "gross_weight_kg": "23,682.99",
+        "net_weight_kg": "21,674.13",
+        "measurement": "60.229 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNAUHN736373623",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU4497131",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "5B67E937",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "491",
+        "type": "PALLETS",
+        "description": "491 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "10,760.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "52.033 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU1434637",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "G3F516AF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "413",
+        "type": "CARTONS",
+        "description": "413 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "23,682.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "60.229 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST COMMERCE LTD\n166 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "APEX TRADING S.A.\n210 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED SHIPPING INC\n834 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        376.89,
+        365.1,
+        187.2,
+        34.02
+      ],
+      "value": "AE49W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        89.88,
+        399.12,
+        209.88,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        323.55,
+        399.12,
+        240.55,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        138.35,
+        433.13,
+        161.42,
+        34.02
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        371.56,
+        433.13,
+        192.53,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        467.15,
+        188.54,
+        34.02
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        341.33,
+        509.67,
+        222.76,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        63.22,
+        538.02,
+        236.55,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        538.02,
+        205.42,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        566.36,
+        197.87,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

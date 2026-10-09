@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00984",
+  "filename": "inv_inv-25_00984.pdf",
+  "layout_id": "INV-25",
+  "bl_id": 984,
+  "fields": {
+    "invoice_number": "INV-2026-00984",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/SCB/0984/2026",
+    "bl_reference": "MSCUNJFPD412003249",
+    "seller_name": "FIRST SOLUTIONS BV",
+    "buyer_name": "APEX COMMERCE CORP",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0149S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "REFINED OLIVE OIL NEC",
+    "hs_code": "8428.90",
+    "quantity": 71,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "23,285.83",
+    "unit_price": 252.23,
+    "currency": "USD",
+    "total_amount": 17908.33,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00984",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        68.03,
+        109.08,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        68.03,
+        131.58,
+        25.51
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        99.21,
+        120.54,
+        19.84
+      ],
+      "value": "23,285.83 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        119.06,
+        120.54,
+        19.84
+      ],
+      "value": "17908.33 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        147.4,
+        310.73,
+        56.69
+      ],
+      "value": "REFINED OLIVE OIL NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        147.4,
+        70.01,
+        28.35
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        147.4,
+        88.01,
+        28.35
+      ],
+      "value": 71,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        175.75,
+        83.51,
+        28.35
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        175.75,
+        56.51,
+        28.35
+      ],
+      "value": "252.23 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        209.76,
+        241.09,
+        25.51
+      ],
+      "value": "17908.33 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        243.78,
+        535.75,
+        52.44
+      ],
+      "value": "FIRST SOLUTIONS BV\nFIRST SOLUTIONS BV\n666 COMMERCE STREET\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        296.22,
+        535.75,
+        52.44
+      ],
+      "value": "APEX COMMERCE CORP\nAPEX COMMERCE CORP\n216 MAIN BOULEVARD\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        357.17,
+        68.94,
+        28.35
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        263.28,
+        357.17,
+        32.94,
+        28.35
+      ],
+      "value": "LC/SCB/0984/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        357.17,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNJFPD412003249",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        526.66,
+        357.17,
+        37.44,
+        28.35
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        385.51,
+        64.44,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        209.28,
+        385.51,
+        86.94,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "REFINED OLIVE OIL",
+      "actual": "REFINED OLIVE OIL NEC"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": 106,
+  "filename": "bl_bl-03_00106_MSCUNHLMH431869530.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNHLMH431869530",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNHLMH431869530",
+    "shipper_name": "APEX SOLUTIONS CO.",
+    "shipper_address": "456 INDUSTRIAL AVENUE",
+    "consignee_name": "ATLANTIC COMMERCE BV",
+    "consignee_address": "540 PORT ACCESS ROAD",
+    "notify_party_name": "APEX SUPPLY CHAIN BV",
+    "notify_party_address": "40 INDUSTRIAL AVENUE",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0656S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "09 JUN 2026",
+    "eta": "29 JUN 2026",
+    "container_number": "MAEU7846115",
+    "container_type": "40' DRY",
+    "seal_number": "7911213G",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "40 BAGS",
+    "gross_weight_kg": "22,788.66",
+    "measurement": "49.483 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU7846115",
+        "seal_number": "7911213G",
+        "container_type": "40' DRY",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "40",
+          "type": "BAGS",
+          "description": "40 BAGS"
+        },
+        "gross_weight_kg": "22,788.66",
+        "net_weight_kg": "18,792.02",
+        "measurement": "49.483 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNHLMH431869530",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        164.99,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "0656S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.64,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        434.28,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        164.99,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.64,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        434.28,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "APEX SOLUTIONS CO.\n456 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        164.99,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "ATLANTIC COMMERCE BV\n540 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        299.64,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "APEX SUPPLY CHAIN BV\n40 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU7846115",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "7911213G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '40', 'type': 'BAGS', 'description': '40 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "22,788.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "49.483 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        398.27,
+        130.65,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        164.99,
+        398.27,
+        130.65,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.64,
+        398.27,
+        130.65,
+        12.76
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        434.28,
+        398.27,
+        130.65,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        426.61,
+        130.65,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

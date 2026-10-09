@@ -1,0 +1,236 @@
+{
+  "pl_number": "PL-2026-00335",
+  "filename": "pl_cmacgm_0335_CMAUYFHK354572936.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 335,
+  "fields": {
+    "pl_number": "PL-2026-00335",
+    "pl_date": "15 APR 2026",
+    "inv_reference": "INV-2026-00335",
+    "bl_reference": "CMAUYFHK354572936",
+    "exporter_name": "INTERNATIONAL SUPPLY CHAIN LTD",
+    "consignee_name": "DELTA LOGISTICS AG",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE36N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "container_number": "TCKU8478580",
+    "container_type": "20' DRY",
+    "seal_number": "0C0C1G2E",
+    "goods_description": "WOOD PRODUCTS AND TIMBER",
+    "package_unit": "CARTONS",
+    "total_packages": 402,
+    "net_weight_kg": "19,668.49",
+    "gross_weight_kg": "23,035.17",
+    "total_cbm": 58.418
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00335",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUYFHK354572936",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN LTD\n591 EXPORT ZONE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "DELTA LOGISTICS AG\n211 COMMERCE STREET\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "AE36N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "TCKU8478580",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "0C0C1G2E",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUYFHK354572936",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "402",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "19,668.49",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "23,035.17",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "58.418",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "23,035.17",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "402",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "container_mismatch",
+      "field": "container_number",
+      "expected": "TCKU0478580",
+      "actual": "TCKU8478580"
+    }
+  ]
+}

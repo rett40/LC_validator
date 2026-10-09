@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00117",
+  "filename": "pl_msc_0117_MSCUNACYH740529188.pdf",
+  "style": "TealPLRenderer",
+  "bl_id": 117,
+  "fields": {
+    "pl_number": "PL-2026-00117",
+    "pl_date": "13 APR 2026",
+    "inv_reference": "INV-2026-00117",
+    "bl_reference": "MSCUNACYH740529188",
+    "exporter_name": "DELTA ENTERPRISES PLC",
+    "consignee_name": "PACIFIC SUPPLY CHAIN LLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0455S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "container_number": "TRHU9590175",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "HCDAA340",
+    "goods_description": "FROZEN SEAFOOD AND FISH",
+    "package_unit": "CARTONS",
+    "total_packages": 393,
+    "net_weight_kg": "21,849.23",
+    "gross_weight_kg": "26,074.82",
+    "total_cbm": 60.248
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "PL-2026-00117",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MSCUNACYH740529188",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "DELTA ENTERPRISES PLC\n339 MAIN BOULEVARD\nTOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        86.46,
+        269.29,
+        70.87
+      ],
+      "value": "PACIFIC SUPPLY CHAIN LLC\n874 COMMERCE STREET\nLONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "0455S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        161.57,
+        134.65,
+        28.35
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "TRHU9590175",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        194.17,
+        179.53,
+        28.35
+      ],
+      "value": "HCDAA340",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNACYH740529188",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        277.8,
+        136.06,
+        48.19
+      ],
+      "value": "FROZEN SEAFOOD AND FISH",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        277.8,
+        56.69,
+        48.19
+      ],
+      "value": "393",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "21,849.23",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        277.8,
+        68.03,
+        48.19
+      ],
+      "value": "26,074.82",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        277.8,
+        73.7,
+        48.19
+      ],
+      "value": "60.248",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        331.65,
+        242.36,
+        62.36
+      ],
+      "value": "26,074.82",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        377.01,
+        121.18,
+        17.01
+      ],
+      "value": "393",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "quantity_mismatch",
+      "field": "total_packages",
+      "expected": "379",
+      "actual": "393"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "actual": "FROZEN SEAFOOD AND FISH"
+    }
+  ]
+}

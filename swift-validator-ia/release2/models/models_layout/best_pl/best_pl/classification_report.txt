@@ -1,0 +1,36 @@
+Classification Report — PACKING_LIST (token-level)
+======================================================================
+                   precision    recall  f1-score   support
+
+                O       1.00      1.00      1.00      5649
+      B-PL_NUMBER       1.00      1.00      1.00       120
+     B-ISSUE_DATE       1.00      1.00      1.00       120
+     I-ISSUE_DATE       1.00      1.00      1.00       240
+        B-INV_REF       1.00      1.00      1.00       120
+         B-BL_REF       1.00      1.00      1.00       120
+       B-EXPORTER       1.00      1.00      1.00       120
+       I-EXPORTER       1.00      1.00      1.00      1238
+      B-CONSIGNEE       1.00      1.00      1.00       120
+      I-CONSIGNEE       1.00      1.00      1.00      1267
+         B-VESSEL       1.00      0.98      0.99       120
+         I-VESSEL       1.00      1.00      1.00       193
+         B-VOYAGE       1.00      1.00      1.00       120
+B-PORT_OF_LOADING       1.00      1.00      1.00       120
+I-PORT_OF_LOADING       1.00      1.00      1.00       126
+     B-GOODS_DESC       1.00      1.00      1.00       120
+     I-GOODS_DESC       1.00      1.00      1.00       308
+   B-PACKAGE_UNIT       1.00      1.00      1.00       120
+ B-TOTAL_PACKAGES       1.00      1.00      1.00       240
+     B-NET_WEIGHT       1.00      1.00      1.00       240
+     I-NET_WEIGHT       1.00      1.00      1.00       120
+   B-GROSS_WEIGHT       1.00      1.00      1.00       240
+   I-GROSS_WEIGHT       1.00      1.00      1.00       120
+      B-TOTAL_CBM       1.00      1.00      1.00       240
+  B-MARKS_NUMBERS       1.00      1.00      1.00       120
+  I-MARKS_NUMBERS       1.00      1.00      1.00       240
+     B-DIMENSIONS       1.00      1.00      1.00       120
+     I-DIMENSIONS       1.00      1.00      1.00       120
+
+         accuracy                           1.00     12141
+        macro avg       1.00      1.00      1.00     12141
+     weighted avg       1.00      1.00      1.00     12141

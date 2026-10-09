@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00989",
+  "filename": "inv_inv-25_00989.pdf",
+  "layout_id": "INV-25",
+  "bl_id": 989,
+  "fields": {
+    "invoice_number": "INV-2026-00989",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/HSBC/0989/2026",
+    "bl_reference": "MSCUNSXGA016767225",
+    "seller_name": "DELTA INDUSTRIES AG",
+    "buyer_name": "INTERNATIONAL INDUSTRIES CO.",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0513N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+    "hs_code": "9018.90",
+    "quantity": 52,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "15,736.04",
+    "unit_price": 288.07,
+    "currency": "GBP",
+    "total_amount": 14979.64,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00989",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        68.03,
+        109.08,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        253.93,
+        68.03,
+        131.58,
+        25.51
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        99.21,
+        120.54,
+        19.84
+      ],
+      "value": "15,736.04 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        119.06,
+        120.54,
+        19.84
+      ],
+      "value": "14979.64 GBP",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        147.4,
+        310.73,
+        56.69
+      ],
+      "value": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        381.58,
+        147.4,
+        70.01,
+        28.35
+      ],
+      "value": "9018.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        476.09,
+        147.4,
+        88.01,
+        28.35
+      ],
+      "value": 52,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        368.08,
+        175.75,
+        83.51,
+        28.35
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        507.59,
+        175.75,
+        56.51,
+        28.35
+      ],
+      "value": "288.07 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        209.76,
+        241.09,
+        25.51
+      ],
+      "value": "14979.64 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        243.78,
+        535.75,
+        52.44
+      ],
+      "value": "DELTA INDUSTRIES AG\nDELTA INDUSTRIES AG\n507 EXPORT ZONE\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        296.22,
+        535.75,
+        52.44
+      ],
+      "value": "INTERNATIONAL INDUSTRIES CO.\nINTERNATIONAL INDUSTRIES CO.\n546 MAIN BOULEVARD\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        93.35,
+        357.17,
+        68.94,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        231.78,
+        357.17,
+        64.44,
+        28.35
+      ],
+      "value": "LC/HSBC/0989/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        365.72,
+        357.17,
+        64.44,
+        28.35
+      ],
+      "value": "MSCUNSXGA016767225",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        490.66,
+        357.17,
+        73.44,
+        28.35
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        97.85,
+        385.51,
+        64.44,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        209.28,
+        385.51,
+        86.94,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "MEDICAL DEVICES AND EQUIPMENT",
+      "actual": "HEALTHCARE EQUIPMENT AND SUPPLIES"
+    }
+  ]
+}

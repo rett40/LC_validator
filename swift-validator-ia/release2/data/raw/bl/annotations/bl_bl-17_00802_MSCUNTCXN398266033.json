@@ -1,0 +1,409 @@
+{
+  "id": 802,
+  "filename": "bl_bl-17_00802_MSCUNTCXN398266033.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNTCXN398266033",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTCXN398266033",
+    "shipper_name": "DELTA LOGISTICS GMBH",
+    "shipper_address": "335 PORT ACCESS ROAD",
+    "consignee_name": "DELTA SOLUTIONS LLC",
+    "consignee_address": "614 PORT ACCESS ROAD",
+    "notify_party_name": "EURO COMMERCE CO.",
+    "notify_party_address": "804 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE55E",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "14 MAY 2026",
+    "eta": "14 JUN 2026",
+    "container_number": "CMAU6659861",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "545GFGFB",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "376 DRUMS",
+    "gross_weight_kg": "40,707.72",
+    "measurement": "103.498 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU6659861",
+        "seal_number": "545GFGFB",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "376",
+          "type": "DRUMS",
+          "description": "376 DRUMS"
+        },
+        "gross_weight_kg": "27,702.15",
+        "net_weight_kg": "25,037.53",
+        "measurement": "48.159 CBM"
+      },
+      {
+        "container_number": "MAEU5254618",
+        "seal_number": "5BDC230F",
+        "container_type": "40' REEFER",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "285",
+          "type": "BOXES",
+          "description": "285 BOXES"
+        },
+        "gross_weight_kg": "13,005.57",
+        "net_weight_kg": "9,188.87",
+        "measurement": "55.339 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "30 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNTCXN398266033",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "DELTA LOGISTICS GMBH\n335 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "DELTA SOLUTIONS LLC\n614 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        134.65,
+        134.65,
+        79.37
+      ],
+      "value": "EURO COMMERCE CO.\n804 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "AE55E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        239.53,
+        134.65,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        273.54,
+        134.65,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU6659861",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "545GFGFB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '376', 'type': 'DRUMS', 'description': '376 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "27,702.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "48.159 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU5254618",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "5BDC230F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '285', 'type': 'BOXES', 'description': '285 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "13,005.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "55.339 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        428.03,
+        134.65,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        456.38,
+        134.65,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

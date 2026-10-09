@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00124",
+  "filename": "inv_inv-04_00124.pdf",
+  "layout_id": "INV-04",
+  "bl_id": 124,
+  "fields": {
+    "invoice_number": "INV-2026-00124",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0124/2026",
+    "bl_reference": "MSCUNLHST270143405",
+    "seller_name": "UNITED SUPPLY CHAIN CORP",
+    "buyer_name": "APEX SOLUTIONS S.A.",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8838",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "FRESH FRUITS AND VEGETABLES",
+    "hs_code": "8428.90",
+    "quantity": 311,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "23,959.15",
+    "unit_price": 273.78,
+    "currency": "EUR",
+    "total_amount": 85145.58,
+    "incoterm": "FOB",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        319.82,
+        18.43,
+        244.28,
+        70.87
+      ],
+      "value": "INV-2026-00124",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        84.16,
+        97.8,
+        118.04,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        272.66,
+        97.8,
+        110.49,
+        28.35
+      ],
+      "value": "LC/BARCLAYS/0124/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        453.17,
+        97.8,
+        110.93,
+        28.35
+      ],
+      "value": "MSCUNLHST270143405",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        95.72,
+        126.14,
+        106.48,
+        28.35
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        290.88,
+        126.14,
+        92.26,
+        28.35
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        460.26,
+        126.14,
+        103.83,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        162.99,
+        314.84,
+        56.69
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        379.0,
+        162.99,
+        71.1,
+        28.35
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        473.0,
+        162.99,
+        91.1,
+        28.35
+      ],
+      "value": 311,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        361.22,
+        191.34,
+        88.88,
+        28.35
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        501.88,
+        191.34,
+        62.21,
+        28.35
+      ],
+      "value": "273.78 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        225.35,
+        244.28,
+        25.51
+      ],
+      "value": "85145.58 EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        259.37,
+        542.83,
+        52.44
+      ],
+      "value": "UNITED SUPPLY CHAIN CORP\nUNITED SUPPLY CHAIN CORP\n980 MAIN BOULEVARD\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        311.81,
+        542.83,
+        52.44
+      ],
+      "value": "APEX SOLUTIONS S.A.\nAPEX SOLUTIONS S.A.\n576 COMMERCE STREET\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        372.76,
+        122.14,
+        19.84
+      ],
+      "value": "23,959.15 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        392.6,
+        122.14,
+        19.84
+      ],
+      "value": "85145.58 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        96.6,
+        420.94,
+        105.6,
+        25.51
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        251.32,
+        420.94,
+        131.83,
+        25.51
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "BUSAN, SOUTH KOREA",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

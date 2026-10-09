@@ -1,0 +1,500 @@
+{
+  "id": 96,
+  "filename": "bl_bl-03_00096_MSCUNEUNW843681861.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNEUNW843681861",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNEUNW843681861",
+    "shipper_name": "UNITED ENTERPRISES AG",
+    "shipper_address": "796 PORT ACCESS ROAD",
+    "consignee_name": "DELTA COMMERCE LLC",
+    "consignee_address": "371 MAIN STREET",
+    "notify_party_name": "ATLANTIC TRADING CO.",
+    "notify_party_address": "486 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0651W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "12 JUN 2026",
+    "eta": "15 JUL 2026",
+    "container_number": "CMAU2189923",
+    "container_type": "45'HC",
+    "seal_number": "BC94GA9G",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "444 CRATES",
+    "gross_weight_kg": "48,308.35",
+    "measurement": "114.523 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU2189923",
+        "seal_number": "BC94GA9G",
+        "container_type": "45'HC",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "444",
+          "type": "CRATES",
+          "description": "444 CRATES"
+        },
+        "gross_weight_kg": "25,961.32",
+        "net_weight_kg": "23,239.61",
+        "measurement": "25.088 CBM"
+      },
+      {
+        "container_number": "CMAU3005812",
+        "seal_number": "0C1905H3",
+        "container_type": "20' DRY",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "90",
+          "type": "PALLETS",
+          "description": "90 PALLETS"
+        },
+        "gross_weight_kg": "15,967.01",
+        "net_weight_kg": "12,779.16",
+        "measurement": "33.765 CBM"
+      },
+      {
+        "container_number": "CMAU5086854",
+        "seal_number": "814HC919",
+        "container_type": "40' DRY / GP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "319",
+          "type": "CRATES",
+          "description": "319 CRATES"
+        },
+        "gross_weight_kg": "6,380.02",
+        "net_weight_kg": "3,095.11",
+        "measurement": "55.670 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        360.85,
+        85.89,
+        213.17,
+        31.75
+      ],
+      "value": "MSCUNEUNW843681861",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        43.1,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        176.33,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "0651W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        309.56,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        442.79,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        43.1,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        176.33,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        309.56,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        442.79,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "15 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "UNITED ENTERPRISES AG\n796 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        176.33,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "DELTA COMMERCE LLC\n371 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        309.56,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "ATLANTIC TRADING CO.\n486 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        338.74,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU2189923",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "BC94GA9G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        338.74,
+        42.63,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        338.74,
+        133.23,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '444', 'type': 'CRATES', 'description': '444 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "25,961.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "25.088 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        375.59,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU3005812",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "0C1905H3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        375.59,
+        42.63,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        375.59,
+        133.23,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '90', 'type': 'PALLETS', 'description': '90 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "15,967.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "33.765 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        412.44,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU5086854",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "814HC919",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        412.44,
+        42.63,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        412.44,
+        133.23,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '319', 'type': 'CRATES', 'description': '319 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "6,380.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "55.670 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        43.1,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        176.33,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        309.56,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        442.79,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        43.1,
+        510.24,
+        129.23,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

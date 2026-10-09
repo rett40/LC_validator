@@ -1,0 +1,409 @@
+{
+  "id": 929,
+  "filename": "bl_bl-19_00929_MSCUNZSFH888382982.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNZSFH888382982",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNZSFH888382982",
+    "shipper_name": "TRANS GROUP AG",
+    "shipper_address": "151 MAIN STREET",
+    "consignee_name": "FIRST INDUSTRIES GMBH",
+    "consignee_address": "952 HARBOR ROAD",
+    "notify_party_name": "EURO PARTNERS LTD",
+    "notify_party_address": "956 PORT ACCESS ROAD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE73E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "31 MAY 2026",
+    "eta": "30 JUN 2026",
+    "container_number": "TCKU7948846",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "BHF2EBBB",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "26 CRATES",
+    "gross_weight_kg": "26,396.55",
+    "measurement": "81.464 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU7948846",
+        "seal_number": "BHF2EBBB",
+        "container_type": "20' OPEN TOP",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "26",
+          "type": "CRATES",
+          "description": "26 CRATES"
+        },
+        "gross_weight_kg": "6,308.79",
+        "net_weight_kg": "4,042.44",
+        "measurement": "54.930 CBM"
+      },
+      {
+        "container_number": "CMAU7205639",
+        "seal_number": "5A5G3541",
+        "container_type": "20' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "45",
+          "type": "CARTONS",
+          "description": "45 CARTONS"
+        },
+        "gross_weight_kg": "20,087.76",
+        "net_weight_kg": "16,125.81",
+        "measurement": "26.534 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNZSFH888382982",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS GROUP AG\n151 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST INDUSTRIES GMBH\n952 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "EURO PARTNERS LTD\n956 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "AE73E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "30 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        368.5,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU7948846",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "BHF2EBBB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        368.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        368.5,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '26', 'type': 'CRATES', 'description': '26 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "6,308.79",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "54.930 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        405.35,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7205639",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "5A5G3541",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        405.35,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        405.35,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '45', 'type': 'CARTONS', 'description': '45 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "20,087.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "26.534 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        496.06,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        496.06,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": 217,
+  "filename": "bl_bl-06_00217_MSCUNHFHU915044815.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNHFHU915044815",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNHFHU915044815",
+    "shipper_name": "TRANS TRADING LLC",
+    "shipper_address": "917 INDUSTRIAL AVENUE",
+    "consignee_name": "PACIFIC ENTERPRISES LLC",
+    "consignee_address": "492 MAIN STREET",
+    "notify_party_name": "ATLANTIC COMMERCE CO.",
+    "notify_party_address": "964 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0920W",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "27 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "MAEU6852853",
+    "container_type": "20' DRY / GP",
+    "seal_number": "AFBH6BA7",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "444 CARTONS",
+    "gross_weight_kg": "51,500.74",
+    "measurement": "83.971 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU6852853",
+        "seal_number": "AFBH6BA7",
+        "container_type": "20' DRY / GP",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "444",
+          "type": "CARTONS",
+          "description": "444 CARTONS"
+        },
+        "gross_weight_kg": "25,534.12",
+        "net_weight_kg": "23,221.04",
+        "measurement": "27.073 CBM"
+      },
+      {
+        "container_number": "TRHU6472865",
+        "seal_number": "E1BF67E0",
+        "container_type": "40' HC",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "378",
+          "type": "PACKAGES",
+          "description": "378 PACKAGES"
+        },
+        "gross_weight_kg": "25,966.62",
+        "net_weight_kg": "23,212.50",
+        "measurement": "56.898 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNHFHU915044815",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "917 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "TRANS TRADING LLC\n917 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "492 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "PACIFIC ENTERPRISES LLC\n492 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "964 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "ATLANTIC COMMERCE CO.\n964 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        99.83,
+        219.69,
+        115.13,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        274.56,
+        219.69,
+        119.93,
+        34.02
+      ],
+      "value": "0920W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        449.29,
+        219.69,
+        124.73,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        104.63,
+        253.7,
+        110.33,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        298.56,
+        253.7,
+        95.93,
+        34.02
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        502.09,
+        253.7,
+        71.93,
+        34.02
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.23,
+        287.72,
+        100.73,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        284.16,
+        287.72,
+        110.33,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6852853",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "AFBH6BA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '444', 'type': 'CARTONS', 'description': '444 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "25,534.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "27.073 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU6472865",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "E1BF67E0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '378', 'type': 'PACKAGES', 'description': '378 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "25,966.62",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "56.898 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        119.03,
+        428.03,
+        95.93,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        308.16,
+        428.03,
+        86.33,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        468.49,
+        428.03,
+        105.53,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        99.83,
+        456.38,
+        115.13,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        317.76,
+        456.38,
+        76.73,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

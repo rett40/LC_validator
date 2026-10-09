@@ -1,0 +1,351 @@
+{
+  "id": 687,
+  "filename": "bl_bl-18_00687_MSCUNSBPZ165172942.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNSBPZ165172942",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNSBPZ165172942",
+    "shipper_name": "UNITED SHIPPING LTD",
+    "shipper_address": "237 TRADE PARK",
+    "consignee_name": "CENTRAL ENTERPRISES CORP",
+    "consignee_address": "368 PORT ACCESS ROAD",
+    "notify_party_name": "PREMIER LOGISTICS BV",
+    "notify_party_address": "976 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE90N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "25 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "TRHU8034683",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "3C0G24HD",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "127 DRUMS",
+    "gross_weight_kg": "9,391.06",
+    "measurement": "53.314 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU8034683",
+        "seal_number": "3C0G24HD",
+        "container_type": "40' FLAT RACK",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "127",
+          "type": "DRUMS",
+          "description": "127 DRUMS"
+        },
+        "gross_weight_kg": "9,391.06",
+        "net_weight_kg": "7,252.68",
+        "measurement": "53.314 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSBPZ165172942",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU8034683",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "3C0G24HD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '127', 'type': 'DRUMS', 'description': '127 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "9,391.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "53.314 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "237 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "UNITED SHIPPING LTD\n237 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "368 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL ENTERPRISES CORP\n368 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "976 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER LOGISTICS BV\n976 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        453.54,
+        248.62,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        381.85,
+        453.54,
+        192.16,
+        34.02
+      ],
+      "value": "AE90N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        115.67,
+        487.56,
+        189.05,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        396.52,
+        487.56,
+        177.5,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        521.57,
+        192.6,
+        34.02
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.53,
+        521.57,
+        181.48,
+        34.02
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        555.59,
+        189.95,
+        34.02
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        326.73,
+        555.59,
+        247.28,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        598.11,
+        186.84,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        386.73,
+        598.11,
+        187.28,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        626.46,
+        227.28,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        353.4,
+        626.46,
+        220.61,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        654.8,
+        202.83,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

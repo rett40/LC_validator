@@ -1,0 +1,409 @@
+{
+  "id": 180,
+  "filename": "bl_bl-05_00180_MSCUNJCBT823295772.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNJCBT823295772",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNJCBT823295772",
+    "shipper_name": "PREMIER SUPPLY CHAIN INC",
+    "shipper_address": "108 INDUSTRIAL AVENUE",
+    "consignee_name": "PREMIER SHIPPING S.A.",
+    "consignee_address": "239 MAIN STREET",
+    "notify_party_name": "INTERNATIONAL SUPPLY CHAIN AG",
+    "notify_party_address": "987 TRADE PARK",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-640",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "22 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "HLCU5125198",
+    "container_type": "20' DRY / GP",
+    "seal_number": "0H682911",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "435 DRUMS",
+    "gross_weight_kg": "20,018.40",
+    "measurement": "80.003 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5125198",
+        "seal_number": "0H682911",
+        "container_type": "20' DRY / GP",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "435",
+          "type": "DRUMS",
+          "description": "435 DRUMS"
+        },
+        "gross_weight_kg": "11,159.39",
+        "net_weight_kg": "7,350.27",
+        "measurement": "54.161 CBM"
+      },
+      {
+        "container_number": "MSCU1100546",
+        "seal_number": "C8134260",
+        "container_type": "40'RF",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "427",
+          "type": "PALLETS",
+          "description": "427 PALLETS"
+        },
+        "gross_weight_kg": "8,859.01",
+        "net_weight_kg": "6,616.76",
+        "measurement": "25.842 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNJCBT823295772",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "PREMIER SUPPLY CHAIN INC\n108 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "PREMIER SHIPPING S.A.\n239 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN AG\n987 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "HLCU5125198",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "0H682911",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '435', 'type': 'DRUMS', 'description': '435 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "11,159.39",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "54.161 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU1100546",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "C8134260",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '427', 'type': 'PALLETS', 'description': '427 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "8,859.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "25.842 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        335.91,
+        264.33,
+        24.09
+      ],
+      "value": "E-640",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        369.92,
+        264.33,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        403.94,
+        264.33,
+        24.09
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        437.95,
+        264.33,
+        24.09
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        487.56,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        515.91,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        544.25,
+        264.33,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

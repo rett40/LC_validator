@@ -1,0 +1,444 @@
+{
+  "id": 10,
+  "filename": "bl_bl-11_00010_MSCUNMMFS977078201.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNMMFS977078201",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNMMFS977078201",
+    "shipper": {
+      "name": "APEX SUPPLY CHAIN S.A.",
+      "address": "183 TRADE PARK",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "APEX SUPPLY CHAIN S.A.\n183 TRADE PARK\nBUSAN, SOUTH KOREA 48940"
+    },
+    "consignee": {
+      "name": "UNITED GROUP AG",
+      "address": "694 COMMERCE BOULEVARD",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "UNITED GROUP AG\n694 COMMERCE BOULEVARD\nSHANGHAI, CHINA 200120"
+    },
+    "notify_party": {
+      "name": "CENTRAL GROUP PLC",
+      "address": "268 HARBOR ROAD",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "CENTRAL GROUP PLC\n268 HARBOR ROAD\nDUBAI, UAE 00000"
+    },
+    "vessel": "MSC OSCAR",
+    "voyage": "FE256N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "09 JUN 2026",
+    "eta": "29 JUN 2026",
+    "issue_date": "22 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "OOLU2250215",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "9658EDAD",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": {
+      "count": "491",
+      "type": "CRATES",
+      "description": "491 CRATES"
+    },
+    "gross_weight_kg": "37,232.09",
+    "net_weight_kg": "30,037.95",
+    "gross_weight_lbs": "82,082.61",
+    "measurement": "97.189 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU2250215",
+        "seal_number": "9658EDAD",
+        "container_type": "40' FLAT RACK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "491",
+          "type": "CRATES",
+          "description": "491 CRATES"
+        },
+        "gross_weight_kg": "15,700.38",
+        "net_weight_kg": "11,844.11",
+        "measurement": "40.960 CBM"
+      },
+      {
+        "container_number": "EISU4330209",
+        "seal_number": "F1857F3H",
+        "container_type": "20' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "174",
+          "type": "PACKAGES",
+          "description": "174 PACKAGES"
+        },
+        "gross_weight_kg": "21,531.71",
+        "net_weight_kg": "18,193.84",
+        "measurement": "56.229 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "incoterm": "FCA",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "OOLU2250215\n9658EDAD\nLONG BEACH"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNMMFS977078201",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "FE256N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "09 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX SUPPLY CHAIN S.A.\n183 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED GROUP AG\n694 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL GROUP PLC\n268 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2250215",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "9658EDAD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'CRATES', 'description': '491 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "15,700.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "40.960 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4330209",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "F1857F3H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '174', 'type': 'PACKAGES', 'description': '174 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "21,531.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "56.229 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

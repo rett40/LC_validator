@@ -1,0 +1,417 @@
+{
+  "id": 9,
+  "filename": "bl_bl-01_00009_MSCUNFWCY619274444.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNFWCY619274444",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNFWCY619274444",
+    "shipper_name": "TRANS SUPPLY CHAIN S.A.",
+    "shipper_address": "94 HARBOR ROAD",
+    "consignee_name": "APEX SUPPLY CHAIN BV",
+    "consignee_address": "784 PORT ACCESS ROAD",
+    "notify_party_name": "EURO SUPPLY CHAIN LTD",
+    "notify_party_address": "482 COMMERCE BOULEVARD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0605W",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "22 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "TCKU9443116",
+    "container_type": "20'TK",
+    "seal_number": "4F9610FF",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "335 CRATES",
+    "gross_weight_kg": "33,147.58",
+    "measurement": "67.002 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU9443116",
+        "seal_number": "4F9610FF",
+        "container_type": "20'TK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "335",
+          "type": "CRATES",
+          "description": "335 CRATES"
+        },
+        "gross_weight_kg": "9,174.25",
+        "net_weight_kg": "6,003.59",
+        "measurement": "39.400 CBM"
+      },
+      {
+        "container_number": "TCKU4137673",
+        "seal_number": "ECF70A36",
+        "container_type": "45'HC",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "455",
+          "type": "DRUMS",
+          "description": "455 DRUMS"
+        },
+        "gross_weight_kg": "23,973.33",
+        "net_weight_kg": "21,971.02",
+        "measurement": "27.602 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNFWCY619274444",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "TRANS SUPPLY CHAIN S.A.\n94 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "APEX SUPPLY CHAIN BV\n784 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "EURO SUPPLY CHAIN LTD\n482 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "0605W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "TCKU9443116",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "4F9610FF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "335",
+        "type": "CRATES",
+        "description": "335 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "9,174.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "39.400 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "TCKU4137673",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "ECF70A36",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "455",
+        "type": "DRUMS",
+        "description": "455 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "23,973.33",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "27.602 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

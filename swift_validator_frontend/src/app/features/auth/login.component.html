@@ -1,0 +1,92 @@
+<div class="login-layout">
+  <!-- Left panel -->
+  <div class="login-brand">
+    <div class="brand-content">
+      <div class="brand-logo"><i class="pi pi-verified"></i></div>
+      <h1><span class="gold">LC</span> Validator</h1>
+      <p>Plateforme de validation des crédits documentaires MT700 et de la cohérence des documents commerciaux</p>
+
+      <ul class="brand-features">
+        <li><i class="pi pi-check-circle"></i> Conformité UCP 600 / ISBP 745 du crédit documentaire</li>
+        <li><i class="pi pi-check-circle"></i> Vérification de cohérence des documents commerciaux</li>
+        <li><i class="pi pi-check-circle"></i> Contrôle géographique et réglementaire</li>
+        <li><i class="pi pi-check-circle"></i> Décision documentée et rapport téléchargeable</li>
+      </ul>
+
+      <div class="brand-stats">
+        <div class="bs-item"><strong>98%</strong><span>Précision UCP</span></div>
+        <div class="bs-item"><strong>&lt; 2s</strong><span>Analyse</span></div>
+        <div class="bs-item"><strong>10+</strong><span>Axes contrôle</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right panel -->
+  <div class="login-form-panel">
+    <div class="login-card">
+      <div class="lc-header">
+        <div class="lc-icon"><i class="pi pi-lock"></i></div>
+        <h2>Connexion</h2>
+        <p>Accédez à votre espace de validation</p>
+      </div>
+
+      <form class="lc-form" (ngSubmit)="onSubmit()">
+        <div class="field">
+          <label for="username">Identifiant</label>
+          <div class="input-wrap">
+            <i class="pi pi-user field-icon"></i>
+            <input
+              pInputText
+              id="username"
+              type="text"
+              [(ngModel)]="username"
+              name="username"
+              placeholder="Votre identifiant"
+              autocomplete="username"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="password">Mot de passe</label>
+          <div class="input-wrap">
+            <i class="pi pi-key field-icon"></i>
+            <input
+              pInputText
+              id="password"
+              [type]="showPwd ? 'text' : 'password'"
+              [(ngModel)]="password"
+              name="password"
+              placeholder="Votre mot de passe"
+              autocomplete="current-password"
+            />
+            <button type="button" class="pwd-toggle" (click)="showPwd = !showPwd">
+              <i class="pi" [class.pi-eye]="!showPwd" [class.pi-eye-slash]="showPwd"></i>
+            </button>
+          </div>
+        </div>
+
+        @if (error) {
+          <div class="error-banner">
+            <i class="pi pi-exclamation-triangle"></i>
+            {{ error }}
+          </div>
+        }
+
+        <button
+          pButton
+          type="submit"
+          label="Se connecter"
+          icon="pi pi-sign-in"
+          class="submit-btn"
+          [loading]="loading"
+          [disabled]="!username || !password || loading"
+        ></button>
+      </form>
+
+      <div class="lc-footer">
+        <a routerLink="/home" class="back-link"><i class="pi pi-arrow-left"></i> Retour à l'accueil</a>
+      </div>
+    </div>
+  </div>
+</div>

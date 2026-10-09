@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-01114",
+  "filename": "inv_inv-28_01114.pdf",
+  "layout_id": "INV-28",
+  "bl_id": 1114,
+  "fields": {
+    "invoice_number": "INV-2026-01114",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/SCB/1114/2026",
+    "bl_reference": "MSCUNNVWZ424350915",
+    "seller_name": "GLOBAL LOGISTICS BV",
+    "buyer_name": "PACIFIC PARTNERS CO.",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE194N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "LITHIUM-ION BATTERIES",
+    "hs_code": "8541.40",
+    "quantity": 491,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "10,621.56",
+    "unit_price": 76.39,
+    "currency": "EUR",
+    "total_amount": 37507.49,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        70.02,
+        217.13,
+        27.78
+      ],
+      "value": "INV-2026-01114",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        202.2,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        144.57,
+        542.83,
+        52.44
+      ],
+      "value": "GLOBAL LOGISTICS BV\nGLOBAL LOGISTICS BV\n438 HARBOR ROAD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        197.01,
+        542.83,
+        52.44
+      ],
+      "value": "PACIFIC PARTNERS CO.\nPACIFIC PARTNERS CO.\n431 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        263.62,
+        122.14,
+        19.84
+      ],
+      "value": "10,621.56 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        283.46,
+        122.14,
+        19.84
+      ],
+      "value": "37507.49 EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        318.9,
+        314.84,
+        56.69
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        336.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": "8541.40",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        450.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": 491,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        336.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        450.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "76.39 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        381.26,
+        244.28,
+        25.51
+      ],
+      "value": "37507.49 EUR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        21.26,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        156.97,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "LC/SCB/1114/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "MSCUNNVWZ424350915",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        428.39,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        156.97,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

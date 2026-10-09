@@ -1,0 +1,409 @@
+{
+  "id": 559,
+  "filename": "bl_bl-14_00559_MSCUNUNTW501768551.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNUNTW501768551",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUNTW501768551",
+    "shipper_name": "EURO INDUSTRIES LLC",
+    "shipper_address": "353 TRADE PARK",
+    "consignee_name": "UNITED INDUSTRIES LTD",
+    "consignee_address": "708 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SOLUTIONS GMBH",
+    "notify_party_address": "593 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-364",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "29 MAY 2026",
+    "eta": "28 JUN 2026",
+    "container_number": "HLCU2355308",
+    "container_type": "20'RF",
+    "seal_number": "3208EC1C",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "285 CRATES",
+    "gross_weight_kg": "37,842.00",
+    "measurement": "77.726 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU2355308",
+        "seal_number": "3208EC1C",
+        "container_type": "20'RF",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "285",
+          "type": "CRATES",
+          "description": "285 CRATES"
+        },
+        "gross_weight_kg": "11,874.84",
+        "net_weight_kg": "9,337.60",
+        "measurement": "52.103 CBM"
+      },
+      {
+        "container_number": "MSCU1410187",
+        "seal_number": "9E710FE9",
+        "container_type": "20' OPEN TOP",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "187",
+          "type": "CRATES",
+          "description": "187 CRATES"
+        },
+        "gross_weight_kg": "25,967.16",
+        "net_weight_kg": "23,120.12",
+        "measurement": "25.623 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNUNTW501768551",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU2355308",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "3208EC1C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '285', 'type': 'CRATES', 'description': '285 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "11,874.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "52.103 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU1410187",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "9E710FE9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '187', 'type': 'CRATES', 'description': '187 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "25,967.16",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "25.623 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "E-364",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        228.19,
+        173.86,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        262.2,
+        173.86,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        296.22,
+        173.86,
+        24.09
+      ],
+      "value": "28 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        344.41,
+        298.51,
+        94.96
+      ],
+      "value": "EURO INDUSTRIES LLC\n353 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        342.99,
+        215.06,
+        41.1
+      ],
+      "value": "UNITED INDUSTRIES LTD\n708 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        398.27,
+        215.06,
+        41.1
+      ],
+      "value": "PACIFIC SOLUTIONS GMBH\n593 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        457.8,
+        173.86,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        486.14,
+        173.86,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

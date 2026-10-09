@@ -1,0 +1,500 @@
+{
+  "id": 811,
+  "filename": "bl_bl-21_00811_MSCUNKDVH920481725.pdf",
+  "layout_id": "BL-21",
+  "bl_number": "MSCUNKDVH920481725",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNKDVH920481725",
+    "shipper_name": "CENTRAL INDUSTRIES LTD",
+    "shipper_address": "26 MAIN STREET",
+    "consignee_name": "EURO SOLUTIONS GMBH",
+    "consignee_address": "296 INDUSTRIAL AVENUE",
+    "notify_party_name": "FIRST SHIPPING INC",
+    "notify_party_address": "986 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-606",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "13 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "OOLU7141088",
+    "container_type": "40' DRY / GP",
+    "seal_number": "6EE698C1",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "257 CARTONS",
+    "gross_weight_kg": "41,790.45",
+    "measurement": "95.593 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU7141088",
+        "seal_number": "6EE698C1",
+        "container_type": "40' DRY / GP",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "257",
+          "type": "CARTONS",
+          "description": "257 CARTONS"
+        },
+        "gross_weight_kg": "16,505.97",
+        "net_weight_kg": "13,518.96",
+        "measurement": "36.151 CBM"
+      },
+      {
+        "container_number": "CMAU7933356",
+        "seal_number": "58555EBE",
+        "container_type": "20' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "295",
+          "type": "PACKAGES",
+          "description": "295 PACKAGES"
+        },
+        "gross_weight_kg": "18,139.27",
+        "net_weight_kg": "15,524.59",
+        "measurement": "20.148 CBM"
+      },
+      {
+        "container_number": "MAEU3211874",
+        "seal_number": "77427H44",
+        "container_type": "20'RF",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "122",
+          "type": "PACKAGES",
+          "description": "122 PACKAGES"
+        },
+        "gross_weight_kg": "7,145.21",
+        "net_weight_kg": "4,301.40",
+        "measurement": "39.294 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        355.75,
+        73.13,
+        218.27,
+        31.75
+      ],
+      "value": "MSCUNKDVH920481725",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "CENTRAL INDUSTRIES LTD\n26 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "EURO SOLUTIONS GMBH\n296 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        131.81,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST SHIPPING INC\n986 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        242.36,
+        92.76,
+        36.85
+      ],
+      "value": "OOLU7141088",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "6EE698C1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        242.36,
+        43.65,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        242.36,
+        136.42,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        242.36,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '257', 'type': 'CARTONS', 'description': '257 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "16,505.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        242.36,
+        81.85,
+        36.85
+      ],
+      "value": "36.151 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        279.21,
+        92.76,
+        36.85
+      ],
+      "value": "CMAU7933356",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "58555EBE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        279.21,
+        43.65,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        279.21,
+        136.42,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        279.21,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '295', 'type': 'PACKAGES', 'description': '295 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "18,139.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        279.21,
+        81.85,
+        36.85
+      ],
+      "value": "20.148 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        316.06,
+        92.76,
+        36.85
+      ],
+      "value": "MAEU3211874",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        316.06,
+        54.57,
+        36.85
+      ],
+      "value": "77427H44",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        316.06,
+        43.65,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        316.06,
+        136.42,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        316.06,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '122', 'type': 'PACKAGES', 'description': '122 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        316.06,
+        81.85,
+        36.85
+      ],
+      "value": "7,145.21",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        316.06,
+        81.85,
+        36.85
+      ],
+      "value": "39.294 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        378.43,
+        181.89,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        378.43,
+        181.89,
+        24.09
+      ],
+      "value": "E-606",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        378.43,
+        181.89,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        412.44,
+        181.89,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        412.44,
+        181.89,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        412.44,
+        181.89,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        446.46,
+        181.89,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        446.46,
+        181.89,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        496.06,
+        181.89,
+        18.43
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        496.06,
+        181.89,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        496.06,
+        181.89,
+        18.43
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        524.41,
+        181.89,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        524.41,
+        181.89,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

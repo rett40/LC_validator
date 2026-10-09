@@ -1,0 +1,444 @@
+{
+  "id": 7,
+  "filename": "bl_bl-11_00007_MSCUNAPRX294596672.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNAPRX294596672",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNAPRX294596672",
+    "shipper": {
+      "name": "FIRST TRADING INC",
+      "address": "677 TRADE PARK",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "FIRST TRADING INC\n677 TRADE PARK\nSINGAPORE, SINGAPORE 018989"
+    },
+    "consignee": {
+      "name": "TRANS COMMERCE INC",
+      "address": "396 PORT ACCESS ROAD",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "TRANS COMMERCE INC\n396 PORT ACCESS ROAD\nBARCELONA, SPAIN 08003"
+    },
+    "notify_party": {
+      "name": "UNITED TRADING BV",
+      "address": "310 INDUSTRIAL AVENUE",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "UNITED TRADING BV\n310 INDUSTRIAL AVENUE\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE87E",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CY",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "25 JUN 2026",
+    "eta": "22 JUL 2026",
+    "issue_date": "17 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "container_number": "HLCU7311917",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "8BD497C9",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": {
+      "count": "359",
+      "type": "BOXES",
+      "description": "359 BOXES"
+    },
+    "gross_weight_kg": "48,625.93",
+    "net_weight_kg": "41,279.40",
+    "gross_weight_lbs": "107,201.70",
+    "measurement": "45.843 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7311917",
+        "seal_number": "8BD497C9",
+        "container_type": "20' FLAT RACK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "359",
+          "type": "BOXES",
+          "description": "359 BOXES"
+        },
+        "gross_weight_kg": "23,155.26",
+        "net_weight_kg": "19,408.08",
+        "measurement": "20.123 CBM"
+      },
+      {
+        "container_number": "HLCU6144538",
+        "seal_number": "12F34520",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "93",
+          "type": "DRUMS",
+          "description": "93 DRUMS"
+        },
+        "gross_weight_kg": "25,470.67",
+        "net_weight_kg": "21,871.32",
+        "measurement": "25.720 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "PREPAID",
+    "incoterm": "FOB",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "HLCU7311917\n8BD497C9\nNEW YORK"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNAPRX294596672",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "AE87E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "HONG KONG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "22 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST TRADING INC\n677 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS COMMERCE INC\n396 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED TRADING BV\n310 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7311917",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "8BD497C9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '359', 'type': 'BOXES', 'description': '359 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "23,155.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "20.123 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU6144538",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "12F34520",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '93', 'type': 'DRUMS', 'description': '93 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "25,470.67",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "25.720 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

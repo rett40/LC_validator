@@ -1,0 +1,1219 @@
+<div class="app-shell">
+  <header class="topnav">
+    <div class="nav-brand">
+      <span class="logo-icon">◈</span>
+      <div>
+        <div class="brand-title">SWIFT Analyser</div>
+        <div class="brand-subtitle">Dashboard de contrôle documentaire</div>
+      </div>
+    </div>
+
+    <div class="nav-actions">
+      <button class="nav-link" [class.active]="!showHistory" (click)="showHistory = false">Analyse</button>
+      <button class="nav-link" [class.active]="showHistory" (click)="showHistory = true; loadHistory()">Historique</button>
+      <button class="nav-link" (click)="logout()">Déconnexion</button>
+    </div>
+  </header>
+
+  <section class="stats-strip" *ngIf="stats && !showHistory">
+    <article class="stat-card">
+      <span class="stat-label">Total</span>
+      <strong>{{ stats.totalAnalyses }}</strong>
+    </article>
+    <article class="stat-card">
+      <span class="stat-label">Critiques</span>
+      <strong class="red">{{ stats.criticalCount }}</strong>
+    </article>
+    <article class="stat-card">
+      <span class="stat-label">Élevés</span>
+      <strong class="orange">{{ stats.highCount }}</strong>
+    </article>
+    <article class="stat-card">
+      <span class="stat-label">Dernières 24h</span>
+      <strong>{{ stats.last24hCount }}</strong>
+    </article>
+    <article class="stat-card">
+      <span class="stat-label">Moyenne UCP</span>
+      <strong class="blue">{{ stats.avgUcpScore | number:'1.0-0' }}%</strong>
+    </article>
+  </section>
+
+  <main class="main-content">
+    <!-- ── HISTORY VIEW ─────────────────────────────────────── -->
+    <section *ngIf="showHistory" class="history-view">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Historique</p>
+          <h2>Analyses récentes</h2>
+        </div>
+      </div>
+
+      <div class="loading-state" *ngIf="historyLoading()">Chargement…</div>
+
+      <div class="empty-state" *ngIf="!historyLoading() && history().length === 0">
+        Aucune analyse disponible.
+      </div>
+
+      <div class="history-grid" *ngIf="!historyLoading() && history().length > 0">
+        <div class="history-card-wrapper"
+             *ngFor="let item of history() | slice:0:maxHistoryItems; trackBy: trackByAnalysisId">
+
+          <!-- Carte principale (clic = charger l'analyse) -->
+          <button class="history-card" (click)="loadFromHistory(item)">
+            <div class="history-card-top">
+              <span class="mini-pill blue">{{ item.swiftType || 'SWIFT' }}</span>
+              <span class="mini-pill" [class]="riskColor(item.riskLevel)">{{ item.riskLevel }}</span>
+              <!-- Badge type de validation -->
+              <span class="mini-pill" [class]="item.validationType === 'FULL_VALIDATION' ? 'purple' : 'soft'">
+                {{ item.validationType === 'FULL_VALIDATION' ? 'Complet' : 'MT700' }}
+              </span>
+            </div>
+            <strong>{{ item.lcNumber || 'Sans référence' }}</strong>
+            <span class="muted" style="font-size:12px">{{ formatDate(item.createdAt) }}</span>
+            <div class="history-card-body">
+              <span>{{ item.applicant || 'Applicant non détecté' }}</span>
+              <span>{{ item.beneficiary || 'Beneficiary non détecté' }}</span>
+            </div>
+            <div class="history-card-footer">
+              <span>{{ formatAmount(item.amount, item.currency) }}</span>
+              <span>{{ item.ucpComplianceScore || 0 }}/100</span>
+            </div>
+          </button>
+
+          <!-- Zone rapports PDF -->
+          <div class="history-card-reports">
+            <ng-container *ngIf="item.reports && item.reports.length > 0; else noReports">
+              <a *ngFor="let r of item.reports"
+                 [href]="r.downloadUrl"
+                 target="_blank" rel="noopener noreferrer"
+                 class="btn-report-dl"
+                 [class]="r.reportType === 'FULL_REPORT' ? 'purple' : 'blue'"
+                 (click)="$event.stopPropagation()">
+                ↓ {{ r.reportType === 'MT700_REPORT' ? 'Rapport MT700' : 'Rapport Complet' }}
+              </a>
+            </ng-container>
+            <ng-template #noReports>
+              <button class="btn-report-gen"
+                      (click)="$event.stopPropagation(); generateReport(item, 'MT700_REPORT')"
+                      [disabled]="item.generatingReport">
+                {{ item.generatingReport ? '…' : '+ Rapport MT700' }}
+              </button>
+            </ng-template>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ANALYSIS VIEW ────────────────────────────────────── -->
+    <section *ngIf="!showHistory" class="analysis-view">
+
+      <!-- Upload panel -->
+      <section class="upload-panel">
+        <div>
+          <p class="eyebrow">Exécution</p>
+          <h2>Résultat d'analyse</h2>
+          <p class="muted" style="font-size:13px; margin-top:4px">Déposez un message SWIFT, un PDF ou une image pour lancer le pipeline complet.</p>
+        </div>
+
+        <div
+          class="drop-zone"
+          [class.dragging]="isDragging"
+          [class.has-file]="selectedFile"
+          (dragover)="onDragOver($event)"
+          (dragleave)="onDragLeave()"
+          (drop)="onDrop($event)">
+          <input type="file" id="fileInputV2" accept=".pdf,.png,.jpg,.jpeg,.tiff" (change)="onFileChange($event)" hidden>
+          <label for="fileInputV2">
+            {{ selectedFile ? selectedFile.name : 'Glissez un PDF / image ou cliquez ici' }}
+          </label>
+        </div>
+
+        <div class="upload-actions">
+          <button class="btn-analyze" [disabled]="!selectedFile || uploading" (click)="analyze()">
+            {{ uploading ? 'Analyse en cours…' : 'Lancer l\'analyse' }}
+          </button>
+          <span class="muted" *ngIf="selectedFile" style="font-size:12px">{{ selectedFile.type || 'Fichier local' }}</span>
+        </div>
+
+        <div class="upload-error" *ngIf="uploadError">{{ uploadError }}</div>
+      </section>
+
+      <!-- ── RESULTS ─────────────────────────────────────────── -->
+      <section *ngIf="analysis as current" class="results-wrapper">
+        <div class="loading-banner" *ngIf="detailLoading">Chargement du détail complet…</div>
+
+        <!-- Hero card -->
+        <section class="hero-card">
+          <!-- Score de risque (XGBoost calibré + overrides métier) -->
+          <div class="hero-score-block">
+            <div class="hero-score" [class]="riskScoreColor(primaryRiskScore)">{{ primaryRiskScore }}</div>
+            <span class="hero-score-label">Risque</span>
+            <span class="hero-score-sublabel">XGBoost calibré · overrides métier</span>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">Résultat d'analyse</p>
+            <h2>{{ current.lcNumber || 'Crédit documentaire' }}</h2>
+            <p class="hero-subtitle">{{ verdictDescription }}</p>
+
+            <div class="hero-badges">
+              <span class="hero-pill type">{{ current.swiftType || rawSwift?.swift_type || 'SWIFT' }}</span>
+              <span class="hero-pill" [class]="verdictTone">{{ verdictLabel }}</span>
+              <span class="hero-pill soft" *ngFor="let badge of heroBadges" [class]="badge.tone">{{ badge.label }}</span>
+            </div>
+
+            <div class="hero-meta">
+              <span>{{ formatDate(current.createdAt) }}</span>
+              <span>{{ current.processingMs }} ms</span>
+              <span>{{ formatAmount(current.amount, current.currency) }}</span>
+            </div>
+          </div>
+
+          <div class="hero-aside">
+            <div class="hero-aside-item">
+              <span>Applicant</span>
+              <strong>{{ current.applicant || rawSwift?.entities?.applicant || '—' }}</strong>
+            </div>
+            <div class="hero-aside-item">
+              <span>Beneficiary</span>
+              <strong>{{ current.beneficiary || rawSwift?.entities?.beneficiary || '—' }}</strong>
+            </div>
+            <div class="hero-aside-item">
+              <span>Banque émettrice</span>
+              <strong>{{ current.issuingBank || rawSwift?.entities?.issuing_bank || '—' }}</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Rapport PDF MT700 ────────────────────────────────── -->
+        <section class="report-bar">
+          <div class="report-bar-label">
+            <span class="report-bar-icon">📄</span>
+            <div>
+              <strong>Rapport MT700</strong>
+              <p class="muted" style="font-size:12px;margin:0">Rapport de validation du crédit documentaire MT700</p>
+            </div>
+          </div>
+
+          <div class="report-bar-actions">
+            <!-- Rapport MT700 déjà généré -->
+            <a *ngIf="mt700Report"
+               (click)="openReport(mt700Report)"
+               class="btn-report-view blue">
+              ↓ Voir le rapport MT700
+            </a>
+
+            <button class="btn-report-gen blue"
+                    (click)="generateCurrentReport('MT700_REPORT')"
+                    [disabled]="reportBusy">
+              {{ reportBusy ? '…' : (mt700Report ? '↻ Régénérer' : '+ Générer le rapport MT700') }}
+            </button>
+          </div>
+
+          <span class="report-bar-error" *ngIf="reportError">{{ reportError }}</span>
+        </section>
+
+        <!-- Commercial docs CTA -->
+        <section class="commercial-cta">
+          <div class="commercial-cta-text">
+            <span class="commercial-cta-icon">📦</span>
+            <div>
+              <strong>MT700 analysé — étape suivante</strong>
+              <p>Validez les documents commerciaux (BL, Invoice, Packing List) pour vérifier la conformité inter-documents.</p>
+            </div>
+          </div>
+          <button class="btn-commercial" (click)="navigateToCommercial()">
+            Valider les documents commerciaux →
+          </button>
+        </section>
+
+        <!-- KPIs -->
+        <section class="kpi-grid">
+          <article class="kpi-card" *ngFor="let kpi of globalKpis">
+            <span class="kpi-icon">{{ kpi.icon }}</span>
+            <strong [class]="kpi.tone">{{ kpi.value }}</strong>
+            <span>{{ kpi.label }}</span>
+          </article>
+        </section>
+
+        <!-- Score pills -->
+        <section class="score-pill-row">
+          <span class="score-pill" *ngFor="let item of detailedScorePills" [class]="item.tone">
+            <strong>{{ item.label }}</strong>
+            <span>{{ item.value }}</span>
+          </span>
+        </section>
+
+        <!-- Navigation tabs -->
+        <nav class="validation-tabs">
+          <button
+            *ngFor="let panel of validationPanels; trackBy: trackByPanelId"
+            class="tab-btn"
+            [class.active]="activePanel === panel.id"
+            (click)="setPanel(panel.id)">
+            <span>{{ panel.icon }}</span>
+            <span>{{ panel.label }}</span>
+            <span class="count" *ngIf="panel.count !== undefined">{{ panel.count }}</span>
+          </button>
+        </nav>
+
+        <!-- ── OVERVIEW ─────────────────────────────────────── -->
+        <section *ngIf="activePanel === 'overview'" class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Vue globale</p>
+              <h3>Résumé exécutif</h3>
+            </div>
+          </div>
+
+          <!-- ── Verdict final réconcilié (hard override UCP prioritaire) ── -->
+          <article class="info-card final-verdict-card" *ngIf="finalDecision"
+            style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+              <span style="font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--text-3)">Verdict final</span>
+              <span class="ucp-verdict-badge" [class]="finalDecisionClass">{{ finalDecisionLabel }}</span>
+              <span class="mini-pill soft" *ngIf="finalDecisionSourceLabel">{{ finalDecisionSourceLabel }}</span>
+            </div>
+            <p *ngIf="rawFinalDecision?.reason" style="margin:0;font-size:12.5px;color:var(--text-2);line-height:1.5">
+              {{ rawFinalDecision?.reason }}
+            </p>
+            <!-- Transparence : les deux décisions sources réconciliées -->
+            <div style="display:flex;gap:18px;flex-wrap:wrap;font-size:11.5px;color:var(--text-3)">
+              <span>UCP :
+                <strong [class]="rawFinalDecision?.inputs?.ucp_payment_blocked ? 'red' : ''">
+                  {{ rawFinalDecision?.inputs?.ucp_decision || '—' }}</strong>
+                <span *ngIf="rawFinalDecision?.inputs?.ucp_score != null">({{ rawFinalDecision?.inputs?.ucp_score }}/100)</span>
+                <span *ngIf="rawFinalDecision?.inputs?.ucp_payment_blocked" class="red">⛔</span>
+              </span>
+              <span>Composite :
+                <strong>{{ rawFinalDecision?.inputs?.composite_decision || '—' }}</strong>
+                <span *ngIf="rawFinalDecision?.inputs?.composite_score != null">({{ rawFinalDecision?.inputs?.composite_score }})</span>
+              </span>
+            </div>
+          </article>
+
+          <div class="panel-grid two">
+            <article class="info-card">
+              <h4>Parties</h4>
+              <div class="fact-list">
+                <div class="fact-row" *ngFor="let fact of overviewPartyFacts">
+                  <span>{{ fact.label }}</span>
+                  <strong>{{ fact.value }}</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <h4>Conditions principales</h4>
+              <div class="fact-list">
+                <div class="fact-row" *ngFor="let fact of overviewTradeFacts">
+                  <span>{{ fact.label }}</span>
+                  <strong [class]="fact.tone || ''">{{ fact.value }}</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="panel-grid" *ngIf="overviewNarratives.length">
+            <article class="info-card narrative-card" *ngFor="let narrative of overviewNarratives">
+              <h4>{{ narrative.title }}</h4>
+              <p>{{ narrative.content }}</p>
+            </article>
+          </div>
+
+          <article class="info-card" *ngIf="current.riskFactors?.length">
+            <h4>Facteurs de risque DS</h4>
+            <div class="bullet-list">
+              <span class="issue-chip orange" *ngFor="let factor of current.riskFactors">{{ factor }}</span>
+            </div>
+          </article>
+        </section>
+
+        <!-- ── SWIFT FIELDS ─────────────────────────────────── -->
+        <section *ngIf="activePanel === 'swift-fields'" class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Onglet 1</p>
+              <h3>Champs SWIFT</h3>
+            </div>
+            <div class="panel-head-meta">
+              <span class="mini-pill" [class]="rawValidation?.overall_valid ? 'green' : 'red'">
+                {{ rawValidation?.overall_valid ? 'VALIDE' : 'INVALIDE' }}
+              </span>
+              <span class="mini-pill soft">Score {{ rawValidation?.score ?? current.swiftValidation?.score ?? 0 }}/100</span>
+              <span class="mini-pill soft">{{ sourceModeLabel }}</span>
+            </div>
+          </div>
+
+          <div class="table-shell">
+            <table class="swift-table">
+              <thead>
+                <tr>
+                  <th style="width:70px">Tag</th>
+                  <th style="width:150px">Champ</th>
+                  <th>Valeur</th>
+                  <th style="width:44px; text-align:center">État</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let row of swiftFieldRows; trackBy: trackBySwiftTag" [class]="row.status">
+                  <td class="mono">{{ row.tag }}</td>
+                  <td>
+                    <div class="table-title">{{ row.name }}</div>
+                    <div class="field-inline" *ngIf="row.mandatory">
+                      <span class="mini-pill red">Obligatoire</span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="table-value">{{ row.value }}</div>
+                    <div class="field-messages" *ngIf="row.errors.length || row.warnings.length">
+                      <span class="issue-chip red" *ngFor="let error of row.errors">{{ error }}</span>
+                      <span class="issue-chip orange" *ngFor="let warning of row.warnings">{{ warning }}</span>
+                    </div>
+                  </td>
+                  <td class="state-cell">{{ statusDot(row.status) }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ── CLAUSES ──────────────────────────────────────── -->
+        <section *ngIf="activePanel === 'clauses'" class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Onglet 2</p>
+              <h3>Clauses</h3>
+            </div>
+          </div>
+
+          <div class="metric-grid four">
+            <article class="metric-card"><span>Total clauses</span><strong>{{ rawNlp?.clauses?.length || 0 }}</strong></article>
+            <article class="metric-card"><span>Haut risque</span><strong class="red">{{ countClausesByRisk('high') }}</strong></article>
+            <article class="metric-card"><span>Risque moyen</span><strong class="orange">{{ countClausesByRisk('medium') }}</strong></article>
+            <article class="metric-card"><span>ML</span><strong>{{ mlClauseCount() }}</strong></article>
+          </div>
+
+          <div class="toolbar-grid">
+            <label>Type
+              <select [(ngModel)]="clauseFilterType">
+                <option value="ALL">Tous</option>
+                <option *ngFor="let type of clauseTypes" [value]="type">{{ clauseTypeLabel(type) }}</option>
+              </select>
+            </label>
+            <label>Importance
+              <select [(ngModel)]="clauseFilterRisk">
+                <option value="ALL">Toutes</option>
+                <option value="high">Élevée</option>
+                <option value="medium">Moyenne</option>
+                <option value="normal">Normale</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="card-stack">
+            <article class="clause-card" *ngFor="let clause of filteredClauses" [class]="clauseRiskClass(clause.importance)">
+              <div class="clause-card-head">
+                <div class="clause-card-title">
+                  <span class="clause-icon">{{ clauseTypeIcon(clause.type) }}</span>
+                  <strong>{{ clauseTypeLabel(clause.type) }}</strong>
+                </div>
+                <div class="field-inline">
+                  <span class="mini-pill" [class]="importanceClass(clause.importance)">
+                    ★ Importance {{ importanceLabel(clause.importance) }}
+                  </span>
+                </div>
+              </div>
+              <div class="field-inline" *ngIf="clause.ucp_refs?.length">
+                <span class="mini-pill purple" *ngFor="let ref of clause.ucp_refs">{{ ref }}</span>
+              </div>
+              <p>{{ truncate(clause.text, 350) }}</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- ── VALIDATION ───────────────────────────────────── -->
+        <section *ngIf="activePanel === 'validation'" class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Onglet 3</p>
+              <h3>Validation SWIFT</h3>
+            </div>
+          </div>
+
+          <div class="metric-grid four">
+            <article class="metric-card">
+              <span>Statut global</span>
+              <strong [class]="rawValidation?.overall_valid ? 'green' : 'red'">{{ rawValidation?.overall_valid ? 'VALIDE' : 'INVALIDE' }}</strong>
+            </article>
+            <article class="metric-card">
+              <span>Score</span>
+              <strong>{{ rawValidation?.score ?? current.swiftValidation?.score ?? 0 }}/100</strong>
+            </article>
+            <article class="metric-card">
+              <span>Champs manquants</span>
+              <strong [class]="(rawValidation?.missing_mandatory?.length || 0) ? 'red' : 'green'">{{ rawValidation?.missing_mandatory?.length || 0 }}</strong>
+            </article>
+            <article class="metric-card">
+              <span>Erreurs inter-champs</span>
+              <strong [class]="(rawValidation?.cross_field_errors?.length || 0) ? 'red' : 'green'">{{ rawValidation?.cross_field_errors?.length || 0 }}</strong>
+            </article>
+          </div>
+
+          <div class="progress-track">
+            <div class="progress-fill" [class]="scoreColor(validationScoreWidth)" [style.width.%]="validationScoreWidth"></div>
+          </div>
+
+          <div class="bullet-list" *ngIf="rawValidation?.missing_mandatory?.length">
+            <span class="issue-chip red" *ngFor="let tag of rawValidation?.missing_mandatory">{{ tag }}</span>
+          </div>
+
+          <div class="card-stack" *ngIf="rawValidation?.cross_field_errors?.length || rawValidation?.cross_field_warnings?.length">
+            <article class="issue-card red" *ngFor="let error of rawValidation?.cross_field_errors || []">{{ error }}</article>
+            <article class="issue-card orange" *ngFor="let warning of rawValidation?.cross_field_warnings || []">{{ warning }}</article>
+          </div>
+
+          <details class="expand-card" [open]="validationErrorFields.length > 0">
+            <summary>Champs en erreur ({{ validationErrorFields.length }})</summary>
+            <div class="validation-field-list" style="margin-top:12px">
+              <article class="field-card error" *ngFor="let row of validationErrorFields">
+                <div class="field-card-head">
+                  <strong>{{ row.tag }} {{ row.name }}</strong>
+                  <span>{{ statusDot(row.status) }}</span>
+                </div>
+                <p>{{ row.value }}</p>
+                <div class="field-messages">
+                  <span class="issue-chip red" *ngFor="let error of row.errors">{{ error }}</span>
+                </div>
+              </article>
+            </div>
+          </details>
+
+          <details class="expand-card" *ngIf="validationWarningFields.length">
+            <summary>Champs avec avertissements ({{ validationWarningFields.length }})</summary>
+            <div class="validation-field-list" style="margin-top:12px">
+              <article class="field-card warn" *ngFor="let row of validationWarningFields">
+                <div class="field-card-head">
+                  <strong>{{ row.tag }} {{ row.name }}</strong>
+                  <span>{{ statusDot(row.status) }}</span>
+                </div>
+                <p>{{ row.value }}</p>
+                <div class="field-messages">
+                  <span class="issue-chip orange" *ngFor="let warning of row.warnings">{{ warning }}</span>
+                </div>
+              </article>
+            </div>
+          </details>
+
+          <details class="expand-card" *ngIf="validationOkFields.length">
+            <summary>Champs valides ({{ validationOkFields.length }})</summary>
+            <div class="validation-field-list" style="margin-top:12px">
+              <article class="field-card ok" *ngFor="let row of validationOkFields">
+                <div class="field-card-head">
+                  <strong>{{ row.tag }} {{ row.name }}</strong>
+                  <span>{{ statusDot(row.status) }}</span>
+                </div>
+                <p>{{ row.value }}</p>
+              </article>
+            </div>
+          </details>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════════
+             ── UCP 600 PANEL
+             ═══════════════════════════════════════════════════ -->
+        <section *ngIf="activePanel === 'ucp'" class="panel">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Onglet 4</p>
+              <h3>Validation UCP 600</h3>
+            </div>
+            <div class="panel-head-meta">
+              <span class="mini-pill" [class]="rawUcp?.compliant ? 'green' : 'red'">
+                {{ rawUcp?.compliant ? 'CONFORME' : 'NON CONFORME' }}
+              </span>
+              <span class="mini-pill soft">{{ rawUcp?.ucp_version || 'UCP 600' }}</span>
+            </div>
+          </div>
+
+          <div class="ucp-summary">
+            <div class="ucp-score-circle"
+              [class.pass]="(rawUcp?.global_score ?? 0) >= 80"
+              [class.warn]="(rawUcp?.global_score ?? 0) >= 50 && (rawUcp?.global_score ?? 0) < 80"
+              [class.fail]="(rawUcp?.global_score ?? 0) < 50">
+              <span class="ucp-score-num">{{ rawUcp?.global_score ?? current.ucpComplianceScore ?? 0 }}</span>
+              <span class="ucp-score-label">Score /100</span>
+            </div>
+
+            <div class="ucp-summary-right">
+              <div class="ucp-verdict">
+                <span class="ucp-verdict-badge" [class]="ucpVerdictClass">
+                  {{ ucpDecisionLabel }}
+                </span>
+                <span class="mini-pill" *ngIf="rawUcp?.payment_blocked"
+                  style="background:rgba(240,96,96,0.15);border-color:rgba(240,96,96,0.4);color:var(--red);font-weight:600">
+                  ⛔ PAIEMENT BLOQUÉ
+                </span>
+                <span class="mini-pill soft">{{ rawUcp?.legal_compliance_status || '—' }}</span>
+              </div>
+
+              <!-- POURQUOI cette décision -->
+              <p class="ucp-decision-why" *ngIf="ucpDecisionExplanation"
+                 style="margin:6px 0 0;font-size:12.5px;color:var(--text-2);line-height:1.5">
+                {{ ucpDecisionExplanation }}
+              </p>
+
+              <p class="ucp-decision-text" *ngIf="rawUcp?.summary">
+                Erreurs : <strong style="color:var(--red)">{{ rawUcp?.summary?.errors ?? 0 }}</strong>&ensp;·&ensp;
+                Alertes : <strong style="color:var(--orange)">{{ rawUcp?.summary?.warnings ?? 0 }}</strong>&ensp;·&ensp;
+                Infos : <strong style="color:var(--blue)">{{ rawUcp?.summary?.infos ?? 0 }}</strong>&ensp;·&ensp;
+                Bloquants : <strong style="color:var(--red)">{{ rawUcp?.summary?.blocking ?? 0 }}</strong>
+              </p>
+
+              <div class="progress-track">
+                <div class="progress-fill"
+                  [class]="scoreColor(rawUcp?.global_score ?? current.ucpComplianceScore)"
+                  [style.width.%]="rawUcp?.global_score ?? current.ucpComplianceScore"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ucp-blocking-banner"
+            *ngIf="rawUcp?.ucp_blocking_violations?.length">
+            <div class="ucp-blocking-title">Violations bloquantes — paiement suspendu</div>
+            <div class="ucp-blocking-item"
+              *ngFor="let violation of rawUcp?.ucp_blocking_violations || []"
+              style="display:flex;flex-direction:column;gap:3px">
+              <div>
+                <strong style="font-family:monospace;color:var(--red)">{{ violation.article }}</strong>
+                <span class="mini-pill soft" *ngIf="violation.code"
+                  style="font-family:monospace;font-size:9px;margin:0 6px">{{ violation.code }}</span>
+                <span style="font-weight:600">{{ violation.reason || violation.description }}</span>
+              </div>
+              <!-- Clause fautive (la preuve) -->
+              <div *ngIf="violation.clause_text"
+                style="font-size:11px;color:var(--text-3);font-style:italic;padding-left:8px;border-left:2px solid var(--red-border)">
+                « {{ violation.clause_text }} »
+              </div>
+              <!-- Comment lever le rejet -->
+              <div *ngIf="violation.recommendation"
+                style="font-size:11.5px;color:var(--text-2);padding-left:8px">
+                → {{ violation.recommendation }}
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div style="font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--text-3);margin-bottom:10px">Score par catégorie</div>
+            <div class="ucp-categories">
+              <div class="ucp-category-card"
+                *ngFor="let cat of (rawUcp?.categories || {}) | keyvalue">
+                <div class="ucp-cat-header">
+                  <span class="ucp-cat-name">{{ cat.key }}</span>
+                  <span class="ucp-cat-score"
+                    [class.pass]="(cat.value.score ?? 0) >= 80"
+                    [class.warn]="(cat.value.score ?? 0) >= 50 && (cat.value.score ?? 0) < 80"
+                    [class.fail]="(cat.value.score ?? 0) < 50">
+                    {{ cat.value.score ?? 0 }}
+                  </span>
+                </div>
+                <div class="ucp-cat-bar">
+                  <div class="ucp-cat-fill"
+                    [class.pass]="(cat.value.score ?? 0) >= 80"
+                    [class.warn]="(cat.value.score ?? 0) >= 50 && (cat.value.score ?? 0) < 80"
+                    [class.fail]="(cat.value.score ?? 0) < 50"
+                    [style.width.%]="cat.value.score ?? 0"></div>
+                </div>
+                <div class="ucp-cat-articles">
+                  <span class="mini-pill red" *ngFor="let art of cat.value.articles_nok">{{ art }}</span>
+                  <span class="mini-pill green" *ngFor="let art of (cat.value.articles_ok || []) | slice:0:3">{{ art }}</span>
+                  <span class="mini-pill soft" *ngIf="(cat.value.articles_ok || []).length > 3">
+                    +{{ (cat.value.articles_ok || []).length - 3 }} ok
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ucp-exclusions-box" *ngIf="rawUcp?.exclusions && (rawUcp?.exclusions | keyvalue)?.length">
+            <div class="ucp-exclusions-title">Articles exclus / modifiés contractuellement</div>
+            <div class="ucp-exclusion-row"
+              *ngFor="let excl of (rawUcp?.exclusions || {}) | keyvalue">
+              <span class="ucp-excl-key">{{ excl.key }}</span>
+              <span class="ucp-excl-val">{{ truncate(excl.value, 160) }}</span>
+            </div>
+          </div>
+
+          <div>
+            <div class="ucp-findings-header">
+              <h4>Findings ({{ rawUcp?.findings?.length || 0 }})</h4>
+              <div class="ucp-findings-filters">
+                <button (click)="ucpFindingFilter = 'ALL'" [class.active-filter]="ucpFindingFilter === 'ALL'">Tous</button>
+                <button (click)="ucpFindingFilter = 'error'" [class.active-filter]="ucpFindingFilter === 'error'">
+                  Erreurs ({{ ucpErrorCount }})
+                </button>
+                <button (click)="ucpFindingFilter = 'warning'" [class.active-filter]="ucpFindingFilter === 'warning'">
+                  Alertes ({{ ucpWarningCount }})
+                </button>
+                <button (click)="ucpFindingFilter = 'info'" [class.active-filter]="ucpFindingFilter === 'info'">
+                  Infos ({{ ucpInfoCount }})
+                </button>
+              </div>
+            </div>
+
+            <div class="card-stack" style="margin-top:8px">
+              <div class="ucp-finding-card"
+                *ngFor="let finding of rawUcp?.findings || []"
+                [class.finding-block]="finding.blocks_payment"
+                [class.finding-error]="!finding.blocks_payment && finding.severity === 'error'"
+                [class.finding-warning]="finding.severity === 'warning'"
+                [class.finding-info]="finding.severity === 'info'"
+                [style.display]="ucpFindingFilter === 'ALL' || finding.severity === ucpFindingFilter ? 'grid' : 'none'">
+
+                <div class="ucp-finding-header">
+                  <div class="ucp-finding-meta">
+                    <span class="ucp-article-badge">{{ finding.article || 'UCP' }}</span>
+                    <span class="ucp-severity-badge"
+                      [class.block]="finding.blocks_payment"
+                      [class.error]="!finding.blocks_payment && finding.severity === 'error'"
+                      [class.warning]="finding.severity === 'warning'"
+                      [class.info]="finding.severity === 'info'">
+                      {{ finding.blocks_payment ? 'BLOQUANT' : (finding.severity || 'info') | uppercase }}
+                    </span>
+                    <span class="mini-pill soft" *ngIf="finding.code">{{ finding.code }}</span>
+                    <span class="ucp-blocks-payment" *ngIf="finding.blocks_payment">⛔ Bloque paiement</span>
+                  </div>
+                  <span class="mini-pill soft" *ngIf="finding.category">{{ finding.category }}</span>
+                </div>
+
+                <p class="ucp-finding-title">{{ finding.message }}</p>
+
+                <div class="ucp-finding-clause" *ngIf="finding.clause_text">
+                  {{ truncate(finding.clause_text, 200) }}
+                </div>
+
+                <p class="ucp-finding-detail" *ngIf="finding.detail">{{ finding.detail }}</p>
+
+                <div class="ucp-finding-recommendation" *ngIf="finding.recommendation">
+                  {{ finding.recommendation }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════════════════
+             COHERENCE — Système Expert MT700
+             ══════════════════════════════════════════════════════ -->
+        <section *ngIf="activePanel === 'coherence'" class="panel">
+
+          <!-- ── En-tête ──────────────────────────────────────────── -->
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">Système expert · 7 axes · UCP 600</p>
+              <h3>Cohérence sémantique MT700</h3>
+            </div>
+            <div class="panel-head-meta">
+              <span class="ucp-verdict-badge"
+                    [class]="nlpRoutingDecision === 'ACCEPT' ? 'PASS' : nlpRoutingDecision === 'REJECT' ? 'REJECT' : nlpRoutingDecision ? 'REVIEW' : (current.riskLevel === 'LOW' || current.riskLevel === 'CLEAN' ? 'PASS' : current.riskLevel === 'HIGH' || current.riskLevel === 'CRITICAL' ? 'REJECT' : 'REVIEW')">
+                {{ nlpRoutingDecision || current.riskLevel }}
+              </span>
+              <span class="mini-pill" [class]="crossFieldVerdict === 'COHERENT' ? 'green' : crossFieldVerdict === 'INCOHERENT' ? 'red' : crossFieldVerdict === 'SKIPPED' ? 'soft' : crossFieldVerdict ? 'orange' : 'soft'">
+                {{ crossFieldVerdict || 'CF N/A' }}
+              </span>
+            </div>
+          </div>
+
+          <!-- ── Décomposition du score (5 composantes) ───────────── -->
+          <article class="info-card coh-score-card">
+            <h4>Décomposition du score final (formule pondérée)</h4>
+            <div class="coh-score-bars">
+              <div class="coh-bar-row" *ngFor="let c of scoreComponents">
+                <div class="coh-bar-meta">
+                  <span class="coh-bar-label">{{ c.label }}</span>
+                  <span class="coh-bar-weight muted">×{{ c.weight }}%</span>
+                  <span class="coh-bar-val" [class]="c.color">{{ c.rawScore | number:'1.0-0' }}</span>
+                </div>
+                <div class="progress-track coh-track">
+                  <div class="progress-fill" [class]="c.color" [style.width.%]="c.rawScore"></div>
+                </div>
+                <span class="coh-contrib muted">+{{ c.contribution }}pts</span>
+              </div>
+            </div>
+            <div class="coh-total-row">
+              <span class="muted" style="font-size:11px">Score final pondéré (analyse documentaire)</span>
+              <strong style="font-size:22px;font-variant-numeric:tabular-nums"
+                      [class]="nlpFinalScore >= 0.82 ? 'green' : nlpFinalScore >= 0.58 ? 'orange' : nlpFinalScore > 0 ? 'red' : ''">
+                {{ nlpFinalScore > 0 ? (nlpFinalScore * 100 | number:'1.1-1') : (analysis?.riskScore != null ? (analysis!.riskScore | number:'1.1-1') : '—') }}
+              </strong>
+              <span *ngIf="nlpRoutingDecision" class="muted" style="font-size:11px;margin-left:8px">→ {{ nlpRoutingDecision }}</span>
+            </div>
+          </article>
+
+          <!-- ── Synthèse narrative ────────────────────────────────── -->
+          <article class="info-card" *ngIf="rawSemantic?.summary">
+            <h4>Synthèse analytique</h4>
+            <p>{{ rawSemantic?.summary }}</p>
+          </article>
+
+          <!-- ── KPI rapides ────────────────────────────────────────── -->
+          <div class="metric-grid five">
+            <article class="metric-card">
+              <span>Complétude</span>
+              <strong [class]="scoreColor(rawSemantic?.completeness_score ?? current.completenessScore)">
+                {{ renderPercent(rawSemantic?.completeness_score ?? current.completenessScore) }}
+              </strong>
+            </article>
+            <article class="metric-card">
+              <span>Analyse sémantique</span>
+              <strong [class]="scoreColor(rawSemantic?.semantic_score ?? current.semanticScore)">
+                {{ renderPercent(rawSemantic?.semantic_score ?? current.semanticScore) }}
+              </strong>
+            </article>
+            <article class="metric-card">
+              <span>Cohérence champs</span>
+              <strong [class]="crossFieldCoherenceScore >= 80 ? 'green' : crossFieldCoherenceScore >= 55 ? 'orange' : 'red'">
+                {{ crossFieldCoherenceScore | number:'1.0-0' }}/100
+              </strong>
+            </article>
+            <article class="metric-card">
+              <span>Qualité docs</span>
+              <strong [class]="scoreColor(rawSemantic?.doc_quality_score)">
+                {{ renderPercent(rawSemantic?.doc_quality_score) }}
+              </strong>
+            </article>
+            <article class="metric-card">
+              <span>Problèmes inter-champs</span>
+              <strong [class]="crossFieldSummary.errors > 0 ? 'red' : crossFieldSummary.warnings > 0 ? 'orange' : 'green'">
+                {{ crossFieldSummary.total }}
+              </strong>
+            </article>
+          </div>
+
+          <!-- ══ SECTION A — Contradictions (NLP + ContradictionEngine) ══════ -->
+          <article class="info-card" *ngIf="meaningfulContradictions.length">
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+              <h4 style="margin:0">Contradictions détectées</h4>
+              <div style="display:flex;gap:6px">
+                <span class="mini-pill red"    *ngIf="contradictionErrors   > 0">{{ contradictionErrors }} erreur{{ contradictionErrors > 1 ? 's' : '' }}</span>
+                <span class="mini-pill orange" *ngIf="contradictionWarnings > 0">{{ contradictionWarnings }} warning{{ contradictionWarnings > 1 ? 's' : '' }}</span>
+              </div>
+            </div>
+            <div class="card-stack">
+              <article class="coh-contradiction-card"
+                       *ngFor="let c of meaningfulContradictions; trackBy: trackByContradiction"
+                       [class.coh-error]="c.severity === 'error'"
+                       [class.coh-warning]="c.severity === 'warning'">
+                <div class="coh-contra-head">
+                  <span class="mini-pill" [class]="severityClass(c.severity)">{{ c.severity?.toUpperCase() }}</span>
+                  <span class="mini-pill soft">{{ c.source === 'SEMANTIC' ? 'ContradictionEngine' : 'Analyse documentaire' }}</span>
+                  <span class="muted" *ngIf="c.ucpRef" style="font-size:10px;margin-left:auto">{{ c.ucpRef }}</span>
+                  <span class="muted" *ngIf="c.confidence != null" style="font-size:10px">conf. {{ (c.confidence! * 100) | number:'1.0-0' }}%</span>
+                </div>
+                <p class="coh-contra-msg" style="margin:6px 0 8px">{{ c.message }}</p>
+                <div class="coh-contra-compare" *ngIf="(c.clauseA && c.clauseA !== '—') || (c.clauseB && c.clauseB !== '—')">
+                  <div class="coh-compare-cell" *ngIf="c.clauseA && c.clauseA !== '—'">
+                    <span class="coh-field-chip">{{ c.source === 'SEMANTIC' ? 'Tag SWIFT' : 'Clause A' }}</span>
+                    <p>{{ c.clauseA }}</p>
+                  </div>
+                  <div class="coh-compare-arrow">≠</div>
+                  <div class="coh-compare-cell" *ngIf="c.clauseB && c.clauseB !== '—'">
+                    <span class="coh-field-chip">{{ c.source === 'SEMANTIC' ? 'Clause :47A:' : 'Clause B' }}</span>
+                    <p>{{ c.clauseB }}</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </article>
+          <div class="coh-ok-banner" *ngIf="!meaningfulContradictions.length && (rawSemantic?.contradictions != null || rawNlp?.contradictions != null)">
+            <span>✓</span><span>Aucune contradiction détectée</span>
+          </div>
+
+          <!-- ══ SECTION B — Cohérence inter-champs (axes A-H) ════════ -->
+          <article class="info-card" *ngIf="rawSemantic?.cross_field_coherence">
+            <div class="coh-cf-header">
+              <h4 style="margin:0">Cohérence inter-champs MT700 — {{ crossFieldAxesChecked.length }} axes analysés</h4>
+              <div class="coh-cf-summary">
+                <span class="mini-pill red"   *ngIf="crossFieldSummary.errors   > 0">{{ crossFieldSummary.errors }} erreur{{ crossFieldSummary.errors > 1 ? 's' : '' }}</span>
+                <span class="mini-pill orange" *ngIf="crossFieldSummary.warnings > 0">{{ crossFieldSummary.warnings }} warning{{ crossFieldSummary.warnings > 1 ? 's' : '' }}</span>
+                <span class="mini-pill green"  *ngIf="crossFieldSummary.total === 0">Aucune incohérence</span>
+              </div>
+            </div>
+
+            <!-- Axes checked chips -->
+            <div class="coh-axes-row">
+              <span class="coh-axis-chip" *ngFor="let ax of crossFieldAxesChecked">{{ ax }}</span>
+            </div>
+
+            <!-- Issues groupées par axe -->
+            <div *ngIf="crossFieldIssues.length; else cfNoIssues">
+              <div class="coh-axis-group" *ngFor="let group of crossFieldGroupsByAxis">
+                <div class="coh-group-title">
+                  <span class="mini-pill blue" style="font-size:10px">AXE {{ group.axis }}</span>
+                  <span style="font-size:12px;font-weight:600;color:var(--text-2)">{{ group.label }}</span>
+                  <span class="mini-pill red"    *ngIf="group.errorCount > 0"   style="font-size:10px">{{ group.errorCount }}E</span>
+                  <span class="mini-pill orange" *ngIf="group.warningCount > 0" style="font-size:10px">{{ group.warningCount }}W</span>
+                </div>
+
+                <div class="coh-issue-card" *ngFor="let issue of group.issues"
+                     [class.coh-issue-error]="issue.severity === 'error'"
+                     [class.coh-issue-warning]="issue.severity === 'warning'"
+                     [class.coh-issue-info]="issue.severity === 'info'">
+
+                  <!-- En-tête de l'issue -->
+                  <div class="coh-issue-head">
+                    <div class="coh-field-chips">
+                      <span class="coh-field-chip" *ngFor="let f of issue.fields">{{ f }}</span>
+                    </div>
+                    <span class="mini-pill" [class]="severityClass(issue.severity)">{{ issue.severity }}</span>
+                    <span class="mini-pill" [class]="techniqueColor(issue.technique)"
+                          title="Technique de détection">{{ issue.technique }}</span>
+                    <span class="mini-pill soft" style="font-size:10px" *ngIf="issue.ucp_ref">{{ issue.ucp_ref }}</span>
+                    <span class="coh-confidence-badge" [class]="(issue.confidence ?? 0) >= 0.85 ? 'high' : (issue.confidence ?? 0) >= 0.65 ? 'med' : 'low'">
+                      {{ ((issue.confidence ?? 0) * 100) | number:'1.0-0' }}%
+                    </span>
+                  </div>
+
+                  <!-- Message + suggestion -->
+                  <p class="coh-issue-msg">{{ issue.message }}</p>
+                  <p class="coh-issue-suggestion" *ngIf="issue.suggestion">
+                    <span class="coh-suggestion-icon">→</span> {{ issue.suggestion }}
+                  </p>
+
+                  <!-- Comparaison côte-à-côte des valeurs -->
+                  <div class="coh-compare-row" *ngIf="issue.lc_value || issue.doc_value">
+                    <div class="coh-compare-cell" *ngIf="issue.lc_value">
+                      <span class="coh-field-chip">{{ issue.fields?.[0] ?? 'Champ 1' }}</span>
+                      <code class="coh-value-code">{{ issue.lc_value }}</code>
+                    </div>
+                    <div class="coh-compare-sep">≠</div>
+                    <div class="coh-compare-cell" *ngIf="issue.doc_value">
+                      <span class="coh-field-chip">{{ issue.fields?.[1] ?? 'Champ 2' }}</span>
+                      <code class="coh-value-code">{{ issue.doc_value }}</code>
+                    </div>
+                  </div>
+
+                  <!-- Barre de confiance -->
+                  <div class="coh-conf-bar-row">
+                    <span class="muted" style="font-size:10px;white-space:nowrap">Confiance NLI/règle</span>
+                    <div class="progress-track coh-conf-track">
+                      <div class="progress-fill"
+                           [class]="(issue.confidence ?? 0) >= 0.85 ? 'green' : (issue.confidence ?? 0) >= 0.65 ? 'orange' : 'red'"
+                           [style.width]="confidenceWidth(issue.confidence ?? 0)"></div>
+                    </div>
+                    <span class="muted" style="font-size:10px;white-space:nowrap">{{ ((issue.confidence ?? 0) * 100) | number:'1.0-0' }}%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ng-template #cfNoIssues>
+              <div class="coh-ok-banner">
+                <span style="font-size:18px">✓</span>
+                <span>Aucune incohérence inter-champs détectée sur les {{ crossFieldAxesChecked.length }} axes analysés.</span>
+              </div>
+            </ng-template>
+          </article>
+
+          <!-- ══ SECTION C — Géo cohérence ════════════════════════════ -->
+          <article class="info-card" *ngIf="geoRows.length">
+            <h4>Cohérence géographique</h4>
+            <div class="geo-rows">
+              <div class="geo-row" *ngFor="let row of geoRows"
+                   [class.geo-ok]="row.status === 'ok'"
+                   [class.geo-warn]="row.status === 'warn'"
+                   [class.geo-error]="row.risk === 'HIGH'"
+                   [class.geo-info]="row.status === 'info'">
+                <div class="geo-row-icon">
+                  <span *ngIf="row.status === 'ok'">✓</span>
+                  <span *ngIf="row.status === 'warn'">⚠</span>
+                  <span *ngIf="row.risk === 'HIGH'">✕</span>
+                  <span *ngIf="row.status === 'info' && row.risk !== 'HIGH'">ℹ</span>
+                </div>
+                <div class="geo-row-body">
+                  <div class="geo-row-label">{{ row.location }}</div>
+                  <div class="geo-row-detail muted">{{ row.details }}</div>
+                </div>
+                <div class="geo-row-meta">
+                  <span class="geo-country-chip">{{ row.country }}</span>
+                  <span class="mini-pill" [class]="row.risk === 'LOW' ? 'green' : row.risk === 'MEDIUM' ? 'orange' : 'red'">
+                    {{ row.risk }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- ══ SECTION D — Risk flags + Fraude ══════════════════════ -->
+          <div class="panel-grid two" *ngIf="rawSemantic?.risk_flags?.length || rawSemantic?.fraud_indicators?.length">
+            <article class="info-card" *ngIf="rawSemantic?.risk_flags?.length">
+              <h4>Risk flags sémantiques ({{ rawSemantic?.risk_flags?.length }})</h4>
+              <div class="card-stack">
+                <article class="issue-card" *ngFor="let flag of rawSemantic?.risk_flags || []"
+                         [class]="severityClass(flag.severity)">
+                  <div style="display:flex;gap:8px;align-items:center;margin-bottom:4px">
+                    <strong style="font-size:11px">{{ flag.code || 'FLAG' }}</strong>
+                    <span class="muted" *ngIf="flag.ucp_ref" style="font-size:10px">{{ flag.ucp_ref }}</span>
+                    <span class="muted" *ngIf="flag.ml_score != null" style="font-size:10px;margin-left:auto">ML {{ flag.ml_score }}</span>
+                  </div>
+                  <p style="font-size:12px">{{ flag.description }}</p>
+                </article>
+              </div>
+            </article>
+            <article class="info-card" *ngIf="rawSemantic?.fraud_indicators?.length">
+              <h4>Indicateurs de fraude ({{ rawSemantic?.fraud_indicators?.length }})</h4>
+              <div class="card-stack">
+                <article class="issue-card orange" *ngFor="let fraud of rawSemantic?.fraud_indicators || []">
+                  {{ normalizeValue(fraud) }}
+                </article>
+              </div>
+            </article>
+          </div>
+
+          <!-- ══ SECTION E — Avertissements UCP + Recommandations ═════ -->
+          <div class="panel-grid two" *ngIf="rawSemantic?.warnings?.length || rawSemantic?.recommendations?.length">
+            <article class="info-card" *ngIf="rawSemantic?.warnings?.length">
+              <h4>Avertissements UCP/ICC ({{ rawSemantic?.warnings?.length }})</h4>
+              <div class="card-stack">
+                <article class="issue-card" *ngFor="let w of rawSemantic?.warnings || []"
+                         [class]="severityClass(w.severity)">
+                  <div style="display:flex;gap:8px;align-items:center;margin-bottom:4px">
+                    <strong style="font-size:11px">{{ w.code || 'WARN' }}</strong>
+                    <span class="mini-pill soft" style="font-size:9px" *ngIf="w.source">{{ w.source }}</span>
+                    <span class="muted" *ngIf="w.ucp_ref" style="font-size:10px;margin-left:auto">{{ w.ucp_ref }}</span>
+                  </div>
+                  <p style="font-size:12px">{{ w.message }}</p>
+                  <p class="muted" *ngIf="w.suggestion" style="font-size:11px;margin-top:3px">→ {{ w.suggestion }}</p>
+                </article>
+              </div>
+            </article>
+            <article class="info-card" *ngIf="rawSemantic?.recommendations?.length">
+              <h4>Recommandations ({{ rawSemantic?.recommendations?.length }})</h4>
+              <div class="card-stack">
+                <article class="issue-card blue" *ngFor="let rec of rawSemantic?.recommendations || []">
+                  {{ rec }}
+                </article>
+              </div>
+            </article>
+          </div>
+
+          <!-- ══ SECTION F — Champs inférés + NER ═════════════════════ -->
+          <div class="panel-grid two" *ngIf="enrichedFieldRows.length || relationRows.length">
+            <article class="info-card" *ngIf="enrichedFieldRows.length">
+              <h4>Champs inférés</h4>
+              <div class="fact-list">
+                <div class="fact-row" *ngFor="let item of enrichedFieldRows; trackBy: trackByFeature">
+                  <span>{{ item.key }}</span>
+                  <strong>{{ item.value }}</strong>
+                </div>
+              </div>
+            </article>
+            <article class="info-card" *ngIf="relationRows.length">
+              <h4>Relations NER</h4>
+              <div class="fact-list">
+                <div class="fact-row" *ngFor="let relation of relationRows">
+                  <span>{{ relation.subject }} → {{ relation.predicate }}</span>
+                  <strong>{{ relation.object_label }}: {{ relation.object_value }}</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </section>
+
+        <!-- ── EXTERNAL ──────────────────────────────────────── -->
+        <section *ngIf="activePanel === 'external'" class="panel">
+          <div class="panel-head">
+            <div><p class="eyebrow">Onglet 6</p><h3>Validation Externe</h3></div>
+          </div>
+
+          <div class="metric-grid four">
+            <article class="metric-card">
+              <span>Niveau de risque</span>
+              <strong [class]="riskColor(rawExternal?.risk_level)">{{ rawExternal?.risk_level || '—' }}</strong>
+            </article>
+            <article class="metric-card">
+              <span>Score pondéré</span>
+              <strong>{{ rawExternal?.risk_score ?? 0 }}</strong>
+            </article>
+            <article class="metric-card">
+              <span>Sources</span>
+              <strong>{{ externalSources.length }}</strong>
+            </article>
+            <article class="metric-card">
+              <span>Temps</span>
+              <strong>{{ rawExternal?.processing_ms ?? 0 }} ms</strong>
+            </article>
+          </div>
+
+          <div class="field-inline" *ngIf="externalSources.length">
+            <span class="mini-pill soft" *ngFor="let source of externalSources">{{ source }}</span>
+          </div>
+
+          <article class="info-card" *ngIf="externalCountries.length">
+            <h4>Pays</h4>
+            <div class="table-shell">
+              <table class="swift-table compact">
+                <thead><tr><th>ISO2</th><th>Pays</th><th>Risque</th><th>Sources</th><th>Détails</th></tr></thead>
+                <tbody>
+                  <tr *ngFor="let country of externalCountries">
+                    <td class="mono">{{ country.iso2 || '—' }}</td>
+                    <td>{{ country.normalized || country.raw || '—' }}</td>
+                    <td><span class="mini-pill" [class]="riskColor(country.risk)">{{ country.risk || '—' }}</span></td>
+                    <td>{{ (country.sources || []).join(', ') || '—' }}</td>
+                    <td>{{ country.details || '—' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="info-card" *ngIf="externalCurrency">
+            <h4>Devise</h4>
+            <div class="table-shell">
+              <table class="swift-table compact">
+                <thead><tr><th>Code</th><th>ISO 4217</th><th>Risque</th><th>Détails</th></tr></thead>
+                <tbody>
+                  <tr>
+                    <td class="mono">{{ externalCurrency!.code || '—' }}</td>
+                    <td>
+                      <span class="mini-pill" [class.ok]="externalCurrency!.is_valid" [class.no]="!externalCurrency!.is_valid">
+                        {{ externalCurrency!.is_valid ? 'Valide' : 'Invalide' }}
+                      </span>
+                    </td>
+                    <td><span class="mini-pill" [class]="riskColor(externalCurrency!.risk)">{{ externalCurrency!.risk || 'CLEAN' }}</span></td>
+                    <td>{{ externalCurrency!.details || '—' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <div class="panel-grid two" *ngIf="externalRiskFactors.length || externalRecommendations.length">
+            <article class="info-card" *ngIf="externalRiskFactors.length">
+              <h4>Facteurs de risque</h4>
+              <div class="card-stack">
+                <article class="issue-card orange" *ngFor="let factor of externalRiskFactors">{{ factor }}</article>
+              </div>
+            </article>
+            <article class="info-card" *ngIf="externalRecommendations.length">
+              <h4>Recommandations</h4>
+              <div class="card-stack">
+                <article class="issue-card blue" *ngFor="let rec of externalRecommendations">{{ rec }}</article>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- ── RISK ML ────────────────────────────────────────── -->
+        <section *ngIf="activePanel === 'risk-ml'" class="panel">
+          <div class="panel-head">
+            <div><p class="eyebrow">Onglet 7</p><h3>Risk ML</h3></div>
+          </div>
+
+          <ng-container *ngIf="rawRiskMl as riskMl; else noRiskMl">
+            <div class="warning-banner" *ngIf="riskMl.error">{{ riskMl.error }}</div>
+
+            <ng-container *ngIf="!riskMl.error">
+
+              <article class="info-card" *ngIf="riskMl.narrative">
+                <h4>Narrative</h4>
+                <p>{{ riskMl.narrative }}</p>
+              </article>
+
+              <!-- SHAP écarté de l'explication — décision ML conservée, explication via dimensions analytiques -->
+
+              <details class="expand-card" *ngIf="featureRows.length">
+                <summary>Features utilisées ({{ featureRows.length }})</summary>
+                <div class="fact-list" style="margin-top:12px">
+                  <div class="fact-row" *ngFor="let item of featureRows; trackBy: trackByFeature">
+                    <span>{{ item.key }}</span>
+                    <strong>{{ item.value }}</strong>
+                  </div>
+                </div>
+              </details>
+
+              <!-- ── Risk Breakdown v4.0 ─────────────────────────── -->
+              <div class="panel-head" style="margin-top:32px; padding-top:16px; border-top: 1px solid var(--surface-200)">
+                <div>
+                  <p class="eyebrow">Analyse avancée v4.0</p>
+                  <h3>Décomposition du score de risque MT700</h3>
+                </div>
+                <div class="panel-head-meta" *ngIf="rawRiskMl?.risk_label">
+                  <span class="mini-pill" [class]="riskColor(rawRiskMl?.risk_label ?? '')">
+                    {{ rawRiskMl?.risk_label }} · {{ rawRiskMl?.risk_score }}/80
+                  </span>
+                  <span class="mini-pill soft">LIME · XGBoost</span>
+                </div>
+              </div>
+              <app-risk-breakdown [riskMl]="rawRiskMl"></app-risk-breakdown>
+
+            </ng-container>
+          </ng-container>
+
+          <ng-template #noRiskMl>
+            <div class="empty-state">Risk ML non disponible.</div>
+          </ng-template>
+        </section>
+
+        <!-- ── PERF & CACHE ───────────────────────────────────── -->
+        <section *ngIf="activePanel === 'perf-cache'" class="panel">
+          <div class="panel-head">
+            <div><p class="eyebrow">Onglet 8</p><h3>Perf & Cache</h3></div>
+          </div>
+
+          <div class="metric-grid five">
+            <article class="metric-card"><span>Temps NLP</span><strong>{{ nlpTotalMs }} ms</strong></article>
+            <article class="metric-card"><span>Cache</span><strong [class]="rawNlp?.from_cache ? 'green' : 'orange'">{{ rawNlp?.from_cache ? 'Cache' : 'Calculé' }}</strong></article>
+            <article class="metric-card"><span>LLM fallback</span><strong [class]="rawNlp?.llm_triggered ? 'orange' : 'green'">{{ rawNlp?.llm_triggered ? 'Déclenché' : 'Non' }}</strong></article>
+            <article class="metric-card"><span>Modules actifs</span><strong>{{ modulesApplied.length }}</strong></article>
+            <article class="metric-card"><span>Mode NER</span><strong>{{ sourceModeLabel }}</strong></article>
+          </div>
+
+          <article class="info-card" *ngIf="perfBars.length">
+            <h4>Temps par module</h4>
+            <div class="probability-stack">
+              <div class="probability-row" *ngFor="let item of perfBars; trackBy: trackByTiming">
+                <div class="probability-head">
+                  <strong>{{ item.label }}</strong>
+                  <span>{{ item.ms }} ms</span>
+                </div>
+                <div class="progress-track">
+                  <div class="progress-fill" [class]="item.tone" [style.width.%]="timingWidth(item.ms)"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="info-card" *ngIf="rawNlp?.spell as spell">
+            <h4>Correction orthographique</h4>
+            <div class="metric-grid five">
+              <article class="metric-card"><span>Corrections</span><strong>{{ spell.total_changes || 0 }}</strong></article>
+              <article class="metric-card"><span>Langue</span><strong>{{ spell.language_detected || '—' }}</strong></article>
+              <article class="metric-card"><span>Conf. moy.</span><strong>{{ spell.avg_confidence || 0 }}</strong></article>
+              <article class="metric-card"><span>Rejetées</span><strong>{{ spell.rejected_count || 0 }}</strong></article>
+              <article class="metric-card"><span>Bruit OCR</span><strong>{{ spell.has_ocr_noise ? 'Oui' : 'Non' }}</strong></article>
+            </div>
+            <div class="table-shell" *ngIf="spellCorrections.length" style="margin-top:12px">
+              <table class="swift-table compact">
+                <thead><tr><th>Original</th><th>Corrigé</th><th>Méthode</th><th>Confiance</th><th>Statut</th></tr></thead>
+                <tbody>
+                  <tr *ngFor="let correction of spellCorrections">
+                    <td>{{ correction.original || '—' }}</td>
+                    <td>{{ correction.corrected || '—' }}</td>
+                    <td>{{ correction.method || '—' }}</td>
+                    <td>{{ correction.confidence || '—' }}</td>
+                    <td><span class="mini-pill" [class]="correction.validated ? 'green' : 'orange'">{{ correction.validated ? 'Validée' : 'Rejetée' }}</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <div class="empty-state" *ngIf="!hasPerfData">Aucune métrique de performance disponible.</div>
+        </section>
+
+      </section>
+    </section>
+  </main>
+</div>

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01033",
+  "filename": "inv_inv-26_01033.pdf",
+  "layout_id": "INV-26",
+  "bl_id": 1033,
+  "fields": {
+    "invoice_number": "INV-2026-01033",
+    "invoice_date": "11 MAY 2026",
+    "lc_reference": "LC/BNP/1033/2026",
+    "bl_reference": "MSCUNKGTJ400638186",
+    "seller_name": "CENTRAL ENTERPRISES LTD",
+    "buyer_name": "TRANS LOGISTICS INC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-204",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "PRECISION OPTICAL INSTRUMENTS",
+    "hs_code": "9013.80",
+    "quantity": 69,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "16,099.20",
+    "unit_price": 190.33,
+    "currency": "EUR",
+    "total_amount": 13132.77,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "INV-2026-01033",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        117.64,
+        117.35,
+        19.84
+      ],
+      "value": "16,099.20 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        137.48,
+        117.35,
+        19.84
+      ],
+      "value": "13132.77 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        204.09,
+        323.38,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES LTD\nCENTRAL ENTERPRISES LTD\n525 MAIN BOULEVARD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        204.09,
+        198.2,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS INC\nTRANS LOGISTICS INC\n975 COMMERCE STREET\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        314.65,
+        166.9,
+        42.52
+      ],
+      "value": "PRECISION OPTICAL INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        314.65,
+        62.59,
+        42.52
+      ],
+      "value": "9013.80",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "69",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "190.33 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "13132.77 EUR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        296.22,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "LC/BNP/1033/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "MSCUNKGTJ400638186",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        296.22,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "actual": "PRECISION OPTICAL INSTRUMENTS"
+    }
+  ]
+}

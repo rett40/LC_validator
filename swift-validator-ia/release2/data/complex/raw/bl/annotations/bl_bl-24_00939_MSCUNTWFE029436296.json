@@ -1,0 +1,442 @@
+{
+  "id": 939,
+  "filename": "bl_bl-24_00939_MSCUNTWFE029436296.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNTWFE029436296",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTWFE029436296",
+    "shipper_name": "EURO COMMERCE LTD",
+    "shipper_address": "622 TRADE PARK",
+    "consignee_name": "INTERNATIONAL ENTERPRISES LTD",
+    "consignee_address": "28 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX TRADING GMBH",
+    "notify_party_address": "95 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1355",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "05 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "MSCU0171653",
+    "container_type": "20'RF",
+    "seal_number": "C834AFGD",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "31 PACKAGES",
+    "gross_weight_kg": "46,209.19",
+    "measurement": "84.902 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0171653",
+        "seal_number": "C834AFGD",
+        "container_type": "20'RF",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "31",
+          "type": "PACKAGES",
+          "description": "31 PACKAGES"
+        },
+        "gross_weight_kg": "27,482.12",
+        "net_weight_kg": "24,069.21",
+        "measurement": "56.921 CBM"
+      },
+      {
+        "container_number": "TRHU1117611",
+        "seal_number": "HEHHG17F",
+        "container_type": "20'RF",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "130",
+          "type": "DRUMS",
+          "description": "130 DRUMS"
+        },
+        "gross_weight_kg": "18,727.07",
+        "net_weight_kg": "16,406.77",
+        "measurement": "27.981 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNTWFE029436296",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        98.69,
+        106.3,
+        106.82,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        282.52,
+        106.3,
+        107.24,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        429.28,
+        106.3,
+        144.74,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        82.03,
+        134.65,
+        123.48,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        267.95,
+        134.65,
+        121.82,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "MSCU0171653",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "C834AFGD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '31', 'type': 'PACKAGES', 'description': '31 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "27,482.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "56.921 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU1117611",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "HEHHG17F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '130', 'type': 'DRUMS', 'description': '130 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "18,727.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "27.981 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        266.46,
+        148.9,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        229.61,
+        266.46,
+        160.16,
+        34.02
+      ],
+      "value": "AL1355",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        458.03,
+        266.46,
+        115.99,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        43.68,
+        300.47,
+        161.83,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        270.86,
+        300.47,
+        118.9,
+        34.02
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        480.54,
+        300.47,
+        93.47,
+        34.02
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        79.11,
+        334.49,
+        126.4,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        265.86,
+        334.49,
+        123.9,
+        34.02
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "622 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "EURO COMMERCE LTD\n622 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "28 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "INTERNATIONAL ENTERPRISES LTD\n28 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "95 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "APEX TRADING GMBH\n95 MARKET STREET",
+      "page": 1
+    }
+  ]
+}

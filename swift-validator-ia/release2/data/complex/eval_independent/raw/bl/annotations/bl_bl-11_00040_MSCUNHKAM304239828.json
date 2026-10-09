@@ -1,0 +1,444 @@
+{
+  "id": 40,
+  "filename": "bl_bl-11_00040_MSCUNHKAM304239828.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNHKAM304239828",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNHKAM304239828",
+    "shipper": {
+      "name": "INTERNATIONAL TRADING S.A.",
+      "address": "570 COMMERCE BOULEVARD",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "INTERNATIONAL TRADING S.A.\n570 COMMERCE BOULEVARD\nSHANGHAI, CHINA 200120"
+    },
+    "consignee": {
+      "name": "INTERNATIONAL LOGISTICS GMBH",
+      "address": "478 COMMERCE BOULEVARD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "INTERNATIONAL LOGISTICS GMBH\n478 COMMERCE BOULEVARD\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "INTERNATIONAL ENTERPRISES LLC",
+      "address": "562 COMMERCE BOULEVARD",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "INTERNATIONAL ENTERPRISES LLC\n562 COMMERCE BOULEVARD\nDUBAI, UAE 00000"
+    },
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS801S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "25 JUN 2026",
+    "eta": "27 JUL 2026",
+    "issue_date": "19 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "HLCU5593967",
+    "container_type": "20' TANK",
+    "seal_number": "DFA9G19H",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": {
+      "count": "234",
+      "type": "BOXES",
+      "description": "234 BOXES"
+    },
+    "gross_weight_kg": "16,722.06",
+    "net_weight_kg": "10,836.73",
+    "gross_weight_lbs": "36,865.79",
+    "measurement": "102.197 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5593967",
+        "seal_number": "DFA9G19H",
+        "container_type": "20' TANK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "234",
+          "type": "BOXES",
+          "description": "234 BOXES"
+        },
+        "gross_weight_kg": "9,538.64",
+        "net_weight_kg": "7,151.22",
+        "measurement": "37.377 CBM"
+      },
+      {
+        "container_number": "HLCU4036023",
+        "seal_number": "49G3D29F",
+        "container_type": "20' FLAT RACK",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "399",
+          "type": "CRATES",
+          "description": "399 CRATES"
+        },
+        "gross_weight_kg": "7,183.42",
+        "net_weight_kg": "3,685.51",
+        "measurement": "64.820 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "incoterm": "CPT",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "HLCU5593967\nDFA9G19H\nVALENCIA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNHKAM304239828",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "CS801S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "27 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL TRADING S.A.\n570 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL LOGISTICS GMBH\n478 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "INTERNATIONAL ENTERPRISES LLC\n562 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU5593967",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "DFA9G19H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '234', 'type': 'BOXES', 'description': '234 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "9,538.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "37.377 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU4036023",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "49G3D29F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '399', 'type': 'CRATES', 'description': '399 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "7,183.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "64.820 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        436.54,
+        179.53,
+        18.43
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        464.88,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

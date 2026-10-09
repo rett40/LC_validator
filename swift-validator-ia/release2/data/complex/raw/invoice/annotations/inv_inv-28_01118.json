@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-01118",
+  "filename": "inv_inv-28_01118.pdf",
+  "layout_id": "INV-28",
+  "bl_id": 1118,
+  "fields": {
+    "invoice_number": "INV-2026-01118",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/CITI/1118/2026",
+    "bl_reference": "MSCUNRKZF107527968",
+    "seller_name": "CENTRAL SHIPPING BV",
+    "buyer_name": "PACIFIC INDUSTRIES BV",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0706E",
+    "port_of_loading": "ANTWERP, BELGIUM",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "ELECTRONIC COMPONENTS AND PARTS",
+    "hs_code": "8542.31",
+    "quantity": 139,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "65,659.67",
+    "unit_price": 65.5,
+    "currency": "USD",
+    "total_amount": 9104.5,
+    "incoterm": "EXW",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        70.02,
+        217.13,
+        27.78
+      ],
+      "value": "INV-2026-01118",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        202.2,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        144.57,
+        542.83,
+        52.44
+      ],
+      "value": "CENTRAL SHIPPING BV\nCENTRAL SHIPPING BV\n148 MAIN BOULEVARD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        197.01,
+        542.83,
+        52.44
+      ],
+      "value": "PACIFIC INDUSTRIES BV\nPACIFIC INDUSTRIES BV\n759 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        263.62,
+        122.14,
+        19.84
+      ],
+      "value": "65,659.67 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        283.46,
+        122.14,
+        19.84
+      ],
+      "value": "9104.5 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        318.9,
+        314.84,
+        56.69
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        336.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": "8542.31",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        450.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": 139,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        336.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        450.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "65.5 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        381.26,
+        244.28,
+        25.51
+      ],
+      "value": "9104.5 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        21.26,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        156.97,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "LC/CITI/1118/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "MSCUNRKZF107527968",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        428.39,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        156.97,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "GUANGZHOU, CHINA",
+      "actual": "ANTWERP, BELGIUM"
+    }
+  ]
+}

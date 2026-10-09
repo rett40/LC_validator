@@ -1,0 +1,500 @@
+{
+  "id": 2,
+  "filename": "bl_bl-01_00002_MSCUNVYSR079660084.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNVYSR079660084",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNVYSR079660084",
+    "shipper_name": "APEX COMMERCE CORP",
+    "shipper_address": "485 MAIN STREET",
+    "consignee_name": "PREMIER SOLUTIONS LTD",
+    "consignee_address": "485 HARBOR ROAD",
+    "notify_party_name": "UNITED SHIPPING S.A.",
+    "notify_party_address": "367 MARKET STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE248S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "25 MAY 2026",
+    "eta": "18 JUN 2026",
+    "container_number": "TCKU6020973",
+    "container_type": "20' REEFER",
+    "seal_number": "A34D58DF",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "36 CARTONS",
+    "gross_weight_kg": "47,700.45",
+    "measurement": "80.753 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU6020973",
+        "seal_number": "A34D58DF",
+        "container_type": "20' REEFER",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "36",
+          "type": "CARTONS",
+          "description": "36 CARTONS"
+        },
+        "gross_weight_kg": "16,760.69",
+        "net_weight_kg": "13,792.81",
+        "measurement": "30.319 CBM"
+      },
+      {
+        "container_number": "CMAU1826270",
+        "seal_number": "06379CB7",
+        "container_type": "20' REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "429",
+          "type": "BOXES",
+          "description": "429 BOXES"
+        },
+        "gross_weight_kg": "17,458.12",
+        "net_weight_kg": "15,093.65",
+        "measurement": "26.269 CBM"
+      },
+      {
+        "container_number": "OOLU1210675",
+        "seal_number": "E9B491GF",
+        "container_type": "40' FLAT RACK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "460",
+          "type": "PACKAGES",
+          "description": "460 PACKAGES"
+        },
+        "gross_weight_kg": "13,481.64",
+        "net_weight_kg": "9,914.59",
+        "measurement": "24.165 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVYSR079660084",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "APEX COMMERCE CORP\n485 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER SOLUTIONS LTD\n485 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        134.65,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SHIPPING S.A.\n367 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "FE248S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        239.53,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        273.54,
+        179.53,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "25 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        307.56,
+        179.53,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        362.83,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU6020973",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "A34D58DF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        362.83,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        362.83,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        362.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '36', 'type': 'CARTONS', 'description': '36 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "16,760.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        362.83,
+        80.79,
+        36.85
+      ],
+      "value": "30.319 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        399.69,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1826270",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "06379CB7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        399.69,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        399.69,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        399.69,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '429', 'type': 'BOXES', 'description': '429 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "17,458.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        399.69,
+        80.79,
+        36.85
+      ],
+      "value": "26.269 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        436.54,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU1210675",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        436.54,
+        53.86,
+        36.85
+      ],
+      "value": "E9B491GF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        436.54,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        436.54,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        436.54,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '460', 'type': 'PACKAGES', 'description': '460 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        436.54,
+        80.79,
+        36.85
+      ],
+      "value": "13,481.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        436.54,
+        80.79,
+        36.85
+      ],
+      "value": "24.165 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        498.9,
+        179.53,
+        18.43
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        527.24,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

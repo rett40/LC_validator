@@ -1,0 +1,57 @@
+
+{
+  "message_type": "MT760",
+  "description": "Issue of a Demand Guarantee/Standby Letter of Credit",
+  "fields": {
+    "27": {
+      "name": "Sequence of Total",
+      "format": "1n/1n",
+      "mandatory": true
+    },
+    "22A": {
+      "name": "Purpose of Message",
+      "format": "4lc",
+      "mandatory": true,
+      "values": ["ISSU", "ISCO", "ICCO", "ADVI", "ACNF"]
+    },
+    "20": {
+      "name": "Undertaking Number",
+      "format": "16x",
+      "mandatory": true
+    },
+    "30": {
+      "name": "Date of Issue",
+      "format": "6n",
+      "mandatory": true
+    },
+    "22D": {
+      "name": "Form of Undertaking",
+      "format": "4lc",
+      "mandatory": true,
+      "values": ["DGAR", "STBY"]
+    },
+    "40C": {
+      "name": "Applicable Rules",
+      "format": "4la[/35x]",
+      "mandatory": true,
+      "values": ["URDG", "UCP", "ISPR", "NONE", "OTHR"]
+    },
+    "23B": {
+      "name": "Expiry Type",
+      "format": "4lc",
+      "mandatory": true,
+      "values": ["FIXD", "COND", "OPEN"]
+    },
+    "32B": {
+      "name": "Undertaking Amount",
+      "format": "3a15d",
+      "mandatory": true
+    },
+    "77U": {
+      "name": "Undertaking Terms and Conditions",
+      "format": "150*65z",
+      "mandatory": true,
+      "description": "Full text of the guarantee"
+    }
+  }
+}

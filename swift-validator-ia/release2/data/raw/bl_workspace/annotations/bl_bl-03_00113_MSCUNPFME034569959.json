@@ -1,0 +1,500 @@
+{
+  "id": 113,
+  "filename": "bl_bl-03_00113_MSCUNPFME034569959.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNPFME034569959",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPFME034569959",
+    "shipper_name": "PACIFIC LOGISTICS LTD",
+    "shipper_address": "814 MAIN STREET",
+    "consignee_name": "PREMIER LOGISTICS CORP",
+    "consignee_address": "539 TRADE PARK",
+    "notify_party_name": "PREMIER TRADING INC",
+    "notify_party_address": "37 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE12E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "17 MAY 2026",
+    "eta": "13 JUN 2026",
+    "container_number": "TCKU8121878",
+    "container_type": "40' REEFER",
+    "seal_number": "AA49BEFB",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "219 BAGS",
+    "gross_weight_kg": "39,938.47",
+    "measurement": "106.015 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8121878",
+        "seal_number": "AA49BEFB",
+        "container_type": "40' REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "219",
+          "type": "BAGS",
+          "description": "219 BAGS"
+        },
+        "gross_weight_kg": "7,003.30",
+        "net_weight_kg": "3,589.67",
+        "measurement": "29.177 CBM"
+      },
+      {
+        "container_number": "MAEU9297056",
+        "seal_number": "10C92735",
+        "container_type": "20' TANK",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "401",
+          "type": "BAGS",
+          "description": "401 BAGS"
+        },
+        "gross_weight_kg": "10,334.19",
+        "net_weight_kg": "7,498.35",
+        "measurement": "33.241 CBM"
+      },
+      {
+        "container_number": "EISU1483635",
+        "seal_number": "F2E14629",
+        "container_type": "20' DRY",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "103",
+          "type": "PALLETS",
+          "description": "103 PALLETS"
+        },
+        "gross_weight_kg": "22,600.98",
+        "net_weight_kg": "18,954.62",
+        "measurement": "43.597 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "25 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNPFME034569959",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        164.99,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "AE12E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.64,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        434.28,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        164.99,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.64,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        434.28,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "PACIFIC LOGISTICS LTD\n814 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        164.99,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "PREMIER LOGISTICS CORP\n539 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        299.64,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "PREMIER TRADING INC\n37 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU8121878",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "AA49BEFB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '219', 'type': 'BAGS', 'description': '219 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "7,003.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "29.177 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU9297056",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "10C92735",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '401', 'type': 'BAGS', 'description': '401 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "10,334.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "33.241 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        402.52,
+        91.56,
+        36.85
+      ],
+      "value": "EISU1483635",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        402.52,
+        53.86,
+        36.85
+      ],
+      "value": "F2E14629",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        402.52,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        402.52,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        402.52,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '103', 'type': 'PALLETS', 'description': '103 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        402.52,
+        80.79,
+        36.85
+      ],
+      "value": "22,600.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        402.52,
+        80.79,
+        36.85
+      ],
+      "value": "43.597 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        164.99,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.64,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        434.28,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        500.31,
+        130.65,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

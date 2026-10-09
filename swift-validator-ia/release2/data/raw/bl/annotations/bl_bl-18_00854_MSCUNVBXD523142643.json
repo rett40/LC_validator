@@ -1,0 +1,533 @@
+{
+  "id": 854,
+  "filename": "bl_bl-18_00854_MSCUNVBXD523142643.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNVBXD523142643",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNVBXD523142643",
+    "shipper_name": "DELTA GROUP LLC",
+    "shipper_address": "838 MAIN STREET",
+    "consignee_name": "DELTA SUPPLY CHAIN BV",
+    "consignee_address": "92 MARKET STREET",
+    "notify_party_name": "PREMIER TRADING PLC",
+    "notify_party_address": "906 MARKET STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE791S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "22 MAY 2026",
+    "eta": "20 JUN 2026",
+    "container_number": "EISU4196721",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "GDCE74E6",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "439 CARTONS",
+    "gross_weight_kg": "48,436.38",
+    "measurement": "155.714 CBM",
+    "containers": [
+      {
+        "container_number": "EISU4196721",
+        "seal_number": "GDCE74E6",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "439",
+          "type": "CARTONS",
+          "description": "439 CARTONS"
+        },
+        "gross_weight_kg": "12,923.08",
+        "net_weight_kg": "10,325.09",
+        "measurement": "48.855 CBM"
+      },
+      {
+        "container_number": "MSCU3489760",
+        "seal_number": "5476G47H",
+        "container_type": "20' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "469",
+          "type": "PACKAGES",
+          "description": "469 PACKAGES"
+        },
+        "gross_weight_kg": "12,516.55",
+        "net_weight_kg": "10,129.12",
+        "measurement": "39.648 CBM"
+      },
+      {
+        "container_number": "CMAU2449905",
+        "seal_number": "21599871",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "491",
+          "type": "PALLETS",
+          "description": "491 PALLETS"
+        },
+        "gross_weight_kg": "22,996.75",
+        "net_weight_kg": "19,110.61",
+        "measurement": "67.211 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNVBXD523142643",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4196721",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "GDCE74E6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '439', 'type': 'CARTONS', 'description': '439 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "12,923.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "48.855 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3489760",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "5476G47H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '469', 'type': 'PACKAGES', 'description': '469 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "12,516.55",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "39.648 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        197.01,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2449905",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "21599871",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        197.01,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        197.01,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'PALLETS', 'description': '491 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "22,996.75",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "67.211 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "838 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA GROUP LLC\n838 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "92 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "DELTA SUPPLY CHAIN BV\n92 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        352.91,
+        269.29,
+        70.87
+      ],
+      "value": "906 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        333.07,
+        269.29,
+        90.71
+      ],
+      "value": "PREMIER TRADING PLC\n906 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "FE791S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        724.25,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

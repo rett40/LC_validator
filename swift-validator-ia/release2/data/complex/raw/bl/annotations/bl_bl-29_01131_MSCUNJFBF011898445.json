@@ -1,0 +1,318 @@
+{
+  "id": 1131,
+  "filename": "bl_bl-29_01131_MSCUNJFBF011898445.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNJFBF011898445",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNJFBF011898445",
+    "shipper_name": "CENTRAL LOGISTICS LLC",
+    "shipper_address": "835 TRADE PARK",
+    "consignee_name": "TRANS TRADING INC",
+    "consignee_address": "16 MARKET STREET",
+    "notify_party_name": "UNITED SUPPLY CHAIN INC",
+    "notify_party_address": "403 MAIN STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE882N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "10 JUN 2026",
+    "eta": "11 JUL 2026",
+    "container_number": "TCKU2973139",
+    "container_type": "20'TK",
+    "seal_number": "9DBDAC85",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "427 CARTONS",
+    "gross_weight_kg": "9,176.66",
+    "measurement": "66.334 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU2973139",
+        "seal_number": "9DBDAC85",
+        "container_type": "20'TK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "427",
+          "type": "CARTONS",
+          "description": "427 CARTONS"
+        },
+        "gross_weight_kg": "9,176.66",
+        "net_weight_kg": "6,322.68",
+        "measurement": "66.334 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNJFBF011898445",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU2973139",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "9DBDAC85",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '427', 'type': 'CARTONS', 'description': '427 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "9,176.66",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "66.334 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "FE882N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        310.39,
+        132.17,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        357.17,
+        302.62,
+        94.96
+      ],
+      "value": "CENTRAL LOGISTICS LLC\n835 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        355.75,
+        218.04,
+        41.1
+      ],
+      "value": "TRANS TRADING INC\n16 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        411.02,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED SUPPLY CHAIN INC\n403 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

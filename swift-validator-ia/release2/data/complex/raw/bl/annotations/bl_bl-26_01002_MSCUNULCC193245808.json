@@ -1,0 +1,500 @@
+{
+  "id": 1002,
+  "filename": "bl_bl-26_01002_MSCUNULCC193245808.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNULCC193245808",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNULCC193245808",
+    "shipper_name": "ATLANTIC SHIPPING INC",
+    "shipper_address": "986 MAIN STREET",
+    "consignee_name": "PREMIER LOGISTICS LTD",
+    "consignee_address": "786 INDUSTRIAL AVENUE",
+    "notify_party_name": "PACIFIC SOLUTIONS CORP",
+    "notify_party_address": "574 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE37N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "21 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "EISU6875512",
+    "container_type": "40'HC",
+    "seal_number": "BEH144HB",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "370 PALLETS",
+    "gross_weight_kg": "47,834.37",
+    "measurement": "126.509 CBM",
+    "containers": [
+      {
+        "container_number": "EISU6875512",
+        "seal_number": "BEH144HB",
+        "container_type": "40'HC",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "370",
+          "type": "PALLETS",
+          "description": "370 PALLETS"
+        },
+        "gross_weight_kg": "22,900.03",
+        "net_weight_kg": "19,177.91",
+        "measurement": "23.836 CBM"
+      },
+      {
+        "container_number": "TCKU5940534",
+        "seal_number": "E4FC99HA",
+        "container_type": "40' OPEN TOP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "330",
+          "type": "DRUMS",
+          "description": "330 DRUMS"
+        },
+        "gross_weight_kg": "7,245.70",
+        "net_weight_kg": "5,126.04",
+        "measurement": "63.302 CBM"
+      },
+      {
+        "container_number": "TCKU7020911",
+        "seal_number": "5GGF9HGG",
+        "container_type": "40' OPEN TOP",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "463",
+          "type": "DRUMS",
+          "description": "463 DRUMS"
+        },
+        "gross_weight_kg": "17,688.64",
+        "net_weight_kg": "14,609.16",
+        "measurement": "39.371 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNULCC193245808",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        120.57,
+        75.12,
+        45.26,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        75.12,
+        86.35,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        340.74,
+        75.12,
+        85.88,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        461.21,
+        75.12,
+        95.8,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        88.45,
+        103.46,
+        77.38,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "ATLANTIC SHIPPING INC\n986 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "PREMIER LOGISTICS LTD\n786 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "PACIFIC SOLUTIONS CORP\n574 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        88.92,
+        256.54,
+        76.91,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.34,
+        256.54,
+        85.88,
+        34.02
+      ],
+      "value": "AE37N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        373.32,
+        256.54,
+        53.3,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        509.85,
+        256.54,
+        47.16,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        67.67,
+        290.55,
+        98.16,
+        34.02
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        259.0,
+        290.55,
+        37.22,
+        34.02
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        361.52,
+        290.55,
+        65.09,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        508.91,
+        290.55,
+        48.09,
+        34.02
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "EISU6875512",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "BEH144HB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '370', 'type': 'PALLETS', 'description': '370 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "22,900.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "23.836 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU5940534",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "E4FC99HA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '330', 'type': 'DRUMS', 'description': '330 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "7,245.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "63.302 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        422.36,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU7020911",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "5GGF9HGG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        422.36,
+        41.73,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        422.36,
+        130.39,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '463', 'type': 'DRUMS', 'description': '463 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "17,688.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "39.371 CBM",
+      "page": 1
+    }
+  ]
+}

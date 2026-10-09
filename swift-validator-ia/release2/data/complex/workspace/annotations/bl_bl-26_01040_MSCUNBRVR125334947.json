@@ -1,0 +1,409 @@
+{
+  "id": 1040,
+  "filename": "bl_bl-26_01040_MSCUNBRVR125334947.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNBRVR125334947",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNBRVR125334947",
+    "shipper_name": "PACIFIC COMMERCE AG",
+    "shipper_address": "767 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST SHIPPING CORP",
+    "consignee_address": "208 PORT ACCESS ROAD",
+    "notify_party_name": "ATLANTIC ENTERPRISES CO.",
+    "notify_party_address": "792 HARBOR ROAD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE602S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "20 MAY 2026",
+    "eta": "15 JUN 2026",
+    "container_number": "TRHU1213619",
+    "container_type": "20'TK",
+    "seal_number": "H5H0GDGG",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "133 BOXES",
+    "gross_weight_kg": "27,779.56",
+    "measurement": "94.766 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU1213619",
+        "seal_number": "H5H0GDGG",
+        "container_type": "20'TK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "133",
+          "type": "BOXES",
+          "description": "133 BOXES"
+        },
+        "gross_weight_kg": "16,154.56",
+        "net_weight_kg": "13,262.45",
+        "measurement": "42.105 CBM"
+      },
+      {
+        "container_number": "HLCU7377859",
+        "seal_number": "11499F75",
+        "container_type": "40'DC",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "312",
+          "type": "BOXES",
+          "description": "312 BOXES"
+        },
+        "gross_weight_kg": "11,625.00",
+        "net_weight_kg": "7,981.29",
+        "measurement": "52.661 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNBRVR125334947",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        79.47,
+        75.12,
+        86.36,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        234.43,
+        75.12,
+        61.79,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        359.62,
+        75.12,
+        66.99,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        461.21,
+        75.12,
+        95.8,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        105.93,
+        103.46,
+        59.9,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "PACIFIC COMMERCE AG\n767 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST SHIPPING CORP\n208 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "ATLANTIC ENTERPRISES CO.\n792 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        107.82,
+        256.54,
+        58.01,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        192.87,
+        256.54,
+        103.35,
+        34.02
+      ],
+      "value": "FE602S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        359.15,
+        256.54,
+        67.47,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        471.12,
+        256.54,
+        85.89,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        116.79,
+        290.55,
+        49.04,
+        34.02
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        268.44,
+        290.55,
+        27.78,
+        34.02
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        319.95,
+        290.55,
+        106.67,
+        34.02
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        520.72,
+        290.55,
+        36.29,
+        34.02
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "TRHU1213619",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "H5H0GDGG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '133', 'type': 'BOXES', 'description': '133 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "16,154.56",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "42.105 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU7377859",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "11499F75",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '312', 'type': 'BOXES', 'description': '312 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "11,625.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "52.661 CBM",
+      "page": 1
+    }
+  ]
+}

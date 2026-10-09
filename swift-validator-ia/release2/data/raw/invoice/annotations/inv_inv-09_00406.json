@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00406",
+  "filename": "inv_inv-09_00406.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 406,
+  "fields": {
+    "invoice_number": "INV-2026-00406",
+    "invoice_date": "20 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0406/2026",
+    "bl_reference": "MSCUNGMEU584859364",
+    "seller_name": "PACIFIC SHIPPING PLC",
+    "buyer_name": "ATLANTIC LOGISTICS CO.",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE253S",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 450,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "50,316.27",
+    "unit_price": 10.41,
+    "currency": "USD",
+    "total_amount": 4684.5,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00406",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "20 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0406/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNGMEU584859364",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        297.64,
+        172.35,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        297.64,
+        64.63,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "450",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "10.41 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "4684.5 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        354.33,
+        121.18,
+        19.84
+      ],
+      "value": "50,316.27 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        374.17,
+        121.18,
+        19.84
+      ],
+      "value": "4684.5 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "NEW YORK, USA"
+    }
+  ]
+}

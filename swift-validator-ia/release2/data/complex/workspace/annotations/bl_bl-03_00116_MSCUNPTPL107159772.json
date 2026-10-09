@@ -1,0 +1,500 @@
+{
+  "id": 116,
+  "filename": "bl_bl-03_00116_MSCUNPTPL107159772.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNPTPL107159772",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPTPL107159772",
+    "shipper_name": "CENTRAL COMMERCE CORP",
+    "shipper_address": "184 PORT ACCESS ROAD",
+    "consignee_name": "GLOBAL COMMERCE PLC",
+    "consignee_address": "539 HARBOR ROAD",
+    "notify_party_name": "GLOBAL SUPPLY CHAIN S.A.",
+    "notify_party_address": "97 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6975",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "22 JUN 2026",
+    "eta": "17 JUL 2026",
+    "container_number": "OOLU6397209",
+    "container_type": "20'TK",
+    "seal_number": "67893007",
+    "commodity": "FERTILIZERS AND AGROCHEMICALS",
+    "packages": "27 BOXES",
+    "gross_weight_kg": "57,722.36",
+    "measurement": "141.839 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU6397209",
+        "seal_number": "67893007",
+        "container_type": "20'TK",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "27",
+          "type": "BOXES",
+          "description": "27 BOXES"
+        },
+        "gross_weight_kg": "26,195.97",
+        "net_weight_kg": "22,982.42",
+        "measurement": "46.188 CBM"
+      },
+      {
+        "container_number": "CMAU7180817",
+        "seal_number": "3BB19D3A",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "467",
+          "type": "BOXES",
+          "description": "467 BOXES"
+        },
+        "gross_weight_kg": "5,878.45",
+        "net_weight_kg": "3,820.78",
+        "measurement": "60.715 CBM"
+      },
+      {
+        "container_number": "EISU5948608",
+        "seal_number": "CEDA24H3",
+        "container_type": "20' DRY",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "310",
+          "type": "BOXES",
+          "description": "310 BOXES"
+        },
+        "gross_weight_kg": "25,647.94",
+        "net_weight_kg": "23,309.51",
+        "measurement": "34.936 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        360.85,
+        85.89,
+        213.17,
+        31.75
+      ],
+      "value": "MSCUNPTPL107159772",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        43.1,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        176.33,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "AL6975",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        309.56,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        442.79,
+        153.64,
+        129.23,
+        15.31
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        43.1,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        176.33,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        309.56,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        442.79,
+        187.65,
+        129.23,
+        15.31
+      ],
+      "value": "17 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "CENTRAL COMMERCE CORP\n184 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        176.33,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "GLOBAL COMMERCE PLC\n539 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        309.56,
+        233.86,
+        129.23,
+        73.7
+      ],
+      "value": "GLOBAL SUPPLY CHAIN S.A.\n97 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        338.74,
+        90.6,
+        36.85
+      ],
+      "value": "OOLU6397209",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "67893007",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        338.74,
+        42.63,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        338.74,
+        133.23,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        338.74,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '27', 'type': 'BOXES', 'description': '27 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "26,195.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        338.74,
+        79.94,
+        36.85
+      ],
+      "value": "46.188 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        375.59,
+        90.6,
+        36.85
+      ],
+      "value": "CMAU7180817",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "3BB19D3A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        375.59,
+        42.63,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        375.59,
+        133.23,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        375.59,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '467', 'type': 'BOXES', 'description': '467 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "5,878.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        375.59,
+        79.94,
+        36.85
+      ],
+      "value": "60.715 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        412.44,
+        90.6,
+        36.85
+      ],
+      "value": "EISU5948608",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "CEDA24H3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        412.44,
+        42.63,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        412.44,
+        133.23,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        412.44,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '310', 'type': 'BOXES', 'description': '310 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "25,647.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        412.44,
+        79.94,
+        36.85
+      ],
+      "value": "34.936 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        43.1,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        176.33,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        309.56,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        442.79,
+        481.89,
+        129.23,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        43.1,
+        510.24,
+        129.23,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

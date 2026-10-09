@@ -1,0 +1,351 @@
+{
+  "id": 717,
+  "filename": "bl_bl-18_00717_MSCUNGRTM117713458.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNGRTM117713458",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGRTM117713458",
+    "shipper_name": "CENTRAL TRADING AG",
+    "shipper_address": "34 HARBOR ROAD",
+    "consignee_name": "EURO LOGISTICS LLC",
+    "consignee_address": "201 COMMERCE BOULEVARD",
+    "notify_party_name": "FIRST LOGISTICS LTD",
+    "notify_party_address": "10 COMMERCE BOULEVARD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0991N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "24 MAY 2026",
+    "eta": "26 JUN 2026",
+    "container_number": "CMAU8450740",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "1H696B9C",
+    "commodity": "FOOTWEAR OF ALL TYPES",
+    "packages": "487 BOXES",
+    "gross_weight_kg": "13,544.03",
+    "measurement": "34.967 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU8450740",
+        "seal_number": "1H696B9C",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "487",
+          "type": "BOXES",
+          "description": "487 BOXES"
+        },
+        "gross_weight_kg": "13,544.03",
+        "net_weight_kg": "10,857.78",
+        "measurement": "34.967 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNGRTM117713458",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU8450740",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "1H696B9C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '487', 'type': 'BOXES', 'description': '487 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "13,544.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "34.967 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "34 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL TRADING AG\n34 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "201 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "EURO LOGISTICS LLC\n201 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "10 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST LOGISTICS LTD\n10 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        94.35,
+        453.54,
+        210.37,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        330.29,
+        453.54,
+        243.72,
+        34.02
+      ],
+      "value": "0991N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        115.67,
+        487.56,
+        189.05,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        346.73,
+        487.56,
+        227.28,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        521.57,
+        202.84,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.53,
+        521.57,
+        181.48,
+        34.02
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        128.11,
+        555.59,
+        176.61,
+        34.02
+      ],
+      "value": "24 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        365.41,
+        555.59,
+        208.6,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        598.11,
+        189.04,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        372.52,
+        598.11,
+        201.5,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        626.46,
+        201.94,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        337.4,
+        626.46,
+        236.61,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        654.8,
+        202.83,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

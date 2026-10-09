@@ -1,0 +1,353 @@
+{
+  "id": 64,
+  "filename": "bl_bl-15_00064_MSCUNNETN297987492.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNNETN297987492",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNNETN297987492",
+    "shipper": {
+      "name": "DELTA TRADING GMBH",
+      "address": "205 PORT ACCESS ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "DELTA TRADING GMBH\n205 PORT ACCESS ROAD\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "consignee": {
+      "name": "TRANS SUPPLY CHAIN S.A.",
+      "address": "214 HARBOR ROAD",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "TRANS SUPPLY CHAIN S.A.\n214 HARBOR ROAD\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "notify_party": {
+      "name": "APEX GROUP S.A.",
+      "address": "714 PORT ACCESS ROAD",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "APEX GROUP S.A.\n714 PORT ACCESS ROAD\nBUSAN, SOUTH KOREA 48940"
+    },
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS455W",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "20 JUN 2026",
+    "eta": "14 JUL 2026",
+    "issue_date": "15 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "CMAU4432599",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "80207837",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": {
+      "count": "187",
+      "type": "BOXES",
+      "description": "187 BOXES"
+    },
+    "gross_weight_kg": "18,208.25",
+    "net_weight_kg": "14,991.26",
+    "gross_weight_lbs": "40,142.27",
+    "measurement": "65.561 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU4432599",
+        "seal_number": "80207837",
+        "container_type": "40' OPEN TOP",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "187",
+          "type": "BOXES",
+          "description": "187 BOXES"
+        },
+        "gross_weight_kg": "18,208.25",
+        "net_weight_kg": "14,991.26",
+        "measurement": "65.561 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "DDP",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY",
+    "marks_numbers": "CMAU4432599\n80207837\nLOS ANGELES"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNNETN297987492",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA TRADING GMBH\n205 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "TRANS SUPPLY CHAIN S.A.\n214 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "APEX GROUP S.A.\n714 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "CS455W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "14 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU4432599",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "80207837",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '187', 'type': 'BOXES', 'description': '187 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "18,208.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "65.561 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "15 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

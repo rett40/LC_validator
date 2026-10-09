@@ -1,0 +1,353 @@
+{
+  "id": 98,
+  "filename": "bl_bl-20_00098_MSCUNZXHP204352924.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNZXHP204352924",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNZXHP204352924",
+    "shipper": {
+      "name": "EURO LOGISTICS S.A.",
+      "address": "556 MAIN STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "EURO LOGISTICS S.A.\n556 MAIN STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "consignee": {
+      "name": "TRANS INDUSTRIES CORP",
+      "address": "986 INDUSTRIAL AVENUE",
+      "city": "BARCELONA",
+      "country": "SPAIN",
+      "zip": "08003",
+      "full": "TRANS INDUSTRIES CORP\n986 INDUSTRIAL AVENUE\nBARCELONA, SPAIN 08003"
+    },
+    "notify_party": {
+      "name": "TRANS SHIPPING PLC",
+      "address": "605 HARBOR ROAD",
+      "city": "SINGAPORE",
+      "country": "SINGAPORE",
+      "zip": "018989",
+      "full": "TRANS SHIPPING PLC\n605 HARBOR ROAD\nSINGAPORE, SINGAPORE 018989"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-282",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "30 MAY 2026",
+    "eta": "25 JUN 2026",
+    "issue_date": "15 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "OOLU2303228",
+    "container_type": "20' REEFER",
+    "seal_number": "A5F7GG38",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": {
+      "count": "169",
+      "type": "CARTONS",
+      "description": "169 CARTONS"
+    },
+    "gross_weight_kg": "17,421.18",
+    "net_weight_kg": "14,874.45",
+    "gross_weight_lbs": "38,407.08",
+    "measurement": "54.668 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU2303228",
+        "seal_number": "A5F7GG38",
+        "container_type": "20' REEFER",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "169",
+          "type": "CARTONS",
+          "description": "169 CARTONS"
+        },
+        "gross_weight_kg": "17,421.18",
+        "net_weight_kg": "14,874.45",
+        "measurement": "54.668 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "incoterm": "CIF",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "OOLU2303228\nA5F7GG38\nLE HAVRE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNZXHP204352924",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "E-282",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "30 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "EURO LOGISTICS S.A.\n556 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS INDUSTRIES CORP\n986 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS SHIPPING PLC\n605 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2303228",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "A5F7GG38",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '169', 'type': 'CARTONS', 'description': '169 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "17,421.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "54.668 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "15 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

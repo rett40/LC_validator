@@ -1,0 +1,500 @@
+{
+  "id": 900,
+  "filename": "bl_bl-23_00900_MSCUNSWMY227528803.pdf",
+  "layout_id": "BL-23",
+  "bl_number": "MSCUNSWMY227528803",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSWMY227528803",
+    "shipper_name": "GLOBAL SOLUTIONS LLC",
+    "shipper_address": "630 INDUSTRIAL AVENUE",
+    "consignee_name": "CENTRAL SUPPLY CHAIN INC",
+    "consignee_address": "625 MAIN STREET",
+    "notify_party_name": "APEX GROUP CO.",
+    "notify_party_address": "367 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0252S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "04 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "TCKU8971747",
+    "container_type": "20'TK",
+    "seal_number": "H7F4ACDD",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "36 DRUMS",
+    "gross_weight_kg": "57,462.00",
+    "measurement": "125.782 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8971747",
+        "seal_number": "H7F4ACDD",
+        "container_type": "20'TK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "36",
+          "type": "DRUMS",
+          "description": "36 DRUMS"
+        },
+        "gross_weight_kg": "25,992.27",
+        "net_weight_kg": "23,690.11",
+        "measurement": "27.327 CBM"
+      },
+      {
+        "container_number": "CMAU5641355",
+        "seal_number": "AFHA5164",
+        "container_type": "20' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "88",
+          "type": "BOXES",
+          "description": "88 BOXES"
+        },
+        "gross_weight_kg": "23,447.53",
+        "net_weight_kg": "20,554.76",
+        "measurement": "49.191 CBM"
+      },
+      {
+        "container_number": "CMAU0438407",
+        "seal_number": "F88A4G30",
+        "container_type": "40'FR",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "364",
+          "type": "DRUMS",
+          "description": "364 DRUMS"
+        },
+        "gross_weight_kg": "8,022.20",
+        "net_weight_kg": "5,805.64",
+        "measurement": "49.264 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNSWMY227528803",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        170.08,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.06,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        428.03,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        145.98,
+        128.98,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        170.08,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "0252S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.06,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        428.03,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        170.08,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.06,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        428.03,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        276.38,
+        295.23,
+        94.96
+      ],
+      "value": "GLOBAL SOLUTIONS LLC\n630 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        274.96,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL SUPPLY CHAIN INC\n625 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        330.24,
+        212.68,
+        41.1
+      ],
+      "value": "APEX GROUP CO.\n367 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        402.52,
+        87.7,
+        36.85
+      ],
+      "value": "TCKU8971747",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "H7F4ACDD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        402.52,
+        41.27,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        402.52,
+        128.98,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '36', 'type': 'DRUMS', 'description': '36 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "25,992.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "27.327 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        439.37,
+        87.7,
+        36.85
+      ],
+      "value": "CMAU5641355",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "AFHA5164",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        439.37,
+        41.27,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        439.37,
+        128.98,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '88', 'type': 'BOXES', 'description': '88 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "23,447.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "49.191 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        476.22,
+        87.7,
+        36.85
+      ],
+      "value": "CMAU0438407",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "F88A4G30",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        476.22,
+        41.27,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        476.22,
+        128.98,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '364', 'type': 'DRUMS', 'description': '364 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "8,022.20",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "49.264 CBM",
+      "page": 1
+    }
+  ]
+}

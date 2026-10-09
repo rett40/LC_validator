@@ -1,0 +1,417 @@
+{
+  "id": 366,
+  "filename": "bl_bl-10_00366_MSCUNCPEL586729676.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNCPEL586729676",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNCPEL586729676",
+    "shipper_name": "APEX INDUSTRIES CORP",
+    "shipper_address": "840 PORT ACCESS ROAD",
+    "consignee_name": "UNITED SHIPPING PLC",
+    "consignee_address": "746 PORT ACCESS ROAD",
+    "notify_party_name": "EURO GROUP INC",
+    "notify_party_address": "800 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS558E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "02 JUN 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "TRHU1392738",
+    "container_type": "40'OT",
+    "seal_number": "AG1D6G51",
+    "commodity": "BUILDING MATERIALS",
+    "packages": "230 BAGS",
+    "gross_weight_kg": "30,927.07",
+    "measurement": "96.812 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU1392738",
+        "seal_number": "AG1D6G51",
+        "container_type": "40'OT",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "230",
+          "type": "BAGS",
+          "description": "230 BAGS"
+        },
+        "gross_weight_kg": "19,674.77",
+        "net_weight_kg": "15,924.29",
+        "measurement": "65.875 CBM"
+      },
+      {
+        "container_number": "MSCU7676938",
+        "seal_number": "93F6EFA2",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "467",
+          "type": "PACKAGES",
+          "description": "467 PACKAGES"
+        },
+        "gross_weight_kg": "11,252.30",
+        "net_weight_kg": "8,751.14",
+        "measurement": "30.937 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNCPEL586729676",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "TRHU1392738",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "AG1D6G51",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "230",
+        "type": "BAGS",
+        "description": "230 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "19,674.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "65.875 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "MSCU7676938",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "93F6EFA2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "467",
+        "type": "PACKAGES",
+        "description": "467 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "11,252.30",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "30.937 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "APEX INDUSTRIES CORP\n840 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED SHIPPING PLC\n746 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "EURO GROUP INC\n800 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        365.1,
+        201.42,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        356.45,
+        365.1,
+        207.64,
+        34.02
+      ],
+      "value": "CS558E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        399.12,
+        204.99,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        397.78,
+        399.12,
+        166.31,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        433.13,
+        197.87,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        374.24,
+        433.13,
+        189.86,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        467.15,
+        241.88,
+        34.02
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        321.77,
+        467.15,
+        242.32,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        509.67,
+        181.87,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        367.56,
+        509.67,
+        196.54,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        538.02,
+        210.31,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        332.44,
+        538.02,
+        231.65,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        566.36,
+        184.53,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

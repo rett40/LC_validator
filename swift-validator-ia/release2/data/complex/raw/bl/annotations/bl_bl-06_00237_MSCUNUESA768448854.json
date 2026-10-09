@@ -1,0 +1,442 @@
+{
+  "id": 237,
+  "filename": "bl_bl-06_00237_MSCUNUESA768448854.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNUESA768448854",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUESA768448854",
+    "shipper_name": "TRANS GROUP CO.",
+    "shipper_address": "990 HARBOR ROAD",
+    "consignee_name": "EURO GROUP CORP",
+    "consignee_address": "6 MAIN STREET",
+    "notify_party_name": "GLOBAL ENTERPRISES AG",
+    "notify_party_address": "346 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE516S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "26 JUN 2026",
+    "eta": "27 JUL 2026",
+    "container_number": "MSCU3433184",
+    "container_type": "40'OT",
+    "seal_number": "E520FC7D",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "159 BOXES",
+    "gross_weight_kg": "28,982.94",
+    "measurement": "61.843 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3433184",
+        "seal_number": "E520FC7D",
+        "container_type": "40'OT",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "159",
+          "type": "BOXES",
+          "description": "159 BOXES"
+        },
+        "gross_weight_kg": "23,592.20",
+        "net_weight_kg": "19,880.53",
+        "measurement": "39.514 CBM"
+      },
+      {
+        "container_number": "TCKU8749409",
+        "seal_number": "F8CD3BA4",
+        "container_type": "20' TANK",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "438",
+          "type": "PACKAGES",
+          "description": "438 PACKAGES"
+        },
+        "gross_weight_kg": "5,390.74",
+        "net_weight_kg": "1,839.67",
+        "measurement": "22.329 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNUESA768448854",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "990 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "TRANS GROUP CO.\n990 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "6 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "EURO GROUP CORP\n6 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "346 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL ENTERPRISES AG\n346 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        61.43,
+        219.69,
+        153.53,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        260.16,
+        219.69,
+        134.33,
+        34.02
+      ],
+      "value": "FE516S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        473.29,
+        219.69,
+        100.73,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        80.63,
+        253.7,
+        134.33,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        303.36,
+        253.7,
+        91.13,
+        34.02
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        487.69,
+        253.7,
+        86.33,
+        34.02
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        104.63,
+        287.72,
+        110.33,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        240.96,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "27 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3433184",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "E520FC7D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '159', 'type': 'BOXES', 'description': '159 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "23,592.20",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "39.514 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU8749409",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "F8CD3BA4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '438', 'type': 'PACKAGES', 'description': '438 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "5,390.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "22.329 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        119.03,
+        428.03,
+        95.93,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        284.16,
+        428.03,
+        110.33,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        449.29,
+        428.03,
+        124.73,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        90.23,
+        456.38,
+        124.73,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        288.96,
+        456.38,
+        105.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

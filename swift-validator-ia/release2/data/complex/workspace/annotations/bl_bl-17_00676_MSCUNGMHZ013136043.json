@@ -1,0 +1,500 @@
+{
+  "id": 676,
+  "filename": "bl_bl-17_00676_MSCUNGMHZ013136043.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNGMHZ013136043",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNGMHZ013136043",
+    "shipper_name": "CENTRAL COMMERCE BV",
+    "shipper_address": "219 MARKET STREET",
+    "consignee_name": "PACIFIC INDUSTRIES PLC",
+    "consignee_address": "925 MAIN STREET",
+    "notify_party_name": "EURO SHIPPING BV",
+    "notify_party_address": "674 INDUSTRIAL AVENUE",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0213W",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "06 JUN 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "MSCU0293008",
+    "container_type": "40' DRY / GP",
+    "seal_number": "DC323H0F",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "69 CARTONS",
+    "gross_weight_kg": "61,473.81",
+    "measurement": "159.134 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0293008",
+        "seal_number": "DC323H0F",
+        "container_type": "40' DRY / GP",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "69",
+          "type": "CARTONS",
+          "description": "69 CARTONS"
+        },
+        "gross_weight_kg": "27,798.47",
+        "net_weight_kg": "24,859.65",
+        "measurement": "65.132 CBM"
+      },
+      {
+        "container_number": "MSCU3595678",
+        "seal_number": "DHF85B1A",
+        "container_type": "40'HC",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "369",
+          "type": "PACKAGES",
+          "description": "369 PACKAGES"
+        },
+        "gross_weight_kg": "18,283.28",
+        "net_weight_kg": "15,181.32",
+        "measurement": "54.819 CBM"
+      },
+      {
+        "container_number": "TRHU6522076",
+        "seal_number": "E78HBG2C",
+        "container_type": "20'DC",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "226",
+          "type": "PALLETS",
+          "description": "226 PALLETS"
+        },
+        "gross_weight_kg": "15,392.06",
+        "net_weight_kg": "11,987.70",
+        "measurement": "39.183 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNGMHZ013136043",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        136.06,
+        302.62,
+        94.96
+      ],
+      "value": "CENTRAL COMMERCE BV\n219 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        134.65,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC INDUSTRIES PLC\n925 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        189.92,
+        218.04,
+        41.1
+      ],
+      "value": "EURO SHIPPING BV\n674 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "0213W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        345.83,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU0293008",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "DC323H0F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        345.83,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        345.83,
+        132.17,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '69', 'type': 'CARTONS', 'description': '69 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "27,798.47",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "65.132 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        382.68,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU3595678",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "DHF85B1A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        382.68,
+        42.29,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        382.68,
+        132.17,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '369', 'type': 'PACKAGES', 'description': '369 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "18,283.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "54.819 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        419.53,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU6522076",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        419.53,
+        52.87,
+        36.85
+      ],
+      "value": "E78HBG2C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        419.53,
+        42.29,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        419.53,
+        132.17,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        419.53,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '226', 'type': 'PALLETS', 'description': '226 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        419.53,
+        79.3,
+        36.85
+      ],
+      "value": "15,392.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        419.53,
+        79.3,
+        36.85
+      ],
+      "value": "39.183 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        510.24,
+        132.17,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

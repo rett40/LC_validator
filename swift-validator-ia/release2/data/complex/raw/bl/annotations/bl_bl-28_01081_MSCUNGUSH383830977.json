@@ -1,0 +1,512 @@
+{
+  "id": 1081,
+  "filename": "bl_bl-28_01081_MSCUNGUSH383830977.pdf",
+  "layout_id": "BL-28",
+  "bl_number": "MSCUNGUSH383830977",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNGUSH383830977",
+    "shipper_name": "PACIFIC PARTNERS INC",
+    "shipper_address": "516 TRADE PARK",
+    "consignee_name": "EURO INDUSTRIES LLC",
+    "consignee_address": "936 MAIN STREET",
+    "notify_party_name": "CENTRAL COMMERCE BV",
+    "notify_party_address": "956 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE137S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "06 JUN 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "OOLU1398734",
+    "container_type": "20' DRY",
+    "seal_number": "DADC9DAD",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "22 DRUMS",
+    "gross_weight_kg": "57,146.79",
+    "measurement": "181.369 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU1398734",
+        "seal_number": "DADC9DAD",
+        "container_type": "20' DRY",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "22",
+          "type": "DRUMS",
+          "description": "22 DRUMS"
+        },
+        "gross_weight_kg": "18,215.19",
+        "net_weight_kg": "14,636.61",
+        "measurement": "65.493 CBM"
+      },
+      {
+        "container_number": "OOLU7687818",
+        "seal_number": "3E546FBA",
+        "container_type": "40' REEFER",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "15",
+          "type": "PALLETS",
+          "description": "15 PALLETS"
+        },
+        "gross_weight_kg": "22,413.72",
+        "net_weight_kg": "19,327.94",
+        "measurement": "49.429 CBM"
+      },
+      {
+        "container_number": "OOLU2753800",
+        "seal_number": "0038G2HH",
+        "container_type": "40'FR",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "136",
+          "type": "CRATES",
+          "description": "136 CRATES"
+        },
+        "gross_weight_kg": "16,517.88",
+        "net_weight_kg": "13,506.29",
+        "measurement": "66.447 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        63.78,
+        271.42,
+        11.34
+      ],
+      "value": "MSCUNGUSH383830977",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        204.2,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "FE137S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.15,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        23.26,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        204.2,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.15,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        204.2,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        204.2,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.15,
+        208.35,
+        176.94,
+        12.76
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        23.26,
+        236.69,
+        176.94,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        204.2,
+        236.69,
+        176.94,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        256.54,
+        268.87,
+        12.76
+      ],
+      "value": "OOLU1398734",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        274.39,
+        120.99,
+        6.8
+      ],
+      "value": "DADC9DAD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        283.46,
+        120.99,
+        6.8
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        292.54,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "22",
+        "type": "DRUMS",
+        "description": "22 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        301.61,
+        120.99,
+        6.8
+      ],
+      "value": "18,215.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        310.68,
+        120.99,
+        6.8
+      ],
+      "value": "65.493 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        169.14,
+        274.18,
+        107.55,
+        31.96
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        295.23,
+        256.54,
+        268.87,
+        12.76
+      ],
+      "value": "OOLU7687818",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        328.57,
+        274.39,
+        120.99,
+        6.8
+      ],
+      "value": "3E546FBA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        328.57,
+        283.46,
+        120.99,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        328.57,
+        292.54,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "15",
+        "type": "PALLETS",
+        "description": "15 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        328.57,
+        301.61,
+        120.99,
+        6.8
+      ],
+      "value": "22,413.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        328.57,
+        310.68,
+        120.99,
+        6.8
+      ],
+      "value": "49.429 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        443.1,
+        274.18,
+        107.55,
+        31.96
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        319.75,
+        268.87,
+        12.76
+      ],
+      "value": "OOLU2753800",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        337.61,
+        120.99,
+        6.8
+      ],
+      "value": "0038G2HH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        346.68,
+        120.99,
+        6.8
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        355.75,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "136",
+        "type": "CRATES",
+        "description": "136 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        364.82,
+        120.99,
+        6.8
+      ],
+      "value": "16,517.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        373.89,
+        120.99,
+        6.8
+      ],
+      "value": "66.447 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        169.14,
+        337.39,
+        107.55,
+        31.96
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        387.21,
+        542.83,
+        55.28
+      ],
+      "value": "PACIFIC PARTNERS INC\n516 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        21.26,
+        442.49,
+        542.83,
+        55.28
+      ],
+      "value": "EURO INDUSTRIES LLC\n936 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        21.26,
+        497.76,
+        542.83,
+        55.28
+      ],
+      "value": "CENTRAL COMMERCE BV\n956 INDUSTRIAL AVENUE",
+      "page": 1
+    }
+  ]
+}

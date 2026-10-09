@@ -1,0 +1,442 @@
+{
+  "id": 459,
+  "filename": "bl_bl-10_00459_MSCUNPJAG522952970.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNPJAG522952970",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPJAG522952970",
+    "shipper_name": "FIRST GROUP GMBH",
+    "shipper_address": "168 COMMERCE BOULEVARD",
+    "consignee_name": "FIRST GROUP CORP",
+    "consignee_address": "138 INDUSTRIAL AVENUE",
+    "notify_party_name": "INTERNATIONAL PARTNERS PLC",
+    "notify_party_address": "831 COMMERCE BOULEVARD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8995",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "14 JUN 2026",
+    "eta": "13 JUL 2026",
+    "container_number": "MAEU4985221",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "4AD4GAGH",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "414 CARTONS",
+    "gross_weight_kg": "32,387.54",
+    "measurement": "55.262 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU4985221",
+        "seal_number": "4AD4GAGH",
+        "container_type": "20' FLAT RACK",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "414",
+          "type": "CARTONS",
+          "description": "414 CARTONS"
+        },
+        "gross_weight_kg": "17,423.44",
+        "net_weight_kg": "14,587.77",
+        "measurement": "33.258 CBM"
+      },
+      {
+        "container_number": "CMAU7946949",
+        "seal_number": "5GCD04GC",
+        "container_type": "20' OPEN TOP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "218",
+          "type": "CRATES",
+          "description": "218 CRATES"
+        },
+        "gross_weight_kg": "14,964.10",
+        "net_weight_kg": "11,346.50",
+        "measurement": "22.004 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "23 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNPJAG522952970",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU4985221",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "4AD4GAGH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '414', 'type': 'CARTONS', 'description': '414 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "17,423.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "33.258 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU7946949",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "5GCD04GC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '218', 'type': 'CRATES', 'description': '218 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "14,964.10",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "22.004 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "168 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST GROUP GMBH\n168 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        233.86,
+        269.29,
+        70.87
+      ],
+      "value": "138 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        214.02,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST GROUP CORP\n138 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        324.57,
+        269.29,
+        70.87
+      ],
+      "value": "831 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        304.72,
+        269.29,
+        90.71
+      ],
+      "value": "INTERNATIONAL PARTNERS PLC\n831 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        494.65,
+        269.29,
+        34.02
+      ],
+      "value": "AL8995",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        528.66,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        562.68,
+        269.29,
+        34.02
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        596.69,
+        269.29,
+        34.02
+      ],
+      "value": "13 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        639.21,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

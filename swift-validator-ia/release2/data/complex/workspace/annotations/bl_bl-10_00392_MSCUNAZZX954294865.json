@@ -1,0 +1,322 @@
+{
+  "id": 392,
+  "filename": "bl_bl-10_00392_MSCUNAZZX954294865.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNAZZX954294865",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNAZZX954294865",
+    "shipper_name": "FIRST TRADING BV",
+    "shipper_address": "1 HARBOR ROAD",
+    "consignee_name": "ATLANTIC LOGISTICS S.A.",
+    "consignee_address": "444 INDUSTRIAL AVENUE",
+    "notify_party_name": "FIRST SOLUTIONS PLC",
+    "notify_party_address": "924 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE77E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "07 JUN 2026",
+    "eta": "27 JUN 2026",
+    "container_number": "MAEU2253028",
+    "container_type": "45'HC",
+    "seal_number": "25FBEAG7",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "450 DRUMS",
+    "gross_weight_kg": "13,987.09",
+    "measurement": "64.739 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU2253028",
+        "seal_number": "25FBEAG7",
+        "container_type": "45'HC",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "450",
+          "type": "DRUMS",
+          "description": "450 DRUMS"
+        },
+        "gross_weight_kg": "13,987.09",
+        "net_weight_kg": "11,005.15",
+        "measurement": "64.739 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNAZZX954294865",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "MAEU2253028",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "25FBEAG7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "450",
+        "type": "DRUMS",
+        "description": "450 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "13,987.09",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "64.739 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST TRADING BV\n1 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "ATLANTIC LOGISTICS S.A.\n444 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST SOLUTIONS PLC\n924 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        376.89,
+        365.1,
+        187.2,
+        34.02
+      ],
+      "value": "AE77E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        108.11,
+        399.12,
+        191.65,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        397.78,
+        399.12,
+        166.31,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        433.13,
+        187.64,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        374.24,
+        433.13,
+        189.86,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        467.15,
+        188.54,
+        34.02
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        364.0,
+        467.15,
+        200.09,
+        34.02
+      ],
+      "value": "27 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        509.67,
+        173.43,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        364.45,
+        509.67,
+        199.64,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        538.02,
+        204.54,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        538.02,
+        205.42,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

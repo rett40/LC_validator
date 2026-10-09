@@ -1,0 +1,318 @@
+{
+  "id": 560,
+  "filename": "bl_bl-14_00560_MSCUNYBER599056465.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNYBER599056465",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNYBER599056465",
+    "shipper_name": "UNITED PARTNERS INC",
+    "shipper_address": "858 TRADE PARK",
+    "consignee_name": "UNITED SUPPLY CHAIN AG",
+    "consignee_address": "254 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED INDUSTRIES GMBH",
+    "notify_party_address": "442 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0986E",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CFS",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "28 MAY 2026",
+    "eta": "02 JUL 2026",
+    "container_number": "TCKU4027115",
+    "container_type": "40' REEFER",
+    "seal_number": "AGFFA196",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "292 PALLETS",
+    "gross_weight_kg": "24,337.01",
+    "measurement": "59.448 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4027115",
+        "seal_number": "AGFFA196",
+        "container_type": "40' REEFER",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "292",
+          "type": "PALLETS",
+          "description": "292 PALLETS"
+        },
+        "gross_weight_kg": "24,337.01",
+        "net_weight_kg": "21,737.71",
+        "measurement": "59.448 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNYBER599056465",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "TCKU4027115",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "AGFFA196",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '292', 'type': 'PALLETS', 'description': '292 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "24,337.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "59.448 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "0986E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "TIANJIN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "02 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        307.56,
+        298.51,
+        94.96
+      ],
+      "value": "UNITED PARTNERS INC\n858 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        306.14,
+        215.06,
+        41.1
+      ],
+      "value": "UNITED SUPPLY CHAIN AG\n254 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        361.42,
+        215.06,
+        41.1
+      ],
+      "value": "UNITED INDUSTRIES GMBH\n442 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

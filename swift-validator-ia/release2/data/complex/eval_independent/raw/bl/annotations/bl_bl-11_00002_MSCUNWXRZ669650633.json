@@ -1,0 +1,535 @@
+{
+  "id": 2,
+  "filename": "bl_bl-11_00002_MSCUNWXRZ669650633.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNWXRZ669650633",
+  "n_containers": 3,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNWXRZ669650633",
+    "shipper": {
+      "name": "GLOBAL SOLUTIONS S.A.",
+      "address": "253 COMMERCE BOULEVARD",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "GLOBAL SOLUTIONS S.A.\n253 COMMERCE BOULEVARD\nHAMBURG, GERMANY 20095"
+    },
+    "consignee": {
+      "name": "PACIFIC PARTNERS CORP",
+      "address": "209 HARBOR ROAD",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "PACIFIC PARTNERS CORP\n209 HARBOR ROAD\nHAMBURG, GERMANY 20095"
+    },
+    "notify_party": {
+      "name": "FIRST SUPPLY CHAIN CO.",
+      "address": "537 INDUSTRIAL AVENUE",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "FIRST SUPPLY CHAIN CO.\n537 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "MSC GULSUN",
+    "voyage": "FE178S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "18 JUN 2026",
+    "eta": "09 JUL 2026",
+    "issue_date": "17 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "HLCU6553753",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "8GA5BDGD",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": {
+      "count": "71",
+      "type": "DRUMS",
+      "description": "71 DRUMS"
+    },
+    "gross_weight_kg": "66,430.77",
+    "net_weight_kg": "57,247.52",
+    "gross_weight_lbs": "146,454.60",
+    "measurement": "128.772 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU6553753",
+        "seal_number": "8GA5BDGD",
+        "container_type": "40' OPEN TOP",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "71",
+          "type": "DRUMS",
+          "description": "71 DRUMS"
+        },
+        "gross_weight_kg": "27,703.34",
+        "net_weight_kg": "25,343.01",
+        "measurement": "33.512 CBM"
+      },
+      {
+        "container_number": "EISU6096376",
+        "seal_number": "18D7807A",
+        "container_type": "40' FLAT RACK",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "453",
+          "type": "CARTONS",
+          "description": "453 CARTONS"
+        },
+        "gross_weight_kg": "25,796.15",
+        "net_weight_kg": "22,155.85",
+        "measurement": "55.988 CBM"
+      },
+      {
+        "container_number": "TCKU5802393",
+        "seal_number": "E34779F2",
+        "container_type": "20' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "176",
+          "type": "PACKAGES",
+          "description": "176 PACKAGES"
+        },
+        "gross_weight_kg": "12,931.28",
+        "net_weight_kg": "9,748.66",
+        "measurement": "39.272 CBM"
+      }
+    ],
+    "n_containers": 3,
+    "freight_terms": "FREIGHT PREPAID",
+    "incoterm": "FOB",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY",
+    "marks_numbers": "HLCU6553753\n8GA5BDGD\nFELIXSTOWE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNWXRZ669650633",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "FE178S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SOLUTIONS S.A.\n253 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC PARTNERS CORP\n209 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST SUPPLY CHAIN CO.\n537 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU6553753",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "8GA5BDGD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '71', 'type': 'DRUMS', 'description': '71 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "27,703.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "33.512 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        374.17,
+        91.56,
+        36.85
+      ],
+      "value": "EISU6096376",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "18D7807A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        374.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        374.17,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        374.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '453', 'type': 'CARTONS', 'description': '453 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "25,796.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        374.17,
+        80.79,
+        36.85
+      ],
+      "value": "55.988 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        411.02,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU5802393",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "E34779F2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        411.02,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        411.02,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        411.02,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '176', 'type': 'PACKAGES', 'description': '176 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "12,931.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        411.02,
+        80.79,
+        36.85
+      ],
+      "value": "39.272 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        473.39,
+        179.53,
+        18.43
+      ],
+      "value": "17 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        501.73,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

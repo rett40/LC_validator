@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00198",
+  "filename": "inv_inv-05_00198.pdf",
+  "layout_id": "INV-05",
+  "bl_id": 198,
+  "fields": {
+    "invoice_number": "INV-2026-00198",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/DBS/0198/2026",
+    "bl_reference": "MSCUNMYEH097335797",
+    "seller_name": "CENTRAL INDUSTRIES PLC",
+    "buyer_name": "UNITED TRADING LLC",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE180N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "FRESH FRUITS AND VEGETABLES",
+    "hs_code": "8428.90",
+    "quantity": 462,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "26,074.71",
+    "unit_price": 457.17,
+    "currency": "EUR",
+    "total_amount": 211212.54,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        70.87,
+        211.46,
+        11.34
+      ],
+      "value": "INV-2026-00198",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        107.72,
+        264.33,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        292.68,
+        107.72,
+        264.33,
+        18.43
+      ],
+      "value": "LC/DBS/0198/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        136.06,
+        264.33,
+        18.43
+      ],
+      "value": "MSCUNMYEH097335797",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        292.68,
+        136.06,
+        264.33,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        164.41,
+        264.33,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        292.68,
+        164.41,
+        264.33,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        198.43,
+        327.77,
+        79.37
+      ],
+      "value": "CENTRAL INDUSTRIES PLC\nCENTRAL INDUSTRIES PLC\n991 EXPORT ZONE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        356.12,
+        198.43,
+        200.89,
+        79.37
+      ],
+      "value": "UNITED TRADING LLC\nUNITED TRADING LLC\n802 MAIN BOULEVARD\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        308.98,
+        169.17,
+        42.52
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        197.52,
+        308.98,
+        63.44,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        260.96,
+        308.98,
+        52.87,
+        42.52
+      ],
+      "value": "462",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        313.82,
+        308.98,
+        52.87,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        366.69,
+        308.98,
+        95.16,
+        42.52
+      ],
+      "value": "457.17 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        461.85,
+        308.98,
+        95.16,
+        42.52
+      ],
+      "value": "211212.54 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        438.06,
+        365.67,
+        118.95,
+        19.84
+      ],
+      "value": "26,074.71 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        438.06,
+        385.51,
+        118.95,
+        19.84
+      ],
+      "value": "211212.54 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        423.78,
+        264.33,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        292.68,
+        423.78,
+        264.33,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

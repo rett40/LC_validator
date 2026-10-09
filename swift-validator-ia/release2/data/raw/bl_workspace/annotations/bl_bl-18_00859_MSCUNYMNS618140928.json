@@ -1,0 +1,533 @@
+{
+  "id": 859,
+  "filename": "bl_bl-18_00859_MSCUNYMNS618140928.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNYMNS618140928",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNYMNS618140928",
+    "shipper_name": "GLOBAL COMMERCE CORP",
+    "shipper_address": "660 MAIN STREET",
+    "consignee_name": "CENTRAL COMMERCE LLC",
+    "consignee_address": "724 MAIN STREET",
+    "notify_party_name": "FIRST SUPPLY CHAIN GMBH",
+    "notify_party_address": "775 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL2897",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "28 MAY 2026",
+    "eta": "24 JUN 2026",
+    "container_number": "TRHU5172227",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "0D2FD41B",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "272 BOXES",
+    "gross_weight_kg": "37,100.32",
+    "measurement": "82.055 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU5172227",
+        "seal_number": "0D2FD41B",
+        "container_type": "20' OPEN TOP",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "272",
+          "type": "BOXES",
+          "description": "272 BOXES"
+        },
+        "gross_weight_kg": "7,621.93",
+        "net_weight_kg": "4,319.23",
+        "measurement": "27.346 CBM"
+      },
+      {
+        "container_number": "HLCU5923644",
+        "seal_number": "D7572931",
+        "container_type": "40' REEFER",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "443",
+          "type": "BOXES",
+          "description": "443 BOXES"
+        },
+        "gross_weight_kg": "13,887.14",
+        "net_weight_kg": "11,496.53",
+        "measurement": "26.529 CBM"
+      },
+      {
+        "container_number": "CMAU8421877",
+        "seal_number": "58B60EH3",
+        "container_type": "40' OPEN TOP",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "497",
+          "type": "BOXES",
+          "description": "497 BOXES"
+        },
+        "gross_weight_kg": "15,591.25",
+        "net_weight_kg": "12,077.98",
+        "measurement": "28.180 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNYMNS618140928",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU5172227",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "0D2FD41B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '272', 'type': 'BOXES', 'description': '272 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "7,621.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "27.346 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU5923644",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "D7572931",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '443', 'type': 'BOXES', 'description': '443 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "13,887.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "26.529 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        197.01,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU8421877",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "58B60EH3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        197.01,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        197.01,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '497', 'type': 'BOXES', 'description': '497 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "15,591.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "28.180 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "660 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL COMMERCE CORP\n660 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "724 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL COMMERCE LLC\n724 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        352.91,
+        269.29,
+        70.87
+      ],
+      "value": "775 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        333.07,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST SUPPLY CHAIN GMBH\n775 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "AL2897",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        724.25,
+        269.29,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

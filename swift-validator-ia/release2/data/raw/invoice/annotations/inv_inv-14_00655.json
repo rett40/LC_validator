@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00655",
+  "filename": "inv_inv-14_00655.pdf",
+  "layout_id": "INV-14",
+  "bl_id": 655,
+  "fields": {
+    "invoice_number": "INV-2026-00655",
+    "invoice_date": "23 APR 2026",
+    "lc_reference": "LC/CITI/0655/2026",
+    "bl_reference": "MSCUNGZYT351244348",
+    "seller_name": "APEX SHIPPING BV",
+    "buyer_name": "UNITED COMMERCE CORP",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE85N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "CHEMICAL PRODUCTS NEC",
+    "hs_code": "3824.99",
+    "quantity": 324,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "17,762.93",
+    "unit_price": 15.32,
+    "currency": "USD",
+    "total_amount": 4964.58,
+    "incoterm": "CIP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00655",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        131.81,
+        172.35,
+        42.52
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        131.81,
+        64.63,
+        42.52
+      ],
+      "value": "3824.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "324",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "15.32 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "4964.58 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        182.83,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        182.83,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        280.63,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        280.63,
+        179.53,
+        18.43
+      ],
+      "value": "LC/CITI/0655/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        280.63,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNGZYT351244348",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        308.98,
+        179.53,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        308.98,
+        179.53,
+        18.43
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        308.98,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        335.91,
+        121.18,
+        19.84
+      ],
+      "value": "17,762.93 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        355.75,
+        121.18,
+        19.84
+      ],
+      "value": "4964.58 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        394.02,
+        179.53,
+        15.59
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        394.02,
+        179.53,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "5323.32 USD",
+      "actual": "4964.58 USD"
+    }
+  ]
+}

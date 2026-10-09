@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00847",
+  "filename": "inv_inv-22_00847.pdf",
+  "layout_id": "INV-22",
+  "bl_id": 847,
+  "fields": {
+    "invoice_number": "INV-2026-00847",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/BNP/0847/2026",
+    "bl_reference": "MSCUNKVNZ202159018",
+    "seller_name": "UNITED INDUSTRIES CORP",
+    "buyer_name": "INTERNATIONAL PARTNERS CORP",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE310N",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "FURNITURE AND PARTS THEREOF",
+    "hs_code": "9403.20",
+    "quantity": 31,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "20,260.08",
+    "unit_price": 56.44,
+    "currency": "USD",
+    "total_amount": 1749.68,
+    "incoterm": "FCA",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        77.95,
+        211.46,
+        11.34
+      ],
+      "value": "INV-2026-00847",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.15,
+        103.46,
+        118.95,
+        19.84
+      ],
+      "value": "20,260.08 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.15,
+        123.31,
+        118.95,
+        19.84
+      ],
+      "value": "1749.68 USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        158.74,
+        306.62,
+        56.69
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        342.06,
+        168.66,
+        111.02,
+        18.43
+      ],
+      "value": "9403.20",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        453.08,
+        168.66,
+        111.02,
+        18.43
+      ],
+      "value": 31,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        342.06,
+        197.01,
+        111.02,
+        18.43
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        453.08,
+        197.01,
+        111.02,
+        18.43
+      ],
+      "value": "56.44 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        326.2,
+        221.1,
+        237.9,
+        25.51
+      ],
+      "value": "1749.68 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        262.2,
+        528.66,
+        52.44
+      ],
+      "value": "UNITED INDUSTRIES CORP\nUNITED INDUSTRIES CORP\n410 TRADE PARK\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        35.43,
+        314.65,
+        528.66,
+        52.44
+      ],
+      "value": "INTERNATIONAL PARTNERS CORP\nINTERNATIONAL PARTNERS CORP\n846 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        167.6,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "LC/BNP/0847/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        299.76,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "MSCUNKVNZ202159018",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        431.93,
+        392.6,
+        132.17,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        132.17,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        167.6,
+        420.94,
+        132.17,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        457.8,
+        176.22,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        211.65,
+        457.8,
+        176.22,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "2029.88 USD",
+      "actual": "1749.68 USD"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "NEW YORK, USA"
+    }
+  ]
+}

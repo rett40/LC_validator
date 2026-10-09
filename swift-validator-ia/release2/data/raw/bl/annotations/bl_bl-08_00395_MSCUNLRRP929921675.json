@@ -1,0 +1,500 @@
+{
+  "id": 395,
+  "filename": "bl_bl-08_00395_MSCUNLRRP929921675.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNLRRP929921675",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNLRRP929921675",
+    "shipper_name": "PACIFIC COMMERCE LLC",
+    "shipper_address": "430 TRADE PARK",
+    "consignee_name": "FIRST TRADING CORP",
+    "consignee_address": "375 INDUSTRIAL AVENUE",
+    "notify_party_name": "DELTA COMMERCE CO.",
+    "notify_party_address": "47 INDUSTRIAL AVENUE",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0497E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "07 MAY 2026",
+    "eta": "02 JUN 2026",
+    "container_number": "MSCU8408213",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "6FB5CAH5",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "195 PACKAGES",
+    "gross_weight_kg": "36,382.27",
+    "measurement": "87.358 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8408213",
+        "seal_number": "6FB5CAH5",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "195",
+          "type": "PACKAGES",
+          "description": "195 PACKAGES"
+        },
+        "gross_weight_kg": "7,016.87",
+        "net_weight_kg": "3,814.52",
+        "measurement": "22.531 CBM"
+      },
+      {
+        "container_number": "MAEU9543862",
+        "seal_number": "C4B816H1",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "230",
+          "type": "PACKAGES",
+          "description": "230 PACKAGES"
+        },
+        "gross_weight_kg": "19,942.72",
+        "net_weight_kg": "15,993.88",
+        "measurement": "34.992 CBM"
+      },
+      {
+        "container_number": "TCKU1236798",
+        "seal_number": "42BF48B5",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "266",
+          "type": "CARTONS",
+          "description": "266 CARTONS"
+        },
+        "gross_weight_kg": "9,422.68",
+        "net_weight_kg": "6,206.05",
+        "measurement": "29.835 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNLRRP929921675",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "PACIFIC COMMERCE LLC\n430 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        87.87,
+        265.29,
+        73.7
+      ],
+      "value": "FIRST TRADING CORP\n375 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        178.58,
+        265.29,
+        73.7
+      ],
+      "value": "DELTA COMMERCE CO.\n47 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        371.91,
+        265.29,
+        15.31
+      ],
+      "value": "0497E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        405.92,
+        265.29,
+        15.31
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        439.94,
+        265.29,
+        15.31
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        473.95,
+        265.29,
+        15.31
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU8408213",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "6FB5CAH5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '195', 'type': 'PACKAGES', 'description': '195 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "7,016.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "22.531 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        548.5,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU9543862",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "C4B816H1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        548.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        548.5,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        548.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '230', 'type': 'PACKAGES', 'description': '230 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "19,942.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        548.5,
+        80.79,
+        36.85
+      ],
+      "value": "34.992 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        585.35,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU1236798",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "42BF48B5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        585.35,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        585.35,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        585.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '266', 'type': 'CARTONS', 'description': '266 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "9,422.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        585.35,
+        80.79,
+        36.85
+      ],
+      "value": "29.835 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        647.72,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        676.06,
+        265.29,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        704.41,
+        265.29,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

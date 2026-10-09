@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00351",
+  "filename": "inv_cmacgm_0351_CMAUXSPL021113457.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 351,
+  "fields": {
+    "invoice_number": "INV-2026-00351",
+    "invoice_date": "13 APR 2026",
+    "lc_reference": "LC/DB/0351/2026",
+    "bl_reference": "CMAUXSPL021113457",
+    "seller_name": "FIRST SUPPLY CHAIN LLC",
+    "buyer_name": "TRANS GROUP S.A.",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE826S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "ELECTRONIC GOODS AND ACCESSORIES",
+    "hs_code": "8542.31",
+    "quantity": 241,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "8,729.49",
+    "unit_price": 48.25,
+    "currency": "USD",
+    "total_amount": 11627.78,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00351",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUXSPL021113457",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "FIRST SUPPLY CHAIN LLC\n334 COMMERCE STREET\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "TRANS GROUP S.A.\n533 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "FE826S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUXSPL021113457",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "ELECTRONIC GOODS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "241",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 48.25",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 11,627.78",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 11,627.78",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "13030.87 USD",
+      "actual": "11627.78 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "ELECTRONIC COMPONENTS AND PARTS",
+      "actual": "ELECTRONIC GOODS AND ACCESSORIES"
+    }
+  ]
+}

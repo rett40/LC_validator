@@ -1,0 +1,500 @@
+{
+  "id": 446,
+  "filename": "bl_bl-09_00446_MSCUNDPVT400934589.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNDPVT400934589",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNDPVT400934589",
+    "shipper_name": "FIRST PARTNERS S.A.",
+    "shipper_address": "30 HARBOR ROAD",
+    "consignee_name": "CENTRAL SHIPPING S.A.",
+    "consignee_address": "848 MARKET STREET",
+    "notify_party_name": "APEX GROUP AG",
+    "notify_party_address": "637 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS411S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "14 MAY 2026",
+    "eta": "04 JUN 2026",
+    "container_number": "MAEU6316062",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "H76D573H",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "335 PALLETS",
+    "gross_weight_kg": "46,026.40",
+    "measurement": "122.386 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU6316062",
+        "seal_number": "H76D573H",
+        "container_type": "40' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "335",
+          "type": "PALLETS",
+          "description": "335 PALLETS"
+        },
+        "gross_weight_kg": "25,705.44",
+        "net_weight_kg": "22,500.18",
+        "measurement": "39.291 CBM"
+      },
+      {
+        "container_number": "CMAU6691465",
+        "seal_number": "3093B5AC",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "242",
+          "type": "PALLETS",
+          "description": "242 PALLETS"
+        },
+        "gross_weight_kg": "8,904.62",
+        "net_weight_kg": "6,179.43",
+        "measurement": "42.149 CBM"
+      },
+      {
+        "container_number": "CMAU0783114",
+        "seal_number": "H9H31209",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "346",
+          "type": "PALLETS",
+          "description": "346 PALLETS"
+        },
+        "gross_weight_kg": "11,416.34",
+        "net_weight_kg": "8,770.70",
+        "measurement": "40.946 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNDPVT400934589",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST PARTNERS S.A.\n30 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL SHIPPING S.A.\n848 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "APEX GROUP AG\n637 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "CS411S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        354.33,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6316062",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "H76D573H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        354.33,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        354.33,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '335', 'type': 'PALLETS', 'description': '335 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "25,705.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "39.291 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        391.18,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU6691465",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "3093B5AC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        391.18,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        391.18,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '242', 'type': 'PALLETS', 'description': '242 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "8,904.62",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "42.149 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        428.03,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0783114",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "H9H31209",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        428.03,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        428.03,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '346', 'type': 'PALLETS', 'description': '346 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "11,416.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "40.946 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

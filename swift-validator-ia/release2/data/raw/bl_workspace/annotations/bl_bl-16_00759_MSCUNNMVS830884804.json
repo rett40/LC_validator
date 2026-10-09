@@ -1,0 +1,409 @@
+{
+  "id": 759,
+  "filename": "bl_bl-16_00759_MSCUNNMVS830884804.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNNMVS830884804",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNMVS830884804",
+    "shipper_name": "EURO SUPPLY CHAIN PLC",
+    "shipper_address": "518 TRADE PARK",
+    "consignee_name": "ATLANTIC ENTERPRISES GMBH",
+    "consignee_address": "469 MAIN STREET",
+    "notify_party_name": "PREMIER SHIPPING CORP",
+    "notify_party_address": "464 MARKET STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0721W",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "28 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "MSCU0209474",
+    "container_type": "20' TANK",
+    "seal_number": "55D6A4HH",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "284 CARTONS",
+    "gross_weight_kg": "34,099.57",
+    "measurement": "88.500 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0209474",
+        "seal_number": "55D6A4HH",
+        "container_type": "20' TANK",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "284",
+          "type": "CARTONS",
+          "description": "284 CARTONS"
+        },
+        "gross_weight_kg": "27,736.25",
+        "net_weight_kg": "25,505.00",
+        "measurement": "39.460 CBM"
+      },
+      {
+        "container_number": "CMAU1650380",
+        "seal_number": "0C6GEB67",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "185",
+          "type": "PACKAGES",
+          "description": "185 PACKAGES"
+        },
+        "gross_weight_kg": "6,363.32",
+        "net_weight_kg": "2,616.02",
+        "measurement": "49.040 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "28 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNNMVS830884804",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "0721W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0209474",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "55D6A4HH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '284', 'type': 'CARTONS', 'description': '284 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "27,736.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "39.460 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        253.7,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1650380",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "0C6GEB67",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        253.7,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        253.7,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '185', 'type': 'PACKAGES', 'description': '185 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "6,363.32",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "49.040 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "EURO SUPPLY CHAIN PLC\n518 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC ENTERPRISES GMBH\n469 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "PREMIER SHIPPING CORP\n464 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

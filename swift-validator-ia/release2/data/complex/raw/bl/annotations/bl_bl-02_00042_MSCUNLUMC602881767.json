@@ -1,0 +1,500 @@
+{
+  "id": 42,
+  "filename": "bl_bl-02_00042_MSCUNLUMC602881767.pdf",
+  "layout_id": "BL-02",
+  "bl_number": "MSCUNLUMC602881767",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNLUMC602881767",
+    "shipper_name": "GLOBAL SUPPLY CHAIN LLC",
+    "shipper_address": "600 MAIN STREET",
+    "consignee_name": "DELTA LOGISTICS CO.",
+    "consignee_address": "109 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX INDUSTRIES BV",
+    "notify_party_address": "289 MARKET STREET",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE83E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "10 JUN 2026",
+    "eta": "28 JUN 2026",
+    "container_number": "HLCU1375915",
+    "container_type": "20'DC",
+    "seal_number": "9A7CA2H1",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "252 CARTONS",
+    "gross_weight_kg": "37,171.73",
+    "measurement": "123.428 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU1375915",
+        "seal_number": "9A7CA2H1",
+        "container_type": "20'DC",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "252",
+          "type": "CARTONS",
+          "description": "252 CARTONS"
+        },
+        "gross_weight_kg": "14,087.60",
+        "net_weight_kg": "10,766.16",
+        "measurement": "34.625 CBM"
+      },
+      {
+        "container_number": "CMAU1281170",
+        "seal_number": "78901FBB",
+        "container_type": "20' TANK",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "445",
+          "type": "DRUMS",
+          "description": "445 DRUMS"
+        },
+        "gross_weight_kg": "9,869.95",
+        "net_weight_kg": "6,058.69",
+        "measurement": "47.869 CBM"
+      },
+      {
+        "container_number": "OOLU6934639",
+        "seal_number": "C269DF64",
+        "container_type": "40'FR",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "130",
+          "type": "PALLETS",
+          "description": "130 PALLETS"
+        },
+        "gross_weight_kg": "13,214.18",
+        "net_weight_kg": "9,871.59",
+        "measurement": "40.934 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "MSCUNLUMC602881767",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        127.56,
+        298.51,
+        94.96
+      ],
+      "value": "GLOBAL SUPPLY CHAIN LLC\n600 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        126.14,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA LOGISTICS CO.\n109 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        181.42,
+        215.06,
+        41.1
+      ],
+      "value": "APEX INDUSTRIES BV\n289 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        240.94,
+        260.79,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        296.22,
+        240.94,
+        260.79,
+        24.09
+      ],
+      "value": "AE83E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        35.43,
+        274.96,
+        260.79,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        296.22,
+        274.96,
+        260.79,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        35.43,
+        308.98,
+        260.79,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        296.22,
+        308.98,
+        260.79,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        342.99,
+        260.79,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        296.22,
+        342.99,
+        260.79,
+        24.09
+      ],
+      "value": "28 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        391.18,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU1375915",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        391.18,
+        52.16,
+        36.85
+      ],
+      "value": "9A7CA2H1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        391.18,
+        41.73,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        391.18,
+        130.39,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        391.18,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '252', 'type': 'CARTONS', 'description': '252 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        391.18,
+        78.24,
+        36.85
+      ],
+      "value": "14,087.60",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        391.18,
+        78.24,
+        36.85
+      ],
+      "value": "34.625 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        428.03,
+        88.67,
+        36.85
+      ],
+      "value": "CMAU1281170",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        428.03,
+        52.16,
+        36.85
+      ],
+      "value": "78901FBB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        428.03,
+        41.73,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        428.03,
+        130.39,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        428.03,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '445', 'type': 'DRUMS', 'description': '445 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        428.03,
+        78.24,
+        36.85
+      ],
+      "value": "9,869.95",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        428.03,
+        78.24,
+        36.85
+      ],
+      "value": "47.869 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        464.88,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU6934639",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        464.88,
+        52.16,
+        36.85
+      ],
+      "value": "C269DF64",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        464.88,
+        41.73,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        464.88,
+        130.39,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        464.88,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '130', 'type': 'PALLETS', 'description': '130 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        464.88,
+        78.24,
+        36.85
+      ],
+      "value": "13,214.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        464.88,
+        78.24,
+        36.85
+      ],
+      "value": "40.934 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        520.16,
+        260.79,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        296.22,
+        520.16,
+        260.79,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        35.43,
+        548.5,
+        260.79,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        296.22,
+        548.5,
+        260.79,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        35.43,
+        576.85,
+        260.79,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

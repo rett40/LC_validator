@@ -1,0 +1,500 @@
+{
+  "id": 200,
+  "filename": "bl_bl-05_00200_MSCUNWMUZ628771412.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNWMUZ628771412",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNWMUZ628771412",
+    "shipper_name": "TRANS PARTNERS LLC",
+    "shipper_address": "829 COMMERCE BOULEVARD",
+    "consignee_name": "PACIFIC TRADING CO.",
+    "consignee_address": "743 HARBOR ROAD",
+    "notify_party_name": "PACIFIC SUPPLY CHAIN S.A.",
+    "notify_party_address": "74 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE33W",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "18 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "TRHU2268619",
+    "container_type": "40'FR",
+    "seal_number": "539AGGE1",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "172 PACKAGES",
+    "gross_weight_kg": "42,259.42",
+    "measurement": "170.190 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2268619",
+        "seal_number": "539AGGE1",
+        "container_type": "40'FR",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "172",
+          "type": "PACKAGES",
+          "description": "172 PACKAGES"
+        },
+        "gross_weight_kg": "10,022.42",
+        "net_weight_kg": "7,719.16",
+        "measurement": "52.104 CBM"
+      },
+      {
+        "container_number": "MSCU0582801",
+        "seal_number": "DC9DB518",
+        "container_type": "40' DRY",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "64",
+          "type": "CARTONS",
+          "description": "64 CARTONS"
+        },
+        "gross_weight_kg": "7,233.21",
+        "net_weight_kg": "4,823.68",
+        "measurement": "54.139 CBM"
+      },
+      {
+        "container_number": "TRHU2071350",
+        "seal_number": "H9574AG2",
+        "container_type": "40'OT",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "284",
+          "type": "BAGS",
+          "description": "284 BAGS"
+        },
+        "gross_weight_kg": "25,003.79",
+        "net_weight_kg": "21,916.91",
+        "measurement": "63.947 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNWMUZ628771412",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "TRANS PARTNERS LLC\n829 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC TRADING CO.\n743 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "PACIFIC SUPPLY CHAIN S.A.\n74 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU2268619",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "539AGGE1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '172', 'type': 'PACKAGES', 'description': '172 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "10,022.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "52.104 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU0582801",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "DC9DB518",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '64', 'type': 'CARTONS', 'description': '64 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "7,233.21",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "54.139 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        310.39,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU2071350",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "H9574AG2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        310.39,
+        42.29,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        310.39,
+        132.17,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '284', 'type': 'BAGS', 'description': '284 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "25,003.79",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "63.947 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "AE33W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        581.1,
+        264.33,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

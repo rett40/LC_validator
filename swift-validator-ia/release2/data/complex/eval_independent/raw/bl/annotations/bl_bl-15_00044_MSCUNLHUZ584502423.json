@@ -1,0 +1,353 @@
+{
+  "id": 44,
+  "filename": "bl_bl-15_00044_MSCUNLHUZ584502423.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNLHUZ584502423",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNLHUZ584502423",
+    "shipper": {
+      "name": "UNITED SOLUTIONS PLC",
+      "address": "595 MAIN STREET",
+      "city": "BUSAN",
+      "country": "SOUTH KOREA",
+      "zip": "48940",
+      "full": "UNITED SOLUTIONS PLC\n595 MAIN STREET\nBUSAN, SOUTH KOREA 48940"
+    },
+    "consignee": {
+      "name": "EURO LOGISTICS S.A.",
+      "address": "785 COMMERCE BOULEVARD",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "EURO LOGISTICS S.A.\n785 COMMERCE BOULEVARD\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "notify_party": {
+      "name": "PREMIER LOGISTICS CO.",
+      "address": "563 MAIN STREET",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "PREMIER LOGISTICS CO.\n563 MAIN STREET\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE34N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "04 JUL 2026",
+    "eta": "30 JUL 2026",
+    "issue_date": "18 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "HLCU3342198",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "50DG6B6H",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": {
+      "count": "456",
+      "type": "CRATES",
+      "description": "456 CRATES"
+    },
+    "gross_weight_kg": "25,763.80",
+    "net_weight_kg": "22,548.02",
+    "gross_weight_lbs": "56,799.39",
+    "measurement": "63.873 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU3342198",
+        "seal_number": "50DG6B6H",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "456",
+          "type": "CRATES",
+          "description": "456 CRATES"
+        },
+        "gross_weight_kg": "25,763.80",
+        "net_weight_kg": "22,548.02",
+        "measurement": "63.873 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "PREPAID",
+    "incoterm": "CPT",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "HLCU3342198\n50DG6B6H\nVALENCIA"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNLHUZ584502423",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED SOLUTIONS PLC\n595 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "EURO LOGISTICS S.A.\n785 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER LOGISTICS CO.\n563 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "AE34N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "30 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU3342198",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "50DG6B6H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '456', 'type': 'CRATES', 'description': '456 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "25,763.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "63.873 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        632.13,
+        269.29,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        660.47,
+        269.29,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        688.82,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00367",
+  "filename": "inv_cmacgm_0367_CMAUGYFU978653069.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 367,
+  "fields": {
+    "invoice_number": "INV-2026-00367",
+    "invoice_date": "15 APR 2026",
+    "lc_reference": "LC/BNP/0367/2026",
+    "bl_reference": "CMAUGYFU978653069",
+    "seller_name": "TRANS COMMERCE LLC",
+    "buyer_name": "UNITED INDUSTRIES GMBH",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-451",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "PHOTOVOLTAIC MODULES AND CELLS",
+    "hs_code": "8541.40",
+    "quantity": 132,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "25,829.90",
+    "unit_price": 165.81,
+    "currency": "EUR",
+    "total_amount": 21886.92,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00367",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/BNP/0367/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "TRANS COMMERCE LLC\n739 INDUSTRIAL AVENUE\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "UNITED INDUSTRIES GMBH\n672 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "E-451",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUGYFU978653069",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "PHOTOVOLTAIC MODULES AND CELLS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "132",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 165.81",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 21,886.92",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "EUR 21,886.92",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "actual": "PHOTOVOLTAIC MODULES AND CELLS"
+    }
+  ]
+}

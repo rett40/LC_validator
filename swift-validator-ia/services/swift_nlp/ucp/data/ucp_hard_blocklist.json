@@ -1,0 +1,498 @@
+{
+  "version": "2.0.0",
+  "standard": "UCP 600 + SWIFT MT700",
+  "description": "Règles de validation robustes pour crédit documentaire LC / SWIFT MT700. Chaque pattern est classifié par sévérité: HARD (bloquer), WARN (avertir), ADV (informatif).",
+
+  "critical_exclusion_articles": [
+    "Art.6",
+    "Art.14",
+    "Art.14a",
+    "Art.16",
+    "Art.18",
+    "Art.20",
+    "Art.28",
+    "Art.38",
+    "Art.38i"
+  ],
+
+  "hard_block_codes": [
+    "SEM_VIOL_ART6_EXPIRY",
+    "SEM_VIOL_ART7_REVOCABLE",
+    "SEM_VIOL_ART14A_DELAY",
+    "SEM_VIOL_ART16_NOTICE",
+    "SEM_VIOL_ART18",
+    "SEM_VIOL_ART18_DESC",
+    "SEM_VIOL_ART18_CCY",
+    "SEM_VIOL_ART20_ONBOARD",
+    "SEM_VIOL_ART28_COVER",
+    "SEM_VIOL_ART38I",
+    "MT700_FIELD40A_REVOCABLE",
+    "MT700_FIELD40E_MISSING",
+    "MT700_FIELD31D_FORMAT",
+    "MT700_FIELD32B_FORMAT",
+    "MT700_FIELD41_MISSING",
+    "MT700_FIELD45A_MISSING",
+    "MT700_FIELD46A_MISSING",
+    "UCP_HARD_EXCL_ART18",
+    "UCP_HARD_EXCL_ART38I"
+  ],
+
+  "patterns": [
+
+    {
+      "id": "excl_art18_robust",
+      "code": "UCP_HARD_EXCL_ART18",
+      "regex": "(?is)art(?:icle)?[.\\s]*18\\s+(?:of\\s+)?ucp\\s*600[^.]{0,120}?(?:not\\s+applic(?:able)?|excluded?|waived?|shall\\s+not\\s+apply|is\\s+not\\s+applicable|deemed\\s+excluded)",
+      "article": "Art.18",
+      "severity": "HARD",
+      "message": "Exclusion explicite de l'article 18 UCP 600 (facture commerciale) — red flag contractuel. La facture est un document fondamental; son exclusion invalide la conformité documentaire.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":47A:",
+      "remediation": "Supprimer la clause d'exclusion ou obtenir confirmation écrite de la banque émettrice sur les implications."
+    },
+
+    {
+      "id": "excl_art38i_robust",
+      "code": "UCP_HARD_EXCL_ART38I",
+      "regex": "(?is)art(?:icle)?[.\\s]*38\\s*[\\(\\[]?\\s*i\\s*[\\)\\]]?\\s*(?:of\\s+)?(?:ucp\\s*600)?[^.]{0,120}?(?:not\\s+applic(?:able)?|excluded?|waived?|shall\\s+not\\s+apply|deemed\\s+excluded)",
+      "article": "Art.38i",
+      "severity": "HARD",
+      "message": "Exclusion explicite de l'article 38(i) UCP 600 (substitution de facture crédit transférable) — supprime le droit du premier bénéficiaire à substituer sa propre facture.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":47A:",
+      "remediation": "Vérifier si le crédit est effectivement transférable et si la suppression de la substitution est intentionnelle et acceptable pour le premier bénéficiaire."
+    },
+
+    {
+      "id": "excl_art6_expiry_missing",
+      "code": "SEM_VIOL_ART6_EXPIRY",
+      "regex": "(?is)(?:expiry\\s+date\\s*[:\\-]?\\s*(?:n/?a|none|not\\s+stated|not\\s+specified|tbd|to\\s+be\\s+(?:advised|confirmed)))|(?:no\\s+expiry\\s+date)|(?:without\\s+expiry)",
+      "article": "Art.6",
+      "severity": "HARD",
+      "message": "Date d'expiry absente, non stipulée ou indéterminée — violation directe de l'article 6 UCP 600. Tout crédit documentaire doit avoir une date d'expiry.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":31D:",
+      "remediation": "Insérer une date d'expiry ferme au format YYMMDD avec lieu de présentation."
+    },
+
+    {
+      "id": "revocable_credit",
+      "code": "MT700_FIELD40A_REVOCABLE",
+      "regex": "(?is)^:40A:\\s*REVOCABLE\\s*$",
+      "article": "Art.7",
+      "severity": "HARD",
+      "message": "Crédit révocable détecté (:40A: REVOCABLE) — interdit sous UCP 600. Tous les crédits UCP 600 sont irrévocables par définition.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":40A:",
+      "remediation": "Corriger :40A: en IRREVOCABLE. Crédits révocables relèvent d'UCP 500 ou d'autres règles — non conformes UCP 600."
+    },
+
+    {
+      "id": "field40e_ucp_missing",
+      "code": "MT700_FIELD40E_MISSING",
+      "regex": "(?is)^:40E:\\s*(?!(?:UCP\\s*(?:LATEST|600)|EUCP\\s*LATEST))[^\\n]*$",
+      "article": "MT700",
+      "severity": "HARD",
+      "message": "Champ :40E: (Applicable Rules) ne référence pas UCP 600 ou UCP LATEST — règles applicables non conformes ou ambiguës.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":40E:",
+      "remediation": "Corriger :40E: avec valeur: UCP LATEST VERSION ou EUCP LATEST VERSION."
+    },
+
+    {
+      "id": "field40e_absent",
+      "code": "MT700_FIELD40E_ABSENT",
+      "regex": "(?is)(?:^:40A:[^\\n]+$)(?!.*^:40E:)",
+      "article": "MT700",
+      "severity": "HARD",
+      "message": "Champ :40E: (Applicable Rules) absent du message MT700 — les règles applicables doivent être explicitement référencées.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":40E:",
+      "remediation": "Ajouter :40E:UCP LATEST VERSION dans le message MT700."
+    },
+
+    {
+      "id": "field31d_format",
+      "code": "MT700_FIELD31D_FORMAT",
+      "regex": "(?is)^:31D:(?!\\d{6}[A-Za-z ,.]{2,})",
+      "article": "Art.6",
+      "severity": "HARD",
+      "message": "Champ :31D: (Date and Place of Expiry) absent ou format invalide — attendu: YYMMDD suivi du lieu de présentation.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":31D:",
+      "remediation": "Format requis: :31D:YYMMDDPAYS/VILLE (ex: :31D:261231FRANCE)"
+    },
+
+    {
+      "id": "field32b_format",
+      "code": "MT700_FIELD32B_FORMAT",
+      "regex": "(?is)^:32B:(?![A-Z]{3}[0-9,.']+)",
+      "article": "MT700",
+      "severity": "HARD",
+      "message": "Champ :32B: (Currency Code, Amount) format invalide — attendu: code devise ISO 4217 (3 lettres) suivi du montant.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":32B:",
+      "remediation": "Format requis: :32B:CCYmontant (ex: :32B:USD50000,00)"
+    },
+
+    {
+      "id": "field41_missing",
+      "code": "MT700_FIELD41_MISSING",
+      "regex": "(?is)(?:^:40A:[^\\n]+$)(?!.*^:41[AD]:)",
+      "article": "Art.6",
+      "severity": "HARD",
+      "message": "Champ :41A: ou :41D: (Available With/By) absent — le mode de réalisation est obligatoire sous Art.6 UCP 600.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":41A:",
+      "remediation": "Ajouter :41A: ou :41D: avec valeur BY PAYMENT, BY ACCEPTANCE, BY NEGOTIATION ou BY DEF PAYMENT."
+    },
+
+    {
+      "id": "field45a_missing",
+      "code": "MT700_FIELD45A_MISSING",
+      "regex": "(?is)(?:^:40A:[^\\n]+$)(?!.*^:45A:)",
+      "article": "Art.18",
+      "severity": "HARD",
+      "message": "Champ :45A: (Description of Goods) absent — obligatoire pour vérification de conformité de la facture (Art.18).",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":45A:",
+      "remediation": "Ajouter :45A: avec description complète des marchandises correspondant à la facture commerciale."
+    },
+
+    {
+      "id": "field46a_missing",
+      "code": "MT700_FIELD46A_MISSING",
+      "regex": "(?is)(?:^:40A:[^\\n]+$)(?!.*^:46A:)",
+      "article": "Art.14",
+      "severity": "HARD",
+      "message": "Champ :46A: (Documents Required) absent — la liste des documents requis est indispensable pour l'examen documentaire.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":46A:",
+      "remediation": "Ajouter :46A: avec la liste exhaustive des documents requis (BL, facture, assurance, etc.)."
+    },
+
+    {
+      "id": "art18_description_mismatch",
+      "code": "SEM_VIOL_ART18_DESC",
+      "regex": "(?is)(?:description\\s+of\\s+goods|goods\\s+description)[^.]{0,150}?(?:does\\s+not\\s+(?:match|correspond|conform)|differ(?:s|ent)|conflict(?:s|ing)|inconsist(?:ent|ency))",
+      "article": "Art.18",
+      "severity": "HARD",
+      "message": "Divergence déclarée entre description des marchandises et crédit — violation Art.18 UCP 600.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":45A:",
+      "remediation": "Aligner la description de la facture commerciale mot pour mot avec le champ :45A: du crédit."
+    },
+
+    {
+      "id": "art30_tolerance_exceeded",
+      "code": "UCP_WARN_TOL_EXCEEDED",
+      "regex": "(?is)tolerance\\s*(?:of|:)?\\s*(\\d+)\\s*%",
+      "article": "Art.30",
+      "severity": "WARN",
+      "message": "Tolérance stipulée — vérifier si elle dépasse les limites UCP 600 (10% montant/'about', 5% quantité par défaut). Contrôler champ :39A:.",
+      "category": "document",
+      "action": "FLAG",
+      "mt700_field": ":39A:",
+      "remediation": "Vérifier :39A: (format PP/MM pour plus/moins). Si pas de :39A:, tolérance implicite ±5% quantité uniquement."
+    },
+
+    {
+      "id": "art30_about_amount",
+      "code": "UCP_ADV_ABOUT_AMOUNT",
+      "regex": "(?is)(?:about|approximately|circa|environ)\\s+(?:[A-Z]{3}\\s*)?[\\d,.']+",
+      "article": "Art.30",
+      "severity": "WARN",
+      "message": "Mention 'about'/'approximately' détectée sur montant ou quantité — tolérance ±10% s'applique automatiquement (Art.30 UCP 600).",
+      "category": "document",
+      "action": "FLAG",
+      "mt700_field": ":32B:",
+      "remediation": "Confirmer que la tolérance ±10% est acceptable pour les deux parties. Préciser dans :39A: si une tolérance différente est souhaitée."
+    },
+
+    {
+      "id": "art31_partial_prohibited",
+      "code": "MT700_FIELD43P_PROHIBITED",
+      "regex": "(?is)^:43P:\\s*PROHIBITED\\s*$",
+      "article": "Art.31",
+      "severity": "WARN",
+      "message": "Expéditions partielles prohibées (:43P: PROHIBITED) — vérifier cohérence avec instalment schedule (Art.32) et tolérance quantité (Art.30).",
+      "category": "shipment",
+      "action": "FLAG",
+      "mt700_field": ":43P:",
+      "remediation": "Si la quantité tolère ±5%, s'assurer que les expéditions partielles ne sont pas nécessaires pour respecter la tolérance."
+    },
+
+    {
+      "id": "art20c_transhipment_prohibited",
+      "code": "MT700_FIELD43T_PROHIBITED",
+      "regex": "(?is)^:43T:\\s*PROHIBITED\\s*$",
+      "article": "Art.20c",
+      "severity": "WARN",
+      "message": "Transbordement prohibé (:43T: PROHIBITED) — attention: exception containers/LASH (Art.20c). Vérifier le mode de transport.",
+      "category": "shipment",
+      "action": "FLAG",
+      "mt700_field": ":43T:",
+      "remediation": "Si cargaison conteneurisée, le transbordement reste acceptable malgré PROHIBITED. Préciser dans :47A: si restriction effective souhaitée."
+    },
+
+    {
+      "id": "art29_expiry_extension",
+      "code": "UCP_ADV_EXPIRY_EXTENSION",
+      "regex": "(?is)(?:expiry|presentation)\\s+(?:date|deadline)[^.]{0,80}?(?:extended?|prolonged?|postponed?)",
+      "article": "Art.29",
+      "severity": "WARN",
+      "message": "Extension de date d'expiry mentionnée — vérifier si Art.29 (banque fermée) ou Art.36 (force majeure) s'applique. Les règles diffèrent.",
+      "category": "compliance",
+      "action": "FLAG",
+      "mt700_field": ":31D:",
+      "remediation": "Art.29: extension automatique si banque fermée (jour ouvrable suivant). Art.36: force majeure — banque non tenue de rouvrir le crédit."
+    },
+
+    {
+      "id": "art28_insurance_below_110",
+      "code": "SEM_VIOL_ART28_COVER",
+      "regex": "(?is)(?:insurance|assurance)\\s+(?:coverage?|amount|value)[^.]{0,100}?(?:less\\s+than|below|under|inferior)\\s+(?:110|CIF|CIP)",
+      "article": "Art.28",
+      "severity": "HARD",
+      "message": "Couverture d'assurance inférieure à 110% de la valeur CIF/CIP — violation Art.28 UCP 600.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":46A:",
+      "remediation": "Couverture minimale requise: 110% de la valeur CIF ou CIP de la facture, dans la devise du crédit."
+    },
+
+    {
+      "id": "art28_broker_cover_note",
+      "code": "UCP_WARN_BROKER_NOTE",
+      "regex": "(?is)(?:broker[''s]*\\s+(?:cover\\s+note|note)|cover\\s+note\\s+(?:from|by|issued)\\s+(?:broker|agent))",
+      "article": "Art.28",
+      "severity": "HARD",
+      "message": "Cover note de courtier détectée — non acceptable sous Art.28 UCP 600. Seuls police ou certificat d'assurance sont acceptables.",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": ":46A:",
+      "remediation": "Exiger une police d'assurance ou un certificat d'assurance signé par l'assureur ou son agent agréé."
+    },
+
+    {
+      "id": "art20_onboard_missing",
+      "code": "SEM_VIOL_ART20_ONBOARD",
+      "regex": "(?is)(?:bill\\s+of\\s+lading|b/?l)[^.]{0,150}?(?:no\\s+on.?board|without\\s+on.?board|on.?board\\s+(?:notation|endorsement)\\s+(?:missing|absent|not\\s+present))",
+      "article": "Art.20",
+      "severity": "HARD",
+      "message": "Notation 'on board' absente sur le connaissement — violation Art.20 UCP 600. La mention d'embarquement est obligatoire.",
+      "category": "shipment",
+      "action": "BLOCK",
+      "mt700_field": ":46A:",
+      "remediation": "Le BL doit porter la mention 'shipped on board' avec date d'embarquement. Si BL reçu 'received for shipment', la notation on-board doit être ajoutée."
+    },
+
+    {
+      "id": "art16_dishonour_notice",
+      "code": "SEM_VIOL_ART16_NOTICE",
+      "regex": "(?is)(?:refusal|dishonour|rejection)\\s+notice[^.]{0,200}?(?:second\\s+notice|additional\\s+discrepanc(?:y|ies)|further\\s+discrepanc(?:y|ies))",
+      "article": "Art.16",
+      "severity": "HARD",
+      "message": "Second avis de refus ou discordances additionnelles après notice initiale — interdit sous Art.16 UCP 600. Une seule notice de refus est permise.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": null,
+      "remediation": "Regrouper toutes les discordances dans un seul et unique avis de refus conformément à Art.16 UCP 600."
+    },
+
+    {
+      "id": "art9_confirmation_field49",
+      "code": "MT700_FIELD49_VALIDATION",
+      "regex": "(?is)^:49:\\s*(?!(?:CONFIRM|MAY\\s+ADD|WITHOUT|UPON\\s+AUTHORIZATION))[^\\n]*$",
+      "article": "Art.8-9",
+      "severity": "WARN",
+      "message": "Champ :49: (Confirmation Instructions) contient une valeur non standard — valeurs acceptées: CONFIRM, MAY ADD, WITHOUT.",
+      "category": "compliance",
+      "action": "FLAG",
+      "mt700_field": ":49:",
+      "remediation": "Corriger :49: avec: CONFIRM (banque confirmante requise), MAY ADD (autorisation), ou WITHOUT (sans confirmation)."
+    },
+
+    {
+      "id": "art6_availability_invalid",
+      "code": "MT700_FIELD41_INVALID",
+      "regex": "(?is)^:41[AD]:\\s*(?!(?:[\\w,. ]+\\s+BY\\s+(?:PAYMENT|ACCEPTANCE|NEGOTIATION|DEF\\s+PAYMENT)))",
+      "article": "Art.6",
+      "severity": "HARD",
+      "message": "Champ :41A/D: (Available With/By) valeur non conforme — le mode de réalisation doit être BY PAYMENT, BY ACCEPTANCE, BY NEGOTIATION ou BY DEF PAYMENT.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":41A:",
+      "remediation": "Format: :41A:BANKBICXXXXX\\nBY PAYMENT (ou ACCEPTANCE / NEGOTIATION / DEF PAYMENT)."
+    },
+
+    {
+      "id": "art32_instalment_missed",
+      "code": "UCP_WARN_INSTALMENT_LAPSE",
+      "regex": "(?is)instalment[^.]{0,100}?(?:missed?|lapsed?|not\\s+drawn|not\\s+shipped|expired?\\s+without)",
+      "article": "Art.32",
+      "severity": "HARD",
+      "message": "Instalment manqué détecté — selon Art.32 UCP 600, le crédit cesse d'être disponible pour cet instalment et tous les suivants.",
+      "category": "shipment",
+      "action": "BLOCK",
+      "mt700_field": ":44C:",
+      "remediation": "Demander un amendement du crédit si l'instalment manqué doit être rattrapé. Sans amendement, les tirages suivants sont refusés."
+    },
+
+    {
+      "id": "art38_transfer_not_allowed",
+      "code": "UCP_HARD_TRANSFER_NOT_DESIGNATED",
+      "regex": "(?is)transfer(?:red|able)?\\s+credit[^.]{0,100}?(?:not\\s+transferable|non.?transferable|transfer\\s+not\\s+(?:permitted|allowed|authorised))",
+      "article": "Art.38",
+      "severity": "HARD",
+      "message": "Crédit non transférable mais mention de transfert détectée — le crédit doit être expressément désigné 'TRANSFERABLE' par la banque émettrice.",
+      "category": "compliance",
+      "action": "BLOCK",
+      "mt700_field": ":40A:",
+      "remediation": "Un crédit ne peut être transféré que s'il est expressément marqué TRANSFERABLE. Envisager un crédit back-to-back comme alternative."
+    },
+
+    {
+      "id": "art14a_five_days_exceeded",
+      "code": "SEM_VIOL_ART14A_DELAY",
+      "regex": "(?is)(?:examined?|reviewed?|checked?)[^.]{0,150}?(?:(?:6|7|8|9|10|1[1-9]|[2-9]\\d)\\s+(?:banking|business|working)\\s+days?)",
+      "article": "Art.14a",
+      "severity": "HARD",
+      "message": "Examen documentaire au-delà de 5 jours bancaires détecté — la banque ne peut plus invoquer de discordances (Art.14a + Art.16 UCP 600).",
+      "category": "document",
+      "action": "BLOCK",
+      "mt700_field": null,
+      "remediation": "Toute discordance soulevée après 5 jours bancaires est irrecevable. La banque est tenue d'honorer une présentation conforme."
+    },
+
+    {
+      "id": "field44c_shipment_after_expiry",
+      "code": "UCP_WARN_SHIPMENT_VS_EXPIRY",
+      "regex": "(?is)(?:latest\\s+(?:date\\s+of\\s+)?shipment|last\\s+shipment)[^.]{0,80}?(?:after|later\\s+than|(?:exceeds?|beyond))[^.]{0,60}(?:expiry|:31D:)",
+      "article": "Art.6",
+      "severity": "HARD",
+      "message": "Date limite d'expédition (:44C:) postérieure à la date d'expiry (:31D:) — incohérence critique: il est impossible d'expédier et de présenter les documents.",
+      "category": "shipment",
+      "action": "BLOCK",
+      "mt700_field": ":44C:",
+      "remediation": "La date limite d'expédition doit précéder la date d'expiry d'au moins le délai de présentation (21 jours par défaut ou valeur :48:)."
+    },
+
+    {
+      "id": "field48_presentation_period",
+      "code": "UCP_WARN_PRES_PERIOD_EXCEED",
+      "regex": "(?is)^:48:\\s*(?:[2-9]\\d|1[0-9][0-9]|[2-9][0-9][0-9])\\s*(?:days?)?\\s*$",
+      "article": "Art.14c",
+      "severity": "WARN",
+      "message": "Délai de présentation (:48:) supérieur à 21 jours — inhabituel, vérifier si intentionnel. La pratique bancaire standard est 21 jours après expédition.",
+      "category": "document",
+      "action": "FLAG",
+      "mt700_field": ":48:",
+      "remediation": "Confirmer que le délai étendu est accepté par toutes les parties. Un délai > 21 jours expose l'importateur à un risque marchandise accru."
+    }
+  ],
+
+  "mt700_field_validation": {
+    "mandatory_fields": [
+      { "field": ":27:", "format": "^\\d+/\\d+$", "description": "Sequence of total", "severity": "HARD" },
+      { "field": ":40A:", "format": "^IRREVOCABLE$", "description": "Form of documentary credit — must be IRREVOCABLE", "severity": "HARD" },
+      { "field": ":20:", "format": "^[A-Z0-9/-]{1,16}$", "description": "Documentary credit number — max 16 alphanumeric", "severity": "HARD" },
+      { "field": ":31C:", "format": "^\\d{6}$", "description": "Date of issue — format YYMMDD", "severity": "HARD" },
+      { "field": ":40E:", "format": "(?i)UCP\\s*(LATEST|600)|EUCP\\s*LATEST", "description": "Applicable rules — must reference UCP 600", "severity": "HARD" },
+      { "field": ":31D:", "format": "^\\d{6}[A-Z ,./]{2,35}$", "description": "Expiry date and place — YYMMDD + location", "severity": "HARD" },
+      { "field": ":50:", "format": ".{1,}", "description": "Applicant — mandatory", "severity": "HARD" },
+      { "field": ":59:", "format": ".{1,}", "description": "Beneficiary — mandatory", "severity": "HARD" },
+      { "field": ":32B:", "format": "^[A-Z]{3}[0-9,.']+$", "description": "Currency and amount — CCY + amount", "severity": "HARD" }
+    ],
+    "conditional_fields": [
+      { "field": ":41A:", "condition": ":41D: absent", "description": "Available with/by — required if :41D: not present", "severity": "HARD" },
+      { "field": ":42C:", "condition": ":41x: = ACCEPTANCE or NEGOTIATION", "description": "Drafts at — required for acceptance/negotiation credits", "severity": "HARD" },
+      { "field": ":42A:", "condition": ":41x: = ACCEPTANCE or NEGOTIATION", "description": "Drawee — required with :42C:", "severity": "HARD" },
+      { "field": ":45A:", "description": "Description of goods — strongly recommended", "severity": "HARD" },
+      { "field": ":46A:", "description": "Documents required — strongly recommended", "severity": "HARD" },
+      { "field": ":43P:", "description": "Partial shipments — if absent, ALLOWED by default (Art.31)", "severity": "WARN" },
+      { "field": ":43T:", "description": "Transhipment — if absent, ALLOWED by default (Art.20c)", "severity": "WARN" },
+      { "field": ":44C:", "description": "Latest date of shipment — must precede :31D: by at least :48: days", "severity": "WARN" },
+      { "field": ":48:", "description": "Period for presentation — if absent, 21 days applies by default", "severity": "ADV" },
+      { "field": ":49:", "format": "(?i)^(CONFIRM|MAY ADD|WITHOUT)$", "description": "Confirmation instructions", "severity": "WARN" },
+      { "field": ":78:", "description": "Instructions to paying/accepting/negotiating bank", "severity": "ADV" }
+    ]
+  },
+
+  "cross_field_consistency_rules": [
+    {
+      "id": "xf_shipment_vs_expiry",
+      "rule": ":44C: date < :31D: date - :48: days",
+      "description": "Latest shipment must precede expiry by at least the presentation period",
+      "severity": "HARD",
+      "articles": ["Art.6", "Art.14c"]
+    },
+    {
+      "id": "xf_insurance_currency",
+      "rule": ":46A: insurance currency = :32B: currency",
+      "description": "Insurance document currency must match credit currency",
+      "severity": "HARD",
+      "articles": ["Art.28"]
+    },
+    {
+      "id": "xf_invoice_beneficiary",
+      "rule": "Invoice issuer name = :59: beneficiary name",
+      "description": "Commercial invoice must appear issued by beneficiary",
+      "severity": "HARD",
+      "articles": ["Art.18"]
+    },
+    {
+      "id": "xf_invoice_goods_desc",
+      "rule": "Invoice goods description corresponds to :45A:",
+      "description": "Invoice description must correspond to credit goods description",
+      "severity": "HARD",
+      "articles": ["Art.18"]
+    },
+    {
+      "id": "xf_tolerance_amount",
+      "rule": "Invoice amount ≤ :32B: amount × (1 + :39A: over%)",
+      "description": "Invoice amount within tolerance band",
+      "severity": "HARD",
+      "articles": ["Art.18b", "Art.30"]
+    },
+    {
+      "id": "xf_bl_port_loading",
+      "rule": "BL port of loading = :44E: or :44A:",
+      "description": "Bill of lading port of loading must match credit",
+      "severity": "HARD",
+      "articles": ["Art.20"]
+    },
+    {
+      "id": "xf_bl_port_discharge",
+      "rule": "BL port of discharge = :44F: or :44B:",
+      "description": "Bill of lading port of discharge must match credit",
+      "severity": "HARD",
+      "articles": ["Art.20"]
+    },
+    {
+      "id": "xf_onboard_vs_latest_shipment",
+      "rule": "BL on-board date ≤ :44C: date",
+      "description": "On-board date must not exceed latest date of shipment",
+      "severity": "HARD",
+      "articles": ["Art.20"]
+    }
+  ],
+
+  "severity_legend": {
+    "HARD": "Bloquant — discordance rédhibitoire, refus de la présentation recommandé",
+    "WARN": "Avertissement — vérification manuelle requise, risque de discordance",
+    "ADV":  "Informatif — bonne pratique, pas de discordance directe"
+  }
+}

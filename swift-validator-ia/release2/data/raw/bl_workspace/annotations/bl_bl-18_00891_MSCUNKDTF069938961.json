@@ -1,0 +1,533 @@
+{
+  "id": 891,
+  "filename": "bl_bl-18_00891_MSCUNKDTF069938961.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNKDTF069938961",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNKDTF069938961",
+    "shipper_name": "EURO GROUP INC",
+    "shipper_address": "794 HARBOR ROAD",
+    "consignee_name": "GLOBAL TRADING CORP",
+    "consignee_address": "926 MAIN STREET",
+    "notify_party_name": "FIRST GROUP LLC",
+    "notify_party_address": "341 TRADE PARK",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE833S",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "07 MAY 2026",
+    "eta": "29 MAY 2026",
+    "container_number": "MSCU3837824",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "011D5203",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "70 BAGS",
+    "gross_weight_kg": "63,786.96",
+    "measurement": "118.834 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3837824",
+        "seal_number": "011D5203",
+        "container_type": "40' OPEN TOP",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "70",
+          "type": "BAGS",
+          "description": "70 BAGS"
+        },
+        "gross_weight_kg": "21,266.63",
+        "net_weight_kg": "18,238.35",
+        "measurement": "21.201 CBM"
+      },
+      {
+        "container_number": "EISU7954441",
+        "seal_number": "AAE91995",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "401",
+          "type": "CARTONS",
+          "description": "401 CARTONS"
+        },
+        "gross_weight_kg": "17,261.34",
+        "net_weight_kg": "14,370.57",
+        "measurement": "30.439 CBM"
+      },
+      {
+        "container_number": "MSCU0410566",
+        "seal_number": "G9CC9EG0",
+        "container_type": "20' DRY",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "210",
+          "type": "BOXES",
+          "description": "210 BOXES"
+        },
+        "gross_weight_kg": "25,258.99",
+        "net_weight_kg": "22,153.87",
+        "measurement": "67.194 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "28 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNKDTF069938961",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        123.31,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU3837824",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "011D5203",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        123.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        123.31,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        123.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '70', 'type': 'BAGS', 'description': '70 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "21,266.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        123.31,
+        80.79,
+        36.85
+      ],
+      "value": "21.201 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        160.16,
+        91.56,
+        36.85
+      ],
+      "value": "EISU7954441",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "AAE91995",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        160.16,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        160.16,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        160.16,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '401', 'type': 'CARTONS', 'description': '401 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "17,261.34",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        160.16,
+        80.79,
+        36.85
+      ],
+      "value": "30.439 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        197.01,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0410566",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "G9CC9EG0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        197.01,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        197.01,
+        134.65,
+        36.85
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        197.01,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '210', 'type': 'BOXES', 'description': '210 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "25,258.99",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        197.01,
+        80.79,
+        36.85
+      ],
+      "value": "67.194 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "794 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "EURO GROUP INC\n794 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        262.2,
+        269.29,
+        70.87
+      ],
+      "value": "926 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        242.36,
+        269.29,
+        90.71
+      ],
+      "value": "GLOBAL TRADING CORP\n926 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        352.91,
+        269.29,
+        70.87
+      ],
+      "value": "341 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        333.07,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST GROUP LLC\n341 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        522.99,
+        269.29,
+        34.02
+      ],
+      "value": "FE833S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        557.01,
+        269.29,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        591.02,
+        269.29,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        625.04,
+        269.29,
+        34.02
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        667.56,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "28 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        695.91,
+        269.29,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        724.25,
+        269.29,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

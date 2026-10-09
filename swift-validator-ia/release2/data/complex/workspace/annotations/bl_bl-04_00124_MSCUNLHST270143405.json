@@ -1,0 +1,322 @@
+{
+  "id": 124,
+  "filename": "bl_bl-04_00124_MSCUNLHST270143405.pdf",
+  "layout_id": "BL-04",
+  "bl_number": "MSCUNLHST270143405",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNLHST270143405",
+    "shipper_name": "UNITED SUPPLY CHAIN CORP",
+    "shipper_address": "104 MAIN STREET",
+    "consignee_name": "APEX SOLUTIONS S.A.",
+    "consignee_address": "379 TRADE PARK",
+    "notify_party_name": "EURO LOGISTICS PLC",
+    "notify_party_address": "902 PORT ACCESS ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8838",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "31 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "HLCU5435654",
+    "container_type": "20'TK",
+    "seal_number": "4C57459G",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "311 PACKAGES",
+    "gross_weight_kg": "23,959.15",
+    "measurement": "41.400 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5435654",
+        "seal_number": "4C57459G",
+        "container_type": "20'TK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "311",
+          "type": "PACKAGES",
+          "description": "311 PACKAGES"
+        },
+        "gross_weight_kg": "23,959.15",
+        "net_weight_kg": "20,211.24",
+        "measurement": "41.400 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        319.82,
+        18.43,
+        244.28,
+        70.87
+      ],
+      "value": "MSCUNLHST270143405",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        71.72,
+        97.8,
+        130.49,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        227.77,
+        97.8,
+        155.38,
+        34.02
+      ],
+      "value": "AL8838",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        437.6,
+        97.8,
+        126.5,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        63.27,
+        131.81,
+        138.94,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        232.66,
+        131.81,
+        150.49,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        468.28,
+        131.81,
+        95.82,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.05,
+        165.83,
+        105.15,
+        34.02
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        290.89,
+        165.83,
+        92.26,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        208.35,
+        542.83,
+        55.28
+      ],
+      "value": "UNITED SUPPLY CHAIN CORP\n104 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        21.26,
+        263.62,
+        542.83,
+        55.28
+      ],
+      "value": "APEX SOLUTIONS S.A.\n379 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        21.26,
+        318.9,
+        542.83,
+        55.28
+      ],
+      "value": "EURO LOGISTICS PLC\n902 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        385.51,
+        542.83,
+        12.76
+      ],
+      "value": "HLCU5435654",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        403.37,
+        244.28,
+        6.8
+      ],
+      "value": "4C57459G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        412.44,
+        244.28,
+        6.8
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        421.51,
+        244.28,
+        6.8
+      ],
+      "value": {
+        "count": "311",
+        "type": "PACKAGES",
+        "description": "311 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        430.58,
+        244.28,
+        6.8
+      ],
+      "value": "23,959.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        439.65,
+        244.28,
+        6.8
+      ],
+      "value": "41.400 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        319.82,
+        403.16,
+        217.13,
+        31.96
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        93.04,
+        452.98,
+        109.16,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        276.21,
+        452.98,
+        106.94,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        450.5,
+        452.98,
+        113.59,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        53.94,
+        481.32,
+        148.26,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        282.0,
+        481.32,
+        101.14,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

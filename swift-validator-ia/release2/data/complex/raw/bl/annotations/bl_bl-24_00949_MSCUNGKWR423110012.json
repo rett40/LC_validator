@@ -1,0 +1,351 @@
+{
+  "id": 949,
+  "filename": "bl_bl-24_00949_MSCUNGKWR423110012.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNGKWR423110012",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNGKWR423110012",
+    "shipper_name": "APEX TRADING CORP",
+    "shipper_address": "374 HARBOR ROAD",
+    "consignee_name": "FIRST GROUP PLC",
+    "consignee_address": "470 TRADE PARK",
+    "notify_party_name": "ATLANTIC SUPPLY CHAIN LLC",
+    "notify_party_address": "785 MAIN STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1264",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "03 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "TRHU9564627",
+    "container_type": "40'OT",
+    "seal_number": "95G54E53",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "27 BOXES",
+    "gross_weight_kg": "10,816.10",
+    "measurement": "26.189 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9564627",
+        "seal_number": "95G54E53",
+        "container_type": "40'OT",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "27",
+          "type": "BOXES",
+          "description": "27 BOXES"
+        },
+        "gross_weight_kg": "10,816.10",
+        "net_weight_kg": "7,104.56",
+        "measurement": "26.189 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNGKWR423110012",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        88.68,
+        106.3,
+        116.83,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        282.52,
+        106.3,
+        107.24,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        415.94,
+        106.3,
+        158.08,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        76.61,
+        134.65,
+        128.9,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        252.53,
+        134.65,
+        137.24,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "TRHU9564627",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "95G54E53",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '27', 'type': 'BOXES', 'description': '27 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "10,816.10",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "26.189 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        229.61,
+        148.9,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        277.94,
+        229.61,
+        111.82,
+        34.02
+      ],
+      "value": "AL1264",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        440.93,
+        229.61,
+        133.08,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        107.44,
+        263.62,
+        98.07,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        302.12,
+        263.62,
+        87.65,
+        34.02
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        457.2,
+        263.62,
+        116.81,
+        34.02
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        95.77,
+        297.64,
+        109.74,
+        34.02
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        278.36,
+        297.64,
+        111.4,
+        34.02
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "374 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "APEX TRADING CORP\n374 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "470 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "FIRST GROUP PLC\n470 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "785 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LLC\n785 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

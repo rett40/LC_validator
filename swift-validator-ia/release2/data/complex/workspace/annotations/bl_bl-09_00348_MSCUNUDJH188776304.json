@@ -1,0 +1,409 @@
+{
+  "id": 348,
+  "filename": "bl_bl-09_00348_MSCUNUDJH188776304.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNUDJH188776304",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUDJH188776304",
+    "shipper_name": "ATLANTIC SHIPPING PLC",
+    "shipper_address": "667 TRADE PARK",
+    "consignee_name": "CENTRAL TRADING PLC",
+    "consignee_address": "941 MAIN STREET",
+    "notify_party_name": "EURO SHIPPING GMBH",
+    "notify_party_address": "926 TRADE PARK",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0205E",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CFS",
+    "etd": "03 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "HLCU0045103",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "FF0BA073",
+    "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+    "packages": "198 DRUMS",
+    "gross_weight_kg": "28,452.61",
+    "measurement": "92.338 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU0045103",
+        "seal_number": "FF0BA073",
+        "container_type": "40' OPEN TOP",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "198",
+          "type": "DRUMS",
+          "description": "198 DRUMS"
+        },
+        "gross_weight_kg": "6,818.68",
+        "net_weight_kg": "3,590.29",
+        "measurement": "43.015 CBM"
+      },
+      {
+        "container_number": "OOLU6673748",
+        "seal_number": "H9CB1AF2",
+        "container_type": "20'DC",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "406",
+          "type": "PACKAGES",
+          "description": "406 PACKAGES"
+        },
+        "gross_weight_kg": "21,633.93",
+        "net_weight_kg": "18,530.77",
+        "measurement": "49.323 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "MSCUNUDJH188776304",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "ATLANTIC SHIPPING PLC\n667 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "CENTRAL TRADING PLC\n941 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "EURO SHIPPING GMBH\n926 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "0205E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "JEBEL ALI CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        351.5,
+        92.76,
+        36.85
+      ],
+      "value": "HLCU0045103",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "FF0BA073",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        351.5,
+        43.65,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        351.5,
+        136.42,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '198', 'type': 'DRUMS', 'description': '198 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "6,818.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "43.015 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        388.35,
+        92.76,
+        36.85
+      ],
+      "value": "OOLU6673748",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "H9CB1AF2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        388.35,
+        43.65,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        388.35,
+        136.42,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '406', 'type': 'PACKAGES', 'description': '406 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "21,633.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "49.323 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

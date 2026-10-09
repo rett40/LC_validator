@@ -1,0 +1,500 @@
+{
+  "id": 907,
+  "filename": "bl_bl-23_00907_MSCUNWPJC198583957.pdf",
+  "layout_id": "BL-23",
+  "bl_number": "MSCUNWPJC198583957",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNWPJC198583957",
+    "shipper_name": "GLOBAL SHIPPING S.A.",
+    "shipper_address": "159 COMMERCE BOULEVARD",
+    "consignee_name": "CENTRAL LOGISTICS GMBH",
+    "consignee_address": "889 HARBOR ROAD",
+    "notify_party_name": "GLOBAL SHIPPING PLC",
+    "notify_party_address": "923 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0510W",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "08 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "EISU3518979",
+    "container_type": "20' DRY / GP",
+    "seal_number": "D7B0G5BF",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "219 CARTONS",
+    "gross_weight_kg": "41,401.60",
+    "measurement": "140.344 CBM",
+    "containers": [
+      {
+        "container_number": "EISU3518979",
+        "seal_number": "D7B0G5BF",
+        "container_type": "20' DRY / GP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "219",
+          "type": "CARTONS",
+          "description": "219 CARTONS"
+        },
+        "gross_weight_kg": "16,042.63",
+        "net_weight_kg": "13,711.67",
+        "measurement": "55.316 CBM"
+      },
+      {
+        "container_number": "OOLU7450036",
+        "seal_number": "EE0ABD9C",
+        "container_type": "20' DRY",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "81",
+          "type": "CRATES",
+          "description": "81 CRATES"
+        },
+        "gross_weight_kg": "11,077.84",
+        "net_weight_kg": "7,776.82",
+        "measurement": "54.501 CBM"
+      },
+      {
+        "container_number": "MAEU7004872",
+        "seal_number": "A0G08990",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "180",
+          "type": "CARTONS",
+          "description": "180 CARTONS"
+        },
+        "gross_weight_kg": "14,281.13",
+        "net_weight_kg": "11,643.48",
+        "measurement": "30.527 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNWPJC198583957",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        170.08,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.06,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        428.03,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        145.98,
+        128.98,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        170.08,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "0510W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.06,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        428.03,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        170.08,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.06,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        428.03,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        276.38,
+        295.23,
+        94.96
+      ],
+      "value": "GLOBAL SHIPPING S.A.\n159 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        274.96,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL LOGISTICS GMBH\n889 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        330.24,
+        212.68,
+        41.1
+      ],
+      "value": "GLOBAL SHIPPING PLC\n923 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        402.52,
+        87.7,
+        36.85
+      ],
+      "value": "EISU3518979",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "D7B0G5BF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        402.52,
+        41.27,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        402.52,
+        128.98,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '219', 'type': 'CARTONS', 'description': '219 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "16,042.63",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "55.316 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        439.37,
+        87.7,
+        36.85
+      ],
+      "value": "OOLU7450036",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "EE0ABD9C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        439.37,
+        41.27,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        439.37,
+        128.98,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '81', 'type': 'CRATES', 'description': '81 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "11,077.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "54.501 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        476.22,
+        87.7,
+        36.85
+      ],
+      "value": "MAEU7004872",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "A0G08990",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        476.22,
+        41.27,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        476.22,
+        128.98,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        476.22,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '180', 'type': 'CARTONS', 'description': '180 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "14,281.13",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        476.22,
+        77.39,
+        36.85
+      ],
+      "value": "30.527 CBM",
+      "page": 1
+    }
+  ]
+}

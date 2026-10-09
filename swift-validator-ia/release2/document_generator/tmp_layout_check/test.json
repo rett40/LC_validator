@@ -1,0 +1,260 @@
+{
+  "split": "test",
+  "count": 1,
+  "documents": [
+    {
+      "id": 3,
+      "filename": "bl_cmacgm_0003_CMAUJKWB660781151.pdf",
+      "carrier": "cmacgm",
+      "bl_number": "CMAUJKWB660781151",
+      "fields": {
+        "bl_number": "CMAUJKWB660781151",
+        "shipper_name": "CENTRAL SUPPLY CHAIN CORP",
+        "consignee_name": "DELTA COMMERCE S.A.",
+        "notify_party": "TRANS GROUP AG",
+        "vessel": "CMA CGM JULES VERNE",
+        "voyage": "0187W",
+        "port_of_loading": "BUSAN, SOUTH KOREA",
+        "port_of_discharge": "FELIXSTOWE, UK",
+        "place_of_receipt": "BUSAN CY",
+        "place_of_delivery": "FELIXSTOWE CFS",
+        "etd": "21 MAY 2026",
+        "eta": "10 JUN 2026",
+        "container_number": "HLCU0700038",
+        "container_type": "45' HIGH CUBE",
+        "seal_number": "E4DC8206",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "gross_weight_kg": "6,472.60",
+        "measurement": "33.370 CBM",
+        "packages": "293 CARTONS",
+        "freight_terms": "COLLECT",
+        "issue_date": "11 APR 2026",
+        "issue_place": "SINGAPORE",
+        "number_of_originals": "TWO (2)",
+        "service_type": "CY/CY"
+      },
+      "bbox_annotations": [
+        {
+          "field": "bl_number",
+          "bbox": [
+            28.35,
+            70.87,
+            226.77,
+            19.84
+          ],
+          "value": "CMAUJKWB660781151",
+          "page": 1
+        },
+        {
+          "field": "shipper",
+          "bbox": [
+            28.35,
+            109.98,
+            269.29,
+            68.6
+          ],
+          "value": "CENTRAL SUPPLY CHAIN CORP\n952 COMMERCE BOULEVARD\nROTTERDAM, NETHERLANDS 3011 AA",
+          "page": 1
+        },
+        {
+          "field": "consignee_(to_order_of)",
+          "bbox": [
+            297.64,
+            109.98,
+            269.29,
+            68.6
+          ],
+          "value": "DELTA COMMERCE S.A.\n688 PORT ACCESS ROAD\nDUBAI, UAE 00000",
+          "page": 1
+        },
+        {
+          "field": "notify_party",
+          "bbox": [
+            28.35,
+            189.35,
+            269.29,
+            68.6
+          ],
+          "value": "TRANS GROUP AG\n124 HARBOR ROAD\nSHANGHAI, CHINA 200120",
+          "page": 1
+        },
+        {
+          "field": "vessel",
+          "bbox": [
+            297.64,
+            189.35,
+            134.65,
+            28.91
+          ],
+          "value": "CMA CGM JULES VERNE",
+          "page": 1
+        },
+        {
+          "field": "voyage",
+          "bbox": [
+            432.28,
+            189.35,
+            134.65,
+            28.91
+          ],
+          "value": "0187W",
+          "page": 1
+        },
+        {
+          "field": "port_of_loading",
+          "bbox": [
+            297.64,
+            229.04,
+            134.65,
+            28.91
+          ],
+          "value": "BUSAN, SOUTH KOREA",
+          "page": 1
+        },
+        {
+          "field": "port_of_discharge",
+          "bbox": [
+            432.28,
+            229.04,
+            134.65,
+            28.91
+          ],
+          "value": "FELIXSTOWE, UK",
+          "page": 1
+        },
+        {
+          "field": "place_of_receipt",
+          "bbox": [
+            28.35,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "BUSAN CY",
+          "page": 1
+        },
+        {
+          "field": "place_of_delivery",
+          "bbox": [
+            162.99,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "FELIXSTOWE CFS",
+          "page": 1
+        },
+        {
+          "field": "etd",
+          "bbox": [
+            297.64,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "21 MAY 2026",
+          "page": 1
+        },
+        {
+          "field": "eta",
+          "bbox": [
+            432.28,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "10 JUN 2026",
+          "page": 1
+        },
+        {
+          "field": "container_number",
+          "bbox": [
+            28.35,
+            314.65,
+            85.04,
+            51.02
+          ],
+          "value": "HLCU0700038",
+          "page": 1
+        },
+        {
+          "field": "seal_number",
+          "bbox": [
+            113.39,
+            314.65,
+            56.69,
+            51.02
+          ],
+          "value": "E4DC8206",
+          "page": 1
+        },
+        {
+          "field": "container_type",
+          "bbox": [
+            170.08,
+            314.65,
+            51.02,
+            51.02
+          ],
+          "value": "45' HIGH CUBE",
+          "page": 1
+        },
+        {
+          "field": "gross_weight_kg",
+          "bbox": [
+            413.86,
+            314.65,
+            79.37,
+            51.02
+          ],
+          "value": "6,472.60",
+          "page": 1
+        },
+        {
+          "field": "measurement",
+          "bbox": [
+            493.23,
+            314.65,
+            73.7,
+            51.02
+          ],
+          "value": "33.370 CBM",
+          "page": 1
+        },
+        {
+          "field": "freight_terms",
+          "bbox": [
+            28.35,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "COLLECT",
+          "page": 1
+        },
+        {
+          "field": "originals_issued",
+          "bbox": [
+            207.87,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "TWO (2)",
+          "page": 1
+        },
+        {
+          "field": "service",
+          "bbox": [
+            387.4,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "CY/CY",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

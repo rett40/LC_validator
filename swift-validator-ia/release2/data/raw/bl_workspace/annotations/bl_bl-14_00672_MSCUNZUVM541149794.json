@@ -1,0 +1,318 @@
+{
+  "id": 672,
+  "filename": "bl_bl-14_00672_MSCUNZUVM541149794.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNZUVM541149794",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNZUVM541149794",
+    "shipper_name": "FIRST SOLUTIONS CORP",
+    "shipper_address": "347 MAIN STREET",
+    "consignee_name": "DELTA INDUSTRIES PLC",
+    "consignee_address": "541 MARKET STREET",
+    "notify_party_name": "ATLANTIC ENTERPRISES S.A.",
+    "notify_party_address": "278 MAIN STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE639S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "02 JUN 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "EISU8265697",
+    "container_type": "20' REEFER",
+    "seal_number": "EADBA703",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "78 DRUMS",
+    "gross_weight_kg": "8,240.13",
+    "measurement": "61.598 CBM",
+    "containers": [
+      {
+        "container_number": "EISU8265697",
+        "seal_number": "EADBA703",
+        "container_type": "20' REEFER",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "78",
+          "type": "DRUMS",
+          "description": "78 DRUMS"
+        },
+        "gross_weight_kg": "8,240.13",
+        "net_weight_kg": "5,237.06",
+        "measurement": "61.598 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "26 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNZUVM541149794",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "EISU8265697",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "EADBA703",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '78', 'type': 'DRUMS', 'description': '78 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "8,240.13",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "61.598 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "FE639S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        187.09,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        221.1,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        255.12,
+        179.53,
+        24.09
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS CORP\n347 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "DELTA INDUSTRIES PLC\n541 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        299.06,
+        179.53,
+        79.37
+      ],
+      "value": "ATLANTIC ENTERPRISES S.A.\n278 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        396.85,
+        179.53,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        425.2,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

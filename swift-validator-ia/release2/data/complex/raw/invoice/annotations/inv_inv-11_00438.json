@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00438",
+  "filename": "inv_inv-11_00438.pdf",
+  "layout_id": "INV-11",
+  "bl_id": 438,
+  "fields": {
+    "invoice_number": "INV-2026-00438",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/CITI/0438/2026",
+    "bl_reference": "MSCUNVTSU983847874",
+    "seller_name": "FIRST SHIPPING AG",
+    "buyer_name": "ATLANTIC SOLUTIONS LTD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0682S",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "COPPER ALLOYS AND ARTICLES",
+    "hs_code": "7408.19",
+    "quantity": 466,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "68,852.64",
+    "unit_price": 25.29,
+    "currency": "USD",
+    "total_amount": 11786.62,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        83.62,
+        206.36,
+        11.34
+      ],
+      "value": "INV-2026-00438",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        110.55,
+        319.86,
+        79.37
+      ],
+      "value": "FIRST SHIPPING AG\nFIRST SHIPPING AG\n42 TRADE PARK\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        110.55,
+        196.04,
+        79.37
+      ],
+      "value": "ATLANTIC SOLUTIONS LTD\nATLANTIC SOLUTIONS LTD\n780 HARBOR ROAD\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        213.07,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "LC/CITI/0438/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.04,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "MSCUNVTSU983847874",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        41.1,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        213.07,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.04,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        293.39,
+        165.09,
+        42.52
+      ],
+      "value": "COPPER ALLOYS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        293.39,
+        61.91,
+        42.52
+      ],
+      "value": "7408.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "466",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "25.29 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "11786.62 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        350.08,
+        116.08,
+        19.84
+      ],
+      "value": "68,852.64 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        369.92,
+        116.08,
+        19.84
+      ],
+      "value": "11786.62 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        213.07,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "COPPER AND COPPER PRODUCTS",
+      "actual": "COPPER ALLOYS AND ARTICLES"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "10503.64 USD",
+      "actual": "11786.62 USD"
+    }
+  ]
+}

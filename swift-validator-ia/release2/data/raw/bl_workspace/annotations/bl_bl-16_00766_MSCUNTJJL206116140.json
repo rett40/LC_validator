@@ -1,0 +1,409 @@
+{
+  "id": 766,
+  "filename": "bl_bl-16_00766_MSCUNTJJL206116140.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNTJJL206116140",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTJJL206116140",
+    "shipper_name": "ATLANTIC INDUSTRIES PLC",
+    "shipper_address": "505 COMMERCE BOULEVARD",
+    "consignee_name": "TRANS SHIPPING AG",
+    "consignee_address": "965 TRADE PARK",
+    "notify_party_name": "APEX SOLUTIONS INC",
+    "notify_party_address": "908 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS186E",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "07 MAY 2026",
+    "eta": "04 JUN 2026",
+    "container_number": "MSCU0348895",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "81019D22",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "433 CARTONS",
+    "gross_weight_kg": "24,106.61",
+    "measurement": "106.112 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU0348895",
+        "seal_number": "81019D22",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "433",
+          "type": "CARTONS",
+          "description": "433 CARTONS"
+        },
+        "gross_weight_kg": "16,298.91",
+        "net_weight_kg": "13,710.99",
+        "measurement": "40.961 CBM"
+      },
+      {
+        "container_number": "MAEU6728488",
+        "seal_number": "EGAF6053",
+        "container_type": "20' TANK",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "154",
+          "type": "DRUMS",
+          "description": "154 DRUMS"
+        },
+        "gross_weight_kg": "7,807.70",
+        "net_weight_kg": "4,654.17",
+        "measurement": "65.151 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "27 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNTJJL206116140",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.87,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "CS186E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.4,
+        111.12,
+        175.53,
+        15.31
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        30.35,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.87,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.4,
+        145.13,
+        175.53,
+        15.31
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.87,
+        179.15,
+        175.53,
+        15.31
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        216.85,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0348895",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "81019D22",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        216.85,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        216.85,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        216.85,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '433', 'type': 'CARTONS', 'description': '433 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "16,298.91",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        216.85,
+        80.79,
+        36.85
+      ],
+      "value": "40.961 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        253.7,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6728488",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "EGAF6053",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        253.7,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        253.7,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        253.7,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '154', 'type': 'DRUMS', 'description': '154 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "7,807.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        253.7,
+        80.79,
+        36.85
+      ],
+      "value": "65.151 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "ATLANTIC INDUSTRIES PLC\n505 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        209.87,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "TRANS SHIPPING AG\n965 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.4,
+        316.06,
+        175.53,
+        73.7
+      ],
+      "value": "APEX SOLUTIONS INC\n908 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.87,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.4,
+        415.28,
+        175.53,
+        12.76
+      ],
+      "value": "27 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        30.35,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.87,
+        443.62,
+        175.53,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

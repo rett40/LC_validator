@@ -1,0 +1,322 @@
+{
+  "id": 378,
+  "filename": "bl_bl-10_00378_MSCUNPHVW704407183.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNPHVW704407183",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNPHVW704407183",
+    "shipper_name": "APEX ENTERPRISES CORP",
+    "shipper_address": "403 HARBOR ROAD",
+    "consignee_name": "FIRST SUPPLY CHAIN S.A.",
+    "consignee_address": "180 COMMERCE BOULEVARD",
+    "notify_party_name": "INTERNATIONAL COMMERCE INC",
+    "notify_party_address": "975 MARKET STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE168N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "15 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "TCKU6766903",
+    "container_type": "20'RF",
+    "seal_number": "0D3D53CE",
+    "commodity": "FERTILIZERS AND AGROCHEMICALS",
+    "packages": "112 BOXES",
+    "gross_weight_kg": "11,437.26",
+    "measurement": "26.055 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU6766903",
+        "seal_number": "0D3D53CE",
+        "container_type": "20'RF",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "112",
+          "type": "BOXES",
+          "description": "112 BOXES"
+        },
+        "gross_weight_kg": "11,437.26",
+        "net_weight_kg": "9,416.92",
+        "measurement": "26.055 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNPHVW704407183",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "TCKU6766903",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "0D3D53CE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "112",
+        "type": "BOXES",
+        "description": "112 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "11,437.26",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "26.055 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "APEX ENTERPRISES CORP\n403 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST SUPPLY CHAIN S.A.\n180 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "INTERNATIONAL COMMERCE INC\n975 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        94.35,
+        365.1,
+        205.41,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        339.56,
+        365.1,
+        224.54,
+        34.02
+      ],
+      "value": "FE168N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        399.12,
+        204.99,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        378.22,
+        399.12,
+        185.87,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        433.13,
+        187.64,
+        34.02
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        372.45,
+        433.13,
+        191.64,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        467.15,
+        184.99,
+        34.02
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        321.77,
+        467.15,
+        242.32,
+        34.02
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        509.67,
+        181.87,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        364.45,
+        509.67,
+        199.64,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        85.89,
+        538.02,
+        213.87,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        372.01,
+        538.02,
+        192.08,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

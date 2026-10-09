@@ -1,0 +1,500 @@
+{
+  "id": 785,
+  "filename": "bl_bl-20_00785_MSCUNDSTX575435529.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNDSTX575435529",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNDSTX575435529",
+    "shipper_name": "ATLANTIC TRADING LTD",
+    "shipper_address": "199 MAIN STREET",
+    "consignee_name": "APEX SOLUTIONS CORP",
+    "consignee_address": "258 MAIN STREET",
+    "notify_party_name": "TRANS PARTNERS BV",
+    "notify_party_address": "562 COMMERCE BOULEVARD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS551N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "13 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "TCKU3679691",
+    "container_type": "45'HC",
+    "seal_number": "9734A58B",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "346 CRATES",
+    "gross_weight_kg": "60,434.70",
+    "measurement": "146.307 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU3679691",
+        "seal_number": "9734A58B",
+        "container_type": "45'HC",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "346",
+          "type": "CRATES",
+          "description": "346 CRATES"
+        },
+        "gross_weight_kg": "24,454.48",
+        "net_weight_kg": "21,412.25",
+        "measurement": "43.620 CBM"
+      },
+      {
+        "container_number": "TRHU9831557",
+        "seal_number": "EBBA1C71",
+        "container_type": "40' DRY",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "499",
+          "type": "CARTONS",
+          "description": "499 CARTONS"
+        },
+        "gross_weight_kg": "26,631.28",
+        "net_weight_kg": "24,618.55",
+        "measurement": "39.508 CBM"
+      },
+      {
+        "container_number": "EISU4615896",
+        "seal_number": "02G337A4",
+        "container_type": "20' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "98",
+          "type": "DRUMS",
+          "description": "98 DRUMS"
+        },
+        "gross_weight_kg": "9,348.94",
+        "net_weight_kg": "6,490.86",
+        "measurement": "63.179 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNDSTX575435529",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "CS551N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        221.1,
+        306.73,
+        94.96
+      ],
+      "value": "ATLANTIC TRADING LTD\n199 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        219.69,
+        221.01,
+        41.1
+      ],
+      "value": "APEX SOLUTIONS CORP\n258 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        274.96,
+        221.01,
+        41.1
+      ],
+      "value": "TRANS PARTNERS BV\n562 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "TCKU3679691",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "9734A58B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '346', 'type': 'CRATES', 'description': '346 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "24,454.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "43.620 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "TRHU9831557",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "EBBA1C71",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '499', 'type': 'CARTONS', 'description': '499 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "26,631.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "39.508 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        413.86,
+        91.08,
+        36.85
+      ],
+      "value": "EISU4615896",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "02G337A4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        413.86,
+        42.86,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        413.86,
+        133.94,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '98', 'type': 'DRUMS', 'description': '98 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "9,348.94",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "63.179 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        532.91,
+        263.87,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

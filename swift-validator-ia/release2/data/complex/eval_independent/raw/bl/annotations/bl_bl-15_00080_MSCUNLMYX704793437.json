@@ -1,0 +1,444 @@
+{
+  "id": 80,
+  "filename": "bl_bl-15_00080_MSCUNLMYX704793437.pdf",
+  "layout_id": "BL-15",
+  "bl_number": "MSCUNLMYX704793437",
+  "n_containers": 2,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNLMYX704793437",
+    "shipper": {
+      "name": "PACIFIC LOGISTICS CO.",
+      "address": "374 PORT ACCESS ROAD",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "PACIFIC LOGISTICS CO.\n374 PORT ACCESS ROAD\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "consignee": {
+      "name": "GLOBAL SUPPLY CHAIN CO.",
+      "address": "41 PORT ACCESS ROAD",
+      "city": "HAMBURG",
+      "country": "GERMANY",
+      "zip": "20095",
+      "full": "GLOBAL SUPPLY CHAIN CO.\n41 PORT ACCESS ROAD\nHAMBURG, GERMANY 20095"
+    },
+    "notify_party": {
+      "name": "DELTA TRADING AG",
+      "address": "22 PORT ACCESS ROAD",
+      "city": "SHANGHAI",
+      "country": "CHINA",
+      "zip": "200120",
+      "full": "DELTA TRADING AG\n22 PORT ACCESS ROAD\nSHANGHAI, CHINA 200120"
+    },
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0751S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "04 JUL 2026",
+    "eta": "08 AUG 2026",
+    "issue_date": "14 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "OOLU6845412",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "18HEC2A9",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": {
+      "count": "12",
+      "type": "PACKAGES",
+      "description": "12 PACKAGES"
+    },
+    "gross_weight_kg": "16,435.82",
+    "net_weight_kg": "9,152.52",
+    "gross_weight_lbs": "36,234.74",
+    "measurement": "63.365 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU6845412",
+        "seal_number": "18HEC2A9",
+        "container_type": "20' OPEN TOP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "12",
+          "type": "PACKAGES",
+          "description": "12 PACKAGES"
+        },
+        "gross_weight_kg": "7,222.51",
+        "net_weight_kg": "3,280.15",
+        "measurement": "34.245 CBM"
+      },
+      {
+        "container_number": "MSCU4369107",
+        "seal_number": "94E5F82H",
+        "container_type": "20' OPEN TOP",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "119",
+          "type": "CRATES",
+          "description": "119 CRATES"
+        },
+        "gross_weight_kg": "9,213.31",
+        "net_weight_kg": "5,872.37",
+        "measurement": "29.120 CBM"
+      }
+    ],
+    "n_containers": 2,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "DDP",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "OOLU6845412\n18HEC2A9\nPIRAEUS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNLMYX704793437",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "PACIFIC LOGISTICS CO.\n374 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        126.14,
+        269.29,
+        79.37
+      ],
+      "value": "GLOBAL SUPPLY CHAIN CO.\n41 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        216.85,
+        269.29,
+        79.37
+      ],
+      "value": "DELTA TRADING AG\n22 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        24.09
+      ],
+      "value": "0751S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        446.46,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        480.47,
+        269.29,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        514.49,
+        269.29,
+        24.09
+      ],
+      "value": "08 AUG 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        569.76,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU6845412",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "18HEC2A9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        569.76,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        569.76,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        569.76,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '12', 'type': 'PACKAGES', 'description': '12 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "7,222.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        569.76,
+        80.79,
+        36.85
+      ],
+      "value": "34.245 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        606.61,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU4369107",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "94E5F82H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        606.61,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        606.61,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        606.61,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '119', 'type': 'CRATES', 'description': '119 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "9,213.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        606.61,
+        80.79,
+        36.85
+      ],
+      "value": "29.120 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        668.98,
+        269.29,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        697.32,
+        269.29,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        725.67,
+        269.29,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

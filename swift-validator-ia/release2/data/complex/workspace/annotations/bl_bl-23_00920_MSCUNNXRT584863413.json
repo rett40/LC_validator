@@ -1,0 +1,409 @@
+{
+  "id": 920,
+  "filename": "bl_bl-23_00920_MSCUNNXRT584863413.pdf",
+  "layout_id": "BL-23",
+  "bl_number": "MSCUNNXRT584863413",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNNXRT584863413",
+    "shipper_name": "PACIFIC TRADING LLC",
+    "shipper_address": "453 HARBOR ROAD",
+    "consignee_name": "PACIFIC PARTNERS CO.",
+    "consignee_address": "408 INDUSTRIAL AVENUE",
+    "notify_party_name": "CENTRAL TRADING BV",
+    "notify_party_address": "359 MARKET STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0459S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "13 JUN 2026",
+    "eta": "28 JUN 2026",
+    "container_number": "TRHU3991783",
+    "container_type": "40'DC",
+    "seal_number": "A94A1435",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "123 PACKAGES",
+    "gross_weight_kg": "39,297.86",
+    "measurement": "72.352 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU3991783",
+        "seal_number": "A94A1435",
+        "container_type": "40'DC",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "123",
+          "type": "PACKAGES",
+          "description": "123 PACKAGES"
+        },
+        "gross_weight_kg": "16,793.61",
+        "net_weight_kg": "14,097.64",
+        "measurement": "31.187 CBM"
+      },
+      {
+        "container_number": "TCKU9772560",
+        "seal_number": "1593D3HF",
+        "container_type": "40' OPEN TOP",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "120",
+          "type": "CRATES",
+          "description": "120 CRATES"
+        },
+        "gross_weight_kg": "22,504.25",
+        "net_weight_kg": "19,304.98",
+        "measurement": "41.165 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNNXRT584863413",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        170.08,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.06,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        428.03,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        145.98,
+        128.98,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        170.08,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "0459S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.06,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        428.03,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        170.08,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.06,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        428.03,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "28 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        276.38,
+        295.23,
+        94.96
+      ],
+      "value": "PACIFIC TRADING LLC\n453 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        274.96,
+        212.68,
+        41.1
+      ],
+      "value": "PACIFIC PARTNERS CO.\n408 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        330.24,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL TRADING BV\n359 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        402.52,
+        87.7,
+        36.85
+      ],
+      "value": "TRHU3991783",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "A94A1435",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        402.52,
+        41.27,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        402.52,
+        128.98,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '123', 'type': 'PACKAGES', 'description': '123 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "16,793.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "31.187 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        439.37,
+        87.7,
+        36.85
+      ],
+      "value": "TCKU9772560",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "1593D3HF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        439.37,
+        41.27,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        439.37,
+        128.98,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '120', 'type': 'CRATES', 'description': '120 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "22,504.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "41.165 CBM",
+      "page": 1
+    }
+  ]
+}

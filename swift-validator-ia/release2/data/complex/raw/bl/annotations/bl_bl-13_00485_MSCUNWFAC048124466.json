@@ -1,0 +1,322 @@
+{
+  "id": 485,
+  "filename": "bl_bl-13_00485_MSCUNWFAC048124466.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNWFAC048124466",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNWFAC048124466",
+    "shipper_name": "INTERNATIONAL GROUP GMBH",
+    "shipper_address": "565 INDUSTRIAL AVENUE",
+    "consignee_name": "PACIFIC INDUSTRIES AG",
+    "consignee_address": "949 PORT ACCESS ROAD",
+    "notify_party_name": "APEX SHIPPING BV",
+    "notify_party_address": "62 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0707S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "21 MAY 2026",
+    "eta": "10 JUN 2026",
+    "container_number": "TRHU3167135",
+    "container_type": "20' TANK",
+    "seal_number": "71C9BG5G",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "244 CARTONS",
+    "gross_weight_kg": "19,196.02",
+    "measurement": "37.898 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU3167135",
+        "seal_number": "71C9BG5G",
+        "container_type": "20' TANK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "244",
+          "type": "CARTONS",
+          "description": "244 CARTONS"
+        },
+        "gross_weight_kg": "19,196.02",
+        "net_weight_kg": "15,908.92",
+        "measurement": "37.898 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        25.51,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNWFAC048124466",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        75.12,
+        535.75,
+        55.28
+      ],
+      "value": "INTERNATIONAL GROUP GMBH\n565 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        130.39,
+        535.75,
+        55.28
+      ],
+      "value": "PACIFIC INDUSTRIES AG\n949 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        185.67,
+        535.75,
+        55.28
+      ],
+      "value": "APEX SHIPPING BV\n62 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        52.85,
+        256.54,
+        109.44,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        218.28,
+        256.54,
+        77.94,
+        34.02
+      ],
+      "value": "0707S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        379.22,
+        256.54,
+        50.94,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        504.16,
+        256.54,
+        59.94,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        66.35,
+        290.55,
+        95.94,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        249.78,
+        290.55,
+        46.44,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        361.22,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        495.16,
+        290.55,
+        68.94,
+        34.02
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        342.99,
+        535.75,
+        12.76
+      ],
+      "value": "TRHU3167135",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        360.85,
+        241.09,
+        6.8
+      ],
+      "value": "71C9BG5G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        369.92,
+        241.09,
+        6.8
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        378.99,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "244",
+        "type": "CARTONS",
+        "description": "244 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        388.06,
+        241.09,
+        6.8
+      ],
+      "value": "19,196.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        397.13,
+        241.09,
+        6.8
+      ],
+      "value": "37.898 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        360.64,
+        214.3,
+        31.96
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        106.85,
+        417.54,
+        55.44,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        249.78,
+        417.54,
+        46.44,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        356.72,
+        417.54,
+        73.44,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        495.16,
+        417.54,
+        68.94,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        84.35,
+        445.89,
+        77.94,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

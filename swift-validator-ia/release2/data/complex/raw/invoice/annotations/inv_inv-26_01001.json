@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01001",
+  "filename": "inv_inv-26_01001.pdf",
+  "layout_id": "INV-26",
+  "bl_id": 1001,
+  "fields": {
+    "invoice_number": "INV-2026-01001",
+    "invoice_date": "08 MAY 2026",
+    "lc_reference": "LC/HSBC/1001/2026",
+    "bl_reference": "MSCUNBLPH431191559",
+    "seller_name": "FIRST GROUP INC",
+    "buyer_name": "INTERNATIONAL INDUSTRIES LTD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-550",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "CHEMICAL PRODUCTS NEC",
+    "hs_code": "3824.99",
+    "quantity": 408,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "50,244.56",
+    "unit_price": 55.45,
+    "currency": "GBP",
+    "total_amount": 22624.77,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "INV-2026-01001",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        117.64,
+        117.35,
+        19.84
+      ],
+      "value": "50,244.56 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        137.48,
+        117.35,
+        19.84
+      ],
+      "value": "22624.77 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        175.75,
+        260.79,
+        15.59
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        204.09,
+        323.38,
+        79.37
+      ],
+      "value": "FIRST GROUP INC\nFIRST GROUP INC\n754 COMMERCE STREET\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        204.09,
+        198.2,
+        79.37
+      ],
+      "value": "INTERNATIONAL INDUSTRIES LTD\nINTERNATIONAL INDUSTRIES LTD\n874 EXPORT ZONE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        314.65,
+        166.9,
+        42.52
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        314.65,
+        62.59,
+        42.52
+      ],
+      "value": "3824.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "408",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        314.65,
+        52.16,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "55.45 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        314.65,
+        93.88,
+        42.52
+      ],
+      "value": "22624.77 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        296.22,
+        382.68,
+        260.79,
+        18.43
+      ],
+      "value": "LC/HSBC/1001/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "MSCUNBLPH431191559",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        411.02,
+        260.79,
+        18.43
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        296.22,
+        439.37,
+        260.79,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "26711.76 GBP",
+      "actual": "22624.77 GBP"
+    }
+  ]
+}

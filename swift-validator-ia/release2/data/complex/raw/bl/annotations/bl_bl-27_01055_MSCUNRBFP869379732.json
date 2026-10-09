@@ -1,0 +1,500 @@
+{
+  "id": 1055,
+  "filename": "bl_bl-27_01055_MSCUNRBFP869379732.pdf",
+  "layout_id": "BL-27",
+  "bl_number": "MSCUNRBFP869379732",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRBFP869379732",
+    "shipper_name": "CENTRAL ENTERPRISES BV",
+    "shipper_address": "153 COMMERCE BOULEVARD",
+    "consignee_name": "PACIFIC COMMERCE LTD",
+    "consignee_address": "255 PORT ACCESS ROAD",
+    "notify_party_name": "DELTA LOGISTICS BV",
+    "notify_party_address": "9 MARKET STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0169W",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "14 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "MAEU3487194",
+    "container_type": "20' REEFER",
+    "seal_number": "06GEE38D",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "155 CARTONS",
+    "gross_weight_kg": "71,297.32",
+    "measurement": "86.463 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3487194",
+        "seal_number": "06GEE38D",
+        "container_type": "20' REEFER",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "155",
+          "type": "CARTONS",
+          "description": "155 CARTONS"
+        },
+        "gross_weight_kg": "27,643.98",
+        "net_weight_kg": "23,854.72",
+        "measurement": "22.680 CBM"
+      },
+      {
+        "container_number": "MAEU4103833",
+        "seal_number": "8D1A78AD",
+        "container_type": "20'DC",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "436",
+          "type": "DRUMS",
+          "description": "436 DRUMS"
+        },
+        "gross_weight_kg": "16,990.42",
+        "net_weight_kg": "14,029.56",
+        "measurement": "30.515 CBM"
+      },
+      {
+        "container_number": "TRHU3154670",
+        "seal_number": "C5EEG070",
+        "container_type": "20' OPEN TOP",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "433",
+          "type": "BOXES",
+          "description": "433 BOXES"
+        },
+        "gross_weight_kg": "26,662.92",
+        "net_weight_kg": "23,447.79",
+        "measurement": "33.268 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        334.2,
+        38.27,
+        239.81,
+        70.87
+      ],
+      "value": "MSCUNRBFP869379732",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        140.31,
+        90.6,
+        36.85
+      ],
+      "value": "MAEU3487194",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "06GEE38D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        140.31,
+        42.63,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        140.31,
+        133.23,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        140.31,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '155', 'type': 'CARTONS', 'description': '155 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "27,643.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        140.31,
+        79.94,
+        36.85
+      ],
+      "value": "22.680 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        177.17,
+        90.6,
+        36.85
+      ],
+      "value": "MAEU4103833",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "8D1A78AD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        177.17,
+        42.63,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        177.17,
+        133.23,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        177.17,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '436', 'type': 'DRUMS', 'description': '436 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "16,990.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        177.17,
+        79.94,
+        36.85
+      ],
+      "value": "30.515 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        214.02,
+        90.6,
+        36.85
+      ],
+      "value": "TRHU3154670",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        131.7,
+        214.02,
+        53.29,
+        36.85
+      ],
+      "value": "C5EEG070",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        184.99,
+        214.02,
+        42.63,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        227.62,
+        214.02,
+        133.23,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        360.85,
+        214.02,
+        53.29,
+        36.85
+      ],
+      "value": "{'count': '433', 'type': 'BOXES', 'description': '433 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        414.14,
+        214.02,
+        79.94,
+        36.85
+      ],
+      "value": "26,662.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        494.08,
+        214.02,
+        79.94,
+        36.85
+      ],
+      "value": "33.268 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        276.38,
+        266.46,
+        18.43
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        307.56,
+        276.38,
+        266.46,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        41.1,
+        304.72,
+        266.46,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        307.56,
+        304.72,
+        266.46,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        333.07,
+        266.46,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        375.59,
+        266.46,
+        79.37
+      ],
+      "value": "CENTRAL ENTERPRISES BV\n153 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        307.56,
+        375.59,
+        266.46,
+        79.37
+      ],
+      "value": "PACIFIC COMMERCE LTD\n255 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        466.3,
+        266.46,
+        79.37
+      ],
+      "value": "DELTA LOGISTICS BV\n9 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        661.89,
+        266.46,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        307.56,
+        661.89,
+        266.46,
+        24.09
+      ],
+      "value": "0169W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        41.1,
+        695.91,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        307.56,
+        695.91,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        729.92,
+        266.46,
+        24.09
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        307.56,
+        729.92,
+        266.46,
+        24.09
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        763.94,
+        266.46,
+        24.09
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        307.56,
+        763.94,
+        266.46,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    }
+  ]
+}

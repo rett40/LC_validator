@@ -1,0 +1,409 @@
+{
+  "id": 1129,
+  "filename": "bl_bl-29_01129_MSCUNUZJM727210240.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNUZJM727210240",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUZJM727210240",
+    "shipper_name": "INTERNATIONAL TRADING LLC",
+    "shipper_address": "327 MAIN STREET",
+    "consignee_name": "FIRST LOGISTICS CORP",
+    "consignee_address": "670 MAIN STREET",
+    "notify_party_name": "TRANS TRADING PLC",
+    "notify_party_address": "975 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-625",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "24 JUN 2026",
+    "eta": "23 JUL 2026",
+    "container_number": "OOLU9661097",
+    "container_type": "40' DRY / GP",
+    "seal_number": "GEBA28GG",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "481 PALLETS",
+    "gross_weight_kg": "30,771.01",
+    "measurement": "92.928 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU9661097",
+        "seal_number": "GEBA28GG",
+        "container_type": "40' DRY / GP",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "481",
+          "type": "PALLETS",
+          "description": "481 PALLETS"
+        },
+        "gross_weight_kg": "6,422.87",
+        "net_weight_kg": "2,494.46",
+        "measurement": "41.642 CBM"
+      },
+      {
+        "container_number": "CMAU0706697",
+        "seal_number": "8B87AAA5",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "257",
+          "type": "PALLETS",
+          "description": "257 PALLETS"
+        },
+        "gross_weight_kg": "24,348.14",
+        "net_weight_kg": "21,844.56",
+        "measurement": "51.286 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNUZJM727210240",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU9661097",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "GEBA28GG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '481', 'type': 'PALLETS', 'description': '481 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "6,422.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "41.642 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        172.91,
+        89.87,
+        36.85
+      ],
+      "value": "CMAU0706697",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "8B87AAA5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        172.91,
+        42.29,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        172.91,
+        132.17,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        172.91,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '257', 'type': 'PALLETS', 'description': '257 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "24,348.14",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        172.91,
+        79.3,
+        36.85
+      ],
+      "value": "51.286 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "E-625",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        235.28,
+        132.17,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        269.29,
+        132.17,
+        24.09
+      ],
+      "value": "23 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        318.9,
+        132.17,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        347.24,
+        132.17,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        394.02,
+        302.62,
+        94.96
+      ],
+      "value": "INTERNATIONAL TRADING LLC\n327 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        392.6,
+        218.04,
+        41.1
+      ],
+      "value": "FIRST LOGISTICS CORP\n670 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        447.87,
+        218.04,
+        41.1
+      ],
+      "value": "TRANS TRADING PLC\n975 PORT ACCESS ROAD",
+      "page": 1
+    }
+  ]
+}

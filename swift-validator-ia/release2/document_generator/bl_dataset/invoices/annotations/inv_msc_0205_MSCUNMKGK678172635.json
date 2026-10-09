@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00205",
+  "filename": "inv_msc_0205_MSCUNMKGK678172635.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 205,
+  "fields": {
+    "invoice_number": "INV-2026-00205",
+    "invoice_date": "13 APR 2026",
+    "lc_reference": "LC/CITI/0205/2026",
+    "bl_reference": "MSCUNMKGK678172635",
+    "seller_name": "EURO ENTERPRISES S.A.",
+    "buyer_name": "TRANS INDUSTRIES AG",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE713N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES",
+    "hs_code": "0709.99",
+    "quantity": 359,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "18,559.91",
+    "unit_price": 19.69,
+    "currency": "USD",
+    "total_amount": 7068.71,
+    "incoterm": "EXW",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00205",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/CITI/0205/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "EURO ENTERPRISES S.A.\n278 MAIN BOULEVARD\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "TRANS INDUSTRIES AG\n713 COMMERCE STREET\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "FE713N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNMKGK678172635",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "359",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "USD 19.69",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "USD 7,068.71",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "USD 7,068.71",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "BEVERAGES AND SPIRITS",
+      "actual": "ALCOHOLIC AND NON-ALCOHOLIC BEVERAGES"
+    }
+  ]
+}

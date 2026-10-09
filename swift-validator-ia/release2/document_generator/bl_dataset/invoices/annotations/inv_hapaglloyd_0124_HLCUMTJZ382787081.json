@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00124",
+  "filename": "inv_hapaglloyd_0124_HLCUMTJZ382787081.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 124,
+  "fields": {
+    "invoice_number": "INV-2026-00124",
+    "invoice_date": "17 APR 2026",
+    "lc_reference": "LC/SCB/0124/2026",
+    "bl_reference": "HLCUMTJZ382787081",
+    "seller_name": "TRANS ENTERPRISES BV",
+    "buyer_name": "GLOBAL SUPPLY CHAIN AG",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE191S",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 123,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "16,954.28",
+    "unit_price": 13.21,
+    "currency": "USD",
+    "total_amount": 1624.83,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00124",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/SCB/0124/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "TRANS ENTERPRISES BV\n520 TRADE PARK\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "GLOBAL SUPPLY CHAIN AG\n159 EXPORT ZONE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "FE191S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUMTJZ382787081",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "123",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "USD 13.21",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "USD 1,624.83",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "USD 1,624.83",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "VALENCIA, SPAIN"
+    }
+  ]
+}

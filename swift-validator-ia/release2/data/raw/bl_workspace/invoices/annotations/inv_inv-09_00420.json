@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00420",
+  "filename": "inv_inv-09_00420.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 420,
+  "fields": {
+    "invoice_number": "INV-2026-00420",
+    "invoice_date": "20 APR 2026",
+    "lc_reference": "LC/DB/0420/2026",
+    "bl_reference": "MSCUNRDLB438037463",
+    "seller_name": "DELTA SOLUTIONS INC",
+    "buyer_name": "INTERNATIONAL LOGISTICS S.A.",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE253N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "MECHANICAL APPARATUS AND MACHINERY",
+    "hs_code": "8428.90",
+    "quantity": 112,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "54,965.10",
+    "unit_price": 135.3,
+    "currency": "USD",
+    "total_amount": 15153.6,
+    "incoterm": "CIP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00420",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "20 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "LC/DB/0420/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNRDLB438037463",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        297.64,
+        172.35,
+        42.52
+      ],
+      "value": "MECHANICAL APPARATUS AND MACHINERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        297.64,
+        64.63,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "112",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "135.3 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "15153.6 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        354.33,
+        121.18,
+        19.84
+      ],
+      "value": "54,965.10 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        374.17,
+        121.18,
+        19.84
+      ],
+      "value": "15153.6 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "actual": "MECHANICAL APPARATUS AND MACHINERY"
+    }
+  ]
+}

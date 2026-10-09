@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00666",
+  "filename": "inv_inv-17_00666.pdf",
+  "layout_id": "INV-17",
+  "bl_id": 666,
+  "fields": {
+    "invoice_number": "INV-2026-00666",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/DB/0666/2026",
+    "bl_reference": "MSCUNMBRB308987000",
+    "seller_name": "TRANS GROUP CO.",
+    "buyer_name": "CENTRAL SHIPPING CO.",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE149S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 498,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "24,380.36",
+    "unit_price": 4.96,
+    "currency": "USD",
+    "total_amount": 2467.82,
+    "incoterm": "CFR",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        77.1,
+        211.46,
+        27.78
+      ],
+      "value": "INV-2026-00666",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        160.51,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "LC/DB/0666/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "MSCUNMBRB308987000",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        424.84,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        160.51,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        192.76,
+        327.77,
+        79.37
+      ],
+      "value": "TRANS GROUP CO.\nTRANS GROUP CO.\n860 EXPORT ZONE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        356.12,
+        192.76,
+        200.89,
+        79.37
+      ],
+      "value": "CENTRAL SHIPPING CO.\nCENTRAL SHIPPING CO.\n710 EXPORT ZONE\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        303.31,
+        169.17,
+        42.52
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        197.52,
+        303.31,
+        63.44,
+        42.52
+      ],
+      "value": "3926.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        260.96,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "498",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        313.82,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        366.69,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "4.96 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        461.85,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "2467.82 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        438.06,
+        360.0,
+        118.95,
+        19.84
+      ],
+      "value": "24,380.36 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        438.06,
+        379.84,
+        118.95,
+        19.84
+      ],
+      "value": "2467.82 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.57,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "2853.54 USD",
+      "actual": "2467.82 USD"
+    }
+  ]
+}

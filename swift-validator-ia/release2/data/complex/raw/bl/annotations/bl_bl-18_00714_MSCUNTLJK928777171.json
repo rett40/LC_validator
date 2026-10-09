@@ -1,0 +1,442 @@
+{
+  "id": 714,
+  "filename": "bl_bl-18_00714_MSCUNTLJK928777171.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNTLJK928777171",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTLJK928777171",
+    "shipper_name": "FIRST INDUSTRIES LLC",
+    "shipper_address": "402 COMMERCE BOULEVARD",
+    "consignee_name": "PACIFIC GROUP PLC",
+    "consignee_address": "51 HARBOR ROAD",
+    "notify_party_name": "CENTRAL SUPPLY CHAIN GMBH",
+    "notify_party_address": "739 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0980N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "08 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "TRHU7445453",
+    "container_type": "20'TK",
+    "seal_number": "BAABGGA5",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "422 CARTONS",
+    "gross_weight_kg": "45,107.16",
+    "measurement": "61.994 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU7445453",
+        "seal_number": "BAABGGA5",
+        "container_type": "20'TK",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "422",
+          "type": "CARTONS",
+          "description": "422 CARTONS"
+        },
+        "gross_weight_kg": "20,085.52",
+        "net_weight_kg": "16,921.67",
+        "measurement": "32.452 CBM"
+      },
+      {
+        "container_number": "MAEU6442280",
+        "seal_number": "653E1D8E",
+        "container_type": "40' DRY / GP",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "468",
+          "type": "DRUMS",
+          "description": "468 DRUMS"
+        },
+        "gross_weight_kg": "25,021.64",
+        "net_weight_kg": "21,260.04",
+        "measurement": "29.542 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTLJK928777171",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU7445453",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "BAABGGA5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '422', 'type': 'CARTONS', 'description': '422 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "20,085.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "32.452 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU6442280",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "653E1D8E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '468', 'type': 'DRUMS', 'description': '468 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "25,021.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "29.542 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "402 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "FIRST INDUSTRIES LLC\n402 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "51 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "PACIFIC GROUP PLC\n51 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "739 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL SUPPLY CHAIN GMBH\n739 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        490.39,
+        201.04,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        381.85,
+        490.39,
+        192.16,
+        34.02
+      ],
+      "value": "0980N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        524.41,
+        209.95,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        328.51,
+        524.41,
+        245.51,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        101.89,
+        558.43,
+        202.84,
+        34.02
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        379.2,
+        558.43,
+        194.82,
+        34.02
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        592.44,
+        189.95,
+        34.02
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        393.41,
+        592.44,
+        180.6,
+        34.02
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        346.29,
+        634.96,
+        227.72,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        85.89,
+        663.31,
+        218.84,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        337.4,
+        663.31,
+        236.61,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        691.65,
+        189.49,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

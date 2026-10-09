@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00895",
+  "filename": "inv_inv-18_00895.pdf",
+  "layout_id": "INV-18",
+  "bl_id": 895,
+  "fields": {
+    "invoice_number": "INV-2026-00895",
+    "invoice_date": "25 APR 2026",
+    "lc_reference": "LC/DBS/0895/2026",
+    "bl_reference": "MSCUNTGCV620190336",
+    "seller_name": "INTERNATIONAL SHIPPING INC",
+    "buyer_name": "APEX COMMERCE LLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE85E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "hs_code": "8541.40",
+    "quantity": 269,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "5,467.23",
+    "unit_price": 116.33,
+    "currency": "EUR",
+    "total_amount": 31292.77,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00895",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        107.72,
+        269.29,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        107.72,
+        269.29,
+        28.35
+      ],
+      "value": "LC/DBS/0895/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        136.06,
+        269.29,
+        28.35
+      ],
+      "value": "MSCUNTGCV620190336",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        136.06,
+        269.29,
+        28.35
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        164.41,
+        269.29,
+        28.35
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        297.64,
+        164.41,
+        269.29,
+        28.35
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        216.85,
+        172.35,
+        42.52
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        216.85,
+        64.63,
+        42.52
+      ],
+      "value": "8541.40",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        216.85,
+        53.86,
+        42.52
+      ],
+      "value": "269",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        216.85,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        216.85,
+        96.94,
+        42.52
+      ],
+      "value": "116.33 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        216.85,
+        96.94,
+        42.52
+      ],
+      "value": "31292.77 EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        267.87,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        355.75,
+        121.18,
+        19.84
+      ],
+      "value": "5,467.23 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        375.59,
+        121.18,
+        19.84
+      ],
+      "value": "31292.77 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        403.94,
+        269.29,
+        25.51
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        403.94,
+        269.29,
+        25.51
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "GUANGZHOU, CHINA",
+      "actual": "BUSAN, SOUTH KOREA"
+    }
+  ]
+}

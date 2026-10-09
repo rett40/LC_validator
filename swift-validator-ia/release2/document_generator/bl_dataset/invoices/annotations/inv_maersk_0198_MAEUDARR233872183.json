@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00198",
+  "filename": "inv_maersk_0198_MAEUDARR233872183.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 198,
+  "fields": {
+    "invoice_number": "INV-2026-00198",
+    "invoice_date": "09 APR 2026",
+    "lc_reference": "LC/HSBC/0198/2026",
+    "bl_reference": "MAEUDARR233872183",
+    "seller_name": "INTERNATIONAL INDUSTRIES GMBH",
+    "buyer_name": "APEX PARTNERS LTD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS933E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "RECHARGEABLE BATTERY CELLS",
+    "hs_code": "8541.40",
+    "quantity": 455,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "10,351.31",
+    "unit_price": 114.36,
+    "currency": "USD",
+    "total_amount": 52033.8,
+    "incoterm": "CFR",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00198",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUDARR233872183",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL INDUSTRIES GMBH\n33 MAIN BOULEVARD\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "APEX PARTNERS LTD\n971 EXPORT ZONE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "CS933E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUDARR233872183",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "RECHARGEABLE BATTERY CELLS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "455",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 114.36",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 52,033.80",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 52,033.80",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "BUSAN, SOUTH KOREA"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "LITHIUM-ION BATTERIES",
+      "actual": "RECHARGEABLE BATTERY CELLS"
+    }
+  ]
+}

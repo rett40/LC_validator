@@ -1,0 +1,417 @@
+{
+  "id": 361,
+  "filename": "bl_bl-10_00361_MSCUNVPBV687881941.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNVPBV687881941",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNVPBV687881941",
+    "shipper_name": "INTERNATIONAL GROUP BV",
+    "shipper_address": "205 PORT ACCESS ROAD",
+    "consignee_name": "CENTRAL GROUP LLC",
+    "consignee_address": "248 INDUSTRIAL AVENUE",
+    "notify_party_name": "TRANS ENTERPRISES CORP",
+    "notify_party_address": "443 HARBOR ROAD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5297",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "21 MAY 2026",
+    "eta": "06 JUN 2026",
+    "container_number": "EISU7742452",
+    "container_type": "20' TANK",
+    "seal_number": "F4842595",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "422 DRUMS",
+    "gross_weight_kg": "48,377.73",
+    "measurement": "103.293 CBM",
+    "containers": [
+      {
+        "container_number": "EISU7742452",
+        "seal_number": "F4842595",
+        "container_type": "20' TANK",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "422",
+          "type": "DRUMS",
+          "description": "422 DRUMS"
+        },
+        "gross_weight_kg": "23,581.36",
+        "net_weight_kg": "20,496.15",
+        "measurement": "40.744 CBM"
+      },
+      {
+        "container_number": "TCKU4953894",
+        "seal_number": "C1GC90H2",
+        "container_type": "40' FLAT RACK",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "166",
+          "type": "BOXES",
+          "description": "166 BOXES"
+        },
+        "gross_weight_kg": "24,796.37",
+        "net_weight_kg": "20,927.82",
+        "measurement": "62.549 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNVPBV687881941",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "EISU7742452",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "F4842595",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "422",
+        "type": "DRUMS",
+        "description": "422 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "23,581.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "40.744 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "TCKU4953894",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "C1GC90H2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "166",
+        "type": "BOXES",
+        "description": "166 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "24,796.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "62.549 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "INTERNATIONAL GROUP BV\n205 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL GROUP LLC\n248 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "TRANS ENTERPRISES CORP\n443 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        365.1,
+        196.08,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        325.33,
+        365.1,
+        238.76,
+        34.02
+      ],
+      "value": "AL5297",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        121.0,
+        399.12,
+        178.76,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        397.78,
+        399.12,
+        166.31,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        433.13,
+        233.87,
+        34.02
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        374.24,
+        433.13,
+        189.86,
+        34.02
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        467.15,
+        202.75,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "06 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        115.68,
+        509.67,
+        184.08,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        341.33,
+        509.67,
+        222.76,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        538.02,
+        210.31,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        538.02,
+        205.42,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        115.23,
+        566.36,
+        184.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

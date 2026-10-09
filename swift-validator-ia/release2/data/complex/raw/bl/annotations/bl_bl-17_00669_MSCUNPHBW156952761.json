@@ -1,0 +1,500 @@
+{
+  "id": 669,
+  "filename": "bl_bl-17_00669_MSCUNPHBW156952761.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNPHBW156952761",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNPHBW156952761",
+    "shipper_name": "FIRST LOGISTICS LTD",
+    "shipper_address": "371 MAIN STREET",
+    "consignee_name": "GLOBAL SUPPLY CHAIN LLC",
+    "consignee_address": "826 MAIN STREET",
+    "notify_party_name": "UNITED SOLUTIONS GMBH",
+    "notify_party_address": "153 COMMERCE BOULEVARD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS529E",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "26 JUN 2026",
+    "eta": "26 JUL 2026",
+    "container_number": "OOLU4460614",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "F9BF542C",
+    "commodity": "MINERAL WATER AND SOFT DRINKS",
+    "packages": "13 DRUMS",
+    "gross_weight_kg": "56,185.96",
+    "measurement": "97.199 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU4460614",
+        "seal_number": "F9BF542C",
+        "container_type": "20' FLAT RACK",
+        "commodity": "MINERAL WATER AND SOFT DRINKS",
+        "packages": {
+          "count": "13",
+          "type": "DRUMS",
+          "description": "13 DRUMS"
+        },
+        "gross_weight_kg": "16,107.33",
+        "net_weight_kg": "12,615.12",
+        "measurement": "31.275 CBM"
+      },
+      {
+        "container_number": "MAEU8547767",
+        "seal_number": "50B410D5",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "MINERAL WATER AND SOFT DRINKS",
+        "packages": {
+          "count": "243",
+          "type": "PACKAGES",
+          "description": "243 PACKAGES"
+        },
+        "gross_weight_kg": "27,236.05",
+        "net_weight_kg": "25,154.99",
+        "measurement": "22.495 CBM"
+      },
+      {
+        "container_number": "TRHU8035170",
+        "seal_number": "A7DCAFDH",
+        "container_type": "20' OPEN TOP",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "434",
+          "type": "BAGS",
+          "description": "434 BAGS"
+        },
+        "gross_weight_kg": "12,842.58",
+        "net_weight_kg": "8,993.24",
+        "measurement": "43.429 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNPHBW156952761",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        136.06,
+        302.62,
+        94.96
+      ],
+      "value": "FIRST LOGISTICS LTD\n371 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        134.65,
+        218.04,
+        41.1
+      ],
+      "value": "GLOBAL SUPPLY CHAIN LLC\n826 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        189.92,
+        218.04,
+        41.1
+      ],
+      "value": "UNITED SOLUTIONS GMBH\n153 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "CS529E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "26 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        345.83,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU4460614",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "F9BF542C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        345.83,
+        42.29,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        345.83,
+        132.17,
+        36.85
+      ],
+      "value": "MINERAL WATER AND SOFT DRINKS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '13', 'type': 'DRUMS', 'description': '13 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "16,107.33",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "31.275 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        382.68,
+        89.87,
+        36.85
+      ],
+      "value": "MAEU8547767",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "50B410D5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        382.68,
+        42.29,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        382.68,
+        132.17,
+        36.85
+      ],
+      "value": "MINERAL WATER AND SOFT DRINKS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '243', 'type': 'PACKAGES', 'description': '243 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "27,236.05",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "22.495 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        419.53,
+        89.87,
+        36.85
+      ],
+      "value": "TRHU8035170",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        419.53,
+        52.87,
+        36.85
+      ],
+      "value": "A7DCAFDH",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        419.53,
+        42.29,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        419.53,
+        132.17,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        419.53,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '434', 'type': 'BAGS', 'description': '434 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        419.53,
+        79.3,
+        36.85
+      ],
+      "value": "12,842.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        419.53,
+        79.3,
+        36.85
+      ],
+      "value": "43.429 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        481.89,
+        132.17,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        510.24,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00301",
+  "filename": "inv_msc_0301_MSCUNNCXE207574901.pdf",
+  "style": "StandardInvoiceRenderer",
+  "bl_id": 301,
+  "fields": {
+    "invoice_number": "INV-2026-00301",
+    "invoice_date": "10 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0301/2026",
+    "bl_reference": "MSCUNNCXE207574901",
+    "seller_name": "CENTRAL SHIPPING LLC",
+    "buyer_name": "CENTRAL PARTNERS PLC",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6109",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "BEVERAGES AND SPIRITS",
+    "hs_code": "0709.99",
+    "quantity": 222,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "10,214.04",
+    "unit_price": 6.44,
+    "currency": "EUR",
+    "total_amount": 1429.68,
+    "incoterm": "DAP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "INV-2026-00301",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "LC/BARCLAYS/0301/2026",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "CENTRAL SHIPPING LLC\n123 INDUSTRIAL AVENUE\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "CENTRAL PARTNERS PLC\n725 TRADE PARK\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "AL6109",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        31.18
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        209.76,
+        179.53,
+        28.35
+      ],
+      "value": "MSCUNNCXE207574901",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        260.79,
+        155.91,
+        45.35
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        260.79,
+        62.36,
+        45.35
+      ],
+      "value": "222",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        260.79,
+        70.87,
+        45.35
+      ],
+      "value": "EUR 6.44",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        260.79,
+        73.7,
+        45.35
+      ],
+      "value": "EUR 1,429.68",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        311.81,
+        215.43,
+        51.02
+      ],
+      "value": "EUR 1,429.68",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        345.83,
+        107.72,
+        17.01
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SINGAPORE",
+      "actual": "LE HAVRE, FRANCE"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-01031",
+  "filename": "inv_inv-21_01031.pdf",
+  "layout_id": "INV-21",
+  "bl_id": 1031,
+  "fields": {
+    "invoice_number": "INV-2026-01031",
+    "invoice_date": "19 APR 2026",
+    "lc_reference": "LC/DBS/1031/2026",
+    "bl_reference": "MSCUNZEMZ130960406",
+    "seller_name": "CENTRAL ENTERPRISES CORP",
+    "buyer_name": "CENTRAL ENTERPRISES PLC",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS587S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "PERSONAL CARE PRODUCTS",
+    "hs_code": "3304.99",
+    "quantity": 346,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "63,521.95",
+    "unit_price": 44.12,
+    "currency": "USD",
+    "total_amount": 15266.77,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-01031",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "19 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "LC/DBS/1031/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        133.23,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNZEMZ130960406",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        161.57,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        211.18,
+        172.35,
+        42.52
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        211.18,
+        64.63,
+        42.52
+      ],
+      "value": "3304.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "346",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        211.18,
+        53.86,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "44.12 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        211.18,
+        96.94,
+        42.52
+      ],
+      "value": "15266.77 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        269.29,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "63,521.95 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "15266.77 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        420.94,
+        179.53,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "16255.08 USD",
+      "actual": "15266.77 USD"
+    }
+  ]
+}

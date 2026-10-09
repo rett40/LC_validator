@@ -1,0 +1,442 @@
+{
+  "id": 192,
+  "filename": "bl_bl-04_00192_MSCUNJZSE859748227.pdf",
+  "layout_id": "BL-04",
+  "bl_number": "MSCUNJZSE859748227",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNJZSE859748227",
+    "shipper_name": "CENTRAL COMMERCE AG",
+    "shipper_address": "556 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL COMMERCE CO.",
+    "consignee_address": "669 COMMERCE BOULEVARD",
+    "notify_party_name": "PREMIER TRADING PLC",
+    "notify_party_address": "150 INDUSTRIAL AVENUE",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1980",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "13 JUN 2026",
+    "eta": "09 JUL 2026",
+    "container_number": "TRHU2444852",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "BC5AA213",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "441 BOXES",
+    "gross_weight_kg": "43,790.62",
+    "measurement": "88.620 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2444852",
+        "seal_number": "BC5AA213",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "441",
+          "type": "BOXES",
+          "description": "441 BOXES"
+        },
+        "gross_weight_kg": "23,689.72",
+        "net_weight_kg": "21,474.90",
+        "measurement": "64.264 CBM"
+      },
+      {
+        "container_number": "OOLU3746635",
+        "seal_number": "35CA69F4",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "458",
+          "type": "DRUMS",
+          "description": "458 DRUMS"
+        },
+        "gross_weight_kg": "20,100.90",
+        "net_weight_kg": "17,480.15",
+        "measurement": "24.356 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "24 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNJZSE859748227",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "AL1980",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        34.02
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        34.02
+      ],
+      "value": "09 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "556 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL COMMERCE AG\n556 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "669 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL COMMERCE CO.\n669 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "150 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER TRADING PLC\n150 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        333.07,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU2444852",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        333.07,
+        53.86,
+        36.85
+      ],
+      "value": "BC5AA213",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        333.07,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        333.07,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        333.07,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '441', 'type': 'BOXES', 'description': '441 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        333.07,
+        80.79,
+        36.85
+      ],
+      "value": "23,689.72",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        333.07,
+        80.79,
+        36.85
+      ],
+      "value": "64.264 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        369.92,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU3746635",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        369.92,
+        53.86,
+        36.85
+      ],
+      "value": "35CA69F4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        369.92,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        369.92,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        369.92,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '458', 'type': 'DRUMS', 'description': '458 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        369.92,
+        80.79,
+        36.85
+      ],
+      "value": "20,100.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        369.92,
+        80.79,
+        36.85
+      ],
+      "value": "24.356 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        415.28,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        415.28,
+        179.53,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        415.28,
+        179.53,
+        28.35
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        443.62,
+        179.53,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        443.62,
+        179.53,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

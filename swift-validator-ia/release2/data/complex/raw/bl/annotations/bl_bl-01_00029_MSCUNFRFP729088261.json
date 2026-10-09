@@ -1,0 +1,512 @@
+{
+  "id": 29,
+  "filename": "bl_bl-01_00029_MSCUNFRFP729088261.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNFRFP729088261",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNFRFP729088261",
+    "shipper_name": "CENTRAL ENTERPRISES GMBH",
+    "shipper_address": "845 HARBOR ROAD",
+    "consignee_name": "PREMIER INDUSTRIES CO.",
+    "consignee_address": "346 COMMERCE BOULEVARD",
+    "notify_party_name": "UNITED SHIPPING BV",
+    "notify_party_address": "808 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE989S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "11 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "MSCU1840922",
+    "container_type": "40'FR",
+    "seal_number": "7F77BGB3",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "438 BAGS",
+    "gross_weight_kg": "37,652.67",
+    "measurement": "112.543 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU1840922",
+        "seal_number": "7F77BGB3",
+        "container_type": "40'FR",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "438",
+          "type": "BAGS",
+          "description": "438 BAGS"
+        },
+        "gross_weight_kg": "6,056.69",
+        "net_weight_kg": "2,804.33",
+        "measurement": "27.945 CBM"
+      },
+      {
+        "container_number": "TRHU6704127",
+        "seal_number": "A469HCBG",
+        "container_type": "20' TANK",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "396",
+          "type": "CARTONS",
+          "description": "396 CARTONS"
+        },
+        "gross_weight_kg": "19,388.90",
+        "net_weight_kg": "15,936.92",
+        "measurement": "58.686 CBM"
+      },
+      {
+        "container_number": "CMAU6605615",
+        "seal_number": "53CH47BB",
+        "container_type": "20'TK",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "80",
+          "type": "BAGS",
+          "description": "80 BAGS"
+        },
+        "gross_weight_kg": "12,207.08",
+        "net_weight_kg": "8,445.11",
+        "measurement": "25.912 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNFRFP729088261",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "CENTRAL ENTERPRISES GMBH\n845 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "PREMIER INDUSTRIES CO.\n346 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "UNITED SHIPPING BV\n808 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "FE989S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "11 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "MSCU1840922",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "7F77BGB3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "438",
+        "type": "BAGS",
+        "description": "438 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "6,056.69",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "27.945 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "TRHU6704127",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "A469HCBG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "396",
+        "type": "CARTONS",
+        "description": "396 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "19,388.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "58.686 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        485.57,
+        265.32,
+        12.76
+      ],
+      "value": "CMAU6605615",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        503.43,
+        119.4,
+        6.8
+      ],
+      "value": "53CH47BB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        512.5,
+        119.4,
+        6.8
+      ],
+      "value": "20'TK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        521.57,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "80",
+        "type": "BAGS",
+        "description": "80 BAGS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        530.65,
+        119.4,
+        6.8
+      ],
+      "value": "12,207.08",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        539.72,
+        119.4,
+        6.8
+      ],
+      "value": "25.912 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        503.22,
+        106.13,
+        31.96
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        570.05,
+        178.58,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        570.05,
+        178.58,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        570.05,
+        178.58,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        598.39,
+        178.58,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        598.39,
+        178.58,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00429",
+  "filename": "inv_inv-11_00429.pdf",
+  "layout_id": "INV-11",
+  "bl_id": 429,
+  "fields": {
+    "invoice_number": "INV-2026-00429",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/CITI/0429/2026",
+    "bl_reference": "MSCUNHSPY491491438",
+    "seller_name": "EURO ENTERPRISES AG",
+    "buyer_name": "UNITED ENTERPRISES CORP",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE782S",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "goods_description": "COPPER AND COPPER PRODUCTS",
+    "hs_code": "7408.19",
+    "quantity": 50,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "27,648.77",
+    "unit_price": 31.33,
+    "currency": "USD",
+    "total_amount": 1566.5,
+    "incoterm": "EXW",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        83.62,
+        206.36,
+        11.34
+      ],
+      "value": "INV-2026-00429",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        110.55,
+        319.86,
+        79.37
+      ],
+      "value": "EURO ENTERPRISES AG\nEURO ENTERPRISES AG\n928 EXPORT ZONE\nMUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        110.55,
+        196.04,
+        79.37
+      ],
+      "value": "UNITED ENTERPRISES CORP\nUNITED ENTERPRISES CORP\n872 MAIN BOULEVARD\nJEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        213.07,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "LC/CITI/0429/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.04,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "MSCUNHSPY491491438",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        41.1,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        213.07,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.04,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        293.39,
+        165.09,
+        42.52
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        293.39,
+        61.91,
+        42.52
+      ],
+      "value": "7408.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "50",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "31.33 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "1566.5 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        350.08,
+        116.08,
+        19.84
+      ],
+      "value": "27,648.77 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        369.92,
+        116.08,
+        19.84
+      ],
+      "value": "1566.5 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        213.07,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "MUMBAI, INDIA",
+      "actual": "NEW YORK, USA"
+    }
+  ]
+}

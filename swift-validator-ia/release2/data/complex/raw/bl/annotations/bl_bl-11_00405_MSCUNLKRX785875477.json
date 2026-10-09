@@ -1,0 +1,500 @@
+{
+  "id": 405,
+  "filename": "bl_bl-11_00405_MSCUNLKRX785875477.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNLKRX785875477",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNLKRX785875477",
+    "shipper_name": "GLOBAL INDUSTRIES BV",
+    "shipper_address": "497 MARKET STREET",
+    "consignee_name": "FIRST SHIPPING LTD",
+    "consignee_address": "194 MARKET STREET",
+    "notify_party_name": "CENTRAL COMMERCE PLC",
+    "notify_party_address": "609 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS955E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "13 JUN 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "TRHU0826324",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "AD4DDCGG",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "253 BOXES",
+    "gross_weight_kg": "59,552.58",
+    "measurement": "107.554 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU0826324",
+        "seal_number": "AD4DDCGG",
+        "container_type": "20' FLAT RACK",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "253",
+          "type": "BOXES",
+          "description": "253 BOXES"
+        },
+        "gross_weight_kg": "12,186.54",
+        "net_weight_kg": "9,839.30",
+        "measurement": "29.478 CBM"
+      },
+      {
+        "container_number": "OOLU9830064",
+        "seal_number": "87357GG8",
+        "container_type": "40'OT",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "116",
+          "type": "DRUMS",
+          "description": "116 DRUMS"
+        },
+        "gross_weight_kg": "21,557.07",
+        "net_weight_kg": "17,894.82",
+        "measurement": "50.653 CBM"
+      },
+      {
+        "container_number": "MSCU4411362",
+        "seal_number": "3D1B6C00",
+        "container_type": "40'HC",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "279",
+          "type": "CARTONS",
+          "description": "279 CARTONS"
+        },
+        "gross_weight_kg": "25,808.97",
+        "net_weight_kg": "22,514.51",
+        "measurement": "27.423 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNLKRX785875477",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        117.64,
+        171.97,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        213.07,
+        117.64,
+        171.97,
+        24.09
+      ],
+      "value": "CS955E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.04,
+        117.64,
+        171.97,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        41.1,
+        151.65,
+        171.97,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        213.07,
+        151.65,
+        171.97,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.04,
+        151.65,
+        171.97,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        185.67,
+        171.97,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        213.07,
+        185.67,
+        171.97,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        240.94,
+        295.23,
+        94.96
+      ],
+      "value": "GLOBAL INDUSTRIES BV\n497 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        239.53,
+        212.68,
+        41.1
+      ],
+      "value": "FIRST SHIPPING LTD\n194 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        294.8,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL COMMERCE PLC\n609 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        367.09,
+        87.7,
+        36.85
+      ],
+      "value": "TRHU0826324",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        367.09,
+        51.59,
+        36.85
+      ],
+      "value": "AD4DDCGG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        367.09,
+        41.27,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        367.09,
+        128.98,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        367.09,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '253', 'type': 'BOXES', 'description': '253 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        367.09,
+        77.39,
+        36.85
+      ],
+      "value": "12,186.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        367.09,
+        77.39,
+        36.85
+      ],
+      "value": "29.478 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        403.94,
+        87.7,
+        36.85
+      ],
+      "value": "OOLU9830064",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        403.94,
+        51.59,
+        36.85
+      ],
+      "value": "87357GG8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        403.94,
+        41.27,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        403.94,
+        128.98,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        403.94,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '116', 'type': 'DRUMS', 'description': '116 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        403.94,
+        77.39,
+        36.85
+      ],
+      "value": "21,557.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        403.94,
+        77.39,
+        36.85
+      ],
+      "value": "50.653 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        440.79,
+        87.7,
+        36.85
+      ],
+      "value": "MSCU4411362",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        440.79,
+        51.59,
+        36.85
+      ],
+      "value": "3D1B6C00",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        440.79,
+        41.27,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        440.79,
+        128.98,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        440.79,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '279', 'type': 'CARTONS', 'description': '279 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        440.79,
+        77.39,
+        36.85
+      ],
+      "value": "25,808.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        440.79,
+        77.39,
+        36.85
+      ],
+      "value": "27.423 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        503.15,
+        171.97,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        213.07,
+        503.15,
+        171.97,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.04,
+        503.15,
+        171.97,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        41.1,
+        531.5,
+        171.97,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        213.07,
+        531.5,
+        171.97,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

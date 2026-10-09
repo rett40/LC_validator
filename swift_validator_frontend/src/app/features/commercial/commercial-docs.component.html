@@ -1,0 +1,649 @@
+<div class="comm-page">
+
+  <!-- ── Top bar ──────────────────────────────────────────────────────── -->
+  <header class="top-bar">
+    <button class="btn-back" (click)="goBack()">← Retour MT700</button>
+    <div class="top-title">
+      <span class="top-icon">📦</span>
+      <div>
+        <h1>Validation Documents Commerciaux</h1>
+        <p>Bill of Lading · Invoice · Packing List — jusqu'à 3 documents simultanés</p>
+      </div>
+    </div>
+    <button class="btn-history" (click)="showHistory = !showHistory">
+      📋 Historique ({{ history().length }})
+    </button>
+  </header>
+
+  <!-- ── History panel ────────────────────────────────────────────────── -->
+  <div class="history-panel" *ngIf="showHistory">
+    <div class="history-header">
+      <span>{{ swiftAnalysisId != null ? 'Validations de ce MT700' : 'Validations récentes' }}</span>
+      <button class="btn-close" (click)="showHistory = false">✕</button>
+    </div>
+    <div class="history-loading" *ngIf="historyLoading()">Chargement…</div>
+    <div class="history-empty" *ngIf="!historyLoading() && history().length === 0">
+      Aucun historique disponible
+    </div>
+    <div
+      class="history-item"
+      *ngFor="let item of history(); trackBy: trackByIdx"
+      (click)="loadFromHistory(item)"
+    >
+      <div class="history-risk-badge" [class]="historyRiskClass(item.riskLevel)">
+        {{ item.riskLevel || '—' }}
+      </div>
+      <div class="history-meta">
+        <span class="history-lc">{{ item.lcReference || 'Sans référence' }}</span>
+        <span class="history-docs">{{ item.nDocuments }} doc(s) · {{ formatDate(item.createdAt) }}</span>
+      </div>
+      <div class="history-score" *ngIf="item.finalScore != null">
+        {{ scorePercent(item.finalScore) }}
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Upload zone (idle / error) ───────────────────────────────────── -->
+  <section class="upload-section" *ngIf="uiState === 'idle' || uiState === 'error'">
+
+    <div class="upload-ref-row">
+      <label class="ref-label">Référence LC (optionnel)</label>
+      <input
+        class="ref-input"
+        type="text"
+        [(ngModel)]="lcReference"
+        placeholder="ex: LC2024-001234"
+      />
+    </div>
+
+    <!-- Drop zone -->
+    <div
+      class="drop-zone"
+      [class.dragging]="isDragging"
+      [class.has-files]="selectedFiles.length > 0"
+      (dragover)="onDragOver($event)"
+      (dragleave)="onDragLeave()"
+      (drop)="onDrop($event)"
+      (click)="fileInput.click()"
+    >
+      <input
+        #fileInput
+        type="file"
+        [accept]="acceptedTypes"
+        multiple
+        style="display:none"
+        (change)="onFileChange($event)"
+      />
+      <div class="drop-content" *ngIf="selectedFiles.length === 0">
+        <div class="drop-icon">📂</div>
+        <p class="drop-title">Glissez vos documents ici</p>
+        <p class="drop-sub">PDF, PNG, JPG, TIFF — max 3 fichiers · 50 Mo chacun</p>
+        <button class="btn-browse" type="button">Parcourir</button>
+      </div>
+      <div class="file-list" *ngIf="selectedFiles.length > 0" (click)="$event.stopPropagation()">
+        <div class="file-item" *ngFor="let f of selectedFiles; let i = index; trackBy: trackByIdx">
+          <span class="file-icon">{{ fileIcon(f) }}</span>
+          <div class="file-info">
+            <span class="file-name">{{ f.name }}</span>
+            <span class="file-size">{{ fileSizeLabel(f) }}</span>
+          </div>
+          <button class="btn-remove" (click)="removeFile(i)">✕</button>
+        </div>
+        <div class="add-more" *ngIf="selectedFiles.length < maxFiles" (click)="fileInput.click()">
+          + Ajouter un document ({{ maxFiles - selectedFiles.length }} restant)
+        </div>
+      </div>
+    </div>
+
+    <!-- Type badges -->
+    <div class="type-badges">
+      <span class="type-badge bl">📋 Bill of Lading</span>
+      <span class="type-badge invoice">💰 Invoice</span>
+      <span class="type-badge pl">📦 Packing List</span>
+    </div>
+
+    <!-- Error banner -->
+    <div class="error-banner" *ngIf="uploadError">⚠ {{ uploadError }}</div>
+
+    <!-- Analyze button -->
+    <button
+      class="btn-analyze"
+      [disabled]="selectedFiles.length === 0 || uploading"
+      (click)="analyze()"
+    >
+      <span *ngIf="!uploading">🚀 Valider les documents</span>
+      <span *ngIf="uploading" class="spinner-text">⏳ Analyse en cours…</span>
+    </button>
+
+    <!-- Progress bar during upload -->
+    <div class="progress-bar" *ngIf="uploading">
+      <div class="progress-fill"></div>
+    </div>
+
+  </section>
+
+  <!-- ── Uploading state ───────────────────────────────────────────────── -->
+  <section class="loading-section" *ngIf="uiState === 'uploading'">
+    <div class="loading-card">
+      <div class="loading-spinner"></div>
+      <h2>Analyse en cours</h2>
+      <p>Classification · Extraction · Validation croisée</p>
+      <p class="loading-sub">Cela peut prendre 30–90 secondes selon les formats.</p>
+    </div>
+  </section>
+
+  <!-- ── Results ───────────────────────────────────────────────────────── -->
+  <section class="results-section" *ngIf="uiState === 'success' && result">
+
+    <!-- Results top bar -->
+    <div class="results-topbar">
+      <div class="results-summary">
+        <span class="summary-stat">
+          <strong>{{ result.summary.totalDocuments }}</strong> document(s)
+        </span>
+        <span class="summary-stat ok" *ngIf="result.summary.processed > 0">
+          ✓ {{ result.summary.processed }} traité(s)
+        </span>
+        <span class="summary-stat err" *ngIf="result.summary.failed > 0">
+          ✗ {{ result.summary.failed }} erreur(s)
+        </span>
+        <span class="summary-stat" *ngIf="result.processingTimeS">
+          ⏱ {{ result.processingTimeS | number:'1.1-1' }}s
+        </span>
+        <span class="summary-lc" *ngIf="result.lcReference">
+          LC: {{ result.lcReference }}
+        </span>
+      </div>
+      <div class="results-actions">
+        <button
+          *ngIf="swiftAnalysisId && result.id"
+          class="btn-lc-cross"
+          (click)="showLcCross = !showLcCross"
+        >
+          🏦 {{ showLcCross ? 'Masquer' : 'Valider vs LC' }}
+        </button>
+
+        <!-- Rapport complet PDF (MT700 + docs commerciaux + cohérence) -->
+        <button *ngIf="canGenerateFull && fullReport"
+                class="btn-report-full view"
+                (click)="openFullReport()">
+          ↓ Voir le rapport complet
+        </button>
+        <button *ngIf="canGenerateFull"
+                class="btn-report-full"
+                (click)="generateFullReport()"
+                [disabled]="reportBusy">
+          {{ reportBusy ? '…' : (fullReport ? '↻ Régénérer le rapport complet' : '📄 Générer le rapport complet') }}
+        </button>
+
+        <button class="btn-new" (click)="reset()">+ Nouvelle validation</button>
+      </div>
+      <div class="report-full-error" *ngIf="reportError">{{ reportError }}</div>
+    </div>
+
+    <!-- ── LC vs Commercial cross-validation panel ───────────────────────── -->
+    <app-lc-cross-validation
+      *ngIf="showLcCross && swiftAnalysisId && result?.id"
+      [swiftAnalysisId]="swiftAnalysisId"
+      [commercialValidationId]="result.id"
+      (closed)="showLcCross = false"
+    ></app-lc-cross-validation>
+
+    <!-- ── Cross-validation risk banner ─────────────────────────────────── -->
+    <div
+      class="risk-banner"
+      *ngIf="result.crossReport"
+      [style.background]="riskStyle(result.crossReport.riskLevel).bg + '33'"
+      [style.border-color]="riskStyle(result.crossReport.riskLevel).fg"
+    >
+      <div class="risk-left">
+        <span class="risk-icon-big">{{ riskIcon(result.crossReport.riskLevel) }}</span>
+        <div>
+          <div class="risk-level-label">Niveau de risque inter-documents</div>
+          <div class="risk-level-value" [style.color]="riskStyle(result.crossReport.riskLevel).fg">
+            {{ result.crossReport.riskLevel || '—' }}
+          </div>
+        </div>
+      </div>
+      <div class="risk-right">
+        <div class="risk-score-label">Score de cohérence</div>
+        <div class="risk-score-value" [style.color]="scoreColor(result.crossReport.finalScore)">
+          {{ scorePercent(result.crossReport.finalScore) }}
+        </div>
+        <div class="risk-score-bar-bg">
+          <div
+            class="risk-score-bar-fill"
+            [style.width.%]="scoreWidth(result.crossReport.finalScore)"
+            [style.background]="scoreColor(result.crossReport.finalScore)"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Cross-validation quick metrics ────────────────────────────── -->
+    <div class="metrics-grid" *ngIf="result.crossReport">
+      <div class="metric-card">
+        <div class="metric-value ok">
+          {{ countRulesByStatus(result.crossReport.ruleResults, 'pass') }}
+        </div>
+        <div class="metric-label">✅ Règles OK</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value warn">
+          {{ countRulesByStatus(result.crossReport.ruleResults, 'warning') }}
+        </div>
+        <div class="metric-label">⚠️ Avertissements</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value err">
+          {{ countRulesByStatus(result.crossReport.ruleResults, 'fail') }}
+        </div>
+        <div class="metric-label">❌ Échecs</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value nli-ok">
+          {{ countNliByLabel(result.crossReport.nliResults, 'ENTAILMENT') }}
+        </div>
+        <div class="metric-label">✅ NLI Entailments</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-value nli-err">
+          {{ countNliByLabel(result.crossReport.nliResults, 'CONTRADICTION') }}
+        </div>
+        <div class="metric-label">❌ Contradictions</div>
+      </div>
+    </div>
+
+    <!-- ── Score breakdown ──────────────────────────────────────────────── -->
+    <div class="breakdown-section" *ngIf="result.crossReport">
+      <div class="breakdown-col">
+        <div class="section-label">Score global</div>
+        <div class="score-gauge">
+          <div class="score-gauge-header">
+            <span style="color:#64748B">Cohérence inter-documents</span>
+            <span class="score-gauge-value" [style.color]="scoreColor(result.crossReport.finalScore)">
+              {{ scorePercent(result.crossReport.finalScore) }}
+            </span>
+          </div>
+          <div class="score-gauge-track">
+            <div
+              class="score-gauge-fill"
+              [style.width.%]="scoreWidth(result.crossReport.finalScore)"
+              [style.background]="scoreColor(result.crossReport.finalScore)"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="breakdown-col">
+        <div class="section-label">Décomposition par composante</div>
+        <div
+          class="breakdown-bar"
+          *ngFor="let entry of breakdownEntries(); trackBy: trackByKey"
+        >
+          <div class="breakdown-bar-header">
+            <span style="color:#475569;font-size:12px">
+              {{ breakdownLabel(entry[0]) }}
+              <span style="color:#64748B;font-size:10px">({{ breakdownWeight(entry[0]) }})</span>
+            </span>
+            <span [style.color]="breakdownColor(entry[0])" style="font-weight:700;font-size:12px">
+              {{ scorePercent(entry[1]) }}
+            </span>
+          </div>
+          <div class="bar-track">
+            <div
+              class="bar-fill"
+              [style.width.%]="scoreWidth(entry[1])"
+              [style.background]="breakdownColor(entry[0])"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Cross-validation tabs ─────────────────────────────────────── -->
+    <div class="cross-section" *ngIf="result.crossReport">
+      <div class="tab-bar">
+        <button class="tab-btn" [class.active]="activeCrossTab === 'rules'"
+                (click)="activeCrossTab = 'rules'">📋 Règles métier</button>
+        <button class="tab-btn" [class.active]="activeCrossTab === 'semantic'"
+                (click)="activeCrossTab = 'semantic'">🔵 Sémantique</button>
+        <button class="tab-btn" [class.active]="activeCrossTab === 'nli'"
+                (click)="activeCrossTab = 'nli'">🤖 NLI Inference</button>
+        <button class="tab-btn" [class.active]="activeCrossTab === 'tables'"
+                (click)="activeCrossTab = 'tables'">📊 Tables</button>
+        <button class="tab-btn" [class.active]="activeCrossTab === 'xai'"
+                (click)="activeCrossTab = 'xai'">💡 Explications XAI</button>
+      </div>
+
+      <!-- Rules tab -->
+      <div class="tab-content" *ngIf="activeCrossTab === 'rules'">
+        <div class="rule-filter">
+          <button
+            *ngFor="let s of ['ALL','pass','warning','fail']"
+            class="filter-chip"
+            [class.active]="statusFilter === s"
+            (click)="statusFilter = s"
+          >{{ s }}</button>
+        </div>
+        <div class="rule-count-info">
+          {{ filteredRules.length }} / {{ result.crossReport.ruleResults.length }} règle(s)
+        </div>
+        <div *ngIf="filteredRules.length === 0" class="empty-msg">
+          Aucune règle inter-documents calculée.
+        </div>
+        <div
+          class="rule-card"
+          *ngFor="let r of filteredRules; trackBy: trackByIdx"
+          [style.background]="statusBg(r.status)"
+          [style.border-left-color]="statusBorderColor(r.status)"
+        >
+          <div class="rule-card-header">
+            <span>{{ statusIcon(r.status) }}</span>
+            <code class="rule-code">{{ r.rule }}</code>
+            <code *ngIf="r.field" class="rule-field">{{ r.field }}</code>
+            <span class="sev-badge" [style]="sevStyle(r.severity)">{{ r.severity }}</span>
+            <span *ngIf="r.doc_pair" class="pair-badge">{{ r.doc_pair }}</span>
+          </div>
+          <div class="rule-msg">{{ r.message }}</div>
+          <div *ngIf="r.original" class="rule-orig">{{ r.original }}</div>
+        </div>
+      </div>
+
+      <!-- Semantic tab -->
+      <div class="tab-content" *ngIf="activeCrossTab === 'semantic'">
+        <p class="tab-caption">
+          Similarité cosine entre les représentations textuelles (MiniLM-L6-v2)
+        </p>
+        <div class="empty-msg" *ngIf="semanticEntries().length === 0">
+          Analyse sémantique non disponible.
+        </div>
+        <div
+          class="sem-bar"
+          *ngFor="let entry of semanticEntries(); trackBy: trackByKey"
+        >
+          <div class="sem-bar-header">
+            <span class="sem-label" [innerHTML]="semanticLabel(entry[0])"></span>
+            <span [style.color]="scoreColor(entry[1])" style="font-weight:700">
+              {{ scorePercent(entry[1]) }}
+            </span>
+          </div>
+          <div class="bar-track">
+            <div
+              class="bar-fill"
+              [style.width.%]="scoreWidth(entry[1])"
+              [style.background]="scoreColor(entry[1])"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NLI tab -->
+      <div class="tab-content" *ngIf="activeCrossTab === 'nli'">
+        <p class="tab-caption">
+          Inférence NLI — modèle DeBERTa v3 / fallback heuristique
+        </p>
+        <div class="empty-msg" *ngIf="result.crossReport.nliResults.length === 0">
+          Aucun résultat NLI disponible.
+        </div>
+        <div
+          class="nli-card"
+          *ngFor="let n of result.crossReport.nliResults; trackBy: trackByIdx"
+          [style.background]="nliColor(n.nli_label) + '22'"
+          [style.border-color]="nliColor(n.nli_label)"
+        >
+          <div class="nli-card-header">
+            <span class="nli-icon">{{ nliIcon(n.nli_label) }}</span>
+            <span class="nli-desc">{{ n.description }}</span>
+            <span class="nli-cat">[{{ n.category }}]</span>
+            <span class="nli-score">{{ scorePercent(n.score) }}</span>
+          </div>
+          <div class="nli-scores-row" *ngIf="n.all_scores">
+            <span
+              *ngFor="let sc of [['ENTAILMENT','#10B981'],['CONTRADICTION','#EF4444'],['NEUTRAL','#94A3B8']]"
+              [style.color]="sc[1]"
+              style="font-size:10px;margin-right:8px"
+            >
+              {{ sc[0].slice(0,3) }} {{ (n.all_scores[sc[0]] || 0) | percent:'1.0-0' }}
+            </span>
+          </div>
+          <div class="nli-pair-grid">
+            <div class="nli-premise">
+              <div class="nli-pair-label">PREMISE</div>
+              <div class="nli-pair-text">{{ n.premise }}</div>
+            </div>
+            <div class="nli-hypothesis">
+              <div class="nli-pair-label">HYPOTHESIS</div>
+              <div class="nli-pair-text">{{ n.hypothesis }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tables tab -->
+      <div class="tab-content" *ngIf="activeCrossTab === 'tables'">
+        <div class="empty-msg" *ngIf="result.crossReport.tableMatches.length === 0">
+          Aucun alignement de tables calculé.
+        </div>
+        <div *ngFor="let match of result.crossReport.tableMatches; trackBy: trackByIdx">
+          <div class="table-match-title">{{ match.doc_pair }}</div>
+
+          <!-- Invoice ↔ PL -->
+          <ng-container *ngIf="match.invoice_rows != null">
+            <div class="table-match-metrics">
+              <div class="tm-metric"><span class="tm-val">{{ match.invoice_rows }}</span>Lignes Invoice</div>
+              <div class="tm-metric"><span class="tm-val">{{ match.pl_rows }}</span>Lignes PL</div>
+              <div class="tm-metric"><span class="tm-val ok">{{ match.matched_rows }}</span>Matchées</div>
+            </div>
+            <div class="score-gauge">
+              <div class="score-gauge-header">
+                <span>Taux d'alignement</span>
+                <span [style.color]="scoreColor(match.match_rate)">{{ scorePercent(match.match_rate) }}</span>
+              </div>
+              <div class="score-gauge-track">
+                <div class="score-gauge-fill"
+                     [style.width.%]="scoreWidth(match.match_rate)"
+                     [style.background]="scoreColor(match.match_rate)"></div>
+              </div>
+            </div>
+          </ng-container>
+
+          <!-- BL ↔ PL -->
+          <ng-container *ngIf="match.bl_containers != null">
+            <div class="container-lists">
+              <div><strong>BL :</strong> {{ match.bl_containers?.join(', ') || '—' }}</div>
+              <div><strong>PL :</strong> {{ match.pl_containers?.join(', ') || '—' }}</div>
+            </div>
+            <div *ngIf="match.common_containers?.length" class="containers-ok">
+              ✅ Communs : {{ match.common_containers?.join(', ') }}
+            </div>
+            <div *ngIf="!match.common_containers?.length" class="containers-err">
+              ❌ Aucun conteneur en commun BL ↔ PL
+            </div>
+            <div class="score-gauge">
+              <div class="score-gauge-header">
+                <span>Alignement conteneurs</span>
+                <span [style.color]="scoreColor(match.alignment_rate)">{{ scorePercent(match.alignment_rate) }}</span>
+              </div>
+              <div class="score-gauge-track">
+                <div class="score-gauge-fill"
+                     [style.width.%]="scoreWidth(match.alignment_rate)"
+                     [style.background]="scoreColor(match.alignment_rate)"></div>
+              </div>
+            </div>
+          </ng-container>
+
+          <hr class="divider-thin" />
+        </div>
+      </div>
+
+      <!-- XAI tab -->
+      <div class="tab-content" *ngIf="activeCrossTab === 'xai'">
+        <div class="empty-msg" *ngIf="result.crossReport.explanations.length === 0">
+          Aucune explication XAI générée.
+        </div>
+        <ng-container *ngFor="let group of [
+          {key:'negative',  label:'❌ Problèmes détectés'},
+          {key:'warning',   label:'⚠️ Avertissements'},
+          {key:'positive',  label:'✅ Points de cohérence'},
+          {key:'neutral',   label:'ℹ️ Informations'}
+        ]">
+          <ng-container *ngIf="filterExplanationsByImpact(result.crossReport!.explanations, group.key) as grp">
+            <div *ngIf="grp.length > 0" class="xai-group-title">
+              {{ group.label }} ({{ grp.length }})
+            </div>
+            <div
+              class="xai-card"
+              *ngFor="let e of grp; trackBy: trackByIdx"
+              [style.border-left-color]="impactBorder(e.impact)"
+            >
+              <div class="xai-header">
+                <span>{{ impactIcon(e.impact) }}</span>
+                <span class="xai-type-badge">{{ e.type }}</span>
+                <span class="sev-badge" [style]="sevStyle(e.severity)">{{ e.severity }}</span>
+                <span *ngIf="e.category" class="xai-cat">{{ e.category }}</span>
+              </div>
+              <div class="xai-msg">{{ e.message }}</div>
+            </div>
+          </ng-container>
+        </ng-container>
+      </div>
+    </div>
+
+    <!-- ── Per-document results ──────────────────────────────────────── -->
+    <div class="docs-section">
+      <div class="section-label">Résultats par document</div>
+
+      <!-- Document tabs -->
+      <div class="doc-tab-bar">
+        <button
+          class="doc-tab-btn"
+          *ngFor="let doc of result.documents; let i = index; trackBy: trackByIdx"
+          [class.active]="activeDocIdx === i"
+          [class.error]="doc.status === 'error'"
+          (click)="activeDocIdx = i; activeDocTab = 'fields'; updateTableEntries()"
+        >
+          <span>{{ doc.status === 'success' ? '✓' : '✗' }}</span>
+          <span>{{ doc.sourceFilename }}</span>
+        </button>
+      </div>
+
+      <!-- Active document detail -->
+      <div class="doc-detail" *ngIf="activeDoc">
+
+        <!-- Error state -->
+        <div class="err-banner" *ngIf="activeDoc.status === 'error'">
+          ✗ Erreur : {{ activeDoc.error || 'Traitement impossible' }}
+        </div>
+
+        <!-- Success state -->
+        <ng-container *ngIf="activeDoc.status === 'success'">
+          <!-- Header -->
+          <div class="doc-header">
+            <div class="doc-badges">
+              <span class="badge" [class]="'badge-' + activeDoc.docType">
+                {{ docLabel(activeDoc.docType) }}
+              </span>
+              <span class="badge badge-input">{{ inputLabel(activeDoc.inputType) }}</span>
+              <span class="badge" [class]="activeDoc.confident ? 'badge-ok' : 'badge-warn'">
+                {{ activeDoc.confident ? 'Fiable' : 'Vérifier' }}
+              </span>
+            </div>
+            <div class="doc-conf">
+              <span style="color:#64748B;font-size:12px">Confiance &nbsp;</span>
+              <span [style.color]="confColor(activeDoc.confidence)" style="font-size:20px;font-weight:800">
+                {{ scorePercent(activeDoc.confidence) }}
+              </span>
+            </div>
+            <div class="doc-meta">
+              Pages : <strong>{{ activeDoc.nPages }}</strong> &nbsp;|&nbsp;
+              Champs : <strong>{{ activeDoc.nFields }}</strong> &nbsp;|&nbsp;
+              Durée : <strong>{{ activeDoc.processingTimeS | number:'1.1-1' }}s</strong>
+            </div>
+          </div>
+
+          <!-- Warnings -->
+          <div class="warn-banner" *ngFor="let w of activeDoc.warnings">⚠ {{ w }}</div>
+
+          <!-- Doc tabs -->
+          <div class="doc-inner-tabs">
+            <button class="inner-tab" [class.active]="activeDocTab === 'fields'"
+                    (click)="activeDocTab = 'fields'">
+              Champs ({{ activeDoc.nFields }})
+            </button>
+            <button class="inner-tab" [class.active]="activeDocTab === 'tables'"
+                    (click)="activeDocTab = 'tables'">
+              Tables
+            </button>
+            <button class="inner-tab" [class.active]="activeDocTab === 'rules'"
+                    (click)="activeDocTab = 'rules'">
+              Règles ({{ activeDoc.ruleSummary?.fail || 0 }} fail)
+            </button>
+          </div>
+
+          <!-- Fields tab -->
+          <div class="fields-tab" *ngIf="activeDocTab === 'fields'">
+            <div class="empty-msg" *ngIf="fieldEntries.length === 0">Aucun champ extrait.</div>
+            <table class="fields-table" *ngIf="fieldEntries.length > 0">
+              <tbody>
+                <tr *ngFor="let entry of fieldEntries; trackBy: trackByKey">
+                  <td class="field-name">{{ entry[0] }}</td>
+                  <td class="field-value">{{ entry[1] }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Tables tab -->
+          <div class="tables-tab" *ngIf="activeDocTab === 'tables'">
+            <div class="empty-msg" *ngIf="tableEntries.length === 0">Aucune table structurée.</div>
+            <div *ngFor="let tEntry of tableEntries; trackBy: trackByKey" class="named-table">
+              <div class="named-table-title">
+                {{ tEntry[0] }} ({{ tEntry[1].length }} ligne{{ tEntry[1].length > 1 ? 's' : '' }})
+              </div>
+              <div class="table-scroll">
+                <table class="data-table">
+                  <thead>
+                    <tr>
+                      <th *ngFor="let col of tableColumns(tEntry[1])">{{ col }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let row of tEntry[1]; trackBy: trackByIdx">
+                      <td *ngFor="let col of tableColumns(tEntry[1])">
+                        {{ tableRowValue(row, col) }}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- Rules tab -->
+          <div class="rules-tab" *ngIf="activeDocTab === 'rules'">
+            <div class="empty-msg" *ngIf="filteredDocRules.length === 0">
+              Aucune règle de validation.
+            </div>
+            <div
+              class="rule-card"
+              *ngFor="let r of filteredDocRules; trackBy: trackByIdx"
+              [style.background]="statusBg(r.status)"
+              [style.border-left-color]="statusBorderColor(r.status)"
+            >
+              <div class="rule-card-header">
+                <span>{{ statusIcon(r.status) }}</span>
+                <code class="rule-code">{{ r.rule }}</code>
+                <code *ngIf="r.field" class="rule-field">{{ r.field }}</code>
+                <span class="sev-badge" [style]="sevStyle(r.severity)">{{ r.severity }}</span>
+              </div>
+              <div class="rule-msg">{{ r.message }}</div>
+            </div>
+          </div>
+
+        </ng-container>
+      </div>
+    </div>
+
+  </section>
+
+</div>

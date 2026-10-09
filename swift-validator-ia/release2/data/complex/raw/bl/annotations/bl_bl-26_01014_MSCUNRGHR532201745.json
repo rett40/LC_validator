@@ -1,0 +1,409 @@
+{
+  "id": 1014,
+  "filename": "bl_bl-26_01014_MSCUNRGHR532201745.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNRGHR532201745",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNRGHR532201745",
+    "shipper_name": "GLOBAL INDUSTRIES PLC",
+    "shipper_address": "464 MARKET STREET",
+    "consignee_name": "DELTA GROUP AG",
+    "consignee_address": "252 COMMERCE BOULEVARD",
+    "notify_party_name": "GLOBAL LOGISTICS AG",
+    "notify_party_address": "718 MARKET STREET",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL6324",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "31 MAY 2026",
+    "eta": "19 JUN 2026",
+    "container_number": "MAEU0661739",
+    "container_type": "40'FR",
+    "seal_number": "AH7280CD",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "329 PALLETS",
+    "gross_weight_kg": "28,373.03",
+    "measurement": "99.239 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU0661739",
+        "seal_number": "AH7280CD",
+        "container_type": "40'FR",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "329",
+          "type": "PALLETS",
+          "description": "329 PALLETS"
+        },
+        "gross_weight_kg": "6,326.29",
+        "net_weight_kg": "2,946.65",
+        "measurement": "37.062 CBM"
+      },
+      {
+        "container_number": "HLCU1693718",
+        "seal_number": "6B5DF4DC",
+        "container_type": "20' TANK",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "220",
+          "type": "BAGS",
+          "description": "220 BAGS"
+        },
+        "gross_weight_kg": "22,046.74",
+        "net_weight_kg": "19,598.69",
+        "measurement": "62.177 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNRGHR532201745",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        79.47,
+        75.12,
+        86.36,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        234.43,
+        75.12,
+        61.79,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        367.66,
+        75.12,
+        58.96,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        478.21,
+        75.12,
+        78.8,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        141.81,
+        103.46,
+        24.01,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "GLOBAL INDUSTRIES PLC\n464 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA GROUP AG\n252 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "GLOBAL LOGISTICS AG\n718 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        75.23,
+        256.54,
+        90.59,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        192.87,
+        256.54,
+        103.35,
+        34.02
+      ],
+      "value": "AL6324",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        359.15,
+        256.54,
+        67.47,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        495.69,
+        256.54,
+        61.32,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        67.67,
+        290.55,
+        98.16,
+        34.02
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        242.93,
+        290.55,
+        53.29,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.62,
+        290.55,
+        49.99,
+        34.02
+      ],
+      "value": "31 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        449.87,
+        290.55,
+        107.14,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "MAEU0661739",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "AH7280CD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '329', 'type': 'PALLETS', 'description': '329 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "6,326.29",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "37.062 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU1693718",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "6B5DF4DC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '220', 'type': 'BAGS', 'description': '220 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "22,046.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "62.177 CBM",
+      "page": 1
+    }
+  ]
+}

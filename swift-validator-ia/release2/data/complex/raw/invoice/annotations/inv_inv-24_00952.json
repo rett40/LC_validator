@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00952",
+  "filename": "inv_inv-24_00952.pdf",
+  "layout_id": "INV-24",
+  "bl_id": 952,
+  "fields": {
+    "invoice_number": "INV-2026-00952",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/DBS/0952/2026",
+    "bl_reference": "MSCUNADYB135439486",
+    "seller_name": "UNITED GROUP BV",
+    "buyer_name": "CENTRAL COMMERCE CORP",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE280N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "HOUSEHOLD APPLIANCES",
+    "hs_code": "8516.60",
+    "quantity": 480,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "15,484.36",
+    "unit_price": 112.02,
+    "currency": "USD",
+    "total_amount": 53769.66,
+    "incoterm": "FCA",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00952",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        134.65,
+        176.88,
+        42.52
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        134.65,
+        66.33,
+        42.52
+      ],
+      "value": "8516.60",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        134.65,
+        55.28,
+        42.52
+      ],
+      "value": "480",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        134.65,
+        55.28,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        134.65,
+        99.5,
+        42.52
+      ],
+      "value": "112.02 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        134.65,
+        99.5,
+        42.52
+      ],
+      "value": "53769.66 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        191.34,
+        124.37,
+        19.84
+      ],
+      "value": "15,484.36 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        211.18,
+        124.37,
+        19.84
+      ],
+      "value": "53769.66 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        254.83,
+        272.38,
+        11.48
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        254.83,
+        272.38,
+        11.48
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        277.8,
+        276.38,
+        79.37
+      ],
+      "value": "UNITED GROUP BV\nUNITED GROUP BV\n324 HARBOR ROAD\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        277.8,
+        276.38,
+        79.37
+      ],
+      "value": "CENTRAL COMMERCE CORP\nCENTRAL COMMERCE CORP\n389 INDUSTRIAL AVENUE\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        389.76,
+        272.38,
+        12.76
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        389.76,
+        272.38,
+        12.76
+      ],
+      "value": "LC/DBS/0952/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        418.11,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNADYB135439486",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        418.11,
+        272.38,
+        12.76
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        446.46,
+        272.38,
+        12.76
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        446.46,
+        272.38,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "60393.60 USD",
+      "actual": "53769.66 USD"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "SINGAPORE"
+    }
+  ]
+}

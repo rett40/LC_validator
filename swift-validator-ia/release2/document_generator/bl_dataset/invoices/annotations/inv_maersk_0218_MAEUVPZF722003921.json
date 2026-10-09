@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00218",
+  "filename": "inv_maersk_0218_MAEUVPZF722003921.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 218,
+  "fields": {
+    "invoice_number": "INV-2026-00218",
+    "invoice_date": "11 APR 2026",
+    "lc_reference": "LC/DBS/0218/2026",
+    "bl_reference": "MAEUVPZF722003921",
+    "seller_name": "DELTA SHIPPING INC",
+    "buyer_name": "APEX PARTNERS GMBH",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS745N",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "FOOTWEAR OF ALL TYPES",
+    "hs_code": "6404.11",
+    "quantity": 230,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "16,331.01",
+    "unit_price": 41.26,
+    "currency": "GBP",
+    "total_amount": 9489.8,
+    "incoterm": "FOB",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00218",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "MAEUVPZF722003921",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "DELTA SHIPPING INC\n136 MAIN BOULEVARD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "APEX PARTNERS GMBH\n426 HARBOR ROAD\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "CS745N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUVPZF722003921",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "230",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "GBP 41.26",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "GBP 9,489.80",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "GBP 9,489.80",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "GBP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "GUANGZHOU, CHINA",
+      "actual": "HAMBURG, GERMANY"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": 399,
+  "filename": "bl_bl-10_00399_MSCUNMEXM233160904.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNMEXM233160904",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMEXM233160904",
+    "shipper_name": "CENTRAL PARTNERS CORP",
+    "shipper_address": "609 TRADE PARK",
+    "consignee_name": "EURO INDUSTRIES PLC",
+    "consignee_address": "82 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC GROUP AG",
+    "notify_party_address": "562 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE49S",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "22 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "HLCU9284743",
+    "container_type": "40'OT",
+    "seal_number": "D08C68H8",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "400 PACKAGES",
+    "gross_weight_kg": "23,073.54",
+    "measurement": "25.493 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU9284743",
+        "seal_number": "D08C68H8",
+        "container_type": "40'OT",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "400",
+          "type": "PACKAGES",
+          "description": "400 PACKAGES"
+        },
+        "gross_weight_kg": "23,073.54",
+        "net_weight_kg": "20,482.18",
+        "measurement": "25.493 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNMEXM233160904",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "HLCU9284743",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "D08C68H8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "400",
+        "type": "PACKAGES",
+        "description": "400 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "23,073.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "25.493 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL PARTNERS CORP\n609 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "EURO INDUSTRIES PLC\n82 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "ATLANTIC GROUP AG\n562 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        103.68,
+        365.1,
+        196.08,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        325.33,
+        365.1,
+        238.76,
+        34.02
+      ],
+      "value": "AE49S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        94.78,
+        399.12,
+        204.99,
+        34.02
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        323.55,
+        399.12,
+        240.55,
+        34.02
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        65.89,
+        433.13,
+        233.87,
+        34.02
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        374.24,
+        433.13,
+        189.86,
+        34.02
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        128.11,
+        467.15,
+        171.65,
+        34.02
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        467.15,
+        186.75,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        107.22,
+        509.67,
+        192.55,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        373.77,
+        509.67,
+        190.32,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        538.02,
+        204.54,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        364.45,
+        538.02,
+        199.64,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

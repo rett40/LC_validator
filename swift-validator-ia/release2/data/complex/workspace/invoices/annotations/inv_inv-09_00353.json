@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00353",
+  "filename": "inv_inv-09_00353.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 353,
+  "fields": {
+    "invoice_number": "INV-2026-00353",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DB/0353/2026",
+    "bl_reference": "MSCUNVVXJ274429525",
+    "seller_name": "PACIFIC ENTERPRISES AG",
+    "buyer_name": "UNITED SOLUTIONS LTD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE946S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 127,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "12,988.76",
+    "unit_price": 3.39,
+    "currency": "USD",
+    "total_amount": 430.64,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "INV-2026-00353",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "LC/DB/0353/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNVVXJ274429525",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "PACIFIC ENTERPRISES AG\nPACIFIC ENTERPRISES AG\n334 COMMERCE STREET\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "UNITED SOLUTIONS LTD\nUNITED SOLUTIONS LTD\n533 HARBOR ROAD\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        294.8,
+        174.61,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        294.8,
+        65.48,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "127",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "3.39 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "430.64 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        351.5,
+        122.78,
+        19.84
+      ],
+      "value": "12,988.76 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        371.34,
+        122.78,
+        19.84
+      ],
+      "value": "430.64 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "482.60 USD",
+      "actual": "430.64 USD"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    }
+  ]
+}

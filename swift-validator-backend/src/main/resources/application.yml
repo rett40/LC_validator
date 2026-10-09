@@ -1,0 +1,75 @@
+server:
+  port: 8080
+
+spring:
+  # Dev local : importe le .env racine (mêmes valeurs que docker-compose) comme
+  # source de propriétés. 'optional:' → pas d'erreur si absent (cas Docker, où
+  # les variables sont injectées par compose et restent prioritaires sur ce fichier).
+  # '../.env' = cwd backend (mvn spring-boot:run) ; '.env' = cwd racine du repo.
+  config:
+    import:
+      - "optional:file:../.env[.properties]"
+      - "optional:file:.env[.properties]"
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/swift_validator_database}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:kachkha40}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        default_schema: public
+
+  liquibase:
+    enabled: ${LIQUIBASE_ENABLED:true}
+    change-log: classpath:/db/changelog/db.changelog-master.xml
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size: 55MB
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    default-property-inclusion: non_null
+
+minio:
+  enabled: ${MINIO_ENABLED:false}
+  endpoint: ${MINIO_ENDPOINT:http://localhost:9000}
+  # Endpoint public (navigateur) pour signer les URLs de téléchargement PDF
+  public-endpoint: ${MINIO_PUBLIC_ENDPOINT:http://localhost:9000}
+  access-key: ${MINIO_ACCESS_KEY:minioadmin}
+  secret-key: ${MINIO_SECRET_KEY:minioadmin}
+  bucket-name: ${MINIO_BUCKET_NAME:swift-documents}
+  bucket-reports: ${MINIO_BUCKET_REPORTS:swift-reports}
+
+pipeline:
+  base-url: ${PYTHON_PIPELINE_URL:http://localhost:5000}
+  timeout-seconds: ${PIPELINE_TIMEOUT_SECONDS:600}
+
+jwt:
+  secret: ${JWT_SECRET:change-me-to-a-32-byte-minimum-secret-key}
+  expiration-ms: ${JWT_EXPIRATION_MS:86400000}
+  cookie-name: ${JWT_COOKIE_NAME:swift_auth}
+  cookie-secure: ${JWT_COOKIE_SECURE:false}
+  cookie-same-site: ${JWT_COOKIE_SAME_SITE:Lax}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+cors:
+  allowed-origins:
+    - ${FRONTEND_ORIGIN:http://localhost:4200}
+    - ${FRONTEND_ORIGIN_ALT:http://127.0.0.1:4200}

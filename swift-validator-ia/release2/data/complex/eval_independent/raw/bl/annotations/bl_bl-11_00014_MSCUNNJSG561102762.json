@@ -1,0 +1,353 @@
+{
+  "id": 14,
+  "filename": "bl_bl-11_00014_MSCUNNJSG561102762.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNNJSG561102762",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNNJSG561102762",
+    "shipper": {
+      "name": "APEX TRADING LTD",
+      "address": "364 MARKET STREET",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "APEX TRADING LTD\n364 MARKET STREET\nANTWERP, BELGIUM 2000"
+    },
+    "consignee": {
+      "name": "CENTRAL COMMERCE LLC",
+      "address": "442 COMMERCE BOULEVARD",
+      "city": "LOS ANGELES",
+      "country": "USA",
+      "zip": "CA 90001",
+      "full": "CENTRAL COMMERCE LLC\n442 COMMERCE BOULEVARD\nLOS ANGELES, USA CA 90001"
+    },
+    "notify_party": {
+      "name": "UNITED LOGISTICS PLC",
+      "address": "849 HARBOR ROAD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "UNITED LOGISTICS PLC\n849 HARBOR ROAD\nANTWERP, BELGIUM 2000"
+    },
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL2126",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "22 JUN 2026",
+    "eta": "11 JUL 2026",
+    "issue_date": "19 MAY 2026",
+    "issue_place": "HAMBURG",
+    "container_number": "MSCU6834868",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "ABH1FF10",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": {
+      "count": "22",
+      "type": "BOXES",
+      "description": "22 BOXES"
+    },
+    "gross_weight_kg": "11,699.87",
+    "net_weight_kg": "8,300.73",
+    "gross_weight_lbs": "25,793.77",
+    "measurement": "48.130 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU6834868",
+        "seal_number": "ABH1FF10",
+        "container_type": "20' OPEN TOP",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "22",
+          "type": "BOXES",
+          "description": "22 BOXES"
+        },
+        "gross_weight_kg": "11,699.87",
+        "net_weight_kg": "8,300.73",
+        "measurement": "48.130 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "AS ARRANGED",
+    "incoterm": "DAP",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS",
+    "marks_numbers": "MSCU6834868\nABH1FF10\nLOS ANGELES"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNNJSG561102762",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "AL2126",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "11 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "APEX TRADING LTD\n364 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL COMMERCE LLC\n442 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED LOGISTICS PLC\n849 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU6834868",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "ABH1FF10",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '22', 'type': 'BOXES', 'description': '22 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "11,699.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "48.130 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "19 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00264",
+  "filename": "inv_inv-07_00264.pdf",
+  "layout_id": "INV-07",
+  "bl_id": 264,
+  "fields": {
+    "invoice_number": "INV-2026-00264",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/HSBC/0264/2026",
+    "bl_reference": "MSCUNJYKL633114047",
+    "seller_name": "INTERNATIONAL PARTNERS S.A.",
+    "buyer_name": "INTERNATIONAL COMMERCE AG",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0202E",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 277,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "38,406.66",
+    "unit_price": 14.0,
+    "currency": "GBP",
+    "total_amount": 3878.0,
+    "incoterm": "FCA",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "INV-2026-00264",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        52.44
+      ],
+      "value": "INTERNATIONAL PARTNERS S.A.\nINTERNATIONAL PARTNERS S.A.\n989 HARBOR ROAD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        41.1,
+        191.34,
+        522.99,
+        52.44
+      ],
+      "value": "INTERNATIONAL COMMERCE AG\nINTERNATIONAL COMMERCE AG\n109 INDUSTRIAL AVENUE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        171.85,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "LC/HSBC/0264/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        302.6,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "MSCUNJYKL633114047",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        433.35,
+        269.29,
+        130.75,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        297.64,
+        130.75,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        171.85,
+        297.64,
+        130.75,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        331.65,
+        303.34,
+        56.69
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        344.44,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": "3926.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        454.27,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": 277,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        344.44,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        454.27,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "14.0 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        328.75,
+        394.02,
+        235.35,
+        25.51
+      ],
+      "value": "3878.0 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        446.42,
+        433.7,
+        117.67,
+        19.84
+      ],
+      "value": "38,406.66 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        446.42,
+        453.54,
+        117.67,
+        19.84
+      ],
+      "value": "3878.0 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        215.43,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

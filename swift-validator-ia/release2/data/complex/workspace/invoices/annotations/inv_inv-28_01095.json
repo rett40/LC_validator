@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-01095",
+  "filename": "inv_inv-28_01095.pdf",
+  "layout_id": "INV-28",
+  "bl_id": 1095,
+  "fields": {
+    "invoice_number": "INV-2026-01095",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/HSBC/1095/2026",
+    "bl_reference": "MSCUNREJL480916400",
+    "seller_name": "ATLANTIC SOLUTIONS CORP",
+    "buyer_name": "INTERNATIONAL SOLUTIONS S.A.",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0846W",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "FOOTWEAR OF ALL TYPES",
+    "hs_code": "6404.11",
+    "quantity": 390,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "26,920.75",
+    "unit_price": 14.33,
+    "currency": "EUR",
+    "total_amount": 5588.7,
+    "incoterm": "DDP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        70.02,
+        217.13,
+        27.78
+      ],
+      "value": "INV-2026-01095",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        202.2,
+        116.22,
+        180.94,
+        15.59
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        144.57,
+        542.83,
+        52.44
+      ],
+      "value": "ATLANTIC SOLUTIONS CORP\nATLANTIC SOLUTIONS CORP\n723 MAIN BOULEVARD\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        197.01,
+        542.83,
+        52.44
+      ],
+      "value": "INTERNATIONAL SOLUTIONS S.A.\nINTERNATIONAL SOLUTIONS S.A.\n295 EXPORT ZONE\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        263.62,
+        122.14,
+        19.84
+      ],
+      "value": "26,920.75 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        283.46,
+        122.14,
+        19.84
+      ],
+      "value": "5588.7 EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        318.9,
+        314.84,
+        56.69
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        336.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": "6404.11",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        450.1,
+        328.82,
+        114.0,
+        18.43
+      ],
+      "value": 390,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        336.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        450.1,
+        357.17,
+        114.0,
+        18.43
+      ],
+      "value": "14.33 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        381.26,
+        244.28,
+        25.51
+      ],
+      "value": "5588.7 EUR",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        21.26,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        156.97,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "LC/HSBC/1095/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "MSCUNREJL480916400",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        428.39,
+        432.28,
+        135.71,
+        18.43
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        21.26,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        156.97,
+        460.63,
+        135.71,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "NEW YORK, USA"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

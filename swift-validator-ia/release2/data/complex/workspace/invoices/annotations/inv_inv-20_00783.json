@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00783",
+  "filename": "inv_inv-20_00783.pdf",
+  "layout_id": "INV-20",
+  "bl_id": 783,
+  "fields": {
+    "invoice_number": "INV-2026-00783",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DB/0783/2026",
+    "bl_reference": "MSCUNDVAG372555774",
+    "seller_name": "ATLANTIC LOGISTICS LLC",
+    "buyer_name": "PREMIER SOLUTIONS LTD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE189N",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "PRECISION OPTICAL INSTRUMENTS",
+    "hs_code": "9013.80",
+    "quantity": 477,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "46,558.99",
+    "unit_price": 391.13,
+    "currency": "USD",
+    "total_amount": 186569.01,
+    "incoterm": "FOB",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00783",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        60.94,
+        332.16,
+        79.37
+      ],
+      "value": "ATLANTIC LOGISTICS LLC\nATLANTIC LOGISTICS LLC\n108 TRADE PARK\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        60.94,
+        203.58,
+        79.37
+      ],
+      "value": "PREMIER SOLUTIONS LTD\nPREMIER SOLUTIONS LTD\n646 INDUSTRIAL AVENUE\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "LC/DB/0783/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNDVAG372555774",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "PRECISION OPTICAL INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "9013.80",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "477",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "391.13 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "186569.01 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "46,558.99 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "186569.01 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "actual": "PRECISION OPTICAL INSTRUMENTS"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "BUSAN, SOUTH KOREA",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

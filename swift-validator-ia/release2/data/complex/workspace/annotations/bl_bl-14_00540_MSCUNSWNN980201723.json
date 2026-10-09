@@ -1,0 +1,318 @@
+{
+  "id": 540,
+  "filename": "bl_bl-14_00540_MSCUNSWNN980201723.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNSWNN980201723",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNSWNN980201723",
+    "shipper_name": "APEX INDUSTRIES LLC",
+    "shipper_address": "249 TRADE PARK",
+    "consignee_name": "FIRST SHIPPING INC",
+    "consignee_address": "874 PORT ACCESS ROAD",
+    "notify_party_name": "TRANS SUPPLY CHAIN S.A.",
+    "notify_party_address": "736 INDUSTRIAL AVENUE",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS853S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CFS",
+    "etd": "29 MAY 2026",
+    "eta": "01 JUL 2026",
+    "container_number": "EISU4074726",
+    "container_type": "40' DRY",
+    "seal_number": "H16BD436",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "230 CARTONS",
+    "gross_weight_kg": "17,106.89",
+    "measurement": "57.250 CBM",
+    "containers": [
+      {
+        "container_number": "EISU4074726",
+        "seal_number": "H16BD436",
+        "container_type": "40' DRY",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "230",
+          "type": "CARTONS",
+          "description": "230 CARTONS"
+        },
+        "gross_weight_kg": "17,106.89",
+        "net_weight_kg": "14,939.55",
+        "measurement": "57.250 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNSWNN980201723",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "EISU4074726",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "H16BD436",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '230', 'type': 'CARTONS', 'description': '230 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "17,106.89",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "57.250 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "CS853S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "PIRAEUS CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "29 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "01 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        307.56,
+        298.51,
+        94.96
+      ],
+      "value": "APEX INDUSTRIES LLC\n249 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        306.14,
+        215.06,
+        41.1
+      ],
+      "value": "FIRST SHIPPING INC\n874 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        361.42,
+        215.06,
+        41.1
+      ],
+      "value": "TRANS SUPPLY CHAIN S.A.\n736 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

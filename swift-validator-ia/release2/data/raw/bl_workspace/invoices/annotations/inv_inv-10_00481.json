@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00481",
+  "filename": "inv_inv-10_00481.pdf",
+  "layout_id": "INV-10",
+  "bl_id": 481,
+  "fields": {
+    "invoice_number": "INV-2026-00481",
+    "invoice_date": "29 APR 2026",
+    "lc_reference": "LC/BNP/0481/2026",
+    "bl_reference": "MSCUNMVDY290418818",
+    "seller_name": "EURO LOGISTICS INC",
+    "buyer_name": "PREMIER SUPPLY CHAIN LTD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE182S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "FURNITURE AND PARTS THEREOF",
+    "hs_code": "9403.20",
+    "quantity": 416,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "10,116.79",
+    "unit_price": 79.87,
+    "currency": "GBP",
+    "total_amount": 33225.92,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00481",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        131.81,
+        172.35,
+        42.52
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        131.81,
+        64.63,
+        42.52
+      ],
+      "value": "9403.20",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "416",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "79.87 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "33225.92 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        182.83,
+        269.29,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        182.83,
+        269.29,
+        28.35
+      ],
+      "value": "LC/BNP/0481/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        211.18,
+        269.29,
+        28.35
+      ],
+      "value": "MSCUNMVDY290418818",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        211.18,
+        269.29,
+        28.35
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        239.53,
+        269.29,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        297.64,
+        239.53,
+        269.29,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        276.38,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        276.38,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        364.25,
+        121.18,
+        19.84
+      ],
+      "value": "10,116.79 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        384.09,
+        121.18,
+        19.84
+      ],
+      "value": "33225.92 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        25.51
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

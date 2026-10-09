@@ -1,0 +1,466 @@
+<div class="rb-root" *ngIf="hasData; else noBreakdown">
+
+  <!-- ══ HERO ══════════════════════════════════════════════════════════════════ -->
+  <div class="rb-hero">
+    <div class="rb-hero-scores">
+
+      <!-- Score unique XGBoost + LIME -->
+      <div class="rb-score-card final">
+        <div class="rb-score-chip" [class]="'chip-' + finalTone">
+          Score XGBoost
+          <span class="rb-chip-info"
+            title="P(LOW)×0 + P(MED)×40 + P(HIGH)×80. Expliqué feature par feature par LIME (onglet Explication).">ⓘ</span>
+        </div>
+        <div class="rb-score-num" [class]="finalTone">{{ finalScore }}</div>
+        <div class="rb-score-sub">/80</div>
+        <div class="rb-score-bar">
+          <div class="rb-score-bar-fill" [class]="finalTone" [style.width.%]="(finalScore / 80) * 100"></div>
+        </div>
+        <span class="rb-label-badge" [class]="finalTone">{{ finalLabel }}</span>
+        <span class="rb-lime-hint" *ngIf="hasLimeWaterfall">
+          base {{ limeScoreBase | number:'1.0-1' }} + {{ limeWaterfallItems.length }} features
+        </span>
+      </div>
+
+      <div class="rb-hero-sep"></div>
+
+      <!-- Probabilités -->
+      <div class="rb-proba-block" *ngIf="riskMl?.risk_proba">
+        <div class="rb-proba-title">Probabilités ML</div>
+        <div class="rb-proba-row" *ngFor="let row of probaRows">
+          <span class="rb-proba-lbl" [class]="row.cls">{{ row.label }}</span>
+          <div class="rb-proba-bar-wrap">
+            <div class="rb-proba-bar-fill" [class]="row.cls" [style.width.%]="getProba(row.key) * 100"></div>
+          </div>
+          <span class="rb-proba-val">{{ getProba(row.key) | percent:'1.0-1' }}</span>
+        </div>
+        <div class="rb-calib-tag" *ngIf="isCalibrated" [title]="calibrationReason">
+          ⚖ Score calibré
+        </div>
+      </div>
+
+      <!-- Segment / meta -->
+      <div class="rb-hero-meta" *ngIf="riskMl?.segment">
+        <div class="rb-meta-item">
+          <span class="rb-meta-label">Segment</span>
+          <span class="rb-meta-val segment">{{ riskMl?.segment }}</span>
+        </div>
+        <div class="rb-meta-item" *ngIf="riskMl?.model_version">
+          <span class="rb-meta-label">Modèle</span>
+          <span class="rb-meta-val">v{{ riskMl?.model_version }}</span>
+        </div>
+        <div class="rb-meta-item" *ngIf="riskMl?.is_anomaly !== undefined">
+          <span class="rb-meta-label">Anomalie</span>
+          <span class="rb-meta-val" [class]="riskMl?.is_anomaly ? 'red' : 'green'">
+            {{ riskMl?.is_anomaly ? 'Oui' : 'Non' }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Dimension chips strip -->
+    <div class="rb-hero-dims">
+      <div class="rb-dim-chip" *ngFor="let card of dimCards" [class]="'dc-' + card.tone"
+           [title]="card.label + ' — Score ' + card.score + '/100 · Poids ' + card.weight + '%'">
+        <span class="rb-dc-icon">{{ card.icon }}</span>
+        <span class="rb-dc-score" [class]="card.tone">{{ card.score }}</span>
+        <span class="rb-dc-label">{{ card.label }}</span>
+        <div class="rb-dc-bar">
+          <div class="rb-dc-fill" [class]="card.tone" [style.width.%]="card.score"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ TABS ═══════════════════════════════════════════════════════════════════ -->
+  <nav class="rb-tabs">
+    <button class="rb-tab" [class.active]="activeTab === 'overview'" (click)="activeTab = 'overview'">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="8" cy="8" r="6"/><circle cx="8" cy="8" r="2.5" fill="currentColor" stroke="none"/>
+      </svg>
+      Vue d'ensemble
+    </button>
+    <button class="rb-tab" [class.active]="activeTab === 'explanation'" (click)="activeTab = 'explanation'">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M2 4h12M2 8h8M2 12h5"/><path d="M12 9l2 2-2 2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Explication IA
+      <span class="rb-tab-badge purple" *ngIf="hasShap">SHAP</span>
+    </button>
+    <button class="rb-tab" [class.active]="activeTab === 'compliance'" (click)="activeTab = 'compliance'">
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M8 2L2.5 4.5v4C2.5 11.5 5 14 8 15c3-1 5.5-3.5 5.5-6.5v-4L8 2z"/>
+      </svg>
+      Conformité
+      <span class="rb-tab-badge red" *ngIf="blockViolations.length">{{ blockViolations.length }}</span>
+      <span class="rb-tab-badge orange" *ngIf="!blockViolations.length && (highViolations.length || missingCritical.length)">
+        {{ highViolations.length + missingCritical.length }}
+      </span>
+    </button>
+  </nav>
+
+  <!-- ══ ONGLET 1 — VUE D'ENSEMBLE ═════════════════════════════════════════════ -->
+  <div class="rb-tab-panel" *ngIf="activeTab === 'overview'">
+    <div class="rb-overview-grid">
+
+      <!-- Radar -->
+      <div class="rb-card rb-radar-card" *ngIf="radarData">
+        <div class="rb-card-title">
+          <span class="rb-card-icon">◈</span> Radar des risques
+        </div>
+        <p-chart type="radar" [data]="radarData" [options]="radarOpts" height="280"></p-chart>
+      </div>
+
+      <!-- Dimension cards -->
+      <div class="rb-card rb-dims-card">
+        <div class="rb-card-title">
+          <span class="rb-card-icon">▦</span> Décomposition par dimension
+        </div>
+        <div class="rb-dim-list">
+          <div class="rb-dim-row" *ngFor="let card of dimCards" [class]="'dr-' + card.tone">
+            <div class="rb-dr-left">
+              <span class="rb-dr-icon">{{ card.icon }}</span>
+              <div class="rb-dr-info">
+                <div class="rb-dr-name">{{ card.label }}</div>
+                <div class="rb-dr-extras">
+                  <span class="rb-dr-extra" *ngFor="let ex of card.extras.slice(0, 2)">
+                    <span class="rb-ex-lbl">{{ ex.label }}</span>
+                    <strong [class]="'ex-' + (ex.tone ?? '')">{{ ex.value }}</strong>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="rb-dr-right">
+              <div class="rb-dr-score-row">
+                <span class="rb-dr-score" [class]="card.tone">{{ card.score }}</span>
+                <span class="rb-dr-max">/100</span>
+                <span class="rb-dr-weight">{{ card.weight }}%</span>
+              </div>
+              <div class="rb-dr-bar">
+                <div class="rb-dr-fill" [class]="card.tone" [style.width.%]="card.score"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ ONGLET 2 — EXPLICATION IA ════════════════════════════════════════════ -->
+  <div class="rb-tab-panel" *ngIf="activeTab === 'explanation'">
+
+    <!-- 2A — LIME Score Waterfall (aligné sur le score XGBoost) -->
+    <ng-container *ngIf="hasLimeWaterfall">
+      <div class="rb-card rb-exp-card lime-accent">
+        <div class="rb-card-title">
+          <span class="rb-card-icon">≋</span> LIME Score Waterfall
+          <span class="rb-method-tag lime">SHAP·probabilité · additif · aligné modèle</span>
+        </div>
+        <p class="rb-exp-desc">
+          Décomposition du score XGBoost (<strong [class]="finalTone">{{ finalScore }}/80</strong>)
+          en contributions de features. Propriété : base (<strong>{{ limeScoreBase | number:'1.0-1' }}</strong>)
+          + Σ contributions = score.
+          Les barres rouges augmentent le score, les vertes le réduisent.
+        </p>
+
+        <div class="rb-lime-chart">
+          <p-chart type="bar" [data]="limeChartData" [options]="limeChartOpts" height="300"></p-chart>
+        </div>
+
+        <div class="rb-lime-table">
+          <div class="rb-lt-row header">
+            <span>Feature</span>
+            <span>Valeur</span>
+            <span>Contrib. (pts)</span>
+            <span>SHAP</span>
+            <span>Impact</span>
+          </div>
+          <div class="rb-lt-row" *ngFor="let item of limeWaterfallItems"
+               [class]="item.direction === 'up' ? 't-high' : 't-low'">
+            <span class="rb-lt-dim">
+              <span class="rb-lt-swatch" [style.background]="item.color"></span>
+              {{ item.label }}
+            </span>
+            <span class="mono muted">{{ formatFeatureValue(item.feature, item.value) }}</span>
+            <span class="mono fw6" [class]="item.direction === 'up' ? 'red' : 'green'">
+              {{ item.score_contribution > 0 ? '+' : '' }}{{ item.score_contribution | number:'1.1-2' }}
+            </span>
+            <span class="mono muted">{{ item.shap_value | number:'1.3-4' }}</span>
+            <div class="rb-lt-bar">
+              <div class="rb-lt-fill" [style.background]="item.color"
+                   [style.width.%]="finalScore > 0 ? abs(item.score_contribution / finalScore * 100) : 0"></div>
+            </div>
+          </div>
+          <div class="rb-lt-row total">
+            <span class="rb-lt-dim fw6">Score total</span>
+            <span class="mono muted">—</span>
+            <span class="mono fw6" [class]="finalTone">{{ finalScore }}/80</span>
+            <span class="mono muted">—</span>
+            <div class="rb-lt-bar"><div class="rb-lt-fill" [class]="'bg-' + finalTone" style="width:100%"></div></div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+
+    <!-- 2B — SHAP ML -->
+    <ng-container *ngIf="hasShap">
+      <div class="rb-card rb-exp-card shap-accent">
+
+        <!-- Header -->
+        <div class="rb-card-title">
+          <span class="rb-card-icon">⊛</span> Analyse SHAP — Modèle ML XGBoost
+          <span class="rb-method-tag shap">TreeExplainer · v4.0</span>
+          <span class="rb-calib-tag" *ngIf="isCalibrated" [title]="calibrationReason">⚖ calibré</span>
+        </div>
+
+        <!-- Info band -->
+        <div class="rb-shap-infoband">
+          <div class="rb-shap-pred">
+            <span class="rb-shap-pred-lbl">Prédiction ML</span>
+            <span class="rb-shap-pred-val" [class]="riskColor(riskMl?.risk_label)">{{ riskMl?.risk_label || '—' }}</span>
+            <span class="rb-shap-proba-line" *ngIf="riskMl?.risk_proba">
+              LOW&nbsp;{{ getProba('LOW') | percent:'1.0-1' }} ·
+              MED&nbsp;{{ getProba('MEDIUM') | percent:'1.0-1' }} ·
+              HIGH&nbsp;{{ getProba('HIGH') | percent:'1.0-1' }}
+            </span>
+          </div>
+          <div class="rb-shap-legend">
+            <span class="rb-shap-leg red"><span class="rb-shap-dot"></span>Augmente le risque</span>
+            <span class="rb-shap-leg green"><span class="rb-shap-dot"></span>Réduit le risque</span>
+            <span class="rb-shap-leg orange"><span class="rb-shap-dot"></span>Discordant</span>
+          </div>
+        </div>
+
+        <!-- Chart -->
+        <div class="rb-shap-chart" *ngIf="shapChartData">
+          <p-chart type="bar" [data]="shapChartData" [options]="shapChartOpts" height="300"></p-chart>
+        </div>
+
+        <!-- Waterfall table -->
+        <div class="rb-shap-table">
+          <div class="rb-st-hdr">
+            <span>Feature</span>
+            <span class="rb-st-val-col">Valeur</span>
+            <span class="rb-st-bar-col">Impact SHAP</span>
+            <span class="rb-st-num-col">SHAP</span>
+            <span class="rb-st-dir-col">Sens métier</span>
+          </div>
+
+          <div class="rb-st-row" *ngFor="let item of shapTableItems" [class]="'srow-' + item.colorClass">
+            <!-- Feature -->
+            <div class="rb-st-feat">
+              <span class="rb-st-disc"
+                    *ngIf="item.isDiscordant"
+                    [class.minor]="!item.isSignificant"
+                    title="Discordance : valeur conforme mais ML interprète comme risque (SHAP={{item.absShap.toFixed(4)}})">⚠</span>
+              <span class="rb-st-fname">{{ item.featureLabel }}</span>
+            </div>
+
+            <!-- Valeur réelle -->
+            <span class="rb-st-val mono">{{ item.value }}</span>
+
+            <!-- Barre SHAP -->
+            <div class="rb-st-bar">
+              <div class="rb-st-bar-fill" [class]="'bf-' + item.colorClass" [style.width.%]="item.barPct"></div>
+            </div>
+
+            <!-- Valeur SHAP -->
+            <span class="rb-st-num mono" [class]="item.colorClass">
+              {{ item.shapValue >= 0 ? '+' : '' }}{{ item.shapValue.toFixed(4) }}
+            </span>
+
+            <!-- Direction métier -->
+            <span class="rb-st-dir-badge" [class]="'bd-' + item.businessDirection">
+              {{ bdLabel(item.businessDirection) }}
+            </span>
+          </div>
+        </div>
+
+        <!-- Discordance banner — uniquement si discordances significatives (SHAP ≥ seuil) -->
+        <div class="rb-disc-banner" *ngIf="discordantItems.length > 0">
+          <div class="rb-disc-icon">⚠</div>
+          <div class="rb-disc-body">
+            <strong>
+              {{ discordantItems.length }} discordance{{ discordantItems.length > 1 ? 's' : '' }} significative{{ discordantItems.length > 1 ? 's' : '' }} détectée{{ discordantItems.length > 1 ? 's' : '' }}
+              <span class="rb-disc-minor" *ngIf="nDiscordant > discordantItems.length">
+                (+ {{ nDiscordant - discordantItems.length }} mineure{{ nDiscordant - discordantItems.length > 1 ? 's' : '' }} ignorée{{ nDiscordant - discordantItems.length > 1 ? 's' : '' }})
+              </span>
+            </strong>
+            <p>
+              Le modèle ML sur-pondère des features dont la valeur est dans la plage conforme.
+              Il s'agit de corrélations spurieuses issues des données d'entraînement (SHAP ≥ {{ DISC_THRESHOLD }}).
+              La couche analytique métier prévaut sur ces cas.
+            </p>
+            <div class="rb-disc-chips">
+              <span class="rb-disc-chip" *ngFor="let d of discordantDisplayItems">
+                <span>{{ d.featureLabel }}</span>
+                <code>{{ d.value }}</code>
+                <span class="rb-disc-shap">{{ d.shapValue.toFixed(3) }}</span>
+              </span>
+              <span class="rb-disc-more" *ngIf="discordantMoreCount > 0">
+                +{{ discordantMoreCount }} autre{{ discordantMoreCount > 1 ? 's' : '' }}
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </ng-container>
+
+    <!-- Empty explanation -->
+    <div class="rb-empty-state" *ngIf="!hasLimeWaterfall && !hasShap">
+      <span class="rb-empty-icon">⟨/⟩</span>
+      <span>Données d'explication non disponibles dans ce payload.</span>
+    </div>
+
+  </div>
+
+  <!-- ══ ONGLET 3 — CONFORMITÉ ══════════════════════════════════════════════════ -->
+  <div class="rb-tab-panel" *ngIf="activeTab === 'compliance'">
+
+    <!-- Règles UCP -->
+    <div class="rb-card">
+      <div class="rb-card-title"><span class="rb-card-icon">⚖</span> Règles réglementaires UCP 600</div>
+
+      <!-- Conforme -->
+      <div class="rb-clean-banner"
+           *ngIf="!ruleContributions.length && !blockViolations.length && !highViolations.length">
+        <span class="rb-clean-check">✓</span>
+        <div>
+          <strong>Document conforme — aucune règle déclenchée</strong>
+          <p>Toutes les règles UCP 600 (BLOCK · HIGH · WARN) ont été vérifiées sans violation.</p>
+        </div>
+      </div>
+
+      <!-- BLOCK -->
+      <div *ngIf="blockViolations.length" class="rb-viol-group">
+        <div class="rb-viol-head block">
+          <span class="rb-sev-tag red">BLOCK</span>
+          {{ blockViolations.length }} violation{{ blockViolations.length > 1 ? 's' : '' }} bloquante{{ blockViolations.length > 1 ? 's' : '' }}
+          <span class="rb-viol-note">→ label forcé HIGH · score = 100</span>
+        </div>
+        <div class="rb-viol-card block" *ngFor="let v of blockViolations">
+          <div class="rb-viol-meta">
+            <strong class="rb-viol-art">{{ v.article }}</strong>
+            <span class="rb-viol-field">Champ {{ v.field }}</span>
+          </div>
+          <p class="rb-viol-desc">{{ v.description }}</p>
+        </div>
+      </div>
+
+      <!-- HIGH -->
+      <div *ngIf="highViolations.length" class="rb-viol-group">
+        <div class="rb-viol-head high">
+          <span class="rb-sev-tag orange">HIGH</span>
+          {{ highViolations.length }} violation{{ highViolations.length > 1 ? 's' : '' }} haute sévérité
+          <span class="rb-viol-note">impact +30 sur score</span>
+        </div>
+        <div class="rb-viol-card high" *ngFor="let v of highViolations">
+          <div class="rb-viol-meta">
+            <strong class="rb-viol-art">{{ v.article }}</strong>
+            <span class="rb-viol-field">Champ {{ v.field }}</span>
+          </div>
+          <p class="rb-viol-desc">{{ v.description }}</p>
+        </div>
+      </div>
+
+      <!-- WARN -->
+      <details *ngIf="warnViolations.length" class="rb-viol-details">
+        <summary>
+          <span class="rb-sev-tag soft">WARN</span>
+          {{ warnViolations.length }} avertissement{{ warnViolations.length > 1 ? 's' : '' }}
+        </summary>
+        <div class="rb-viol-card warn" *ngFor="let v of warnViolations">
+          <div class="rb-viol-meta">
+            <strong class="rb-viol-art">{{ v.article }}</strong>
+            <span class="rb-viol-field">{{ v.field }}</span>
+          </div>
+          <p class="rb-viol-desc">{{ v.description }}</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- UCP KPIs -->
+    <div class="rb-card" *ngIf="hasUcpDetail">
+      <div class="rb-card-title"><span class="rb-card-icon">◉</span> Métriques UCP 600</div>
+      <div class="rb-kpi-grid">
+        <div class="rb-kpi" [class]="(ucpDetail!.errors_count ?? 0) > 0 ? 'kpi-red' : 'kpi-green'">
+          <div class="rb-kpi-num">{{ ucpDetail!.errors_count ?? 0 }}</div>
+          <div class="rb-kpi-lbl">Erreurs<small>×1.0</small></div>
+        </div>
+        <div class="rb-kpi" [class]="(ucpDetail!.warnings_count ?? 0) > 2 ? 'kpi-orange' : 'kpi-green'">
+          <div class="rb-kpi-num">{{ ucpDetail!.warnings_count ?? 0 }}</div>
+          <div class="rb-kpi-lbl">Avert.<small>×0.4</small></div>
+        </div>
+        <div class="rb-kpi kpi-blue">
+          <div class="rb-kpi-num">{{ ucpWeightedIndex }}</div>
+          <div class="rb-kpi-lbl">Index pondéré</div>
+        </div>
+        <div class="rb-kpi" [class]="ucpDetail!.payment_blocked ? 'kpi-red' : 'kpi-green'">
+          <div class="rb-kpi-num sm">{{ ucpDetail!.payment_blocked ? 'BLOQUÉ' : 'OK' }}</div>
+          <div class="rb-kpi-lbl">Paiement</div>
+        </div>
+        <div class="rb-kpi kpi-neutral">
+          <div class="rb-kpi-num">{{ ucpDetail!.compliance_score_pct ?? 0 | number:'1.0-1' }}%</div>
+          <div class="rb-kpi-lbl">Score UCP</div>
+        </div>
+        <div class="rb-kpi" [class]="'kpi-' + riskColor(ucpDetail!.ucp_decision ?? '')">
+          <div class="rb-kpi-num sm">{{ ucpDetail!.ucp_decision ?? '—' }}</div>
+          <div class="rb-kpi-lbl">Décision</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Champs manquants -->
+    <div class="rb-card" *ngIf="hasMissing">
+      <div class="rb-card-title">
+        <span class="rb-card-icon">⚠</span> Champs MT700 manquants
+        <span class="rb-tab-badge red" *ngIf="missingCritical.length">{{ missingCritical.length }} critiques</span>
+        <span class="rb-tab-badge orange" *ngIf="missingHigh.length">{{ missingHigh.length }} importants</span>
+      </div>
+
+      <div class="rb-missing-group" *ngIf="missingCritical.length">
+        <div class="rb-missing-head critical">CRITIQUES — absence invalide le LC juridiquement</div>
+        <div class="rb-missing-grid">
+          <div class="rb-missing-card critical" *ngFor="let m of missingCritical">
+            <span class="rb-mf-id">{{ m.field }}</span>
+            <span class="rb-mf-name">{{ m.name }}</span>
+            <span class="rb-mf-impact red">−{{ m.impact_score }}pts</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="rb-missing-group" *ngIf="missingHigh.length">
+        <div class="rb-missing-head high">IMPORTANTS — génèrent des discrepancies</div>
+        <div class="rb-missing-grid">
+          <div class="rb-missing-card high" *ngFor="let m of missingHigh">
+            <span class="rb-mf-id">{{ m.field }}</span>
+            <span class="rb-mf-name">{{ m.name }}</span>
+            <span class="rb-mf-impact orange">−{{ m.impact_score }}pts</span>
+          </div>
+        </div>
+      </div>
+
+      <details *ngIf="missingOptional.length" class="rb-opt-details">
+        <summary>Optionnels manquants ({{ missingOptional.length }})</summary>
+        <div class="rb-missing-grid" style="margin-top:8px">
+          <div class="rb-missing-card optional" *ngFor="let m of missingOptional">
+            <span class="rb-mf-id">{{ m.field }}</span>
+            <span class="rb-mf-name">{{ m.name }}</span>
+          </div>
+        </div>
+      </details>
+    </div>
+
+  </div>
+
+</div>
+
+<ng-template #noBreakdown>
+  <div class="rb-empty-root">
+    <div class="rb-empty-root-icon">◈</div>
+    <div class="rb-empty-root-text">Analyse avancée non disponible</div>
+    <div class="rb-empty-root-sub">score_breakdown absent du payload ML</div>
+  </div>
+</ng-template>

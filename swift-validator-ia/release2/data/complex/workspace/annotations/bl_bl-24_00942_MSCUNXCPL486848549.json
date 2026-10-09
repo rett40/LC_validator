@@ -1,0 +1,351 @@
+{
+  "id": 942,
+  "filename": "bl_bl-24_00942_MSCUNXCPL486848549.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNXCPL486848549",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNXCPL486848549",
+    "shipper_name": "ATLANTIC LOGISTICS LLC",
+    "shipper_address": "192 TRADE PARK",
+    "consignee_name": "PREMIER COMMERCE S.A.",
+    "consignee_address": "124 TRADE PARK",
+    "notify_party_name": "FIRST SUPPLY CHAIN PLC",
+    "notify_party_address": "899 TRADE PARK",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0556E",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "22 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "EISU5459525",
+    "container_type": "20' DRY",
+    "seal_number": "FC0DGB84",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "81 PALLETS",
+    "gross_weight_kg": "13,388.97",
+    "measurement": "44.287 CBM",
+    "containers": [
+      {
+        "container_number": "EISU5459525",
+        "seal_number": "FC0DGB84",
+        "container_type": "20' DRY",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "81",
+          "type": "PALLETS",
+          "description": "81 PALLETS"
+        },
+        "gross_weight_kg": "13,388.97",
+        "net_weight_kg": "9,732.99",
+        "measurement": "44.287 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNXCPL486848549",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        132.03,
+        106.3,
+        73.48,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        295.02,
+        106.3,
+        94.74,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        440.53,
+        106.3,
+        133.49,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        52.02,
+        134.65,
+        153.49,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        279.2,
+        134.65,
+        110.57,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "EISU5459525",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "FC0DGB84",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '81', 'type': 'PALLETS', 'description': '81 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "13,388.97",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "44.287 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        80.36,
+        229.61,
+        125.15,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        229.61,
+        229.61,
+        160.16,
+        34.02
+      ],
+      "value": "0556E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        440.93,
+        229.61,
+        133.08,
+        34.02
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        113.27,
+        263.62,
+        92.24,
+        34.02
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        234.19,
+        263.62,
+        155.57,
+        34.02
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        459.71,
+        263.62,
+        114.31,
+        34.02
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        79.11,
+        297.64,
+        126.4,
+        34.02
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        262.53,
+        297.64,
+        127.23,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "192 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC LOGISTICS LLC\n192 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "124 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "PREMIER COMMERCE S.A.\n124 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        360.0,
+        184.25,
+        70.87
+      ],
+      "value": "899 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        340.16,
+        184.25,
+        90.71
+      ],
+      "value": "FIRST SUPPLY CHAIN PLC\n899 TRADE PARK",
+      "page": 1
+    }
+  ]
+}

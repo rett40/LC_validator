@@ -1,0 +1,116 @@
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content">
+      <p-tag value="Solution bancaire — Crédits documentaires" severity="warn" class="hero-badge" />
+      <h1 class="hero-title">
+        Crédit documentaire & documents commerciaux<br>
+        <span class="gradient-text">Validés et cohérents</span>
+      </h1>
+      <p class="hero-subtitle">
+        Validez vos crédits documentaires MT700 selon les règles UCP 600,
+        puis contrôlez la cohérence des documents commerciaux (facture, connaissement, colisage)
+        et leur concordance avec le crédit — sur une seule plateforme.
+      </p>
+      <div class="hero-actions">
+        <a routerLink="/login" pButton label="Commencer l'analyse" icon="pi pi-play" class="p-button-lg hero-cta"></a>
+        <a routerLink="/services" pButton label="Découvrir les services" icon="pi pi-arrow-right"
+           class="p-button-lg p-button-outlined p-button-secondary hero-cta-secondary"></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-card">
+        <div class="vc-header">
+          <span class="vc-dot red"></span>
+          <span class="vc-dot yellow"></span>
+          <span class="vc-dot green"></span>
+          <span class="vc-title">Analyse MT700 · CDI20250001831</span>
+        </div>
+        <div class="vc-body">
+          <div class="vc-row accepted"><i class="pi pi-check-circle"></i> Décision : <strong>ACCEPTÉ</strong></div>
+          <div class="vc-metric"><span>Conformité UCP 600</span><span class="vc-val green">88 / 100</span></div>
+          <div class="vc-metric"><span>Cohérence documents</span><span class="vc-val green">94 / 100</span></div>
+          <div class="vc-metric"><span>Concordance crédit</span><span class="vc-val green">✓ Conforme</span></div>
+          <div class="vc-metric"><span>Contrôle géographique</span><span class="vc-val green">✓ FR → TN</span></div>
+          <div class="vc-metric"><span>Documents recoupés</span><span class="vc-val blue">3 / 3</span></div>
+          <div class="vc-bar-label">Répartition du score</div>
+          <div class="vc-bars">
+            <div class="vc-bar" style="--w:88%;--c:#22c55e">Crédit</div>
+            <div class="vc-bar" style="--w:94%;--c:#3b82f6">Documents</div>
+            <div class="vc-bar" style="--w:96%;--c:#c9a227">Concordance</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-band">
+  <div class="stats-inner">
+    @for (s of stats; track s.label) {
+      <div class="stat-item">
+        <span class="stat-value">{{ s.value }}</span>
+        <span class="stat-label">{{ s.label }}</span>
+      </div>
+    }
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <h2>Fonctionnalités clés</h2>
+      <p>Une chaîne d'analyse complète, du message SWIFT brut à la décision finale documentée.</p>
+    </div>
+    <div class="features-grid">
+      @for (f of features; track f.title) {
+        <div class="feature-card">
+          <div class="fc-icon"><i class="pi {{ f.icon }}"></i></div>
+          <h3>{{ f.title }}</h3>
+          <p>{{ f.desc }}</p>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section">
+  <div class="section-inner">
+    <div class="section-header light">
+      <h2>Comment ça fonctionne ?</h2>
+      <p>Trois étapes pour une analyse complète et fiable.</p>
+    </div>
+    <div class="steps-row">
+      <div class="step">
+        <div class="step-num">01</div>
+        <h3>Dépôt des documents</h3>
+        <p>Importez le crédit documentaire MT700 et les documents commerciaux (facture, connaissement, colisage). Les champs sont extraits automatiquement.</p>
+      </div>
+      <div class="step-arrow"><i class="pi pi-arrow-right"></i></div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <h3>Double validation</h3>
+        <p>Conformité réglementaire du crédit (UCP 600), puis cohérence des documents commerciaux entre eux et leur concordance avec le crédit.</p>
+      </div>
+      <div class="step-arrow"><i class="pi pi-arrow-right"></i></div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <h3>Décision & rapport</h3>
+        <p>Décision documentée (Accepté / À vérifier / Rejeté) avec score, axes de contrôle et rapport PDF téléchargeable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <h2>Prêt à analyser vos crédits documentaires ?</h2>
+    <p>Accédez à la plateforme et lancez votre première analyse en moins de 30 secondes.</p>
+    <a routerLink="/login" pButton label="Accéder à la plateforme" icon="pi pi-arrow-right" iconPos="right"
+       class="p-button-lg"></a>
+  </div>
+</section>

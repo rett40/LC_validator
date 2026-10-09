@@ -1,0 +1,236 @@
+{
+  "pl_number": "PL-2026-00166",
+  "filename": "pl_maersk_0166_MAEUTRWA436193410.pdf",
+  "style": "StandardPLRenderer",
+  "bl_id": 166,
+  "fields": {
+    "pl_number": "PL-2026-00166",
+    "pl_date": "16 APR 2026",
+    "inv_reference": "INV-2026-00166",
+    "bl_reference": "MAEUTRWA436193410",
+    "exporter_name": "PREMIER SOLUTIONS BV",
+    "consignee_name": "APEX PARTNERS PLC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-304",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "container_number": "OOLU2658703",
+    "container_type": "20' TANK",
+    "seal_number": "E0AC3DC2",
+    "goods_description": "CERAMIC TILES AND SANITARY WARE",
+    "package_unit": "BOXES",
+    "total_packages": 187,
+    "net_weight_kg": "7,019.02",
+    "gross_weight_kg": "8,703.95",
+    "total_cbm": 48.492
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "PL-2026-00166",
+      "page": 1
+    },
+    {
+      "field": "inv_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "INV-2026-00166",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "PREMIER SOLUTIONS BV\n772 EXPORT ZONE\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "APEX PARTNERS PLC\n239 EXPORT ZONE\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "E-304",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "OOLU2658703",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "E0AC3DC2",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUTRWA436193410",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        290.55,
+        136.06,
+        48.19
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        290.55,
+        56.69,
+        48.19
+      ],
+      "value": "187",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "7,019.02",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "8,703.95",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        290.55,
+        73.7,
+        48.19
+      ],
+      "value": "48.492",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        344.41,
+        242.36,
+        62.36
+      ],
+      "value": "8,703.95",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        389.76,
+        121.18,
+        17.01
+      ],
+      "value": "187",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "9,845.24",
+      "actual": "8,703.95"
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "id": 240,
+  "filename": "bl_bl-06_00240_MSCUNVRJM295299848.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNVRJM295299848",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNVRJM295299848",
+    "shipper_name": "UNITED SHIPPING GMBH",
+    "shipper_address": "799 HARBOR ROAD",
+    "consignee_name": "UNITED PARTNERS INC",
+    "consignee_address": "567 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC COMMERCE S.A.",
+    "notify_party_address": "524 PORT ACCESS ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE623N",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CFS",
+    "etd": "21 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "HLCU7044683",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "9DG06H55",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "242 PALLETS",
+    "gross_weight_kg": "54,386.97",
+    "measurement": "135.869 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7044683",
+        "seal_number": "9DG06H55",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "242",
+          "type": "PALLETS",
+          "description": "242 PALLETS"
+        },
+        "gross_weight_kg": "20,211.12",
+        "net_weight_kg": "16,996.17",
+        "measurement": "63.142 CBM"
+      },
+      {
+        "container_number": "EISU4936563",
+        "seal_number": "14FAG1D9",
+        "container_type": "20' REEFER",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "333",
+          "type": "PALLETS",
+          "description": "333 PALLETS"
+        },
+        "gross_weight_kg": "7,303.45",
+        "net_weight_kg": "4,644.91",
+        "measurement": "23.067 CBM"
+      },
+      {
+        "container_number": "CMAU9978157",
+        "seal_number": "C3H81BA3",
+        "container_type": "20'OT",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "369",
+          "type": "PALLETS",
+          "description": "369 PALLETS"
+        },
+        "gross_weight_kg": "26,872.40",
+        "net_weight_kg": "23,569.60",
+        "measurement": "49.660 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNVRJM295299848",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "799 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED SHIPPING GMBH\n799 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "567 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED PARTNERS INC\n567 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "524 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "ATLANTIC COMMERCE S.A.\n524 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        61.43,
+        219.69,
+        153.53,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        255.36,
+        219.69,
+        139.13,
+        34.02
+      ],
+      "value": "FE623N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        449.29,
+        219.69,
+        124.73,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        61.43,
+        253.7,
+        153.53,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        298.56,
+        253.7,
+        95.93,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        473.29,
+        253.7,
+        100.73,
+        34.02
+      ],
+      "value": "VALENCIA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.23,
+        287.72,
+        100.73,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        240.96,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7044683",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "9DG06H55",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '242', 'type': 'PALLETS', 'description': '242 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "20,211.12",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "63.142 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4936563",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "14FAG1D9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '333', 'type': 'PALLETS', 'description': '333 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "7,303.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "23.067 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        419.53,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9978157",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "C3H81BA3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        419.53,
+        43.09,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        419.53,
+        134.65,
+        36.85
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        419.53,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '369', 'type': 'PALLETS', 'description': '369 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "26,872.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        419.53,
+        80.79,
+        36.85
+      ],
+      "value": "49.660 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        128.63,
+        464.88,
+        86.33,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        288.96,
+        464.88,
+        105.53,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        425.29,
+        464.88,
+        148.73,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        90.23,
+        493.23,
+        124.73,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        274.56,
+        493.23,
+        119.93,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

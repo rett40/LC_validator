@@ -1,0 +1,500 @@
+{
+  "id": 436,
+  "filename": "bl_bl-09_00436_MSCUNZRHY071055670.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNZRHY071055670",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNZRHY071055670",
+    "shipper_name": "EURO COMMERCE AG",
+    "shipper_address": "877 HARBOR ROAD",
+    "consignee_name": "PREMIER TRADING PLC",
+    "consignee_address": "486 MARKET STREET",
+    "notify_party_name": "TRANS TRADING CORP",
+    "notify_party_address": "925 COMMERCE BOULEVARD",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE80W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "08 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "OOLU5974131",
+    "container_type": "40' HIGH CUBE REEFER",
+    "seal_number": "9BB1D2EA",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "192 PACKAGES",
+    "gross_weight_kg": "49,725.02",
+    "measurement": "139.632 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU5974131",
+        "seal_number": "9BB1D2EA",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "192",
+          "type": "PACKAGES",
+          "description": "192 PACKAGES"
+        },
+        "gross_weight_kg": "19,702.88",
+        "net_weight_kg": "16,498.45",
+        "measurement": "56.821 CBM"
+      },
+      {
+        "container_number": "MSCU4928387",
+        "seal_number": "H7B5E8C9",
+        "container_type": "20' REEFER",
+        "commodity": "BUILDING MATERIALS",
+        "packages": {
+          "count": "229",
+          "type": "DRUMS",
+          "description": "229 DRUMS"
+        },
+        "gross_weight_kg": "12,795.90",
+        "net_weight_kg": "10,263.28",
+        "measurement": "21.006 CBM"
+      },
+      {
+        "container_number": "MSCU2470000",
+        "seal_number": "H15A8093",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "494",
+          "type": "BOXES",
+          "description": "494 BOXES"
+        },
+        "gross_weight_kg": "17,226.24",
+        "net_weight_kg": "13,309.97",
+        "measurement": "61.805 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "22 APR 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNZRHY071055670",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "EURO COMMERCE AG\n877 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER TRADING PLC\n486 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS TRADING CORP\n925 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "AE80W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        354.33,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU5974131",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "9BB1D2EA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        354.33,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        354.33,
+        134.65,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '192', 'type': 'PACKAGES', 'description': '192 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "19,702.88",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "56.821 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        391.18,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU4928387",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "H7B5E8C9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        391.18,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        391.18,
+        134.65,
+        36.85
+      ],
+      "value": "BUILDING MATERIALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '229', 'type': 'DRUMS', 'description': '229 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "12,795.90",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "21.006 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        428.03,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU2470000",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "H15A8093",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        428.03,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        428.03,
+        134.65,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '494', 'type': 'BOXES', 'description': '494 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "17,226.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "61.805 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

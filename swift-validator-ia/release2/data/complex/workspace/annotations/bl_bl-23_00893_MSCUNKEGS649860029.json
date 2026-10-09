@@ -1,0 +1,409 @@
+{
+  "id": 893,
+  "filename": "bl_bl-23_00893_MSCUNKEGS649860029.pdf",
+  "layout_id": "BL-23",
+  "bl_number": "MSCUNKEGS649860029",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNKEGS649860029",
+    "shipper_name": "PREMIER SHIPPING LLC",
+    "shipper_address": "820 COMMERCE BOULEVARD",
+    "consignee_name": "CENTRAL GROUP AG",
+    "consignee_address": "305 MAIN STREET",
+    "notify_party_name": "DELTA SOLUTIONS LTD",
+    "notify_party_address": "412 COMMERCE BOULEVARD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE277N",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CY",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "02 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "MSCU9458535",
+    "container_type": "40'FR",
+    "seal_number": "GC4E2F58",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "491 BOXES",
+    "gross_weight_kg": "38,662.18",
+    "measurement": "115.951 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU9458535",
+        "seal_number": "GC4E2F58",
+        "container_type": "40'FR",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "491",
+          "type": "BOXES",
+          "description": "491 BOXES"
+        },
+        "gross_weight_kg": "17,805.31",
+        "net_weight_kg": "13,967.32",
+        "measurement": "50.336 CBM"
+      },
+      {
+        "container_number": "EISU6735535",
+        "seal_number": "2DE0B446",
+        "container_type": "40'DC",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "91",
+          "type": "BAGS",
+          "description": "91 BAGS"
+        },
+        "gross_weight_kg": "20,856.87",
+        "net_weight_kg": "18,674.27",
+        "measurement": "65.615 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        299.06,
+        83.62,
+        257.95,
+        11.34
+      ],
+      "value": "MSCUNKEGS649860029",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        170.08,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.06,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        428.03,
+        117.64,
+        128.98,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        145.98,
+        128.98,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        170.08,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "FE277N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.06,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        428.03,
+        187.09,
+        128.98,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "GUANGZHOU CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        170.08,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.06,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        428.03,
+        221.1,
+        128.98,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        43.1,
+        276.38,
+        295.23,
+        94.96
+      ],
+      "value": "PREMIER SHIPPING LLC\n820 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        342.33,
+        274.96,
+        212.68,
+        41.1
+      ],
+      "value": "CENTRAL GROUP AG\n305 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        342.33,
+        330.24,
+        212.68,
+        41.1
+      ],
+      "value": "DELTA SOLUTIONS LTD\n412 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        402.52,
+        87.7,
+        36.85
+      ],
+      "value": "MSCU9458535",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "GC4E2F58",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        402.52,
+        41.27,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        402.52,
+        128.98,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        402.52,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'BOXES', 'description': '491 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "17,805.31",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        402.52,
+        77.39,
+        36.85
+      ],
+      "value": "50.336 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        439.37,
+        87.7,
+        36.85
+      ],
+      "value": "EISU6735535",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        128.81,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "2DE0B446",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.4,
+        439.37,
+        41.27,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        221.67,
+        439.37,
+        128.98,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        350.65,
+        439.37,
+        51.59,
+        36.85
+      ],
+      "value": "{'count': '91', 'type': 'BAGS', 'description': '91 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        402.24,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "20,856.87",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        479.62,
+        439.37,
+        77.39,
+        36.85
+      ],
+      "value": "65.615 CBM",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00765",
+  "filename": "inv_inv-20_00765.pdf",
+  "layout_id": "INV-20",
+  "bl_id": 765,
+  "fields": {
+    "invoice_number": "INV-2026-00765",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/HSBC/0765/2026",
+    "bl_reference": "MSCUNUDBD120929078",
+    "seller_name": "PREMIER COMMERCE CO.",
+    "buyer_name": "CENTRAL SOLUTIONS CORP",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0384W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "MECHANICAL APPARATUS AND MACHINERY",
+    "hs_code": "8428.90",
+    "quantity": 51,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "32,623.02",
+    "unit_price": 137.58,
+    "currency": "USD",
+    "total_amount": 7016.53,
+    "incoterm": "DDP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00765",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        60.94,
+        332.16,
+        79.37
+      ],
+      "value": "PREMIER COMMERCE CO.\nPREMIER COMMERCE CO.\n600 INDUSTRIAL AVENUE\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        60.94,
+        203.58,
+        79.37
+      ],
+      "value": "CENTRAL SOLUTIONS CORP\nCENTRAL SOLUTIONS CORP\n788 MAIN BOULEVARD\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        165.83,
+        263.87,
+        12.76
+      ],
+      "value": "LC/HSBC/0765/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNUDBD120929078",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        194.17,
+        263.87,
+        12.76
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        222.52,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "MECHANICAL APPARATUS AND MACHINERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "51",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "137.58 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "7016.53 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "32,623.02 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "7016.53 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "actual": "MECHANICAL APPARATUS AND MACHINERY"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "6585.63 USD",
+      "actual": "7016.53 USD"
+    }
+  ]
+}

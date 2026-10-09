@@ -1,0 +1,512 @@
+{
+  "id": 733,
+  "filename": "bl_bl-19_00733_MSCUNNLAX114230675.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNNLAX114230675",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNLAX114230675",
+    "shipper_name": "ATLANTIC GROUP GMBH",
+    "shipper_address": "359 HARBOR ROAD",
+    "consignee_name": "TRANS SUPPLY CHAIN CORP",
+    "consignee_address": "967 TRADE PARK",
+    "notify_party_name": "FIRST COMMERCE LTD",
+    "notify_party_address": "754 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-753",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "10 JUN 2026",
+    "eta": "05 JUL 2026",
+    "container_number": "CMAU3424394",
+    "container_type": "40'RF",
+    "seal_number": "1B9BCA9G",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "405 BOXES",
+    "gross_weight_kg": "25,498.67",
+    "measurement": "156.613 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU3424394",
+        "seal_number": "1B9BCA9G",
+        "container_type": "40'RF",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "405",
+          "type": "BOXES",
+          "description": "405 BOXES"
+        },
+        "gross_weight_kg": "13,784.93",
+        "net_weight_kg": "11,326.24",
+        "measurement": "49.566 CBM"
+      },
+      {
+        "container_number": "OOLU0254519",
+        "seal_number": "G4D8B8E9",
+        "container_type": "40'DC",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "45",
+          "type": "CRATES",
+          "description": "45 CRATES"
+        },
+        "gross_weight_kg": "6,440.18",
+        "net_weight_kg": "3,821.54",
+        "measurement": "45.713 CBM"
+      },
+      {
+        "container_number": "EISU4206712",
+        "seal_number": "5AFBE17G",
+        "container_type": "20'DC",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "331",
+          "type": "DRUMS",
+          "description": "331 DRUMS"
+        },
+        "gross_weight_kg": "5,273.56",
+        "net_weight_kg": "2,199.83",
+        "measurement": "61.334 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "MSCUNNLAX114230675",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        55.28
+      ],
+      "value": "ATLANTIC GROUP GMBH\n359 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        41.1,
+        194.17,
+        522.99,
+        55.28
+      ],
+      "value": "TRANS SUPPLY CHAIN CORP\n967 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        249.45,
+        522.99,
+        55.28
+      ],
+      "value": "FIRST COMMERCE LTD\n754 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        215.43,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "E-753",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.76,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        41.1,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        215.43,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.76,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        215.43,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "05 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "CMAU3424394",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "1B9BCA9G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "405",
+        "type": "BOXES",
+        "description": "405 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "13,784.93",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "49.566 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        305.15,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "OOLU0254519",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        338.5,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "G4D8B8E9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        338.5,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        338.5,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "45",
+        "type": "CRATES",
+        "description": "45 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        338.5,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "6,440.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        338.5,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "45.713 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        447.57,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        504.0,
+        258.94,
+        12.76
+      ],
+      "value": "EISU4206712",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        521.86,
+        116.53,
+        6.8
+      ],
+      "value": "5AFBE17G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        530.93,
+        116.53,
+        6.8
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        540.0,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "331",
+        "type": "DRUMS",
+        "description": "331 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        549.07,
+        116.53,
+        6.8
+      ],
+      "value": "5,273.56",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        558.14,
+        116.53,
+        6.8
+      ],
+      "value": "61.334 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        521.65,
+        103.58,
+        31.96
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        215.43,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.76,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        41.1,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        215.43,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

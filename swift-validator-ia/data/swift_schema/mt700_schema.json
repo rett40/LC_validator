@@ -1,0 +1,149 @@
+
+{
+  "message_type": "MT700",
+  "description": "Issue of a Documentary Credit",
+  "fields": {
+    "27": {
+      "name": "Sequence of Total",
+      "format": "1n/1n",
+      "mandatory": true,
+      "description": "Number of messages in this sequence"
+    },
+    "40A": {
+      "name": "Form of Documentary Credit",
+      "format": "24x",
+      "mandatory": true,
+      "values": ["IRREVOCABLE", "IRREVOCABLE TRANSFERABLE"],
+      "description": "Type of credit"
+    },
+    "20": {
+      "name": "Documentary Credit Number",
+      "format": "16x",
+      "mandatory": true,
+      "description": "Reference assigned by issuing bank"
+    },
+    "31C": {
+      "name": "Date of Issue",
+      "format": "6n",
+      "mandatory": true,
+      "description": "Date when credit is issued"
+    },
+    "40E": {
+      "name": "Applicable Rules",
+      "format": "30x[/35x]",
+      "mandatory": true,
+      "values": [
+        "UCP LATEST VERSION",
+        "UCPURR LATEST VERSION",
+        "EUCP LATEST VERSION",
+        "EUCPURR LATEST VERSION",
+        "OTHR"
+      ]
+    },
+    "31D": {
+      "name": "Date and Place of Expiry",
+      "format": "6n29x",
+      "mandatory": true,
+      "description": "Last date for presentation"
+    },
+    "50": {
+      "name": "Applicant",
+      "format": "4*35x",
+      "mandatory": true,
+      "description": "Party requesting the credit"
+    },
+    "59": {
+      "name": "Beneficiary",
+      "format": "[34x] 4*35x",
+      "mandatory": true,
+      "description": "Party in whose favour credit is issued"
+    },
+    "32B": {
+      "name": "Currency Code, Amount",
+      "format": "3a15d",
+      "mandatory": true,
+      "description": "Amount of the credit"
+    },
+    "41a": {
+      "name": "Available With... By...",
+      "format": "A or D",
+      "mandatory": true,
+      "values": [
+        "BY PAYMENT",
+        "BY ACCEPTANCE",
+        "BY NEGOTIATION",
+        "BY DEF PAYMENT",
+        "BY MIXED PYMT"
+      ]
+    },
+    "43P": {
+      "name": "Partial Shipments",
+      "format": "11x",
+      "values": ["ALLOWED", "CONDITIONAL", "NOT ALLOWED"]
+    },
+    "43T": {
+      "name": "Transhipment",
+      "format": "11x",
+      "values": ["ALLOWED", "CONDITIONAL", "NOT ALLOWED"]
+    },
+    "44A": {
+      "name": "Place of Taking in Charge",
+      "format": "65x"
+    },
+    "44E": {
+      "name": "Port of Loading/Airport of Departure",
+      "format": "65x"
+    },
+    "44F": {
+      "name": "Port of Discharge/Airport of Destination",
+      "format": "65x"
+    },
+    "44B": {
+      "name": "Place of Final Destination",
+      "format": "65x"
+    },
+    "44C": {
+      "name": "Latest Date of Shipment",
+      "format": "6n"
+    },
+    "44D": {
+      "name": "Shipment Period",
+      "format": "6*65x"
+    },
+    "45A": {
+      "name": "Description of Goods and/or Services",
+      "format": "100*65z",
+      "description": "Goods description"
+    },
+    "46A": {
+      "name": "Documents Required",
+      "format": "100*65z",
+      "description": "List of required documents"
+    },
+    "47A": {
+      "name": "Additional Conditions",
+      "format": "100*65z",
+      "description": "Special conditions"
+    },
+    "71D": {
+      "name": "Charges",
+      "format": "6*35z",
+      "description": "Charges to be borne by beneficiary"
+    },
+    "48": {
+      "name": "Period for Presentation",
+      "format": "3n[/35x]",
+      "description": "Days after shipment for presentation"
+    },
+    "49": {
+      "name": "Confirmation Instructions",
+      "format": "7x",
+      "values": ["CONFIRM", "MAY ADD", "WITHOUT"]
+    }
+  },
+  "rules": [
+    "C1: When used, fields 42C and 42a must both be present",
+    "C2: Either fields 42C and 42a together, or 42M alone, or 42P alone may be present",
+    "C3: Either field 44C or 44D, but not both, may be present"
+  ]
+}

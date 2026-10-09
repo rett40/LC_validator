@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00409",
+  "filename": "inv_inv-09_00409.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 409,
+  "fields": {
+    "invoice_number": "INV-2026-00409",
+    "invoice_date": "25 APR 2026",
+    "lc_reference": "LC/SCB/0409/2026",
+    "bl_reference": "MSCUNTGKU262937903",
+    "seller_name": "APEX TRADING BV",
+    "buyer_name": "GLOBAL SOLUTIONS LLC",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8700",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "PAPER PRODUCTS AND STATIONERY",
+    "hs_code": "4819.10",
+    "quantity": 314,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "17,164.33",
+    "unit_price": 4.48,
+    "currency": "USD",
+    "total_amount": 1406.72,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00409",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        207.87,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "LC/SCB/0409/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        387.4,
+        124.72,
+        179.53,
+        18.43
+      ],
+      "value": "MSCUNTGKU262937903",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        207.87,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        387.4,
+        153.07,
+        179.53,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        187.09,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        297.64,
+        172.35,
+        42.52
+      ],
+      "value": "PAPER PRODUCTS AND STATIONERY",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        297.64,
+        64.63,
+        42.52
+      ],
+      "value": "4819.10",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "314",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        297.64,
+        53.86,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "4.48 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        297.64,
+        96.94,
+        42.52
+      ],
+      "value": "1406.72 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        354.33,
+        121.18,
+        19.84
+      ],
+      "value": "17,164.33 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        374.17,
+        121.18,
+        19.84
+      ],
+      "value": "1406.72 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        207.87,
+        412.44,
+        179.53,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PAPER AND PAPERBOARD ARTICLES",
+      "actual": "PAPER PRODUCTS AND STATIONERY"
+    }
+  ]
+}

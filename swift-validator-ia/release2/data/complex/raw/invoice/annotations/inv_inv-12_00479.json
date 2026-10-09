@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00479",
+  "filename": "inv_inv-12_00479.pdf",
+  "layout_id": "INV-12",
+  "bl_id": 479,
+  "fields": {
+    "invoice_number": "INV-2026-00479",
+    "invoice_date": "03 MAY 2026",
+    "lc_reference": "LC/DBS/0479/2026",
+    "bl_reference": "MSCUNNWHL794046968",
+    "seller_name": "APEX PARTNERS CORP",
+    "buyer_name": "PREMIER LOGISTICS CORP",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS228S",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "MINERAL WATER AND SOFT DRINKS",
+    "hs_code": "8428.90",
+    "quantity": 108,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "17,345.87",
+    "unit_price": 267.7,
+    "currency": "USD",
+    "total_amount": 28911.6,
+    "incoterm": "DDP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00479",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "LC/DBS/0479/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNNWHL794046968",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        221.1,
+        176.88,
+        42.52
+      ],
+      "value": "MINERAL WATER AND SOFT DRINKS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        221.1,
+        66.33,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "108",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "267.7 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "28911.6 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "APEX PARTNERS CORP\nAPEX PARTNERS CORP\n422 INDUSTRIAL AVENUE\nHONG KONG, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "PREMIER LOGISTICS CORP\nPREMIER LOGISTICS CORP\n360 EXPORT ZONE\nNEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        360.0,
+        124.37,
+        19.84
+      ],
+      "value": "17,345.87 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        379.84,
+        124.37,
+        19.84
+      ],
+      "value": "28911.6 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "HONG KONG",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

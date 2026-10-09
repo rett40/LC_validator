@@ -1,0 +1,353 @@
+{
+  "id": 111,
+  "filename": "bl_bl-20_00111_MSCUNMMYF175550863.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNMMYF175550863",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNMMYF175550863",
+    "shipper": {
+      "name": "PREMIER SHIPPING GMBH",
+      "address": "131 HARBOR ROAD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "PREMIER SHIPPING GMBH\n131 HARBOR ROAD\nANTWERP, BELGIUM 2000"
+    },
+    "consignee": {
+      "name": "UNITED TRADING AG",
+      "address": "314 HARBOR ROAD",
+      "city": "ANTWERP",
+      "country": "BELGIUM",
+      "zip": "2000",
+      "full": "UNITED TRADING AG\n314 HARBOR ROAD\nANTWERP, BELGIUM 2000"
+    },
+    "notify_party": {
+      "name": "TRANS SUPPLY CHAIN CORP",
+      "address": "656 TRADE PARK",
+      "city": "ROTTERDAM",
+      "country": "NETHERLANDS",
+      "zip": "3011 AA",
+      "full": "TRANS SUPPLY CHAIN CORP\n656 TRADE PARK\nROTTERDAM, NETHERLANDS 3011 AA"
+    },
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE37S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "17 JUN 2026",
+    "eta": "17 JUL 2026",
+    "issue_date": "13 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "container_number": "HLCU2431221",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "92HH59GB",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": {
+      "count": "65",
+      "type": "CARTONS",
+      "description": "65 CARTONS"
+    },
+    "gross_weight_kg": "21,957.19",
+    "net_weight_kg": "19,323.93",
+    "gross_weight_lbs": "48,407.26",
+    "measurement": "64.982 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU2431221",
+        "seal_number": "92HH59GB",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "65",
+          "type": "CARTONS",
+          "description": "65 CARTONS"
+        },
+        "gross_weight_kg": "21,957.19",
+        "net_weight_kg": "19,323.93",
+        "measurement": "64.982 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "PREPAID",
+    "incoterm": "EXW",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "HLCU2431221\n92HH59GB\nHAMBURG"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNMMYF175550863",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        299.64,
+        91.28,
+        265.29,
+        15.31
+      ],
+      "value": "AE37S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        30.35,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        299.64,
+        125.29,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        299.64,
+        159.31,
+        265.29,
+        15.31
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        30.35,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        299.64,
+        193.32,
+        265.29,
+        15.31
+      ],
+      "value": "17 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "PREMIER SHIPPING GMBH\n131 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        299.64,
+        232.44,
+        265.29,
+        73.7
+      ],
+      "value": "UNITED TRADING AG\n314 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        30.35,
+        323.15,
+        265.29,
+        73.7
+      ],
+      "value": "TRANS SUPPLY CHAIN CORP\n656 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        511.65,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU2431221",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "92HH59GB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        511.65,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        511.65,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        511.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '65', 'type': 'CARTONS', 'description': '65 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "21,957.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        511.65,
+        80.79,
+        36.85
+      ],
+      "value": "64.982 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        299.64,
+        574.02,
+        265.29,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        30.35,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "13 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        299.64,
+        602.36,
+        265.29,
+        12.76
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        630.71,
+        265.29,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

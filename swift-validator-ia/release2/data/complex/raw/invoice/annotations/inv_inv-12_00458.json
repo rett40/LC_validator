@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00458",
+  "filename": "inv_inv-12_00458.pdf",
+  "layout_id": "INV-12",
+  "bl_id": 458,
+  "fields": {
+    "invoice_number": "INV-2026-00458",
+    "invoice_date": "02 MAY 2026",
+    "lc_reference": "LC/SCB/0458/2026",
+    "bl_reference": "MSCUNKDTA327349281",
+    "seller_name": "APEX PARTNERS GMBH",
+    "buyer_name": "EURO SUPPLY CHAIN GMBH",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE948S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+    "hs_code": "9018.90",
+    "quantity": 471,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "11,540.61",
+    "unit_price": 252.97,
+    "currency": "USD",
+    "total_amount": 119148.29,
+    "incoterm": "DAP",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        71.78,
+        69.45,
+        276.38,
+        25.51
+      ],
+      "value": "INV-2026-00458",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "02 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        299.64,
+        128.98,
+        272.38,
+        12.76
+      ],
+      "value": "LC/SCB/0458/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "MSCUNKDTA327349281",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        157.32,
+        272.38,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        299.64,
+        185.67,
+        272.38,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        221.1,
+        176.88,
+        42.52
+      ],
+      "value": "HEALTHCARE EQUIPMENT AND SUPPLIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        198.14,
+        221.1,
+        66.33,
+        42.52
+      ],
+      "value": "9018.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.47,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "471",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.75,
+        221.1,
+        55.28,
+        42.52
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        375.02,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "252.97 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        474.52,
+        221.1,
+        99.5,
+        42.52
+      ],
+      "value": "119148.29 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "APEX PARTNERS GMBH\nAPEX PARTNERS GMBH\n59 TRADE PARK\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        272.13,
+        276.38,
+        79.37
+      ],
+      "value": "EURO SUPPLY CHAIN GMBH\nEURO SUPPLY CHAIN GMBH\n656 HARBOR ROAD\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        449.65,
+        360.0,
+        124.37,
+        19.84
+      ],
+      "value": "11,540.61 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        449.65,
+        379.84,
+        124.37,
+        19.84
+      ],
+      "value": "119148.29 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        299.64,
+        423.5,
+        272.38,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "MEDICAL DEVICES AND EQUIPMENT",
+      "actual": "HEALTHCARE EQUIPMENT AND SUPPLIES"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "106262.31 USD",
+      "actual": "119148.29 USD"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00632",
+  "filename": "inv_inv-16_00632.pdf",
+  "layout_id": "INV-16",
+  "bl_id": 632,
+  "fields": {
+    "invoice_number": "INV-2026-00632",
+    "invoice_date": "08 MAY 2026",
+    "lc_reference": "LC/CITI/0632/2026",
+    "bl_reference": "MSCUNCTWT413858994",
+    "seller_name": "GLOBAL SHIPPING AG",
+    "buyer_name": "PACIFIC COMMERCE BV",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS136S",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "WOOD PRODUCTS AND TIMBER",
+    "hs_code": "4421.99",
+    "quantity": 163,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "54,997.66",
+    "unit_price": 7.92,
+    "currency": "GBP",
+    "total_amount": 1290.96,
+    "incoterm": "CIF",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        63.78,
+        217.13,
+        11.34
+      ],
+      "value": "INV-2026-00632",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        83.62,
+        542.83,
+        52.44
+      ],
+      "value": "GLOBAL SHIPPING AG\nGLOBAL SHIPPING AG\n117 HARBOR ROAD\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        136.06,
+        542.83,
+        52.44
+      ],
+      "value": "PACIFIC COMMERCE BV\nPACIFIC COMMERCE BV\n610 MAIN BOULEVARD\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        197.01,
+        314.84,
+        56.69
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        338.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": "4421.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        452.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": 163,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        338.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "BOXES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        452.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "7.92 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        259.37,
+        244.28,
+        25.51
+      ],
+      "value": "1290.96 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        204.2,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "LC/CITI/0632/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.15,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "MSCUNCTWT413858994",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        23.26,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        204.2,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.15,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        358.58,
+        122.14,
+        19.84
+      ],
+      "value": "54,997.66 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        378.43,
+        122.14,
+        19.84
+      ],
+      "value": "1290.96 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.2,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "id": 166,
+  "filename": "bl_bl-05_00166_MSCUNJSXS873734061.pdf",
+  "layout_id": "BL-05",
+  "bl_number": "MSCUNJSXS873734061",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNJSXS873734061",
+    "shipper_name": "APEX INDUSTRIES CORP",
+    "shipper_address": "154 PORT ACCESS ROAD",
+    "consignee_name": "INTERNATIONAL PARTNERS INC",
+    "consignee_address": "585 HARBOR ROAD",
+    "notify_party_name": "TRANS SUPPLY CHAIN CORP",
+    "notify_party_address": "774 COMMERCE BOULEVARD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS115S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "20 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "MSCU9198793",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "319241FC",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "287 PACKAGES",
+    "gross_weight_kg": "39,464.18",
+    "measurement": "103.012 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU9198793",
+        "seal_number": "319241FC",
+        "container_type": "40' FLAT RACK",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "287",
+          "type": "PACKAGES",
+          "description": "287 PACKAGES"
+        },
+        "gross_weight_kg": "10,410.04",
+        "net_weight_kg": "7,163.17",
+        "measurement": "36.211 CBM"
+      },
+      {
+        "container_number": "EISU4548967",
+        "seal_number": "B8E10019",
+        "container_type": "40'DC",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "53",
+          "type": "PACKAGES",
+          "description": "53 PACKAGES"
+        },
+        "gross_weight_kg": "17,731.44",
+        "net_weight_kg": "15,599.41",
+        "measurement": "21.258 CBM"
+      },
+      {
+        "container_number": "TCKU4531698",
+        "seal_number": "077C1D9A",
+        "container_type": "40'FR",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "324",
+          "type": "PALLETS",
+          "description": "324 PALLETS"
+        },
+        "gross_weight_kg": "11,322.70",
+        "net_weight_kg": "7,762.21",
+        "measurement": "45.543 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        70.87,
+        264.33,
+        11.34
+      ],
+      "value": "MSCUNJSXS873734061",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        110.55,
+        302.62,
+        94.96
+      ],
+      "value": "APEX INDUSTRIES CORP\n154 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        109.13,
+        218.04,
+        41.1
+      ],
+      "value": "INTERNATIONAL PARTNERS INC\n585 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        164.41,
+        218.04,
+        41.1
+      ],
+      "value": "TRANS SUPPLY CHAIN CORP\n774 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        236.69,
+        89.87,
+        36.85
+      ],
+      "value": "MSCU9198793",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "319241FC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        236.69,
+        42.29,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        236.69,
+        132.17,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        236.69,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '287', 'type': 'PACKAGES', 'description': '287 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "10,410.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        236.69,
+        79.3,
+        36.85
+      ],
+      "value": "36.211 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        273.54,
+        89.87,
+        36.85
+      ],
+      "value": "EISU4548967",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "B8E10019",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        273.54,
+        42.29,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        273.54,
+        132.17,
+        36.85
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        273.54,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '53', 'type': 'PACKAGES', 'description': '53 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "17,731.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        273.54,
+        79.3,
+        36.85
+      ],
+      "value": "21.258 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        310.39,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU4531698",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "077C1D9A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        310.39,
+        42.29,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        310.39,
+        132.17,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        310.39,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '324', 'type': 'PALLETS', 'description': '324 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "11,322.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        310.39,
+        79.3,
+        36.85
+      ],
+      "value": "45.543 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        292.68,
+        372.76,
+        264.33,
+        24.09
+      ],
+      "value": "CS115S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        292.68,
+        406.77,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        292.68,
+        440.79,
+        264.33,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        292.68,
+        474.8,
+        264.33,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        292.68,
+        524.41,
+        264.33,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        292.68,
+        552.76,
+        264.33,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        581.1,
+        264.33,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00492",
+  "filename": "inv_inv-10_00492.pdf",
+  "layout_id": "INV-10",
+  "bl_id": 492,
+  "fields": {
+    "invoice_number": "INV-2026-00492",
+    "invoice_date": "24 APR 2026",
+    "lc_reference": "LC/BNP/0492/2026",
+    "bl_reference": "MSCUNPTRT543460250",
+    "seller_name": "INTERNATIONAL GROUP S.A.",
+    "buyer_name": "INTERNATIONAL INDUSTRIES S.A.",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE983S",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "PLASTIC GOODS AND ARTICLES",
+    "hs_code": "3926.90",
+    "quantity": 84,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "27,077.03",
+    "unit_price": 5.06,
+    "currency": "USD",
+    "total_amount": 425.04,
+    "incoterm": "FCA",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00492",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        131.81,
+        172.35,
+        42.52
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        131.81,
+        64.63,
+        42.52
+      ],
+      "value": "3926.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "84",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        131.81,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "5.06 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        131.81,
+        96.94,
+        42.52
+      ],
+      "value": "425.04 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        182.83,
+        269.29,
+        28.35
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        182.83,
+        269.29,
+        28.35
+      ],
+      "value": "LC/BNP/0492/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        211.18,
+        269.29,
+        28.35
+      ],
+      "value": "MSCUNPTRT543460250",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        211.18,
+        269.29,
+        28.35
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        239.53,
+        269.29,
+        28.35
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        297.64,
+        239.53,
+        269.29,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        276.38,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        276.38,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        364.25,
+        121.18,
+        19.84
+      ],
+      "value": "27,077.03 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        384.09,
+        121.18,
+        19.84
+      ],
+      "value": "425.04 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        412.44,
+        269.29,
+        25.51
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        412.44,
+        269.29,
+        25.51
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "HONG KONG",
+      "actual": "LE HAVRE, FRANCE"
+    }
+  ]
+}

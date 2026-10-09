@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00851",
+  "filename": "inv_inv-18_00851.pdf",
+  "layout_id": "INV-18",
+  "bl_id": 851,
+  "fields": {
+    "invoice_number": "INV-2026-00851",
+    "invoice_date": "21 APR 2026",
+    "lc_reference": "LC/DBS/0851/2026",
+    "bl_reference": "MSCUNWPZM402558220",
+    "seller_name": "PREMIER TRADING BV",
+    "buyer_name": "ATLANTIC SUPPLY CHAIN BV",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS206S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "VULCANIZED RUBBER ARTICLES",
+    "hs_code": "4016.99",
+    "quantity": 221,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "25,687.32",
+    "unit_price": 12.23,
+    "currency": "USD",
+    "total_amount": 2702.83,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00851",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        107.72,
+        269.29,
+        28.35
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        107.72,
+        269.29,
+        28.35
+      ],
+      "value": "LC/DBS/0851/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        136.06,
+        269.29,
+        28.35
+      ],
+      "value": "MSCUNWPZM402558220",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        136.06,
+        269.29,
+        28.35
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        164.41,
+        269.29,
+        28.35
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        297.64,
+        164.41,
+        269.29,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        216.85,
+        172.35,
+        42.52
+      ],
+      "value": "VULCANIZED RUBBER ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        216.85,
+        64.63,
+        42.52
+      ],
+      "value": "4016.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        216.85,
+        53.86,
+        42.52
+      ],
+      "value": "221",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        216.85,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        216.85,
+        96.94,
+        42.52
+      ],
+      "value": "12.23 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        216.85,
+        96.94,
+        42.52
+      ],
+      "value": "2702.83 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        267.87,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        267.87,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        355.75,
+        121.18,
+        19.84
+      ],
+      "value": "25,687.32 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        375.59,
+        121.18,
+        19.84
+      ],
+      "value": "2702.83 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        403.94,
+        269.29,
+        25.51
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        403.94,
+        269.29,
+        25.51
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "RUBBER PRODUCTS AND TYRES",
+      "actual": "VULCANIZED RUBBER ARTICLES"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "BUSAN, SOUTH KOREA"
+    }
+  ]
+}

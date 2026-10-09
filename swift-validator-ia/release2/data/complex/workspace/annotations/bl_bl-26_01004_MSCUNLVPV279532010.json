@@ -1,0 +1,409 @@
+{
+  "id": 1004,
+  "filename": "bl_bl-26_01004_MSCUNLVPV279532010.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNLVPV279532010",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLVPV279532010",
+    "shipper_name": "INTERNATIONAL GROUP BV",
+    "shipper_address": "910 HARBOR ROAD",
+    "consignee_name": "GLOBAL COMMERCE INC",
+    "consignee_address": "774 MARKET STREET",
+    "notify_party_name": "INTERNATIONAL LOGISTICS LTD",
+    "notify_party_address": "211 COMMERCE BOULEVARD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5213",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "18 JUN 2026",
+    "eta": "19 JUL 2026",
+    "container_number": "TRHU9625121",
+    "container_type": "20'RF",
+    "seal_number": "68DH1733",
+    "commodity": "FURNITURE AND PARTS THEREOF",
+    "packages": "302 PACKAGES",
+    "gross_weight_kg": "37,687.57",
+    "measurement": "124.216 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9625121",
+        "seal_number": "68DH1733",
+        "container_type": "20'RF",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "302",
+          "type": "PACKAGES",
+          "description": "302 PACKAGES"
+        },
+        "gross_weight_kg": "26,147.15",
+        "net_weight_kg": "23,785.39",
+        "measurement": "67.161 CBM"
+      },
+      {
+        "container_number": "OOLU6235127",
+        "seal_number": "5H59B3FE",
+        "container_type": "40'HC",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "335",
+          "type": "PACKAGES",
+          "description": "335 PACKAGES"
+        },
+        "gross_weight_kg": "11,540.42",
+        "net_weight_kg": "8,041.49",
+        "measurement": "57.055 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNLVPV279532010",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        131.89,
+        75.12,
+        33.93,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        252.84,
+        75.12,
+        43.39,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        353.49,
+        75.12,
+        73.13,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        503.25,
+        75.12,
+        53.76,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        88.45,
+        103.46,
+        77.38,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "INTERNATIONAL GROUP BV\n910 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "GLOBAL COMMERCE INC\n774 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "INTERNATIONAL LOGISTICS LTD\n211 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        97.91,
+        256.54,
+        67.92,
+        34.02
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.98,
+        256.54,
+        88.24,
+        34.02
+      ],
+      "value": "AL5213",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        381.35,
+        256.54,
+        45.26,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        471.12,
+        256.54,
+        85.89,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        123.4,
+        290.55,
+        42.42,
+        34.02
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        268.44,
+        290.55,
+        27.78,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.62,
+        290.55,
+        49.99,
+        34.02
+      ],
+      "value": "18 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        494.74,
+        290.55,
+        62.26,
+        34.02
+      ],
+      "value": "19 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "TRHU9625121",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "68DH1733",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '302', 'type': 'PACKAGES', 'description': '302 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "26,147.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "67.161 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU6235127",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "5H59B3FE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '335', 'type': 'PACKAGES', 'description': '335 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "11,540.42",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "57.055 CBM",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00315",
+  "filename": "inv_inv-08_00315.pdf",
+  "layout_id": "INV-08",
+  "bl_id": 315,
+  "fields": {
+    "invoice_number": "INV-2026-00315",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/CITI/0315/2026",
+    "bl_reference": "MSCUNMFWU824981866",
+    "seller_name": "ATLANTIC PARTNERS LTD",
+    "buyer_name": "ATLANTIC ENTERPRISES S.A.",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL7607",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "COSMETICS AND TOILETRIES",
+    "hs_code": "3304.99",
+    "quantity": 402,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "28,514.96",
+    "unit_price": 41.14,
+    "currency": "USD",
+    "total_amount": 16538.28,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00315",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "LC/CITI/0315/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNMFWU824981866",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        154.49,
+        332.16,
+        79.37
+      ],
+      "value": "ATLANTIC PARTNERS LTD\nATLANTIC PARTNERS LTD\n582 INDUSTRIAL AVENUE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        154.49,
+        203.58,
+        79.37
+      ],
+      "value": "ATLANTIC ENTERPRISES S.A.\nATLANTIC ENTERPRISES S.A.\n446 EXPORT ZONE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "COSMETICS AND TOILETRIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "3304.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "402",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "41.14 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "16538.28 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "28,514.96 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "16538.28 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHENZHEN, CHINA",
+      "actual": "LE HAVRE, FRANCE"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "PERSONAL CARE PRODUCTS",
+      "actual": "COSMETICS AND TOILETRIES"
+    }
+  ]
+}

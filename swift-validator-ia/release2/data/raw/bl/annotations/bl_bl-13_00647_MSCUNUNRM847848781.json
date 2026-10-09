@@ -1,0 +1,533 @@
+{
+  "id": 647,
+  "filename": "bl_bl-13_00647_MSCUNUNRM847848781.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNUNRM847848781",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNUNRM847848781",
+    "shipper_name": "INTERNATIONAL INDUSTRIES CORP",
+    "shipper_address": "223 HARBOR ROAD",
+    "consignee_name": "CENTRAL TRADING GMBH",
+    "consignee_address": "29 MARKET STREET",
+    "notify_party_name": "DELTA ENTERPRISES LLC",
+    "notify_party_address": "421 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0537E",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CFS",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "05 JUN 2026",
+    "eta": "22 JUN 2026",
+    "container_number": "CMAU1444791",
+    "container_type": "40' REEFER",
+    "seal_number": "96HCB22G",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "458 DRUMS",
+    "gross_weight_kg": "57,477.49",
+    "measurement": "107.031 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU1444791",
+        "seal_number": "96HCB22G",
+        "container_type": "40' REEFER",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "458",
+          "type": "DRUMS",
+          "description": "458 DRUMS"
+        },
+        "gross_weight_kg": "7,229.52",
+        "net_weight_kg": "4,771.42",
+        "measurement": "29.326 CBM"
+      },
+      {
+        "container_number": "TRHU9553633",
+        "seal_number": "F83AE9B2",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "107",
+          "type": "PACKAGES",
+          "description": "107 PACKAGES"
+        },
+        "gross_weight_kg": "23,659.82",
+        "net_weight_kg": "20,298.92",
+        "measurement": "33.773 CBM"
+      },
+      {
+        "container_number": "OOLU9687574",
+        "seal_number": "20G8FHD2",
+        "container_type": "40' FLAT RACK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "108",
+          "type": "PACKAGES",
+          "description": "108 PACKAGES"
+        },
+        "gross_weight_kg": "26,588.15",
+        "net_weight_kg": "23,411.99",
+        "measurement": "43.932 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "29 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNUNRM847848781",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "223 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "INTERNATIONAL INDUSTRIES CORP\n223 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "29 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "CENTRAL TRADING GMBH\n29 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "421 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "DELTA ENTERPRISES LLC\n421 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "0537E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "COLOMBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        283.46,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1444791",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "96HCB22G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        283.46,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        283.46,
+        134.65,
+        36.85
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '458', 'type': 'DRUMS', 'description': '458 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "7,229.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "29.326 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        320.31,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9553633",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "F83AE9B2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        320.31,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        320.31,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '107', 'type': 'PACKAGES', 'description': '107 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "23,659.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "33.773 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        357.17,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU9687574",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "20G8FHD2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        357.17,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        357.17,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '108', 'type': 'PACKAGES', 'description': '108 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "26,588.15",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "43.932 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        437.95,
+        134.65,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

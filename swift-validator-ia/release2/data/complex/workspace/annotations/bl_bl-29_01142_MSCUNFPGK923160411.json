@@ -1,0 +1,318 @@
+{
+  "id": 1142,
+  "filename": "bl_bl-29_01142_MSCUNFPGK923160411.pdf",
+  "layout_id": "BL-29",
+  "bl_number": "MSCUNFPGK923160411",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNFPGK923160411",
+    "shipper_name": "UNITED SOLUTIONS AG",
+    "shipper_address": "699 HARBOR ROAD",
+    "consignee_name": "GLOBAL SOLUTIONS GMBH",
+    "consignee_address": "562 MAIN STREET",
+    "notify_party_name": "APEX SUPPLY CHAIN GMBH",
+    "notify_party_address": "904 MAIN STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE440N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "22 MAY 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "MAEU9485213",
+    "container_type": "40' DRY / GP",
+    "seal_number": "HHG563FD",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "43 BOXES",
+    "gross_weight_kg": "24,679.44",
+    "measurement": "31.599 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU9485213",
+        "seal_number": "HHG563FD",
+        "container_type": "40' DRY / GP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "43",
+          "type": "BOXES",
+          "description": "43 BOXES"
+        },
+        "gross_weight_kg": "24,679.44",
+        "net_weight_kg": "21,699.95",
+        "measurement": "31.599 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNFPGK923160411",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        136.06,
+        89.87,
+        36.85
+      ],
+      "value": "MAEU9485213",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "HHG563FD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        136.06,
+        42.29,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        136.06,
+        132.17,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        136.06,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '43', 'type': 'BOXES', 'description': '43 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "24,679.44",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        136.06,
+        79.3,
+        36.85
+      ],
+      "value": "31.599 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "FE440N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        198.43,
+        132.17,
+        24.09
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "22 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        232.44,
+        132.17,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        282.05,
+        132.17,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        310.39,
+        132.17,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        357.17,
+        302.62,
+        94.96
+      ],
+      "value": "UNITED SOLUTIONS AG\n699 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        355.75,
+        218.04,
+        41.1
+      ],
+      "value": "GLOBAL SOLUTIONS GMBH\n562 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        411.02,
+        218.04,
+        41.1
+      ],
+      "value": "APEX SUPPLY CHAIN GMBH\n904 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

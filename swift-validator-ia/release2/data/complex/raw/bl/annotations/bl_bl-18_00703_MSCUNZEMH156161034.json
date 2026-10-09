@@ -1,0 +1,351 @@
+{
+  "id": 703,
+  "filename": "bl_bl-18_00703_MSCUNZEMH156161034.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNZEMH156161034",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNZEMH156161034",
+    "shipper_name": "EURO SUPPLY CHAIN LLC",
+    "shipper_address": "435 INDUSTRIAL AVENUE",
+    "consignee_name": "TRANS PARTNERS BV",
+    "consignee_address": "522 HARBOR ROAD",
+    "notify_party_name": "ATLANTIC SUPPLY CHAIN LLC",
+    "notify_party_address": "735 HARBOR ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS275W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "24 JUN 2026",
+    "eta": "29 JUL 2026",
+    "container_number": "EISU4122861",
+    "container_type": "20' DRY / GP",
+    "seal_number": "HDAEC6F0",
+    "commodity": "CERAMIC TILES AND SANITARY WARE",
+    "packages": "338 PALLETS",
+    "gross_weight_kg": "19,372.82",
+    "measurement": "55.473 CBM",
+    "containers": [
+      {
+        "container_number": "EISU4122861",
+        "seal_number": "HDAEC6F0",
+        "container_type": "20' DRY / GP",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "338",
+          "type": "PALLETS",
+          "description": "338 PALLETS"
+        },
+        "gross_weight_kg": "19,372.82",
+        "net_weight_kg": "16,803.42",
+        "measurement": "55.473 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNZEMH156161034",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "EISU4122861",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "HDAEC6F0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '338', 'type': 'PALLETS', 'description': '338 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "19,372.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "55.473 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "435 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "EURO SUPPLY CHAIN LLC\n435 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        192.76,
+        269.29,
+        70.87
+      ],
+      "value": "522 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        172.91,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS PARTNERS BV\n522 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        283.46,
+        269.29,
+        70.87
+      ],
+      "value": "735 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        263.62,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN LLC\n735 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        453.54,
+        206.38,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        381.85,
+        453.54,
+        192.16,
+        34.02
+      ],
+      "value": "CS275W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        115.67,
+        487.56,
+        189.05,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        383.18,
+        487.56,
+        190.84,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        521.57,
+        186.38,
+        34.02
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        401.42,
+        521.57,
+        172.6,
+        34.02
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        555.59,
+        193.5,
+        34.02
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        368.96,
+        555.59,
+        205.05,
+        34.02
+      ],
+      "value": "29 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        117.89,
+        598.11,
+        186.84,
+        28.35
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        400.07,
+        598.11,
+        173.95,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        626.46,
+        201.94,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        369.41,
+        626.46,
+        204.6,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        83.67,
+        654.8,
+        221.05,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

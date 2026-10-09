@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00220",
+  "filename": "inv_inv-06_00220.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 220,
+  "fields": {
+    "invoice_number": "INV-2026-00220",
+    "invoice_date": "12 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0220/2026",
+    "bl_reference": "MSCUNFPAF831201308",
+    "seller_name": "EURO ENTERPRISES BV",
+    "buyer_name": "PREMIER SHIPPING BV",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0801N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "hs_code": "8708.99",
+    "quantity": 176,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "48,794.07",
+    "unit_price": 63.44,
+    "currency": "USD",
+    "total_amount": 11164.88,
+    "incoterm": "EXW",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00220",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        104.63,
+        120.47,
+        110.33,
+        28.35
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        322.56,
+        120.47,
+        71.93,
+        28.35
+      ],
+      "value": "LC/BARCLAYS/0220/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        468.49,
+        120.47,
+        105.53,
+        28.35
+      ],
+      "value": "MSCUNFPAF831201308",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        99.83,
+        148.82,
+        115.13,
+        28.35
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        312.96,
+        148.82,
+        81.53,
+        28.35
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        420.49,
+        148.82,
+        153.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "EURO ENTERPRISES BV\nEURO ENTERPRISES BV\n75 INDUSTRIAL AVENUE\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "PREMIER SHIPPING BV\nPREMIER SHIPPING BV\n434 COMMERCE STREET\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        289.13,
+        172.35,
+        42.52
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        289.13,
+        64.63,
+        42.52
+      ],
+      "value": "8708.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "176",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "63.44 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "11164.88 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "48,794.07 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "11164.88 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        109.43,
+        388.35,
+        105.53,
+        25.51
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        264.96,
+        388.35,
+        129.53,
+        25.51
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "9998.56 USD",
+      "actual": "11164.88 USD"
+    }
+  ]
+}

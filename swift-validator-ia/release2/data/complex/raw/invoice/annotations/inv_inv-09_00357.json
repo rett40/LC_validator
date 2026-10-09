@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00357",
+  "filename": "inv_inv-09_00357.pdf",
+  "layout_id": "INV-09",
+  "bl_id": 357,
+  "fields": {
+    "invoice_number": "INV-2026-00357",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/DB/0357/2026",
+    "bl_reference": "MSCUNYSSX143696252",
+    "seller_name": "DELTA INDUSTRIES LLC",
+    "buyer_name": "GLOBAL GROUP AG",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE271N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "FROZEN SEAFOOD AND FISH",
+    "hs_code": "0709.99",
+    "quantity": 183,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "26,838.34",
+    "unit_price": 20.67,
+    "currency": "GBP",
+    "total_amount": 3782.61,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "INV-2026-00357",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        210.24,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "LC/DB/0357/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        392.13,
+        121.89,
+        181.89,
+        18.43
+      ],
+      "value": "MSCUNYSSX143696252",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        210.24,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        392.13,
+        150.24,
+        181.89,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "DELTA INDUSTRIES LLC\nDELTA INDUSTRIES LLC\n879 EXPORT ZONE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        301.18,
+        184.25,
+        272.83,
+        79.37
+      ],
+      "value": "GLOBAL GROUP AG\nGLOBAL GROUP AG\n702 INDUSTRIAL AVENUE\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        294.8,
+        174.61,
+        42.52
+      ],
+      "value": "FROZEN SEAFOOD AND FISH",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.96,
+        294.8,
+        65.48,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.44,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "183",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        323.01,
+        294.8,
+        54.57,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        377.57,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "20.67 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        475.8,
+        294.8,
+        98.22,
+        42.52
+      ],
+      "value": "3782.61 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        451.24,
+        351.5,
+        122.78,
+        19.84
+      ],
+      "value": "26,838.34 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        451.24,
+        371.34,
+        122.78,
+        19.84
+      ],
+      "value": "3782.61 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        210.24,
+        409.61,
+        181.89,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "actual": "FROZEN SEAFOOD AND FISH"
+    }
+  ]
+}

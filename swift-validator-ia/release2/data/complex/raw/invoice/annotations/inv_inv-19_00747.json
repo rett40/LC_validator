@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00747",
+  "filename": "inv_inv-19_00747.pdf",
+  "layout_id": "INV-19",
+  "bl_id": 747,
+  "fields": {
+    "invoice_number": "INV-2026-00747",
+    "invoice_date": "08 MAY 2026",
+    "lc_reference": "LC/HSBC/0747/2026",
+    "bl_reference": "MSCUNLTDR806111099",
+    "seller_name": "PREMIER ENTERPRISES LLC",
+    "buyer_name": "PACIFIC SOLUTIONS LLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0770N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "goods_description": "FERTILIZERS AND AGROCHEMICALS",
+    "hs_code": "8428.90",
+    "quantity": 367,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "26,936.65",
+    "unit_price": 190.35,
+    "currency": "GBP",
+    "total_amount": 69858.45,
+    "incoterm": "FCA",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "INV-2026-00747",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        215.43,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "LC/HSBC/0747/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        389.76,
+        148.82,
+        174.33,
+        18.43
+      ],
+      "value": "MSCUNLTDR806111099",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        41.1,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        215.43,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        389.76,
+        177.17,
+        174.33,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        211.18,
+        522.99,
+        52.44
+      ],
+      "value": "PREMIER ENTERPRISES LLC\nPREMIER ENTERPRISES LLC\n263 INDUSTRIAL AVENUE\nSHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        41.1,
+        263.62,
+        522.99,
+        52.44
+      ],
+      "value": "PACIFIC SOLUTIONS LLC\nPACIFIC SOLUTIONS LLC\n98 MAIN BOULEVARD\nLOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        331.65,
+        303.34,
+        56.69
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        344.44,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        454.27,
+        341.57,
+        109.83,
+        18.43
+      ],
+      "value": 367,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        344.44,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        454.27,
+        369.92,
+        109.83,
+        18.43
+      ],
+      "value": "190.35 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        328.75,
+        394.02,
+        235.35,
+        25.51
+      ],
+      "value": "69858.45 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        446.42,
+        433.7,
+        117.67,
+        19.84
+      ],
+      "value": "26,936.65 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        446.42,
+        453.54,
+        117.67,
+        19.84
+      ],
+      "value": "69858.45 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        215.43,
+        491.81,
+        174.33,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

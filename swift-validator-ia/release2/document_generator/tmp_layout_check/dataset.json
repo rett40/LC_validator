@@ -1,0 +1,980 @@
+{
+  "metadata": {
+    "total_documents": 4,
+    "carriers": [
+      "msc",
+      "maersk",
+      "cmacgm",
+      "hapaglloyd"
+    ],
+    "distribution": {
+      "msc": 1,
+      "maersk": 1,
+      "cmacgm": 1,
+      "hapaglloyd": 1
+    },
+    "generation_date": "2026-04-20T17:33:09.021713",
+    "fixes_applied": [
+      "ETA always >= ETD + transit time",
+      "ASCII-only addresses (en_US Faker)",
+      "Cargo table column separators drawn",
+      "TYPE and PKGS in separate columns",
+      "place_of_receipt/delivery coherent with POL/POD",
+      "BL number annotated in header band"
+    ],
+    "bbox_format": "[x, y, width, height]",
+    "coordinate_system": "PDF points, origin bottom-left"
+  },
+  "documents": [
+    {
+      "id": 1,
+      "filename": "bl_msc_0001_MSCUNWWJL813676065.pdf",
+      "carrier": "msc",
+      "bl_number": "MSCUNWWJL813676065",
+      "fields": {
+        "bl_number": "MSCUNWWJL813676065",
+        "shipper_name": "INTERNATIONAL COMMERCE GMBH",
+        "consignee_name": "CENTRAL COMMERCE AG",
+        "notify_party": "UNITED INDUSTRIES LTD",
+        "vessel": "MSC OSCAR",
+        "voyage": "FE754N",
+        "port_of_loading": "SHANGHAI, CHINA",
+        "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+        "place_of_receipt": "SHANGHAI CFS",
+        "place_of_delivery": "ROTTERDAM CY",
+        "etd": "27 APR 2026",
+        "eta": "01 JUN 2026",
+        "container_number": "MAEU3332041",
+        "container_type": "40' DRY",
+        "seal_number": "9G163724",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "gross_weight_kg": "11,391.04",
+        "measurement": "27.843 CBM",
+        "packages": "400 PACKAGES",
+        "freight_terms": "FREIGHT PREPAID",
+        "issue_date": "13 APR 2026",
+        "issue_place": "SINGAPORE",
+        "number_of_originals": "ONE (1)",
+        "service_type": "CY/CFS"
+      },
+      "bbox_annotations": [
+        {
+          "field": "bl_number",
+          "bbox": [
+            28.35,
+            79.37,
+            226.77,
+            17.01
+          ],
+          "value": "MSCUNWWJL813676065",
+          "page": 1
+        },
+        {
+          "field": "shipper_name",
+          "bbox": [
+            28.35,
+            116.88,
+            269.29,
+            73.04
+          ],
+          "value": "INTERNATIONAL COMMERCE GMBH\n617 MAIN STREET\nLOS ANGELES, USA CA 90001",
+          "page": 1
+        },
+        {
+          "field": "consignee_name",
+          "bbox": [
+            297.64,
+            116.88,
+            269.29,
+            73.04
+          ],
+          "value": "CENTRAL COMMERCE AG\n226 TRADE PARK\nDUBAI, UAE 00000",
+          "page": 1
+        },
+        {
+          "field": "notify_party",
+          "bbox": [
+            28.35,
+            201.92,
+            269.29,
+            73.04
+          ],
+          "value": "UNITED INDUSTRIES LTD\n715 TRADE PARK\nHAMBURG, GERMANY 20095",
+          "page": 1
+        },
+        {
+          "field": "vessel",
+          "bbox": [
+            297.64,
+            201.92,
+            134.65,
+            30.52
+          ],
+          "value": "MSC OSCAR",
+          "page": 1
+        },
+        {
+          "field": "voyage",
+          "bbox": [
+            432.28,
+            201.92,
+            134.65,
+            30.52
+          ],
+          "value": "FE754N",
+          "page": 1
+        },
+        {
+          "field": "port_of_loading",
+          "bbox": [
+            297.64,
+            244.44,
+            134.65,
+            30.52
+          ],
+          "value": "SHANGHAI, CHINA",
+          "page": 1
+        },
+        {
+          "field": "port_of_discharge",
+          "bbox": [
+            432.28,
+            244.44,
+            134.65,
+            30.52
+          ],
+          "value": "ROTTERDAM, NETHERLANDS",
+          "page": 1
+        },
+        {
+          "field": "place_of_receipt",
+          "bbox": [
+            28.35,
+            286.96,
+            134.65,
+            22.02
+          ],
+          "value": "SHANGHAI CFS",
+          "page": 1
+        },
+        {
+          "field": "place_of_delivery",
+          "bbox": [
+            162.99,
+            286.96,
+            134.65,
+            22.02
+          ],
+          "value": "ROTTERDAM CY",
+          "page": 1
+        },
+        {
+          "field": "etd",
+          "bbox": [
+            297.64,
+            286.96,
+            134.65,
+            22.02
+          ],
+          "value": "27 APR 2026",
+          "page": 1
+        },
+        {
+          "field": "eta",
+          "bbox": [
+            432.28,
+            286.96,
+            134.65,
+            22.02
+          ],
+          "value": "01 JUN 2026",
+          "page": 1
+        },
+        {
+          "field": "container_number",
+          "bbox": [
+            28.35,
+            331.65,
+            85.04,
+            51.02
+          ],
+          "value": "MAEU3332041",
+          "page": 1
+        },
+        {
+          "field": "seal_number",
+          "bbox": [
+            113.39,
+            331.65,
+            56.69,
+            51.02
+          ],
+          "value": "9G163724",
+          "page": 1
+        },
+        {
+          "field": "container_type",
+          "bbox": [
+            170.08,
+            331.65,
+            70.87,
+            51.02
+          ],
+          "value": "40' DRY",
+          "page": 1
+        },
+        {
+          "field": "gross_weight_kg",
+          "bbox": [
+            425.2,
+            331.65,
+            79.37,
+            51.02
+          ],
+          "value": "11,391.04",
+          "page": 1
+        },
+        {
+          "field": "measurement",
+          "bbox": [
+            504.57,
+            331.65,
+            62.36,
+            51.02
+          ],
+          "value": "27.843 CBM",
+          "page": 1
+        },
+        {
+          "field": "freight_&_charges",
+          "bbox": [
+            28.35,
+            403.18,
+            179.53,
+            30.52
+          ],
+          "value": "FREIGHT PREPAID",
+          "page": 1
+        },
+        {
+          "field": "number_of_original_b/l",
+          "bbox": [
+            207.87,
+            403.18,
+            179.53,
+            30.52
+          ],
+          "value": "ONE (1)",
+          "page": 1
+        },
+        {
+          "field": "service_type",
+          "bbox": [
+            387.4,
+            403.18,
+            179.53,
+            30.52
+          ],
+          "value": "CY/CFS",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filename": "bl_maersk_0002_MAEUZUMC685131999.pdf",
+      "carrier": "maersk",
+      "bl_number": "MAEUZUMC685131999",
+      "fields": {
+        "bl_number": "MAEUZUMC685131999",
+        "shipper_name": "PREMIER SHIPPING S.A.",
+        "consignee_name": "CENTRAL PARTNERS S.A.",
+        "notify_party": "UNITED ENTERPRISES CO.",
+        "vessel": "OOCL HONG KONG",
+        "voyage": "0316S",
+        "port_of_loading": "MUMBAI, INDIA",
+        "port_of_discharge": "JEBEL ALI, UAE",
+        "place_of_receipt": "MUMBAI CY",
+        "place_of_delivery": "JEBEL ALI CFS",
+        "etd": "22 MAY 2026",
+        "eta": "10 JUN 2026",
+        "container_number": "CMAU7403958",
+        "container_type": "20' TANK",
+        "seal_number": "7A441E3C",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "gross_weight_kg": "7,090.92",
+        "measurement": "43.453 CBM",
+        "packages": "66 CARTONS",
+        "freight_terms": "PREPAID",
+        "issue_date": "17 APR 2026",
+        "issue_place": "ROTTERDAM",
+        "number_of_originals": "TWO (2)",
+        "service_type": "CY/CFS"
+      },
+      "bbox_annotations": [
+        {
+          "field": "bl_number",
+          "bbox": [
+            297.64,
+            69.45,
+            269.29,
+            15.59
+          ],
+          "value": "MAEUZUMC685131999",
+          "page": 1
+        },
+        {
+          "field": "shipper",
+          "bbox": [
+            28.35,
+            105.45,
+            269.29,
+            67.46
+          ],
+          "value": "PREMIER SHIPPING S.A.\n253 PORT ACCESS ROAD\nHAMBURG, GERMANY 20095",
+          "page": 1
+        },
+        {
+          "field": "consignee",
+          "bbox": [
+            297.64,
+            105.45,
+            269.29,
+            67.46
+          ],
+          "value": "CENTRAL PARTNERS S.A.\n599 TRADE PARK\nBUSAN, SOUTH KOREA 48940",
+          "page": 1
+        },
+        {
+          "field": "notify_party",
+          "bbox": [
+            28.35,
+            184.82,
+            269.29,
+            67.46
+          ],
+          "value": "UNITED ENTERPRISES CO.\n142 COMMERCE BOULEVARD\nROTTERDAM, NETHERLANDS 3011 AA",
+          "page": 1
+        },
+        {
+          "field": "vessel",
+          "bbox": [
+            297.64,
+            184.82,
+            134.65,
+            27.78
+          ],
+          "value": "OOCL HONG KONG",
+          "page": 1
+        },
+        {
+          "field": "voyage_no.",
+          "bbox": [
+            432.28,
+            184.82,
+            134.65,
+            27.78
+          ],
+          "value": "0316S",
+          "page": 1
+        },
+        {
+          "field": "port_of_loading",
+          "bbox": [
+            297.64,
+            224.5,
+            134.65,
+            27.78
+          ],
+          "value": "MUMBAI, INDIA",
+          "page": 1
+        },
+        {
+          "field": "port_of_discharge",
+          "bbox": [
+            432.28,
+            224.5,
+            134.65,
+            27.78
+          ],
+          "value": "JEBEL ALI, UAE",
+          "page": 1
+        },
+        {
+          "field": "place_of_receipt",
+          "bbox": [
+            28.35,
+            264.19,
+            134.65,
+            22.11
+          ],
+          "value": "MUMBAI CY",
+          "page": 1
+        },
+        {
+          "field": "place_of_delivery",
+          "bbox": [
+            162.99,
+            264.19,
+            134.65,
+            22.11
+          ],
+          "value": "JEBEL ALI CFS",
+          "page": 1
+        },
+        {
+          "field": "etd",
+          "bbox": [
+            297.64,
+            264.19,
+            134.65,
+            22.11
+          ],
+          "value": "22 MAY 2026",
+          "page": 1
+        },
+        {
+          "field": "eta",
+          "bbox": [
+            432.28,
+            264.19,
+            134.65,
+            22.11
+          ],
+          "value": "10 JUN 2026",
+          "page": 1
+        },
+        {
+          "field": "container_number",
+          "bbox": [
+            28.35,
+            306.14,
+            99.21,
+            51.02
+          ],
+          "value": "CMAU7403958",
+          "page": 1
+        },
+        {
+          "field": "gross_weight_kg",
+          "bbox": [
+            399.69,
+            306.14,
+            90.71,
+            51.02
+          ],
+          "value": "7,090.92",
+          "page": 1
+        },
+        {
+          "field": "freight_payable_at",
+          "bbox": [
+            28.35,
+            377.57,
+            179.53,
+            30.61
+          ],
+          "value": "PREPAID",
+          "page": 1
+        },
+        {
+          "field": "no._of_original_b/l",
+          "bbox": [
+            207.87,
+            377.57,
+            179.53,
+            30.61
+          ],
+          "value": "TWO (2)",
+          "page": 1
+        },
+        {
+          "field": "date_and_place_of_issue",
+          "bbox": [
+            387.4,
+            377.57,
+            179.53,
+            30.61
+          ],
+          "value": "17 APR 2026, ROTTERDAM",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "filename": "bl_cmacgm_0003_CMAUJKWB660781151.pdf",
+      "carrier": "cmacgm",
+      "bl_number": "CMAUJKWB660781151",
+      "fields": {
+        "bl_number": "CMAUJKWB660781151",
+        "shipper_name": "CENTRAL SUPPLY CHAIN CORP",
+        "consignee_name": "DELTA COMMERCE S.A.",
+        "notify_party": "TRANS GROUP AG",
+        "vessel": "CMA CGM JULES VERNE",
+        "voyage": "0187W",
+        "port_of_loading": "BUSAN, SOUTH KOREA",
+        "port_of_discharge": "FELIXSTOWE, UK",
+        "place_of_receipt": "BUSAN CY",
+        "place_of_delivery": "FELIXSTOWE CFS",
+        "etd": "21 MAY 2026",
+        "eta": "10 JUN 2026",
+        "container_number": "HLCU0700038",
+        "container_type": "45' HIGH CUBE",
+        "seal_number": "E4DC8206",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "gross_weight_kg": "6,472.60",
+        "measurement": "33.370 CBM",
+        "packages": "293 CARTONS",
+        "freight_terms": "COLLECT",
+        "issue_date": "11 APR 2026",
+        "issue_place": "SINGAPORE",
+        "number_of_originals": "TWO (2)",
+        "service_type": "CY/CY"
+      },
+      "bbox_annotations": [
+        {
+          "field": "bl_number",
+          "bbox": [
+            28.35,
+            70.87,
+            226.77,
+            19.84
+          ],
+          "value": "CMAUJKWB660781151",
+          "page": 1
+        },
+        {
+          "field": "shipper",
+          "bbox": [
+            28.35,
+            109.98,
+            269.29,
+            68.6
+          ],
+          "value": "CENTRAL SUPPLY CHAIN CORP\n952 COMMERCE BOULEVARD\nROTTERDAM, NETHERLANDS 3011 AA",
+          "page": 1
+        },
+        {
+          "field": "consignee_(to_order_of)",
+          "bbox": [
+            297.64,
+            109.98,
+            269.29,
+            68.6
+          ],
+          "value": "DELTA COMMERCE S.A.\n688 PORT ACCESS ROAD\nDUBAI, UAE 00000",
+          "page": 1
+        },
+        {
+          "field": "notify_party",
+          "bbox": [
+            28.35,
+            189.35,
+            269.29,
+            68.6
+          ],
+          "value": "TRANS GROUP AG\n124 HARBOR ROAD\nSHANGHAI, CHINA 200120",
+          "page": 1
+        },
+        {
+          "field": "vessel",
+          "bbox": [
+            297.64,
+            189.35,
+            134.65,
+            28.91
+          ],
+          "value": "CMA CGM JULES VERNE",
+          "page": 1
+        },
+        {
+          "field": "voyage",
+          "bbox": [
+            432.28,
+            189.35,
+            134.65,
+            28.91
+          ],
+          "value": "0187W",
+          "page": 1
+        },
+        {
+          "field": "port_of_loading",
+          "bbox": [
+            297.64,
+            229.04,
+            134.65,
+            28.91
+          ],
+          "value": "BUSAN, SOUTH KOREA",
+          "page": 1
+        },
+        {
+          "field": "port_of_discharge",
+          "bbox": [
+            432.28,
+            229.04,
+            134.65,
+            28.91
+          ],
+          "value": "FELIXSTOWE, UK",
+          "page": 1
+        },
+        {
+          "field": "place_of_receipt",
+          "bbox": [
+            28.35,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "BUSAN CY",
+          "page": 1
+        },
+        {
+          "field": "place_of_delivery",
+          "bbox": [
+            162.99,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "FELIXSTOWE CFS",
+          "page": 1
+        },
+        {
+          "field": "etd",
+          "bbox": [
+            297.64,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "21 MAY 2026",
+          "page": 1
+        },
+        {
+          "field": "eta",
+          "bbox": [
+            432.28,
+            268.72,
+            134.65,
+            23.24
+          ],
+          "value": "10 JUN 2026",
+          "page": 1
+        },
+        {
+          "field": "container_number",
+          "bbox": [
+            28.35,
+            314.65,
+            85.04,
+            51.02
+          ],
+          "value": "HLCU0700038",
+          "page": 1
+        },
+        {
+          "field": "seal_number",
+          "bbox": [
+            113.39,
+            314.65,
+            56.69,
+            51.02
+          ],
+          "value": "E4DC8206",
+          "page": 1
+        },
+        {
+          "field": "container_type",
+          "bbox": [
+            170.08,
+            314.65,
+            51.02,
+            51.02
+          ],
+          "value": "45' HIGH CUBE",
+          "page": 1
+        },
+        {
+          "field": "gross_weight_kg",
+          "bbox": [
+            413.86,
+            314.65,
+            79.37,
+            51.02
+          ],
+          "value": "6,472.60",
+          "page": 1
+        },
+        {
+          "field": "measurement",
+          "bbox": [
+            493.23,
+            314.65,
+            73.7,
+            51.02
+          ],
+          "value": "33.370 CBM",
+          "page": 1
+        },
+        {
+          "field": "freight_terms",
+          "bbox": [
+            28.35,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "COLLECT",
+          "page": 1
+        },
+        {
+          "field": "originals_issued",
+          "bbox": [
+            207.87,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "TWO (2)",
+          "page": 1
+        },
+        {
+          "field": "service",
+          "bbox": [
+            387.4,
+            384.94,
+            179.53,
+            28.91
+          ],
+          "value": "CY/CY",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "filename": "bl_hapaglloyd_0004_HLCUKSGH704990229.pdf",
+      "carrier": "hapaglloyd",
+      "bl_number": "HLCUKSGH704990229",
+      "fields": {
+        "bl_number": "HLCUKSGH704990229",
+        "shipper_name": "FIRST INDUSTRIES PLC",
+        "consignee_name": "DELTA PARTNERS PLC",
+        "notify_party": "ATLANTIC TRADING BV",
+        "vessel": "OOCL HONG KONG",
+        "voyage": "0318W",
+        "port_of_loading": "SHANGHAI, CHINA",
+        "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+        "place_of_receipt": "SHANGHAI CY",
+        "place_of_delivery": "ROTTERDAM CFS",
+        "etd": "11 MAY 2026",
+        "eta": "31 MAY 2026",
+        "container_number": "CMAU0580086",
+        "container_type": "40' FLAT RACK",
+        "seal_number": "C8E23H21",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "gross_weight_kg": "12,212.91",
+        "measurement": "62.205 CBM",
+        "packages": "254 DRUMS",
+        "freight_terms": "AS ARRANGED",
+        "issue_date": "15 APR 2026",
+        "issue_place": "SHANGHAI",
+        "number_of_originals": "THREE (3)",
+        "service_type": "CFS/CFS"
+      },
+      "bbox_annotations": [
+        {
+          "field": "bl_number",
+          "bbox": [
+            28.35,
+            87.87,
+            226.77,
+            14.17
+          ],
+          "value": "HLCUKSGH704990229",
+          "page": 1
+        },
+        {
+          "field": "shipper",
+          "bbox": [
+            28.35,
+            120.47,
+            269.29,
+            69.45
+          ],
+          "value": "FIRST INDUSTRIES PLC\n434 PORT ACCESS ROAD\nSINGAPORE, SINGAPORE 018989",
+          "page": 1
+        },
+        {
+          "field": "consignee",
+          "bbox": [
+            297.64,
+            120.47,
+            269.29,
+            69.45
+          ],
+          "value": "DELTA PARTNERS PLC\n195 INDUSTRIAL AVENUE\nHAMBURG, GERMANY 20095",
+          "page": 1
+        },
+        {
+          "field": "notify_party",
+          "bbox": [
+            28.35,
+            199.84,
+            269.29,
+            69.45
+          ],
+          "value": "ATLANTIC TRADING BV\n556 MAIN STREET\nBUSAN, SOUTH KOREA 48940",
+          "page": 1
+        },
+        {
+          "field": "vessel",
+          "bbox": [
+            297.64,
+            199.84,
+            134.65,
+            29.76
+          ],
+          "value": "OOCL HONG KONG",
+          "page": 1
+        },
+        {
+          "field": "voyage",
+          "bbox": [
+            432.28,
+            199.84,
+            134.65,
+            29.76
+          ],
+          "value": "0318W",
+          "page": 1
+        },
+        {
+          "field": "port_of_loading",
+          "bbox": [
+            297.64,
+            239.53,
+            134.65,
+            29.76
+          ],
+          "value": "SHANGHAI, CHINA",
+          "page": 1
+        },
+        {
+          "field": "port_of_discharge",
+          "bbox": [
+            432.28,
+            239.53,
+            134.65,
+            29.76
+          ],
+          "value": "ROTTERDAM, NETHERLANDS",
+          "page": 1
+        },
+        {
+          "field": "place_of_receipt",
+          "bbox": [
+            28.35,
+            279.21,
+            134.65,
+            24.09
+          ],
+          "value": "SHANGHAI CY",
+          "page": 1
+        },
+        {
+          "field": "place_of_delivery",
+          "bbox": [
+            162.99,
+            279.21,
+            134.65,
+            24.09
+          ],
+          "value": "ROTTERDAM CFS",
+          "page": 1
+        },
+        {
+          "field": "etd",
+          "bbox": [
+            297.64,
+            279.21,
+            134.65,
+            24.09
+          ],
+          "value": "11 MAY 2026",
+          "page": 1
+        },
+        {
+          "field": "eta",
+          "bbox": [
+            432.28,
+            279.21,
+            134.65,
+            24.09
+          ],
+          "value": "31 MAY 2026",
+          "page": 1
+        },
+        {
+          "field": "container_number",
+          "bbox": [
+            28.35,
+            325.98,
+            85.04,
+            51.02
+          ],
+          "value": "CMAU0580086",
+          "page": 1
+        },
+        {
+          "field": "gross_weight_kg",
+          "bbox": [
+            413.86,
+            325.98,
+            79.37,
+            51.02
+          ],
+          "value": "12,212.91",
+          "page": 1
+        },
+        {
+          "field": "freight_payable_at",
+          "bbox": [
+            28.35,
+            395.43,
+            179.53,
+            29.76
+          ],
+          "value": "AS ARRANGED",
+          "page": 1
+        },
+        {
+          "field": "no._of_original_b/l",
+          "bbox": [
+            207.87,
+            395.43,
+            179.53,
+            29.76
+          ],
+          "value": "THREE (3)",
+          "page": 1
+        },
+        {
+          "field": "date_of_issue",
+          "bbox": [
+            387.4,
+            395.43,
+            179.53,
+            29.76
+          ],
+          "value": "15 APR 2026",
+          "page": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "id": 937,
+  "filename": "bl_bl-24_00937_MSCUNAVTC595038214.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNAVTC595038214",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNAVTC595038214",
+    "shipper_name": "TRANS COMMERCE S.A.",
+    "shipper_address": "866 HARBOR ROAD",
+    "consignee_name": "GLOBAL ENTERPRISES CORP",
+    "consignee_address": "415 MAIN STREET",
+    "notify_party_name": "EURO SOLUTIONS INC",
+    "notify_party_address": "430 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS968S",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "14 JUN 2026",
+    "eta": "13 JUL 2026",
+    "container_number": "MSCU8318518",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "5E51DA8E",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": "401 CARTONS",
+    "gross_weight_kg": "56,467.76",
+    "measurement": "140.010 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU8318518",
+        "seal_number": "5E51DA8E",
+        "container_type": "20' FLAT RACK",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "401",
+          "type": "CARTONS",
+          "description": "401 CARTONS"
+        },
+        "gross_weight_kg": "10,023.64",
+        "net_weight_kg": "6,959.04",
+        "measurement": "49.760 CBM"
+      },
+      {
+        "container_number": "MAEU6925744",
+        "seal_number": "3H2DCEG4",
+        "container_type": "40'DC",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "226",
+          "type": "BAGS",
+          "description": "226 BAGS"
+        },
+        "gross_weight_kg": "18,533.84",
+        "net_weight_kg": "14,860.17",
+        "measurement": "25.865 CBM"
+      },
+      {
+        "container_number": "MAEU9562323",
+        "seal_number": "28G4B6D0",
+        "container_type": "40' DRY",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "460",
+          "type": "PALLETS",
+          "description": "460 PALLETS"
+        },
+        "gross_weight_kg": "27,910.28",
+        "net_weight_kg": "24,576.53",
+        "measurement": "64.385 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNAVTC595038214",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        132.03,
+        106.3,
+        73.48,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        282.52,
+        106.3,
+        107.24,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        415.94,
+        106.3,
+        158.08,
+        28.35
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        82.03,
+        134.65,
+        123.48,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        279.2,
+        134.65,
+        110.57,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "MSCU8318518",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "5E51DA8E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '401', 'type': 'CARTONS', 'description': '401 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "10,023.64",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "49.760 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU6925744",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "3H2DCEG4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '226', 'type': 'BAGS', 'description': '226 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "18,533.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "25.865 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU9562323",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "28G4B6D0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '460', 'type': 'PALLETS', 'description': '460 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "27,910.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "64.385 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.37,
+        303.31,
+        120.14,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        243.36,
+        303.31,
+        146.4,
+        34.02
+      ],
+      "value": "CS968S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        452.61,
+        303.31,
+        121.4,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        107.44,
+        337.32,
+        98.07,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        267.94,
+        337.32,
+        121.82,
+        34.02
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        457.2,
+        337.32,
+        116.81,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        95.77,
+        371.34,
+        109.74,
+        34.02
+      ],
+      "value": "14 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        226.27,
+        371.34,
+        163.49,
+        34.02
+      ],
+      "value": "13 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "866 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "TRANS COMMERCE S.A.\n866 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "415 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "GLOBAL ENTERPRISES CORP\n415 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "430 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "EURO SOLUTIONS INC\n430 PORT ACCESS ROAD",
+      "page": 1
+    }
+  ]
+}

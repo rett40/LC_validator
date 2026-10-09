@@ -1,0 +1,500 @@
+{
+  "id": 1010,
+  "filename": "bl_bl-26_01010_MSCUNMFZM246878387.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNMFZM246878387",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNMFZM246878387",
+    "shipper_name": "DELTA COMMERCE INC",
+    "shipper_address": "622 PORT ACCESS ROAD",
+    "consignee_name": "PACIFIC COMMERCE INC",
+    "consignee_address": "422 TRADE PARK",
+    "notify_party_name": "PREMIER SHIPPING INC",
+    "notify_party_address": "695 TRADE PARK",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS562N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CFS",
+    "etd": "18 MAY 2026",
+    "eta": "16 JUN 2026",
+    "container_number": "MSCU4641879",
+    "container_type": "20' DRY / GP",
+    "seal_number": "G707H4H5",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "95 CRATES",
+    "gross_weight_kg": "43,750.74",
+    "measurement": "122.718 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU4641879",
+        "seal_number": "G707H4H5",
+        "container_type": "20' DRY / GP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "95",
+          "type": "CRATES",
+          "description": "95 CRATES"
+        },
+        "gross_weight_kg": "10,125.82",
+        "net_weight_kg": "7,696.94",
+        "measurement": "24.955 CBM"
+      },
+      {
+        "container_number": "HLCU7951830",
+        "seal_number": "FH0751E4",
+        "container_type": "40'RF",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "340",
+          "type": "DRUMS",
+          "description": "340 DRUMS"
+        },
+        "gross_weight_kg": "24,882.18",
+        "net_weight_kg": "22,833.24",
+        "measurement": "58.642 CBM"
+      },
+      {
+        "container_number": "MSCU7445222",
+        "seal_number": "3BHEA676",
+        "container_type": "40' DRY",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "337",
+          "type": "PALLETS",
+          "description": "337 PALLETS"
+        },
+        "gross_weight_kg": "8,742.74",
+        "net_weight_kg": "5,845.01",
+        "measurement": "39.121 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNMFZM246878387",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        160.71,
+        75.12,
+        10.0,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        252.84,
+        75.12,
+        43.39,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        325.62,
+        75.12,
+        101.0,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        478.21,
+        75.12,
+        78.8,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        120.1,
+        103.46,
+        45.73,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "DELTA COMMERCE INC\n622 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "PACIFIC COMMERCE INC\n422 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "PREMIER SHIPPING INC\n695 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        107.82,
+        256.54,
+        58.01,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        208.46,
+        256.54,
+        87.76,
+        34.02
+      ],
+      "value": "CS562N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        367.18,
+        256.54,
+        59.43,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        516.46,
+        256.54,
+        40.55,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        123.4,
+        290.55,
+        42.42,
+        34.02
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        256.15,
+        290.55,
+        40.07,
+        34.02
+      ],
+      "value": "HAMBURG CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        376.62,
+        290.55,
+        49.99,
+        34.02
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        449.87,
+        290.55,
+        107.14,
+        34.02
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU4641879",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "G707H4H5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '95', 'type': 'CRATES', 'description': '95 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "10,125.82",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "24.955 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU7951830",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "FH0751E4",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '340', 'type': 'DRUMS', 'description': '340 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "24,882.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "58.642 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        422.36,
+        88.67,
+        36.85
+      ],
+      "value": "MSCU7445222",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "3BHEA676",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        422.36,
+        41.73,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        422.36,
+        130.39,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '337', 'type': 'PALLETS', 'description': '337 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "8,742.74",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "39.121 CBM",
+      "page": 1
+    }
+  ]
+}

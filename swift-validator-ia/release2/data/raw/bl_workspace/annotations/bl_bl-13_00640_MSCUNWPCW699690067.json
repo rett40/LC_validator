@@ -1,0 +1,533 @@
+{
+  "id": 640,
+  "filename": "bl_bl-13_00640_MSCUNWPCW699690067.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNWPCW699690067",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNWPCW699690067",
+    "shipper_name": "FIRST ENTERPRISES LLC",
+    "shipper_address": "647 PORT ACCESS ROAD",
+    "consignee_name": "FIRST INDUSTRIES PLC",
+    "consignee_address": "321 COMMERCE BOULEVARD",
+    "notify_party_name": "EURO TRADING S.A.",
+    "notify_party_address": "905 MAIN STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS102W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CY",
+    "place_of_delivery": "LONG BEACH CY",
+    "etd": "03 JUN 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "MAEU3024057",
+    "container_type": "20' REEFER",
+    "seal_number": "3G2G40D3",
+    "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+    "packages": "271 CARTONS",
+    "gross_weight_kg": "51,319.85",
+    "measurement": "86.785 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3024057",
+        "seal_number": "3G2G40D3",
+        "container_type": "20' REEFER",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "271",
+          "type": "CARTONS",
+          "description": "271 CARTONS"
+        },
+        "gross_weight_kg": "20,144.57",
+        "net_weight_kg": "17,798.74",
+        "measurement": "27.173 CBM"
+      },
+      {
+        "container_number": "MAEU5404634",
+        "seal_number": "70HH84B6",
+        "container_type": "20' DRY",
+        "commodity": "FURNITURE AND PARTS THEREOF",
+        "packages": {
+          "count": "274",
+          "type": "CRATES",
+          "description": "274 CRATES"
+        },
+        "gross_weight_kg": "10,203.17",
+        "net_weight_kg": "7,765.62",
+        "measurement": "39.422 CBM"
+      },
+      {
+        "container_number": "OOLU2319479",
+        "seal_number": "H8AHCB9B",
+        "container_type": "20' OPEN TOP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "111",
+          "type": "CARTONS",
+          "description": "111 CARTONS"
+        },
+        "gross_weight_kg": "20,972.11",
+        "net_weight_kg": "17,752.05",
+        "measurement": "20.190 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "25 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNWPCW699690067",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "647 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "FIRST ENTERPRISES LLC\n647 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "321 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "FIRST INDUSTRIES PLC\n321 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "905 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "EURO TRADING S.A.\n905 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "CS102W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "TOKYO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "LONG BEACH CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        283.46,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3024057",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "3G2G40D3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        283.46,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        283.46,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '271', 'type': 'CARTONS', 'description': '271 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "20,144.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "27.173 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        320.31,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU5404634",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "70HH84B6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        320.31,
+        43.09,
+        36.85
+      ],
+      "value": "20' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        320.31,
+        134.65,
+        36.85
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '274', 'type': 'CRATES', 'description': '274 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "10,203.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "39.422 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        357.17,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU2319479",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "H8AHCB9B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        357.17,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        357.17,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        357.17,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '111', 'type': 'CARTONS', 'description': '111 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "20,972.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        357.17,
+        80.79,
+        36.85
+      ],
+      "value": "20.190 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "25 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        409.61,
+        134.65,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        437.95,
+        134.65,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

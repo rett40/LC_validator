@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00052",
+  "filename": "inv_inv-02_00052.pdf",
+  "layout_id": "INV-02",
+  "bl_id": 52,
+  "fields": {
+    "invoice_number": "INV-2026-00052",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0052/2026",
+    "bl_reference": "MSCUNRRBN353616997",
+    "seller_name": "TRANS TRADING S.A.",
+    "buyer_name": "UNITED SUPPLY CHAIN INC",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5710",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "CONSTRUCTION MATERIALS NEC",
+    "hs_code": "6810.19",
+    "quantity": 214,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "23,654.71",
+    "unit_price": 36.26,
+    "currency": "GBP",
+    "total_amount": 7759.64,
+    "incoterm": "CFR",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "INV-2026-00052",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        121.89,
+        260.79,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        296.22,
+        121.89,
+        260.79,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0052/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        150.24,
+        260.79,
+        18.43
+      ],
+      "value": "MSCUNRRBN353616997",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        150.24,
+        260.79,
+        18.43
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        178.58,
+        260.79,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        296.22,
+        178.58,
+        260.79,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        205.51,
+        323.38,
+        79.37
+      ],
+      "value": "TRANS TRADING S.A.\nTRANS TRADING S.A.\n237 HARBOR ROAD\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        205.51,
+        198.2,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN INC\nUNITED SUPPLY CHAIN INC\n711 TRADE PARK\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        308.98,
+        166.9,
+        42.52
+      ],
+      "value": "CONSTRUCTION MATERIALS NEC",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        308.98,
+        62.59,
+        42.52
+      ],
+      "value": "6810.19",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        308.98,
+        52.16,
+        42.52
+      ],
+      "value": "214",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        308.98,
+        52.16,
+        42.52
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        308.98,
+        93.88,
+        42.52
+      ],
+      "value": "36.26 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        308.98,
+        93.88,
+        42.52
+      ],
+      "value": "7759.64 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        360.0,
+        117.35,
+        19.84
+      ],
+      "value": "23,654.71 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        379.84,
+        117.35,
+        19.84
+      ],
+      "value": "7759.64 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        418.11,
+        260.79,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        418.11,
+        260.79,
+        15.59
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "BUILDING MATERIALS",
+      "actual": "CONSTRUCTION MATERIALS NEC"
+    }
+  ]
+}

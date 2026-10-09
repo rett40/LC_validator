@@ -1,0 +1,512 @@
+{
+  "id": 724,
+  "filename": "bl_bl-19_00724_MSCUNULDN106751772.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNULDN106751772",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNULDN106751772",
+    "shipper_name": "PREMIER LOGISTICS CO.",
+    "shipper_address": "758 COMMERCE BOULEVARD",
+    "consignee_name": "UNITED GROUP PLC",
+    "consignee_address": "847 MAIN STREET",
+    "notify_party_name": "UNITED INDUSTRIES S.A.",
+    "notify_party_address": "638 INDUSTRIAL AVENUE",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-870",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "02 JUN 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "TCKU4392816",
+    "container_type": "20'OT",
+    "seal_number": "EA7EG9DD",
+    "commodity": "REFINED OLIVE OIL",
+    "packages": "324 CRATES",
+    "gross_weight_kg": "31,468.94",
+    "measurement": "145.664 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU4392816",
+        "seal_number": "EA7EG9DD",
+        "container_type": "20'OT",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "324",
+          "type": "CRATES",
+          "description": "324 CRATES"
+        },
+        "gross_weight_kg": "6,806.52",
+        "net_weight_kg": "4,729.23",
+        "measurement": "39.473 CBM"
+      },
+      {
+        "container_number": "TCKU1528826",
+        "seal_number": "BHB9E232",
+        "container_type": "40' REEFER",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "176",
+          "type": "CRATES",
+          "description": "176 CRATES"
+        },
+        "gross_weight_kg": "9,381.02",
+        "net_weight_kg": "6,066.38",
+        "measurement": "50.846 CBM"
+      },
+      {
+        "container_number": "MSCU3780748",
+        "seal_number": "196AC23A",
+        "container_type": "40' REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "417",
+          "type": "PALLETS",
+          "description": "417 PALLETS"
+        },
+        "gross_weight_kg": "15,281.40",
+        "net_weight_kg": "11,380.54",
+        "measurement": "55.345 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "MSCUNULDN106751772",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        138.9,
+        522.99,
+        55.28
+      ],
+      "value": "PREMIER LOGISTICS CO.\n758 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        41.1,
+        194.17,
+        522.99,
+        55.28
+      ],
+      "value": "UNITED GROUP PLC\n847 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        249.45,
+        522.99,
+        55.28
+      ],
+      "value": "UNITED INDUSTRIES S.A.\n638 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        215.43,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "E-870",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        389.76,
+        330.24,
+        174.33,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        41.1,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        215.43,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.76,
+        364.25,
+        174.33,
+        24.09
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        41.1,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        215.43,
+        398.27,
+        174.33,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "TCKU4392816",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "EA7EG9DD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "324",
+        "type": "CRATES",
+        "description": "324 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "6,806.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "39.473 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        305.15,
+        440.79,
+        258.94,
+        12.76
+      ],
+      "value": "TCKU1528826",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        338.5,
+        458.65,
+        116.53,
+        6.8
+      ],
+      "value": "BHB9E232",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        338.5,
+        467.72,
+        116.53,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        338.5,
+        476.79,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "176",
+        "type": "CRATES",
+        "description": "176 CRATES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        338.5,
+        485.86,
+        116.53,
+        6.8
+      ],
+      "value": "9,381.02",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        338.5,
+        494.93,
+        116.53,
+        6.8
+      ],
+      "value": "50.846 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        447.57,
+        458.43,
+        103.58,
+        31.96
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        504.0,
+        258.94,
+        12.76
+      ],
+      "value": "MSCU3780748",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        521.86,
+        116.53,
+        6.8
+      ],
+      "value": "196AC23A",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        530.93,
+        116.53,
+        6.8
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        540.0,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "417",
+        "type": "PALLETS",
+        "description": "417 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        549.07,
+        116.53,
+        6.8
+      ],
+      "value": "15,281.40",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        558.14,
+        116.53,
+        6.8
+      ],
+      "value": "55.345 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        521.65,
+        103.58,
+        31.96
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        215.43,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        389.76,
+        588.47,
+        174.33,
+        18.43
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        41.1,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        215.43,
+        616.82,
+        174.33,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

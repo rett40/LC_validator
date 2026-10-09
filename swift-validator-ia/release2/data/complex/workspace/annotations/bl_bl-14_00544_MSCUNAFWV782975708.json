@@ -1,0 +1,318 @@
+{
+  "id": 544,
+  "filename": "bl_bl-14_00544_MSCUNAFWV782975708.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNAFWV782975708",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNAFWV782975708",
+    "shipper_name": "APEX INDUSTRIES LLC",
+    "shipper_address": "142 INDUSTRIAL AVENUE",
+    "consignee_name": "TRANS SHIPPING PLC",
+    "consignee_address": "37 INDUSTRIAL AVENUE",
+    "notify_party_name": "GLOBAL PARTNERS PLC",
+    "notify_party_address": "955 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE83S",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "JEBEL ALI, UAE",
+    "place_of_receipt": "MUMBAI CFS",
+    "place_of_delivery": "JEBEL ALI CY",
+    "etd": "15 JUN 2026",
+    "eta": "07 JUL 2026",
+    "container_number": "MAEU5988956",
+    "container_type": "40'OT",
+    "seal_number": "H947B7C2",
+    "commodity": "PHARMACEUTICAL PRODUCTS",
+    "packages": "431 DRUMS",
+    "gross_weight_kg": "8,749.85",
+    "measurement": "42.142 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5988956",
+        "seal_number": "H947B7C2",
+        "container_type": "40'OT",
+        "commodity": "PHARMACEUTICAL PRODUCTS",
+        "packages": {
+          "count": "431",
+          "type": "DRUMS",
+          "description": "431 DRUMS"
+        },
+        "gross_weight_kg": "8,749.85",
+        "net_weight_kg": "6,159.27",
+        "measurement": "42.142 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNAFWV782975708",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "MAEU5988956",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "H947B7C2",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "PHARMACEUTICAL PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '431', 'type': 'DRUMS', 'description': '431 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "8,749.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "42.142 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "AE83S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "MUMBAI, INDIA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "JEBEL ALI, UAE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "MUMBAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "JEBEL ALI CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "07 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        307.56,
+        298.51,
+        94.96
+      ],
+      "value": "APEX INDUSTRIES LLC\n142 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        306.14,
+        215.06,
+        41.1
+      ],
+      "value": "TRANS SHIPPING PLC\n37 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        361.42,
+        215.06,
+        41.1
+      ],
+      "value": "GLOBAL PARTNERS PLC\n955 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

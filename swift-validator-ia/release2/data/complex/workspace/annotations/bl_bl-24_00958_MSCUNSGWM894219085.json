@@ -1,0 +1,533 @@
+{
+  "id": 958,
+  "filename": "bl_bl-24_00958_MSCUNSGWM894219085.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNSGWM894219085",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSGWM894219085",
+    "shipper_name": "UNITED TRADING LLC",
+    "shipper_address": "771 MAIN STREET",
+    "consignee_name": "CENTRAL LOGISTICS S.A.",
+    "consignee_address": "470 PORT ACCESS ROAD",
+    "notify_party_name": "PACIFIC SUPPLY CHAIN S.A.",
+    "notify_party_address": "946 COMMERCE BOULEVARD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE852N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "27 MAY 2026",
+    "eta": "29 JUN 2026",
+    "container_number": "TCKU6896947",
+    "container_type": "40'FR",
+    "seal_number": "062310FA",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "28 CRATES",
+    "gross_weight_kg": "31,505.44",
+    "measurement": "137.882 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU6896947",
+        "seal_number": "062310FA",
+        "container_type": "40'FR",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "28",
+          "type": "CRATES",
+          "description": "28 CRATES"
+        },
+        "gross_weight_kg": "6,520.50",
+        "net_weight_kg": "4,391.27",
+        "measurement": "38.941 CBM"
+      },
+      {
+        "container_number": "CMAU8199251",
+        "seal_number": "E644HE74",
+        "container_type": "20'DC",
+        "commodity": "CERAMIC TILES AND SANITARY WARE",
+        "packages": {
+          "count": "369",
+          "type": "CARTONS",
+          "description": "369 CARTONS"
+        },
+        "gross_weight_kg": "10,615.70",
+        "net_weight_kg": "7,140.40",
+        "measurement": "60.213 CBM"
+      },
+      {
+        "container_number": "HLCU0478223",
+        "seal_number": "45EB5HBC",
+        "container_type": "20' DRY / GP",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "63",
+          "type": "CRATES",
+          "description": "63 CRATES"
+        },
+        "gross_weight_kg": "14,369.24",
+        "net_weight_kg": "11,581.87",
+        "measurement": "38.728 CBM"
+      }
+    ],
+    "freight_terms": "COLLECT",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNSGWM894219085",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        96.62,
+        106.3,
+        108.89,
+        28.35
+      ],
+      "value": "COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        275.02,
+        106.3,
+        114.74,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        437.19,
+        106.3,
+        136.82,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        52.02,
+        134.65,
+        153.49,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        267.95,
+        134.65,
+        121.82,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "TCKU6896947",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "062310FA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '28', 'type': 'CRATES', 'description': '28 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "6,520.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "38.941 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU8199251",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "E644HE74",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '369', 'type': 'CARTONS', 'description': '369 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "10,615.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "60.213 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU0478223",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "45EB5HBC",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "20' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '63', 'type': 'CRATES', 'description': '63 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "14,369.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "38.728 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.37,
+        303.31,
+        120.14,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        245.03,
+        303.31,
+        144.74,
+        34.02
+      ],
+      "value": "FE852N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        465.11,
+        303.31,
+        108.9,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        94.94,
+        337.32,
+        110.57,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        234.19,
+        337.32,
+        155.57,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        457.2,
+        337.32,
+        116.81,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        92.44,
+        371.34,
+        113.07,
+        34.02
+      ],
+      "value": "27 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        278.36,
+        371.34,
+        111.4,
+        34.02
+      ],
+      "value": "29 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "771 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "UNITED TRADING LLC\n771 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "470 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "CENTRAL LOGISTICS S.A.\n470 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "946 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "PACIFIC SUPPLY CHAIN S.A.\n946 COMMERCE BOULEVARD",
+      "page": 1
+    }
+  ]
+}

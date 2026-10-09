@@ -1,0 +1,157 @@
+<p-toast />
+<p-confirmDialog />
+
+<div class="agents-page">
+  <div class="page-header">
+    <div>
+      <h1>Gestion des agents</h1>
+      <p>Créez, modifiez et gérez les comptes des agents bancaires.</p>
+    </div>
+    <button pButton label="Nouvel agent" icon="pi pi-plus" (click)="openCreate()"></button>
+  </div>
+
+  <!-- Table -->
+  <div class="table-card">
+    <p-table
+      #dt
+      [value]="agents"
+      [loading]="loading"
+      [globalFilterFields]="['username','email','role']"
+      [paginator]="true"
+      [rows]="10"
+      [showCurrentPageReport]="true"
+      currentPageReportTemplate="Affichage {first}–{last} sur {totalRecords}"
+      sortMode="multiple"
+      styleClass="p-datatable-sm"
+    >
+      <ng-template pTemplate="caption">
+        <div class="table-caption">
+          <input
+            pInputText
+            type="text"
+            placeholder="Rechercher…"
+            [(ngModel)]="globalFilter"
+            (input)="dt.filterGlobal($any($event.target).value, 'contains')"
+            class="search-input"
+          />
+          <span class="agent-count">{{ agents.length }} agents</span>
+        </div>
+      </ng-template>
+
+      <ng-template pTemplate="header">
+        <tr>
+          <th pSortableColumn="username">Identifiant <p-sortIcon field="username" /></th>
+          <th pSortableColumn="email">Email <p-sortIcon field="email" /></th>
+          <th pSortableColumn="role">Rôle <p-sortIcon field="role" /></th>
+          <th pSortableColumn="analysisCount">Analyses <p-sortIcon field="analysisCount" /></th>
+          <th pSortableColumn="createdAt">Créé le <p-sortIcon field="createdAt" /></th>
+          <th>Statut</th>
+          <th style="width: 140px">Actions</th>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="body" let-agent>
+        <tr>
+          <td>
+            <div class="agent-id">
+              <div class="ag-avatar">{{ agent.username.slice(0,2).toUpperCase() }}</div>
+              <span>{{ agent.username }}</span>
+            </div>
+          </td>
+          <td class="text-secondary">{{ agent.email }}</td>
+          <td><p-tag [value]="roleLabel(agent.role)" [severity]="roleSeverity(agent.role)" /></td>
+          <td>
+            <span class="count-badge">{{ agent.analysisCount ?? 0 }}</span>
+          </td>
+          <td class="text-secondary">{{ formatDate(agent.createdAt) }}</td>
+          <td>
+            <p-toggleSwitch
+              [(ngModel)]="agent.enabled"
+              (onChange)="toggleStatus(agent)"
+              [pTooltip]="agent.enabled ? 'Désactiver' : 'Activer'"
+            />
+          </td>
+          <td>
+            <div class="action-btns">
+              <a
+                [routerLink]="['/admin/history']"
+                [queryParams]="{agentId: agent.id, username: agent.username}"
+                pButton
+                icon="pi pi-history"
+                class="p-button-sm p-button-outlined p-button-info"
+                pTooltip="Historique"
+              ></a>
+              <button pButton icon="pi pi-pencil"  class="p-button-sm p-button-outlined" (click)="openEdit(agent)"    pTooltip="Modifier"></button>
+              <button pButton icon="pi pi-trash"   class="p-button-sm p-button-outlined p-button-danger" (click)="deleteAgent(agent)" pTooltip="Supprimer"></button>
+            </div>
+          </td>
+        </tr>
+      </ng-template>
+
+      <ng-template pTemplate="emptymessage">
+        <tr>
+          <td colspan="7" class="empty-msg">
+            <i class="pi pi-users"></i>
+            <span>Aucun agent trouvé</span>
+          </td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </div>
+</div>
+
+<!-- Create / Edit dialog -->
+<p-dialog
+  [(visible)]="showDialog"
+  [header]="editMode ? 'Modifier l\'agent' : 'Nouvel agent'"
+  [modal]="true"
+  [style]="{width: '480px'}"
+  [closeOnEscape]="true"
+>
+  <div class="dialog-form">
+    <div class="df-field">
+      <label>Identifiant *</label>
+      <input pInputText [(ngModel)]="form.username" placeholder="ex: agent.dupont" [disabled]="editMode" />
+    </div>
+
+    <div class="df-field">
+      <label>Email *</label>
+      <input pInputText type="email" [(ngModel)]="form.email" placeholder="nom@banque.fr" />
+    </div>
+
+    @if (!editMode) {
+      <div class="df-field">
+        <label>Mot de passe * <small style="color:#94a3b8">(minimum 8 caractères)</small></label>
+        <input pInputText type="password" [(ngModel)]="form.password" placeholder="Minimum 8 caractères"
+          [style.border-color]="form.password.length > 0 && form.password.length < 8 ? '#ef4444' : null" />
+        @if (form.password.length > 0 && form.password.length < 8) {
+          <small style="color:#ef4444">Mot de passe trop court ({{ form.password.length }}/8 caractères)</small>
+        }
+      </div>
+    }
+
+    <div class="df-field">
+      <label>Rôle</label>
+      <p-select
+        [(ngModel)]="form.role"
+        [options]="roles"
+        optionLabel="label"
+        optionValue="value"
+        placeholder="Sélectionner un rôle"
+        styleClass="w-full"
+      />
+    </div>
+  </div>
+
+  <ng-template pTemplate="footer">
+    <button pButton label="Annuler" icon="pi pi-times" class="p-button-outlined" (click)="showDialog = false"></button>
+    <button
+      pButton
+      [label]="editMode ? 'Enregistrer' : 'Créer'"
+      icon="pi pi-check"
+      (click)="save()"
+      [loading]="saving"
+      [disabled]="!formValid || saving"
+    ></button>
+  </ng-template>
+</p-dialog>

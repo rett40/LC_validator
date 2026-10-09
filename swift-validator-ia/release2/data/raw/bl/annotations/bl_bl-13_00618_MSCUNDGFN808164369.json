@@ -1,0 +1,442 @@
+{
+  "id": 618,
+  "filename": "bl_bl-13_00618_MSCUNDGFN808164369.pdf",
+  "layout_id": "BL-13",
+  "bl_number": "MSCUNDGFN808164369",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNDGFN808164369",
+    "shipper_name": "INTERNATIONAL ENTERPRISES AG",
+    "shipper_address": "598 INDUSTRIAL AVENUE",
+    "consignee_name": "FIRST COMMERCE PLC",
+    "consignee_address": "654 PORT ACCESS ROAD",
+    "notify_party_name": "ATLANTIC SHIPPING CO.",
+    "notify_party_address": "282 COMMERCE BOULEVARD",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE567S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "08 MAY 2026",
+    "eta": "08 JUN 2026",
+    "container_number": "OOLU3278621",
+    "container_type": "20' REEFER",
+    "seal_number": "B8HCHH5B",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "404 CARTONS",
+    "gross_weight_kg": "37,375.16",
+    "measurement": "67.315 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU3278621",
+        "seal_number": "B8HCHH5B",
+        "container_type": "20' REEFER",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "404",
+          "type": "CARTONS",
+          "description": "404 CARTONS"
+        },
+        "gross_weight_kg": "23,301.06",
+        "net_weight_kg": "19,574.11",
+        "measurement": "33.338 CBM"
+      },
+      {
+        "container_number": "HLCU5077255",
+        "seal_number": "11EA042C",
+        "container_type": "40' OPEN TOP",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "220",
+          "type": "BOXES",
+          "description": "220 BOXES"
+        },
+        "gross_weight_kg": "14,074.10",
+        "net_weight_kg": "11,997.32",
+        "measurement": "33.977 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "22 APR 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        28.35,
+        269.29,
+        34.02
+      ],
+      "value": "MSCUNDGFN808164369",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "598 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "INTERNATIONAL ENTERPRISES AG\n598 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "654 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        162.99,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "FIRST COMMERCE PLC\n654 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        97.8,
+        134.65,
+        70.87
+      ],
+      "value": "282 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        297.64,
+        77.95,
+        134.65,
+        90.71
+      ],
+      "value": "ATLANTIC SHIPPING CO.\n282 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "FE567S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        184.25,
+        134.65,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        162.99,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        297.64,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        432.28,
+        218.27,
+        134.65,
+        34.02
+      ],
+      "value": "08 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        283.46,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU3278621",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "B8HCHH5B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        283.46,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        283.46,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        283.46,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '404', 'type': 'CARTONS', 'description': '404 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "23,301.06",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        283.46,
+        80.79,
+        36.85
+      ],
+      "value": "33.338 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        320.31,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU5077255",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "11EA042C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        320.31,
+        43.09,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        320.31,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        320.31,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '220', 'type': 'BOXES', 'description': '220 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "14,074.10",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        320.31,
+        80.79,
+        36.85
+      ],
+      "value": "33.977 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        162.99,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        297.64,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "22 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        432.28,
+        372.76,
+        134.65,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        401.1,
+        134.65,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

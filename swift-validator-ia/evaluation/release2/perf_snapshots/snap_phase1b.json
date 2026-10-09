@@ -1,0 +1,467 @@
+{
+  "tag": "phase1b",
+  "n": 3,
+  "f1": {
+    "bl": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "invoice": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "packing_list": {
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  },
+  "timings": {
+    "bl": {
+      "total_s": 28.83,
+      "per_doc_s": 9.61,
+      "n": 3
+    },
+    "invoice": {
+      "total_s": 26.34,
+      "per_doc_s": 8.78,
+      "n": 3
+    },
+    "packing_list": {
+      "total_s": 33.97,
+      "per_doc_s": 11.323,
+      "n": 3
+    }
+  },
+  "snapshot": {
+    "bl": {
+      "bl_bl-11_00401_MSCUNSDJL122330340": {
+        "fields": {
+          "SHIPPER": "ATLANTIC SOLUTIONS BV",
+          "GROSS_WEIGHT": "80197.07",
+          "MEASUREMENT": "296.021"
+        },
+        "confidences": {
+          "SHIPPER": 0.811361
+        },
+        "sources": {
+          "SHIPPER": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6581743",
+            "SEAL_NO": "08E20D31",
+            "CONTAINER_TYPE": "40'HC",
+            "PACKAGES": "{'count': '401', 't",
+            "GROSS_WEIGHT": "17,082.99",
+            "MEASUREMENT": "61.647 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU5330804",
+            "SEAL_NO": "EGA42C29",
+            "CONTAINER_TYPE": "20'TK",
+            "PACKAGES": "{'count': '346', 't",
+            "GROSS_WEIGHT": "14,474.05",
+            "MEASUREMENT": "55.540 CBM"
+          },
+          {
+            "CONTAINER_NO": "TCKU5330804",
+            "SEAL_NO": "EGA42C29",
+            "CONTAINER_TYPE": "20'TK",
+            "PACKAGES": "{'count': '346', 't",
+            "GROSS_WEIGHT": "14,474.05",
+            "MEASUREMENT": "55.540 CBM"
+          }
+        ],
+        "coverage": "3/24"
+      },
+      "bl_bl-11_00402_MSCUNAXSP855056594": {
+        "fields": {
+          "SHIPPER": "APEX GROUP INC",
+          "GROSS_WEIGHT": "61255.96",
+          "MEASUREMENT": "139.556"
+        },
+        "confidences": {
+          "SHIPPER": 0.812677
+        },
+        "sources": {
+          "SHIPPER": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          },
+          {
+            "CONTAINER_NO": "MAEU3557818",
+            "SEAL_NO": "8E265C95",
+            "CONTAINER_TYPE": "40'DC",
+            "PACKAGES": "{'count': '75', 'ty",
+            "GROSS_WEIGHT": "15,313.99",
+            "MEASUREMENT": "34.889 CBM"
+          }
+        ],
+        "coverage": "3/24"
+      },
+      "bl_bl-11_00403_MSCUNHVRH678650673": {
+        "fields": {
+          "SHIPPER": "EURO TRADING INC",
+          "GROSS_WEIGHT": "97465.26",
+          "MEASUREMENT": "285.411"
+        },
+        "confidences": {
+          "SHIPPER": 0.825204
+        },
+        "sources": {
+          "SHIPPER": "full_page/full_page"
+        },
+        "table_rows": [
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU7600214",
+            "SEAL_NO": "BB0952CG",
+            "CONTAINER_TYPE": "40'OT",
+            "PACKAGES": "{'count': '159', 't",
+            "GROSS_WEIGHT": "9,858.30",
+            "MEASUREMENT": "52.214 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          },
+          {
+            "CONTAINER_NO": "EISU6906025",
+            "SEAL_NO": "AA6GF91C",
+            "CONTAINER_TYPE": "40'FR",
+            "PACKAGES": "{'count': '54', 'ty",
+            "GROSS_WEIGHT": "22,630.12",
+            "MEASUREMENT": "42.923 CBM"
+          }
+        ],
+        "coverage": "3/24"
+      }
+    },
+    "invoice": {
+      "inv_inv-11_00401": {
+        "fields": {
+          "PORT_OF_LOADING": "HAVRE, FRANCE",
+          "TOTAL_AMOUNT": "179992.86"
+        },
+        "confidences": {
+          "PORT_OF_LOADING": 0.201745
+        },
+        "sources": {
+          "PORT_OF_LOADING": "adaptive/adaptive_LC_REF"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          },
+          {
+            "GOODS_DESC": "COMPONENTS AND PARTS",
+            "HS_CODE": "8542.31",
+            "QUANTITY": "401",
+            "PACKAGE_UNIT": "BOXES",
+            "UNIT_PRICE": "149.62 USD"
+          }
+        ],
+        "coverage": "2/20"
+      },
+      "inv_inv-11_00402": {
+        "fields": {
+          "PORT_OF_LOADING": "USA",
+          "TOTAL_AMOUNT": "30514.5"
+        },
+        "confidences": {
+          "PORT_OF_LOADING": 0.128297
+        },
+        "sources": {
+          "PORT_OF_LOADING": "adaptive/adaptive_BL_REF"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          },
+          {
+            "GOODS_DESC": "AND VEGETABLES",
+            "HS_CODE": "8428.90",
+            "QUANTITY": "75",
+            "PACKAGE_UNIT": "DRUMS",
+            "UNIT_PRICE": "135.62 USD"
+          }
+        ],
+        "coverage": "2/20"
+      },
+      "inv_inv-11_00403": {
+        "fields": {
+          "TOTAL_AMOUNT": "21593.79"
+        },
+        "confidences": {},
+        "sources": {},
+        "table_rows": [
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          },
+          {
+            "GOODS_DESC": "AND STRUCTURES",
+            "HS_CODE": "7308.90",
+            "QUANTITY": "159",
+            "PACKAGE_UNIT": "CRATES",
+            "UNIT_PRICE": "45.27 EUR"
+          }
+        ],
+        "coverage": "1/20"
+      }
+    },
+    "packing_list": {
+      "pl_pl-11_00401": {
+        "fields": {
+          "PORT_OF_DISCHARGE": "N/A",
+          "TOTAL_PACKAGES": "1604",
+          "NET_WEIGHT": "107368.04",
+          "GROSS_WEIGHT": "126228.16",
+          "TOTAL_CBM": "468.748"
+        },
+        "confidences": {
+          "PORT_OF_DISCHARGE": 0.404186
+        },
+        "sources": {
+          "PORT_OF_DISCHARGE": "adaptive/adaptive_ISSUE_DATE"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          },
+          {
+            "GOODS_DESC": "ELECTRONIC COMPONENTS AND P",
+            "PACKAGE_UNIT": "BOXES",
+            "TOTAL_PACKAGES": "401",
+            "NET_WEIGHT": "26,842.01",
+            "GROSS_WEIGHT": "31,557.04",
+            "TOTAL_CBM": "117.187"
+          }
+        ],
+        "coverage": "5/21"
+      },
+      "pl_pl-11_00402": {
+        "fields": {
+          "PORT_OF_DISCHARGE": "USA",
+          "TOTAL_PACKAGES": "300",
+          "NET_WEIGHT": "50472.84",
+          "GROSS_WEIGHT": "61255.96",
+          "TOTAL_CBM": "139.556"
+        },
+        "confidences": {
+          "PORT_OF_DISCHARGE": 0.391335
+        },
+        "sources": {
+          "PORT_OF_DISCHARGE": "adaptive/adaptive_ISSUE_DATE"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          },
+          {
+            "GOODS_DESC": "FRESH FRUITS AND VEGETABLES",
+            "PACKAGE_UNIT": "DRUMS",
+            "TOTAL_PACKAGES": "75",
+            "NET_WEIGHT": "12,618.21",
+            "GROSS_WEIGHT": "15,313.99",
+            "TOTAL_CBM": "34.889"
+          }
+        ],
+        "coverage": "5/21"
+      },
+      "pl_pl-11_00403": {
+        "fields": {
+          "PORT_OF_DISCHARGE": "NETHERLANDS",
+          "TOTAL_PACKAGES": "636",
+          "NET_WEIGHT": "110220.24",
+          "GROSS_WEIGHT": "129953.68",
+          "TOTAL_CBM": "380.548"
+        },
+        "confidences": {
+          "PORT_OF_DISCHARGE": 0.34463
+        },
+        "sources": {
+          "PORT_OF_DISCHARGE": "horizontal/right_column"
+        },
+        "table_rows": [
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          },
+          {
+            "GOODS_DESC": "STEEL PRODUCTS AND STRUCTURE",
+            "PACKAGE_UNIT": "CRATES",
+            "TOTAL_PACKAGES": "159",
+            "NET_WEIGHT": "27,555.06",
+            "GROSS_WEIGHT": "32,488.42",
+            "TOTAL_CBM": "95.137"
+          }
+        ],
+        "coverage": "5/21"
+      }
+    }
+  }
+}

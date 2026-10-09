@@ -1,0 +1,500 @@
+{
+  "id": 558,
+  "filename": "bl_bl-14_00558_MSCUNNWGW986429199.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNNWGW986429199",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNWGW986429199",
+    "shipper_name": "FIRST SOLUTIONS PLC",
+    "shipper_address": "805 MAIN STREET",
+    "consignee_name": "INTERNATIONAL SUPPLY CHAIN INC",
+    "consignee_address": "301 COMMERCE BOULEVARD",
+    "notify_party_name": "DELTA LOGISTICS INC",
+    "notify_party_address": "788 PORT ACCESS ROAD",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0680E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "26 MAY 2026",
+    "eta": "28 JUN 2026",
+    "container_number": "HLCU7129615",
+    "container_type": "20'DC",
+    "seal_number": "C0B0C4H0",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "98 CRATES",
+    "gross_weight_kg": "45,688.52",
+    "measurement": "74.950 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU7129615",
+        "seal_number": "C0B0C4H0",
+        "container_type": "20'DC",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "98",
+          "type": "CRATES",
+          "description": "98 CRATES"
+        },
+        "gross_weight_kg": "5,059.80",
+        "net_weight_kg": "3,006.61",
+        "measurement": "24.555 CBM"
+      },
+      {
+        "container_number": "HLCU9752225",
+        "seal_number": "EH410CFG",
+        "container_type": "40'FR",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "86",
+          "type": "CARTONS",
+          "description": "86 CARTONS"
+        },
+        "gross_weight_kg": "19,097.61",
+        "net_weight_kg": "15,266.33",
+        "measurement": "21.055 CBM"
+      },
+      {
+        "container_number": "OOLU1760858",
+        "seal_number": "31B3FGC8",
+        "container_type": "40'RF",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "364",
+          "type": "PALLETS",
+          "description": "364 PALLETS"
+        },
+        "gross_weight_kg": "21,531.11",
+        "net_weight_kg": "17,536.46",
+        "measurement": "29.340 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNNWGW986429199",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU7129615",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "C0B0C4H0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '98', 'type': 'CRATES', 'description': '98 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "5,059.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "24.555 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        172.91,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU9752225",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "EH410CFG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        172.91,
+        41.73,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        172.91,
+        130.39,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        172.91,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '86', 'type': 'CARTONS', 'description': '86 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "19,097.61",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        172.91,
+        78.24,
+        36.85
+      ],
+      "value": "21.055 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        209.76,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU1760858",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        209.76,
+        52.16,
+        36.85
+      ],
+      "value": "31B3FGC8",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        209.76,
+        41.73,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        209.76,
+        130.39,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        209.76,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '364', 'type': 'PALLETS', 'description': '364 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        209.76,
+        78.24,
+        36.85
+      ],
+      "value": "21,531.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        209.76,
+        78.24,
+        36.85
+      ],
+      "value": "29.340 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "0680E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        265.04,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        299.06,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        333.07,
+        173.86,
+        24.09
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        333.07,
+        173.86,
+        24.09
+      ],
+      "value": "28 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        381.26,
+        298.51,
+        94.96
+      ],
+      "value": "FIRST SOLUTIONS PLC\n805 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        379.84,
+        215.06,
+        41.1
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN INC\n301 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        435.12,
+        215.06,
+        41.1
+      ],
+      "value": "DELTA LOGISTICS INC\n788 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        494.65,
+        173.86,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        522.99,
+        173.86,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        522.99,
+        173.86,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

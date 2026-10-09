@@ -1,0 +1,442 @@
+{
+  "id": 691,
+  "filename": "bl_bl-18_00691_MSCUNTNDM391552476.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNTNDM391552476",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNTNDM391552476",
+    "shipper_name": "ATLANTIC LOGISTICS CORP",
+    "shipper_address": "209 MARKET STREET",
+    "consignee_name": "EURO SUPPLY CHAIN BV",
+    "consignee_address": "568 MARKET STREET",
+    "notify_party_name": "EURO SHIPPING CORP",
+    "notify_party_address": "533 TRADE PARK",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0931S",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "26 MAY 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "EISU9614137",
+    "container_type": "45'HC",
+    "seal_number": "70BE4910",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "175 PACKAGES",
+    "gross_weight_kg": "38,970.21",
+    "measurement": "76.393 CBM",
+    "containers": [
+      {
+        "container_number": "EISU9614137",
+        "seal_number": "70BE4910",
+        "container_type": "45'HC",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "175",
+          "type": "PACKAGES",
+          "description": "175 PACKAGES"
+        },
+        "gross_weight_kg": "16,505.00",
+        "net_weight_kg": "13,945.51",
+        "measurement": "53.144 CBM"
+      },
+      {
+        "container_number": "MAEU9135299",
+        "seal_number": "B052HH6C",
+        "container_type": "20'RF",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "499",
+          "type": "BAGS",
+          "description": "499 BAGS"
+        },
+        "gross_weight_kg": "22,465.21",
+        "net_weight_kg": "18,644.73",
+        "measurement": "23.249 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNTNDM391552476",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "EISU9614137",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "70BE4910",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '175', 'type': 'PACKAGES', 'description': '175 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "16,505.00",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "53.144 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU9135299",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "B052HH6C",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '499', 'type': 'BAGS', 'description': '499 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "22,465.21",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "23.249 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "209 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC LOGISTICS CORP\n209 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "568 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "EURO SUPPLY CHAIN BV\n568 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "533 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "EURO SHIPPING CORP\n533 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.11,
+        490.39,
+        248.62,
+        34.02
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        346.74,
+        490.39,
+        227.28,
+        34.02
+      ],
+      "value": "0931S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        524.41,
+        202.39,
+        34.02
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        396.52,
+        524.41,
+        177.5,
+        34.02
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        558.43,
+        186.38,
+        34.02
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        592.44,
+        189.95,
+        34.02
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        368.96,
+        592.44,
+        205.05,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        634.96,
+        178.39,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        346.29,
+        634.96,
+        227.72,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        89.45,
+        663.31,
+        215.28,
+        28.35
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        354.29,
+        663.31,
+        219.72,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        691.65,
+        202.83,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

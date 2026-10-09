@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00117",
+  "filename": "inv_inv-03_00117.pdf",
+  "layout_id": "INV-03",
+  "bl_id": 117,
+  "fields": {
+    "invoice_number": "INV-2026-00117",
+    "invoice_date": "29 APR 2026",
+    "lc_reference": "LC/DB/0117/2026",
+    "bl_reference": "MSCUNPECS528116614",
+    "seller_name": "TRANS PARTNERS BV",
+    "buyer_name": "GLOBAL LOGISTICS LLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE32E",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "MISCELLANEOUS CHEMICAL PREPARATIONS",
+    "hs_code": "3824.99",
+    "quantity": 64,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "25,809.94",
+    "unit_price": 59.29,
+    "currency": "USD",
+    "total_amount": 3794.56,
+    "incoterm": "DDP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        79.94,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00117",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        123.31,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        123.31,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        30.35,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        164.99,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "LC/DB/0117/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        299.64,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "MSCUNPECS528116614",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        434.28,
+        235.28,
+        130.65,
+        12.76
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        263.62,
+        130.65,
+        12.76
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        164.99,
+        263.62,
+        130.65,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        306.14,
+        172.35,
+        42.52
+      ],
+      "value": "MISCELLANEOUS CHEMICAL PREPARATIONS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        306.14,
+        64.63,
+        42.52
+      ],
+      "value": "3824.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "64",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        306.14,
+        53.86,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "59.29 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        306.14,
+        96.94,
+        42.52
+      ],
+      "value": "3794.56 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        362.83,
+        121.18,
+        19.84
+      ],
+      "value": "25,809.94 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "3794.56 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        426.33,
+        175.53,
+        11.48
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        209.87,
+        426.33,
+        175.53,
+        11.48
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "HAMBURG, GERMANY"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "CHEMICAL PRODUCTS NEC",
+      "actual": "MISCELLANEOUS CHEMICAL PREPARATIONS"
+    }
+  ]
+}

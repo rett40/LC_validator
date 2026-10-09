@@ -1,0 +1,533 @@
+{
+  "id": 1161,
+  "filename": "bl_bl-30_01161_MSCUNJFRX309979460.pdf",
+  "layout_id": "BL-30",
+  "bl_number": "MSCUNJFRX309979460",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNJFRX309979460",
+    "shipper_name": "ATLANTIC INDUSTRIES LLC",
+    "shipper_address": "361 MARKET STREET",
+    "consignee_name": "CENTRAL LOGISTICS AG",
+    "consignee_address": "669 PORT ACCESS ROAD",
+    "notify_party_name": "GLOBAL LOGISTICS PLC",
+    "notify_party_address": "272 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE72N",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "place_of_receipt": "TOKYO CFS",
+    "place_of_delivery": "LONG BEACH CFS",
+    "etd": "20 JUN 2026",
+    "eta": "21 JUL 2026",
+    "container_number": "OOLU0967079",
+    "container_type": "20'OT",
+    "seal_number": "10D38GCE",
+    "commodity": "MINERAL WATER AND SOFT DRINKS",
+    "packages": "330 PACKAGES",
+    "gross_weight_kg": "54,589.96",
+    "measurement": "103.424 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU0967079",
+        "seal_number": "10D38GCE",
+        "container_type": "20'OT",
+        "commodity": "MINERAL WATER AND SOFT DRINKS",
+        "packages": {
+          "count": "330",
+          "type": "PACKAGES",
+          "description": "330 PACKAGES"
+        },
+        "gross_weight_kg": "18,840.57",
+        "net_weight_kg": "15,108.21",
+        "measurement": "34.774 CBM"
+      },
+      {
+        "container_number": "CMAU9914050",
+        "seal_number": "9954A364",
+        "container_type": "40' DRY",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "83",
+          "type": "BOXES",
+          "description": "83 BOXES"
+        },
+        "gross_weight_kg": "9,571.43",
+        "net_weight_kg": "7,235.48",
+        "measurement": "46.399 CBM"
+      },
+      {
+        "container_number": "OOLU0881508",
+        "seal_number": "0H8DH9CE",
+        "container_type": "20' REEFER",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "92",
+          "type": "BOXES",
+          "description": "92 BOXES"
+        },
+        "gross_weight_kg": "26,177.96",
+        "net_weight_kg": "23,898.69",
+        "measurement": "22.251 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        85.95,
+        83.62,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNJFRX309979460",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        77.93,
+        126.14,
+        137.03,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        284.46,
+        126.14,
+        110.03,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        445.99,
+        126.14,
+        128.03,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        100.43,
+        154.49,
+        114.53,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        311.46,
+        154.49,
+        83.03,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        95.93,
+        188.5,
+        119.03,
+        34.02
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        257.46,
+        188.5,
+        137.03,
+        34.02
+      ],
+      "value": "AE72N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        454.99,
+        188.5,
+        119.03,
+        34.02
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        100.43,
+        222.52,
+        114.53,
+        34.02
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        252.96,
+        222.52,
+        141.53,
+        34.02
+      ],
+      "value": "TOKYO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        468.49,
+        222.52,
+        105.53,
+        34.02
+      ],
+      "value": "LONG BEACH CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        109.43,
+        256.54,
+        105.53,
+        34.02
+      ],
+      "value": "20 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        302.46,
+        256.54,
+        92.03,
+        34.02
+      ],
+      "value": "21 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        314.65,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0967079",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "10D38GCE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        314.65,
+        43.09,
+        36.85
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        314.65,
+        134.65,
+        36.85
+      ],
+      "value": "MINERAL WATER AND SOFT DRINKS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        314.65,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '330', 'type': 'PACKAGES', 'description': '330 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "18,840.57",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        314.65,
+        80.79,
+        36.85
+      ],
+      "value": "34.774 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        351.5,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU9914050",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "9954A364",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        351.5,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        351.5,
+        134.65,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        351.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '83', 'type': 'BOXES', 'description': '83 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "9,571.43",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        351.5,
+        80.79,
+        36.85
+      ],
+      "value": "46.399 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        388.35,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU0881508",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        388.35,
+        53.86,
+        36.85
+      ],
+      "value": "0H8DH9CE",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        388.35,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        388.35,
+        134.65,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        388.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '92', 'type': 'BOXES', 'description': '92 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        388.35,
+        80.79,
+        36.85
+      ],
+      "value": "26,177.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        388.35,
+        80.79,
+        36.85
+      ],
+      "value": "22.251 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "361 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "ATLANTIC INDUSTRIES LLC\n361 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "669 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL LOGISTICS AG\n669 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        453.54,
+        179.53,
+        70.87
+      ],
+      "value": "272 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        433.7,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL LOGISTICS PLC\n272 TRADE PARK",
+      "page": 1
+    }
+  ]
+}

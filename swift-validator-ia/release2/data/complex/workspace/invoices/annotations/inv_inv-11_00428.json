@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00428",
+  "filename": "inv_inv-11_00428.pdf",
+  "layout_id": "INV-11",
+  "bl_id": 428,
+  "fields": {
+    "invoice_number": "INV-2026-00428",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/CITI/0428/2026",
+    "bl_reference": "MSCUNRHHW137411691",
+    "seller_name": "APEX SHIPPING CORP",
+    "buyer_name": "ATLANTIC LOGISTICS AG",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS652W",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "CLOTHING AND ACCESSORIES",
+    "hs_code": "8428.90",
+    "quantity": 337,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "57,422.05",
+    "unit_price": 363.78,
+    "currency": "EUR",
+    "total_amount": 122593.86,
+    "incoterm": "DAP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        83.62,
+        206.36,
+        11.34
+      ],
+      "value": "INV-2026-00428",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        110.55,
+        319.86,
+        79.37
+      ],
+      "value": "APEX SHIPPING CORP\nAPEX SHIPPING CORP\n981 INDUSTRIAL AVENUE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        110.55,
+        196.04,
+        79.37
+      ],
+      "value": "ATLANTIC LOGISTICS AG\nATLANTIC LOGISTICS AG\n567 MAIN BOULEVARD\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        41.1,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        213.07,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "LC/CITI/0428/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.04,
+        215.43,
+        171.97,
+        18.43
+      ],
+      "value": "MSCUNRHHW137411691",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        41.1,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        213.07,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.04,
+        243.78,
+        171.97,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        293.39,
+        165.09,
+        42.52
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        293.39,
+        61.91,
+        42.52
+      ],
+      "value": "8428.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "337",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        293.39,
+        51.59,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "363.78 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        293.39,
+        92.86,
+        42.52
+      ],
+      "value": "122593.86 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        350.08,
+        116.08,
+        19.84
+      ],
+      "value": "57,422.05 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        369.92,
+        116.08,
+        19.84
+      ],
+      "value": "122593.86 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        41.1,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        213.07,
+        408.19,
+        171.97,
+        15.59
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

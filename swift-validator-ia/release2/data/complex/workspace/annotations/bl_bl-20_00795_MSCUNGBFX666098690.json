@@ -1,0 +1,500 @@
+{
+  "id": 795,
+  "filename": "bl_bl-20_00795_MSCUNGBFX666098690.pdf",
+  "layout_id": "BL-20",
+  "bl_number": "MSCUNGBFX666098690",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNGBFX666098690",
+    "shipper_name": "INTERNATIONAL SHIPPING PLC",
+    "shipper_address": "514 COMMERCE BOULEVARD",
+    "consignee_name": "DELTA SUPPLY CHAIN LTD",
+    "consignee_address": "658 HARBOR ROAD",
+    "notify_party_name": "PACIFIC ENTERPRISES BV",
+    "notify_party_address": "362 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0388E",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "03 JUN 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "OOLU3010245",
+    "container_type": "20' REEFER",
+    "seal_number": "78BC04D3",
+    "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+    "packages": "320 CRATES",
+    "gross_weight_kg": "49,564.00",
+    "measurement": "110.463 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU3010245",
+        "seal_number": "78BC04D3",
+        "container_type": "20' REEFER",
+        "commodity": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+        "packages": {
+          "count": "320",
+          "type": "CRATES",
+          "description": "320 CRATES"
+        },
+        "gross_weight_kg": "24,434.77",
+        "net_weight_kg": "21,595.33",
+        "measurement": "44.286 CBM"
+      },
+      {
+        "container_number": "OOLU8227814",
+        "seal_number": "DE45DB62",
+        "container_type": "20' REEFER",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "419",
+          "type": "PALLETS",
+          "description": "419 PALLETS"
+        },
+        "gross_weight_kg": "6,705.37",
+        "net_weight_kg": "2,722.26",
+        "measurement": "35.335 CBM"
+      },
+      {
+        "container_number": "EISU8624602",
+        "seal_number": "C7684223",
+        "container_type": "40' REEFER",
+        "commodity": "REFINED OLIVE OIL",
+        "packages": {
+          "count": "228",
+          "type": "CARTONS",
+          "description": "228 CARTONS"
+        },
+        "gross_weight_kg": "18,423.86",
+        "net_weight_kg": "16,084.82",
+        "measurement": "30.842 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNGBFX666098690",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        81.35,
+        263.87,
+        15.31
+      ],
+      "value": "0388E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        115.37,
+        263.87,
+        15.31
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        149.39,
+        263.87,
+        15.31
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        183.4,
+        263.87,
+        15.31
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        221.1,
+        306.73,
+        94.96
+      ],
+      "value": "INTERNATIONAL SHIPPING PLC\n514 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        219.69,
+        221.01,
+        41.1
+      ],
+      "value": "DELTA SUPPLY CHAIN LTD\n658 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        274.96,
+        221.01,
+        41.1
+      ],
+      "value": "PACIFIC ENTERPRISES BV\n362 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "OOLU3010245",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "78BC04D3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '320', 'type': 'CRATES', 'description': '320 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "24,434.77",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "44.286 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "OOLU8227814",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "DE45DB62",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '419', 'type': 'PALLETS', 'description': '419 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "6,705.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "35.335 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        413.86,
+        91.08,
+        36.85
+      ],
+      "value": "EISU8624602",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "C7684223",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        413.86,
+        42.86,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        413.86,
+        133.94,
+        36.85
+      ],
+      "value": "REFINED OLIVE OIL",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        413.86,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '228', 'type': 'CARTONS', 'description': '228 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "18,423.86",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        413.86,
+        80.36,
+        36.85
+      ],
+      "value": "30.842 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        476.22,
+        263.87,
+        12.76
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        504.57,
+        263.87,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        532.91,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

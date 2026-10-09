@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00288",
+  "filename": "inv_inv-08_00288.pdf",
+  "layout_id": "INV-08",
+  "bl_id": 288,
+  "fields": {
+    "invoice_number": "INV-2026-00288",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/CITI/0288/2026",
+    "bl_reference": "MSCUNTLJW921964032",
+    "seller_name": "UNITED TRADING INC",
+    "buyer_name": "PACIFIC INDUSTRIES PLC",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE810S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "WOVEN FABRICS AND CLOTHING",
+    "hs_code": "5208.21",
+    "quantity": 335,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "18,216.94",
+    "unit_price": 13.22,
+    "currency": "EUR",
+    "total_amount": 4428.7,
+    "incoterm": "DAP",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "INV-2026-00288",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        291.13,
+        77.95,
+        263.87,
+        12.76
+      ],
+      "value": "LC/CITI/0288/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        23.26,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "MSCUNTLJW921964032",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        106.3,
+        263.87,
+        12.76
+      ],
+      "value": "DAP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        291.13,
+        134.65,
+        263.87,
+        12.76
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        154.49,
+        332.16,
+        79.37
+      ],
+      "value": "UNITED TRADING INC\nUNITED TRADING INC\n381 EXPORT ZONE\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        353.42,
+        154.49,
+        203.58,
+        79.37
+      ],
+      "value": "PACIFIC INDUSTRIES PLC\nPACIFIC INDUSTRIES PLC\n926 EXPORT ZONE\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        257.95,
+        171.44,
+        42.52
+      ],
+      "value": "WOVEN FABRICS AND CLOTHING",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        192.7,
+        257.95,
+        64.29,
+        42.52
+      ],
+      "value": "5208.21",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        256.99,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "335",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        310.56,
+        257.95,
+        53.57,
+        42.52
+      ],
+      "value": "PALLETS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        364.14,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "13.22 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        460.57,
+        257.95,
+        96.43,
+        42.52
+      ],
+      "value": "4428.7 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        436.46,
+        308.98,
+        120.54,
+        19.84
+      ],
+      "value": "18,216.94 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.46,
+        328.82,
+        120.54,
+        19.84
+      ],
+      "value": "4428.7 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        291.13,
+        372.47,
+        263.87,
+        11.48
+      ],
+      "value": "DAP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "TEXTILE FABRICS AND GARMENTS",
+      "actual": "WOVEN FABRICS AND CLOTHING"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

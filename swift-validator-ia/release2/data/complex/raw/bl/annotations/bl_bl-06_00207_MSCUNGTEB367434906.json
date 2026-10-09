@@ -1,0 +1,442 @@
+{
+  "id": 207,
+  "filename": "bl_bl-06_00207_MSCUNGTEB367434906.pdf",
+  "layout_id": "BL-06",
+  "bl_number": "MSCUNGTEB367434906",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNGTEB367434906",
+    "shipper_name": "INTERNATIONAL LOGISTICS BV",
+    "shipper_address": "625 TRADE PARK",
+    "consignee_name": "CENTRAL LOGISTICS S.A.",
+    "consignee_address": "591 MAIN STREET",
+    "notify_party_name": "GLOBAL SUPPLY CHAIN BV",
+    "notify_party_address": "867 HARBOR ROAD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0753N",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CY",
+    "place_of_delivery": "GENOA CY",
+    "etd": "20 MAY 2026",
+    "eta": "12 JUN 2026",
+    "container_number": "TRHU9527085",
+    "container_type": "40' DRY / GP",
+    "seal_number": "51A49A7F",
+    "commodity": "GLASS AND GLASSWARE",
+    "packages": "171 CARTONS",
+    "gross_weight_kg": "37,925.20",
+    "measurement": "106.745 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9527085",
+        "seal_number": "51A49A7F",
+        "container_type": "40' DRY / GP",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "171",
+          "type": "CARTONS",
+          "description": "171 CARTONS"
+        },
+        "gross_weight_kg": "15,764.24",
+        "net_weight_kg": "13,670.25",
+        "measurement": "52.320 CBM"
+      },
+      {
+        "container_number": "MAEU0958935",
+        "seal_number": "GEH24F1B",
+        "container_type": "40'OT",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "304",
+          "type": "CARTONS",
+          "description": "304 CARTONS"
+        },
+        "gross_weight_kg": "22,160.96",
+        "net_weight_kg": "19,917.89",
+        "measurement": "54.425 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        358.58,
+        80.22,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNGTEB367434906",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "625 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "INTERNATIONAL LOGISTICS BV\n625 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "591 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        214.96,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL LOGISTICS S.A.\n591 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        140.31,
+        179.53,
+        70.87
+      ],
+      "value": "867 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        394.49,
+        120.47,
+        179.53,
+        90.71
+      ],
+      "value": "GLOBAL SUPPLY CHAIN BV\n867 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        75.83,
+        219.69,
+        139.13,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        288.96,
+        219.69,
+        105.53,
+        34.02
+      ],
+      "value": "0753N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        473.29,
+        219.69,
+        100.73,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        80.63,
+        253.7,
+        134.33,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        284.16,
+        253.7,
+        110.33,
+        34.02
+      ],
+      "value": "KAOHSIUNG CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        502.09,
+        253.7,
+        71.93,
+        34.02
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        61.43,
+        287.72,
+        153.53,
+        34.02
+      ],
+      "value": "20 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        308.16,
+        287.72,
+        86.33,
+        34.02
+      ],
+      "value": "12 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        345.83,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU9527085",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "51A49A7F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        345.83,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        345.83,
+        134.65,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        345.83,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '171', 'type': 'CARTONS', 'description': '171 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "15,764.24",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        345.83,
+        80.79,
+        36.85
+      ],
+      "value": "52.320 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        382.68,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU0958935",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "GEH24F1B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        382.68,
+        43.09,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        382.68,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        382.68,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '304', 'type': 'CARTONS', 'description': '304 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "22,160.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        382.68,
+        80.79,
+        36.85
+      ],
+      "value": "54.425 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        119.03,
+        428.03,
+        95.93,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        293.76,
+        428.03,
+        100.73,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        425.29,
+        428.03,
+        148.73,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        104.63,
+        456.38,
+        110.33,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        269.76,
+        456.38,
+        124.73,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

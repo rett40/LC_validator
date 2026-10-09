@@ -1,0 +1,512 @@
+{
+  "id": 381,
+  "filename": "bl_bl-10_00381_MSCUNUCCT422804249.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNUCCT422804249",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNUCCT422804249",
+    "shipper_name": "FIRST ENTERPRISES GMBH",
+    "shipper_address": "171 MAIN STREET",
+    "consignee_name": "PREMIER LOGISTICS CO.",
+    "consignee_address": "573 MAIN STREET",
+    "notify_party_name": "CENTRAL SOLUTIONS LLC",
+    "notify_party_address": "229 MARKET STREET",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE816N",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "21 MAY 2026",
+    "eta": "07 JUN 2026",
+    "container_number": "TCKU8440178",
+    "container_type": "20'OT",
+    "seal_number": "1CAE819H",
+    "commodity": "PLASTIC GOODS AND ARTICLES",
+    "packages": "38 PACKAGES",
+    "gross_weight_kg": "56,234.72",
+    "measurement": "114.003 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8440178",
+        "seal_number": "1CAE819H",
+        "container_type": "20'OT",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "38",
+          "type": "PACKAGES",
+          "description": "38 PACKAGES"
+        },
+        "gross_weight_kg": "23,692.28",
+        "net_weight_kg": "20,673.57",
+        "measurement": "32.951 CBM"
+      },
+      {
+        "container_number": "MSCU2045182",
+        "seal_number": "E23DF50D",
+        "container_type": "40'RF",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "105",
+          "type": "CARTONS",
+          "description": "105 CARTONS"
+        },
+        "gross_weight_kg": "16,580.07",
+        "net_weight_kg": "13,075.27",
+        "measurement": "33.527 CBM"
+      },
+      {
+        "container_number": "OOLU3473794",
+        "seal_number": "491C7CH7",
+        "container_type": "40' FLAT RACK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "196",
+          "type": "PALLETS",
+          "description": "196 PALLETS"
+        },
+        "gross_weight_kg": "15,962.37",
+        "net_weight_kg": "13,444.84",
+        "measurement": "47.525 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNUCCT422804249",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "TCKU8440178",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "1CAE819H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "38",
+        "type": "PACKAGES",
+        "description": "38 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "23,692.28",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "32.951 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "MSCU2045182",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "E23DF50D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "105",
+        "type": "CARTONS",
+        "description": "105 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "16,580.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "33.527 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        186.52,
+        261.78,
+        12.76
+      ],
+      "value": "OOLU3473794",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        204.38,
+        117.8,
+        6.8
+      ],
+      "value": "491C7CH7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        213.45,
+        117.8,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        222.52,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "196",
+        "type": "PALLETS",
+        "description": "196 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        231.59,
+        117.8,
+        6.8
+      ],
+      "value": "15,962.37",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        240.66,
+        117.8,
+        6.8
+      ],
+      "value": "47.525 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        204.17,
+        104.71,
+        31.96
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        253.98,
+        528.66,
+        55.28
+      ],
+      "value": "FIRST ENTERPRISES GMBH\n171 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        309.26,
+        528.66,
+        55.28
+      ],
+      "value": "PREMIER LOGISTICS CO.\n573 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        364.54,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL SOLUTIONS LLC\n229 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        85.89,
+        428.31,
+        213.87,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        376.89,
+        428.31,
+        187.2,
+        34.02
+      ],
+      "value": "FE816N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        462.33,
+        197.43,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        391.56,
+        462.33,
+        172.54,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        496.35,
+        187.64,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        374.24,
+        496.35,
+        189.86,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        97.01,
+        530.36,
+        202.75,
+        34.02
+      ],
+      "value": "21 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        530.36,
+        186.75,
+        34.02
+      ],
+      "value": "07 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        572.88,
+        173.43,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        341.33,
+        572.88,
+        222.76,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        102.79,
+        601.23,
+        196.98,
+        28.35
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        601.23,
+        205.42,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        83.67,
+        629.57,
+        216.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

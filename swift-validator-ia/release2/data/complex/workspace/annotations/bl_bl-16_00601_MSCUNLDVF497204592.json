@@ -1,0 +1,417 @@
+{
+  "id": 601,
+  "filename": "bl_bl-16_00601_MSCUNLDVF497204592.pdf",
+  "layout_id": "BL-16",
+  "bl_number": "MSCUNLDVF497204592",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLDVF497204592",
+    "shipper_name": "UNITED COMMERCE BV",
+    "shipper_address": "273 COMMERCE BOULEVARD",
+    "consignee_name": "DELTA ENTERPRISES S.A.",
+    "consignee_address": "825 MARKET STREET",
+    "notify_party_name": "UNITED COMMERCE CO.",
+    "notify_party_address": "636 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-353",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CFS",
+    "place_of_delivery": "ROTTERDAM CY",
+    "etd": "16 JUN 2026",
+    "eta": "19 JUL 2026",
+    "container_number": "EISU2748408",
+    "container_type": "20'DC",
+    "seal_number": "16885BDB",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "63 BOXES",
+    "gross_weight_kg": "34,992.53",
+    "measurement": "97.462 CBM",
+    "containers": [
+      {
+        "container_number": "EISU2748408",
+        "seal_number": "16885BDB",
+        "container_type": "20'DC",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "63",
+          "type": "BOXES",
+          "description": "63 BOXES"
+        },
+        "gross_weight_kg": "24,960.50",
+        "net_weight_kg": "22,632.85",
+        "measurement": "39.794 CBM"
+      },
+      {
+        "container_number": "TCKU6995827",
+        "seal_number": "0D5G89H6",
+        "container_type": "20'FR",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "71",
+          "type": "BOXES",
+          "description": "71 BOXES"
+        },
+        "gross_weight_kg": "10,032.03",
+        "net_weight_kg": "6,448.03",
+        "measurement": "57.668 CBM"
+      }
+    ],
+    "freight_terms": "PAYABLE AT DESTINATION",
+    "issue_date": "04 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        292.68,
+        63.78,
+        271.42,
+        11.34
+      ],
+      "value": "MSCUNLDVF497204592",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        204.2,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "E-353",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.15,
+        101.2,
+        176.94,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        23.26,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        204.2,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "SHANGHAI CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.15,
+        135.21,
+        176.94,
+        15.31
+      ],
+      "value": "ROTTERDAM CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "16 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        204.2,
+        169.23,
+        176.94,
+        15.31
+      ],
+      "value": "19 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        194.17,
+        268.87,
+        12.76
+      ],
+      "value": "EISU2748408",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        212.03,
+        120.99,
+        6.8
+      ],
+      "value": "16885BDB",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        221.1,
+        120.99,
+        6.8
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        230.17,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "63",
+        "type": "BOXES",
+        "description": "63 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        239.24,
+        120.99,
+        6.8
+      ],
+      "value": "24,960.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        248.31,
+        120.99,
+        6.8
+      ],
+      "value": "39.794 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        169.14,
+        211.82,
+        107.55,
+        31.96
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        295.23,
+        194.17,
+        268.87,
+        12.76
+      ],
+      "value": "TCKU6995827",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        328.57,
+        212.03,
+        120.99,
+        6.8
+      ],
+      "value": "0D5G89H6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        328.57,
+        221.1,
+        120.99,
+        6.8
+      ],
+      "value": "20'FR",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        328.57,
+        230.17,
+        120.99,
+        6.8
+      ],
+      "value": {
+        "count": "71",
+        "type": "BOXES",
+        "description": "71 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        328.57,
+        239.24,
+        120.99,
+        6.8
+      ],
+      "value": "10,032.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        328.57,
+        248.31,
+        120.99,
+        6.8
+      ],
+      "value": "57.668 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        443.1,
+        211.82,
+        107.55,
+        31.96
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        261.64,
+        542.83,
+        55.28
+      ],
+      "value": "UNITED COMMERCE BV\n273 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        21.26,
+        316.91,
+        542.83,
+        55.28
+      ],
+      "value": "DELTA ENTERPRISES S.A.\n825 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        21.26,
+        372.19,
+        542.83,
+        55.28
+      ],
+      "value": "UNITED COMMERCE CO.\n636 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        452.98,
+        176.94,
+        12.76
+      ],
+      "value": "PAYABLE AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        204.2,
+        452.98,
+        176.94,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.15,
+        452.98,
+        176.94,
+        12.76
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        23.26,
+        481.32,
+        176.94,
+        12.76
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        204.2,
+        481.32,
+        176.94,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "id": 37,
+  "filename": "bl_bl-01_00037_MSCUNCMHB094554619.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNCMHB094554619",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNCMHB094554619",
+    "shipper_name": "ATLANTIC SOLUTIONS CORP",
+    "shipper_address": "915 TRADE PARK",
+    "consignee_name": "PACIFIC SOLUTIONS INC",
+    "consignee_address": "500 INDUSTRIAL AVENUE",
+    "notify_party_name": "APEX SHIPPING CO.",
+    "notify_party_address": "60 MAIN STREET",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0583E",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "02 JUN 2026",
+    "eta": "23 JUN 2026",
+    "container_number": "TCKU7714447",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "GADGAF6D",
+    "commodity": "RUBBER PRODUCTS AND TYRES",
+    "packages": "401 CARTONS",
+    "gross_weight_kg": "22,507.45",
+    "measurement": "20.198 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU7714447",
+        "seal_number": "GADGAF6D",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "RUBBER PRODUCTS AND TYRES",
+        "packages": {
+          "count": "401",
+          "type": "CARTONS",
+          "description": "401 CARTONS"
+        },
+        "gross_weight_kg": "22,507.45",
+        "net_weight_kg": "20,170.23",
+        "measurement": "20.198 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNCMHB094554619",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "ATLANTIC SOLUTIONS CORP\n915 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "PACIFIC SOLUTIONS INC\n500 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "APEX SHIPPING CO.\n60 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "CMA CGM JULES VERNE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "0583E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        535.75,
+        12.76
+      ],
+      "value": "TCKU7714447",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        241.09,
+        6.8
+      ],
+      "value": "GADGAF6D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        241.09,
+        6.8
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        241.09,
+        6.8
+      ],
+      "value": {
+        "count": "401",
+        "type": "CARTONS",
+        "description": "401 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        241.09,
+        6.8
+      ],
+      "value": "22,507.45",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        241.09,
+        6.8
+      ],
+      "value": "20.198 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        323.01,
+        440.01,
+        214.3,
+        31.96
+      ],
+      "value": "RUBBER PRODUCTS AND TYRES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

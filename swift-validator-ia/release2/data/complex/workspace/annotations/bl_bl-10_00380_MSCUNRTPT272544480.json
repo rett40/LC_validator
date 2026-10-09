@@ -1,0 +1,512 @@
+{
+  "id": 380,
+  "filename": "bl_bl-10_00380_MSCUNRTPT272544480.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNRTPT272544480",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRTPT272544480",
+    "shipper_name": "CENTRAL PARTNERS CORP",
+    "shipper_address": "128 MAIN STREET",
+    "consignee_name": "PACIFIC SOLUTIONS GMBH",
+    "consignee_address": "140 COMMERCE BOULEVARD",
+    "notify_party_name": "PACIFIC ENTERPRISES CORP",
+    "notify_party_address": "324 INDUSTRIAL AVENUE",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE501N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CFS",
+    "place_of_delivery": "LE HAVRE CFS",
+    "etd": "05 JUN 2026",
+    "eta": "21 JUN 2026",
+    "container_number": "MSCU3873867",
+    "container_type": "40'OT",
+    "seal_number": "5AA84980",
+    "commodity": "FERTILIZERS AND AGROCHEMICALS",
+    "packages": "298 PACKAGES",
+    "gross_weight_kg": "44,012.88",
+    "measurement": "141.214 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU3873867",
+        "seal_number": "5AA84980",
+        "container_type": "40'OT",
+        "commodity": "FERTILIZERS AND AGROCHEMICALS",
+        "packages": {
+          "count": "298",
+          "type": "PACKAGES",
+          "description": "298 PACKAGES"
+        },
+        "gross_weight_kg": "25,575.48",
+        "net_weight_kg": "22,202.64",
+        "measurement": "44.310 CBM"
+      },
+      {
+        "container_number": "HLCU6728729",
+        "seal_number": "3A2BB19G",
+        "container_type": "20'DC",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "398",
+          "type": "BOXES",
+          "description": "398 BOXES"
+        },
+        "gross_weight_kg": "10,925.56",
+        "net_weight_kg": "8,043.51",
+        "measurement": "45.136 CBM"
+      },
+      {
+        "container_number": "CMAU9527161",
+        "seal_number": "B83DGF52",
+        "container_type": "40'DC",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "189",
+          "type": "PACKAGES",
+          "description": "189 PACKAGES"
+        },
+        "gross_weight_kg": "7,511.84",
+        "net_weight_kg": "3,593.73",
+        "measurement": "51.768 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNRTPT272544480",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "MSCU3873867",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "5AA84980",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "298",
+        "type": "PACKAGES",
+        "description": "298 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "25,575.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "44.310 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "FERTILIZERS AND AGROCHEMICALS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        302.31,
+        123.31,
+        261.78,
+        12.76
+      ],
+      "value": "HLCU6728729",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        335.66,
+        141.17,
+        117.8,
+        6.8
+      ],
+      "value": "3A2BB19G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        335.66,
+        150.24,
+        117.8,
+        6.8
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        335.66,
+        159.31,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "398",
+        "type": "BOXES",
+        "description": "398 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        335.66,
+        168.38,
+        117.8,
+        6.8
+      ],
+      "value": "10,925.56",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        335.66,
+        177.45,
+        117.8,
+        6.8
+      ],
+      "value": "45.136 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        446.29,
+        140.95,
+        104.71,
+        31.96
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        186.52,
+        261.78,
+        12.76
+      ],
+      "value": "CMAU9527161",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        204.38,
+        117.8,
+        6.8
+      ],
+      "value": "B83DGF52",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        213.45,
+        117.8,
+        6.8
+      ],
+      "value": "40'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        222.52,
+        117.8,
+        6.8
+      ],
+      "value": {
+        "count": "189",
+        "type": "PACKAGES",
+        "description": "189 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        231.59,
+        117.8,
+        6.8
+      ],
+      "value": "7,511.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        240.66,
+        117.8,
+        6.8
+      ],
+      "value": "51.768 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        179.41,
+        204.17,
+        104.71,
+        31.96
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        253.98,
+        528.66,
+        55.28
+      ],
+      "value": "CENTRAL PARTNERS CORP\n128 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        309.26,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC SOLUTIONS GMBH\n140 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        364.54,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC ENTERPRISES CORP\n324 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        428.31,
+        226.75,
+        34.02
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        376.89,
+        428.31,
+        187.2,
+        34.02
+      ],
+      "value": "FE501N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        102.34,
+        462.33,
+        197.43,
+        34.02
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        341.77,
+        462.33,
+        222.32,
+        34.02
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        112.12,
+        496.35,
+        187.64,
+        34.02
+      ],
+      "value": "SINGAPORE CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        396.46,
+        496.35,
+        167.63,
+        34.02
+      ],
+      "value": "LE HAVRE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        111.23,
+        530.36,
+        188.54,
+        34.02
+      ],
+      "value": "05 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        364.0,
+        530.36,
+        200.09,
+        34.02
+      ],
+      "value": "21 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        572.88,
+        146.31,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        395.11,
+        572.88,
+        168.99,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        85.89,
+        601.23,
+        213.87,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        348.44,
+        601.23,
+        215.65,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        101.9,
+        629.57,
+        197.87,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

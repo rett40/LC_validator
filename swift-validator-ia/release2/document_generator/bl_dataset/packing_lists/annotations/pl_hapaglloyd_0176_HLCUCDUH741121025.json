@@ -1,0 +1,242 @@
+{
+  "pl_number": "PL-2026-00176",
+  "filename": "pl_hapaglloyd_0176_HLCUCDUH741121025.pdf",
+  "style": "SlatePLRenderer",
+  "bl_id": 176,
+  "fields": {
+    "pl_number": "PL-2026-00176",
+    "pl_date": "14 APR 2026",
+    "inv_reference": "INV-2026-00176",
+    "bl_reference": "HLCUCDUH741121025",
+    "exporter_name": "GLOBAL COMMERCE GMBH",
+    "consignee_name": "EURO SOLUTIONS LTD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS761E",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "container_number": "HLCU1795996",
+    "container_type": "40' DRY",
+    "seal_number": "480F2GB3",
+    "goods_description": "SHOES AND LEATHER GOODS",
+    "package_unit": "PALLETS",
+    "total_packages": 150,
+    "net_weight_kg": "17,197.94",
+    "gross_weight_kg": "20,345.75",
+    "total_cbm": 46.72
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        79.37
+      ],
+      "value": "PL-2026-00176",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "HLCUCDUH741121025",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "GLOBAL COMMERCE GMBH\n493 COMMERCE STREET\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        70.87
+      ],
+      "value": "EURO SOLUTIONS LTD\n965 MAIN BOULEVARD\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "CS761E",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        162.99,
+        134.65,
+        28.35
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "HLCU1795996",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        195.59,
+        179.53,
+        28.35
+      ],
+      "value": "480F2GB3",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        228.19,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUCDUH741121025",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        279.21,
+        136.06,
+        48.19
+      ],
+      "value": "SHOES AND LEATHER GOODS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        279.21,
+        56.69,
+        48.19
+      ],
+      "value": "150",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "17,197.94",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        279.21,
+        68.03,
+        48.19
+      ],
+      "value": "20,345.75",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        279.21,
+        73.7,
+        48.19
+      ],
+      "value": "46.720",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        333.07,
+        242.36,
+        19.84
+      ],
+      "value": "20,345.75",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        367.09,
+        242.36,
+        14.17
+      ],
+      "value": "150",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "weight_mismatch",
+      "field": "gross_weight_kg",
+      "expected": "19,203.78",
+      "actual": "20,345.75"
+    },
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "FOOTWEAR OF ALL TYPES",
+      "actual": "SHOES AND LEATHER GOODS"
+    }
+  ]
+}

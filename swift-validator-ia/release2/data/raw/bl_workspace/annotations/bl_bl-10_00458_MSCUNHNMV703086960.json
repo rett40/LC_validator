@@ -1,0 +1,533 @@
+{
+  "id": 458,
+  "filename": "bl_bl-10_00458_MSCUNHNMV703086960.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNHNMV703086960",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNHNMV703086960",
+    "shipper_name": "EURO PARTNERS CORP",
+    "shipper_address": "503 COMMERCE BOULEVARD",
+    "consignee_name": "TRANS SOLUTIONS GMBH",
+    "consignee_address": "399 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC PARTNERS S.A.",
+    "notify_party_address": "295 MAIN STREET",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0804S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "07 MAY 2026",
+    "eta": "26 MAY 2026",
+    "container_number": "TRHU6070073",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "AHF637C3",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "491 DRUMS",
+    "gross_weight_kg": "52,441.88",
+    "measurement": "94.723 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU6070073",
+        "seal_number": "AHF637C3",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "491",
+          "type": "DRUMS",
+          "description": "491 DRUMS"
+        },
+        "gross_weight_kg": "9,944.59",
+        "net_weight_kg": "7,559.38",
+        "measurement": "25.949 CBM"
+      },
+      {
+        "container_number": "TCKU9485996",
+        "seal_number": "D0AGD3E0",
+        "container_type": "20' REEFER",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "424",
+          "type": "DRUMS",
+          "description": "424 DRUMS"
+        },
+        "gross_weight_kg": "17,238.80",
+        "net_weight_kg": "14,556.68",
+        "measurement": "27.268 CBM"
+      },
+      {
+        "container_number": "MSCU5152105",
+        "seal_number": "08C82324",
+        "container_type": "20' REEFER",
+        "commodity": "ELECTRONIC COMPONENTS AND PARTS",
+        "packages": {
+          "count": "88",
+          "type": "DRUMS",
+          "description": "88 DRUMS"
+        },
+        "gross_weight_kg": "25,258.49",
+        "net_weight_kg": "23,176.18",
+        "measurement": "41.506 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "21 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNHNMV703086960",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        131.81,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU6070073",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "AHF637C3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        131.81,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        131.81,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        131.81,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '491', 'type': 'DRUMS', 'description': '491 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "9,944.59",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        131.81,
+        80.79,
+        36.85
+      ],
+      "value": "25.949 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        168.66,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9485996",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "D0AGD3E0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        168.66,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        168.66,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        168.66,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '424', 'type': 'DRUMS', 'description': '424 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "17,238.80",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        168.66,
+        80.79,
+        36.85
+      ],
+      "value": "27.268 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        205.51,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU5152105",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "08C82324",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        205.51,
+        43.09,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        205.51,
+        134.65,
+        36.85
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        205.51,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '88', 'type': 'DRUMS', 'description': '88 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "25,258.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        205.51,
+        80.79,
+        36.85
+      ],
+      "value": "41.506 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        270.71,
+        269.29,
+        70.87
+      ],
+      "value": "503 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        250.87,
+        269.29,
+        90.71
+      ],
+      "value": "EURO PARTNERS CORP\n503 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        270.71,
+        269.29,
+        70.87
+      ],
+      "value": "399 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        297.64,
+        250.87,
+        269.29,
+        90.71
+      ],
+      "value": "TRANS SOLUTIONS GMBH\n399 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        361.42,
+        269.29,
+        70.87
+      ],
+      "value": "295 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        341.57,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC PARTNERS S.A.\n295 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        531.5,
+        269.29,
+        34.02
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        297.64,
+        531.5,
+        269.29,
+        34.02
+      ],
+      "value": "0804S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        28.35,
+        565.51,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        297.64,
+        565.51,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        599.53,
+        269.29,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        297.64,
+        599.53,
+        269.29,
+        34.02
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        633.54,
+        269.29,
+        34.02
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        297.64,
+        633.54,
+        269.29,
+        34.02
+      ],
+      "value": "26 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        676.06,
+        269.29,
+        28.35
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        297.64,
+        676.06,
+        269.29,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        28.35,
+        704.41,
+        269.29,
+        28.35
+      ],
+      "value": "21 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        297.64,
+        704.41,
+        269.29,
+        28.35
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        732.76,
+        269.29,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

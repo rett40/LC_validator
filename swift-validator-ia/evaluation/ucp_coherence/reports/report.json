@@ -1,0 +1,400 @@
+{
+  "scope": "Détection incohérences (contradictions/cross-field) + findings UCP par article",
+  "gold": "synthétique par injection (label connu par construction)",
+  "ucp_mode": "legacy",
+  "n_cases": 20,
+  "overall": {
+    "recall": 0.9,
+    "precision": 1.0,
+    "true_positive": 18,
+    "false_negative": 2,
+    "false_positive": 0
+  },
+  "by_detector": {
+    "ucp": {
+      "recall": 0.8889,
+      "detected": 16,
+      "total": 18
+    },
+    "contradiction": {
+      "recall": 1.0,
+      "detected": 2,
+      "total": 2
+    }
+  },
+  "by_category": {
+    "charges": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "contradiction_tag_clause": {
+      "recall": 0.6667,
+      "expected": 3,
+      "detected": 2
+    },
+    "cross_field_dates": {
+      "recall": 0.5,
+      "expected": 2,
+      "detected": 1
+    },
+    "discrepancy_invoice": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "exclusion": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    },
+    "exclusion_critical": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    },
+    "missing_field": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "shipment_constraint": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "tolerance_conflict": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "violation_amendment": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "violation_authentication": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "violation_insurance": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    },
+    "violation_transport": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    }
+  },
+  "by_target": {
+    "Art.10": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.14k": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.16": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.17": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.18": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    },
+    "Art.20": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.20c": {
+      "recall": 0.0,
+      "expected": 1,
+      "detected": 0
+    },
+    "Art.22": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.28": {
+      "recall": 1.0,
+      "expected": 2,
+      "detected": 2
+    },
+    "Art.30": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.31": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.38i": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.39": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "Art.6": {
+      "recall": 0.6667,
+      "expected": 3,
+      "detected": 2
+    },
+    "contradiction:partial_shipments": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    },
+    "contradiction:transhipment": {
+      "recall": 1.0,
+      "expected": 1,
+      "detected": 1
+    }
+  },
+  "baseline_noise": {
+    "ucp_articles": [],
+    "contradictions": []
+  },
+  "misses": [
+    "transhipment_contradiction_ucp",
+    "xfield_shipment_after_expiry_dates"
+  ],
+  "cases": [
+    {
+      "id": "art28_franchise",
+      "detector": "ucp",
+      "category": "violation_insurance",
+      "target": "Art.28",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.28"
+      ]
+    },
+    {
+      "id": "art28_coverage_restriction",
+      "detector": "ucp",
+      "category": "violation_insurance",
+      "target": "Art.28",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.28"
+      ]
+    },
+    {
+      "id": "art17_scanned",
+      "detector": "ucp",
+      "category": "violation_authentication",
+      "target": "Art.17",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.17"
+      ]
+    },
+    {
+      "id": "art18_third_party",
+      "detector": "ucp",
+      "category": "discrepancy_invoice",
+      "target": "Art.18",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.18"
+      ]
+    },
+    {
+      "id": "art20_blank_back",
+      "detector": "ucp",
+      "category": "violation_transport",
+      "target": "Art.20",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.20"
+      ]
+    },
+    {
+      "id": "art22_charter",
+      "detector": "ucp",
+      "category": "violation_transport",
+      "target": "Art.22",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.22"
+      ]
+    },
+    {
+      "id": "art10_partial_amendment",
+      "detector": "ucp",
+      "category": "violation_amendment",
+      "target": "Art.10",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.10"
+      ]
+    },
+    {
+      "id": "art16_reservation_fee",
+      "detector": "ucp",
+      "category": "charges",
+      "target": "Art.16",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.16"
+      ]
+    },
+    {
+      "id": "art18_excluded",
+      "detector": "ucp",
+      "category": "exclusion_critical",
+      "target": "Art.18",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.18"
+      ]
+    },
+    {
+      "id": "art38i_excluded",
+      "detector": "ucp",
+      "category": "exclusion_critical",
+      "target": "Art.38i",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.38i"
+      ]
+    },
+    {
+      "id": "art14k_excluded",
+      "detector": "ucp",
+      "category": "exclusion",
+      "target": "Art.14k",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.14k"
+      ]
+    },
+    {
+      "id": "art39_assignment_prohibited",
+      "detector": "ucp",
+      "category": "exclusion",
+      "target": "Art.39",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.39"
+      ]
+    },
+    {
+      "id": "transhipment_contradiction_ucp",
+      "detector": "ucp",
+      "category": "contradiction_tag_clause",
+      "target": "Art.20c",
+      "detected": false,
+      "extra": [],
+      "detected_set": []
+    },
+    {
+      "id": "transhipment_contradiction_sem",
+      "detector": "contradiction",
+      "category": "contradiction_tag_clause",
+      "target": "contradiction:transhipment",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "transhipment"
+      ]
+    },
+    {
+      "id": "partial_contradiction_sem",
+      "detector": "contradiction",
+      "category": "contradiction_tag_clause",
+      "target": "contradiction:partial_shipments",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "partial_shipments"
+      ]
+    },
+    {
+      "id": "art6_no_expiry",
+      "detector": "ucp",
+      "category": "missing_field",
+      "target": "Art.6",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.6"
+      ]
+    },
+    {
+      "id": "art31_partial_prohibited",
+      "detector": "ucp",
+      "category": "shipment_constraint",
+      "target": "Art.31",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.31"
+      ]
+    },
+    {
+      "id": "art30_tolerance_conflict",
+      "detector": "ucp",
+      "category": "tolerance_conflict",
+      "target": "Art.30",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.30"
+      ]
+    },
+    {
+      "id": "xfield_shipment_after_expiry_text",
+      "detector": "ucp",
+      "category": "cross_field_dates",
+      "target": "Art.6",
+      "detected": true,
+      "extra": [],
+      "detected_set": [
+        "Art.6"
+      ]
+    },
+    {
+      "id": "xfield_shipment_after_expiry_dates",
+      "detector": "ucp",
+      "category": "cross_field_dates",
+      "target": "Art.6",
+      "detected": false,
+      "extra": [],
+      "detected_set": []
+    }
+  ]
+}

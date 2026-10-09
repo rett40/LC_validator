@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00639",
+  "filename": "inv_inv-16_00639.pdf",
+  "layout_id": "INV-16",
+  "bl_id": 639,
+  "fields": {
+    "invoice_number": "INV-2026-00639",
+    "invoice_date": "10 MAY 2026",
+    "lc_reference": "LC/DBS/0639/2026",
+    "bl_reference": "MSCUNNHHG102974177",
+    "seller_name": "PACIFIC TRADING GMBH",
+    "buyer_name": "ATLANTIC SUPPLY CHAIN PLC",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE15E",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "STEEL PRODUCTS AND STRUCTURES",
+    "hs_code": "7308.90",
+    "quantity": 269,
+    "package_unit": "DRUMS",
+    "gross_weight_kg": "11,086.60",
+    "unit_price": 37.0,
+    "currency": "USD",
+    "total_amount": 9953.0,
+    "incoterm": "CIF",
+    "payment_terms": "USANCE 60 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        63.78,
+        217.13,
+        11.34
+      ],
+      "value": "INV-2026-00639",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        83.62,
+        542.83,
+        52.44
+      ],
+      "value": "PACIFIC TRADING GMBH\nPACIFIC TRADING GMBH\n98 MAIN BOULEVARD\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        136.06,
+        542.83,
+        52.44
+      ],
+      "value": "ATLANTIC SUPPLY CHAIN PLC\nATLANTIC SUPPLY CHAIN PLC\n371 MAIN BOULEVARD\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        197.01,
+        314.84,
+        56.69
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        338.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": "7308.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        452.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": 269,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        338.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "DRUMS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        452.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "37.0 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        259.37,
+        244.28,
+        25.51
+      ],
+      "value": "9953.0 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        204.2,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "LC/DBS/0639/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.15,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "MSCUNNHHG102974177",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        23.26,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "CIF",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        204.2,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.15,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        358.58,
+        122.14,
+        19.84
+      ],
+      "value": "11,086.60 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        378.43,
+        122.14,
+        19.84
+      ],
+      "value": "9953.0 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "USANCE 60 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.2,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "CIF",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "COLOMBO, SRI LANKA",
+      "actual": "HAMBURG, GERMANY"
+    }
+  ]
+}

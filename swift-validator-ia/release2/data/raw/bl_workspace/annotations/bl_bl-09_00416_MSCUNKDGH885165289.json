@@ -1,0 +1,500 @@
+{
+  "id": 416,
+  "filename": "bl_bl-09_00416_MSCUNKDGH885165289.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNKDGH885165289",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNKDGH885165289",
+    "shipper_name": "TRANS LOGISTICS GMBH",
+    "shipper_address": "934 MAIN STREET",
+    "consignee_name": "FIRST LOGISTICS CO.",
+    "consignee_address": "864 COMMERCE BOULEVARD",
+    "notify_party_name": "FIRST COMMERCE AG",
+    "notify_party_address": "370 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS379W",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "02 JUN 2026",
+    "eta": "06 JUL 2026",
+    "container_number": "EISU3145454",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "57595E89",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "444 PALLETS",
+    "gross_weight_kg": "42,931.28",
+    "measurement": "100.930 CBM",
+    "containers": [
+      {
+        "container_number": "EISU3145454",
+        "seal_number": "57595E89",
+        "container_type": "20' FLAT RACK",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "444",
+          "type": "PALLETS",
+          "description": "444 PALLETS"
+        },
+        "gross_weight_kg": "11,828.04",
+        "net_weight_kg": "8,389.17",
+        "measurement": "31.788 CBM"
+      },
+      {
+        "container_number": "OOLU5318214",
+        "seal_number": "H082E7CA",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "MEDICAL DEVICES AND EQUIPMENT",
+        "packages": {
+          "count": "197",
+          "type": "CARTONS",
+          "description": "197 CARTONS"
+        },
+        "gross_weight_kg": "14,140.54",
+        "net_weight_kg": "10,930.10",
+        "measurement": "20.247 CBM"
+      },
+      {
+        "container_number": "CMAU0812182",
+        "seal_number": "HHC8D375",
+        "container_type": "40' HIGH CUBE REEFER",
+        "commodity": "PAPER AND PAPERBOARD ARTICLES",
+        "packages": {
+          "count": "472",
+          "type": "BAGS",
+          "description": "472 BAGS"
+        },
+        "gross_weight_kg": "16,962.70",
+        "net_weight_kg": "14,468.06",
+        "measurement": "48.895 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNKDGH885165289",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS GMBH\n934 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST LOGISTICS CO.\n864 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "FIRST COMMERCE AG\n370 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "CS379W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "02 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "06 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        354.33,
+        91.56,
+        36.85
+      ],
+      "value": "EISU3145454",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "57595E89",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        354.33,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        354.33,
+        134.65,
+        36.85
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '444', 'type': 'PALLETS', 'description': '444 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "11,828.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "31.788 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        391.18,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU5318214",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "H082E7CA",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        391.18,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        391.18,
+        134.65,
+        36.85
+      ],
+      "value": "MEDICAL DEVICES AND EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '197', 'type': 'CARTONS', 'description': '197 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "14,140.54",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "20.247 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        428.03,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU0812182",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "HHC8D375",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        428.03,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        428.03,
+        134.65,
+        36.85
+      ],
+      "value": "PAPER AND PAPERBOARD ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '472', 'type': 'BAGS', 'description': '472 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "16,962.70",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "48.895 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

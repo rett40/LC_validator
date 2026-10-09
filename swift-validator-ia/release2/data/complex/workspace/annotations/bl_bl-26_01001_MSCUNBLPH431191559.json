@@ -1,0 +1,500 @@
+{
+  "id": 1001,
+  "filename": "bl_bl-26_01001_MSCUNBLPH431191559.pdf",
+  "layout_id": "BL-26",
+  "bl_number": "MSCUNBLPH431191559",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNBLPH431191559",
+    "shipper_name": "FIRST GROUP INC",
+    "shipper_address": "219 TRADE PARK",
+    "consignee_name": "INTERNATIONAL INDUSTRIES LTD",
+    "consignee_address": "192 MARKET STREET",
+    "notify_party_name": "CENTRAL ENTERPRISES CORP",
+    "notify_party_address": "698 MAIN STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-550",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CFS",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "22 JUN 2026",
+    "eta": "24 JUL 2026",
+    "container_number": "OOLU8070365",
+    "container_type": "40'RF",
+    "seal_number": "94D94AH9",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "408 PACKAGES",
+    "gross_weight_kg": "50,244.56",
+    "measurement": "119.227 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU8070365",
+        "seal_number": "94D94AH9",
+        "container_type": "40'RF",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "408",
+          "type": "PACKAGES",
+          "description": "408 PACKAGES"
+        },
+        "gross_weight_kg": "18,411.03",
+        "net_weight_kg": "16,200.12",
+        "measurement": "59.740 CBM"
+      },
+      {
+        "container_number": "HLCU3062736",
+        "seal_number": "0C8GB48F",
+        "container_type": "40' HC",
+        "commodity": "FOOTWEAR OF ALL TYPES",
+        "packages": {
+          "count": "58",
+          "type": "BOXES",
+          "description": "58 BOXES"
+        },
+        "gross_weight_kg": "16,447.68",
+        "net_weight_kg": "13,951.14",
+        "measurement": "36.394 CBM"
+      },
+      {
+        "container_number": "OOLU7437904",
+        "seal_number": "5A21F2G3",
+        "container_type": "40'HC",
+        "commodity": "PLASTIC GOODS AND ARTICLES",
+        "packages": {
+          "count": "40",
+          "type": "BAGS",
+          "description": "40 BAGS"
+        },
+        "gross_weight_kg": "15,385.85",
+        "net_weight_kg": "12,775.51",
+        "measurement": "23.093 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "08 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        296.22,
+        32.6,
+        260.79,
+        34.02
+      ],
+      "value": "MSCUNBLPH431191559",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        120.57,
+        75.12,
+        45.26,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        267.0,
+        75.12,
+        29.22,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        349.7,
+        75.12,
+        76.91,
+        28.35
+      ],
+      "value": "08 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        489.08,
+        75.12,
+        67.92,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        118.68,
+        103.46,
+        47.15,
+        28.35
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        153.07,
+        298.51,
+        94.96
+      ],
+      "value": "FIRST GROUP INC\n219 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        151.65,
+        215.06,
+        41.1
+      ],
+      "value": "INTERNATIONAL INDUSTRIES LTD\n192 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        206.93,
+        215.06,
+        41.1
+      ],
+      "value": "CENTRAL ENTERPRISES CORP\n698 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        107.82,
+        256.54,
+        58.01,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.98,
+        256.54,
+        88.24,
+        34.02
+      ],
+      "value": "E-550",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        381.35,
+        256.54,
+        45.26,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        509.85,
+        256.54,
+        47.16,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        144.65,
+        290.55,
+        21.17,
+        34.02
+      ],
+      "value": "SHENZHEN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        259.0,
+        290.55,
+        37.22,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        380.4,
+        290.55,
+        46.22,
+        34.02
+      ],
+      "value": "22 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        494.74,
+        290.55,
+        62.26,
+        34.02
+      ],
+      "value": "24 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        348.66,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU8070365",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "94D94AH9",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        348.66,
+        41.73,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        348.66,
+        130.39,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        348.66,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '408', 'type': 'PACKAGES', 'description': '408 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "18,411.03",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        348.66,
+        78.24,
+        36.85
+      ],
+      "value": "59.740 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        385.51,
+        88.67,
+        36.85
+      ],
+      "value": "HLCU3062736",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "0C8GB48F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        385.51,
+        41.73,
+        36.85
+      ],
+      "value": "40' HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        385.51,
+        130.39,
+        36.85
+      ],
+      "value": "FOOTWEAR OF ALL TYPES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        385.51,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '58', 'type': 'BOXES', 'description': '58 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "16,447.68",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        385.51,
+        78.24,
+        36.85
+      ],
+      "value": "36.394 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        422.36,
+        88.67,
+        36.85
+      ],
+      "value": "OOLU7437904",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "5A21F2G3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        422.36,
+        41.73,
+        36.85
+      ],
+      "value": "40'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        422.36,
+        130.39,
+        36.85
+      ],
+      "value": "PLASTIC GOODS AND ARTICLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        422.36,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '40', 'type': 'BAGS', 'description': '40 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "15,385.85",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        422.36,
+        78.24,
+        36.85
+      ],
+      "value": "23.093 CBM",
+      "page": 1
+    }
+  ]
+}

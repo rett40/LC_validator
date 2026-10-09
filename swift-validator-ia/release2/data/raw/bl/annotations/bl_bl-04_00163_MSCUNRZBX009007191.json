@@ -1,0 +1,533 @@
+{
+  "id": 163,
+  "filename": "bl_bl-04_00163_MSCUNRZBX009007191.pdf",
+  "layout_id": "BL-04",
+  "bl_number": "MSCUNRZBX009007191",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNRZBX009007191",
+    "shipper_name": "PREMIER SOLUTIONS CO.",
+    "shipper_address": "787 HARBOR ROAD",
+    "consignee_name": "CENTRAL SUPPLY CHAIN CO.",
+    "consignee_address": "732 MAIN STREET",
+    "notify_party_name": "UNITED SHIPPING INC",
+    "notify_party_address": "726 INDUSTRIAL AVENUE",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-623",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "12 MAY 2026",
+    "eta": "11 JUN 2026",
+    "container_number": "MAEU7186283",
+    "container_type": "40' REEFER",
+    "seal_number": "26FF9536",
+    "commodity": "CHEMICAL PRODUCTS NEC",
+    "packages": "473 PALLETS",
+    "gross_weight_kg": "76,402.31",
+    "measurement": "148.323 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU7186283",
+        "seal_number": "26FF9536",
+        "container_type": "40' REEFER",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "473",
+          "type": "PALLETS",
+          "description": "473 PALLETS"
+        },
+        "gross_weight_kg": "23,726.51",
+        "net_weight_kg": "21,065.24",
+        "measurement": "60.749 CBM"
+      },
+      {
+        "container_number": "TCKU9946751",
+        "seal_number": "081E18G3",
+        "container_type": "40' FLAT RACK",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "309",
+          "type": "PACKAGES",
+          "description": "309 PACKAGES"
+        },
+        "gross_weight_kg": "27,647.76",
+        "net_weight_kg": "24,974.98",
+        "measurement": "21.776 CBM"
+      },
+      {
+        "container_number": "MSCU0262366",
+        "seal_number": "821EHA69",
+        "container_type": "40' DRY",
+        "commodity": "CHEMICAL PRODUCTS NEC",
+        "packages": {
+          "count": "106",
+          "type": "DRUMS",
+          "description": "106 DRUMS"
+        },
+        "gross_weight_kg": "25,028.04",
+        "net_weight_kg": "21,631.94",
+        "measurement": "65.798 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "30 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNRZBX009007191",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "E-623",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        34.02
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        34.02
+      ],
+      "value": "11 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "787 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "PREMIER SOLUTIONS CO.\n787 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "732 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "CENTRAL SUPPLY CHAIN CO.\n732 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        238.11,
+        179.53,
+        70.87
+      ],
+      "value": "726 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        218.27,
+        179.53,
+        90.71
+      ],
+      "value": "UNITED SHIPPING INC\n726 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        333.07,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU7186283",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        333.07,
+        53.86,
+        36.85
+      ],
+      "value": "26FF9536",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        333.07,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        333.07,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        333.07,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '473', 'type': 'PALLETS', 'description': '473 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        333.07,
+        80.79,
+        36.85
+      ],
+      "value": "23,726.51",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        333.07,
+        80.79,
+        36.85
+      ],
+      "value": "60.749 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        369.92,
+        91.56,
+        36.85
+      ],
+      "value": "TCKU9946751",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        369.92,
+        53.86,
+        36.85
+      ],
+      "value": "081E18G3",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        369.92,
+        43.09,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        369.92,
+        134.65,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        369.92,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '309', 'type': 'PACKAGES', 'description': '309 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        369.92,
+        80.79,
+        36.85
+      ],
+      "value": "27,647.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        369.92,
+        80.79,
+        36.85
+      ],
+      "value": "21.776 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        406.77,
+        91.56,
+        36.85
+      ],
+      "value": "MSCU0262366",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        406.77,
+        53.86,
+        36.85
+      ],
+      "value": "821EHA69",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        406.77,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        406.77,
+        134.65,
+        36.85
+      ],
+      "value": "CHEMICAL PRODUCTS NEC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        406.77,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '106', 'type': 'DRUMS', 'description': '106 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        406.77,
+        80.79,
+        36.85
+      ],
+      "value": "25,028.04",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        406.77,
+        80.79,
+        36.85
+      ],
+      "value": "65.798 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        452.13,
+        179.53,
+        28.35
+      ],
+      "value": "30 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        480.47,
+        179.53,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        480.47,
+        179.53,
+        28.35
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

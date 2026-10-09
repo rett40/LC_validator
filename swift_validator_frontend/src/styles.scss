@@ -1,0 +1,81 @@
+/* src/styles.scss */
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 14px; }
+body { background: #f0f4f8; color: #1e293b; font-family: 'Segoe UI', system-ui, sans-serif; }
+
+/* ── Brand tokens ── */
+:root {
+  --brand-primary:   #1a3a6e;
+  --brand-secondary: #c9a227;
+  --brand-light:     #e8f0fe;
+  --brand-dark:      #0f2347;
+
+  --surface-0:   #ffffff;
+  --surface-50:  #f8fafc;
+  --surface-100: #f1f5f9;
+  --surface-200: #e2e8f0;
+
+  --text-primary:   #1e293b;
+  --text-secondary: #64748b;
+  --text-muted:     #94a3b8;
+
+  /* ── Accent (interactive blue, navy brand family) ── */
+  --brand-accent:      #2c5fa3;
+  --brand-accent-soft: #e8f0fe;
+
+  /* ── Semantic status palette — single source of truth, aligned with the admin space ── */
+  --success:        #16a34a;  /* fills / borders / icons (admin green family) */
+  --success-strong: #15803d;  /* readable text on light bg */
+  --success-soft:   #dcfce7;  /* tint background */
+  --success-border: #bbf7d0;
+
+  --warning:        #f59e0b;
+  --warning-strong: #92400e;
+  --warning-soft:   #fef3c7;
+  --warning-border: #fde68a;
+
+  --danger:         #ef4444;
+  --danger-strong:  #b91c1c;
+  --danger-soft:    #fee2e2;
+  --danger-border:  #fecaca;
+
+  --info:           #3b82f6;
+  --info-strong:    #1e40af;
+  --info-soft:      #eff6ff;
+
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  24px;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,.10), 0 2px 4px rgba(0,0,0,.06);
+  --shadow-lg: 0 10px 30px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.08);
+
+  --sidebar-width: 260px;
+  --topbar-height: 64px;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--surface-100); }
+::-webkit-scrollbar-thumb { background: var(--surface-200); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #cbd5e1; }
+
+::selection { background: rgba(26,58,110,.2); }
+
+/* ── PrimeNG overrides ── */
+.p-button.p-button-primary,
+.p-button:not(.p-button-outlined):not(.p-button-text):not(.p-button-link) {
+  background: var(--brand-primary);
+  border-color: var(--brand-primary);
+  &:hover { background: var(--brand-dark); border-color: var(--brand-dark); }
+}
+
+.p-card { border-radius: var(--radius-md); box-shadow: var(--shadow-sm); }
+.p-datatable .p-datatable-thead > tr > th { background: var(--surface-50); font-weight: 600; }
+.p-sidebar { border: none; }
+.p-tag { font-size: 0.75rem; }

@@ -1,0 +1,688 @@
+[
+  {
+    "article": "Art.1",
+    "title": "Application of UCP",
+    "summary": "The Uniform Customs and Practice for Documentary Credits, 2007 Revision, ICC Publication No. 600 apply to any documentary credit when the text of the credit expressly indicates that it is subject to these rules. They are binding on all parties thereto unless expressly modified or excluded by the credit.",
+    "keywords": ["application", "scope", "UCP 600", "modification", "exclusion", "Article 1", "binding"],
+    "category": "compliance",
+    "severity": "advisory",
+    "clause_type": "compliance",
+    "impact_level": "LOW",
+    "mt700_fields": [":40E:"],
+    "validation_rules": [
+      "Credit must expressly state UCP 600 in :40E:",
+      "Any article may be modified or excluded by the credit — modifications are not violations but contractual choices",
+      "Exclusion of an article changes risk profile but does not render credit illegal"
+    ],
+    "common_discrepancies": [
+      "Credit refers to outdated UCP version (UCP 500)",
+      ":40E: absent or ambiguous"
+    ],
+    "embedding_text": "UCP 600 application scope credit expressly subject to rules binding parties modification exclusion article 1 ICC 2007 revision"
+  },
+  {
+    "article": "Art.5",
+    "title": "Documents versus goods, services or performance",
+    "summary": "Banks deal with documents and not with goods, services or performance to which the documents may relate. The terms and conditions of a credit — especially clauses in fields :47A: and :46A: — govern over SWIFT field tags when there is a contradiction. The documentary credit clause always prevails over tag defaults.",
+    "keywords": ["documents vs goods", "clause overrides tag", "Art.5", "SWIFT tag", "47A", "text prevails"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "HIGH",
+    "mt700_fields": [":47A:", ":46A:", ":43T:"],
+    "validation_rules": [
+      "Banks examine documents on their face — underlying contract is irrelevant",
+      "When a textual clause in :47A: contradicts a SWIFT field tag, the clause prevails",
+      "Contradiction between :43T: and a no-transhipment clause must be resolved in favour of the clause",
+      "Banks bear no responsibility for genuineness, falsification or legal effect of documents"
+    ],
+    "common_discrepancies": [
+      ":43T: = ALLOWED but clause prohibits transhipment — clause prevails",
+      "SWIFT field states PERMITTED but additional condition text in :47A: restricts",
+      "Applicant assumes no liability is ignored — clause text governs"
+    ],
+    "embedding_text": "Documents versus goods services banks deal documents not goods clauses override SWIFT tags 47A contradiction letter of credit UCP 600 article 5"
+  },
+  {
+    "article": "Art.6",
+    "title": "Availability, expiry date and place",
+    "summary": "A credit must state the bank with which it is available, or whether it is available with any bank. A credit must state an expiry date for presentation. The place of the bank with which the credit is available is the place for presentation.",
+    "keywords": ["availability", "expiry date", "place of presentation", "expiry", "tenor", "sight", "usance"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "HIGH",
+    "mt700_fields": [":31D:", ":41A:", ":41D:"],
+    "validation_rules": [
+      "Expiry date must be present and in format YYMMDD",
+      "Place of expiry must be explicitly stated",
+      "Availability must specify BY PAYMENT, BY ACCEPTANCE, BY NEGOTIATION or BY DEF PAYMENT",
+      "If credit is available with any bank, expiry date governs presentation deadline"
+    ],
+    "common_discrepancies": [
+      "Expiry date missing or format invalid",
+      "Place of expiry not stated",
+      "Availability method not specified"
+    ],
+    "embedding_text": "Letter of credit expiry date place of presentation availability sight usance deferred payment acceptance negotiation UCP 600 article 6"
+  },
+  {
+    "article": "Art.7",
+    "title": "Issuing bank undertaking",
+    "summary": "An issuing bank is irrevocably bound to honour a complying presentation from the moment it issues the credit. An issuing bank undertakes to reimburse a nominated bank that has honoured or negotiated a complying presentation.",
+    "keywords": ["issuing bank", "honour", "reimburse", "irrevocable", "complying presentation"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "HIGH",
+    "mt700_fields": [":40A:", ":49:"],
+    "validation_rules": [
+      "Credit must be irrevocable (field :40A: = IRREVOCABLE)",
+      "Issuing bank reimbursement obligation is unconditional for complying presentations",
+      "Undertaking is independent of underlying contract"
+    ],
+    "common_discrepancies": [
+      "Credit stated as revocable — not permitted under UCP 600",
+      "Reimbursement instructions absent in :78:"
+    ],
+    "embedding_text": "Issuing bank irrevocable undertaking honour reimburse nominated bank complying presentation documentary credit"
+  },
+  {
+    "article": "Art.8",
+    "title": "Confirming bank undertaking",
+    "summary": "A confirming bank is irrevocably bound to honour or negotiate a complying presentation from the moment it adds its confirmation. A confirming bank undertakes to reimburse another nominated bank that has honoured or negotiated a complying presentation.",
+    "keywords": ["confirming bank", "confirmation", "honour", "negotiate", "reimburse"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":49:"],
+    "validation_rules": [
+      "Confirmation instructions field :49: must be CONFIRM, MAY ADD or WITHOUT",
+      "If CONFIRM, confirming bank bears same payment obligation as issuing bank",
+      "Confirmation cannot be added without issuing bank authorisation"
+    ],
+    "common_discrepancies": [
+      "Field :49: absent when confirming bank is designated",
+      "Silent confirmation not disclosed — creates undisclosed risk"
+    ],
+    "embedding_text": "Confirming bank confirmation undertaking honour negotiate reimburse letter of credit UCP 600 article 8"
+  },
+  {
+    "article": "Art.9",
+    "title": "Advising of credits and amendments",
+    "summary": "A credit and any amendment may be advised to a beneficiary through an advising bank. An advising bank that is not a confirming bank advises the credit and any amendment without any undertaking to honour or negotiate. An advising bank must verify the apparent authenticity of the credit it advises.",
+    "keywords": ["advising bank", "amendment", "authenticity", "notification", "beneficiary"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":57A:", ":57D:"],
+    "validation_rules": [
+      "Advising bank must verify apparent authenticity of the credit",
+      "Advising bank has no payment obligation unless it also confirms",
+      "Amendment must be advised through same channel as original credit",
+      "Beneficiary acceptance of partial amendment not permitted"
+    ],
+    "common_discrepancies": [
+      "Authenticity of SWIFT message not verified",
+      "Amendment advised through different bank than original credit",
+      "Partial acceptance of amendment attempted"
+    ],
+    "embedding_text": "Advising bank credit amendment authenticity notification beneficiary letter of credit UCP 600 article 9"
+  },
+  {
+    "article": "Art.10",
+    "title": "Amendments",
+    "summary": "A credit can neither be amended nor cancelled without the agreement of the issuing bank, the confirming bank (if any), and the beneficiary. A beneficiary should give notification of acceptance or rejection of an amendment. An amendment cannot be accepted partially.",
+    "keywords": ["amendment", "modification", "consent", "acceptance", "rejection", "partial amendment", "MT707"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "HIGH",
+    "mt700_fields": [":23G:", ":79:"],
+    "validation_rules": [
+      "Amendment requires consent of issuing bank, confirming bank (if any) and beneficiary",
+      "Partial acceptance of amendment is NOT permitted",
+      "Silence does not constitute acceptance of amendment",
+      "Amendment cannot be unilaterally imposed by any party",
+      "Beneficiary can only reject amendment — cannot partially accept"
+    ],
+    "common_discrepancies": [
+      "Beneficiary attempts partial acceptance of amendment — invalid",
+      "Amendment clause allows tacit agreement — not permitted by UCP",
+      "Issuing bank amends without beneficiary consent",
+      "Multiple amendments create conflicting terms"
+    ],
+    "embedding_text": "Amendment modification credit requires consent issuing bank confirming beneficiary partial acceptance not permitted tacit agreement UCP 600 article 10 MT707"
+  },
+  {
+    "article": "Art.12b",
+    "title": "Designation and pre-payment restriction",
+    "summary": "A nominated bank that pre-pays or purchases a draft accepted or a deferred payment undertaking incurred before the maturity date will be reimbursed on or after maturity. Article 12b excludes pre-payment by nominated bank without issuing bank authorisation.",
+    "keywords": ["pre-payment", "deferred payment", "nominated bank", "Art.12b", "maturity", "discounting"],
+    "category": "payment",
+    "severity": "warning",
+    "clause_type": "financial",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":41A:", ":41D:", ":47A:"],
+    "validation_rules": [
+      "Pre-payment before maturity requires explicit issuing bank authorisation",
+      "Art.12b exclusion means no pre-payment / discounting allowed",
+      "Nominated bank bears risk if it pre-pays without authorisation"
+    ],
+    "common_discrepancies": [
+      "Nominated bank discounts without authorisation — not reimbursable under UCP",
+      "Art.12b excluded — pre-payment requests must go to issuing bank"
+    ],
+    "embedding_text": "Pre-payment deferred payment nominated bank maturity date discounting authorisation excluded Art 12b letter of credit UCP 600"
+  },
+  {
+    "article": "Art.14",
+    "title": "Standard for examination of documents",
+    "summary": "Banks examine documents only against the credit terms and international standard banking practice. Documents must not conflict with each other. Data in a document need not be identical to, but must not conflict with, data in that document, any other stipulated document, the credit, or UCP 600.",
+    "keywords": ["examination", "documents", "discrepancy", "standard banking practice", "ISBP", "conflict"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "document_format",
+    "impact_level": "HIGH",
+    "mt700_fields": [":46A:", ":47A:"],
+    "validation_rules": [
+      "Documents examined on their face only — underlying transaction irrelevant",
+      "Maximum 5 banking days to examine (Art.14b)",
+      "Data conflicts between documents constitute discrepancy",
+      "Documents not listed in credit may be disregarded (Art.14c)",
+      "Reference to ISBP 745 for interpretation of standard banking practice"
+    ],
+    "common_discrepancies": [
+      "Name/address conflict between invoice and transport document",
+      "Description of goods in invoice conflicts with :45A:",
+      "Currency mismatch between documents",
+      "Port of loading/discharge conflict between BL and LC terms"
+    ],
+    "embedding_text": "Letter of credit document examination standard banking practice discrepancies between documents ISBP 745"
+  },
+  {
+    "article": "Art.14a",
+    "title": "Five banking day rule for examination",
+    "summary": "A nominated bank acting on its nomination, a confirming bank, if any, and the issuing bank shall each have a maximum of five banking days following the day of presentation to determine if a presentation is complying.",
+    "keywords": ["5 banking days", "examination period", "complying presentation", "deadline", "dishonour"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [],
+    "validation_rules": [
+      "Maximum 5 banking days — not 5 calendar days",
+      "Period starts day after receipt of documents",
+      "Failure to act within 5 days precludes raising discrepancies",
+      "Banking days defined by place of examination, not beneficiary country"
+    ],
+    "common_discrepancies": [
+      "Bank examines beyond 5 banking days — precluded from claiming discrepancies",
+      "Refusal notice sent after deadline — bank must honour",
+      "Public holidays not correctly excluded from banking day count"
+    ],
+    "embedding_text": "Five banking days examination period complying presentation discrepancy notice UCP 600 article 14a deadline"
+  },
+  {
+    "article": "Art.14c",
+    "title": "Documents not required by the credit",
+    "summary": "If a credit requires presentation of a document other than a transport document, insurance document or commercial invoice, without stipulating by whom the document is to be issued or its data content, banks will accept the document as presented if its content appears to fulfil the function of the required document.",
+    "keywords": ["non-required documents", "disregard", "return", "unstipulated documents"],
+    "category": "document",
+    "severity": "advisory",
+    "clause_type": "document_format",
+    "impact_level": "LOW",
+    "mt700_fields": [":46A:"],
+    "validation_rules": [
+      "Documents not called for by credit may be disregarded or returned without examination",
+      "Presenting unrequested documents creates no obligation on bank",
+      "Unstipulated issuer or data content — accept if function fulfilled"
+    ],
+    "common_discrepancies": [
+      "Beneficiary presents extra documents creating apparent conflicts — bank may disregard"
+    ],
+    "embedding_text": "Documents not called for by the letter of credit may be disregarded or returned without examination UCP 600 article 14c"
+  },
+  {
+    "article": "Art.14k",
+    "title": "Shipper on transport documents",
+    "summary": "Any shipper or consignor name may appear on a transport document unless the credit stipulates otherwise. The shipper or consignor need not be the beneficiary of the credit.",
+    "keywords": ["shipper", "consignor", "transport document", "third party shipper", "beneficiary as shipper"],
+    "category": "document",
+    "severity": "advisory",
+    "clause_type": "identity",
+    "impact_level": "HIGH",
+    "mt700_fields": [":44A:", ":46A:"],
+    "validation_rules": [
+      "Shipper name may differ from beneficiary unless credit restricts",
+      "Credit must explicitly state 'beneficiary as shipper' to restrict",
+      "Third party shipper acceptable by default"
+    ],
+    "common_discrepancies": [
+      "Credit restricts shipper to beneficiary but third party appears on BL — discrepancy"
+    ],
+    "embedding_text": "Shipper consignor name on bill of lading transport document unless credit requires beneficiary as shipper UCP 600 article 14k"
+  },
+  {
+    "article": "Art.16",
+    "title": "Discrepant documents — waiver and notice",
+    "summary": "When a nominated bank acting on its nomination, a confirming bank, or the issuing bank determines a presentation is not complying, it may refuse to honour or negotiate. When a bank decides to refuse, it must give a single notice to the presenter.",
+    "keywords": ["dishonour", "refusal", "discrepancy notice", "waiver", "holding documents", "returning documents"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "compliance",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [],
+    "validation_rules": [
+      "Single refusal notice required — multiple notices not permitted",
+      "Notice must list ALL discrepancies in one communication",
+      "Notice must state disposition of documents (hold / return / act on instructions)",
+      "Notice must be given within 5 banking days (Art.14a)",
+      "Failure to give proper notice precludes bank from claiming discrepancy",
+      "Bank may seek waiver from applicant but is not obligated to do so"
+    ],
+    "common_discrepancies": [
+      "Multiple refusal notices sent — precludes additional discrepancies",
+      "Disposition of documents not stated in notice",
+      "Notice given after 5 banking day deadline"
+    ],
+    "embedding_text": "Dishonour refusal notice discrepancy letter of credit bank waiver holding returning documents UCP 600 article 16"
+  },
+  {
+    "article": "Art.17",
+    "title": "Original documents and copies",
+    "summary": "At least one original of each stipulated document is required. A bank treats as an original any document bearing an apparently original signature, mark, stamp, or label of the issuer, or purporting to be original. Scanned or photocopied documents are not originals.",
+    "keywords": ["original", "copy", "signature", "authentic", "mark", "stamp", "scanned", "blue ink"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "authentication",
+    "impact_level": "HIGH",
+    "mt700_fields": [":46A:"],
+    "validation_rules": [
+      "Minimum one original per stipulated document required",
+      "Document marked 'original' qualifies even if produced by reprographic system",
+      "Document bearing original signature/stamp qualifies as original",
+      "Scanned documents are NEVER originals under UCP 600",
+      "Blue ink handwritten signature requirement if stipulated in :47A:"
+    ],
+    "common_discrepancies": [
+      "All copies presented, no original",
+      "Photocopy without original signature presented as original",
+      "Scanned document presented — never acceptable as original",
+      "Signature missing required blue ink if stipulated"
+    ],
+    "embedding_text": "Original documents versus copies requirement presentation documentary credit scanned prohibited blue ink signature stamp UCP 600 article 17"
+  },
+  {
+    "article": "Art.18",
+    "title": "Commercial invoice",
+    "summary": "A commercial invoice must appear to have been issued by the beneficiary. It must be made out in the name of the applicant, and in the currency of the credit. The description of goods, services, or performance in a commercial invoice must correspond with that appearing in the credit.",
+    "keywords": ["invoice", "beneficiary", "description of goods", "applicant", "currency", "commercial invoice", "third party invoice"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "HIGH",
+    "mt700_fields": [":50:", ":59:", ":32B:", ":45A:"],
+    "critical_exclusion": true,
+    "exclusion_code": "SEM_VIOL_ART18",
+    "validation_rules": [
+      "Invoice must appear issued by beneficiary (matches :59:)",
+      "Invoice made out to applicant (matches :50:)",
+      "Description of goods must correspond exactly with :45A:",
+      "Currency must match :32B:",
+      "Invoice amount must not exceed credit amount (Art.18b)",
+      "Invoice need not be signed unless credit stipulates",
+      "Third party invoice: forbidden unless credit explicitly permits",
+      "'Formerly known as' wording on invoice creates identity discrepancy"
+    ],
+    "common_discrepancies": [
+      "Goods description on invoice does not match :45A:",
+      "Invoice issued in wrong currency",
+      "Invoice amount exceeds credit amount beyond tolerance",
+      "Invoice not issued in name of applicant",
+      "Beneficiary name on invoice differs from :59:",
+      "Third party invoice presented without authorisation",
+      "Invoice bears 'formerly known as' — name change not permitted"
+    ],
+    "embedding_text": "Commercial invoice issued by beneficiary matching letter of credit goods description applicant currency third party invoice prohibited name change UCP 600 article 18"
+  },
+  {
+    "article": "Art.18b",
+    "title": "Invoice amount and tolerance",
+    "summary": "The amount of a commercial invoice must not exceed the amount permitted by the credit. However, if the credit states the quantity of goods and allows a tolerance in amount, the invoice amount may exceed the credit amount by that tolerance.",
+    "keywords": ["invoice amount", "tolerance", "credit amount", "exceed", "Art.30", "39A", "not exceeding"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":32B:", ":39A:", ":39B:"],
+    "validation_rules": [
+      "Invoice amount ≤ credit amount unless tolerance field (:39A:) is stated",
+      ":39A: format: percentage over/under (e.g., 05/05 = ±5%)",
+      ":39B: NOT EXCEEDING = no tolerance above credit amount",
+      "Cross-check with Art.30 quantity tolerance rules",
+      "Art.18b excluded = no 5% UCP tolerance — strict invoice amount"
+    ],
+    "common_discrepancies": [
+      "Invoice exceeds credit amount with no tolerance field",
+      "Tolerance percentage misread — 10/10 ≠ 10% over and 10% under",
+      "Art.18b excluded without informing beneficiary of strict limit"
+    ],
+    "embedding_text": "Commercial invoice amount must not exceed letter of credit amount tolerance field 39A 39B strict limit excluded UCP 600 article 18b"
+  },
+  {
+    "article": "Art.20",
+    "title": "Bill of lading",
+    "summary": "A bill of lading must indicate the name of the carrier and be signed by the carrier or a named agent, indicate that the goods have been shipped on board a named vessel at the port of loading stated in the credit, and indicate the port of loading and port of discharge stated in the credit. Blank back and short form BLs are prohibited.",
+    "keywords": ["bill of lading", "on board", "carrier", "port of loading", "port of discharge", "signed", "vessel", "blank back", "LCL", "FCL", "notify party"],
+    "category": "shipment",
+    "severity": "hard",
+    "clause_type": "transport",
+    "impact_level": "HIGH",
+    "mt700_fields": [":44A:", ":44B:", ":44C:", ":44E:", ":44F:"],
+    "validation_rules": [
+      "Carrier name must appear and document signed by carrier or named agent",
+      "On-board notation required — pre-printed or added as notation with date",
+      "On-board date determines shipment date for latest shipment (:44C:)",
+      "Port of loading must match :44E: or :44A:",
+      "Port of discharge must match :44F: or :44B:",
+      "Full set = typically 3/3 originals unless credit states otherwise",
+      "Blank back BL is prohibited",
+      "LCL BL must not bear CY/CFS, LCL/FCL or CY/CFT",
+      "Additional notify party on BL is prohibited unless credit permits"
+    ],
+    "common_discrepancies": [
+      "On-board notation absent or undated",
+      "Port of loading/discharge does not match credit",
+      "Carrier not identified or agent unsigned without carrier name",
+      "Blank back or short form BL presented",
+      "On-board date later than latest shipment date :44C:",
+      "LCL BL bears forbidden mentions CY/CFS"
+    ],
+    "embedding_text": "Marine bill of lading port to port shipment carrier on board notation letter of credit blank back prohibited LCL FCL notify party UCP 600 article 20"
+  },
+  {
+    "article": "Art.20c",
+    "title": "Transhipment on bill of lading",
+    "summary": "Transhipment means unloading from one vessel and reloading to another vessel during the carriage. A bill of lading indicating that transhipment will or may take place is acceptable, even if the credit prohibits transhipment, if the goods are shipped in a container, trailer or LASH barge. When the credit clause prohibits transhipment but SWIFT :43T: = ALLOWED, the clause prevails (Art.5).",
+    "keywords": ["transhipment", "container", "prohibited", "LASH", "vessel change", "43T", "clause overrides tag"],
+    "category": "shipment",
+    "severity": "warning",
+    "clause_type": "transport",
+    "impact_level": "HIGH",
+    "mt700_fields": [":43T:"],
+    "validation_rules": [
+      "Field :43T: must be ALLOWED or PROHIBITED",
+      "If PROHIBITED: BL must not indicate transhipment will occur",
+      "Exception: containerised cargo — transhipment acceptable even if prohibited",
+      "Entire carriage must be covered by one and the same BL",
+      "Clause prohibiting transhipment overrides :43T: = ALLOWED (Art.5 UCP)"
+    ],
+    "common_discrepancies": [
+      "BL shows transhipment when :43T: = PROHIBITED and cargo not containerised",
+      "Two separate BLs presented instead of single through BL",
+      "CONTRADICTION: clause prohibits transhipment but :43T: = ALLOWED"
+    ],
+    "embedding_text": "Transhipment allowed prohibited containerised transport clause overrides SWIFT tag 43T UCP 600 article 20c article 5"
+  },
+  {
+    "article": "Art.28",
+    "title": "Insurance document and coverage",
+    "summary": "An insurance document must indicate the name of the insurer or their agent, be signed by the insurer or their agent, cover the risks specified in the credit, and be for a minimum amount of 110% of CIF or CIP value. No franchise or excess deductible is acceptable. Warranted clauses and coverage restrictions are prohibited.",
+    "keywords": ["insurance", "coverage", "policy", "certificate", "CIF", "CIP", "110%", "ICC", "franchise", "deductible", "warranted"],
+    "category": "document",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "HIGH",
+    "mt700_fields": [":46A:", ":32B:"],
+    "validation_rules": [
+      "Minimum coverage: 110% of CIF or CIP invoice value",
+      "Insurance currency must match credit currency (:32B:)",
+      "Risks must be those specified in :46A: (ICC-A, ICC-B, ICC-C, or named risks)",
+      "Insurance document date ≤ on-board date on BL (cover from point of shipment)",
+      "Open cover / certificate acceptable if issued by insurer or agent",
+      "Franchise and excess deductible are PROHIBITED",
+      "Warranted clauses ('warranted professionally packed') are PROHIBITED",
+      "Coverage restriction clauses (Institute Cargo Clauses limitation) PROHIBITED"
+    ],
+    "common_discrepancies": [
+      "Coverage amount less than 110% of invoice",
+      "Insurance currency differs from credit currency",
+      "Insurance date later than shipment date — gap in coverage",
+      "Wrong ICC clause (e.g., ICC-C when ICC-A stipulated)",
+      "Broker's cover note presented — not acceptable",
+      "Franchise or deductible present on policy"
+    ],
+    "embedding_text": "Insurance policy certificate coverage institute cargo clauses ICC 110 percent CIF franchise deductible prohibited warranted letter of credit UCP 600 article 28"
+  },
+  {
+    "article": "Art.29",
+    "title": "Extension of expiry date or last day for presentation",
+    "summary": "If the expiry date or the last day for presentation falls on a day when the bank to which presentation is to be made is closed, the expiry date or the last day for presentation will be extended to the first following banking day.",
+    "keywords": ["extension", "expiry", "banking day", "closed", "force majeure", "presentation deadline"],
+    "category": "compliance",
+    "severity": "warning",
+    "clause_type": "compliance",
+    "impact_level": "LOW",
+    "mt700_fields": [":31D:"],
+    "validation_rules": [
+      "Automatic extension applies when expiry falls on non-banking day",
+      "Extension to first following banking day only",
+      "On-board notation date is not extended — shipment deadline is separate",
+      "Article 36 force majeure events do NOT trigger Art.29 extension"
+    ],
+    "common_discrepancies": [
+      "Presentation made on first extended banking day but shipment date also adjusted — invalid",
+      "Bank closed for reasons other than public holiday — confirm banking day status"
+    ],
+    "embedding_text": "Extension expiry date last day presentation banking day closed letter of credit UCP 600 article 29"
+  },
+  {
+    "article": "Art.30",
+    "title": "Tolerance in credit amount, quantity and unit prices",
+    "summary": "The words 'about' or 'approximately' used in connection with the amount, quantity or unit price allow a tolerance not to exceed 10%. A tolerance not to exceed 5% more or 5% less in the quantity of goods is allowed, unless the credit stipulates the quantity in terms of a stipulated number of packing units.",
+    "keywords": ["tolerance", "about", "approximately", "5%", "10%", "quantity", "amount", "unit price", "39A"],
+    "category": "document",
+    "severity": "warning",
+    "clause_type": "document_format",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":32B:", ":39A:", ":39B:", ":45A:"],
+    "validation_rules": [
+      "'About'/'approximately' in amount → ±10% tolerance on amount AND unit price",
+      "Default quantity tolerance ±5% if not in packing units/individual items",
+      "No default tolerance if quantity expressed as number of units/items",
+      "Partial drawings must remain within :39A: tolerance bands",
+      "Invoice amount may be less than credit amount — not a discrepancy"
+    ],
+    "common_discrepancies": [
+      "Invoice 6% over credit amount with no :39A: tolerance field",
+      "'About USD 100,000' — tolerance applies to amount, not just quantity",
+      "Quantity 7% over when stipulated in 'cartons' — no tolerance applies"
+    ],
+    "embedding_text": "Tolerance amount quantity about approximately 5 percent 10 percent letter of credit UCP 600 article 30 field 39A zero tolerance conflict"
+  },
+  {
+    "article": "Art.31",
+    "title": "Partial drawings and partial shipments",
+    "summary": "Partial drawings or presentations are allowed. Partial shipments are allowed. Presentations made or dispatched on the same means of conveyance and for the same journey, even if different bills of lading indicate different dates, will not be regarded as partial shipments.",
+    "keywords": ["partial drawings", "partial shipments", "allowed", "prohibited", "43P", "same conveyance"],
+    "category": "shipment",
+    "severity": "warning",
+    "clause_type": "transport",
+    "impact_level": "MEDIUM",
+    "mt700_fields": [":43P:"],
+    "validation_rules": [
+      "Default: partial shipments ALLOWED unless :43P: = PROHIBITED",
+      "Same vessel / same voyage / different BL dates — NOT partial shipment",
+      "Multiple presentations on same day under same credit — partial drawing",
+      "Each partial drawing reduces available credit amount"
+    ],
+    "common_discrepancies": [
+      "Multiple BLs on same vessel treated as partial shipment — incorrect",
+      "Second drawing exceeds remaining balance after first partial drawing",
+      ":43P: = PROHIBITED but multiple BLs presented"
+    ],
+    "embedding_text": "Partial drawings partial shipments allowed prohibited same conveyance same voyage letter of credit UCP 600 article 31 field 43P"
+  },
+  {
+    "article": "Art.32",
+    "title": "Instalment drawings and shipments",
+    "summary": "If a credit calls for drawings or shipments in instalments within given periods and any instalment is not drawn or shipped within the period allowed for that instalment, the credit ceases to be available for that and any subsequent instalment, unless the credit stipulates otherwise.",
+    "keywords": ["instalment", "schedule", "drawdown", "shipment schedule", "lapse", "periodic"],
+    "category": "shipment",
+    "severity": "warning",
+    "clause_type": "transport",
+    "impact_level": "HIGH",
+    "mt700_fields": [":45A:", ":44C:"],
+    "validation_rules": [
+      "Missing one instalment period causes all subsequent instalments to lapse automatically",
+      "No automatic reinstatement — credit terminates for future instalments",
+      "Instalment schedule must be explicitly defined in credit",
+      "Different from partial shipments — instalment credits have defined periodic windows"
+    ],
+    "common_discrepancies": [
+      "Instalment missed — subsequent drawings refused even if credit still valid",
+      "Instalment schedule ambiguous — advising bank must seek clarification"
+    ],
+    "embedding_text": "Instalment drawings shipments schedule lapse periodic windows letter of credit UCP 600 article 32"
+  },
+  {
+    "article": "Art.33",
+    "title": "Hours of presentation",
+    "summary": "A bank has no obligation to accept a presentation outside of its banking hours. A document may be presented any time before the expiry date, but the bank's counter hours govern acceptance on the day of presentation.",
+    "keywords": ["banking hours", "presentation time", "counter hours", "expiry time"],
+    "category": "compliance",
+    "severity": "advisory",
+    "clause_type": "compliance",
+    "impact_level": "LOW",
+    "mt700_fields": [":31D:"],
+    "validation_rules": [
+      "Presentation must be within banking hours on the expiry date",
+      "Credit may specify a time (e.g., 'before 5 PM local time')",
+      "If no time specified, bank's standard counter hours apply"
+    ],
+    "common_discrepancies": [
+      "Documents submitted after banking hours on expiry date — not accepted"
+    ],
+    "embedding_text": "Banking hours presentation time expiry date counter hours letter of credit UCP 600 article 33"
+  },
+  {
+    "article": "Art.35",
+    "title": "Disclaimer on transmission and translation",
+    "summary": "A bank assumes no liability or responsibility for the consequences arising out of delay, loss in transit, mutilation or other errors arising in the transmission of any messages or delivery of letters or documents. A bank assumes no liability for errors in translation.",
+    "keywords": ["disclaimer", "transmission", "translation", "loss in transit", "mutilation", "SWIFT"],
+    "category": "compliance",
+    "severity": "advisory",
+    "clause_type": "compliance",
+    "impact_level": "LOW",
+    "mt700_fields": [],
+    "validation_rules": [
+      "Banks not liable for SWIFT transmission errors or message corruption",
+      "Translation errors in documents — bank not liable",
+      "Bank not responsible for delays caused by external communication systems"
+    ],
+    "common_discrepancies": [
+      "Beneficiary claims discrepancy arose from transmission error — bank not liable"
+    ],
+    "embedding_text": "Bank disclaimer transmission translation loss in transit SWIFT message error letter of credit UCP 600 article 35"
+  },
+  {
+    "article": "Art.37c",
+    "title": "Bank charges and commissions",
+    "summary": "If a credit states that charges are for the account of the beneficiary, and the charges cannot be collected, the issuing bank remains liable. Article 37c exclusion means all charges outside the issuing country fall on the beneficiary.",
+    "keywords": ["bank charges", "commission", "fees", "beneficiary charges", "37c", "charges excluded"],
+    "category": "compliance",
+    "severity": "warning",
+    "clause_type": "financial",
+    "impact_level": "LOW",
+    "mt700_fields": [":71B:", ":47A:"],
+    "validation_rules": [
+      "If :71B: = ALL CHARGES FOR BENEFICIARY, all bank fees are deducted from payment",
+      "Art.37c exclusion: charges cannot be waived back to applicant",
+      "Reservation lifting fees, SWIFT charges and commissions all apply",
+      "Inform beneficiary of all applicable charges before presentation"
+    ],
+    "common_discrepancies": [
+      "Beneficiary unaware of charges — payment net of charges creates shortfall",
+      "Art.37c excluded but charges still taken — contra-contractual"
+    ],
+    "embedding_text": "Bank charges commissions fees beneficiary account excluded letter of credit 71B all charges UCP 600 article 37c"
+  },
+  {
+    "article": "Art.38",
+    "title": "Transferable credits",
+    "summary": "A credit can be transferred only if it is expressly designated as 'transferable' by the issuing bank. A transferable credit may be made available in whole or in part to another beneficiary (second beneficiary). Transfer is possible only on the terms and conditions specified in the original credit, with specified exceptions.",
+    "keywords": ["transferable", "first beneficiary", "second beneficiary", "transfer", "back-to-back", "40A TRANSFERABLE"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "HIGH",
+    "mt700_fields": [":40A:", ":47A:"],
+    "critical_exclusion": true,
+    "exclusion_code": "SEM_VIOL_ART38",
+    "validation_rules": [
+      "Credit must be expressly marked 'TRANSFERABLE' — not implied",
+      "Only first beneficiary may request transfer",
+      "Transfer to second beneficiary: amount may be reduced, unit price reduced, expiry earlier, shipment earlier, presentation shorter",
+      "Re-transfer to original beneficiary not permitted",
+      "Transferable does not mean back-to-back — different legal mechanism"
+    ],
+    "common_discrepancies": [
+      "Transfer requested when credit not designated transferable",
+      "Second beneficiary attempts to re-transfer — not permitted",
+      "Transferred credit amount exceeds original — invalid"
+    ],
+    "embedding_text": "Transferable letter of credit first beneficiary second beneficiary transfer rules back to back UCP 600 article 38 40A TRANSFERABLE"
+  },
+  {
+    "article": "Art.38i",
+    "title": "Substitution of invoices in transferable credits",
+    "summary": "The first beneficiary has the right to substitute its own invoices and drafts for those of a second beneficiary. On substitution, the first beneficiary can draw under the credit for the difference between its own invoice amount and the second beneficiary's invoice amount.",
+    "keywords": ["substitute invoice", "first beneficiary", "second beneficiary", "invoice substitution", "profit margin", "Art.38i excluded"],
+    "category": "compliance",
+    "severity": "hard",
+    "clause_type": "financial",
+    "impact_level": "HIGH",
+    "mt700_fields": [],
+    "critical_exclusion": true,
+    "exclusion_code": "SEM_VIOL_ART38I",
+    "validation_rules": [
+      "First beneficiary's substituted invoice must not exceed original credit amount",
+      "Substituted invoice must match goods description in credit (Art.18)",
+      "If first beneficiary fails to substitute, transferring bank may present second beneficiary's docs",
+      "Drafts substitution follows same rules as invoice substitution",
+      "Art.38i exclusion: invoices MUST be from first beneficiary only — no substitution rights"
+    ],
+    "common_discrepancies": [
+      "Substituted invoice amount exceeds original credit amount",
+      "Substituted invoice description conflicts with :45A:",
+      "First beneficiary fails to substitute within presentation period"
+    ],
+    "embedding_text": "Transferable credit substitution of invoice first beneficiary second beneficiary profit margin exclusion UCP 600 article 38i"
+  },
+  {
+    "article": "Art.39",
+    "title": "Assignment of proceeds",
+    "summary": "The fact that a credit is not stated to be transferable shall not affect the right of the beneficiary to assign any proceeds to which it may be or may become entitled under the credit, in accordance with the provisions of applicable law. This article relates only to the assignment of proceeds and not to the assignment of the right to perform under the credit.",
+    "keywords": ["assignment", "proceeds", "right to payment", "cession", "assignee", "non-transferable", "Art.39"],
+    "category": "compliance",
+    "severity": "advisory",
+    "clause_type": "financial",
+    "impact_level": "LOW",
+    "mt700_fields": [":47A:"],
+    "validation_rules": [
+      "Assignment of proceeds does not require credit to be transferable",
+      "Assignment is of payment entitlement only — not of right to perform",
+      "Bank must be formally notified of any assignment",
+      "Assignment prohibited by clause = contractual restriction (Art.1 UCP)"
+    ],
+    "common_discrepancies": [
+      "Beneficiary assigns proceeds without notifying bank",
+      "Credit prohibits assignment — beneficiary proceeds despite restriction",
+      "Assignment confused with transfer — different legal right"
+    ],
+    "embedding_text": "Assignment of proceeds beneficiary right to payment cession assignee non-transferable credit UCP 600 article 39"
+  }
+]

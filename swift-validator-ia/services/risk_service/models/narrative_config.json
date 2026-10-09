@@ -1,0 +1,26 @@
+{
+  "type": "NarrativeExplainer",
+  "version": "4.0",
+  "feature_labels": {
+    "lc_amount": "LC face value",
+    "country_risk_score": "country risk score 0–100",
+    "external_currency_risk": "external currency risk 0–4",
+    "incoterm_risk": "incoterm risk score 0–5",
+    "ucp_compliance_score": "UCP 600 compliance score",
+    "n_ucp_warnings": "UCP warning count",
+    "ucp_warning_rate": "UCP violation density (warnings / clauses)",
+    "nlp_score": "clause quality score (NLP) 0–100",
+    "semantic_score": "semantic coherence score 0–1",
+    "completeness_score": "MT700 completeness score 0–1",
+    "days_to_shipment": "days until latest shipment",
+    "presentation_days": "document presentation period",
+    "validity_days": "LC validity duration",
+    "transshipment_allowed": "transshipment authorization",
+    "charges_beneficiary": "charges on beneficiary"
+  },
+  "templates": {
+    "HIGH": "This Letter of Credit is classified as HIGH RISK. The primary risk drivers are: {drivers}. {rule_note}Immediate review by a senior documentary credit officer is recommended.",
+    "MEDIUM": "This Letter of Credit is classified as MEDIUM RISK. The main factors contributing to this assessment are: {drivers}. {rule_note}Standard documentary review applies with attention to the identified factors.",
+    "LOW": "This Letter of Credit is classified as LOW RISK. Key positive indicators include: {drivers}. {rule_note}Standard processing applies."
+  }
+}

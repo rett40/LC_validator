@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00392",
+  "filename": "inv_hapaglloyd_0392_HLCUUWBK928334100.pdf",
+  "style": "NavyInvoiceRenderer",
+  "bl_id": 392,
+  "fields": {
+    "invoice_number": "INV-2026-00392",
+    "invoice_date": "10 APR 2026",
+    "lc_reference": "LC/SCB/0392/2026",
+    "bl_reference": "HLCUUWBK928334100",
+    "seller_name": "EURO SUPPLY CHAIN INC",
+    "buyer_name": "INTERNATIONAL ENTERPRISES S.A.",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-483",
+    "port_of_loading": "VALENCIA, SPAIN",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "goods_description": "CERAMIC TILES AND SANITARY WARE",
+    "hs_code": "6908.90",
+    "quantity": 232,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "15,944.98",
+    "unit_price": 22.46,
+    "currency": "USD",
+    "total_amount": 5210.66,
+    "incoterm": "FOB",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "INV-2026-00392",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        255.12,
+        0.0,
+        170.08,
+        85.04
+      ],
+      "value": "HLCUUWBK928334100",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "EURO SUPPLY CHAIN INC\n495 HARBOR ROAD\nNINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL ENTERPRISES S.A.\n116 HARBOR ROAD\nHAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "E-483",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        171.5,
+        134.65,
+        31.18
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "HLCUUWBK928334100",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        257.95,
+        155.91,
+        45.35
+      ],
+      "value": "CERAMIC TILES AND SANITARY WARE",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        257.95,
+        62.36,
+        45.35
+      ],
+      "value": "232",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        257.95,
+        70.87,
+        45.35
+      ],
+      "value": "USD 22.46",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        257.95,
+        73.7,
+        45.35
+      ],
+      "value": "USD 5,210.66",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        308.98,
+        215.43,
+        22.68
+      ],
+      "value": "USD 5,210.66",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        308.98,
+        71.81,
+        22.68
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "NINGBO, CHINA",
+      "actual": "VALENCIA, SPAIN"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "4614.48 USD",
+      "actual": "5210.66 USD"
+    }
+  ]
+}

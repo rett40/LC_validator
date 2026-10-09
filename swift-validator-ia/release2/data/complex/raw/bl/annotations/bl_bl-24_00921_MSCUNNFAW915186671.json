@@ -1,0 +1,533 @@
+{
+  "id": 921,
+  "filename": "bl_bl-24_00921_MSCUNNFAW915186671.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNNFAW915186671",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNNFAW915186671",
+    "shipper_name": "EURO SUPPLY CHAIN INC",
+    "shipper_address": "930 MARKET STREET",
+    "consignee_name": "ATLANTIC TRADING CO.",
+    "consignee_address": "754 MARKET STREET",
+    "notify_party_name": "DELTA LOGISTICS GMBH",
+    "notify_party_address": "378 MAIN STREET",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE572S",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CY",
+    "etd": "10 JUN 2026",
+    "eta": "25 JUN 2026",
+    "container_number": "HLCU5936766",
+    "container_type": "40' OPEN TOP",
+    "seal_number": "87HH5DHD",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "23 DRUMS",
+    "gross_weight_kg": "60,175.44",
+    "measurement": "115.765 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU5936766",
+        "seal_number": "87HH5DHD",
+        "container_type": "40' OPEN TOP",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "23",
+          "type": "DRUMS",
+          "description": "23 DRUMS"
+        },
+        "gross_weight_kg": "23,090.76",
+        "net_weight_kg": "20,539.21",
+        "measurement": "35.060 CBM"
+      },
+      {
+        "container_number": "HLCU8185544",
+        "seal_number": "F6F272BG",
+        "container_type": "40' OPEN TOP",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "234",
+          "type": "BOXES",
+          "description": "234 BOXES"
+        },
+        "gross_weight_kg": "15,961.50",
+        "net_weight_kg": "12,165.85",
+        "measurement": "31.558 CBM"
+      },
+      {
+        "container_number": "MAEU5013967",
+        "seal_number": "A9B5CAC6",
+        "container_type": "20' REEFER",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "101",
+          "type": "CARTONS",
+          "description": "101 CARTONS"
+        },
+        "gross_weight_kg": "21,123.18",
+        "net_weight_kg": "18,137.50",
+        "measurement": "49.147 CBM"
+      }
+    ],
+    "freight_terms": "PREPAID",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNNFAW915186671",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        96.62,
+        106.3,
+        108.89,
+        28.35
+      ],
+      "value": "PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        244.61,
+        106.3,
+        145.16,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        429.28,
+        106.3,
+        144.74,
+        28.35
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        52.02,
+        134.65,
+        153.49,
+        28.35
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        252.53,
+        134.65,
+        137.24,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU5936766",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "87HH5DHD",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '23', 'type': 'DRUMS', 'description': '23 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "23,090.76",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "35.060 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "HLCU8185544",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "F6F272BG",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '234', 'type': 'BOXES', 'description': '234 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "15,961.50",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "31.558 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        257.95,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU5013967",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "A9B5CAC6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        257.95,
+        44.22,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        257.95,
+        138.19,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        257.95,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '101', 'type': 'CARTONS', 'description': '101 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "21,123.18",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        257.95,
+        82.91,
+        36.85
+      ],
+      "value": "49.147 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        303.31,
+        148.9,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        277.94,
+        303.31,
+        111.82,
+        34.02
+      ],
+      "value": "FE572S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        452.61,
+        303.31,
+        121.4,
+        34.02
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        94.94,
+        337.32,
+        110.57,
+        34.02
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        267.94,
+        337.32,
+        121.82,
+        34.02
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        472.21,
+        337.32,
+        101.81,
+        34.02
+      ],
+      "value": "FELIXSTOWE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        92.44,
+        371.34,
+        113.07,
+        34.02
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        226.27,
+        371.34,
+        163.49,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "930 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "EURO SUPPLY CHAIN INC\n930 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "754 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC TRADING CO.\n754 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        433.7,
+        184.25,
+        70.87
+      ],
+      "value": "378 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        413.86,
+        184.25,
+        90.71
+      ],
+      "value": "DELTA LOGISTICS GMBH\n378 MAIN STREET",
+      "page": 1
+    }
+  ]
+}

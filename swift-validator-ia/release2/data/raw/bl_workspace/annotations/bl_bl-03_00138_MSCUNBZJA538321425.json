@@ -1,0 +1,500 @@
+{
+  "id": 138,
+  "filename": "bl_bl-03_00138_MSCUNBZJA538321425.pdf",
+  "layout_id": "BL-03",
+  "bl_number": "MSCUNBZJA538321425",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNBZJA538321425",
+    "shipper_name": "UNITED GROUP CORP",
+    "shipper_address": "367 HARBOR ROAD",
+    "consignee_name": "INTERNATIONAL SHIPPING AG",
+    "consignee_address": "801 MAIN STREET",
+    "notify_party_name": "FIRST GROUP LTD",
+    "notify_party_address": "947 PORT ACCESS ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE392N",
+    "port_of_loading": "SHANGHAI, CHINA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "place_of_receipt": "SHANGHAI CY",
+    "place_of_delivery": "ROTTERDAM CFS",
+    "etd": "03 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "TRHU5725755",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "C0657DEF",
+    "commodity": "PERSONAL CARE PRODUCTS",
+    "packages": "275 PALLETS",
+    "gross_weight_kg": "51,740.65",
+    "measurement": "127.878 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU5725755",
+        "seal_number": "C0657DEF",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "PERSONAL CARE PRODUCTS",
+        "packages": {
+          "count": "275",
+          "type": "PALLETS",
+          "description": "275 PALLETS"
+        },
+        "gross_weight_kg": "13,917.96",
+        "net_weight_kg": "10,904.94",
+        "measurement": "31.330 CBM"
+      },
+      {
+        "container_number": "CMAU2518787",
+        "seal_number": "3G073A77",
+        "container_type": "40' DRY",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "359",
+          "type": "CARTONS",
+          "description": "359 CARTONS"
+        },
+        "gross_weight_kg": "11,814.48",
+        "net_weight_kg": "8,060.76",
+        "measurement": "41.966 CBM"
+      },
+      {
+        "container_number": "TRHU6510846",
+        "seal_number": "FF3906H7",
+        "container_type": "20' OPEN TOP",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "39",
+          "type": "PALLETS",
+          "description": "39 PALLETS"
+        },
+        "gross_weight_kg": "26,008.21",
+        "net_weight_kg": "23,288.55",
+        "measurement": "54.582 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "29 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        351.5,
+        75.97,
+        215.43,
+        31.75
+      ],
+      "value": "MSCUNBZJA538321425",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        30.35,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        164.99,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "FE392N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        299.64,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "SHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        434.28,
+        143.72,
+        130.65,
+        15.31
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        30.35,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "SHANGHAI CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        164.99,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "ROTTERDAM CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        299.64,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "03 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        434.28,
+        177.73,
+        130.65,
+        15.31
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "UNITED GROUP CORP\n367 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        164.99,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "INTERNATIONAL SHIPPING AG\n801 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        299.64,
+        223.94,
+        130.65,
+        73.7
+      ],
+      "value": "FIRST GROUP LTD\n947 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        328.82,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU5725755",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "C0657DEF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        328.82,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        328.82,
+        134.65,
+        36.85
+      ],
+      "value": "PERSONAL CARE PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        328.82,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '275', 'type': 'PALLETS', 'description': '275 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "13,917.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        328.82,
+        80.79,
+        36.85
+      ],
+      "value": "31.330 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        365.67,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU2518787",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "3G073A77",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        365.67,
+        43.09,
+        36.85
+      ],
+      "value": "40' DRY",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        365.67,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        365.67,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '359', 'type': 'CARTONS', 'description': '359 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "11,814.48",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        365.67,
+        80.79,
+        36.85
+      ],
+      "value": "41.966 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        402.52,
+        91.56,
+        36.85
+      ],
+      "value": "TRHU6510846",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        402.52,
+        53.86,
+        36.85
+      ],
+      "value": "FF3906H7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        402.52,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        402.52,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        402.52,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '39', 'type': 'PALLETS', 'description': '39 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        402.52,
+        80.79,
+        36.85
+      ],
+      "value": "26,008.21",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        402.52,
+        80.79,
+        36.85
+      ],
+      "value": "54.582 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        30.35,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        164.99,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        299.64,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "29 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        434.28,
+        471.97,
+        130.65,
+        12.76
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        30.35,
+        500.31,
+        130.65,
+        12.76
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

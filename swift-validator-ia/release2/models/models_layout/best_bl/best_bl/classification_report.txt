@@ -1,0 +1,50 @@
+Classification Report — BL (token-level)
+======================================================================
+                       precision    recall  f1-score   support
+
+                    O       1.00      1.00      1.00      6159
+          B-BL_NUMBER       1.00      1.00      1.00       120
+            B-SHIPPER       1.00      1.00      1.00       120
+            I-SHIPPER       1.00      1.00      1.00       625
+          B-CONSIGNEE       1.00      1.00      1.00       120
+          I-CONSIGNEE       1.00      1.00      1.00       631
+       B-NOTIFY_PARTY       1.00      1.00      1.00       120
+       I-NOTIFY_PARTY       1.00      1.00      1.00       626
+             B-VESSEL       1.00      1.00      1.00       120
+             I-VESSEL       1.00      1.00      1.00       193
+             B-VOYAGE       1.00      1.00      1.00       120
+    B-PORT_OF_LOADING       1.00      1.00      1.00       120
+    I-PORT_OF_LOADING       1.00      1.00      1.00       126
+  B-PORT_OF_DISCHARGE       1.00      1.00      1.00       120
+  I-PORT_OF_DISCHARGE       1.00      1.00      1.00       166
+   B-PLACE_OF_RECEIPT       1.00      1.00      1.00       120
+   I-PLACE_OF_RECEIPT       1.00      1.00      1.00       128
+  B-PLACE_OF_DELIVERY       1.00      1.00      1.00       120
+  I-PLACE_OF_DELIVERY       1.00      1.00      1.00       166
+                B-ETD       1.00      1.00      1.00       120
+                I-ETD       1.00      1.00      1.00       240
+                B-ETA       1.00      1.00      1.00       120
+                I-ETA       1.00      1.00      1.00       240
+         B-ISSUE_DATE       1.00      1.00      1.00       120
+         I-ISSUE_DATE       1.00      1.00      1.00       240
+        B-ISSUE_PLACE       1.00      1.00      1.00       120
+       B-CONTAINER_NO       1.00      1.00      1.00       195
+     B-CONTAINER_TYPE       1.00      1.00      1.00       195
+     I-CONTAINER_TYPE       1.00      1.00      1.00       160
+            B-SEAL_NO       1.00      1.00      1.00       195
+          B-COMMODITY       0.99      1.00      1.00       194
+          I-COMMODITY       1.00      1.00      1.00       500
+       B-GROSS_WEIGHT       1.00      1.00      1.00       195
+        B-MEASUREMENT       1.00      1.00      1.00       195
+        I-MEASUREMENT       1.00      1.00      1.00       195
+           B-PACKAGES       1.00      1.00      1.00       195
+           I-PACKAGES       1.00      1.00      1.00       322
+      B-FREIGHT_TERMS       1.00      1.00      1.00       120
+      I-FREIGHT_TERMS       1.00      1.00      1.00       303
+       B-SERVICE_TYPE       1.00      1.00      1.00       120
+B-NUMBER_OF_ORIGINALS       1.00      1.00      1.00       120
+I-NUMBER_OF_ORIGINALS       1.00      1.00      1.00       120
+
+             accuracy                           1.00     14544
+            macro avg       1.00      1.00      1.00     14544
+         weighted avg       1.00      1.00      1.00     14544

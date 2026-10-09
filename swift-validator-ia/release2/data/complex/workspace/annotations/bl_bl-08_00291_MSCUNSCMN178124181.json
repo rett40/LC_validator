@@ -1,0 +1,409 @@
+{
+  "id": 291,
+  "filename": "bl_bl-08_00291_MSCUNSCMN178124181.pdf",
+  "layout_id": "BL-08",
+  "bl_number": "MSCUNSCMN178124181",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNSCMN178124181",
+    "shipper_name": "ATLANTIC SOLUTIONS CORP",
+    "shipper_address": "19 TRADE PARK",
+    "consignee_name": "CENTRAL COMMERCE LTD",
+    "consignee_address": "228 MAIN STREET",
+    "notify_party_name": "FIRST SUPPLY CHAIN PLC",
+    "notify_party_address": "779 COMMERCE BOULEVARD",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL9214",
+    "port_of_loading": "TIANJIN, CHINA",
+    "port_of_discharge": "VALENCIA, SPAIN",
+    "place_of_receipt": "TIANJIN CY",
+    "place_of_delivery": "VALENCIA CY",
+    "etd": "17 JUN 2026",
+    "eta": "16 JUL 2026",
+    "container_number": "HLCU4824596",
+    "container_type": "20' REEFER",
+    "seal_number": "150B258B",
+    "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+    "packages": "155 DRUMS",
+    "gross_weight_kg": "20,449.69",
+    "measurement": "68.539 CBM",
+    "containers": [
+      {
+        "container_number": "HLCU4824596",
+        "seal_number": "150B258B",
+        "container_type": "20' REEFER",
+        "commodity": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+        "packages": {
+          "count": "155",
+          "type": "DRUMS",
+          "description": "155 DRUMS"
+        },
+        "gross_weight_kg": "7,374.52",
+        "net_weight_kg": "4,863.92",
+        "measurement": "37.008 CBM"
+      },
+      {
+        "container_number": "TRHU2390067",
+        "seal_number": "D8AAG7GF",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "197",
+          "type": "CRATES",
+          "description": "197 CRATES"
+        },
+        "gross_weight_kg": "13,075.17",
+        "net_weight_kg": "9,859.93",
+        "measurement": "31.531 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        289.13,
+        18.43,
+        267.87,
+        34.02
+      ],
+      "value": "MSCUNSCMN178124181",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        23.26,
+        76.54,
+        306.73,
+        94.96
+      ],
+      "value": "ATLANTIC SOLUTIONS CORP\n19 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        333.99,
+        75.12,
+        221.01,
+        41.1
+      ],
+      "value": "CENTRAL COMMERCE LTD\n228 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        333.99,
+        130.39,
+        221.01,
+        41.1
+      ],
+      "value": "FIRST SUPPLY CHAIN PLC\n779 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        23.26,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        291.13,
+        200.41,
+        263.87,
+        15.31
+      ],
+      "value": "AL9214",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        23.26,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "TIANJIN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        291.13,
+        234.43,
+        263.87,
+        15.31
+      ],
+      "value": "VALENCIA, SPAIN",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        23.26,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "TIANJIN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        291.13,
+        268.44,
+        263.87,
+        15.31
+      ],
+      "value": "VALENCIA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        23.26,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        291.13,
+        302.46,
+        263.87,
+        15.31
+      ],
+      "value": "16 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        340.16,
+        91.08,
+        36.85
+      ],
+      "value": "HLCU4824596",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "150B258B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        340.16,
+        42.86,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        340.16,
+        133.94,
+        36.85
+      ],
+      "value": "SOLAR PANELS AND PHOTOVOLTAIC CELLS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        340.16,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '155', 'type': 'DRUMS', 'description': '155 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "7,374.52",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        340.16,
+        80.36,
+        36.85
+      ],
+      "value": "37.008 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        377.01,
+        91.08,
+        36.85
+      ],
+      "value": "TRHU2390067",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        112.34,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "D8AAG7GF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        165.91,
+        377.01,
+        42.86,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        208.77,
+        377.01,
+        133.94,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        342.71,
+        377.01,
+        53.57,
+        36.85
+      ],
+      "value": "{'count': '197', 'type': 'CRATES', 'description': '197 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        396.28,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "13,075.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        476.65,
+        377.01,
+        80.36,
+        36.85
+      ],
+      "value": "31.531 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        23.26,
+        439.37,
+        263.87,
+        12.76
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        291.13,
+        439.37,
+        263.87,
+        12.76
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        23.26,
+        467.72,
+        263.87,
+        12.76
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        291.13,
+        467.72,
+        263.87,
+        12.76
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        23.26,
+        496.06,
+        263.87,
+        12.76
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

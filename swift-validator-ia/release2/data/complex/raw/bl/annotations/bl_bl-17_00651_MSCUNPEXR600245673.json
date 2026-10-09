@@ -1,0 +1,409 @@
+{
+  "id": 651,
+  "filename": "bl_bl-17_00651_MSCUNPEXR600245673.pdf",
+  "layout_id": "BL-17",
+  "bl_number": "MSCUNPEXR600245673",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNPEXR600245673",
+    "shipper_name": "PACIFIC TRADING CO.",
+    "shipper_address": "138 MAIN STREET",
+    "consignee_name": "DELTA LOGISTICS LLC",
+    "consignee_address": "430 TRADE PARK",
+    "notify_party_name": "CENTRAL SHIPPING PLC",
+    "notify_party_address": "409 HARBOR ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-909",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CFS",
+    "etd": "15 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "TCKU8425052",
+    "container_type": "40'OT",
+    "seal_number": "03967552",
+    "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+    "packages": "57 PACKAGES",
+    "gross_weight_kg": "22,568.71",
+    "measurement": "95.123 CBM",
+    "containers": [
+      {
+        "container_number": "TCKU8425052",
+        "seal_number": "03967552",
+        "container_type": "40'OT",
+        "commodity": "AUTOMOTIVE PARTS AND ACCESSORIES",
+        "packages": {
+          "count": "57",
+          "type": "PACKAGES",
+          "description": "57 PACKAGES"
+        },
+        "gross_weight_kg": "6,830.33",
+        "net_weight_kg": "3,811.66",
+        "measurement": "28.138 CBM"
+      },
+      {
+        "container_number": "OOLU4375658",
+        "seal_number": "5FF97F0F",
+        "container_type": "45'HC",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "148",
+          "type": "CARTONS",
+          "description": "148 CARTONS"
+        },
+        "gross_weight_kg": "15,738.38",
+        "net_weight_kg": "12,341.14",
+        "measurement": "66.985 CBM"
+      }
+    ],
+    "freight_terms": "AS ARRANGED",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        345.54,
+        73.13,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNPEXR600245673",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        30.35,
+        136.06,
+        302.62,
+        94.96
+      ],
+      "value": "PACIFIC TRADING CO.\n138 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        336.97,
+        134.65,
+        218.04,
+        41.1
+      ],
+      "value": "DELTA LOGISTICS LLC\n430 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        336.97,
+        189.92,
+        218.04,
+        41.1
+      ],
+      "value": "CENTRAL SHIPPING PLC\n409 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        160.51,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "E-909",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        292.68,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        424.84,
+        256.54,
+        132.17,
+        24.09
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        28.35,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        160.51,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "NEW YORK CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        292.68,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "15 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        424.84,
+        290.55,
+        132.17,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        345.83,
+        89.87,
+        36.85
+      ],
+      "value": "TCKU8425052",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "03967552",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        345.83,
+        42.29,
+        36.85
+      ],
+      "value": "40'OT",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        345.83,
+        132.17,
+        36.85
+      ],
+      "value": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        345.83,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '57', 'type': 'PACKAGES', 'description': '57 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "6,830.33",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        345.83,
+        79.3,
+        36.85
+      ],
+      "value": "28.138 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        382.68,
+        89.87,
+        36.85
+      ],
+      "value": "OOLU4375658",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        118.22,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "5FF97F0F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        171.09,
+        382.68,
+        42.29,
+        36.85
+      ],
+      "value": "45'HC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        213.38,
+        382.68,
+        132.17,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        345.54,
+        382.68,
+        52.87,
+        36.85
+      ],
+      "value": "{'count': '148', 'type': 'CARTONS', 'description': '148 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        398.41,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "15,738.38",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        477.71,
+        382.68,
+        79.3,
+        36.85
+      ],
+      "value": "66.985 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        445.04,
+        132.17,
+        18.43
+      ],
+      "value": "AS ARRANGED",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        160.51,
+        445.04,
+        132.17,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        292.68,
+        445.04,
+        132.17,
+        18.43
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        424.84,
+        445.04,
+        132.17,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        28.35,
+        473.39,
+        132.17,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

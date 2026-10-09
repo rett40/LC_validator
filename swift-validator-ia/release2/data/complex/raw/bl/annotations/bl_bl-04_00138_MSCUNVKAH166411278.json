@@ -1,0 +1,322 @@
+{
+  "id": 138,
+  "filename": "bl_bl-04_00138_MSCUNVKAH166411278.pdf",
+  "layout_id": "BL-04",
+  "bl_number": "MSCUNVKAH166411278",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNVKAH166411278",
+    "shipper_name": "PACIFIC ENTERPRISES CORP",
+    "shipper_address": "895 HARBOR ROAD",
+    "consignee_name": "TRANS ENTERPRISES INC",
+    "consignee_address": "375 MAIN STREET",
+    "notify_party_name": "FIRST SHIPPING INC",
+    "notify_party_address": "969 HARBOR ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS989W",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CFS",
+    "etd": "25 JUN 2026",
+    "eta": "18 JUL 2026",
+    "container_number": "MSCU4188219",
+    "container_type": "20'RF",
+    "seal_number": "5H9C9B9B",
+    "commodity": "TEXTILE FABRICS AND GARMENTS",
+    "packages": "182 CARTONS",
+    "gross_weight_kg": "13,999.71",
+    "measurement": "53.889 CBM",
+    "containers": [
+      {
+        "container_number": "MSCU4188219",
+        "seal_number": "5H9C9B9B",
+        "container_type": "20'RF",
+        "commodity": "TEXTILE FABRICS AND GARMENTS",
+        "packages": {
+          "count": "182",
+          "type": "CARTONS",
+          "description": "182 CARTONS"
+        },
+        "gross_weight_kg": "13,999.71",
+        "net_weight_kg": "11,699.91",
+        "measurement": "53.889 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "05 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        319.82,
+        18.43,
+        244.28,
+        70.87
+      ],
+      "value": "MSCUNVKAH166411278",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        58.84,
+        97.8,
+        143.37,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        244.22,
+        97.8,
+        138.93,
+        34.02
+      ],
+      "value": "CS989W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        455.83,
+        97.8,
+        108.26,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        45.04,
+        131.81,
+        157.16,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        271.78,
+        131.81,
+        111.37,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        457.62,
+        131.81,
+        106.47,
+        34.02
+      ],
+      "value": "LOS ANGELES CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        82.84,
+        165.83,
+        119.37,
+        34.02
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        266.44,
+        165.83,
+        116.7,
+        34.02
+      ],
+      "value": "18 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        208.35,
+        542.83,
+        55.28
+      ],
+      "value": "PACIFIC ENTERPRISES CORP\n895 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        21.26,
+        263.62,
+        542.83,
+        55.28
+      ],
+      "value": "TRANS ENTERPRISES INC\n375 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        21.26,
+        318.9,
+        542.83,
+        55.28
+      ],
+      "value": "FIRST SHIPPING INC\n969 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        385.51,
+        542.83,
+        12.76
+      ],
+      "value": "MSCU4188219",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        54.61,
+        403.37,
+        244.28,
+        6.8
+      ],
+      "value": "5H9C9B9B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        54.61,
+        412.44,
+        244.28,
+        6.8
+      ],
+      "value": "20'RF",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        54.61,
+        421.51,
+        244.28,
+        6.8
+      ],
+      "value": {
+        "count": "182",
+        "type": "CARTONS",
+        "description": "182 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        54.61,
+        430.58,
+        244.28,
+        6.8
+      ],
+      "value": "13,999.71",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        54.61,
+        439.65,
+        244.28,
+        6.8
+      ],
+      "value": "53.889 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        319.82,
+        403.16,
+        217.13,
+        31.96
+      ],
+      "value": "TEXTILE FABRICS AND GARMENTS",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        112.16,
+        452.98,
+        90.04,
+        28.35
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        276.21,
+        452.98,
+        106.94,
+        28.35
+      ],
+      "value": "CY/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        433.61,
+        452.98,
+        130.49,
+        28.35
+      ],
+      "value": "05 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        53.94,
+        481.32,
+        148.26,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        302.44,
+        481.32,
+        80.7,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

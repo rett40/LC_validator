@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00047",
+  "filename": "inv_inv-02_00047.pdf",
+  "layout_id": "INV-02",
+  "bl_id": 47,
+  "fields": {
+    "invoice_number": "INV-2026-00047",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0047/2026",
+    "bl_reference": "MSCUNHKJS656592357",
+    "seller_name": "FIRST SOLUTIONS CO.",
+    "buyer_name": "PACIFIC SUPPLY CHAIN INC",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0451S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "goods_description": "STEEL PRODUCTS AND STRUCTURES",
+    "hs_code": "7308.90",
+    "quantity": 252,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "23,400.86",
+    "unit_price": 40.75,
+    "currency": "EUR",
+    "total_amount": 10269.0,
+    "incoterm": "FCA",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        322.3,
+        32.6,
+        234.71,
+        70.87
+      ],
+      "value": "INV-2026-00047",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        35.43,
+        121.89,
+        260.79,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        296.22,
+        121.89,
+        260.79,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0047/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        35.43,
+        150.24,
+        260.79,
+        18.43
+      ],
+      "value": "MSCUNHKJS656592357",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        150.24,
+        260.79,
+        18.43
+      ],
+      "value": "FCA",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        178.58,
+        260.79,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        296.22,
+        178.58,
+        260.79,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        205.51,
+        323.38,
+        79.37
+      ],
+      "value": "FIRST SOLUTIONS CO.\nFIRST SOLUTIONS CO.\n410 TRADE PARK\nGUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        358.81,
+        205.51,
+        198.2,
+        79.37
+      ],
+      "value": "PACIFIC SUPPLY CHAIN INC\nPACIFIC SUPPLY CHAIN INC\n152 EXPORT ZONE\nANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        308.98,
+        166.9,
+        42.52
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        202.34,
+        308.98,
+        62.59,
+        42.52
+      ],
+      "value": "7308.90",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        264.93,
+        308.98,
+        52.16,
+        42.52
+      ],
+      "value": "252",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        317.08,
+        308.98,
+        52.16,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        369.24,
+        308.98,
+        93.88,
+        42.52
+      ],
+      "value": "40.75 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        463.12,
+        308.98,
+        93.88,
+        42.52
+      ],
+      "value": "10269.0 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        439.65,
+        360.0,
+        117.35,
+        19.84
+      ],
+      "value": "23,400.86 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        439.65,
+        379.84,
+        117.35,
+        19.84
+      ],
+      "value": "10269.0 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        35.43,
+        418.11,
+        260.79,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        296.22,
+        418.11,
+        260.79,
+        15.59
+      ],
+      "value": "FCA",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

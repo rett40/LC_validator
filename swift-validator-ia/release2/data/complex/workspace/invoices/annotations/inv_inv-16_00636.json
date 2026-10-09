@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00636",
+  "filename": "inv_inv-16_00636.pdf",
+  "layout_id": "INV-16",
+  "bl_id": 636,
+  "fields": {
+    "invoice_number": "INV-2026-00636",
+    "invoice_date": "04 MAY 2026",
+    "lc_reference": "LC/HSBC/0636/2026",
+    "bl_reference": "MSCUNWEFZ246041006",
+    "seller_name": "ATLANTIC ENTERPRISES LLC",
+    "buyer_name": "DELTA SUPPLY CHAIN LLC",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL1309",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "hs_code": "9503.00",
+    "quantity": 495,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "58,237.96",
+    "unit_price": 20.8,
+    "currency": "USD",
+    "total_amount": 10296.0,
+    "incoterm": "CFR",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        21.26,
+        63.78,
+        217.13,
+        11.34
+      ],
+      "value": "INV-2026-00636",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        21.26,
+        83.62,
+        542.83,
+        52.44
+      ],
+      "value": "ATLANTIC ENTERPRISES LLC\nATLANTIC ENTERPRISES LLC\n901 HARBOR ROAD\nKAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        21.26,
+        136.06,
+        542.83,
+        52.44
+      ],
+      "value": "DELTA SUPPLY CHAIN LLC\nDELTA SUPPLY CHAIN LLC\n83 INDUSTRIAL AVENUE\nGENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        21.26,
+        197.01,
+        314.84,
+        56.69
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        338.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": "9503.00",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        452.1,
+        214.02,
+        110.0,
+        12.76
+      ],
+      "value": 495,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        338.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        452.1,
+        242.36,
+        110.0,
+        12.76
+      ],
+      "value": "20.8 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        319.82,
+        259.37,
+        244.28,
+        25.51
+      ],
+      "value": "10296.0 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        23.26,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "04 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        204.2,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "LC/HSBC/0636/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.15,
+        310.39,
+        176.94,
+        12.76
+      ],
+      "value": "MSCUNWEFZ246041006",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        23.26,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        204.2,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.15,
+        338.74,
+        176.94,
+        12.76
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        441.96,
+        358.58,
+        122.14,
+        19.84
+      ],
+      "value": "58,237.96 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        441.96,
+        378.43,
+        122.14,
+        19.84
+      ],
+      "value": "10296.0 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        23.26,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.2,
+        422.08,
+        176.94,
+        11.48
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "TOKYO, JAPAN"
+    }
+  ]
+}

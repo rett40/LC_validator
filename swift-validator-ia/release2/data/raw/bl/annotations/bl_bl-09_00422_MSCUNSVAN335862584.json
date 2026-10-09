@@ -1,0 +1,500 @@
+{
+  "id": 422,
+  "filename": "bl_bl-09_00422_MSCUNSVAN335862584.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNSVAN335862584",
+  "n_containers": 3,
+  "fields": {
+    "bl_number": "MSCUNSVAN335862584",
+    "shipper_name": "PREMIER TRADING AG",
+    "shipper_address": "258 MARKET STREET",
+    "consignee_name": "CENTRAL COMMERCE CO.",
+    "consignee_address": "86 INDUSTRIAL AVENUE",
+    "notify_party_name": "UNITED SOLUTIONS PLC",
+    "notify_party_address": "770 COMMERCE BOULEVARD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-963",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CY",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "10 JUN 2026",
+    "eta": "08 JUL 2026",
+    "container_number": "MAEU3587043",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "4H5BEHA7",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "78 CARTONS",
+    "gross_weight_kg": "63,992.86",
+    "measurement": "149.005 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3587043",
+        "seal_number": "4H5BEHA7",
+        "container_type": "20' OPEN TOP",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "78",
+          "type": "CARTONS",
+          "description": "78 CARTONS"
+        },
+        "gross_weight_kg": "26,692.19",
+        "net_weight_kg": "23,754.66",
+        "measurement": "35.806 CBM"
+      },
+      {
+        "container_number": "HLCU0242640",
+        "seal_number": "4D52F33E",
+        "container_type": "20' FLAT RACK",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "384",
+          "type": "CARTONS",
+          "description": "384 CARTONS"
+        },
+        "gross_weight_kg": "14,922.84",
+        "net_weight_kg": "12,707.49",
+        "measurement": "63.104 CBM"
+      },
+      {
+        "container_number": "HLCU7480541",
+        "seal_number": "14EH256F",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "428",
+          "type": "BAGS",
+          "description": "428 BAGS"
+        },
+        "gross_weight_kg": "22,377.83",
+        "net_weight_kg": "20,124.86",
+        "measurement": "50.095 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "24 APR 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNSVAN335862584",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "PREMIER TRADING AG\n258 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL COMMERCE CO.\n86 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        126.14,
+        179.53,
+        79.37
+      ],
+      "value": "UNITED SOLUTIONS PLC\n770 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "E-963",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        231.02,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        265.04,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "10 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        299.06,
+        179.53,
+        24.09
+      ],
+      "value": "08 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        354.33,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3587043",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "4H5BEHA7",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        354.33,
+        43.09,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        354.33,
+        134.65,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        354.33,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '78', 'type': 'CARTONS', 'description': '78 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "26,692.19",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        354.33,
+        80.79,
+        36.85
+      ],
+      "value": "35.806 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        391.18,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU0242640",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "4D52F33E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        391.18,
+        43.09,
+        36.85
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        391.18,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        391.18,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '384', 'type': 'CARTONS', 'description': '384 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "14,922.84",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        391.18,
+        80.79,
+        36.85
+      ],
+      "value": "63.104 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        428.03,
+        91.56,
+        36.85
+      ],
+      "value": "HLCU7480541",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "14EH256F",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        428.03,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        428.03,
+        134.65,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        428.03,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '428', 'type': 'BAGS', 'description': '428 BAGS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "22,377.83",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        428.03,
+        80.79,
+        36.85
+      ],
+      "value": "50.095 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        490.39,
+        179.53,
+        18.43
+      ],
+      "value": "24 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        518.74,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

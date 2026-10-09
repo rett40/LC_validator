@@ -1,0 +1,409 @@
+{
+  "id": 333,
+  "filename": "bl_bl-09_00333_MSCUNFWJE932688645.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNFWJE932688645",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNFWJE932688645",
+    "shipper_name": "APEX SHIPPING CORP",
+    "shipper_address": "191 MARKET STREET",
+    "consignee_name": "PREMIER TRADING CORP",
+    "consignee_address": "482 INDUSTRIAL AVENUE",
+    "notify_party_name": "FIRST GROUP LTD",
+    "notify_party_address": "88 PORT ACCESS ROAD",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE357N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "place_of_receipt": "SINGAPORE CY",
+    "place_of_delivery": "LE HAVRE CY",
+    "etd": "04 JUN 2026",
+    "eta": "04 JUL 2026",
+    "container_number": "TRHU9851429",
+    "container_type": "20' OPEN TOP",
+    "seal_number": "31F4498E",
+    "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+    "packages": "132 BOXES",
+    "gross_weight_kg": "31,859.69",
+    "measurement": "106.074 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU9851429",
+        "seal_number": "31F4498E",
+        "container_type": "20' OPEN TOP",
+        "commodity": "TOYS, GAMES AND SPORTS EQUIPMENT",
+        "packages": {
+          "count": "132",
+          "type": "BOXES",
+          "description": "132 BOXES"
+        },
+        "gross_weight_kg": "26,653.11",
+        "net_weight_kg": "23,453.68",
+        "measurement": "64.888 CBM"
+      },
+      {
+        "container_number": "MSCU4008461",
+        "seal_number": "76E09154",
+        "container_type": "20' REEFER",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "268",
+          "type": "CRATES",
+          "description": "268 CRATES"
+        },
+        "gross_weight_kg": "5,206.58",
+        "net_weight_kg": "1,373.24",
+        "measurement": "41.186 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "06 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "MSCUNFWJE932688645",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "APEX SHIPPING CORP\n191 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "PREMIER TRADING CORP\n482 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "FIRST GROUP LTD\n88 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "MSC OSCAR",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "FE357N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "LE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "SINGAPORE CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "LE HAVRE CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "04 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "04 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        351.5,
+        92.76,
+        36.85
+      ],
+      "value": "TRHU9851429",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "31F4498E",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        351.5,
+        43.65,
+        36.85
+      ],
+      "value": "20' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        351.5,
+        136.42,
+        36.85
+      ],
+      "value": "TOYS, GAMES AND SPORTS EQUIPMENT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '132', 'type': 'BOXES', 'description': '132 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "26,653.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "64.888 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        388.35,
+        92.76,
+        36.85
+      ],
+      "value": "MSCU4008461",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "76E09154",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        388.35,
+        43.65,
+        36.85
+      ],
+      "value": "20' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        388.35,
+        136.42,
+        36.85
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '268', 'type': 'CRATES', 'description': '268 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "5,206.58",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "41.186 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00890",
+  "filename": "inv_inv-23_00890.pdf",
+  "layout_id": "INV-23",
+  "bl_id": 890,
+  "fields": {
+    "invoice_number": "INV-2026-00890",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/SCB/0890/2026",
+    "bl_reference": "MSCUNVRJX099510479",
+    "seller_name": "UNITED SUPPLY CHAIN BV",
+    "buyer_name": "PREMIER TRADING CORP",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE836N",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "goods_description": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "hs_code": "0709.99",
+    "quantity": 337,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "15,646.73",
+    "unit_price": 18.24,
+    "currency": "GBP",
+    "total_amount": 6146.88,
+    "incoterm": "DDP",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        206.36,
+        27.78
+      ],
+      "value": "INV-2026-00890",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        126.14,
+        116.08,
+        19.84
+      ],
+      "value": "15,646.73 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        145.98,
+        116.08,
+        19.84
+      ],
+      "value": "6146.88 GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        174.33,
+        319.86,
+        79.37
+      ],
+      "value": "UNITED SUPPLY CHAIN BV\nUNITED SUPPLY CHAIN BV\n651 EXPORT ZONE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        174.33,
+        196.04,
+        79.37
+      ],
+      "value": "PREMIER TRADING CORP\nPREMIER TRADING CORP\n326 EXPORT ZONE\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        277.8,
+        165.09,
+        42.52
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        277.8,
+        61.91,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "337",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "18.24 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "6146.88 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        100.2,
+        328.82,
+        112.87,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        262.58,
+        328.82,
+        122.46,
+        28.35
+      ],
+      "value": "LC/SCB/0890/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        450.8,
+        328.82,
+        106.2,
+        28.35
+      ],
+      "value": "MSCUNVRJX099510479",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        111.04,
+        357.17,
+        102.03,
+        28.35
+      ],
+      "value": "DDP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        262.58,
+        357.17,
+        122.46,
+        28.35
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        407.45,
+        357.17,
+        149.55,
+        28.35
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        111.86,
+        394.02,
+        101.21,
+        25.51
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        259.24,
+        394.02,
+        125.8,
+        25.51
+      ],
+      "value": "DDP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

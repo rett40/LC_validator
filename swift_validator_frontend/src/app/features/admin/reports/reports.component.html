@@ -1,0 +1,102 @@
+<p-toast />
+
+<div class="reports-page">
+  <div class="page-header">
+    <div>
+      <h1>Rapports</h1>
+      <p>Générez et consultez les rapports PDF des dossiers : rapport MT700 (crédit documentaire) et rapport complet (crédit + documents commerciaux).</p>
+    </div>
+  </div>
+
+  <!-- KPIs -->
+  <div class="reports-kpis">
+    <div class="rk-card">
+      <span class="rk-val">{{ rows.length }}</span>
+      <span class="rk-label">Dossiers analysés</span>
+    </div>
+    <div class="rk-card with">
+      <span class="rk-val">{{ dossiersWithReport }}</span>
+      <span class="rk-label">Dossiers avec rapport</span>
+    </div>
+    <div class="rk-card total">
+      <span class="rk-val">{{ totalReports }}</span>
+      <span class="rk-label">Rapports générés</span>
+    </div>
+  </div>
+
+  <!-- Toolbar -->
+  <div class="reports-toolbar">
+    <div class="search-wrap">
+      <i class="pi pi-search"></i>
+      <input type="text" [(ngModel)]="search" placeholder="Rechercher une référence ou un agent…" />
+    </div>
+    <div class="seg">
+      <button [class.active]="filter === 'ALL'"     (click)="filter = 'ALL'">Tous</button>
+      <button [class.active]="filter === 'WITH'"    (click)="filter = 'WITH'">Avec rapport</button>
+      <button [class.active]="filter === 'WITHOUT'" (click)="filter = 'WITHOUT'">Sans rapport</button>
+    </div>
+  </div>
+
+  <!-- Loading -->
+  @if (loading) {
+    <div class="report-grid">
+      @for (i of [1,2,3,4,5,6]; track i) {
+        <div class="report-card skeleton">
+          <p-skeleton height="16px" width="60%" />
+          <p-skeleton height="12px" width="40%" class="mt-2" />
+          <p-skeleton height="38px" class="mt-3" />
+        </div>
+      }
+    </div>
+  } @else if (filteredRows.length === 0) {
+    <div class="empty-state">
+      <i class="pi pi-file-pdf"></i>
+      <h3>Aucun dossier</h3>
+      <p>Aucun dossier ne correspond à votre recherche.</p>
+    </div>
+  } @else {
+    <div class="report-grid">
+      @for (r of filteredRows; track trackById($index, r)) {
+        <div class="report-card">
+          <div class="rc-head">
+            <div class="rc-ref">
+              <i class="pi pi-file"></i>
+              <span>{{ r.lcReference || 'Dossier #' + r.id }}</span>
+            </div>
+            <span class="rc-decision" [class]="decisionClass(r.decision)">{{ decisionLabel(r.decision) }}</span>
+          </div>
+
+          <div class="rc-meta">
+            <span><i class="pi pi-user"></i> {{ r.agentName }}</span>
+            <span><i class="pi pi-clock"></i> {{ formatDate(r.analyzedAt) }}</span>
+            <span class="rc-score">Score {{ r.score }}</span>
+          </div>
+
+          <div class="rc-actions">
+            <button class="doc-btn mt700"
+                    [class.ready]="reportOfType(r.id, 'MT700_REPORT')"
+                    [disabled]="isBusy(r.id, 'MT700_REPORT')"
+                    (click)="handleReport(r.id, 'MT700_REPORT')">
+              <i class="pi" [class.pi-file-pdf]="!isBusy(r.id, 'MT700_REPORT')" [class.pi-spin]="isBusy(r.id, 'MT700_REPORT')" [class.pi-spinner]="isBusy(r.id, 'MT700_REPORT')"></i>
+              <span class="db-text">
+                <strong>Rapport MT700</strong>
+                <small>{{ reportOfType(r.id, 'MT700_REPORT') ? 'Ouvrir le document' : (isBusy(r.id, 'MT700_REPORT') ? 'Génération…' : 'Générer') }}</small>
+              </span>
+            </button>
+
+            <button class="doc-btn full"
+                    [class.ready]="reportOfType(r.id, 'FULL_REPORT')"
+                    [disabled]="isBusy(r.id, 'FULL_REPORT')"
+                    (click)="handleReport(r.id, 'FULL_REPORT')">
+              <i class="pi" [class.pi-file-pdf]="!isBusy(r.id, 'FULL_REPORT')" [class.pi-spin]="isBusy(r.id, 'FULL_REPORT')" [class.pi-spinner]="isBusy(r.id, 'FULL_REPORT')"></i>
+              <span class="db-text">
+                <strong>Rapport complet</strong>
+                <small>{{ reportOfType(r.id, 'FULL_REPORT') ? 'Ouvrir le document' : (isBusy(r.id, 'FULL_REPORT') ? 'Génération…' : 'Générer') }}</small>
+              </span>
+            </button>
+          </div>
+        </div>
+      }
+    </div>
+  }
+</div>

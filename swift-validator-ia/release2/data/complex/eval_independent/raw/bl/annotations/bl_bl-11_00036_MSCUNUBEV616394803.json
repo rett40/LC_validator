@@ -1,0 +1,353 @@
+{
+  "id": 36,
+  "filename": "bl_bl-11_00036_MSCUNUBEV616394803.pdf",
+  "layout_id": "BL-11",
+  "bl_number": "MSCUNUBEV616394803",
+  "n_containers": 1,
+  "fields": {
+    "carrier": {
+      "name": "MEDITERRANEAN SHIPPING COMPANY S.A.",
+      "short": "MSC",
+      "address": "12-14, Chemin Rieu, CH-1208 Geneva, Switzerland",
+      "bl_prefix": "MSCUN",
+      "color_primary": "#D42E12"
+    },
+    "carrier_key": "msc",
+    "bl_number": "MSCUNUBEV616394803",
+    "shipper": {
+      "name": "TRANS GROUP INC",
+      "address": "295 MAIN STREET",
+      "city": "DUBAI",
+      "country": "UAE",
+      "zip": "00000",
+      "full": "TRANS GROUP INC\n295 MAIN STREET\nDUBAI, UAE 00000"
+    },
+    "consignee": {
+      "name": "TRANS GROUP LTD",
+      "address": "990 MARKET STREET",
+      "city": "HONG KONG",
+      "country": "HONG KONG SAR",
+      "zip": "999077",
+      "full": "TRANS GROUP LTD\n990 MARKET STREET\nHONG KONG, HONG KONG SAR 999077"
+    },
+    "notify_party": {
+      "name": "TRANS LOGISTICS PLC",
+      "address": "889 MAIN STREET",
+      "city": "LONDON",
+      "country": "UNITED KINGDOM",
+      "zip": "EC1A 1BB",
+      "full": "TRANS LOGISTICS PLC\n889 MAIN STREET\nLONDON, UNITED KINGDOM EC1A 1BB"
+    },
+    "vessel": "EVER GIVEN",
+    "voyage": "E-398",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "place_of_receipt": "BUSAN CFS",
+    "place_of_delivery": "FELIXSTOWE CFS",
+    "etd": "25 JUN 2026",
+    "eta": "24 JUL 2026",
+    "issue_date": "18 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "container_number": "EISU6964358",
+    "container_type": "40' HIGH CUBE",
+    "seal_number": "8B35658G",
+    "commodity": "HOUSEHOLD APPLIANCES",
+    "packages": {
+      "count": "317",
+      "type": "BOXES",
+      "description": "317 BOXES"
+    },
+    "gross_weight_kg": "16,810.92",
+    "net_weight_kg": "14,043.04",
+    "gross_weight_lbs": "37,061.69",
+    "measurement": "43.902 CBM",
+    "containers": [
+      {
+        "container_number": "EISU6964358",
+        "seal_number": "8B35658G",
+        "container_type": "40' HIGH CUBE",
+        "commodity": "HOUSEHOLD APPLIANCES",
+        "packages": {
+          "count": "317",
+          "type": "BOXES",
+          "description": "317 BOXES"
+        },
+        "gross_weight_kg": "16,810.92",
+        "net_weight_kg": "14,043.04",
+        "measurement": "43.902 CBM"
+      }
+    ],
+    "n_containers": 1,
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "incoterm": "CPT",
+    "number_of_originals": "THREE (3)",
+    "service_type": "CY/CFS",
+    "marks_numbers": "EISU6964358\n8B35658G\nFELIXSTOWE"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        11.34
+      ],
+      "value": "MSCUNUBEV616394803",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "E-398",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        107.72,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "BUSAN CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        141.73,
+        179.53,
+        24.09
+      ],
+      "value": "FELIXSTOWE CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "25 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        175.75,
+        179.53,
+        24.09
+      ],
+      "value": "24 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS GROUP INC\n295 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS GROUP LTD\n990 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        226.77,
+        179.53,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS PLC\n889 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        337.32,
+        91.56,
+        36.85
+      ],
+      "value": "EISU6964358",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "8B35658G",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        337.32,
+        43.09,
+        36.85
+      ],
+      "value": "40' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        337.32,
+        134.65,
+        36.85
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        337.32,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '317', 'type': 'BOXES', 'description': '317 BOXES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "16,810.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        337.32,
+        80.79,
+        36.85
+      ],
+      "value": "43.902 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        399.69,
+        179.53,
+        18.43
+      ],
+      "value": "18 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        428.03,
+        179.53,
+        18.43
+      ],
+      "value": "THREE (3)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "id": 922,
+  "filename": "bl_bl-24_00922_MSCUNBDKF626407900.pdf",
+  "layout_id": "BL-24",
+  "bl_number": "MSCUNBDKF626407900",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNBDKF626407900",
+    "shipper_name": "APEX LOGISTICS LTD",
+    "shipper_address": "379 COMMERCE BOULEVARD",
+    "consignee_name": "DELTA SUPPLY CHAIN LLC",
+    "consignee_address": "626 COMMERCE BOULEVARD",
+    "notify_party_name": "ATLANTIC LOGISTICS LTD",
+    "notify_party_address": "56 PORT ACCESS ROAD",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-329",
+    "port_of_loading": "SHENZHEN, CHINA",
+    "port_of_discharge": "LOS ANGELES, USA",
+    "place_of_receipt": "SHENZHEN CY",
+    "place_of_delivery": "LOS ANGELES CY",
+    "etd": "01 JUN 2026",
+    "eta": "17 JUN 2026",
+    "container_number": "MAEU5277277",
+    "container_type": "40'FR",
+    "seal_number": "87GE5A56",
+    "commodity": "STEEL PRODUCTS AND STRUCTURES",
+    "packages": "139 PACKAGES",
+    "gross_weight_kg": "40,772.15",
+    "measurement": "93.650 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU5277277",
+        "seal_number": "87GE5A56",
+        "container_type": "40'FR",
+        "commodity": "STEEL PRODUCTS AND STRUCTURES",
+        "packages": {
+          "count": "139",
+          "type": "PACKAGES",
+          "description": "139 PACKAGES"
+        },
+        "gross_weight_kg": "22,967.17",
+        "net_weight_kg": "20,926.22",
+        "measurement": "37.374 CBM"
+      },
+      {
+        "container_number": "CMAU4301703",
+        "seal_number": "7BBH91ED",
+        "container_type": "40' OPEN TOP",
+        "commodity": "WOOD PRODUCTS AND TIMBER",
+        "packages": {
+          "count": "145",
+          "type": "PACKAGES",
+          "description": "145 PACKAGES"
+        },
+        "gross_weight_kg": "17,804.98",
+        "net_weight_kg": "14,137.82",
+        "measurement": "56.276 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.91,
+        66.05,
+        221.1,
+        31.75
+      ],
+      "value": "MSCUNBDKF626407900",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        132.03,
+        106.3,
+        73.48,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        244.61,
+        106.3,
+        145.16,
+        28.35
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        437.19,
+        106.3,
+        136.82,
+        28.35
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        82.03,
+        134.65,
+        123.48,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        279.2,
+        134.65,
+        110.57,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        184.25,
+        93.97,
+        36.85
+      ],
+      "value": "MAEU5277277",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "87GE5A56",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        184.25,
+        44.22,
+        36.85
+      ],
+      "value": "40'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        184.25,
+        138.19,
+        36.85
+      ],
+      "value": "STEEL PRODUCTS AND STRUCTURES",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        184.25,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '139', 'type': 'PACKAGES', 'description': '139 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "22,967.17",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        184.25,
+        82.91,
+        36.85
+      ],
+      "value": "37.374 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        21.26,
+        221.1,
+        93.97,
+        36.85
+      ],
+      "value": "CMAU4301703",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        115.23,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "7BBH91ED",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        170.5,
+        221.1,
+        44.22,
+        36.85
+      ],
+      "value": "40' OPEN TOP",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        214.72,
+        221.1,
+        138.19,
+        36.85
+      ],
+      "value": "WOOD PRODUCTS AND TIMBER",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        352.91,
+        221.1,
+        55.28,
+        36.85
+      ],
+      "value": "{'count': '145', 'type': 'PACKAGES', 'description': '145 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        408.19,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "17,804.98",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        491.1,
+        221.1,
+        82.91,
+        36.85
+      ],
+      "value": "56.276 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        56.61,
+        266.46,
+        148.9,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        258.78,
+        266.46,
+        130.98,
+        34.02
+      ],
+      "value": "E-329",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        470.11,
+        266.46,
+        103.91,
+        34.02
+      ],
+      "value": "SHENZHEN, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        60.77,
+        300.47,
+        144.74,
+        34.02
+      ],
+      "value": "LOS ANGELES, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        302.12,
+        300.47,
+        87.65,
+        34.02
+      ],
+      "value": "SHENZHEN CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        457.2,
+        300.47,
+        116.81,
+        34.02
+      ],
+      "value": "LOS ANGELES CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        42.43,
+        334.49,
+        163.08,
+        34.02
+      ],
+      "value": "01 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        278.36,
+        334.49,
+        111.4,
+        34.02
+      ],
+      "value": "17 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "379 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        21.26,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "APEX LOGISTICS LTD\n379 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "626 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        205.51,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "DELTA SUPPLY CHAIN LLC\n626 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        396.85,
+        184.25,
+        70.87
+      ],
+      "value": "56 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        389.76,
+        377.01,
+        184.25,
+        90.71
+      ],
+      "value": "ATLANTIC LOGISTICS LTD\n56 PORT ACCESS ROAD",
+      "page": 1
+    }
+  ]
+}

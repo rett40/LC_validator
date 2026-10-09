@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00028",
+  "filename": "inv_inv-01_00028.pdf",
+  "layout_id": "INV-01",
+  "bl_id": 28,
+  "fields": {
+    "invoice_number": "INV-2026-00028",
+    "invoice_date": "11 MAY 2026",
+    "lc_reference": "LC/DBS/0028/2026",
+    "bl_reference": "MSCUNZGPY598174026",
+    "seller_name": "INTERNATIONAL SHIPPING CO.",
+    "buyer_name": "FIRST ENTERPRISES BV",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL5729",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "FELIXSTOWE, UK",
+    "goods_description": "FOOD PRODUCTS AND PROVISIONS",
+    "hs_code": "0709.99",
+    "quantity": 81,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "41,328.37",
+    "unit_price": 10.64,
+    "currency": "EUR",
+    "total_amount": 861.84,
+    "incoterm": "FOB",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        77.1,
+        214.3,
+        27.78
+      ],
+      "value": "INV-2026-00028",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        130.39,
+        178.58,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        206.93,
+        130.39,
+        178.58,
+        18.43
+      ],
+      "value": "LC/DBS/0028/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        385.51,
+        130.39,
+        178.58,
+        18.43
+      ],
+      "value": "MSCUNZGPY598174026",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        28.35,
+        158.74,
+        178.58,
+        18.43
+      ],
+      "value": "FOB",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        206.93,
+        158.74,
+        178.58,
+        18.43
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        385.51,
+        158.74,
+        178.58,
+        18.43
+      ],
+      "value": "EUR",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        192.76,
+        535.75,
+        52.44
+      ],
+      "value": "INTERNATIONAL SHIPPING CO.\nINTERNATIONAL SHIPPING CO.\n637 MAIN BOULEVARD\nBUSAN, SOUTH KOREA",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        28.35,
+        245.2,
+        535.75,
+        52.44
+      ],
+      "value": "FIRST ENTERPRISES BV\nFIRST ENTERPRISES BV\n103 INDUSTRIAL AVENUE\nFELIXSTOWE, UK",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        313.23,
+        310.73,
+        56.69
+      ],
+      "value": "FOOD PRODUCTS AND PROVISIONS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        339.08,
+        323.15,
+        112.51,
+        18.43
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        451.59,
+        323.15,
+        112.51,
+        18.43
+      ],
+      "value": 81,
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        339.08,
+        351.5,
+        112.51,
+        18.43
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        451.59,
+        351.5,
+        112.51,
+        18.43
+      ],
+      "value": "10.64 EUR",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        323.01,
+        375.59,
+        241.09,
+        25.51
+      ],
+      "value": "861.84 EUR",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        443.55,
+        415.28,
+        120.54,
+        19.84
+      ],
+      "value": "41,328.37 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        443.55,
+        435.12,
+        120.54,
+        19.84
+      ],
+      "value": "861.84 EUR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        473.39,
+        178.58,
+        15.59
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        206.93,
+        473.39,
+        178.58,
+        15.59
+      ],
+      "value": "FOB",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "actual": "FOOD PRODUCTS AND PROVISIONS"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "EUR"
+    }
+  ]
+}

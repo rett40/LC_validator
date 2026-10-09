@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00892",
+  "filename": "inv_inv-23_00892.pdf",
+  "layout_id": "INV-23",
+  "bl_id": 892,
+  "fields": {
+    "invoice_number": "INV-2026-00892",
+    "invoice_date": "06 MAY 2026",
+    "lc_reference": "LC/BARCLAYS/0892/2026",
+    "bl_reference": "MSCUNCXNG248841757",
+    "seller_name": "APEX COMMERCE CO.",
+    "buyer_name": "CENTRAL INDUSTRIES PLC",
+    "vessel": "CMA CGM JULES VERNE",
+    "voyage": "0790E",
+    "port_of_loading": "LE HAVRE, FRANCE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "hs_code": "0709.99",
+    "quantity": 171,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "14,950.35",
+    "unit_price": 4.82,
+    "currency": "USD",
+    "total_amount": 824.42,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        41.1,
+        89.86,
+        206.36,
+        27.78
+      ],
+      "value": "INV-2026-00892",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        440.93,
+        126.14,
+        116.08,
+        19.84
+      ],
+      "value": "14,950.35 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        440.93,
+        145.98,
+        116.08,
+        19.84
+      ],
+      "value": "824.42 USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        41.1,
+        174.33,
+        319.86,
+        79.37
+      ],
+      "value": "APEX COMMERCE CO.\nAPEX COMMERCE CO.\n207 TRADE PARK\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        360.96,
+        174.33,
+        196.04,
+        79.37
+      ],
+      "value": "CENTRAL INDUSTRIES PLC\nCENTRAL INDUSTRIES PLC\n385 TRADE PARK\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        41.1,
+        277.8,
+        165.09,
+        42.52
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        206.19,
+        277.8,
+        61.91,
+        42.52
+      ],
+      "value": "0709.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        268.1,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "171",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.69,
+        277.8,
+        51.59,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        371.28,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "4.82 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        464.14,
+        277.8,
+        92.86,
+        42.52
+      ],
+      "value": "824.42 USD",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        100.2,
+        328.82,
+        112.87,
+        28.35
+      ],
+      "value": "06 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        277.16,
+        328.82,
+        107.88,
+        28.35
+      ],
+      "value": "LC/BARCLAYS/0892/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        450.8,
+        328.82,
+        106.2,
+        28.35
+      ],
+      "value": "MSCUNCXNG248841757",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        133.54,
+        357.17,
+        79.53,
+        28.35
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        296.33,
+        357.17,
+        88.71,
+        28.35
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        407.04,
+        357.17,
+        149.97,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        111.86,
+        394.02,
+        101.21,
+        25.51
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        259.24,
+        394.02,
+        125.8,
+        25.51
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SINGAPORE",
+      "actual": "LE HAVRE, FRANCE"
+    },
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "899.46 USD",
+      "actual": "824.42 USD"
+    }
+  ]
+}

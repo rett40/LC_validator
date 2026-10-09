@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00711",
+  "filename": "inv_inv-15_00711.pdf",
+  "layout_id": "INV-15",
+  "bl_id": 711,
+  "fields": {
+    "invoice_number": "INV-2026-00711",
+    "invoice_date": "26 APR 2026",
+    "lc_reference": "LC/BARCLAYS/0711/2026",
+    "bl_reference": "MSCUNPGXS718400305",
+    "seller_name": "UNITED INDUSTRIES GMBH",
+    "buyer_name": "CENTRAL SUPPLY CHAIN GMBH",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE83N",
+    "port_of_loading": "HAMBURG, GERMANY",
+    "port_of_discharge": "GENOA, ITALY",
+    "goods_description": "ELECTRONIC COMPONENTS AND PARTS",
+    "hs_code": "8542.31",
+    "quantity": 254,
+    "package_unit": "CARTONS",
+    "gross_weight_kg": "13,876.72",
+    "unit_price": 51.25,
+    "currency": "GBP",
+    "total_amount": 13017.5,
+    "incoterm": "CIP",
+    "payment_terms": "60 DAYS AFTER DATE OF SHIPMENT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        324.57,
+        28.35,
+        242.36,
+        70.87
+      ],
+      "value": "INV-2026-00711",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        124.72,
+        269.29,
+        18.43
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        297.64,
+        124.72,
+        269.29,
+        18.43
+      ],
+      "value": "LC/BARCLAYS/0711/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        153.07,
+        269.29,
+        18.43
+      ],
+      "value": "MSCUNPGXS718400305",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        153.07,
+        269.29,
+        18.43
+      ],
+      "value": "CIP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        181.42,
+        269.29,
+        18.43
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        297.64,
+        181.42,
+        269.29,
+        18.43
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        215.43,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        215.43,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        325.98,
+        172.35,
+        42.52
+      ],
+      "value": "ELECTRONIC COMPONENTS AND PARTS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        325.98,
+        64.63,
+        42.52
+      ],
+      "value": "8542.31",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        325.98,
+        53.86,
+        42.52
+      ],
+      "value": "254",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        325.98,
+        53.86,
+        42.52
+      ],
+      "value": "CARTONS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        325.98,
+        96.94,
+        42.52
+      ],
+      "value": "51.25 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        325.98,
+        96.94,
+        42.52
+      ],
+      "value": "13017.5 GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        382.68,
+        121.18,
+        19.84
+      ],
+      "value": "13,876.72 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        402.52,
+        121.18,
+        19.84
+      ],
+      "value": "13017.5 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        440.79,
+        269.29,
+        15.59
+      ],
+      "value": "60 DAYS AFTER DATE OF SHIPMENT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        297.64,
+        440.79,
+        269.29,
+        15.59
+      ],
+      "value": "CIP",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "KAOHSIUNG, TAIWAN",
+      "actual": "HAMBURG, GERMANY"
+    }
+  ]
+}

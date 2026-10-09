@@ -1,0 +1,311 @@
+{
+  "dataset_size": 17,
+  "label_distribution": {
+    "VIOLATION": 6,
+    "RESTRICTION": 5,
+    "COMPLIANT": 6
+  },
+  "models": [
+    {
+      "name": "A_deberta_xsmall (PROD)",
+      "model": "cross-encoder/nli-deberta-v3-xsmall"
+    },
+    {
+      "name": "B_deberta_small",
+      "model": "cross-encoder/nli-deberta-v3-small"
+    },
+    {
+      "name": "C_bart_large_mnli",
+      "model": "facebook/bart-large-mnli"
+    }
+  ],
+  "pairwise_forced": [
+    {
+      "pair": "A_deberta_xsmall (PROD) ↔ B_deberta_small",
+      "agreement": 0.824,
+      "cohen_kappa": 0.707,
+      "agreement_binary": 0.882,
+      "cohen_kappa_binary": 0.679,
+      "n": 17
+    },
+    {
+      "pair": "A_deberta_xsmall (PROD) ↔ C_bart_large_mnli",
+      "agreement": 0.588,
+      "cohen_kappa": 0.312,
+      "agreement_binary": 0.824,
+      "cohen_kappa_binary": 0.549,
+      "n": 17
+    },
+    {
+      "pair": "B_deberta_small ↔ C_bart_large_mnli",
+      "agreement": 0.529,
+      "cohen_kappa": 0.093,
+      "agreement_binary": 0.706,
+      "cohen_kappa_binary": 0.105,
+      "n": 17
+    }
+  ],
+  "per_model_vs_gold": {
+    "A_deberta_xsmall (PROD)": {
+      "accuracy_forced": 0.588,
+      "abstention_rate": 1.0,
+      "n": 17
+    },
+    "B_deberta_small": {
+      "accuracy_forced": 0.412,
+      "abstention_rate": 1.0,
+      "n": 17
+    },
+    "C_bart_large_mnli": {
+      "accuracy_forced": 0.529,
+      "abstention_rate": 0.941,
+      "n": 17
+    }
+  },
+  "forced_predictions": {
+    "A_deberta_xsmall (PROD)": [
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "RESTRICTION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT",
+      "RESTRICTION",
+      "COMPLIANT",
+      "RESTRICTION",
+      "COMPLIANT",
+      "RESTRICTION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT",
+      "COMPLIANT"
+    ],
+    "B_deberta_small": [
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "RESTRICTION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT",
+      "VIOLATION",
+      "COMPLIANT",
+      "RESTRICTION",
+      "VIOLATION",
+      "RESTRICTION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT",
+      "VIOLATION"
+    ],
+    "C_bart_large_mnli": [
+      "VIOLATION",
+      "VIOLATION",
+      "RESTRICTION",
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT",
+      "VIOLATION",
+      "RESTRICTION",
+      "VIOLATION",
+      "COMPLIANT",
+      "COMPLIANT",
+      "VIOLATION",
+      "VIOLATION",
+      "VIOLATION",
+      "COMPLIANT"
+    ]
+  },
+  "abstention_flags": {
+    "A_deberta_xsmall (PROD)": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "B_deberta_small": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "C_bart_large_mnli": [
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "gold": [
+    "VIOLATION",
+    "VIOLATION",
+    "VIOLATION",
+    "VIOLATION",
+    "VIOLATION",
+    "VIOLATION",
+    "RESTRICTION",
+    "RESTRICTION",
+    "RESTRICTION",
+    "RESTRICTION",
+    "RESTRICTION",
+    "COMPLIANT",
+    "COMPLIANT",
+    "COMPLIANT",
+    "COMPLIANT",
+    "COMPLIANT",
+    "COMPLIANT"
+  ],
+  "disagreements": [
+    {
+      "id": "V3",
+      "article": "Art.18",
+      "gold": "VIOLATION",
+      "clause": "Invoices issued in the name of a third party or 'formerly known as' are not acceptable and",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "VIOLATION",
+        "B_deberta_small": "VIOLATION",
+        "C_bart_large_mnli": "RESTRICTION"
+      }
+    },
+    {
+      "id": "V5",
+      "article": "Art.20",
+      "gold": "VIOLATION",
+      "clause": "Blank back and short form bills of lading are not acceptable under this credit.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "RESTRICTION",
+        "B_deberta_small": "RESTRICTION",
+        "C_bart_large_mnli": "VIOLATION"
+      }
+    },
+    {
+      "id": "R3",
+      "article": "Art.31",
+      "gold": "RESTRICTION",
+      "clause": "Partial shipments are not allowed under this documentary credit.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "RESTRICTION",
+        "B_deberta_small": "VIOLATION",
+        "C_bart_large_mnli": "VIOLATION"
+      }
+    },
+    {
+      "id": "R4",
+      "article": "Art.17",
+      "gold": "RESTRICTION",
+      "clause": "All documents must be signed in handwriting with a blue ink ball pen and bear an original ",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "COMPLIANT",
+        "B_deberta_small": "COMPLIANT",
+        "C_bart_large_mnli": "RESTRICTION"
+      }
+    },
+    {
+      "id": "R5",
+      "article": "Art.18b",
+      "gold": "RESTRICTION",
+      "clause": "The invoice amount must not exceed the credit amount; no tolerance whatsoever is allowed.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "RESTRICTION",
+        "B_deberta_small": "RESTRICTION",
+        "C_bart_large_mnli": "VIOLATION"
+      }
+    },
+    {
+      "id": "C1",
+      "article": "Art.20c",
+      "gold": "COMPLIANT",
+      "clause": "Transshipment is allowed.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "COMPLIANT",
+        "B_deberta_small": "VIOLATION",
+        "C_bart_large_mnli": "COMPLIANT"
+      }
+    },
+    {
+      "id": "C2",
+      "article": "Art.31",
+      "gold": "COMPLIANT",
+      "clause": "Partial shipments are permitted.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "RESTRICTION",
+        "B_deberta_small": "RESTRICTION",
+        "C_bart_large_mnli": "COMPLIANT"
+      }
+    },
+    {
+      "id": "C5",
+      "article": "Art.28",
+      "gold": "COMPLIANT",
+      "clause": "Insurance to be effected for 110 percent of the CIF value of the goods.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "COMPLIANT",
+        "B_deberta_small": "COMPLIANT",
+        "C_bart_large_mnli": "VIOLATION"
+      }
+    },
+    {
+      "id": "C6",
+      "article": "Art.6",
+      "gold": "COMPLIANT",
+      "clause": "This documentary credit is issued subject to UCP 600.",
+      "preds": {
+        "A_deberta_xsmall (PROD)": "COMPLIANT",
+        "B_deberta_small": "VIOLATION",
+        "C_bart_large_mnli": "COMPLIANT"
+      }
+    }
+  ],
+  "headline_pair": {
+    "pair": "A_deberta_xsmall (PROD) ↔ C_bart_large_mnli",
+    "agreement": 0.588,
+    "cohen_kappa": 0.312,
+    "agreement_binary": 0.824,
+    "cohen_kappa_binary": 0.549,
+    "n": 17
+  }
+}

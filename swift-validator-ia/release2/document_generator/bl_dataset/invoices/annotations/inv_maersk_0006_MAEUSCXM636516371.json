@@ -1,0 +1,210 @@
+{
+  "invoice_number": "INV-2026-00006",
+  "filename": "inv_maersk_0006_MAEUSCXM636516371.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 6,
+  "fields": {
+    "invoice_number": "INV-2026-00006",
+    "invoice_date": "08 APR 2026",
+    "lc_reference": "LC/BNP/0006/2026",
+    "bl_reference": "MAEUSCXM636516371",
+    "seller_name": "APEX COMMERCE CORP",
+    "buyer_name": "INTERNATIONAL INDUSTRIES CO.",
+    "vessel": "HAPAG LLOYD EXPRESS",
+    "voyage": "AL8327",
+    "port_of_loading": "NEW YORK, USA",
+    "port_of_discharge": "ROTTERDAM, NETHERLANDS",
+    "goods_description": "FURNITURE AND PARTS THEREOF",
+    "hs_code": "9403.20",
+    "quantity": 29,
+    "package_unit": "PALLETS",
+    "gross_weight_kg": "18,353.56",
+    "unit_price": 119.13,
+    "currency": "USD",
+    "total_amount": 3454.82,
+    "incoterm": "DAP",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00006",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "MAEUSCXM636516371",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "APEX COMMERCE CORP\n651 COMMERCE STREET\nSHANGHAI, CHINA",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "INTERNATIONAL INDUSTRIES CO.\n167 COMMERCE STREET\nROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "HAPAG LLOYD EXPRESS",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "AL8327",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "ROTTERDAM, NETHERLANDS",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "MAEUSCXM636516371",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "FURNITURE AND PARTS THEREOF",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "29",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 119.13",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 3,454.82",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 3,454.82",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "amount_mismatch",
+      "field": "total_amount",
+      "expected": "3073.42 USD",
+      "actual": "3454.82 USD"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SHANGHAI, CHINA",
+      "actual": "NEW YORK, USA"
+    }
+  ]
+}

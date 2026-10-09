@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00786",
+  "filename": "inv_inv-16_00786.pdf",
+  "layout_id": "INV-16",
+  "bl_id": 786,
+  "fields": {
+    "invoice_number": "INV-2026-00786",
+    "invoice_date": "26 APR 2026",
+    "lc_reference": "LC/CITI/0786/2026",
+    "bl_reference": "MSCUNMTKZ294123376",
+    "seller_name": "INTERNATIONAL SHIPPING BV",
+    "buyer_name": "PACIFIC TRADING PLC",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE626N",
+    "port_of_loading": "SINGAPORE",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "HOME FURNITURE AND FITTINGS",
+    "hs_code": "9403.20",
+    "quantity": 362,
+    "package_unit": "CRATES",
+    "gross_weight_kg": "9,997.74",
+    "unit_price": 116.69,
+    "currency": "GBP",
+    "total_amount": 42241.78,
+    "incoterm": "EXW",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        73.7,
+        215.43,
+        11.34
+      ],
+      "value": "INV-2026-00786",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        93.54,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        297.64,
+        93.54,
+        269.29,
+        79.37
+      ],
+      "value": "\n",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        197.01,
+        172.35,
+        42.52
+      ],
+      "value": "HOME FURNITURE AND FITTINGS",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        200.69,
+        197.01,
+        64.63,
+        42.52
+      ],
+      "value": "9403.20",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        265.32,
+        197.01,
+        53.86,
+        42.52
+      ],
+      "value": "362",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        319.18,
+        197.01,
+        53.86,
+        42.52
+      ],
+      "value": "CRATES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        373.04,
+        197.01,
+        96.94,
+        42.52
+      ],
+      "value": "116.69 GBP",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        469.98,
+        197.01,
+        96.94,
+        42.52
+      ],
+      "value": "42241.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        30.35,
+        265.04,
+        175.53,
+        12.76
+      ],
+      "value": "26 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        209.87,
+        265.04,
+        175.53,
+        12.76
+      ],
+      "value": "LC/CITI/0786/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        389.4,
+        265.04,
+        175.53,
+        12.76
+      ],
+      "value": "MSCUNMTKZ294123376",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        30.35,
+        293.39,
+        175.53,
+        12.76
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        209.87,
+        293.39,
+        175.53,
+        12.76
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        389.4,
+        293.39,
+        175.53,
+        12.76
+      ],
+      "value": "GBP",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        445.75,
+        313.23,
+        121.18,
+        19.84
+      ],
+      "value": "9,997.74 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        445.75,
+        333.07,
+        121.18,
+        19.84
+      ],
+      "value": "42241.78 GBP",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        30.35,
+        376.72,
+        175.53,
+        11.48
+      ],
+      "value": "AT SIGHT",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        209.87,
+        376.72,
+        175.53,
+        11.48
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "FURNITURE AND PARTS THEREOF",
+      "actual": "HOME FURNITURE AND FITTINGS"
+    },
+    {
+      "type": "currency_mismatch",
+      "field": "currency",
+      "expected": "USD",
+      "actual": "GBP"
+    }
+  ]
+}

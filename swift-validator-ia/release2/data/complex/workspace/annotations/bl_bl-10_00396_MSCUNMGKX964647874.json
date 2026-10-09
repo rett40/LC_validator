@@ -1,0 +1,322 @@
+{
+  "id": 396,
+  "filename": "bl_bl-10_00396_MSCUNMGKX964647874.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNMGKX964647874",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMGKX964647874",
+    "shipper_name": "UNITED GROUP INC",
+    "shipper_address": "340 MAIN STREET",
+    "consignee_name": "PACIFIC COMMERCE S.A.",
+    "consignee_address": "778 HARBOR ROAD",
+    "notify_party_name": "TRANS COMMERCE CORP",
+    "notify_party_address": "383 PORT ACCESS ROAD",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS453N",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CY",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "19 JUN 2026",
+    "eta": "03 JUL 2026",
+    "container_number": "CMAU3838321",
+    "container_type": "45' HIGH CUBE",
+    "seal_number": "A422E003",
+    "commodity": "CLOTHING AND ACCESSORIES",
+    "packages": "472 BOXES",
+    "gross_weight_kg": "16,447.25",
+    "measurement": "50.132 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU3838321",
+        "seal_number": "A422E003",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "472",
+          "type": "BOXES",
+          "description": "472 BOXES"
+        },
+        "gross_weight_kg": "16,447.25",
+        "net_weight_kg": "14,021.89",
+        "measurement": "50.132 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNMGKX964647874",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "CMAU3838321",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "A422E003",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "472",
+        "type": "BOXES",
+        "description": "472 BOXES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "16,447.25",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "50.132 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "UNITED GROUP INC\n340 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "PACIFIC COMMERCE S.A.\n778 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "TRANS COMMERCE CORP\n383 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        365.1,
+        201.42,
+        34.02
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        376.89,
+        365.1,
+        187.2,
+        34.02
+      ],
+      "value": "CS453N",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        115.67,
+        399.12,
+        184.09,
+        34.02
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        378.22,
+        399.12,
+        185.87,
+        34.02
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        433.13,
+        194.75,
+        34.02
+      ],
+      "value": "NINGBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        384.89,
+        433.13,
+        179.2,
+        34.02
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        467.15,
+        184.99,
+        34.02
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        377.34,
+        467.15,
+        186.75,
+        34.02
+      ],
+      "value": "03 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        153.46,
+        509.67,
+        146.31,
+        28.35
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        381.77,
+        509.67,
+        182.32,
+        28.35
+      ],
+      "value": "CFS/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        77.45,
+        538.02,
+        222.31,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        358.68,
+        538.02,
+        205.42,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        135.67,
+        566.36,
+        164.09,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

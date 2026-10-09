@@ -1,0 +1,204 @@
+{
+  "invoice_number": "INV-2026-00231",
+  "filename": "inv_cmacgm_0231_CMAUXUMM908688581.pdf",
+  "style": "TradingInvoiceRenderer",
+  "bl_id": 231,
+  "fields": {
+    "invoice_number": "INV-2026-00231",
+    "invoice_date": "17 APR 2026",
+    "lc_reference": "LC/DBS/0231/2026",
+    "bl_reference": "CMAUXUMM908688581",
+    "seller_name": "PACIFIC TRADING CORP",
+    "buyer_name": "FIRST COMMERCE AG",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE54W",
+    "port_of_loading": "TOKYO, JAPAN",
+    "port_of_discharge": "LONG BEACH, USA",
+    "goods_description": "MECHANICAL APPARATUS AND MACHINERY",
+    "hs_code": "8428.90",
+    "quantity": 466,
+    "package_unit": "BOXES",
+    "gross_weight_kg": "9,378.91",
+    "unit_price": 520.51,
+    "currency": "USD",
+    "total_amount": 242557.66,
+    "incoterm": "EXW",
+    "payment_terms": "AT SIGHT"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        11.34,
+        170.08,
+        68.03
+      ],
+      "value": "INV-2026-00231",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        65.2,
+        538.58,
+        14.17
+      ],
+      "value": "CMAUXUMM908688581",
+      "page": 1
+    },
+    {
+      "field": "seller_name",
+      "bbox": [
+        28.35,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "PACIFIC TRADING CORP\n275 HARBOR ROAD\nTOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "buyer_name",
+      "bbox": [
+        297.64,
+        87.87,
+        269.29,
+        73.7
+      ],
+      "value": "FIRST COMMERCE AG\n690 MAIN BOULEVARD\nLONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "AE54W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "TOKYO, JAPAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        165.83,
+        134.65,
+        31.18
+      ],
+      "value": "LONG BEACH, USA",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        201.26,
+        179.53,
+        28.35
+      ],
+      "value": "CMAUXUMM908688581",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        252.28,
+        155.91,
+        45.35
+      ],
+      "value": "MECHANICAL APPARATUS AND MACHINERY",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        240.94,
+        252.28,
+        62.36,
+        45.35
+      ],
+      "value": "466",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        365.67,
+        252.28,
+        70.87,
+        45.35
+      ],
+      "value": "USD 520.51",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        436.54,
+        252.28,
+        73.7,
+        45.35
+      ],
+      "value": "USD 242,557.66",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        351.5,
+        303.31,
+        215.43,
+        51.02
+      ],
+      "value": "USD 242,557.66",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        351.5,
+        337.32,
+        71.81,
+        17.01
+      ],
+      "value": "USD",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "INDUSTRIAL MACHINERY AND EQUIPMENT",
+      "actual": "MECHANICAL APPARATUS AND MACHINERY"
+    }
+  ]
+}

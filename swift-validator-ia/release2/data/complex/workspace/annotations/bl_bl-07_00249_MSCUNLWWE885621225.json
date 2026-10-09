@@ -1,0 +1,417 @@
+{
+  "id": 249,
+  "filename": "bl_bl-07_00249_MSCUNLWWE885621225.pdf",
+  "layout_id": "BL-07",
+  "bl_number": "MSCUNLWWE885621225",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLWWE885621225",
+    "shipper_name": "APEX SUPPLY CHAIN PLC",
+    "shipper_address": "954 HARBOR ROAD",
+    "consignee_name": "DELTA ENTERPRISES BV",
+    "consignee_address": "15 INDUSTRIAL AVENUE",
+    "notify_party_name": "TRANS PARTNERS CO.",
+    "notify_party_address": "937 TRADE PARK",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE38S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CFS",
+    "etd": "26 JUN 2026",
+    "eta": "22 JUL 2026",
+    "container_number": "CMAU5786464",
+    "container_type": "20'OT",
+    "seal_number": "GC21ABAF",
+    "commodity": "COPPER AND COPPER PRODUCTS",
+    "packages": "398 PACKAGES",
+    "gross_weight_kg": "43,442.43",
+    "measurement": "59.263 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU5786464",
+        "seal_number": "GC21ABAF",
+        "container_type": "20'OT",
+        "commodity": "COPPER AND COPPER PRODUCTS",
+        "packages": {
+          "count": "398",
+          "type": "PACKAGES",
+          "description": "398 PACKAGES"
+        },
+        "gross_weight_kg": "21,051.07",
+        "net_weight_kg": "19,009.36",
+        "measurement": "31.548 CBM"
+      },
+      {
+        "container_number": "MAEU3149454",
+        "seal_number": "21CDAF0H",
+        "container_type": "40' FLAT RACK",
+        "commodity": "GLASS AND GLASSWARE",
+        "packages": {
+          "count": "467",
+          "type": "PALLETS",
+          "description": "467 PALLETS"
+        },
+        "gross_weight_kg": "22,391.36",
+        "net_weight_kg": "19,648.85",
+        "measurement": "27.715 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT",
+    "issue_date": "07 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        91.62,
+        89.29,
+        261.5,
+        25.51
+      ],
+      "value": "MSCUNLWWE885621225",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        41.1,
+        148.82,
+        130.75,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        171.85,
+        148.82,
+        130.75,
+        24.09
+      ],
+      "value": "AE38S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        302.6,
+        148.82,
+        130.75,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        433.35,
+        148.82,
+        130.75,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        41.1,
+        182.83,
+        130.75,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        171.85,
+        182.83,
+        130.75,
+        24.09
+      ],
+      "value": "ANTWERP CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        302.6,
+        182.83,
+        130.75,
+        24.09
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        433.35,
+        182.83,
+        130.75,
+        24.09
+      ],
+      "value": "22 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        41.1,
+        225.35,
+        258.94,
+        12.76
+      ],
+      "value": "CMAU5786464",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        74.45,
+        243.21,
+        116.53,
+        6.8
+      ],
+      "value": "GC21ABAF",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        74.45,
+        252.28,
+        116.53,
+        6.8
+      ],
+      "value": "20'OT",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        74.45,
+        261.35,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "398",
+        "type": "PACKAGES",
+        "description": "398 PACKAGES"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        74.45,
+        270.43,
+        116.53,
+        6.8
+      ],
+      "value": "21,051.07",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        74.45,
+        279.5,
+        116.53,
+        6.8
+      ],
+      "value": "31.548 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        183.52,
+        243.0,
+        103.58,
+        31.96
+      ],
+      "value": "COPPER AND COPPER PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        305.15,
+        225.35,
+        258.94,
+        12.76
+      ],
+      "value": "MAEU3149454",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        338.5,
+        243.21,
+        116.53,
+        6.8
+      ],
+      "value": "21CDAF0H",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        338.5,
+        252.28,
+        116.53,
+        6.8
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        338.5,
+        261.35,
+        116.53,
+        6.8
+      ],
+      "value": {
+        "count": "467",
+        "type": "PALLETS",
+        "description": "467 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        338.5,
+        270.43,
+        116.53,
+        6.8
+      ],
+      "value": "22,391.36",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        338.5,
+        279.5,
+        116.53,
+        6.8
+      ],
+      "value": "27.715 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        447.57,
+        243.0,
+        103.58,
+        31.96
+      ],
+      "value": "GLASS AND GLASSWARE",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        41.1,
+        299.91,
+        522.99,
+        55.28
+      ],
+      "value": "APEX SUPPLY CHAIN PLC\n954 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        41.1,
+        355.18,
+        522.99,
+        55.28
+      ],
+      "value": "DELTA ENTERPRISES BV\n15 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        41.1,
+        410.46,
+        522.99,
+        55.28
+      ],
+      "value": "TRANS PARTNERS CO.\n937 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        41.1,
+        491.24,
+        130.75,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        171.85,
+        491.24,
+        130.75,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        302.6,
+        491.24,
+        130.75,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        433.35,
+        491.24,
+        130.75,
+        18.43
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        41.1,
+        519.59,
+        130.75,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

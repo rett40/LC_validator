@@ -1,0 +1,409 @@
+{
+  "id": 343,
+  "filename": "bl_bl-09_00343_MSCUNJSEB742331774.pdf",
+  "layout_id": "BL-09",
+  "bl_number": "MSCUNJSEB742331774",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNJSEB742331774",
+    "shipper_name": "UNITED LOGISTICS BV",
+    "shipper_address": "153 MAIN STREET",
+    "consignee_name": "TRANS LOGISTICS GMBH",
+    "consignee_address": "411 HARBOR ROAD",
+    "notify_party_name": "DELTA SUPPLY CHAIN PLC",
+    "notify_party_address": "749 COMMERCE BOULEVARD",
+    "vessel": "OOCL HONG KONG",
+    "voyage": "0750S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "place_of_receipt": "COLOMBO CY",
+    "place_of_delivery": "PIRAEUS CY",
+    "etd": "13 JUN 2026",
+    "eta": "15 JUL 2026",
+    "container_number": "TRHU4285618",
+    "container_type": "40' FLAT RACK",
+    "seal_number": "CCC5E090",
+    "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+    "packages": "192 PALLETS",
+    "gross_weight_kg": "33,145.15",
+    "measurement": "55.734 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU4285618",
+        "seal_number": "CCC5E090",
+        "container_type": "40' FLAT RACK",
+        "commodity": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+        "packages": {
+          "count": "192",
+          "type": "PALLETS",
+          "description": "192 PALLETS"
+        },
+        "gross_weight_kg": "13,089.23",
+        "net_weight_kg": "10,991.82",
+        "measurement": "31.460 CBM"
+      },
+      {
+        "container_number": "EISU3541371",
+        "seal_number": "3BGE3CG0",
+        "container_type": "20'FR",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "284",
+          "type": "CARTONS",
+          "description": "284 CARTONS"
+        },
+        "gross_weight_kg": "20,055.92",
+        "net_weight_kg": "17,442.13",
+        "measurement": "24.274 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "12 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        328.46,
+        25.51,
+        245.55,
+        70.87
+      ],
+      "value": "MSCUNJSEB742331774",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "UNITED LOGISTICS BV\n153 MAIN STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        210.24,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "TRANS LOGISTICS GMBH\n411 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        392.13,
+        123.31,
+        181.89,
+        79.37
+      ],
+      "value": "DELTA SUPPLY CHAIN PLC\n749 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "OOCL HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        210.24,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "0750S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        392.13,
+        228.19,
+        181.89,
+        24.09
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        210.24,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "COLOMBO CY",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        392.13,
+        262.2,
+        181.89,
+        24.09
+      ],
+      "value": "PIRAEUS CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "13 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        210.24,
+        296.22,
+        181.89,
+        24.09
+      ],
+      "value": "15 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        351.5,
+        92.76,
+        36.85
+      ],
+      "value": "TRHU4285618",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "CCC5E090",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        351.5,
+        43.65,
+        36.85
+      ],
+      "value": "40' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        351.5,
+        136.42,
+        36.85
+      ],
+      "value": "AGRICULTURAL PRODUCTS AND FOODSTUFFS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        351.5,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '192', 'type': 'PALLETS', 'description': '192 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "13,089.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        351.5,
+        81.85,
+        36.85
+      ],
+      "value": "31.460 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        388.35,
+        92.76,
+        36.85
+      ],
+      "value": "EISU3541371",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        121.11,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "3BGE3CG0",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        175.68,
+        388.35,
+        43.65,
+        36.85
+      ],
+      "value": "20'FR",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        219.33,
+        388.35,
+        136.42,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        355.75,
+        388.35,
+        54.57,
+        36.85
+      ],
+      "value": "{'count': '284', 'type': 'CARTONS', 'description': '284 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        410.31,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "20,055.92",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        492.17,
+        388.35,
+        81.85,
+        36.85
+      ],
+      "value": "24.274 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        210.24,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        392.13,
+        450.71,
+        181.89,
+        18.43
+      ],
+      "value": "12 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        210.24,
+        479.06,
+        181.89,
+        18.43
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

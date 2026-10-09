@@ -1,0 +1,442 @@
+{
+  "id": 688,
+  "filename": "bl_bl-18_00688_MSCUNUVPG209854958.pdf",
+  "layout_id": "BL-18",
+  "bl_number": "MSCUNUVPG209854958",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNUVPG209854958",
+    "shipper_name": "CENTRAL LOGISTICS BV",
+    "shipper_address": "394 HARBOR ROAD",
+    "consignee_name": "ATLANTIC TRADING LTD",
+    "consignee_address": "889 TRADE PARK",
+    "notify_party_name": "ATLANTIC ENTERPRISES GMBH",
+    "notify_party_address": "799 MARKET STREET",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-634",
+    "port_of_loading": "HONG KONG",
+    "port_of_discharge": "NEW YORK, USA",
+    "place_of_receipt": "HONG KONG CFS",
+    "place_of_delivery": "NEW YORK CY",
+    "etd": "26 JUN 2026",
+    "eta": "13 JUL 2026",
+    "container_number": "MAEU3687977",
+    "container_type": "40'RF",
+    "seal_number": "71DHDB44",
+    "commodity": "BEVERAGES AND SPIRITS",
+    "packages": "28 DRUMS",
+    "gross_weight_kg": "43,142.50",
+    "measurement": "69.471 CBM",
+    "containers": [
+      {
+        "container_number": "MAEU3687977",
+        "seal_number": "71DHDB44",
+        "container_type": "40'RF",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "28",
+          "type": "DRUMS",
+          "description": "28 DRUMS"
+        },
+        "gross_weight_kg": "16,003.23",
+        "net_weight_kg": "12,497.72",
+        "measurement": "32.685 CBM"
+      },
+      {
+        "container_number": "MAEU0014457",
+        "seal_number": "F800B19D",
+        "container_type": "40' REEFER",
+        "commodity": "BEVERAGES AND SPIRITS",
+        "packages": {
+          "count": "466",
+          "type": "CARTONS",
+          "description": "466 CARTONS"
+        },
+        "gross_weight_kg": "27,139.27",
+        "net_weight_kg": "24,242.83",
+        "measurement": "36.786 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "09 MAY 2026",
+    "issue_place": "SINGAPORE",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        331.65,
+        32.6,
+        242.36,
+        70.87
+      ],
+      "value": "MSCUNUVPG209854958",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        127.56,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU3687977",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "71DHDB44",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        127.56,
+        43.09,
+        36.85
+      ],
+      "value": "40'RF",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        127.56,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        127.56,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '28', 'type': 'DRUMS', 'description': '28 DRUMS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "16,003.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        127.56,
+        80.79,
+        36.85
+      ],
+      "value": "32.685 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        164.41,
+        91.56,
+        36.85
+      ],
+      "value": "MAEU0014457",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        126.99,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "F800B19D",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        180.85,
+        164.41,
+        43.09,
+        36.85
+      ],
+      "value": "40' REEFER",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        223.94,
+        164.41,
+        134.65,
+        36.85
+      ],
+      "value": "BEVERAGES AND SPIRITS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        358.58,
+        164.41,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '466', 'type': 'CARTONS', 'description': '466 CARTONS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        412.44,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "27,139.27",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        493.23,
+        164.41,
+        80.79,
+        36.85
+      ],
+      "value": "36.786 CBM",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "394 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "CENTRAL LOGISTICS BV\n394 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        229.61,
+        269.29,
+        70.87
+      ],
+      "value": "889 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        304.72,
+        209.76,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC TRADING LTD\n889 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        320.31,
+        269.29,
+        70.87
+      ],
+      "value": "799 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        300.47,
+        269.29,
+        90.71
+      ],
+      "value": "ATLANTIC ENTERPRISES GMBH\n799 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        98.35,
+        490.39,
+        206.38,
+        34.02
+      ],
+      "value": "EVER GIVEN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        381.85,
+        490.39,
+        192.16,
+        34.02
+      ],
+      "value": "E-634",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        89.88,
+        524.41,
+        214.84,
+        34.02
+      ],
+      "value": "HONG KONG",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        402.74,
+        524.41,
+        171.28,
+        34.02
+      ],
+      "value": "NEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        105.01,
+        558.43,
+        199.72,
+        34.02
+      ],
+      "value": "HONG KONG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        389.85,
+        558.43,
+        184.16,
+        34.02
+      ],
+      "value": "NEW YORK CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        57.88,
+        592.44,
+        246.84,
+        34.02
+      ],
+      "value": "26 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        368.96,
+        592.44,
+        205.05,
+        34.02
+      ],
+      "value": "13 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        76.99,
+        634.96,
+        227.73,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        369.41,
+        634.96,
+        204.6,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        95.23,
+        663.31,
+        209.5,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        369.41,
+        663.31,
+        204.6,
+        28.35
+      ],
+      "value": "SINGAPORE",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        113.9,
+        691.65,
+        190.83,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

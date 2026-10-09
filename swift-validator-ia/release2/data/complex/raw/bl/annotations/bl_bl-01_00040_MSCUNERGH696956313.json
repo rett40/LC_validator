@@ -1,0 +1,417 @@
+{
+  "id": 40,
+  "filename": "bl_bl-01_00040_MSCUNERGH696956313.pdf",
+  "layout_id": "BL-01",
+  "bl_number": "MSCUNERGH696956313",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNERGH696956313",
+    "shipper_name": "INTERNATIONAL COMMERCE LTD",
+    "shipper_address": "364 MARKET STREET",
+    "consignee_name": "APEX INDUSTRIES AG",
+    "consignee_address": "383 PORT ACCESS ROAD",
+    "notify_party_name": "INTERNATIONAL TRADING INC",
+    "notify_party_address": "144 MARKET STREET",
+    "vessel": "COSCO SHIPPING UNIVERSE",
+    "voyage": "CS833S",
+    "port_of_loading": "NINGBO, CHINA",
+    "port_of_discharge": "HAMBURG, GERMANY",
+    "place_of_receipt": "NINGBO CFS",
+    "place_of_delivery": "HAMBURG CY",
+    "etd": "19 JUN 2026",
+    "eta": "12 JUL 2026",
+    "container_number": "TRHU2813709",
+    "container_type": "20' FLAT RACK",
+    "seal_number": "C80219A5",
+    "commodity": "FRESH FRUITS AND VEGETABLES",
+    "packages": "106 PALLETS",
+    "gross_weight_kg": "33,720.64",
+    "measurement": "104.707 CBM",
+    "containers": [
+      {
+        "container_number": "TRHU2813709",
+        "seal_number": "C80219A5",
+        "container_type": "20' FLAT RACK",
+        "commodity": "FRESH FRUITS AND VEGETABLES",
+        "packages": {
+          "count": "106",
+          "type": "PALLETS",
+          "description": "106 PALLETS"
+        },
+        "gross_weight_kg": "7,460.11",
+        "net_weight_kg": "4,238.41",
+        "measurement": "64.895 CBM"
+      },
+      {
+        "container_number": "CMAU7136856",
+        "seal_number": "H24EHGF6",
+        "container_type": "40' DRY / GP",
+        "commodity": "CLOTHING AND ACCESSORIES",
+        "packages": {
+          "count": "476",
+          "type": "CARTONS",
+          "description": "476 CARTONS"
+        },
+        "gross_weight_kg": "26,260.53",
+        "net_weight_kg": "22,698.37",
+        "measurement": "39.812 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT COLLECT AT DESTINATION",
+    "issue_date": "11 MAY 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        349.8,
+        73.13,
+        214.3,
+        31.75
+      ],
+      "value": "MSCUNERGH696956313",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        120.47,
+        535.75,
+        55.28
+      ],
+      "value": "INTERNATIONAL COMMERCE LTD\n364 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        28.35,
+        175.75,
+        535.75,
+        55.28
+      ],
+      "value": "APEX INDUSTRIES AG\n383 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        28.35,
+        231.02,
+        535.75,
+        55.28
+      ],
+      "value": "INTERNATIONAL TRADING INC\n144 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "COSCO SHIPPING UNIVERSE",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        206.93,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "CS833S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        385.51,
+        311.81,
+        178.58,
+        24.09
+      ],
+      "value": "NINGBO, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "HAMBURG, GERMANY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        206.93,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "NINGBO CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        385.51,
+        345.83,
+        178.58,
+        24.09
+      ],
+      "value": "HAMBURG CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "19 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        206.93,
+        379.84,
+        178.58,
+        24.09
+      ],
+      "value": "12 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "TRHU2813709",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        61.69,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "C80219A5",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        61.69,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "20' FLAT RACK",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        61.69,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "106",
+        "type": "PALLETS",
+        "description": "106 PALLETS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        61.69,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "7,460.11",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        61.69,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "64.895 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        174.27,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "FRESH FRUITS AND VEGETABLES",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        298.77,
+        422.36,
+        265.32,
+        12.76
+      ],
+      "value": "CMAU7136856",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        332.12,
+        440.22,
+        119.4,
+        6.8
+      ],
+      "value": "H24EHGF6",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        332.12,
+        449.29,
+        119.4,
+        6.8
+      ],
+      "value": "40' DRY / GP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        332.12,
+        458.36,
+        119.4,
+        6.8
+      ],
+      "value": {
+        "count": "476",
+        "type": "CARTONS",
+        "description": "476 CARTONS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        332.12,
+        467.43,
+        119.4,
+        6.8
+      ],
+      "value": "26,260.53",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        332.12,
+        476.5,
+        119.4,
+        6.8
+      ],
+      "value": "39.812 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        444.7,
+        440.01,
+        106.13,
+        31.96
+      ],
+      "value": "CLOTHING AND ACCESSORIES",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "FREIGHT COLLECT AT DESTINATION",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        206.93,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        385.51,
+        506.83,
+        178.58,
+        18.43
+      ],
+      "value": "11 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        206.93,
+        535.18,
+        178.58,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

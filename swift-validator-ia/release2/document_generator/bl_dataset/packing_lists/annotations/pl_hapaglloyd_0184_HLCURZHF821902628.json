@@ -1,0 +1,236 @@
+{
+  "pl_number": "PL-2026-00184",
+  "filename": "pl_hapaglloyd_0184_HLCURZHF821902628.pdf",
+  "style": "StandardPLRenderer",
+  "bl_id": 184,
+  "fields": {
+    "pl_number": "PL-2026-00184",
+    "pl_date": "16 APR 2026",
+    "inv_reference": "INV-2026-00184",
+    "bl_reference": "HLCURZHF821902628",
+    "exporter_name": "INTERNATIONAL ENTERPRISES CO.",
+    "consignee_name": "PACIFIC ENTERPRISES GMBH",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE61S",
+    "port_of_loading": "COLOMBO, SRI LANKA",
+    "port_of_discharge": "PIRAEUS, GREECE",
+    "container_number": "OOLU9757531",
+    "container_type": "20' REEFER",
+    "seal_number": "DB27HE41",
+    "goods_description": "RECHARGEABLE BATTERY CELLS",
+    "package_unit": "PALLETS",
+    "total_packages": 18,
+    "net_weight_kg": "7,262.57",
+    "gross_weight_kg": "8,662.00",
+    "total_cbm": 51.099
+  },
+  "bbox_annotations": [
+    {
+      "field": "pl_number",
+      "bbox": [
+        28.35,
+        73.7,
+        170.08,
+        17.01
+      ],
+      "value": "PL-2026-00184",
+      "page": 1
+    },
+    {
+      "field": "inv_reference",
+      "bbox": [
+        297.64,
+        73.7,
+        269.29,
+        17.01
+      ],
+      "value": "INV-2026-00184",
+      "page": 1
+    },
+    {
+      "field": "exporter_name",
+      "bbox": [
+        28.35,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "INTERNATIONAL ENTERPRISES CO.\n283 EXPORT ZONE\nCOLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "consignee_name",
+      "bbox": [
+        297.64,
+        99.21,
+        269.29,
+        70.87
+      ],
+      "value": "PACIFIC ENTERPRISES GMBH\n889 HARBOR ROAD\nPIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        162.99,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "AE61S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        297.64,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "COLOMBO, SRI LANKA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        432.28,
+        174.33,
+        134.65,
+        28.35
+      ],
+      "value": "PIRAEUS, GREECE",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "OOLU9757531",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        387.4,
+        206.93,
+        179.53,
+        28.35
+      ],
+      "value": "DB27HE41",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        28.35,
+        239.53,
+        179.53,
+        28.35
+      ],
+      "value": "HLCURZHF821902628",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        290.55,
+        136.06,
+        48.19
+      ],
+      "value": "RECHARGEABLE BATTERY CELLS",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        164.41,
+        290.55,
+        56.69,
+        48.19
+      ],
+      "value": "18",
+      "page": 1
+    },
+    {
+      "field": "net_weight_kg",
+      "bbox": [
+        357.17,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "7,262.57",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        425.2,
+        290.55,
+        68.03,
+        48.19
+      ],
+      "value": "8,662.00",
+      "page": 1
+    },
+    {
+      "field": "total_cbm",
+      "bbox": [
+        493.23,
+        290.55,
+        73.7,
+        48.19
+      ],
+      "value": "51.099",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        324.57,
+        344.41,
+        242.36,
+        62.36
+      ],
+      "value": "8,662.00",
+      "page": 1
+    },
+    {
+      "field": "total_packages",
+      "bbox": [
+        324.57,
+        389.76,
+        121.18,
+        17.01
+      ],
+      "value": "18",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "LITHIUM-ION BATTERIES",
+      "actual": "RECHARGEABLE BATTERY CELLS"
+    }
+  ]
+}

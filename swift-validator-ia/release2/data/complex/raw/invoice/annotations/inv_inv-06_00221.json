@@ -1,0 +1,248 @@
+{
+  "invoice_number": "INV-2026-00221",
+  "filename": "inv_inv-06_00221.pdf",
+  "layout_id": "INV-06",
+  "bl_id": 221,
+  "fields": {
+    "invoice_number": "INV-2026-00221",
+    "invoice_date": "09 MAY 2026",
+    "lc_reference": "LC/SCB/0221/2026",
+    "bl_reference": "MSCUNRGPC621952866",
+    "seller_name": "UNITED PARTNERS GMBH",
+    "buyer_name": "EURO INDUSTRIES LLC",
+    "vessel": "MSC OSCAR",
+    "voyage": "FE298N",
+    "port_of_loading": "BUSAN, SOUTH KOREA",
+    "port_of_discharge": "LE HAVRE, FRANCE",
+    "goods_description": "HOUSEHOLD APPLIANCES",
+    "hs_code": "8516.60",
+    "quantity": 134,
+    "package_unit": "BAGS",
+    "gross_weight_kg": "60,282.38",
+    "unit_price": 78.81,
+    "currency": "USD",
+    "total_amount": 10560.54,
+    "incoterm": "CFR",
+    "payment_terms": "DEFERRED PAYMENT 90 DAYS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        35.43,
+        84.19,
+        215.43,
+        27.78
+      ],
+      "value": "INV-2026-00221",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        104.63,
+        120.47,
+        110.33,
+        28.35
+      ],
+      "value": "09 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        322.56,
+        120.47,
+        71.93,
+        28.35
+      ],
+      "value": "LC/SCB/0221/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        468.49,
+        120.47,
+        105.53,
+        28.35
+      ],
+      "value": "MSCUNRGPC621952866",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        138.23,
+        148.82,
+        76.73,
+        28.35
+      ],
+      "value": "CFR",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        269.76,
+        148.82,
+        124.73,
+        28.35
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        444.49,
+        148.82,
+        129.53,
+        28.35
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        35.43,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "UNITED PARTNERS GMBH\nUNITED PARTNERS GMBH\n384 HARBOR ROAD\nSINGAPORE, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        304.72,
+        185.67,
+        269.29,
+        79.37
+      ],
+      "value": "EURO INDUSTRIES LLC\nEURO INDUSTRIES LLC\n460 HARBOR ROAD\nLE HAVRE, FRANCE",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        35.43,
+        289.13,
+        172.35,
+        42.52
+      ],
+      "value": "HOUSEHOLD APPLIANCES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        207.78,
+        289.13,
+        64.63,
+        42.52
+      ],
+      "value": "8516.60",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        272.41,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "134",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        326.27,
+        289.13,
+        53.86,
+        42.52
+      ],
+      "value": "BAGS",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        380.13,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "78.81 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        477.07,
+        289.13,
+        96.94,
+        42.52
+      ],
+      "value": "10560.54 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        452.83,
+        340.16,
+        121.18,
+        19.84
+      ],
+      "value": "60,282.38 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        452.83,
+        360.0,
+        121.18,
+        19.84
+      ],
+      "value": "10560.54 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        109.43,
+        388.35,
+        105.53,
+        25.51
+      ],
+      "value": "DEFERRED PAYMENT 90 DAYS",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        264.96,
+        388.35,
+        129.53,
+        25.51
+      ],
+      "value": "CFR",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "SINGAPORE",
+      "actual": "BUSAN, SOUTH KOREA"
+    }
+  ]
+}

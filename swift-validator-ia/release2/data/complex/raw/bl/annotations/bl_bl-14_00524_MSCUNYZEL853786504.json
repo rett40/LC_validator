@@ -1,0 +1,318 @@
+{
+  "id": 524,
+  "filename": "bl_bl-14_00524_MSCUNYZEL853786504.pdf",
+  "layout_id": "BL-14",
+  "bl_number": "MSCUNYZEL853786504",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNYZEL853786504",
+    "shipper_name": "INTERNATIONAL SUPPLY CHAIN LTD",
+    "shipper_address": "668 COMMERCE BOULEVARD",
+    "consignee_name": "PREMIER INDUSTRIES CORP",
+    "consignee_address": "973 MARKET STREET",
+    "notify_party_name": "UNITED SUPPLY CHAIN GMBH",
+    "notify_party_address": "34 INDUSTRIAL AVENUE",
+    "vessel": "MAERSK HARTFORD",
+    "voyage": "AE66W",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CY",
+    "etd": "24 JUN 2026",
+    "eta": "17 JUL 2026",
+    "container_number": "CMAU3021967",
+    "container_type": "20'DC",
+    "seal_number": "DG1E2365",
+    "commodity": "IRON AND STEEL SCRAP",
+    "packages": "90 PACKAGES",
+    "gross_weight_kg": "11,454.49",
+    "measurement": "30.151 CBM",
+    "containers": [
+      {
+        "container_number": "CMAU3021967",
+        "seal_number": "DG1E2365",
+        "container_type": "20'DC",
+        "commodity": "IRON AND STEEL SCRAP",
+        "packages": {
+          "count": "90",
+          "type": "PACKAGES",
+          "description": "90 PACKAGES"
+        },
+        "gross_weight_kg": "11,454.49",
+        "net_weight_kg": "8,117.22",
+        "measurement": "30.151 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID",
+    "issue_date": "03 MAY 2026",
+    "issue_place": "ROTTERDAM",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        348.38,
+        80.22,
+        208.63,
+        31.75
+      ],
+      "value": "MSCUNYZEL853786504",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        136.06,
+        88.67,
+        36.85
+      ],
+      "value": "CMAU3021967",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        124.1,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "DG1E2365",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        176.26,
+        136.06,
+        41.73,
+        36.85
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        217.98,
+        136.06,
+        130.39,
+        36.85
+      ],
+      "value": "IRON AND STEEL SCRAP",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        348.38,
+        136.06,
+        52.16,
+        36.85
+      ],
+      "value": "{'count': '90', 'type': 'PACKAGES', 'description': '90 PACKAGES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        400.54,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "11,454.49",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        478.77,
+        136.06,
+        78.24,
+        36.85
+      ],
+      "value": "30.151 CBM",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        35.43,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "MAERSK HARTFORD",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        209.29,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "AE66W",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        383.15,
+        191.34,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        35.43,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        209.29,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        383.15,
+        225.35,
+        173.86,
+        24.09
+      ],
+      "value": "GENOA CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        35.43,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "24 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        209.29,
+        259.37,
+        173.86,
+        24.09
+      ],
+      "value": "17 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        37.43,
+        307.56,
+        298.51,
+        94.96
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN LTD\n668 COMMERCE BOULEVARD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        339.95,
+        306.14,
+        215.06,
+        41.1
+      ],
+      "value": "PREMIER INDUSTRIES CORP\n973 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        339.95,
+        361.42,
+        215.06,
+        41.1
+      ],
+      "value": "UNITED SUPPLY CHAIN GMBH\n34 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        35.43,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        209.29,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        383.15,
+        420.94,
+        173.86,
+        18.43
+      ],
+      "value": "03 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        35.43,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "ROTTERDAM",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        209.29,
+        449.29,
+        173.86,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}

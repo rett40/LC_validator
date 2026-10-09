@@ -1,0 +1,322 @@
+{
+  "id": 400,
+  "filename": "bl_bl-10_00400_MSCUNMXNZ115600533.pdf",
+  "layout_id": "BL-10",
+  "bl_number": "MSCUNMXNZ115600533",
+  "n_containers": 1,
+  "fields": {
+    "bl_number": "MSCUNMXNZ115600533",
+    "shipper_name": "PREMIER INDUSTRIES AG",
+    "shipper_address": "610 PORT ACCESS ROAD",
+    "consignee_name": "APEX SOLUTIONS CO.",
+    "consignee_address": "120 HARBOR ROAD",
+    "notify_party_name": "INTERNATIONAL SUPPLY CHAIN AG",
+    "notify_party_address": "983 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE498S",
+    "port_of_loading": "KAOHSIUNG, TAIWAN",
+    "port_of_discharge": "GENOA, ITALY",
+    "place_of_receipt": "KAOHSIUNG CFS",
+    "place_of_delivery": "GENOA CFS",
+    "etd": "23 JUN 2026",
+    "eta": "23 JUL 2026",
+    "container_number": "EISU1444261",
+    "container_type": "20'DC",
+    "seal_number": "C11HG668",
+    "commodity": "LITHIUM-ION BATTERIES",
+    "packages": "442 DRUMS",
+    "gross_weight_kg": "6,483.96",
+    "measurement": "64.533 CBM",
+    "containers": [
+      {
+        "container_number": "EISU1444261",
+        "seal_number": "C11HG668",
+        "container_type": "20'DC",
+        "commodity": "LITHIUM-ION BATTERIES",
+        "packages": {
+          "count": "442",
+          "type": "DRUMS",
+          "description": "442 DRUMS"
+        },
+        "gross_weight_kg": "6,483.96",
+        "net_weight_kg": "3,613.68",
+        "measurement": "64.533 CBM"
+      }
+    ],
+    "freight_terms": "TO BE PREPAID",
+    "issue_date": "10 MAY 2026",
+    "issue_place": "SHANGHAI",
+    "number_of_originals": "TWO (2)",
+    "service_type": "CFS/CY"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        352.63,
+        80.22,
+        211.46,
+        31.75
+      ],
+      "value": "MSCUNMXNZ115600533",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        35.43,
+        123.31,
+        528.66,
+        12.76
+      ],
+      "value": "EISU1444261",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        68.78,
+        141.17,
+        237.9,
+        6.8
+      ],
+      "value": "C11HG668",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        68.78,
+        150.24,
+        237.9,
+        6.8
+      ],
+      "value": "20'DC",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        68.78,
+        159.31,
+        237.9,
+        6.8
+      ],
+      "value": {
+        "count": "442",
+        "type": "DRUMS",
+        "description": "442 DRUMS"
+      },
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        68.78,
+        168.38,
+        237.9,
+        6.8
+      ],
+      "value": "6,483.96",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        68.78,
+        177.45,
+        237.9,
+        6.8
+      ],
+      "value": "64.533 CBM",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        326.2,
+        140.95,
+        211.46,
+        31.96
+      ],
+      "value": "LITHIUM-ION BATTERIES",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        35.43,
+        190.77,
+        528.66,
+        55.28
+      ],
+      "value": "PREMIER INDUSTRIES AG\n610 PORT ACCESS ROAD",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        35.43,
+        246.05,
+        528.66,
+        55.28
+      ],
+      "value": "APEX SOLUTIONS CO.\n120 HARBOR ROAD",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        35.43,
+        301.32,
+        528.66,
+        55.28
+      ],
+      "value": "INTERNATIONAL SUPPLY CHAIN AG\n983 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        73.01,
+        365.1,
+        226.75,
+        34.02
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        325.33,
+        365.1,
+        238.76,
+        34.02
+      ],
+      "value": "FE498S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        121.0,
+        399.12,
+        178.76,
+        34.02
+      ],
+      "value": "KAOHSIUNG, TAIWAN",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        341.77,
+        399.12,
+        222.32,
+        34.02
+      ],
+      "value": "GENOA, ITALY",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        118.35,
+        433.13,
+        181.42,
+        34.02
+      ],
+      "value": "KAOHSIUNG CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        372.45,
+        433.13,
+        191.64,
+        34.02
+      ],
+      "value": "GENOA CFS",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        114.78,
+        467.15,
+        184.99,
+        34.02
+      ],
+      "value": "23 JUN 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        388.45,
+        467.15,
+        175.64,
+        34.02
+      ],
+      "value": "23 JUL 2026",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        126.34,
+        509.67,
+        173.43,
+        28.35
+      ],
+      "value": "TO BE PREPAID",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        367.56,
+        509.67,
+        196.54,
+        28.35
+      ],
+      "value": "CFS/CY",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        85.89,
+        538.02,
+        213.87,
+        28.35
+      ],
+      "value": "10 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        349.33,
+        538.02,
+        214.76,
+        28.35
+      ],
+      "value": "SHANGHAI",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        85.45,
+        566.36,
+        214.31,
+        28.35
+      ],
+      "value": "TWO (2)",
+      "page": 1
+    }
+  ]
+}

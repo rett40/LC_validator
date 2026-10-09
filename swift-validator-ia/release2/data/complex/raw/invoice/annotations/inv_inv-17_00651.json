@@ -1,0 +1,254 @@
+{
+  "invoice_number": "INV-2026-00651",
+  "filename": "inv_inv-17_00651.pdf",
+  "layout_id": "INV-17",
+  "bl_id": 651,
+  "fields": {
+    "invoice_number": "INV-2026-00651",
+    "invoice_date": "07 MAY 2026",
+    "lc_reference": "LC/HSBC/0651/2026",
+    "bl_reference": "MSCUNPEXR600245673",
+    "seller_name": "PACIFIC TRADING CO.",
+    "buyer_name": "DELTA LOGISTICS LLC",
+    "vessel": "EVER GIVEN",
+    "voyage": "E-909",
+    "port_of_loading": "MUMBAI, INDIA",
+    "port_of_discharge": "NEW YORK, USA",
+    "goods_description": "VEHICLE COMPONENTS AND SPARES",
+    "hs_code": "8708.99",
+    "quantity": 57,
+    "package_unit": "PACKAGES",
+    "gross_weight_kg": "22,568.71",
+    "unit_price": 111.64,
+    "currency": "USD",
+    "total_amount": 6363.48,
+    "incoterm": "EXW",
+    "payment_terms": "30 DAYS AFTER DATE OF BILL OF LADING"
+  },
+  "bbox_annotations": [
+    {
+      "field": "invoice_number",
+      "bbox": [
+        28.35,
+        77.1,
+        211.46,
+        27.78
+      ],
+      "value": "INV-2026-00651",
+      "page": 1
+    },
+    {
+      "field": "invoice_date",
+      "bbox": [
+        28.35,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "07 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "lc_reference",
+      "bbox": [
+        160.51,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "LC/HSBC/0651/2026",
+      "page": 1
+    },
+    {
+      "field": "bl_reference",
+      "bbox": [
+        292.68,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "MSCUNPEXR600245673",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        424.84,
+        130.39,
+        132.17,
+        18.43
+      ],
+      "value": "EXW",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "currency",
+      "bbox": [
+        160.51,
+        158.74,
+        132.17,
+        18.43
+      ],
+      "value": "USD",
+      "page": 1
+    },
+    {
+      "field": "seller",
+      "bbox": [
+        28.35,
+        192.76,
+        327.77,
+        79.37
+      ],
+      "value": "PACIFIC TRADING CO.\nPACIFIC TRADING CO.\n368 COMMERCE STREET\nHONG KONG, N/A",
+      "page": 1
+    },
+    {
+      "field": "buyer",
+      "bbox": [
+        356.12,
+        192.76,
+        200.89,
+        79.37
+      ],
+      "value": "DELTA LOGISTICS LLC\nDELTA LOGISTICS LLC\n245 EXPORT ZONE\nNEW YORK, USA",
+      "page": 1
+    },
+    {
+      "field": "goods_description",
+      "bbox": [
+        28.35,
+        303.31,
+        169.17,
+        42.52
+      ],
+      "value": "VEHICLE COMPONENTS AND SPARES",
+      "page": 1
+    },
+    {
+      "field": "hs_code",
+      "bbox": [
+        197.52,
+        303.31,
+        63.44,
+        42.52
+      ],
+      "value": "8708.99",
+      "page": 1
+    },
+    {
+      "field": "quantity",
+      "bbox": [
+        260.96,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "57",
+      "page": 1
+    },
+    {
+      "field": "package_unit",
+      "bbox": [
+        313.82,
+        303.31,
+        52.87,
+        42.52
+      ],
+      "value": "PACKAGES",
+      "page": 1
+    },
+    {
+      "field": "unit_price",
+      "bbox": [
+        366.69,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "111.64 USD",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        461.85,
+        303.31,
+        95.16,
+        42.52
+      ],
+      "value": "6363.48 USD",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        438.06,
+        360.0,
+        118.95,
+        19.84
+      ],
+      "value": "22,568.71 KG",
+      "page": 1
+    },
+    {
+      "field": "total_amount",
+      "bbox": [
+        438.06,
+        379.84,
+        118.95,
+        19.84
+      ],
+      "value": "6363.48 USD",
+      "page": 1
+    },
+    {
+      "field": "payment_terms",
+      "bbox": [
+        28.35,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "30 DAYS AFTER DATE OF BILL OF LADING",
+      "page": 1
+    },
+    {
+      "field": "incoterm",
+      "bbox": [
+        204.57,
+        418.11,
+        176.22,
+        15.59
+      ],
+      "value": "EXW",
+      "page": 1
+    }
+  ],
+  "is_consistent": false,
+  "discrepancies": [
+    {
+      "type": "description_mismatch",
+      "field": "goods_description",
+      "expected": "AUTOMOTIVE PARTS AND ACCESSORIES",
+      "actual": "VEHICLE COMPONENTS AND SPARES"
+    },
+    {
+      "type": "port_mismatch",
+      "field": "port_of_loading",
+      "expected": "HONG KONG",
+      "actual": "MUMBAI, INDIA"
+    }
+  ]
+}

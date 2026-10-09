@@ -1,0 +1,409 @@
+{
+  "id": 950,
+  "filename": "bl_bl-19_00950_MSCUNLWVD835028150.pdf",
+  "layout_id": "BL-19",
+  "bl_number": "MSCUNLWVD835028150",
+  "n_containers": 2,
+  "fields": {
+    "bl_number": "MSCUNLWVD835028150",
+    "shipper_name": "PACIFIC COMMERCE AG",
+    "shipper_address": "946 TRADE PARK",
+    "consignee_name": "GLOBAL SHIPPING AG",
+    "consignee_address": "110 MARKET STREET",
+    "notify_party_name": "CENTRAL TRADING CO.",
+    "notify_party_address": "701 INDUSTRIAL AVENUE",
+    "vessel": "MSC GULSUN",
+    "voyage": "FE869S",
+    "port_of_loading": "GUANGZHOU, CHINA",
+    "port_of_discharge": "ANTWERP, BELGIUM",
+    "place_of_receipt": "GUANGZHOU CFS",
+    "place_of_delivery": "ANTWERP CY",
+    "etd": "14 MAY 2026",
+    "eta": "28 MAY 2026",
+    "container_number": "OOLU9918235",
+    "container_type": "20' TANK",
+    "seal_number": "6D87F57B",
+    "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+    "packages": "165 PALLETS",
+    "gross_weight_kg": "44,055.24",
+    "measurement": "68.943 CBM",
+    "containers": [
+      {
+        "container_number": "OOLU9918235",
+        "seal_number": "6D87F57B",
+        "container_type": "20' TANK",
+        "commodity": "SEAFOOD AND FROZEN FISH PRODUCTS",
+        "packages": {
+          "count": "165",
+          "type": "PALLETS",
+          "description": "165 PALLETS"
+        },
+        "gross_weight_kg": "25,057.01",
+        "net_weight_kg": "22,357.84",
+        "measurement": "39.817 CBM"
+      },
+      {
+        "container_number": "CMAU1209596",
+        "seal_number": "5DA4D0D1",
+        "container_type": "45' HIGH CUBE",
+        "commodity": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+        "packages": {
+          "count": "373",
+          "type": "CRATES",
+          "description": "373 CRATES"
+        },
+        "gross_weight_kg": "18,998.23",
+        "net_weight_kg": "15,872.98",
+        "measurement": "29.126 CBM"
+      }
+    ],
+    "freight_terms": "FREIGHT PREPAID AT ORIGIN",
+    "issue_date": "23 APR 2026",
+    "issue_place": "HAMBURG",
+    "number_of_originals": "ONE (1)",
+    "service_type": "CY/CFS"
+  },
+  "bbox_annotations": [
+    {
+      "field": "bl_number",
+      "bbox": [
+        78.87,
+        79.37,
+        269.29,
+        25.51
+      ],
+      "value": "MSCUNLWVD835028150",
+      "page": 1
+    },
+    {
+      "field": "shipper",
+      "bbox": [
+        28.35,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "PACIFIC COMMERCE AG\n946 TRADE PARK",
+      "page": 1
+    },
+    {
+      "field": "consignee",
+      "bbox": [
+        207.87,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "GLOBAL SHIPPING AG\n110 MARKET STREET",
+      "page": 1
+    },
+    {
+      "field": "notify_party",
+      "bbox": [
+        387.4,
+        140.31,
+        179.53,
+        79.37
+      ],
+      "value": "CENTRAL TRADING CO.\n701 INDUSTRIAL AVENUE",
+      "page": 1
+    },
+    {
+      "field": "vessel",
+      "bbox": [
+        28.35,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "MSC GULSUN",
+      "page": 1
+    },
+    {
+      "field": "voyage",
+      "bbox": [
+        207.87,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "FE869S",
+      "page": 1
+    },
+    {
+      "field": "port_of_loading",
+      "bbox": [
+        387.4,
+        245.2,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU, CHINA",
+      "page": 1
+    },
+    {
+      "field": "port_of_discharge",
+      "bbox": [
+        28.35,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP, BELGIUM",
+      "page": 1
+    },
+    {
+      "field": "place_of_receipt",
+      "bbox": [
+        207.87,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "GUANGZHOU CFS",
+      "page": 1
+    },
+    {
+      "field": "place_of_delivery",
+      "bbox": [
+        387.4,
+        279.21,
+        179.53,
+        24.09
+      ],
+      "value": "ANTWERP CY",
+      "page": 1
+    },
+    {
+      "field": "etd",
+      "bbox": [
+        28.35,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "14 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "eta",
+      "bbox": [
+        207.87,
+        313.23,
+        179.53,
+        24.09
+      ],
+      "value": "28 MAY 2026",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        368.5,
+        91.56,
+        36.85
+      ],
+      "value": "OOLU9918235",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "6D87F57B",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        368.5,
+        43.09,
+        36.85
+      ],
+      "value": "20' TANK",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        368.5,
+        134.65,
+        36.85
+      ],
+      "value": "SEAFOOD AND FROZEN FISH PRODUCTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        368.5,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '165', 'type': 'PALLETS', 'description': '165 PALLETS'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "25,057.01",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        368.5,
+        80.79,
+        36.85
+      ],
+      "value": "39.817 CBM",
+      "page": 1
+    },
+    {
+      "field": "container_number",
+      "bbox": [
+        28.35,
+        405.35,
+        91.56,
+        36.85
+      ],
+      "value": "CMAU1209596",
+      "page": 1
+    },
+    {
+      "field": "seal_number",
+      "bbox": [
+        119.91,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "5DA4D0D1",
+      "page": 1
+    },
+    {
+      "field": "container_type",
+      "bbox": [
+        173.76,
+        405.35,
+        43.09,
+        36.85
+      ],
+      "value": "45' HIGH CUBE",
+      "page": 1
+    },
+    {
+      "field": "commodity",
+      "bbox": [
+        216.85,
+        405.35,
+        134.65,
+        36.85
+      ],
+      "value": "OPTICAL AND PHOTOGRAPHIC INSTRUMENTS",
+      "page": 1
+    },
+    {
+      "field": "packages",
+      "bbox": [
+        351.5,
+        405.35,
+        53.86,
+        36.85
+      ],
+      "value": "{'count': '373', 'type': 'CRATES', 'description': '373 CRATES'}",
+      "page": 1
+    },
+    {
+      "field": "gross_weight_kg",
+      "bbox": [
+        405.35,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "18,998.23",
+      "page": 1
+    },
+    {
+      "field": "measurement",
+      "bbox": [
+        486.14,
+        405.35,
+        80.79,
+        36.85
+      ],
+      "value": "29.126 CBM",
+      "page": 1
+    },
+    {
+      "field": "freight_terms",
+      "bbox": [
+        28.35,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "FREIGHT PREPAID AT ORIGIN",
+      "page": 1
+    },
+    {
+      "field": "service_type",
+      "bbox": [
+        207.87,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "CY/CFS",
+      "page": 1
+    },
+    {
+      "field": "issue_date",
+      "bbox": [
+        387.4,
+        467.72,
+        179.53,
+        18.43
+      ],
+      "value": "23 APR 2026",
+      "page": 1
+    },
+    {
+      "field": "issue_place",
+      "bbox": [
+        28.35,
+        496.06,
+        179.53,
+        18.43
+      ],
+      "value": "HAMBURG",
+      "page": 1
+    },
+    {
+      "field": "number_of_originals",
+      "bbox": [
+        207.87,
+        496.06,
+        179.53,
+        18.43
+      ],
+      "value": "ONE (1)",
+      "page": 1
+    }
+  ]
+}
